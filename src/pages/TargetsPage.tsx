@@ -141,7 +141,7 @@ export default function TargetsPage() {
               { label: 'ЗНИЩЕНО', val: stats.destroyed, color: 'text-green-400' },
               { label: 'КРИТИЧНИХ', val: stats.critical, color: 'text-red-500' },
             ].map(s => (
-              <div key={s.label} className="border border-white/10 p-6">
+              <div key={s.label} className="border border-white/10 rounded-2xl p-6">
                 <div className={`text-3xl md:text-4xl font-bold tracking-tighter mb-2 ${s.color}`}>{s.val}</div>
                 <div className="font-mono text-[9px] uppercase tracking-widest text-white/30">{s.label}</div>
               </div>
@@ -158,7 +158,7 @@ export default function TargetsPage() {
                 placeholder="Пошук за назвою, регіоном..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
-                className="w-full bg-white/5 border border-white/10 pl-9 pr-4 py-2.5 font-mono text-xs text-white/80 placeholder-white/20 focus:outline-none focus:border-white/30 tracking-wider"
+                className="w-full bg-white/5 border border-white/10 rounded-xl pl-9 pr-4 py-2.5 font-mono text-xs text-white/80 placeholder-white/20 focus:outline-none focus:border-white/30 tracking-wider"
               />
             </div>
 
@@ -166,7 +166,7 @@ export default function TargetsPage() {
             <select
               value={filterType}
               onChange={e => setFilterType(e.target.value)}
-              className="bg-white/5 border border-white/10 px-4 py-2.5 font-mono text-xs text-white/60 focus:outline-none focus:border-white/30 tracking-wider"
+              className="bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 font-mono text-xs text-white/60 focus:outline-none focus:border-white/30 tracking-wider"
             >
               <option value="all">ВСІ ТИПИ</option>
               {Object.entries(TYPE_LABELS).map(([k, v]) => (
@@ -178,7 +178,7 @@ export default function TargetsPage() {
             <select
               value={filterStatus}
               onChange={e => setFilterStatus(e.target.value as FilterStatus)}
-              className="bg-white/5 border border-white/10 px-4 py-2.5 font-mono text-xs text-white/60 focus:outline-none focus:border-white/30 tracking-wider"
+              className="bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 font-mono text-xs text-white/60 focus:outline-none focus:border-white/30 tracking-wider"
             >
               <option value="all">БУДЬ-ЯКИЙ СТАТУС</option>
               <option value="active">АКТИВНІ</option>
@@ -190,7 +190,7 @@ export default function TargetsPage() {
             <select
               value={filterPriority}
               onChange={e => setFilterPriority(e.target.value as FilterPriority)}
-              className="bg-white/5 border border-white/10 px-4 py-2.5 font-mono text-xs text-white/60 focus:outline-none focus:border-white/30 tracking-wider"
+              className="bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 font-mono text-xs text-white/60 focus:outline-none focus:border-white/30 tracking-wider"
             >
               <option value="all">БУДЬ-ЯКИЙ ПРІОРИТЕТ</option>
               <option value="critical">КРИТИЧНИЙ</option>
@@ -199,7 +199,7 @@ export default function TargetsPage() {
             </select>
 
             {/* View toggle */}
-            <div className="flex border border-white/10">
+            <div className="flex border border-white/10 rounded-xl overflow-hidden">
               <button
                 onClick={() => setView('list')}
                 className={`px-4 py-2.5 font-mono text-[10px] uppercase tracking-widest transition-colors ${view === 'list' ? 'bg-white/10 text-white' : 'text-white/30 hover:text-white/60'}`}
@@ -225,7 +225,7 @@ export default function TargetsPage() {
         {view === 'map' && (
           <div className="max-w-[1400px] mx-auto mb-16">
             <Suspense fallback={
-              <div className="w-full h-[600px] bg-white/5 border border-white/10 flex items-center justify-center">
+              <div className="w-full h-[600px] bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center">
                 <span className="font-mono text-[10px] uppercase tracking-widest text-white/20 animate-pulse">ЗАВАНТАЖЕННЯ МАПИ...</span>
               </div>
             }>
@@ -261,7 +261,7 @@ export default function TargetsPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: Math.min(i * 0.04, 0.4) }}
                     onClick={() => setSelected(selected?.id === t.id ? null : t)}
-                    className={`border cursor-pointer transition-all duration-300 ${selected?.id === t.id ? 'border-red-500/50 bg-red-500/5' : 'border-white/10 bg-white/[0.02] hover:border-white/20 hover:bg-white/5'}`}
+                    className={`border rounded-xl cursor-pointer transition-all duration-300 ${selected?.id === t.id ? 'border-red-500/50 bg-red-500/5' : 'border-white/10 bg-white/[0.02] hover:border-white/20 hover:bg-white/5'}`}
                   >
                     {/* Header */}
                     <div className="p-5 pb-4 flex flex-wrap justify-between gap-2">
@@ -277,7 +277,7 @@ export default function TargetsPage() {
                         </div>
                       </div>
                       <div className="flex flex-col items-end gap-1.5 shrink-0">
-                        <span className={`font-mono text-[9px] uppercase tracking-widest px-2 py-0.5 border ${pm.badge}`}>
+                        <span className={`font-mono text-[9px] uppercase tracking-widest px-2 py-0.5 border rounded-full ${pm.badge}`}>
                           {pm.label}
                         </span>
                         <span className={`font-mono text-[9px] uppercase tracking-widest flex items-center gap-1 ${sm.color}`}>
@@ -327,7 +327,7 @@ export default function TargetsPage() {
                         </div>
 
                         {t.strike_history && (
-                          <div className="border border-green-500/20 bg-green-500/5 p-3">
+                          <div className="border border-green-500/20 bg-green-500/5 rounded-xl p-3">
                             <div className="font-mono text-[9px] text-green-400 uppercase tracking-widest mb-1 flex items-center gap-1">
                               <CheckCircle className="w-2.5 h-2.5" /> ІСТОРІЯ УДАРІВ
                             </div>
