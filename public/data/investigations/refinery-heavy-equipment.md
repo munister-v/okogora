@@ -179,41 +179,35 @@
 
 Матеріал ґрунтується виключно на відкритих джерелах. Конфіденційних джерел не використовувалося.
 
-### Медіа та аналітика
+### Українські офіційні джерела
 
-- [Reuters — "Russia's Ryazan refinery halts processing after drone attack"](https://www.reuters.com/business/energy/) — лютий 2025, дані про зупинку CDU-6 та 18-денний простій
-- [Bloomberg — "Ukraine strikes Russian refineries in Ryazan, Novokuibyshevsk"](https://www.bloomberg.com/energy) — серпень 2025, удари по двох НПЗ одночасно
-- [AP News — "Russian refinery fires"](https://apnews.com/) — хронологія пожеж на об'єктах нафтопереробки
-- [S&P Global Commodity Insights (Platts)](https://www.spglobal.com/commodityinsights/) — аналітика стану нафтопереробної галузі РФ, оцінки потужностей
-- [Energy Intelligence](https://www.energyintel.com/) — галузеві звіти про стан downstream-сектору
+- [Генеральний штаб ЗСУ](https://www.facebook.com/GeneralStaff.ua) — щоденні зведення втрат ворога та оперативна обстановка
+- [ГУР МО України](https://gur.gov.ua/) — розвіддані щодо ударів по об'єктах інфраструктури РФ
+- [Повітряні Сили ЗСУ](https://www.facebook.com/kaborukr) — дані про ракетні та дронові удари
+- [Міноборони України](https://www.mil.gov.ua/) — офіційні заяви та підтвердження уражень
+- [РНБО України](https://rnbo.gov.ua/) — рішення та санкційні списки
 
-### Технічні стандарти та норми
+### Українські OSINT та аналітика
 
-- ASME Boiler and Pressure Vessel Code, Section VIII, Division 1 & Division 2 — вимоги до проектування та виготовлення посудин під тиском
-- ГОСТ Р 52630-2012 — «Сосуды и аппараты стальные сварные. Общие технические условия»
-- ГОСТ 34233 (серія) — норми розрахунку на міцність стаціонарних котлів та посудин під тиском
-- API 510, API 570 — стандарти інспекції та ремонту обладнання нафтопереробки
+- [DeepState](https://deepstatemap.live/) — інтерактивна карта фронту, моніторинг ситуації
+- [Мілітарний](https://mil.in.ua/) — аналітика оборонної промисловості та ВПК
+- [Defense Express](https://defence-ua.com/) — новини ОПК, аналітика озброєнь
+- [Texty.org.ua — Sanctions tracker](https://texty.org.ua/projects/107571/sanctions-tracker/) — трекер санкцій проти РФ
+- [InformNapalm](https://informnapalm.org/ua/) — волонтерська OSINT-спільнота
+- [Фронт інспекція](https://t.me/front_inspection) — моніторинг уражень по об'єктах РФ
 
-### Виробники та промислові дані
+### Міжнародні медіа — удари по НПЗ
 
-- [Волгограднефтемаш (ВНМ) — офіційний каталог продукції](http://www.vnm.ru/) — специфікації колон, реакторів, коксових камер
-- [Уралхиммаш (УХМ) — офіційний сайт](https://www.uralhimmash.ru/) — виробничі потужності, номенклатура
-- [ОМЗ / Ижорские заводы](https://omz-izhora.ru/) — реакторне обладнання, спецсталі
-- [Салаватнефтемаш](http://www.salavat-neftemash.ru/) — теплообмінне обладнання
+- [Reuters — "Russia's Ryazan refinery halts processing after drone attack"](https://www.reuters.com/business/energy/) — лютий 2025, CDU-6 зупинено
+- [Bloomberg — "Ukraine strikes Russian refineries in Ryazan, Novokuibyshevsk"](https://www.bloomberg.com/energy) — серпень 2025
+- [S&P Global Commodity Insights](https://www.spglobal.com/commodityinsights/) — оцінки потужностей downstream-сектору РФ
+- [AP News](https://apnews.com/) — хронологія пожеж на об'єктах нафтопереробки
 
-### Державні реєстри та OSINT-інструменти
+### OSINT-інструменти для верифікації
 
-- [Zakupki.gov.ru](https://zakupki.gov.ru/) — держзакупівлі РФ, ОКПД2 28.29.12
-- [MarineTraffic](https://www.marinetraffic.com/) — AIS-трекінг річкових барж
-- [VesselFinder](https://www.vesselfinder.com/) — відстеження суден
-- [ADSBexchange](https://www.adsbexchange.com/) — трекінг авіатрафіку
-- [FlightRadar24](https://www.flightradar24.com/) — відстеження рейсів
-- [ImportGenius](https://www.importgenius.com/) — митна статистика
-- [HeadHunter.ru](https://hh.ru/), [Rabota.ru](https://rabota.ru/) — моніторинг вакансій у промисловості
-
-### Санкційні та каталізаторні джерела
-
-- Реєстри санкцій: [OFAC SDN List](https://sanctionssearch.ofac.treas.gov/), [EU Sanctions Map](https://sanctionsmap.eu/)
-- Lloyd's Register, Bureau Veritas — дані про сертифікаційну інфраструктуру (до виходу з РФ)
-- BASF, Albemarle, Clariant, UOP/Honeywell — публічні звіти про припинення постачань каталізаторів до РФ
-- Honeywell, Emerson, Yokogawa, Siemens — публічні заяви про вихід з ринку DCS/ESD
+- [MarineTraffic](https://www.marinetraffic.com/) — AIS-трекінг барж з великогабаритним обладнанням
+- [ADSBexchange](https://www.adsbexchange.com/) — трекінг авіатрафіку між НПЗ і заводами
+- [FlightRadar24](https://www.flightradar24.com/) — корпоративні рейси після ударів
+- [Zakupki.gov.ru](https://zakupki.gov.ru/) — держзакупівлі РФ, ОКПД2 28.29.12 — замовлення на обладнання
+- [OFAC SDN List](https://sanctionssearch.ofac.treas.gov/) — санкційні списки США
+- [EU Sanctions Map](https://sanctionsmap.eu/) — санкційні списки ЄС
