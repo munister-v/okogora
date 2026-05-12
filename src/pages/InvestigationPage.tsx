@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, ArrowUpRight, BookOpen, CalendarDays, Database, FileText, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, BookOpen, CalendarDays, Database, FileText, RefreshCw, ShieldCheck } from 'lucide-react';
 import { InvestigationArticle } from '../types';
 import { setSeo } from '../lib/seo';
 
@@ -427,6 +427,12 @@ export default function InvestigationPage() {
                   <span className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 text-[#c9a227]" /> Опубліковано</span>
                   <span className="text-right">{formatArticleDate(item.publishedAt)}</span>
                 </div>
+                {item.updatedAt && item.updatedAt !== item.publishedAt && (
+                  <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
+                    <span className="inline-flex items-center gap-2"><RefreshCw className="h-4 w-4 text-[#c9a227]" /> Оновлено</span>
+                    <span className="text-right">{formatArticleDate(item.updatedAt)}</span>
+                  </div>
+                )}
                 <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
                   <span className="inline-flex items-center gap-2"><FileText className="h-4 w-4 text-[#c9a227]" /> Категорія</span>
                   <span>{category}</span>
@@ -608,7 +614,7 @@ export default function InvestigationPage() {
           text-align: left;
         }
         .article-body p {
-          margin: 0;
+          margin: 0 0 1.15rem 0;
           text-align: left;
           text-indent: 0;
         }
@@ -1146,7 +1152,7 @@ export default function InvestigationPage() {
             transform: none;
           }
           .article-body p {
-            margin-bottom: 0;
+            margin-bottom: 0.9rem;
           }
           .share-bar {
             margin-top: 2.2rem;

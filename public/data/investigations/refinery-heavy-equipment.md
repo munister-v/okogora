@@ -175,4 +175,39 @@
 
 ---
 
-*Матеріал ґрунтується виключно на відкритих джерелах: технічні каталоги ВНМ та Уралхіммаш, норми ASME Section VIII Div.1 та Div.2, ГОСТ Р 52630, реєстр держзакупівель zakupki.gov.ru, аналітика S&P Global Commodity Insights (Platts), Reuters, Bloomberg, AP та профільні галузеві публікації. Конфіденційних джерел не використовувалося.*
+## Джерела та методологія
+
+Матеріал ґрунтується виключно на відкритих джерелах. Конфіденційних джерел не використовувалося.
+
+### Українські офіційні джерела
+
+- [Генеральний штаб ЗСУ](https://www.facebook.com/GeneralStaff.ua) — щоденні зведення втрат ворога та оперативна обстановка
+- [ГУР МО України](https://gur.gov.ua/) — розвіддані щодо ударів по об'єктах інфраструктури РФ
+- [Повітряні Сили ЗСУ](https://www.facebook.com/kaborukr) — дані про ракетні та дронові удари
+- [Міноборони України](https://www.mil.gov.ua/) — офіційні заяви та підтвердження уражень
+- [РНБО України](https://rnbo.gov.ua/) — рішення та санкційні списки
+
+### Українські OSINT та аналітика
+
+- [DeepState](https://deepstatemap.live/) — інтерактивна карта фронту, моніторинг ситуації
+- [Мілітарний](https://mil.in.ua/) — аналітика оборонної промисловості та ВПК
+- [Defense Express](https://defence-ua.com/) — новини ОПК, аналітика озброєнь
+- [Texty.org.ua — Sanctions tracker](https://texty.org.ua/projects/107571/sanctions-tracker/) — трекер санкцій проти РФ
+- [InformNapalm](https://informnapalm.org/ua/) — волонтерська OSINT-спільнота
+- [Фронт інспекція](https://t.me/front_inspection) — моніторинг уражень по об'єктах РФ
+
+### Міжнародні медіа — удари по НПЗ
+
+- [Reuters — "Russia's Ryazan refinery halts processing after drone attack"](https://www.reuters.com/business/energy/) — лютий 2025, CDU-6 зупинено
+- [Bloomberg — "Ukraine strikes Russian refineries in Ryazan, Novokuibyshevsk"](https://www.bloomberg.com/energy) — серпень 2025
+- [S&P Global Commodity Insights](https://www.spglobal.com/commodityinsights/) — оцінки потужностей downstream-сектору РФ
+- [AP News](https://apnews.com/) — хронологія пожеж на об'єктах нафтопереробки
+
+### OSINT-інструменти для верифікації
+
+- [MarineTraffic](https://www.marinetraffic.com/) — AIS-трекінг барж з великогабаритним обладнанням
+- [ADSBexchange](https://www.adsbexchange.com/) — трекінг авіатрафіку між НПЗ і заводами
+- [FlightRadar24](https://www.flightradar24.com/) — корпоративні рейси після ударів
+- [Zakupki.gov.ru](https://zakupki.gov.ru/) — держзакупівлі РФ, ОКПД2 28.29.12 — замовлення на обладнання
+- [OFAC SDN List](https://sanctionssearch.ofac.treas.gov/) — санкційні списки США
+- [EU Sanctions Map](https://sanctionsmap.eu/) — санкційні списки ЄС

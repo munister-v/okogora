@@ -23,6 +23,7 @@ export interface InvestigationArticle {
   url?: string;
   tags: string[];
   publishedAt: string;
+  updatedAt?: string;
   status?: 'draft' | 'published';
   contentMarkdown?: string;
   contentPath?: string;
