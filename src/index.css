@@ -84,7 +84,7 @@ body {
     --chart-3: oklch(0.439 0 0);
     --chart-4: oklch(0.371 0 0);
     --chart-5: oklch(0.269 0 0);
-    --radius: 0.625rem;
+    --radius: 0.875rem;
     --sidebar: oklch(0.985 0 0);
     --sidebar-foreground: oklch(0.145 0 0);
     --sidebar-primary: oklch(0.205 0 0);
@@ -136,9 +136,12 @@ body {
   body {
     @apply bg-background text-foreground;
     font-weight: 520;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
   }
   p, li, a, button, input, textarea, select, label {
     font-weight: 500;
@@ -146,4 +149,26 @@ body {
   h1, h2, h3, h4, h5, h6, strong, b {
     font-weight: 700;
   }
+  img {
+    border-radius: 0.75rem;
+  }
+  a, button {
+    transition: all 0.2s ease;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 162, 39, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 162, 39, 0.4);
 }
