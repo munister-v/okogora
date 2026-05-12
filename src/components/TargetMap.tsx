@@ -88,7 +88,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
           width:${size}px;height:${size}px;
           background:${color}22;
           border:${isSelected ? '2px' : '1px'} solid ${color};
-          border-radius:4px;
+          border-radius:50%;
           display:flex;align-items:center;justify-content:center;
           font-size:${isSelected ? '16px' : '13px'};
           cursor:pointer;
@@ -104,7 +104,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
         .on('click', () => onSelect(t));
 
       marker.bindTooltip(
-        `<div style="font-family:monospace;font-size:11px;background:#111;color:#f4f4f4;border:1px solid ${color};padding:6px 10px;border-radius:2px">
+        `<div style="font-family:monospace;font-size:11px;background:#111;color:#f4f4f4;border:1px solid ${color};padding:6px 10px;border-radius:12px">
           <div style="color:${color};text-transform:uppercase;font-size:9px;letter-spacing:0.15em;margin-bottom:4px">${t.status.toUpperCase()}</div>
           <strong>${t.name}</strong><br/>
           <span style="color:#888;font-size:10px">${t.region}</span>
@@ -123,7 +123,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
   }, [selected]);
 
   return (
-    <div className="relative w-full h-[600px] border border-white/10">
+    <div className="relative w-full h-[600px] border border-white/10 rounded-2xl overflow-hidden">
       <div ref={mapRef} className="w-full h-full" />
       <style>{`
         .target-tooltip { background: transparent !important; border: none !important; box-shadow: none !important; }
@@ -131,7 +131,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
         .leaflet-tooltip-top:before { display: none; }
       `}</style>
       {/* Legend — hidden on mobile */}
-      <div className="absolute bottom-4 left-4 z-[400] bg-[#1c1c12]/90 border border-white/10 p-3 backdrop-blur-sm hidden md:block">
+      <div className="absolute bottom-4 left-4 z-[400] bg-[#1c1c12]/90 border border-white/10 rounded-xl p-3 backdrop-blur-sm hidden md:block">
         <div className="font-mono text-[9px] uppercase tracking-widest text-white/40 mb-2">Статус</div>
         {Object.entries(STATUS_COLORS).map(([s, c]) => (
           <div key={s} className="flex items-center gap-2 mb-1">
