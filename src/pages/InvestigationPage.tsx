@@ -608,7 +608,7 @@ export default function InvestigationPage() {
           text-align: left;
         }
         .article-body p {
-          margin: 0;
+          margin: 0 0 1.15rem 0;
           text-align: left;
           text-indent: 0;
         }
