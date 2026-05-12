@@ -937,7 +937,7 @@ export default function App() {
                     <article key={row.id} className="bg-[#2b2a1f] border border-[#c9a227]/20 rounded-2xl p-5 md:p-6">
                       <h3 className="text-xl font-extrabold leading-snug mb-4">
                         {row.name}
-                        {row.autoDiscovered ? <span className="ml-2 text-[10px] align-middle px-2 py-0.5 border border-emerald-400/40 text-emerald-300 font-mono uppercase tracking-widest">auto</span> : null}
+                        {row.autoDiscovered ? <span className="ml-2 text-[10px] align-middle px-2 py-0.5 border border-emerald-400/40 rounded-full text-emerald-300 font-mono uppercase tracking-widest">auto</span> : null}
                       </h3>
                       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-4 font-mono text-center">
                         <div className="border border-[#c9a227]/20 rounded-xl py-2">
@@ -967,7 +967,7 @@ export default function App() {
                       ) : (
                         <div className="space-y-3">
                           {row.items.slice(0, 3).map((item) => (
-                            <a key={item.id} href={item.url} target="_blank" rel="noreferrer" className="block border border-white/10 p-3 hover:border-[#c9a227]/45 transition-colors">
+                            <a key={item.id} href={item.url} target="_blank" rel="noreferrer" className="block border border-white/10 rounded-xl p-3 hover:border-[#c9a227]/45 transition-colors">
                               <div className="flex items-center justify-between mb-2 font-mono text-[9px] tracking-widest uppercase">
                                 <span className={item.origin === 'official' ? 'text-[#c9a227]' : 'text-white/50'}>{item.origin === 'official' ? 'Офіційний паб' : 'Моніторинг згадок'}</span>
                                 <span className="text-white/35">{formatRssDate(item.publishedAt)}</span>
@@ -978,7 +978,7 @@ export default function App() {
                                   <span className="px-2 py-0.5 border border-[#c9a227]/40 rounded-full text-[9px] font-mono uppercase tracking-widest text-[#c9a227]">Ураження</span>
                                 )}
                                 {item.isReorg && (
-                                  <span className="px-2 py-0.5 border border-sky-400/40 text-[9px] font-mono uppercase tracking-widest text-sky-300">Реорганізація</span>
+                                  <span className="px-2 py-0.5 border border-sky-400/40 rounded-full text-[9px] font-mono uppercase tracking-widest text-sky-300">Реорганізація</span>
                                 )}
                               </div>
                             </a>
@@ -1028,19 +1028,19 @@ export default function App() {
               </div>
 
               <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
-                <div className="border border-white/10 bg-[#0f1012] p-4">
+                <div className="border border-white/10 bg-[#0f1012] rounded-xl p-4">
                   <p className="font-mono text-[10px] uppercase tracking-widest text-white/35 mb-2">Областей у топі</p>
                   <p className="text-3xl font-bold tracking-tighter text-white">{dashboard.oblasts.length}</p>
                 </div>
-                <div className="border border-white/10 bg-[#0f1012] p-4">
+                <div className="border border-white/10 bg-[#0f1012] rounded-xl p-4">
                   <p className="font-mono text-[10px] uppercase tracking-widest text-white/35 mb-2">Середнє за добу</p>
                   <p className="text-3xl font-bold tracking-tighter text-white">{dashboard.days.length ? (dashboard.total / dashboard.days.length).toFixed(1) : '0.0'}</p>
                 </div>
-                <div className="border border-white/10 bg-[#0f1012] p-4">
+                <div className="border border-white/10 bg-[#0f1012] rounded-xl p-4">
                   <p className="font-mono text-[10px] uppercase tracking-widest text-white/35 mb-2">Пік за добу</p>
                   <p className="text-3xl font-bold tracking-tighter text-white">{dashboard.maxTrend}</p>
                 </div>
-                <div className="border border-white/10 bg-[#0f1012] p-4">
+                <div className="border border-white/10 bg-[#0f1012] rounded-xl p-4">
                   <p className="font-mono text-[10px] uppercase tracking-widest text-white/35 mb-2">Макс. клітинка</p>
                   <p className="text-3xl font-bold tracking-tighter text-white">{dashboard.maxCell}</p>
                 </div>
@@ -1296,7 +1296,7 @@ export default function App() {
                       );
                     })}
                   </div>
-                  <div className="mt-5 border border-white/10 bg-[#1c1c12]/70 p-4">
+                  <div className="mt-5 border border-white/10 bg-[#1c1c12]/70 rounded-xl p-4">
                     <p className="font-mono text-[10px] uppercase tracking-widest text-[#c9a227]/70 mb-2">останнє пояснення</p>
                     <p className="text-lg md:text-xl font-bold leading-snug text-white">{deepstateTable?.latest?.text || 'Очікуємо синхронізацію таблиці DeepState.'}</p>
                   </div>
@@ -1534,7 +1534,7 @@ export default function App() {
                             <span className="border border-[#c9a227]/45 rounded-2xl bg-[#0c0d10]/72 px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-[#f3d97f]">
                               {post.id}
                             </span>
-                            <span className="border border-white/15 bg-[#0c0d10]/58 px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-white/68">
+                            <span className="border border-white/15 bg-[#0c0d10]/58 rounded-2xl px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-white/68">
                               {post.date}
                             </span>
                           </div>
@@ -1572,7 +1572,7 @@ export default function App() {
                         <button
                           type="button"
                           onClick={() => shareLink(post.id, post.title, `${window.location.origin}${postUrl}`)}
-                          className="inline-flex min-h-11 items-center border border-white/10 px-3 py-2 font-mono text-[9px] uppercase tracking-widest text-white/48 hover:text-[#f3d97f] hover:border-[#c9a227]/45 transition-colors"
+                          className="inline-flex min-h-11 items-center border border-white/10 rounded-2xl px-3 py-2 font-mono text-[9px] uppercase tracking-widest text-white/48 hover:text-[#f3d97f] hover:border-[#c9a227]/45 transition-colors"
                         >
                           {sharedItemId === post.id ? 'Скопійовано' : 'Поділитися з друзями'}
                         </button>

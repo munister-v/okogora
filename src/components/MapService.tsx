@@ -33,7 +33,7 @@ type RssItem = {
 type InfrastructurePoint = {
   id: string;
   label: string;
-  kind: 'aviation' | 'naval';
+  kind: 'aviation' | 'naval' | 'airfield';
   position: [number, number];
   note: string;
 };
@@ -53,15 +53,84 @@ type RegionalStrike = StrikeRegion & {
 };
 
 const INFRASTRUCTURE_POINTS: InfrastructurePoint[] = [
-  { id: 'air-saratov', label: 'Саратовська область', kind: 'aviation', position: [51.55, 46.05], note: 'Публічно відомий регіон розміщення далекої авіації РФ. Маркер навмисно регіональний.' },
-  { id: 'air-ryazan', label: 'Рязанська область', kind: 'aviation', position: [54.62, 39.75], note: 'Регіон авіаційної інфраструктури РФ; без точного позначення обʼєкта.' },
-  { id: 'air-pskov', label: 'Псковська область', kind: 'aviation', position: [57.82, 28.35], note: 'Регіон військово-транспортної авіації РФ у відкритих джерелах.' },
-  { id: 'air-rostov', label: 'Ростовська область', kind: 'aviation', position: [47.45, 40.1], note: 'Прифронтовий регіон авіаційної інфраструктури РФ.' },
-  { id: 'air-krasnodar', label: 'Краснодарський край', kind: 'aviation', position: [45.2, 39.1], note: 'Регіон авіаційної інфраструктури РФ та південного логістичного контуру.' },
-  { id: 'air-crimea', label: 'Крим', kind: 'aviation', position: [45.25, 34.25], note: 'Окупований регіон з авіаційною інфраструктурою РФ; маркер узагальнений.' },
-  { id: 'air-chelyabinsk', label: 'Челябінська область', kind: 'aviation', position: [55.15, 61.4], note: 'Регіон авіаційної інфраструктури РФ у відкритих джерелах.' },
-  { id: 'air-murmansk', label: 'Мурманська область', kind: 'aviation', position: [68.95, 33.1], note: 'Північний регіон авіаційної та морської військової інфраструктури РФ.' },
-  { id: 'naval-black-sea', label: 'Чорноморський контур', kind: 'naval', position: [44.95, 36.2], note: 'Узагальнений маркер районів базування ЧФ РФ без деталізації причалів.' },
+  // ── Аеродроми РФ (відкриті дані Wikipedia / GlobalSecurity) ──
+  // Стратегічна авіація
+  { id: 'af-engels', label: 'Енгельс-2', kind: 'airfield', position: [51.43, 46.12], note: 'Авіабаза стратегічних бомбардувальників Ту-160 і Ту-95МС. 22-а гвардійська важка бомбардувальна авіадивізія.' },
+  { id: 'af-dyagilevo', label: 'Дягілево', kind: 'airfield', position: [54.64, 39.57], note: 'Навчальний центр далекої авіації. Ту-22М3, Ту-95МС, Іл-78 (танкери).' },
+  { id: 'af-ukrainka', label: 'Українка', kind: 'airfield', position: [51.15, 128.50], note: 'Авіабаза стратегічних бомбардувальників Ту-95МС на Далекому Сході.' },
+  { id: 'af-belaya', label: 'Бєлая', kind: 'airfield', position: [52.75, 103.60], note: 'Авіабаза далекої авіації, Ту-22М3. Іркутська область.' },
+  { id: 'af-shaykovka', label: 'Шайковка', kind: 'airfield', position: [54.23, 34.37], note: 'Авіабаза Ту-22М3. Калузька область. 52-й гвардійський ТБАП.' },
+  { id: 'af-soltsy', label: 'Солци-2', kind: 'airfield', position: [58.15, 30.33], note: 'Авіабаза Ту-22М3. Новгородська область. 840-й ТБАП.' },
+  { id: 'af-olenya', label: 'Оленья', kind: 'airfield', position: [68.15, 33.47], note: 'Авіабаза морської авіації Ту-22М3. Кольський півострів.' },
+  { id: 'af-mozdok', label: 'Моздок', kind: 'airfield', position: [43.72, 44.68], note: 'Авіабаза далекої авіації на Кавказі. Ту-22М3, Су-24.' },
+
+  // Тактична / фронтова авіація (ключові для конфлікту)
+  { id: 'af-millerovo', label: 'Міллерово', kind: 'airfield', position: [48.95, 40.30], note: 'Прифронтова авіабаза біля кордону з Україною. Су-30СМ, 31-й ВП.' },
+  { id: 'af-krymsk', label: 'Кримськ', kind: 'airfield', position: [44.97, 38.00], note: 'Авіабаза тактичної авіації. Краснодарський край. МіГ-29СМТ.' },
+  { id: 'af-primorsko', label: 'Приморсько-Ахтарськ', kind: 'airfield', position: [46.06, 38.23], note: 'Авіабаза штурмової авіації Су-25. Краснодарський край.' },
+  { id: 'af-kushchyovskaya', label: 'Кущовська', kind: 'airfield', position: [46.54, 39.55], note: 'Авіабаза тактичної авіації. Краснодарський край.' },
+  { id: 'af-korenovsk', label: 'Кореновськ', kind: 'airfield', position: [45.45, 39.42], note: 'Авіабаза вертольотів армійської авіації. Мі-28, Ка-52.' },
+  { id: 'af-yeysk', label: 'Єйськ', kind: 'airfield', position: [46.68, 38.21], note: 'Навчальна авіабаза морської авіації.' },
+  { id: 'af-rostov-north', label: 'Ростов-Північний', kind: 'airfield', position: [47.27, 39.64], note: 'Військова авіабаза, Ростовська область.' },
+  { id: 'af-taganrog', label: 'Таганрог-Центральний', kind: 'airfield', position: [47.25, 38.84], note: 'Авіабаза та авіазавод. Літаки ДРЛО А-50.' },
+  { id: 'af-voronezh', label: 'Воронеж-Малишево', kind: 'airfield', position: [51.62, 39.13], note: 'Авіабаза тактичної авіації. Су-34. Воронезька область.' },
+  { id: 'af-lipetsk', label: 'Ліпецьк', kind: 'airfield', position: [52.64, 39.45], note: 'Центр бойового застосування та перенавчання ВКС. Су-35, Су-57.' },
+  { id: 'af-kursk', label: 'Курськ-Східний', kind: 'airfield', position: [51.75, 36.30], note: 'Військова авіабаза, Курська область. Прифронтова зона.' },
+  { id: 'af-tikhoretsk', label: 'Тихорецьк', kind: 'airfield', position: [45.88, 40.11], note: 'Авіабаза на Кубані. Краснодарський край.' },
+  { id: 'af-khanskaya', label: 'Ханська', kind: 'airfield', position: [44.68, 40.04], note: 'Навчальний авіаційний центр, Адигея.' },
+  { id: 'af-marinovka', label: 'Маріновка', kind: 'airfield', position: [48.81, 43.26], note: 'Авіабаза тактичної авіації. Волгоградська область.' },
+  { id: 'af-buturlinovka', label: 'Бутурлинівка', kind: 'airfield', position: [50.85, 40.58], note: 'Авіабаза. Воронезька область. Су-24, Су-34.' },
+  { id: 'af-baltimore', label: 'Балтимор', kind: 'airfield', position: [47.25, 39.80], note: 'Авіабаза бомбардувальної авіації Су-34. Ростов.' },
+
+  // Крим (окупований)
+  { id: 'af-belbek', label: 'Бельбек', kind: 'airfield', position: [44.69, 33.57], note: 'Авіабаза біля Севастополя. Су-27, Су-30СМ. Окупований Крим.' },
+  { id: 'af-saky', label: 'Саки (Новофедорівка)', kind: 'airfield', position: [45.09, 33.60], note: 'Авіабаза морської авіації. Су-24, Су-30СМ. Вибух 09.08.2022.' },
+  { id: 'af-gvardeyskoye', label: 'Гвардійське', kind: 'airfield', position: [45.12, 33.98], note: 'Авіабаза в Криму. Бомбардувальна та штурмова авіація.' },
+  { id: 'af-dzhankoi', label: 'Джанкой', kind: 'airfield', position: [45.70, 34.42], note: 'Авіабаза та військовий вузол у Криму. Вертольоти.' },
+  { id: 'af-kirovske', label: 'Кіровське', kind: 'airfield', position: [45.17, 35.18], note: 'Авіабаза в Криму. Су-24.' },
+
+  // Центральний ВО
+  { id: 'af-kubinka', label: 'Кубинка', kind: 'airfield', position: [55.61, 36.65], note: 'Авіабаза «Стрижі» та «Руські Витязі». Демонстраційна ескадрилья.' },
+  { id: 'af-chkalovsky', label: 'Чкаловський', kind: 'airfield', position: [55.88, 38.06], note: 'Авіабаза військово-транспортної авіації. Іл-76. Москва.' },
+  { id: 'af-migalovo', label: 'Мігалово', kind: 'airfield', position: [56.83, 35.76], note: 'Авіабаза ВТА. Іл-76. Тверська область.' },
+  { id: 'af-ivanovo', label: 'Іваново-Північний', kind: 'airfield', position: [57.01, 40.94], note: 'Авіабаза ВТА. Іл-76. Івановська область.' },
+  { id: 'af-klin', label: 'Клін', kind: 'airfield', position: [56.37, 36.74], note: 'Авіабаза протиповітряної оборони. Московська область.' },
+  { id: 'af-khotilovo', label: 'Хотілово', kind: 'airfield', position: [57.66, 34.10], note: 'Авіабаза перехоплювачів МіГ-31. ППО Москви.' },
+  { id: 'af-klokovo', label: 'Клоково', kind: 'airfield', position: [54.24, 37.61], note: 'Авіабаза, Тульська область.' },
+  { id: 'af-torzhok', label: 'Торжок', kind: 'airfield', position: [57.04, 35.00], note: 'Центр бойового застосування армійської авіації. Ка-52, Мі-28.' },
+
+  // Західний ВО / Північно-Захід
+  { id: 'af-pskov', label: 'Псков (Кресті)', kind: 'airfield', position: [57.79, 28.40], note: 'Авіабаза ВДВ / ВТА. Іл-76. Псковська область.' },
+  { id: 'af-ostrov', label: 'Острів', kind: 'airfield', position: [57.30, 28.43], note: 'Авіабаза тактичної авіації. Псковська область.' },
+  { id: 'af-khrabrovo', label: 'Храброво', kind: 'airfield', position: [54.89, 20.59], note: 'Військова авіабаза. Калінінград.' },
+  { id: 'af-chernyakhovsk', label: 'Черняховськ', kind: 'airfield', position: [54.60, 21.80], note: 'Авіабаза морської авіації Балтфлоту. Су-24. Калінінград.' },
+  { id: 'af-levashovo', label: 'Левашово', kind: 'airfield', position: [60.09, 30.19], note: 'Авіабаза, Ленінградська область.' },
+  { id: 'af-pushkin', label: 'Пушкін', kind: 'airfield', position: [59.69, 30.34], note: 'Авіабаза. Ленінградська область.' },
+  { id: 'af-seshcha', label: 'Сєща', kind: 'airfield', position: [53.72, 33.34], note: 'Авіабаза Ту-22М3. Брянська область. Поблизу кордону з Україною.' },
+  { id: 'af-shatalovo', label: 'Шаталово', kind: 'airfield', position: [54.34, 32.47], note: 'Авіабаза. Смоленська область.' },
+
+  // Північ
+  { id: 'af-monchegorsk', label: 'Мончегорськ', kind: 'airfield', position: [67.99, 33.02], note: 'Авіабаза ППО/ПЛО. Кольський півострів.' },
+  { id: 'af-severomorsk1', label: 'Сєвероморськ-1', kind: 'airfield', position: [69.03, 33.42], note: 'Авіабаза Північного флоту. Мурманська область.' },
+  { id: 'af-severomorsk3', label: 'Сєвероморськ-3', kind: 'airfield', position: [68.87, 33.72], note: 'Авіабаза морської авіації. Протичовнова авіація.' },
+  { id: 'af-rogachyovo', label: 'Рогачово', kind: 'airfield', position: [71.62, 52.47], note: 'Авіабаза перехоплювачів на Новій Землі. МіГ-31.' },
+
+  // Урал / Сибір
+  { id: 'af-chelyabinsk', label: 'Шагол (Челябінськ)', kind: 'airfield', position: [55.30, 61.32], note: 'Авіабаза перехоплювачів. МіГ-31. Челябінська область.' },
+  { id: 'af-perm', label: 'Болшоє Савіно', kind: 'airfield', position: [57.91, 56.02], note: 'Авіабаза, Пермський край. МіГ-31.' },
+  { id: 'af-yekaterinburg', label: 'Кольцово (військ.)', kind: 'airfield', position: [56.75, 60.80], note: 'Військова частина авіабази Єкатеринбург.' },
+  { id: 'af-novosibirsk', label: 'Толмачово (військ.)', kind: 'airfield', position: [55.01, 82.65], note: 'Авіабаза, Новосибірська область.' },
+  { id: 'af-kansk', label: 'Канськ', kind: 'airfield', position: [56.28, 95.70], note: 'Авіабаза Ту-22М3, Красноярський край.' },
+
+  // Далекий Схід
+  { id: 'af-khabarovsk', label: 'Хабаровськ (Великий)', kind: 'airfield', position: [48.52, 135.17], note: 'Авіабаза Далекосхідного ВО.' },
+  { id: 'af-vladivostok', label: 'Кнєвичі (військ.)', kind: 'airfield', position: [43.40, 132.15], note: 'Авіабаза Тихоокеанського флоту.' },
+  { id: 'af-kamenny', label: 'Камʼяний Ручей', kind: 'airfield', position: [43.31, 133.85], note: 'Авіабаза морської авіації ТОФ. Ту-22М3.' },
+  { id: 'af-yelizovo', label: 'Єлізово', kind: 'airfield', position: [53.17, 158.45], note: 'Авіабаза перехоплювачів МіГ-31. Камчатка.' },
+  { id: 'af-anadyr', label: 'Анадир-Угольний', kind: 'airfield', position: [64.73, 177.47], note: 'Авіабаза арктичної групи. Чукотка.' },
+
+  // ── Морські контури ──
+  { id: 'naval-black-sea', label: 'Чорноморський контур', kind: 'naval', position: [44.95, 36.2], note: 'Узагальнений маркер районів базування ЧФ РФ.' },
   { id: 'naval-baltic-kaliningrad', label: 'Калінінградський контур', kind: 'naval', position: [54.75, 20.45], note: 'Узагальнений регіон Балтійського флоту РФ.' },
   { id: 'naval-baltic-leningrad', label: 'Ленінградський контур', kind: 'naval', position: [59.9, 29.75], note: 'Узагальнений регіон морської інфраструктури РФ у Фінській затоці.' },
   { id: 'naval-northern', label: 'Північний флот', kind: 'naval', position: [69.05, 33.2], note: 'Узагальнений регіон базування Північного флоту РФ.' },
@@ -313,16 +382,16 @@ export default function MapService() {
         </div>
         <button
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="flex items-center gap-2 bg-[#111111] text-white px-3 py-1 text-[9px] hover:bg-zinc-800 transition-colors font-semibold"
+          className="flex items-center gap-2 bg-[#111111] text-white px-4 py-1.5 rounded-full text-[9px] hover:bg-zinc-800 transition-colors font-semibold"
         >
           {isSidebarOpen ? <CloseIcon className="w-3 h-3" /> : <Menu className="w-3 h-3" />}
           {isSidebarOpen ? 'ПРИХОВАТИ ПАНЕЛЬ' : 'ПОКАЗАТИ ПАНЕЛЬ'}
         </button>
       </div>
 
-      <div className="relative w-full h-[520px] md:h-[800px] bg-[#0a0a0a] border border-[#111111]/20 overflow-hidden group shadow-2xl">
+      <div className="relative w-full h-[520px] md:h-[800px] bg-[#0a0a0a] border border-[#111111]/20 rounded-2xl overflow-hidden group shadow-2xl">
         <div className={`absolute top-4 md:top-6 left-4 md:left-6 z-[400] w-64 md:w-72 space-y-4 transition-all duration-700 ease-in-out ${isSidebarOpen ? 'translate-x-0 opacity-100' : '-translate-x-[120%] opacity-0 pointer-events-none'}`}>
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 p-5 shadow-2xl">
+          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
             <div className="flex items-center gap-2 mb-3 border-b border-[#f4f4f4]/10 pb-3">
               <Activity className="w-3 h-3 text-red-400" />
               <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Статус карти</span>
@@ -335,7 +404,7 @@ export default function MapService() {
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 p-5 shadow-2xl">
+          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
             <div className="flex items-center gap-2 mb-3">
               <RadioTower className="w-3 h-3 text-red-300" />
               <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Удари по РФ · 7 днів</span>
@@ -353,7 +422,7 @@ export default function MapService() {
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 p-5 shadow-2xl">
+          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
             <div className="flex items-center gap-2 mb-3">
               <Plane className="w-3 h-3 text-[#facc15]" />
               <Anchor className="w-3 h-3 text-sky-300" />
@@ -361,20 +430,20 @@ export default function MapService() {
             </div>
             <div className="space-y-2 font-mono text-[9px] text-white/60">
               <div className="flex items-center justify-between border-b border-white/5 pb-1">
-                <span>Авіаційні регіони</span>
-                <span className="text-[#facc15] font-bold">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'aviation').length}</span>
+                <span>Аеродроми РФ</span>
+                <span className="text-[#facc15] font-bold">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'airfield').length}</span>
               </div>
               <div className="flex items-center justify-between border-b border-white/5 pb-1">
                 <span>Морські контури</span>
                 <span className="text-sky-300 font-bold">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'naval').length}</span>
               </div>
               <p className="text-[8px] text-white/35 leading-relaxed">
-                Маркери поставлені на рівні регіону/контуру і не є координатами конкретних військових обʼєктів.
+                Координати аеродромів з відкритих джерел (Wikipedia, GlobalSecurity). Морські контури — узагальнені.
               </p>
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 p-5 shadow-2xl">
+          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
             <div className="flex items-center gap-2 mb-3">
               <MapIcon className="w-3 h-3 text-[#c9a227]" />
               <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Шар території</span>
@@ -392,7 +461,7 @@ export default function MapService() {
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 p-5 shadow-2xl">
+          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
             <div className="flex items-center gap-2 mb-3">
               <Ruler className="w-3 h-3 text-orange-400" />
               <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Дистанційна лінійка</span>
@@ -417,7 +486,7 @@ export default function MapService() {
           </div>
         </div>
 
-        <div className="absolute bottom-6 left-6 z-[400] bg-[#111111]/90 text-[#f4f4f4] p-5 font-mono border border-[#f4f4f4]/10 backdrop-blur-md pointer-events-none shadow-2xl">
+        <div className="absolute bottom-6 left-6 z-[400] bg-[#111111]/90 text-[#f4f4f4] p-5 font-mono border border-[#f4f4f4]/10 rounded-2xl backdrop-blur-md pointer-events-none shadow-2xl">
           <div className="flex items-center gap-3 mb-4 border-b border-[#f4f4f4]/10 pb-3">
             <div className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
             <span className="tracking-widest uppercase text-[10px] font-bold opacity-90">КООРДИНАТИ КУРСОРА</span>
@@ -485,31 +554,35 @@ export default function MapService() {
           />
 
           {INFRASTRUCTURE_POINTS.map((point) => {
-            const isAviation = point.kind === 'aviation';
-            const color = isAviation ? '#facc15' : '#38bdf8';
+            const isAirfield = point.kind === 'airfield';
+            const isNaval = point.kind === 'naval';
+            const color = isNaval ? '#38bdf8' : '#facc15';
+            const radius = isAirfield ? 5 : 7;
+            const kindLabel = isAirfield ? 'Аеродром' : isNaval ? 'Морський контур' : 'Авіаційний регіон';
+            const badge = isAirfield ? '✈ АЕРОДРОМ' : isNaval ? '⚓ ФЛОТ' : 'АВІА';
             return (
               <CircleMarker
                 key={point.id}
                 center={point.position}
-                radius={7}
+                radius={radius}
                 pathOptions={{
-                  color: '#ffffff',
-                  weight: 1.5,
+                  color: isAirfield ? color : '#ffffff',
+                  weight: isAirfield ? 1 : 1.5,
                   fillColor: color,
-                  fillOpacity: 0.88,
+                  fillOpacity: isAirfield ? 0.75 : 0.88,
                 }}
               >
                 <Tooltip direction="top" offset={[0, -6]} opacity={0.95}>
                   <span className="font-mono text-[10px]">
-                    {isAviation ? 'Авіаційний регіон' : 'Морський контур'} · {point.label}
+                    {kindLabel} · {point.label}
                   </span>
                 </Tooltip>
                 <Popup className="tactical-popup">
                   <div className="font-mono p-3 bg-[#111111] text-white border border-white/10 min-w-[250px]">
                     <div className="flex justify-between items-start mb-2 border-b border-white/15 pb-2 gap-2">
                       <h5 className="font-bold text-white uppercase text-xs tracking-tight leading-tight">{point.label}</h5>
-                      <span className="text-[8px] px-1.5 py-0.5 bg-white/10" style={{ color }}>
-                        {isAviation ? 'АВІА' : 'ФЛОТ'}
+                      <span className="text-[8px] px-1.5 py-0.5 bg-white/10 rounded" style={{ color }}>
+                        {badge}
                       </span>
                     </div>
                     <p className="text-[9px] text-white/60 leading-relaxed">{point.note}</p>
