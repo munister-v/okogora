@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-16T16:17:27.820Z",
+  "generatedAt": "2026-05-17T04:38:09.670Z",
   "windowDays": 3,
   "totals": {
-    "units": 8,
-    "unitsWithOfficialFeeds": 8,
+    "units": 12,
+    "unitsWithOfficialFeeds": 12,
     "autoDiscoveredUnits": 0,
-    "brigades": 8,
-    "brigadesWithOfficialFeeds": 8,
-    "officialItems": 73,
-    "mentionItems": 0,
-    "significantItems": 22,
-    "strikeItems": 16,
-    "reorgItems": 5
+    "brigades": 12,
+    "brigadesWithOfficialFeeds": 12,
+    "officialItems": 92,
+    "mentionItems": 1,
+    "significantItems": 28,
+    "strikeItems": 19,
+    "reorgItems": 10
   },
   "brigades": [
     {
@@ -30,10 +30,10 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 18,
+      "officialItems": 19,
       "mentionItems": 0,
-      "significantItems": 5,
-      "strikeItems": 5,
+      "significantItems": 4,
+      "strikeItems": 4,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -72,23 +72,6 @@
           "summaryUk": "⚡️Уражено пункти управління та інші об’єкти ворога. Уточнено результати влучань в ніч на 15 травня по інфраструктурі Рязанського НПЗ (Рязанська обл., рф) - пошкоджено установки переробки АВТ-3, АВТ-4, АТ-6 та установку гідроочищення дизельного пального. https://www.facebook.com/share/p/1JJpnidrtH/"
         },
         {
-          "id": "x-GeneralStaffUA-2309e4d654f0e1",
-          "title": "У ніч на 15 травня (з 18:00 14 травня) противник атакував п'ятьма протирадіолокаційними...",
-          "summary": "У ніч на 15 травня (з 18:00 14 травня) противник атакував п'ятьма протирадіолокаційними ракетами Х-31П та однією протикорабельною ракетою Х-35, а також 141 ударним БпЛА. ⚡️ ЗБИТО/ПОДАВЛЕНО 1 РАКЕТУ ТА 130 ВОРОЖИХ БПЛА. Атака триває, в повітряному просторі декілька ворожих БпЛА.",
-          "url": "https://x.com/GeneralStaffUA/status/2055173569613623691",
-          "publishedAt": "2026-05-15T06:28:56.000Z",
-          "source": "x",
-          "sourceLabel": "GeneralStaffUA",
-          "origin": "official",
-          "score": 4,
-          "strikeScore": 2,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "У ніч на 15 травня (з 18:00 14 травня) противник атакував п'ятьма протирадіолокаційними...",
-          "summaryUk": "У ніч на 15 травня (з 18:00 14 травня) противник атакував п'ятьма протирадіолокаційними ракетами Х-31П та однією протикорабельною ракетою Х-35, а також 141 ударним БпЛА. ⚡️ ЗБИТО/ПОДАВЛЕНО 1 РАКЕТУ ТА 130 ВОРОЖИХ БПЛА. Атака триває, в повітряному просторі декілька ворожих БпЛА."
-        },
-        {
           "id": "x-GeneralStaffUA-a056e028fd153b",
           "title": "RT Volodymyr Zelenskyy / Володимир Зеленський: Our long-range sanctions this week. Most of the operations are still ongoing, so the...",
           "summary": "RT Volodymyr Zelenskyy / Володимир Зеленський Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our results. Be-200 amphibious aircraft, a Ka-27 helicopter, a cargo vessel carrying ammunition, a Pantsir-S1 surface‑to‑air missile and gun system, a Tor surface-to-air missile system, a Redut-2US communications unit, drones, and many other targets have been hit. Our long-range sanctions also struck Russian oil industry facilities and ships. Distances traversed: nearly 1,000 kilometers from the line of contact. These are our entirely justified responses to what the Russians are doing. We will continue to increase both the range and scale of these sanctions. I thank everyone working to build up our strength. I thank the warriors of the Armed Forces of Ukraine, the Security Service of Ukraine, and our intelligence agencies for their precision.",
@@ -123,6 +106,23 @@
           "summaryUk": "⚡️Уражено НПЗ “Рязанський”, кораблі, склади боєприпасів та РЛС противника https://www.facebook.com/share/p/19CNbDfXqo/"
         },
         {
+          "id": "x-GeneralStaffUA-d6f49b81b59c82",
+          "title": "Загальні бойові втрати противника з 24.02.22 по 17.05.26 орієнтовно склали / The estimated total comb...",
+          "summary": "Загальні бойові втрати противника з 24.02.22 по 17.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 17.05.26",
+          "url": "https://x.com/GeneralStaffUA/status/2055855537812619379",
+          "publishedAt": "2026-05-17T03:38:50.000Z",
+          "source": "x",
+          "sourceLabel": "GeneralStaffUA",
+          "origin": "official",
+          "score": 1,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Загальні бойові втрати противника з 24.02.22 по 17.05.26 орієнтовно склали / The estimated total comb...",
+          "summaryUk": "Загальні бойові втрати противника з 24.02.22 по 17.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 17.05.26"
+        },
+        {
           "id": "x-GeneralStaffUA-6cfbc17c81abf0",
           "title": "Загальні бойові втрати противника з 24.02.22 по 16.05.26 орієнтовно склали / The estimated total comb...",
           "summary": "Загальні бойові втрати противника з 24.02.22 по 16.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 16.05.26",
@@ -140,11 +140,11 @@
           "summaryUk": "Загальні бойові втрати противника з 24.02.22 по 16.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 16.05.26"
         },
         {
-          "id": "x-GeneralStaffUA-a9829caba35b3b",
-          "title": "Оперативна інформація станом на 16:00 16.05.2026 щодо російського вторгнення Від початк...",
-          "summary": "Оперативна інформація станом на 16:00 16.05.2026 щодо російського вторгнення Від початку доби агресор 61 раз атакував позиції Сил оборони. https://www.facebook.com/share/p/1JLbKuArFh/",
-          "url": "https://x.com/GeneralStaffUA/status/2055639521593582036",
-          "publishedAt": "2026-05-16T13:20:28.000Z",
+          "id": "x-GeneralStaffUA-975689fc58e170",
+          "title": "Оперативна інформація станом на 22:00 16.05.2026 щодо російського вторгнення Загалом ві...",
+          "summary": "Оперативна інформація станом на 22:00 16.05.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 195 бойових зіткнень. https://www.facebook.com/share/p/1CnNrsQhd2/",
+          "url": "https://x.com/GeneralStaffUA/status/2055728379760902302",
+          "publishedAt": "2026-05-16T19:13:33.000Z",
           "source": "x",
           "sourceLabel": "GeneralStaffUA",
           "origin": "official",
@@ -153,15 +153,15 @@
           "reorgScore": 0,
           "isStrike": false,
           "isReorg": false,
-          "titleUk": "Оперативна інформація станом на 16:00 16.05.2026 щодо російського вторгнення Від початк...",
-          "summaryUk": "Оперативна інформація станом на 16:00 16.05.2026 щодо російського вторгнення Від початку доби агресор 61 раз атакував позиції Сил оборони. https://www.facebook.com/share/p/1JLbKuArFh/"
+          "titleUk": "Оперативна інформація станом на 22:00 16.05.2026 щодо російського вторгнення Загалом ві...",
+          "summaryUk": "Оперативна інформація станом на 22:00 16.05.2026 щодо російського вторгнення Загалом від початку цієї доби відбулося 195 бойових зіткнень. https://www.facebook.com/share/p/1CnNrsQhd2/"
         },
         {
-          "id": "x-GeneralStaffUA-82f7374d081208",
-          "title": "NATO 🇷🇴 🇵🇱 🇺🇦 Навчання НАТО Eastern Phoenix 26 та експертиза ЗС України: від експериме...",
-          "summary": "NATO 🇷🇴 🇵🇱 🇺🇦 Навчання НАТО Eastern Phoenix 26 та експертиза ЗС України: від експериментів до спроможностей / NATO Exercise Eastern Phoenix 26 and Ukrainian Armed Forces Expertise: From Experimentation to Capability https://www.facebook.com/share/p/1AhRc2biBG/",
-          "url": "https://x.com/GeneralStaffUA/status/2055608362885115974",
-          "publishedAt": "2026-05-16T11:16:39.000Z",
+          "id": "x-GeneralStaffUA-f2343efa14caf5",
+          "title": "Спокій у тилу тримається на впевненості тих, хто зараз на передовій. Коли за справ...",
+          "summary": "Спокій у тилу тримається на впевненості тих, хто зараз на передовій. Коли за справу беруться профі, українські міста можуть спати спокійно. 3-й окремий полк СпП імені князя Святослава Хороброго",
+          "url": "https://x.com/GeneralStaffUA/status/2055707001930269128",
+          "publishedAt": "2026-05-16T17:48:37.000Z",
           "source": "x",
           "sourceLabel": "GeneralStaffUA",
           "origin": "official",
@@ -170,8 +170,8 @@
           "reorgScore": 0,
           "isStrike": false,
           "isReorg": false,
-          "titleUk": "NATO 🇷🇴 🇵🇱 🇺🇦 Навчання НАТО Eastern Phoenix 26 та експертиза ЗС України: від експериме...",
-          "summaryUk": "NATO 🇷🇴 🇵🇱 🇺🇦 Навчання НАТО Eastern Phoenix 26 та експертиза ЗС України: від експериментів до спроможностей / NATO Exercise Eastern Phoenix 26 and Ukrainian Armed Forces Expertise: From Experimentation to Capability https://www.facebook.com/share/p/1AhRc2biBG/"
+          "titleUk": "Спокій у тилу тримається на впевненості тих, хто зараз на передовій. Коли за справ...",
+          "summaryUk": "Спокій у тилу тримається на впевненості тих, хто зараз на передовій. Коли за справу беруться профі, українські міста можуть спати спокійно. 3-й окремий полк СпП імені князя Святослава Хороброго"
         }
       ]
     },
@@ -284,6 +284,23 @@
           "summaryUk": "Вперше впроваджено проєкт \"Телехірургія\" в хірургічній службі у Командуванні Медичних сил ЗСУ https://t.me/AFUStratCom/34223 #інноваціїЗСУ #збереженняЖиття #військовіМедики"
         },
         {
+          "id": "x-StratCom_AFU-23b39d626081fb",
+          "title": "36 – збірна легенд! Під таким гаслом у Києві відбулася зустріч із бійцями без переб...",
+          "summary": "36 – збірна легенд! Під таким гаслом у Києві відбулася зустріч із бійцями без перебільшення легендарної 36-ї окремої бригади морської піхоти ВМС ЗСУ імені контрадмірала Михайла Білинського. https://t.me/AFUStratCom/34268",
+          "url": "https://x.com/StratCom_AFU/status/2055693626487759125",
+          "publishedAt": "2026-05-16T16:55:28.000Z",
+          "source": "x",
+          "sourceLabel": "StratCom_AFU",
+          "origin": "official",
+          "score": 1,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "36 – збірна легенд! Під таким гаслом у Києві відбулася зустріч із бійцями без переб...",
+          "summaryUk": "36 – збірна легенд! Під таким гаслом у Києві відбулася зустріч із бійцями без перебільшення легендарної 36-ї окремої бригади морської піхоти ВМС ЗСУ імені контрадмірала Михайла Білинського. https://t.me/AFUStratCom/34268"
+        },
+        {
           "id": "x-StratCom_AFU-6c12bf4287dfa1",
           "title": "Загальні бойові втрати противника з 24.02.22 по 16.05.26 орієнтовно склали / The estimated total comb...",
           "summary": "Загальні бойові втрати противника з 24.02.22 по 16.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 16.05.26",
@@ -316,23 +333,169 @@
           "isReorg": false,
           "titleUk": "Загальні бойові втрати противника з 24.02.22 по 15.05.26 орієнтовно склали / The estimated total comb...",
           "summaryUk": "Загальні бойові втрати противника з 24.02.22 по 15.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 15.05.26"
+        }
+      ]
+    },
+    {
+      "id": "gur-mo",
+      "name": "ГУР МО України",
+      "aliases": [
+        "ГУР МО України",
+        "гур",
+        "гур мо",
+        "defense intelligence",
+        "головне управління розвідки"
+      ],
+      "sources": [
+        {
+          "platform": "x",
+          "handle": "DefenceU",
+          "trusted": true
+        }
+      ],
+      "autoDiscovered": false,
+      "officialItems": 12,
+      "mentionItems": 1,
+      "significantItems": 3,
+      "strikeItems": 3,
+      "reorgItems": 0,
+      "hasOfficialFeed": true,
+      "items": [
+        {
+          "id": "x-DefenceU-ac5d0a72b5768b",
+          "title": "The PURL initiative is needed so that Ukraine can defend itself against ballistic strikes like these. And likewise, in the interests of everyone seeki...",
+          "summary": "The PURL initiative is needed so that Ukraine can defend itself against ballistic strikes like these. And likewise, in the interests of everyone seeking peace, pressure on Russia must continue. Volodymyr Zelenskyy / Володимир Зеленський: A rescue operation is currently underway in Kyiv at the site of a Russian drone strike on a nine-story residential building – an entire section of the building has been completely destroyed. Dozens of people have been rescued. Tragically, one person has been killed. My",
+          "url": "https://x.com/DefenceU/status/2054803033033248787",
+          "publishedAt": "2026-05-14T05:56:34.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 4,
+          "strikeScore": 2,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "Ініціатива PURL потрібна, щоб Україна могла захиститися від подібних балістичних ударів. І так само в інтересах кожного, хто прагне...",
+          "summaryUk": "The PURL initiative is needed so that Ukraine can defend itself against ballistic strikes like these. And likewise, in the interests of everyone seeking peace, pressure on Russia must continue. Volodymyr Zelenskyy / Володимир Зеленський: A rescue operation is currently underway in Kyiv at the site of a Russian drone strike on a nine-story residential building – an entire section of the building has been completely destroyed. Dozens of people have been rescued. Tragically, one person has been killed. My"
         },
         {
-          "id": "x-StratCom_AFU-ee6e07fbc948ba",
-          "title": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізован...",
-          "summary": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізована бригада імені князя Мстислава Хороброго.",
-          "url": "https://x.com/StratCom_AFU/status/2054976516757332437",
-          "publishedAt": "2026-05-14T17:25:55.000Z",
+          "id": "pool-cf885466fda445",
+          "title": "Російські військові опублікували дрони Geran-2 серії E, встановлені на транспортні засоби з гіростабілізованими корисними навантаженнями Honpho TS130C. Безпілотники в такій конфігурації використовуються...",
+          "summary": "Російські військові опублікували дрони Geran-2 серії E, встановлені на транспортні засоби з гіростабілізованими корисними навантаженнями Honpho TS130C. Безпілотники в такій конфігурації використовуються для спеціальних завдань із залученням mesh-модемів, а місце запуску визначено в окупованому Криму. #Україна",
+          "url": "https://x.com/NOELreports/status/2055744559506682294",
+          "publishedAt": "2026-05-16T20:17:51.000Z",
           "source": "x",
-          "sourceLabel": "StratCom_AFU",
+          "sourceLabel": "NOELreports",
+          "origin": "mention",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "Російські військові опублікували дрони Geran-2 серії E, встановлені на транспортні засоби з гіростабілізованими корисними навантаженнями Honpho TS130C. Безпілотники в такій конфігурації використовуються...",
+          "summaryUk": "Російські військові опублікували дрони Geran-2 серії E, встановлені на транспортні засоби з гіростабілізованими корисними навантаженнями Honpho TS130C. Безпілотники в такій конфігурації використовуються для спеціальних завдань із залученням mesh-модемів, а місце запуску визначено в окупованому Криму. #Україна"
+        },
+        {
+          "id": "x-DefenceU-571f3ff544b8c5",
+          "title": "President @ZelenskyyUa: Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our resu...",
+          "summary": "President @ZelenskyyUa: Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our results. Be-200 amphibious aircraft, a Ka-27 helicopter, a cargo vessel carrying ammunition, a Pantsir-S1 surface‑to‑air missile and gun system, a Tor surface-to-air missile system, a Redut-2US communications unit, drones, and many other targets have been hit. Our long-range sanctions also struck Russian oil industry facilities and ships. Distances traversed: nearly 1,000 kilometers from the line of contact.",
+          "url": "https://x.com/DefenceU/status/2055604056983265516",
+          "publishedAt": "2026-05-16T10:59:33.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
           "origin": "official",
-          "score": 1,
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "Президент @ZelenskyyUa: Наші довгострокові санкції цього тижня. Більшість операцій ще тривають, тому на відео лише частина нашого ре...",
+          "summaryUk": "Президент @ZelenskyyUa: Наші довгострокові санкції цього тижня. Більшість операцій ще тривають, тому відео містить лише частину наших результатів. Уражені літак-амфібія Бе-200, вертоліт Ка-27, вантажне судно з боєприпасами, зенітно-гарматний комплекс «Панцир-С1», зенітно-ракетний комплекс «Тор», зв’язок «Редут-2УС», безпілотники та багато інших цілей. Наші довгострокові санкції також торкнулися об’єктів і кораблів російської нафтової промисловості. Пройдені відстані: майже 1000 кілометрів від лінії зіткнення."
+        },
+        {
+          "id": "x-DefenceU-861c1152caf405",
+          "title": "RT Volodymyr Zelenskyy / Володимир Зеленський: Russia took another step regarding Transnistria – the Russians simplified access to...",
+          "summary": "RT Volodymyr Zelenskyy / Володимир Зеленський Russia took another step regarding Transnistria – the Russians simplified access to citizenship for people originating from this region of Moldova. It is a very telling move. It means not only that Russia is looking for new soldiers in this way – because citizenship also entails military obligation – it is also Russia's way of staking a claim to Transnistria’s territory. Those in Moscow often tell various interlocutors that supposedly only Donbas interests them. In reality, far more than Donbas is at stake. We must respond to this. All the more so as the presence of the Russian military contingent and special services in Transnistria also poses a challenge for us. We are interested in a stable and strong Moldova.",
+          "url": "https://x.com/DefenceU/status/2055723893998993652",
+          "publishedAt": "2026-05-16T18:07:45.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
           "strikeScore": 0,
           "reorgScore": 0,
           "isStrike": false,
           "isReorg": false,
-          "titleUk": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізован...",
-          "summaryUk": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізована бригада імені князя Мстислава Хороброго."
+          "titleUk": "RT Volodymyr Zelenskyy / Володимир Зеленський: Russia took another step regarding Transnistria – the Russians simplified access to...",
+          "summaryUk": "RT Volodymyr Zelenskyy / Володимир Зеленський Russia took another step regarding Transnistria – the Russians simplified access to citizenship for people originating from this region of Moldova. It is a very telling move. It means not only that Russia is looking for new soldiers in this way – because citizenship also entails military obligation – it is also Russia's way of staking a claim to Transnistria’s territory. Those in Moscow often tell various interlocutors that supposedly only Donbas interests them. In reality, far more than Donbas is at stake. We must respond to this. All the more so as the presence of the Russian military contingent and special services in Transnistria also poses a challenge for us. We are interested in a stable and strong Moldova."
+        },
+        {
+          "id": "x-DefenceU-18044f64bfc994",
+          "title": "Before every flight comes preparation, discipline, and teamwork. 📹: 114th Tactical Aviation Brigade",
+          "summary": "Before every flight comes preparation, discipline, and teamwork. 📹: 114th Tactical Aviation Brigade",
+          "url": "https://x.com/DefenceU/status/2055674433944121521",
+          "publishedAt": "2026-05-16T15:39:12.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Перед кожним польотом — підготовка, дисципліна, командна робота. 📹: 114-та бригада тактичної авіації",
+          "summaryUk": "Перед кожним польотом — підготовка, дисципліна, командна робота. 📹: 114-та бригада тактичної авіації"
+        },
+        {
+          "id": "x-DefenceU-f598844e5170ea",
+          "title": "Our weekly update 🇺🇦💪",
+          "summary": "Our weekly update 🇺🇦💪",
+          "url": "https://x.com/DefenceU/status/2055566414715486679",
+          "publishedAt": "2026-05-16T08:29:58.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Наше щотижневе оновлення 🇺🇦💪",
+          "summaryUk": "Наше щотижневе оновлення 🇺🇦💪"
+        },
+        {
+          "id": "x-DefenceU-b2ca23848a79ea",
+          "title": "“Humankind cannot bear very much reality.” T. S. Eliot The combat losses of the enemy from February 24, 2022 to May 16, 2026.",
+          "summary": "“Humankind cannot bear very much reality.” T. S. Eliot The combat losses of the enemy from February 24, 2022 to May 16, 2026.",
+          "url": "https://x.com/DefenceU/status/2055525698459050031",
+          "publishedAt": "2026-05-16T05:48:10.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "«Людство не може терпіти багато реальності». Т. С. Еліот Бойові втрати противника з 24 лютого 2022 року по 16 травня 2026 року.",
+          "summaryUk": "«Людство не може терпіти багато реальності». Т. С. Еліот Бойові втрати противника з 24 лютого 2022 року по 16 травня 2026 року."
+        },
+        {
+          "id": "x-DefenceU-ec754513228e9d",
+          "title": "🇺🇦🤝🇩🇪 Since the beginning of the full-scale invasion, Germany has emerged as one of Ukraine’s largest suppliers of weapons and militar...",
+          "summary": "🇺🇦🤝🇩🇪 Since the beginning of the full-scale invasion, Germany has emerged as one of Ukraine’s largest suppliers of weapons and military equipment, ranging from armoured vehicles to air defence systems. https://mod.gov.ua/en/news/from-marder-to-iris-t-german-weapons-ukraine-has-received-since-the-start-of-the-full-scale-invasion",
+          "url": "https://x.com/DefenceU/status/2055261387249635484",
+          "publishedAt": "2026-05-15T12:17:54.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "🇺🇦🤝🇩🇪 З початку повномасштабного вторгнення Німеччина стала одним із найбільших постачальників зброї та військових для України...",
+          "summaryUk": "🇺🇦🤝🇩🇪 З початку повномасштабного вторгнення Німеччина стала одним із найбільших постачальників в Україну зброї та військової техніки, починаючи від бронетехніки і закінчуючи системами ППО. https://mod.gov.ua/en/news/from-marder-to-iris-t-german-weapons-ukraine-has-received-since-the-start-of-the-full-scale-invasion"
         }
       ]
     },
@@ -355,8 +518,8 @@
       "autoDiscovered": false,
       "officialItems": 11,
       "mentionItems": 0,
-      "significantItems": 3,
-      "strikeItems": 3,
+      "significantItems": 2,
+      "strikeItems": 2,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -378,11 +541,11 @@
           "summaryUk": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓ВМС ЗС України знищили 16 «Шахедів/Гербер» За минулу добу, станом на 06:00 15.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 16 ударних БпЛА типу «SHAHED/Гербера» Разом до перемоги! Слава Україні!"
         },
         {
-          "id": "x-UA_NAVY-3d2cccb26acd71",
-          "title": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:30 14.05.2026, силами та засобами В...",
-          "summary": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:30 14.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 52 ударні БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні!",
-          "url": "https://x.com/UA_NAVY/status/2054769423483798007",
-          "publishedAt": "2026-05-14T03:43:00.000Z",
+          "id": "x-UA_NAVY-c4c73bf2e27f24",
+          "title": "🇺🇦⚓За минулу добу, станом на 06:00 17.05.2026, силами та засобами Військово-Морських Си...",
+          "summary": "🇺🇦⚓За минулу добу, станом на 06:00 17.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 14 ударних БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні",
+          "url": "https://x.com/UA_NAVY/status/2055847057538085104",
+          "publishedAt": "2026-05-17T03:05:08.000Z",
           "source": "x",
           "sourceLabel": "UA_NAVY",
           "origin": "official",
@@ -391,25 +554,8 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:30 14.05.2026, силами та засобами В...",
-          "summaryUk": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:30 14.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 52 ударні БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні!"
-        },
-        {
-          "id": "x-UA_NAVY-7aa6d2bf3dbd03",
-          "title": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:20 14.05.2026, силами та засобами В...",
-          "summary": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:20 14.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 51 ударний БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні!",
-          "url": "https://x.com/UA_NAVY/status/2054764697723764923",
-          "publishedAt": "2026-05-14T03:24:14.000Z",
-          "source": "x",
-          "sourceLabel": "UA_NAVY",
-          "origin": "official",
-          "score": 4,
-          "strikeScore": 2,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:20 14.05.2026, силами та засобами В...",
-          "summaryUk": "ОНОВЛЕНА ІНФОРМАЦІЯ 🇺🇦⚓За минулу добу, станом на 06:20 14.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 51 ударний БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні!"
+          "titleUk": "🇺🇦⚓За минулу добу, станом на 06:00 17.05.2026, силами та засобами Військово-Морських Си...",
+          "summaryUk": "🇺🇦⚓За минулу добу, станом на 06:00 17.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 14 ударних БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні"
         },
         {
           "id": "x-UA_NAVY-7341c761697605",
@@ -461,6 +607,23 @@
           "isReorg": false,
           "titleUk": "🇺🇦⚓СЗЧ у 39-й ОБрМП? Так! У новому епізоді Фронтової Студії до бійців 39 окрема бри...",
           "summaryUk": "🇺🇦⚓СЗЧ у 39-й ОБрМП? Так! У новому епізоді Фронтової Студії до бійців 39 окрема бригада морської піхоти завітав військовослужбовець та фронтмен панк-рок гурту \"СЗЧ\" ➕ чому 39-ку називають бригадою \"сімейного типу\" ➕ братерство і традиція гавайських сорочок"
+        },
+        {
+          "id": "x-UA_NAVY-69534c55c891a9",
+          "title": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24...",
+          "summary": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24 років на добровільну службу за контрактом. Це особливі умови, які включають конкуренті виплати та інші соціальні гарантії. Не чекай — дій! ⚡️ 📞 +38 050 426 0 426 🌐 http://18-24.army.gov.ua",
+          "url": "https://x.com/UA_NAVY/status/2055706928974557366",
+          "publishedAt": "2026-05-16T17:48:19.000Z",
+          "source": "x",
+          "sourceLabel": "UA_NAVY",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24...",
+          "summaryUk": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24 років на добровільну службу за контрактом. Це особливі умови, які включають конкуренті виплати та інші соціальні гарантії. Не чекай — дій! ⚡️ 📞 +38 050 426 0 426 🌐 http://18-24.army.gov.ua"
         },
         {
           "id": "x-UA_NAVY-e5eb455c90e02f",
@@ -773,6 +936,162 @@
       ]
     },
     {
+      "id": "3-assault",
+      "name": "3 ОШБр / 3-й Армійський Корпус",
+      "aliases": [
+        "3 ОШБр / 3-й Армійський Корпус",
+        "3 ошбр",
+        "третій армійський корпус",
+        "third assault brigade",
+        "ab3"
+      ],
+      "sources": [
+        {
+          "platform": "x",
+          "handle": "ab3army",
+          "trusted": true
+        }
+      ],
+      "autoDiscovered": false,
+      "officialItems": 3,
+      "mentionItems": 0,
+      "significantItems": 3,
+      "strikeItems": 1,
+      "reorgItems": 3,
+      "hasOfficialFeed": true,
+      "items": [
+        {
+          "id": "x-ab3army-6f0a309d6c02f3",
+          "title": "Полюють ППО Трійки: мінус 2625 ворожих БпЛА! Нове зведення ешелонів ППО в смузі відп...",
+          "summary": "Полюють ППО Трійки: мінус 2625 ворожих БпЛА! Нове зведення ешелонів ППО в смузі відповідальності Третього армійського корпусу — і свіжа порція мінусової статистики ворога. Разом у квітні підрозділи закрили небо від 2625 БпЛА рф. Вполювали на 1343 ударних «крил» окупантів: 1199 «Молнія», 79 «Shahed», 31 «Гербера», 27 «Lancet», 4 «КУБ», 2 «Скальпель» та 1 важкий бомбер. Знищили 90 розвідувальних: 27 «КВО», 24 «ZALA», 15 «SuperCam», 12 «Орлан», 9 «СКАТ», 1 «Гранат» та 2 рідкісних експериментальних БпЛА «Мерлін». А також — 1192 малогабаритних дронів. На варті неба: 1030-й ОЗРДн «Аквіла», Третя штурмова, 53-тя, 60-та, 63-тя ОМБр, 125-та ОВМБр та підпорядковані підрозділи корпусу. Працюємо до останньої ворожої «пташки»!",
+          "url": "https://x.com/ab3army/status/2055291709932654770",
+          "publishedAt": "2026-05-15T14:18:23.000Z",
+          "source": "x",
+          "sourceLabel": "ab3army",
+          "origin": "official",
+          "score": 9,
+          "strikeScore": 4,
+          "reorgScore": 2,
+          "isStrike": true,
+          "isReorg": true,
+          "titleUk": "Полюють ППО Трійки: мінус 2625 ворожих БпЛА! Нове зведення ешелонів ППО в смузі відп...",
+          "summaryUk": "Полюють ППО Трійки: мінус 2625 ворожих БпЛА! Нове зведення ешелонів ППО в смузі відповідальності Третього армійського корпусу — і свіжа порція мінусової статистики ворога. Разом у квітні підрозділи закрили небо від 2625 БпЛА рф. Вполювали на 1343 ударних «крил» окупантів: 1199 «Молнія», 79 «Shahed», 31 «Гербера», 27 «Lancet», 4 «КУБ», 2 «Скальпель» та 1 важкий бомбер. Знищили 90 розвідувальних: 27 «КВО», 24 «ZALA», 15 «SuperCam», 12 «Орлан», 9 «СКАТ», 1 «Гранат» та 2 рідкісних експериментальних БпЛА «Мерлін». А також — 1192 малогабаритних дронів. На варті неба: 1030-й ОЗРДн «Аквіла», Третя штурмова, 53-тя, 60-та, 63-тя ОМБр, 125-та ОВМБр та підпорядковані підрозділи корпусу. Працюємо до останньої ворожої «пташки»!"
+        },
+        {
+          "id": "x-ab3army-60896a55c1ddca",
+          "title": "«Велика сім'я, де тобі завжди прийдуть на допомогу» Це Трійка — армія братерства й ...",
+          "summary": "«Велика сім'я, де тобі завжди прийдуть на допомогу» Це Трійка — армія братерства й реального бойового досвіду. Свій розвиток як командира роти друг Тюльпан синхронізував із корпусними змінами. І сьогодні він прокачує управління в 2-му мехбаті 125-ї ОВМБр — з тими, хто теж пройшли шлях з окопів. Як завдяки реформам сучасного війська виходять на новий професійний рівень — розповідаємо у відео. Бути надійним плечем — це дух Трійки. Долучайся: http://ab3.army!",
+          "url": "https://x.com/ab3army/status/2055353556371390756",
+          "publishedAt": "2026-05-15T18:24:09.000Z",
+          "source": "x",
+          "sourceLabel": "ab3army",
+          "origin": "official",
+          "score": 2,
+          "strikeScore": 0,
+          "reorgScore": 2,
+          "isStrike": false,
+          "isReorg": true,
+          "titleUk": "«Велика сім'я, де тобі завжди прийдуть на допомогу» Це Трійка — армія братерства й ...",
+          "summaryUk": "«Велика сім'я, де тобі завжди прийдуть на допомогу» Це Трійка — армія братерства й реального бойового досвіду. Свій розвиток як командира роти друг Тюльпан синхронізував із корпусними змінами. І сьогодні він прокачує управління в 2-му мехбаті 125-ї ОВМБр — з тими, хто теж пройшли шлях з окопів. Як завдяки реформам сучасного війська виходять на новий професійний рівень — розповідаємо у відео. Бути надійним плечем — це дух Трійки. Долучайся: http://ab3.army!"
+        },
+        {
+          "id": "x-ab3army-4d52d5e0182515",
+          "title": "⚡️Як стати айтівцем у війську — стрім про інновації Трійки вже стартував! На всі з...",
+          "summary": "⚡️Як стати айтівцем у війську — стрім про інновації Трійки вже стартував! На всі запитання про цифрові професії в Третьому армійському корпусі відповідає начальник управління безпілотних систем, друг Філ. Вмикай на YouTube та пиши свої запитання в чаті ефіру: https://youtube.com/live/vnur7VCGNxw",
+          "url": "https://x.com/ab3army/status/2054955883126260166",
+          "publishedAt": "2026-05-14T16:03:56.000Z",
+          "source": "x",
+          "sourceLabel": "ab3army",
+          "origin": "official",
+          "score": 2,
+          "strikeScore": 0,
+          "reorgScore": 1,
+          "isStrike": false,
+          "isReorg": true,
+          "titleUk": "⚡️Як стати айтівцем у війську — стрім про інновації Трійки вже стартував! На всі з...",
+          "summaryUk": "⚡️Як стати айтівцем у війську — стрім про інновації Трійки вже стартував! На всі запитання про цифрові професії в Третьому армійському корпусі відповідає начальник управління безпілотних систем, друг Філ. Вмикай на YouTube та пиши свої запитання в чаті ефіру: https://youtube.com/live/vnur7VCGNxw"
+        }
+      ]
+    },
+    {
+      "id": "3-iron",
+      "name": "3 ОВМБр «Залізна»",
+      "aliases": [
+        "3 ОВМБр «Залізна»",
+        "3 овмбр",
+        "залізна бригада",
+        "3 iron brigade",
+        "3 важка механізована"
+      ],
+      "sources": [
+        {
+          "platform": "x",
+          "handle": "3ironbrigade",
+          "trusted": true
+        }
+      ],
+      "autoDiscovered": false,
+      "officialItems": 3,
+      "mentionItems": 0,
+      "significantItems": 2,
+      "strikeItems": 1,
+      "reorgItems": 2,
+      "hasOfficialFeed": true,
+      "items": [
+        {
+          "id": "x-3ironbrigade-bd8c57e20de16c",
+          "title": "Шквал емоцій, неймовірна нервове збудження, напруга, стрес та хворобливі реакції ...",
+          "summary": "Шквал емоцій, неймовірна нервове збудження, напруга, стрес та хворобливі реакції організму… Новобранці Залізної бригади пережили свій перший бій. Безпосередню участь у цьому бою вони змогли взяти за допомогою технології віртуальної реальності (VR), не покидаючи навчального класу на прифронтовому полігоні. За ініціативи командування бригади у з’єднані впроваджені та застосовуються новітні технології для бойової та психологічної підготовки піхотинців, операторів БПЛА та інших військових спеціальностей. За кошти з’єднання та з допомогою благодійників придбане обладнання, зокрема окуляри віртуальної реальності та відповідні комп’ютерні програми. VR-технологія також використовується для навчання нового поповнення під час базової загальновійськової підготовки. Зокрема, офіцери-психологи з’єднання проводять тестування новобранців для адаптації до умов реального бою. В подальшому, за результатами такого стрес-тесту, здійснюється робота щодо формування у недосвідчених солдатів моральної стійкості та витримки. Крім того, VR-окуляри допомагають у психологічному відновленні та реабілітації бійців, що повернулися до підрозділу після тривалого перебування на бойових позиціях. Наприклад, вони дозволяють «мандрувати» мальовничими куточками світу, насолоджуючись мальовничими краєвидами під спокійну, розслаблюючу музику. Про практику застосування новітніх технологій для навчання та психологічної підготовки військовослужбовців, віртуальну реальність сучасного бою, реакції, емоції та відгуки новобранців Залізної бригади про новий досвід, дивіться у відеосюжеті.",
+          "url": "https://x.com/3ironbrigade/status/2054810630373220429",
+          "publishedAt": "2026-05-14T06:26:45.000Z",
+          "source": "x",
+          "sourceLabel": "3ironbrigade",
+          "origin": "official",
+          "score": 6,
+          "strikeScore": 1,
+          "reorgScore": 1,
+          "isStrike": true,
+          "isReorg": true,
+          "titleUk": "Шквал емоцій, неймовірна нервове збудження, напруга, стрес та хворобливі реакції ...",
+          "summaryUk": "Шквал емоцій, неймовірна нервове збудження, напруга, стрес та хворобливі реакції організму… Новобранці Залізної бригади пережили свій перший бій. Безпосередню участь у цьому бою вони змогли взяти за допомогою технології віртуальної реальності (VR), не покидаючи навчального класу на прифронтовому полігоні. За ініціативи командування бригади у з’єднані впроваджені та застосовуються новітні технології для бойової та психологічної підготовки піхотинців, операторів БПЛА та інших військових спеціальностей. За кошти з’єднання та з допомогою благодійників придбане обладнання, зокрема окуляри віртуальної реальності та відповідні комп’ютерні програми. VR-технологія також використовується для навчання нового поповнення під час базової загальновійськової підготовки. Зокрема, офіцери-психологи з’єднання проводять тестування новобранців для адаптації до умов реального бою. В подальшому, за результатами такого стрес-тесту, здійснюється робота щодо формування у недосвідчених солдатів моральної стійкості та витримки. Крім того, VR-окуляри допомагають у психологічному відновленні та реабілітації бійців, що повернулися до підрозділу після тривалого перебування на бойових позиціях. Наприклад, вони дозволяють «мандрувати» мальовничими куточками світу, насолоджуючись мальовничими краєвидами під спокійну, розслаблюючу музику. Про практику застосування новітніх технологій для навчання та психологічної підготовки військовослужбовців, віртуальну реальність сучасного бою, реакції, емоції та відгуки новобранців Залізної бригади про новий досвід, дивіться у відеосюжеті."
+        },
+        {
+          "id": "x-3ironbrigade-773a79c56d0518",
+          "title": "«Вступаючи до лав…, я присягаю…», — линуть до неба крізь гілля прифронтового гаю с...",
+          "summary": "«Вступаючи до лав…, я присягаю…», — линуть до неба крізь гілля прифронтового гаю слова клятви. Колишні рекрути, пройшовши перший вишкіл — базову загальновійськову підготовку, приєднуються до лицарського колективу Залізної бригади. Новобранці, загартовані напруженими навчаннями в умовах, максимально наближених до бойових, озброєні новими знаннями та навичками, стали повноцінними солдатами. На підтвердження зміни статусу інструктори та офіцери-психологи та вручили їм нарукавний знак з’єднання, що вже став символом незламності та відваги «залізних лицарів». Нова традиція з урочистою церемонію врученням символіки з’єднання, нещодавно започаткована за ініціативи командування з’єднання, вже отримала схвальні відгуки перших випускників «польової академії залізного лицарства». За їхніми словами, вона неабияк надихає та мотивує бійців. З новим етапом життя та вступом до великого братерства, від імені командування бійців привітав заступник командира бригади з психологічної підтримки персоналу. Гомін, сміх, вітання, дружні обійми та групове фото на згадку... Попереду нових «залізних лицарів» чекає головний екзамен — виконання бойових завдань на передовій.",
+          "url": "https://x.com/3ironbrigade/status/2055173560079876433",
+          "publishedAt": "2026-05-15T06:28:54.000Z",
+          "source": "x",
+          "sourceLabel": "3ironbrigade",
+          "origin": "official",
+          "score": 2,
+          "strikeScore": 0,
+          "reorgScore": 1,
+          "isStrike": false,
+          "isReorg": true,
+          "titleUk": "«Вступаючи до лав…, я присягаю…», — линуть до неба крізь гілля прифронтового гаю с...",
+          "summaryUk": "«Вступаючи до лав…, я присягаю…», — линуть до неба крізь гілля прифронтового гаю слова клятви. Колишні рекрути, пройшовши перший вишкіл — базову загальновійськову підготовку, приєднуються до лицарського колективу Залізної бригади. Новобранці, загартовані напруженими навчаннями в умовах, максимально наближених до бойових, озброєні новими знаннями та навичками, стали повноцінними солдатами. На підтвердження зміни статусу інструктори та офіцери-психологи та вручили їм нарукавний знак з’єднання, що вже став символом незламності та відваги «залізних лицарів». Нова традиція з урочистою церемонію врученням символіки з’єднання, нещодавно започаткована за ініціативи командування з’єднання, вже отримала схвальні відгуки перших випускників «польової академії залізного лицарства». За їхніми словами, вона неабияк надихає та мотивує бійців. З новим етапом життя та вступом до великого братерства, від імені командування бійців привітав заступник командира бригади з психологічної підтримки персоналу. Гомін, сміх, вітання, дружні обійми та групове фото на згадку... Попереду нових «залізних лицарів» чекає головний екзамен — виконання бойових завдань на передовій."
+        },
+        {
+          "id": "x-3ironbrigade-10c1e53451a635",
+          "title": "Різні за віком, характерами, освітою та професіями. Вони не мріяли про подвиги та з...",
+          "summary": "Різні за віком, характерами, освітою та професіями. Вони не мріяли про подвиги та звитягу. Але у лихий для країни час доля обрала їм один, спільний шлях — шлях воїна. Коли прийшов час взяти до рук зброю, вони не втікали, не ховалися, а з спокійною зосередженістю, з якою звикли працювати у мирний час, вирушили на захист України від споконвічного ворога. Щирі, мудрі, та цілеспрямовані, вони стали бійцями Залізної бригади та опанували нову для себе науку — бути солдатом-захисником. За їхніми спинами залишилися матері, дружини, діти, рідні та друзі, заради яких вони готові йти до кінця.",
+          "url": "https://x.com/3ironbrigade/status/2055543951273136332",
+          "publishedAt": "2026-05-16T07:00:42.000Z",
+          "source": "x",
+          "sourceLabel": "3ironbrigade",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Різні за віком, характерами, освітою та професіями. Вони не мріяли про подвиги та з...",
+          "summaryUk": "Різні за віком, характерами, освітою та професіями. Вони не мріяли про подвиги та звитягу. Але у лихий для країни час доля обрала їм один, спільний шлях — шлях воїна. Коли прийшов час взяти до рук зброю, вони не втікали, не ховалися, а з спокійною зосередженістю, з якою звикли працювати у мирний час, вирушили на захист України від споконвічного ворога. Щирі, мудрі, та цілеспрямовані, вони стали бійцями Залізної бригади та опанували нову для себе науку — бути солдатом-захисником. За їхніми спинами залишилися матері, дружини, діти, рідні та друзі, заради яких вони готові йти до кінця."
+        }
+      ]
+    },
+    {
       "id": "413-raid",
       "name": "413 Окремий Батальйон «RAID»",
       "aliases": [
@@ -789,7 +1108,7 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 7,
+      "officialItems": 6,
       "mentionItems": 0,
       "significantItems": 1,
       "strikeItems": 1,
@@ -829,23 +1148,6 @@
           "isReorg": false,
           "titleUk": "Фрагменти бойової роботи полку по ворожій піхоті.",
           "summaryUk": "Фрагменти бойової роботи полку по ворожій піхоті."
-        },
-        {
-          "id": "x-413_raid-038d684713ca0e",
-          "title": "ЦЕЙ ВИПУСК МАВ ВИЙТИ ЩЕ 26.03 Але саме в цей день ми понесли неймовірно тяжку втрату ...",
-          "summary": "ЦЕЙ ВИПУСК МАВ ВИЙТИ ЩЕ 26.03 Але саме в цей день ми понесли неймовірно тяжку втрату – героїчно загинув наш друг Вовк, Назар Тарнавський, воїн «Рейду» та ветеран ДУК ПС, перший голова «Основи Майбутнього Луцьк». Саме тому ця заключна серія присвячена йому. Як і будуть присвячені всі наступні «Воїни», як він того бажав. Шостий день вишколу – останній, і найважчий. Виморені щоденними алярмами, вимаршами, окопами, такмедом та роботою зі зброєю, учасники зроблять останній ривок. Заключна гра в страйкбол та марш-кидок в повній викладці на 5 кілометрів. За крок до омріяної перемоги над собою. Подивіться. Воно того вартує. Вишкіл Воїн | День шостий | Фінал вже на YouTube: https://youtu.be/tR5UrGf7a4s",
-          "url": "https://x.com/413_raid/status/2054608969876812078",
-          "publishedAt": "2026-05-13T17:05:25.000Z",
-          "source": "x",
-          "sourceLabel": "413_raid",
-          "origin": "official",
-          "score": 1,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "ЦЕЙ ВИПУСК МАВ ВИЙТИ ЩЕ 26.03 Але саме в цей день ми понесли неймовірно тяжку втрату ...",
-          "summaryUk": "ЦЕЙ ВИПУСК МАВ ВИЙТИ ЩЕ 26.03 Але саме в цей день ми понесли неймовірно тяжку втрату – героїчно загинув наш друг Вовк, Назар Тарнавський, воїн «Рейду» та ветеран ДУК ПС, перший голова «Основи Майбутнього Луцьк». Саме тому ця заключна серія присвячена йому. Як і будуть присвячені всі наступні «Воїни», як він того бажав. Шостий день вишколу – останній, і найважчий. Виморені щоденними алярмами, вимаршами, окопами, такмедом та роботою зі зброєю, учасники зроблять останній ривок. Заключна гра в страйкбол та марш-кидок в повній викладці на 5 кілометрів. За крок до омріяної перемоги над собою. Подивіться. Воно того вартує. Вишкіл Воїн | День шостий | Фінал вже на YouTube: https://youtu.be/tR5UrGf7a4s"
         },
         {
           "id": "x-413_raid-d5a5e0d21661ac",
@@ -1085,6 +1387,48 @@
           "isReorg": false,
           "titleUk": "У ніч на 14 травня Росія завдала масованого повітряного удару по об’єктах критичної інфраструктури України. Агресор застосував 731 засіб повітряного нападу: 67...",
           "summaryUk": "У ніч на 14 травня Росія завдала масованого повітряного удару по об’єктах критичної інфраструктури України. Агресор застосував 731 засіб повітряного нападу: 675 БПЛА типу \"Шахед\", 3 балістичні ракети повітряного базування Х-47М2 \"Кінжал\", 18 балістичних ракет \"Іскандер-М\", 35 крилатих ракет Х-101. Українські ППО збили: ◾️652 БПЛА противника ◾️29 крилатих ракет Х-101 ◾️12 балістичних ракет Іскандер-М Продовжуємо захищати наше небо. Стань з Україною! 🇺🇦"
+        }
+      ]
+    },
+    {
+      "id": "28-ombr",
+      "name": "28 ОМБр імені Лицарів Зимового Походу",
+      "aliases": [
+        "28 ОМБр імені Лицарів Зимового Походу",
+        "28 омбр",
+        "28th mechanized brigade"
+      ],
+      "sources": [
+        {
+          "platform": "x",
+          "handle": "28ombr",
+          "trusted": true
+        }
+      ],
+      "autoDiscovered": false,
+      "officialItems": 1,
+      "mentionItems": 0,
+      "significantItems": 0,
+      "strikeItems": 0,
+      "reorgItems": 0,
+      "hasOfficialFeed": true,
+      "items": [
+        {
+          "id": "x-28ombr-66d6069a89b967",
+          "title": "A new group of foreign volunteers has joined the 28th Brigade’s UAV Battalion “Spalakh” after completing training and combat preparation. Different...",
+          "summary": "A new group of foreign volunteers has joined the 28th Brigade’s UAV Battalion “Spalakh” after completing training and combat preparation. Different languages. Different countries. One goal — defeat the evil threatening far more than Ukraine. Join us. 🫡 #Ukraine",
+          "url": "https://x.com/28ombr/status/2054861517707706860",
+          "publishedAt": "2026-05-14T09:48:57.000Z",
+          "source": "x",
+          "sourceLabel": "28ombr",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "До складу батальйону БПЛА «Спалах» 28-ї бригади після проходження навчально-бойової підготовки приєдналася нова група іноземних добровольців. Різні...",
+          "summaryUk": "До складу батальйону БПЛА «Спалах» 28-ї бригади після проходження навчально-бойової підготовки приєдналася нова група іноземних добровольців. Різні мови. Різні країни. Мета одна — перемогти зло, яке загрожує набагато більше, ніж Україні. приєднуйтесь до нас 🫡 #Україна"
         }
       ]
     }
