@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-17T16:17:31.803Z",
+  "generatedAt": "2026-05-17T19:43:00.943Z",
   "windowDays": 3,
   "totals": {
-    "units": 11,
-    "unitsWithOfficialFeeds": 11,
+    "units": 10,
+    "unitsWithOfficialFeeds": 10,
     "autoDiscoveredUnits": 0,
-    "brigades": 11,
-    "brigadesWithOfficialFeeds": 11,
-    "officialItems": 87,
+    "brigades": 10,
+    "brigadesWithOfficialFeeds": 10,
+    "officialItems": 72,
     "mentionItems": 0,
-    "significantItems": 27,
-    "strikeItems": 19,
+    "significantItems": 26,
+    "strikeItems": 17,
     "reorgItems": 7
   },
   "brigades": [
@@ -30,10 +30,10 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 18,
+      "officialItems": 19,
       "mentionItems": 0,
       "significantItems": 7,
-      "strikeItems": 7,
+      "strikeItems": 6,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -53,23 +53,6 @@
           "isReorg": false,
           "titleUk": "У ніч на 17 травня (з 19:00 16 травня) противник атакував 287 ударними БпЛА типу Shahed (в т.ч....",
           "summaryUk": "У ніч на 17 травня (з 19:00 16 травня) противник атакував 287 ударними БпЛА типу Shahed (в т.ч. реактивними), Гербера, Італмас та дронами-імітаторами типу \"Пародія\" ⚡️ ЗБИТО/ПОДАВЛЕНО 279 ВОРОЖИХ БПЛА. В повітряному просторі нові групи ворожих БпЛА. Дотримуйтесь правил безпеки!"
-        },
-        {
-          "id": "x-GeneralStaffUA-358eec9115b552",
-          "title": "У ніч на 16 травня (з 18:00 15 травня) противник атакував 294 ударними БпЛА типу Shahed (в т.ч....",
-          "summary": "У ніч на 16 травня (з 18:00 15 травня) противник атакував 294 ударними БпЛА типу Shahed (в т.ч. реактивними), Гербера, Італмас та та дронами-імітаторами типу \"Пародія\" . ⚡️ ЗБИТО/ПОДАВЛЕНО 269 ВОРОЖИХ БПЛА. Атака триває, в повітряному просторі декілька ворожих БпЛА.",
-          "url": "https://x.com/GeneralStaffUA/status/2055540468579004810",
-          "publishedAt": "2026-05-16T06:46:52.000Z",
-          "source": "x",
-          "sourceLabel": "GeneralStaffUA",
-          "origin": "official",
-          "score": 5,
-          "strikeScore": 3,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "У ніч на 16 травня (з 18:00 15 травня) противник атакував 294 ударними БпЛА типу Shahed (в т.ч....",
-          "summaryUk": "У ніч на 16 травня (з 18:00 15 травня) противник атакував 294 ударними БпЛА типу Shahed (в т.ч. реактивними), Гербера, Італмас та та дронами-імітаторами типу \"Пародія\" . ⚡️ ЗБИТО/ПОДАВЛЕНО 269 ВОРОЖИХ БПЛА. Атака триває, в повітряному просторі декілька ворожих БпЛА."
         },
         {
           "id": "x-GeneralStaffUA-d79d5d1ed9aa7e",
@@ -155,6 +138,23 @@
           "isReorg": false,
           "titleUk": "RT Volodymyr Zelenskyy / Володимир Зеленський: Our long-range sanctions this week. Most of the operations are still ongoing, so the...",
           "summaryUk": "RT Volodymyr Zelenskyy / Володимир Зеленський Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our results. Be-200 amphibious aircraft, a Ka-27 helicopter, a cargo vessel carrying ammunition, a Pantsir-S1 surface‑to‑air missile and gun system, a Tor surface-to-air missile system, a Redut-2US communications unit, drones, and many other targets have been hit. Our long-range sanctions also struck Russian oil industry facilities and ships. Distances traversed: nearly 1,000 kilometers from the line of contact. These are our entirely justified responses to what the Russians are doing. We will continue to increase both the range and scale of these sanctions. I thank everyone working to build up our strength. I thank the warriors of the Armed Forces of Ukraine, the Security Service of Ukraine, and our intelligence agencies for their precision."
+        },
+        {
+          "id": "x-GeneralStaffUA-080ad58fc1ba33",
+          "title": "Масштабні навчання, які розгорнулися на базі 37 окремої бригади морської піхоти. Д...",
+          "summary": "Масштабні навчання, які розгорнулися на базі 37 окремої бригади морської піхоти. Досвідчені інструктори бригади провели комплексні заняття, головним завданням яких було відпрацювання відбиття штурму. #підгтовкаЗСУ2026",
+          "url": "https://x.com/GeneralStaffUA/status/2056058474417586601",
+          "publishedAt": "2026-05-17T17:05:14.000Z",
+          "source": "x",
+          "sourceLabel": "GeneralStaffUA",
+          "origin": "official",
+          "score": 2,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Масштабні навчання, які розгорнулися на базі 37 окремої бригади морської піхоти. Д...",
+          "summaryUk": "Масштабні навчання, які розгорнулися на базі 37 окремої бригади морської піхоти. Досвідчені інструктори бригади провели комплексні заняття, головним завданням яких було відпрацювання відбиття штурму. #підгтовкаЗСУ2026"
         },
         {
           "id": "x-GeneralStaffUA-d6f49b81b59c82",
@@ -318,21 +318,21 @@
           "summaryUk": "Загальні бойові втрати противника з 24.02.22 по 15.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 15.05.26"
         },
         {
-          "id": "x-StratCom_AFU-ee6e07fbc948ba",
-          "title": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізован...",
-          "summary": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізована бригада імені князя Мстислава Хороброго.",
-          "url": "https://x.com/StratCom_AFU/status/2054976516757332437",
-          "publishedAt": "2026-05-14T17:25:55.000Z",
+          "id": "x-StratCom_AFU-8a642d33aba9da",
+          "title": "Дякуємо кожній українці, яка обрала захищати Україну! Чоловіки та жінки, долучайт...",
+          "summary": "Дякуємо кожній українці, яка обрала захищати Україну! Чоловіки та жінки, долучайтеся до ЗСУ: https://army.gov.ua/ https://recruiting.mod.gov.ua/ https://lobbyx.army/⁩",
+          "url": "https://x.com/StratCom_AFU/status/2056062272011641143",
+          "publishedAt": "2026-05-17T17:20:20.000Z",
           "source": "x",
           "sourceLabel": "StratCom_AFU",
           "origin": "official",
-          "score": 1,
+          "score": 0,
           "strikeScore": 0,
           "reorgScore": 0,
           "isStrike": false,
           "isReorg": false,
-          "titleUk": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізован...",
-          "summaryUk": "Хоробра піхота. Крізь піт і втому впевнено тримають стрій. 66-та окрема механізована бригада імені князя Мстислава Хороброго."
+          "titleUk": "Дякуємо кожній українці, яка обрала захищати Україну! Чоловіки та жінки, долучайт...",
+          "summaryUk": "Дякуємо кожній українці, яка обрала захищати Україну! Чоловіки та жінки, долучайтеся до ЗСУ: https://army.gov.ua/ https://recruiting.mod.gov.ua/ https://lobbyx.army/⁩"
         }
       ]
     },
@@ -353,7 +353,7 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 12,
+      "officialItems": 10,
       "mentionItems": 0,
       "significantItems": 3,
       "strikeItems": 2,
@@ -429,23 +429,6 @@
           "summaryUk": "🇺🇦⚓«У смерті плани» — композиція, присвячена воїнам 36 окремої бригади морської піхоти імені контрадмірала Михайла Білинського. Її створила співачка lely45 в межах проєкту Фронтова студія спільно з Культурні сили."
         },
         {
-          "id": "x-UA_NAVY-11f2bd145b093e",
-          "title": "🇺🇦⚓Ніяких секретів. Просто багато поту, спаленого БК і чітке розуміння, що ми ро...",
-          "summary": "🇺🇦⚓Ніяких секретів. Просто багато поту, спаленого БК і чітке розуміння, що ми робитимемо з окупантами. 37-ма вміє навалювати! 😈 #37ОБрМП #UAmarines #МорськаПіхота",
-          "url": "https://x.com/UA_NAVY/status/2054992075326722543",
-          "publishedAt": "2026-05-14T18:27:45.000Z",
-          "source": "x",
-          "sourceLabel": "UA_NAVY",
-          "origin": "official",
-          "score": 1,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "🇺🇦⚓Ніяких секретів. Просто багато поту, спаленого БК і чітке розуміння, що ми ро...",
-          "summaryUk": "🇺🇦⚓Ніяких секретів. Просто багато поту, спаленого БК і чітке розуміння, що ми робитимемо з окупантами. 37-ма вміє навалювати! 😈 #37ОБрМП #UAmarines #МорськаПіхота"
-        },
-        {
           "id": "x-UA_NAVY-d3139a72374966",
           "title": "🇺🇦⚓ Справжня боєздатність гартується там, де дії доведені до автоматизму Детал...",
           "summary": "🇺🇦⚓ Справжня боєздатність гартується там, де дії доведені до автоматизму Детальніше https://www.facebook.com/navy.mil.gov.ua/posts/pfbid02HyRXeD4JsabK1eTPKrawBoQ6Nmq2B2DiXU1CVNJ31aVjedKe3Be6wvwB3Zr8bx2zl",
@@ -495,6 +478,23 @@
           "isReorg": false,
           "titleUk": "🇺🇦⚓Запрошуємо на службу до Військово-Морських Сил ЗС України! Захистимо Україн...",
           "summaryUk": "🇺🇦⚓Запрошуємо на службу до Військово-Морських Сил ЗС України! Захистимо Україну разом! https://uanavy.com.ua 097-041-1755"
+        },
+        {
+          "id": "x-UA_NAVY-69534c55c891a9",
+          "title": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24...",
+          "summary": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24 років на добровільну службу за контрактом. Це особливі умови, які включають конкуренті виплати та інші соціальні гарантії. Не чекай — дій! ⚡️ 📞 +38 050 426 0 426 🌐 http://18-24.army.gov.ua",
+          "url": "https://x.com/UA_NAVY/status/2055706928974557366",
+          "publishedAt": "2026-05-16T17:48:19.000Z",
+          "source": "x",
+          "sourceLabel": "UA_NAVY",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24...",
+          "summaryUk": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24 років на добровільну службу за контрактом. Це особливі умови, які включають конкуренті виплати та інші соціальні гарантії. Не чекай — дій! ⚡️ 📞 +38 050 426 0 426 🌐 http://18-24.army.gov.ua"
         }
       ]
     },
@@ -640,169 +640,6 @@
           "isReorg": false,
           "titleUk": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 ...",
           "summaryUk": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 українських захисників. Серед них – 38 гвардійців."
-        }
-      ]
-    },
-    {
-      "id": "gur-mo",
-      "name": "ГУР МО України",
-      "aliases": [
-        "ГУР МО України",
-        "гур",
-        "гур мо",
-        "defense intelligence",
-        "головне управління розвідки"
-      ],
-      "sources": [
-        {
-          "platform": "x",
-          "handle": "DefenceU",
-          "trusted": true
-        }
-      ],
-      "autoDiscovered": false,
-      "officialItems": 13,
-      "mentionItems": 0,
-      "significantItems": 1,
-      "strikeItems": 1,
-      "reorgItems": 0,
-      "hasOfficialFeed": true,
-      "items": [
-        {
-          "id": "x-DefenceU-571f3ff544b8c5",
-          "title": "President @ZelenskyyUa: Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our resu...",
-          "summary": "President @ZelenskyyUa: Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our results. Be-200 amphibious aircraft, a Ka-27 helicopter, a cargo vessel carrying ammunition, a Pantsir-S1 surface‑to‑air missile and gun system, a Tor surface-to-air missile system, a Redut-2US communications unit, drones, and many other targets have been hit. Our long-range sanctions also struck Russian oil industry facilities and ships. Distances traversed: nearly 1,000 kilometers from the line of contact.",
-          "url": "https://x.com/DefenceU/status/2055604056983265516",
-          "publishedAt": "2026-05-16T10:59:33.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "Президент @ZelenskyyUa: Наші довгострокові санкції цього тижня. Більшість операцій ще тривають, тому на відео лише частина нашого ре...",
-          "summaryUk": "Президент @ZelenskyyUa: Наші довгострокові санкції цього тижня. Більшість операцій ще тривають, тому відео містить лише частину наших результатів. Уражені літак-амфібія Бе-200, вертоліт Ка-27, вантажне судно з боєприпасами, зенітно-гарматний комплекс «Панцир-С1», зенітно-ракетний комплекс «Тор», зв’язок «Редут-2УС», безпілотники та багато інших цілей. Наші довгострокові санкції також торкнулися об’єктів і кораблів російської нафтової промисловості. Пройдені відстані: майже 1000 кілометрів від лінії зіткнення."
-        },
-        {
-          "id": "x-DefenceU-2c2f399d16d69b",
-          "title": "RT UNITED24 Media: ⚡️ A massive warehouse fire has shut down a major highway in Moscow.",
-          "summary": "RT UNITED24 Media ⚡️ A massive warehouse fire has shut down a major highway in Moscow.",
-          "url": "https://x.com/DefenceU/status/2056039574917247348",
-          "publishedAt": "2026-05-17T15:42:51.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "ЗМІ RT UNITED24: ⚡️ Масштабна пожежа на складі перекрила головну магістраль у Москві.",
-          "summaryUk": "RT UNITED24 Media ⚡️ Масштабна пожежа на складі перекрила головну магістраль у Москві."
-        },
-        {
-          "id": "x-DefenceU-cf6bee7066e52e",
-          "title": "💥Shahed down! 📹: 208th Anti-aircraft Missile Brigade",
-          "summary": "💥Shahed down! 📹: 208th Anti-aircraft Missile Brigade",
-          "url": "https://x.com/DefenceU/status/2056018077448376400",
-          "publishedAt": "2026-05-17T14:24:43.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "💥Шахнувся! 📹: 208-ма зенітно-ракетна бригада",
-          "summaryUk": "💥Шахнувся! 📹: 208-ма зенітно-ракетна бригада"
-        },
-        {
-          "id": "x-DefenceU-86cb5a4ea0f949",
-          "title": "RT Volodymyr Zelenskyy / Володимир Зеленський: Our responses to Russia’s prolongation of the war and its attacks on our cities and...",
-          "summary": "RT Volodymyr Zelenskyy / Володимир Зеленський Our responses to Russia’s prolongation of the war and its attacks on our cities and communities are entirely justified. This time, Ukrainian long-range sanctions reached the Moscow region, and we are clearly telling the Russians: their state must end its war. Ukrainian drone and missile manufacturers continue their work. I am grateful to the Security Service of Ukraine and all the Defense Forces of Ukraine for their precision. The distance from Ukraine’s state border is over 500 km. The concentration of Russian air defense in the Moscow region is the highest. But we are overcoming it. Glory to Ukraine!",
-          "url": "https://x.com/DefenceU/status/2055945065793470899",
-          "publishedAt": "2026-05-17T09:19:19.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "RT Volodymyr Zelenskyy / Володимир Зеленський: Our responses to Russia’s prolongation of the war and its attacks on our cities and...",
-          "summaryUk": "RT Volodymyr Zelenskyy / Володимир Зеленський Our responses to Russia’s prolongation of the war and its attacks on our cities and communities are entirely justified. This time, Ukrainian long-range sanctions reached the Moscow region, and we are clearly telling the Russians: their state must end its war. Ukrainian drone and missile manufacturers continue their work. I am grateful to the Security Service of Ukraine and all the Defense Forces of Ukraine for their precision. The distance from Ukraine’s state border is over 500 km. The concentration of Russian air defense in the Moscow region is the highest. But we are overcoming it. Glory to Ukraine!"
-        },
-        {
-          "id": "x-DefenceU-1d97c502cadcca",
-          "title": "🇺🇦💥 Secrets of Ukrainian drones",
-          "summary": "🇺🇦💥 Secrets of Ukrainian drones",
-          "url": "https://x.com/DefenceU/status/2055936955309793670",
-          "publishedAt": "2026-05-17T09:02:22.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "🇺🇦💥 Секрети українських дронів",
-          "summaryUk": "🇺🇦💥 Секрети українських дронів"
-        },
-        {
-          "id": "x-DefenceU-78b65b05c3fb6a",
-          "title": "«Under pressure like Mercury and Bowie» Action Bronson The combat losses of the enemy from February 24, 2022 to May 17, 2026.",
-          "summary": "«Under pressure like Mercury and Bowie» Action Bronson The combat losses of the enemy from February 24, 2022 to May 17, 2026.",
-          "url": "https://x.com/DefenceU/status/2055885703255351340",
-          "publishedAt": "2026-05-17T05:38:42.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "«Під тиском, як Мерк'юрі та Боуї» Бойовик Бронсон Бойові втрати противника з 24 лютого 2022 року по 17 травня 2026 року.",
-          "summaryUk": "«Під тиском, як Мерк'юрі та Боуї» Бойовик Бронсон Бойові втрати противника з 24 лютого 2022 року по 17 травня 2026 року."
-        },
-        {
-          "id": "x-DefenceU-861c1152caf405",
-          "title": "RT Volodymyr Zelenskyy / Володимир Зеленський: Russia took another step regarding Transnistria – the Russians simplified access to...",
-          "summary": "RT Volodymyr Zelenskyy / Володимир Зеленський Russia took another step regarding Transnistria – the Russians simplified access to citizenship for people originating from this region of Moldova. It is a very telling move. It means not only that Russia is looking for new soldiers in this way – because citizenship also entails military obligation – it is also Russia's way of staking a claim to Transnistria’s territory. Those in Moscow often tell various interlocutors that supposedly only Donbas interests them. In reality, far more than Donbas is at stake. We must respond to this. All the more so as the presence of the Russian military contingent and special services in Transnistria also poses a challenge for us. We are interested in a stable and strong Moldova.",
-          "url": "https://x.com/DefenceU/status/2055723893998993652",
-          "publishedAt": "2026-05-16T18:07:45.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "RT Volodymyr Zelenskyy / Володимир Зеленський: Russia took another step regarding Transnistria – the Russians simplified access to...",
-          "summaryUk": "RT Volodymyr Zelenskyy / Володимир Зеленський Russia took another step regarding Transnistria – the Russians simplified access to citizenship for people originating from this region of Moldova. It is a very telling move. It means not only that Russia is looking for new soldiers in this way – because citizenship also entails military obligation – it is also Russia's way of staking a claim to Transnistria’s territory. Those in Moscow often tell various interlocutors that supposedly only Donbas interests them. In reality, far more than Donbas is at stake. We must respond to this. All the more so as the presence of the Russian military contingent and special services in Transnistria also poses a challenge for us. We are interested in a stable and strong Moldova."
-        },
-        {
-          "id": "x-DefenceU-18044f64bfc994",
-          "title": "Before every flight comes preparation, discipline, and teamwork. 📹: 114th Tactical Aviation Brigade",
-          "summary": "Before every flight comes preparation, discipline, and teamwork. 📹: 114th Tactical Aviation Brigade",
-          "url": "https://x.com/DefenceU/status/2055674433944121521",
-          "publishedAt": "2026-05-16T15:39:12.000Z",
-          "source": "x",
-          "sourceLabel": "DefenceU",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "Перед кожним польотом — підготовка, дисципліна, командна робота. 📹: 114-та бригада тактичної авіації",
-          "summaryUk": "Перед кожним польотом — підготовка, дисципліна, командна робота. 📹: 114-та бригада тактичної авіації"
         }
       ]
     },
@@ -1013,7 +850,7 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 5,
+      "officialItems": 4,
       "mentionItems": 0,
       "significantItems": 2,
       "strikeItems": 2,
@@ -1087,23 +924,6 @@
           "isReorg": false,
           "titleUk": "Ми, разом з друзями, запалили Рязанський нафтопереробний завод, а ви що?",
           "summaryUk": "Ми, разом з друзями, запалили Рязанський нафтопереробний завод, а ви що? 🇺🇦 Unmanned Systems Forces: USF struck one of the largest oil refineries in russia On the night of May 15, operators of the 1st Separate Center, the @414magyarbirds, and the @Raid_413 in coordination with the @SOF_UKR, the Defence Intelligence of Ukraine and other components of the Defense Forces,"
-        },
-        {
-          "id": "x-413_raid-7fd8eae31f2586",
-          "title": "🪖 Чи були в часи Гетьманату «ухилянти»? 🪖 Чому ЗУНР проводила мобілізацію краще,...",
-          "summary": "🪖 Чи були в часи Гетьманату «ухилянти»? 🪖 Чому ЗУНР проводила мобілізацію краще, ніж УНР? 🪖 Як можна було «відкосити» від служби 100 років тому? У цьому подкасті з другом Гайдамакою говоримо про те, як змінювались підходи до мобілізації в різних арміях, де воювали українці, чому одні рішення спрацьовували, а інші — ні, та як досвід минулого перегукується з подіями сьогодення. Повна версія подкасту за посиланням: https://youtu.be/rmJBM9nacq4",
-          "url": "https://x.com/413_raid/status/2054977300261748966",
-          "publishedAt": "2026-05-14T17:29:02.000Z",
-          "source": "x",
-          "sourceLabel": "413_raid",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "🪖 Чи були в часи Гетьманату «ухилянти»? 🪖 Чому ЗУНР проводила мобілізацію краще,...",
-          "summaryUk": "🪖 Чи були в часи Гетьманату «ухилянти»? 🪖 Чому ЗУНР проводила мобілізацію краще, ніж УНР? 🪖 Як можна було «відкосити» від служби 100 років тому? У цьому подкасті з другом Гайдамакою говоримо про те, як змінювались підходи до мобілізації в різних арміях, де воювали українці, чому одні рішення спрацьовували, а інші — ні, та як досвід минулого перегукується з подіями сьогодення. Повна версія подкасту за посиланням: https://youtu.be/rmJBM9nacq4"
         }
       ]
     },
