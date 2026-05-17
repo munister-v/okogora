@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-17T08:39:22.367Z",
+  "generatedAt": "2026-05-17T10:43:25.100Z",
   "windowDays": 3,
   "totals": {
-    "units": 10,
-    "unitsWithOfficialFeeds": 10,
+    "units": 11,
+    "unitsWithOfficialFeeds": 11,
     "autoDiscoveredUnits": 0,
-    "brigades": 10,
-    "brigadesWithOfficialFeeds": 10,
-    "officialItems": 72,
-    "mentionItems": 0,
-    "significantItems": 20,
-    "strikeItems": 13,
+    "brigades": 11,
+    "brigadesWithOfficialFeeds": 11,
+    "officialItems": 87,
+    "mentionItems": 1,
+    "significantItems": 23,
+    "strikeItems": 15,
     "reorgItems": 7
   },
   "brigades": [
@@ -157,11 +157,11 @@
           "summaryUk": "Загальні бойові втрати противника з 24.02.22 по 16.05.26 орієнтовно склали / The estimated total combat losses of the enemy from 24.02.22 to 16.05.26"
         },
         {
-          "id": "x-GeneralStaffUA-ebd4191b414e5b",
-          "title": "Тварини на фронті — це вже невід’ємна частина буднів українських воїнів. Врятован...",
-          "summary": "Тварини на фронті — це вже невід’ємна частина буднів українських воїнів. Врятованих пухнастиків не кидають напризволяще, а возять із собою під час ротацій або ж прилаштовують у добрі руки у тилу. ЗСУ — люди, які захищають кожне життя. Фото - 14 АК та 65 ОМБр",
-          "url": "https://x.com/GeneralStaffUA/status/2055913658518024315",
-          "publishedAt": "2026-05-17T07:29:47.000Z",
+          "id": "x-GeneralStaffUA-c9c44e30d91440",
+          "title": "День памʼяті жертв політичних репресій – щорічний національний памʼятний день в ...",
+          "summary": "День памʼяті жертв політичних репресій – щорічний національний памʼятний день в Україні, що припадає на третю неділю травня. 19 травня 1938 року у вʼязницях НКВД у Києві було розстріляно 563 людини.",
+          "url": "https://x.com/GeneralStaffUA/status/2055939837404868621",
+          "publishedAt": "2026-05-17T09:13:49.000Z",
           "source": "x",
           "sourceLabel": "GeneralStaffUA",
           "origin": "official",
@@ -170,8 +170,8 @@
           "reorgScore": 0,
           "isStrike": false,
           "isReorg": false,
-          "titleUk": "Тварини на фронті — це вже невід’ємна частина буднів українських воїнів. Врятован...",
-          "summaryUk": "Тварини на фронті — це вже невід’ємна частина буднів українських воїнів. Врятованих пухнастиків не кидають напризволяще, а возять із собою під час ротацій або ж прилаштовують у добрі руки у тилу. ЗСУ — люди, які захищають кожне життя. Фото - 14 АК та 65 ОМБр"
+          "titleUk": "День памʼяті жертв політичних репресій – щорічний національний памʼятний день в ...",
+          "summaryUk": "День памʼяті жертв політичних репресій – щорічний національний памʼятний день в Україні, що припадає на третю неділю травня. 19 травня 1938 року у вʼязницях НКВД у Києві було розстріляно 563 людини."
         }
       ]
     },
@@ -353,9 +353,9 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 12,
+      "officialItems": 13,
       "mentionItems": 0,
-      "significantItems": 2,
+      "significantItems": 3,
       "strikeItems": 2,
       "reorgItems": 0,
       "hasOfficialFeed": true,
@@ -393,6 +393,23 @@
           "isReorg": false,
           "titleUk": "🇺🇦⚓За минулу добу, станом на 06:00 17.05.2026, силами та засобами Військово-Морських Си...",
           "summaryUk": "🇺🇦⚓За минулу добу, станом на 06:00 17.05.2026, силами та засобами Військово-Морських Сил Збройних Сил України у складі угруповань було збито 14 ударних БпЛА типу «SHAHED/Гербера». Разом до перемоги! Слава Україні"
+        },
+        {
+          "id": "x-UA_NAVY-95a814dcb9cd0c",
+          "title": "🇺🇦⚓Олександр - командир десантно-штурмового взводу в 137 окремий Батальйон Морсь...",
+          "summary": "🇺🇦⚓Олександр - командир десантно-штурмового взводу в 137 окремий Батальйон Морської піхоти 35 ОБрМП Детальніше https://www.facebook.com/reel/1521609582901463",
+          "url": "https://x.com/UA_NAVY/status/2055939703484920273",
+          "publishedAt": "2026-05-17T09:13:17.000Z",
+          "source": "x",
+          "sourceLabel": "UA_NAVY",
+          "origin": "official",
+          "score": 2,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "🇺🇦⚓Олександр - командир десантно-штурмового взводу в 137 окремий Батальйон Морсь...",
+          "summaryUk": "🇺🇦⚓Олександр - командир десантно-штурмового взводу в 137 окремий Батальйон Морської піхоти 35 ОБрМП Детальніше https://www.facebook.com/reel/1521609582901463"
         },
         {
           "id": "x-UA_NAVY-7341c761697605",
@@ -478,23 +495,6 @@
           "isReorg": false,
           "titleUk": "🇺🇦⚓Запрошуємо на службу до Військово-Морських Сил ЗС України! Захистимо Україн...",
           "summaryUk": "🇺🇦⚓Запрошуємо на службу до Військово-Морських Сил ЗС України! Захистимо Україну разом! https://uanavy.com.ua 097-041-1755"
-        },
-        {
-          "id": "x-UA_NAVY-69534c55c891a9",
-          "title": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24...",
-          "summary": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24 років на добровільну службу за контрактом. Це особливі умови, які включають конкуренті виплати та інші соціальні гарантії. Не чекай — дій! ⚡️ 📞 +38 050 426 0 426 🌐 http://18-24.army.gov.ua",
-          "url": "https://x.com/UA_NAVY/status/2055706928974557366",
-          "publishedAt": "2026-05-16T17:48:19.000Z",
-          "source": "x",
-          "sourceLabel": "UA_NAVY",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24...",
-          "summaryUk": "🇺🇦⚓426 окремий полк безпілотних систем запрошує до своїх лав молодь віком від 18-24 років на добровільну службу за контрактом. Це особливі умови, які включають конкуренті виплати та інші соціальні гарантії. Не чекай — дій! ⚡️ 📞 +38 050 426 0 426 🌐 http://18-24.army.gov.ua"
         }
       ]
     },
@@ -516,7 +516,7 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 6,
+      "officialItems": 7,
       "mentionItems": 0,
       "significantItems": 4,
       "strikeItems": 2,
@@ -609,6 +609,23 @@
           "summaryUk": "Усі наші зусилля направлені на те, щоб допомогти піхотинцю. Саме від дій піхоти залежить, чи відстояли ми нашу землю. І саме піхота найбільше ризикує життям, адже ворог не шкодує власних сил і засобів навіть заради клаптика української території."
         },
         {
+          "id": "x-khartiiabrygada-f7f5e3f288ea31",
+          "title": "У День пам’яті жертв політичних репресій ми вшановуємо всіх постраждалих від рос...",
+          "summary": "У День пам’яті жертв політичних репресій ми вшановуємо всіх постраждалих від російської тиранії, яка протягом віків винищувала нашу ідентичність і придушувала будь-яке інакодумство. Сьогодні ми творимо державу на засадах історичної пам’яті, яку виборювали покоління українців.",
+          "url": "https://x.com/khartiiabrygada/status/2055932368683164136",
+          "publishedAt": "2026-05-17T08:44:08.000Z",
+          "source": "x",
+          "sourceLabel": "khartiiabrygada",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "У День пам’яті жертв політичних репресій ми вшановуємо всіх постраждалих від рос...",
+          "summaryUk": "У День пам’яті жертв політичних репресій ми вшановуємо всіх постраждалих від російської тиранії, яка протягом віків винищувала нашу ідентичність і придушувала будь-яке інакодумство. Сьогодні ми творимо державу на засадах історичної пам’яті, яку виборювали покоління українців."
+        },
+        {
           "id": "x-khartiiabrygada-146b9d0bfc1e4c",
           "title": "Вітаємо з Днем народження Святослава Вакарчука – щирого друга «Хартії», який уже ...",
           "summary": "Вітаємо з Днем народження Святослава Вакарчука – щирого друга «Хартії», який уже давно підтримує наш підрозділ. Многая літа!",
@@ -624,6 +641,169 @@
           "isReorg": false,
           "titleUk": "Вітаємо з Днем народження Святослава Вакарчука – щирого друга «Хартії», який уже ...",
           "summaryUk": "Вітаємо з Днем народження Святослава Вакарчука – щирого друга «Хартії», який уже давно підтримує наш підрозділ. Многая літа!"
+        }
+      ]
+    },
+    {
+      "id": "gur-mo",
+      "name": "ГУР МО України",
+      "aliases": [
+        "ГУР МО України",
+        "гур",
+        "гур мо",
+        "defense intelligence",
+        "головне управління розвідки"
+      ],
+      "sources": [
+        {
+          "platform": "x",
+          "handle": "DefenceU",
+          "trusted": true
+        }
+      ],
+      "autoDiscovered": false,
+      "officialItems": 13,
+      "mentionItems": 0,
+      "significantItems": 1,
+      "strikeItems": 1,
+      "reorgItems": 0,
+      "hasOfficialFeed": true,
+      "items": [
+        {
+          "id": "x-DefenceU-571f3ff544b8c5",
+          "title": "President @ZelenskyyUa: Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our resu...",
+          "summary": "President @ZelenskyyUa: Our long-range sanctions this week. Most of the operations are still ongoing, so the video captures only a portion of our results. Be-200 amphibious aircraft, a Ka-27 helicopter, a cargo vessel carrying ammunition, a Pantsir-S1 surface‑to‑air missile and gun system, a Tor surface-to-air missile system, a Redut-2US communications unit, drones, and many other targets have been hit. Our long-range sanctions also struck Russian oil industry facilities and ships. Distances traversed: nearly 1,000 kilometers from the line of contact.",
+          "url": "https://x.com/DefenceU/status/2055604056983265516",
+          "publishedAt": "2026-05-16T10:59:33.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "Президент @ZelenskyyUa: Наші довгострокові санкції цього тижня. Більшість операцій ще тривають, тому на відео лише частина нашого ре...",
+          "summaryUk": "Президент @ZelenskyyUa: Наші довгострокові санкції цього тижня. Більшість операцій ще тривають, тому відео містить лише частину наших результатів. Уражено літак-амфібію Бе-200, вертоліт Ка-27, вантажне судно з боєприпасами, зенітно-гарматний комплекс «Панцир-С1», зенітно-ракетний комплекс «Тор», зв’язок «Редут-2УС», безпілотники та багато інших цілей. Наші довгострокові санкції також торкнулися об’єктів і кораблів російської нафтової промисловості. Пройдені відстані: майже 1000 кілометрів від лінії зіткнення."
+        },
+        {
+          "id": "x-DefenceU-86cb5a4ea0f949",
+          "title": "RT Volodymyr Zelenskyy / Володимир Зеленський: Our responses to Russia’s prolongation of the war and its attacks on our cities and...",
+          "summary": "RT Volodymyr Zelenskyy / Володимир Зеленський Our responses to Russia’s prolongation of the war and its attacks on our cities and communities are entirely justified. This time, Ukrainian long-range sanctions reached the Moscow region, and we are clearly telling the Russians: their state must end its war. Ukrainian drone and missile manufacturers continue their work. I am grateful to the Security Service of Ukraine and all the Defense Forces of Ukraine for their precision. The distance from Ukraine’s state border is over 500 km. The concentration of Russian air defense in the Moscow region is the highest. But we are overcoming it. Glory to Ukraine!",
+          "url": "https://x.com/DefenceU/status/2055945065793470899",
+          "publishedAt": "2026-05-17T09:19:19.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "RT Volodymyr Zelenskyy / Володимир Зеленський: Our responses to Russia’s prolongation of the war and its attacks on our cities and...",
+          "summaryUk": "RT Volodymyr Zelenskyy / Володимир Зеленський Our responses to Russia’s prolongation of the war and its attacks on our cities and communities are entirely justified. This time, Ukrainian long-range sanctions reached the Moscow region, and we are clearly telling the Russians: their state must end its war. Ukrainian drone and missile manufacturers continue their work. I am grateful to the Security Service of Ukraine and all the Defense Forces of Ukraine for their precision. The distance from Ukraine’s state border is over 500 km. The concentration of Russian air defense in the Moscow region is the highest. But we are overcoming it. Glory to Ukraine!"
+        },
+        {
+          "id": "x-DefenceU-1d97c502cadcca",
+          "title": "🇺🇦💥 Secrets of Ukrainian drones",
+          "summary": "🇺🇦💥 Secrets of Ukrainian drones",
+          "url": "https://x.com/DefenceU/status/2055936955309793670",
+          "publishedAt": "2026-05-17T09:02:22.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "🇺🇦💥 Секрети українських дронів",
+          "summaryUk": "🇺🇦💥 Секрети українських дронів"
+        },
+        {
+          "id": "x-DefenceU-78b65b05c3fb6a",
+          "title": "«Under pressure like Mercury and Bowie» Action Bronson The combat losses of the enemy from February 24, 2022 to May 17, 2026.",
+          "summary": "«Under pressure like Mercury and Bowie» Action Bronson The combat losses of the enemy from February 24, 2022 to May 17, 2026.",
+          "url": "https://x.com/DefenceU/status/2055885703255351340",
+          "publishedAt": "2026-05-17T05:38:42.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "«Під тиском, як Мерк'юрі та Боуї» Бойовик Бронсон Бойові втрати противника з 24 лютого 2022 року по 17 травня 2026 року.",
+          "summaryUk": "«Під тиском, як Мерк'юрі та Боуї» Бойовик Бронсон Бойові втрати противника з 24 лютого 2022 року по 17 травня 2026 року."
+        },
+        {
+          "id": "x-DefenceU-861c1152caf405",
+          "title": "RT Volodymyr Zelenskyy / Володимир Зеленський: Russia took another step regarding Transnistria – the Russians simplified access to...",
+          "summary": "RT Volodymyr Zelenskyy / Володимир Зеленський Russia took another step regarding Transnistria – the Russians simplified access to citizenship for people originating from this region of Moldova. It is a very telling move. It means not only that Russia is looking for new soldiers in this way – because citizenship also entails military obligation – it is also Russia's way of staking a claim to Transnistria’s territory. Those in Moscow often tell various interlocutors that supposedly only Donbas interests them. In reality, far more than Donbas is at stake. We must respond to this. All the more so as the presence of the Russian military contingent and special services in Transnistria also poses a challenge for us. We are interested in a stable and strong Moldova.",
+          "url": "https://x.com/DefenceU/status/2055723893998993652",
+          "publishedAt": "2026-05-16T18:07:45.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "RT Volodymyr Zelenskyy / Володимир Зеленський: Russia took another step regarding Transnistria – the Russians simplified access to...",
+          "summaryUk": "RT Volodymyr Zelenskyy / Володимир Зеленський Russia took another step regarding Transnistria – the Russians simplified access to citizenship for people originating from this region of Moldova. It is a very telling move. It means not only that Russia is looking for new soldiers in this way – because citizenship also entails military obligation – it is also Russia's way of staking a claim to Transnistria’s territory. Those in Moscow often tell various interlocutors that supposedly only Donbas interests them. In reality, far more than Donbas is at stake. We must respond to this. All the more so as the presence of the Russian military contingent and special services in Transnistria also poses a challenge for us. We are interested in a stable and strong Moldova."
+        },
+        {
+          "id": "x-DefenceU-18044f64bfc994",
+          "title": "Before every flight comes preparation, discipline, and teamwork. 📹: 114th Tactical Aviation Brigade",
+          "summary": "Before every flight comes preparation, discipline, and teamwork. 📹: 114th Tactical Aviation Brigade",
+          "url": "https://x.com/DefenceU/status/2055674433944121521",
+          "publishedAt": "2026-05-16T15:39:12.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Перед кожним польотом — підготовка, дисципліна, командна робота. 📹: 114-та бригада тактичної авіації",
+          "summaryUk": "Перед кожним польотом — підготовка, дисципліна, командна робота. 📹: 114-та бригада тактичної авіації"
+        },
+        {
+          "id": "x-DefenceU-f598844e5170ea",
+          "title": "Our weekly update 🇺🇦💪",
+          "summary": "Our weekly update 🇺🇦💪",
+          "url": "https://x.com/DefenceU/status/2055566414715486679",
+          "publishedAt": "2026-05-16T08:29:58.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Наше щотижневе оновлення 🇺🇦💪",
+          "summaryUk": "Наше щотижневе оновлення 🇺🇦💪"
+        },
+        {
+          "id": "x-DefenceU-b2ca23848a79ea",
+          "title": "“Humankind cannot bear very much reality.” T. S. Eliot The combat losses of the enemy from February 24, 2022 to May 16, 2026.",
+          "summary": "“Humankind cannot bear very much reality.” T. S. Eliot The combat losses of the enemy from February 24, 2022 to May 16, 2026.",
+          "url": "https://x.com/DefenceU/status/2055525698459050031",
+          "publishedAt": "2026-05-16T05:48:10.000Z",
+          "source": "x",
+          "sourceLabel": "DefenceU",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "«Людство не може терпіти багато реальності». Т. С. Еліот Бойові втрати противника з 24 лютого 2022 року по 16 травня 2026 року.",
+          "summaryUk": "«Людство не може терпіти багато реальності». Т. С. Еліот Бойові втрати противника з 24 лютого 2022 року по 16 травня 2026 року."
         }
       ]
     },
@@ -702,6 +882,134 @@
           "isReorg": true,
           "titleUk": "⚡️Як стати айтівцем у війську — стрім про інновації Трійки вже стартував! На всі з...",
           "summaryUk": "⚡️Як стати айтівцем у війську — стрім про інновації Трійки вже стартував! На всі запитання про цифрові професії в Третьому армійському корпусі відповідає начальник управління безпілотних систем, друг Філ. Вмикай на YouTube та пиши свої запитання в чаті ефіру: https://youtube.com/live/vnur7VCGNxw"
+        }
+      ]
+    },
+    {
+      "id": "ngu",
+      "name": "Національна Гвардія України",
+      "aliases": [
+        "Національна Гвардія України",
+        "нгу",
+        "національна гвардія україни",
+        "national guard of ukraine"
+      ],
+      "sources": [
+        {
+          "platform": "x",
+          "handle": "ng_ukraine",
+          "trusted": true
+        }
+      ],
+      "autoDiscovered": false,
+      "officialItems": 5,
+      "mentionItems": 1,
+      "significantItems": 2,
+      "strikeItems": 2,
+      "reorgItems": 0,
+      "hasOfficialFeed": true,
+      "items": [
+        {
+          "id": "x-ng_ukraine-2abf37a92f9023",
+          "title": "RT Олександр Півненко: Сучасна війна дедалі більше перетворюється на протистояння...",
+          "summary": "RT Олександр Півненко Сучасна війна дедалі більше перетворюється на протистояння технологій. На цьому відео – робота операторів БПЛА бригади Нацгвардії «Червона Калина», які виявляють і знищують дрони противника, які той планував використати проти наших оборонців.",
+          "url": "https://x.com/ng_ukraine/status/2055572541192679482",
+          "publishedAt": "2026-05-16T08:51:02.000Z",
+          "source": "x",
+          "sourceLabel": "ng_ukraine",
+          "origin": "official",
+          "score": 5,
+          "strikeScore": 3,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "RT Олександр Півненко: Сучасна війна дедалі більше перетворюється на протистояння...",
+          "summaryUk": "RT Олександр Півненко Сучасна війна дедалі більше перетворюється на протистояння технологій. На цьому відео – робота операторів БПЛА бригади Нацгвардії «Червона Калина», які виявляють і знищують дрони противника, які той планував використати проти наших оборонців."
+        },
+        {
+          "id": "pool-f879580597486d",
+          "title": "❗️За даними супутникового моніторингу, значне горіння відкритого типу зафіксовано на території авіабази Бельбек (тимчасово окупована Кр...",
+          "summary": "❗️За даними супутникового моніторингу, на території авіабази Бельбек (тимчасово окупований Крим) зафіксовано значне горіння відкритого типу, ймовірно, внаслідок нічного обстрілу ЗСУ.",
+          "url": "https://x.com/front_ukrainian/status/2055915835835765155",
+          "publishedAt": "2026-05-17T07:38:26.000Z",
+          "source": "x",
+          "sourceLabel": "front_ukrainian",
+          "origin": "mention",
+          "score": 2,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "❗️За даними супутникового моніторингу, значне горіння відкритого типу зафіксовано на території авіабази Бельбек (тимчасово окупована Кр...",
+          "summaryUk": "❗️За даними супутникового моніторингу, на території авіабази Бельбек (тимчасово окупований Крим) зафіксовано значне горіння відкритого типу, ймовірно, внаслідок нічного обстрілу ЗСУ."
+        },
+        {
+          "id": "x-ng_ukraine-d80ece4cde1f47",
+          "title": "RT Олександр Півненко: 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дя...",
+          "summary": "RT Олександр Півненко 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дякую всім, хто залучений до процесу повернення наших захисників!",
+          "url": "https://x.com/ng_ukraine/status/2055200325066240108",
+          "publishedAt": "2026-05-15T08:14:44.000Z",
+          "source": "x",
+          "sourceLabel": "ng_ukraine",
+          "origin": "official",
+          "score": 1,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "RT Олександр Півненко: 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дя...",
+          "summaryUk": "RT Олександр Півненко 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дякую всім, хто залучений до процесу повернення наших захисників!"
+        },
+        {
+          "id": "x-ng_ukraine-adf05128017bf9",
+          "title": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «С...",
+          "summary": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «Спартан» долітає до російської логістики в її глибокому тилу – і водночас нагадує: українці вже поруч. І так, одного дня «Червона Рута» знову звучатиме над українською «Донбас Ареною» 🇺🇦",
+          "url": "https://x.com/ng_ukraine/status/2055535422374084706",
+          "publishedAt": "2026-05-16T06:26:49.000Z",
+          "source": "x",
+          "sourceLabel": "ng_ukraine",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «С...",
+          "summaryUk": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «Спартан» долітає до російської логістики в її глибокому тилу – і водночас нагадує: українці вже поруч. І так, одного дня «Червона Рута» знову звучатиме над українською «Донбас Ареною» 🇺🇦"
+        },
+        {
+          "id": "x-ng_ukraine-232228df9cb55c",
+          "title": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!",
+          "summary": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!",
+          "url": "https://x.com/ng_ukraine/status/2055261603684049260",
+          "publishedAt": "2026-05-15T12:18:45.000Z",
+          "source": "x",
+          "sourceLabel": "ng_ukraine",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!",
+          "summaryUk": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!"
+        },
+        {
+          "id": "x-ng_ukraine-5416be48455396",
+          "title": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 ...",
+          "summary": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 українських захисників. Серед них – 38 гвардійців.",
+          "url": "https://x.com/ng_ukraine/status/2055201089641648515",
+          "publishedAt": "2026-05-15T08:18:18.000Z",
+          "source": "x",
+          "sourceLabel": "ng_ukraine",
+          "origin": "official",
+          "score": 0,
+          "strikeScore": 0,
+          "reorgScore": 0,
+          "isStrike": false,
+          "isReorg": false,
+          "titleUk": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 ...",
+          "summaryUk": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 українських захисників. Серед них – 38 гвардійців."
         }
       ]
     },
@@ -813,117 +1121,6 @@
           "isReorg": false,
           "titleUk": "🪖 Чи були в часи Гетьманату «ухилянти»? 🪖 Чому ЗУНР проводила мобілізацію краще,...",
           "summaryUk": "🪖 Чи були в часи Гетьманату «ухилянти»? 🪖 Чому ЗУНР проводила мобілізацію краще, ніж УНР? 🪖 Як можна було «відкосити» від служби 100 років тому? У цьому подкасті з другом Гайдамакою говоримо про те, як змінювались підходи до мобілізації в різних арміях, де воювали українці, чому одні рішення спрацьовували, а інші — ні, та як досвід минулого перегукується з подіями сьогодення. Повна версія подкасту за посиланням: https://youtu.be/rmJBM9nacq4"
-        }
-      ]
-    },
-    {
-      "id": "ngu",
-      "name": "Національна Гвардія України",
-      "aliases": [
-        "Національна Гвардія України",
-        "нгу",
-        "національна гвардія україни",
-        "national guard of ukraine"
-      ],
-      "sources": [
-        {
-          "platform": "x",
-          "handle": "ng_ukraine",
-          "trusted": true
-        }
-      ],
-      "autoDiscovered": false,
-      "officialItems": 5,
-      "mentionItems": 0,
-      "significantItems": 1,
-      "strikeItems": 1,
-      "reorgItems": 0,
-      "hasOfficialFeed": true,
-      "items": [
-        {
-          "id": "x-ng_ukraine-2abf37a92f9023",
-          "title": "RT Олександр Півненко: Сучасна війна дедалі більше перетворюється на протистояння...",
-          "summary": "RT Олександр Півненко Сучасна війна дедалі більше перетворюється на протистояння технологій. На цьому відео – робота операторів БПЛА бригади Нацгвардії «Червона Калина», які виявляють і знищують дрони противника, які той планував використати проти наших оборонців.",
-          "url": "https://x.com/ng_ukraine/status/2055572541192679482",
-          "publishedAt": "2026-05-16T08:51:02.000Z",
-          "source": "x",
-          "sourceLabel": "ng_ukraine",
-          "origin": "official",
-          "score": 5,
-          "strikeScore": 3,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "RT Олександр Півненко: Сучасна війна дедалі більше перетворюється на протистояння...",
-          "summaryUk": "RT Олександр Півненко Сучасна війна дедалі більше перетворюється на протистояння технологій. На цьому відео – робота операторів БПЛА бригади Нацгвардії «Червона Калина», які виявляють і знищують дрони противника, які той планував використати проти наших оборонців."
-        },
-        {
-          "id": "x-ng_ukraine-d80ece4cde1f47",
-          "title": "RT Олександр Півненко: 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дя...",
-          "summary": "RT Олександр Півненко 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дякую всім, хто залучений до процесу повернення наших захисників!",
-          "url": "https://x.com/ng_ukraine/status/2055200325066240108",
-          "publishedAt": "2026-05-15T08:14:44.000Z",
-          "source": "x",
-          "sourceLabel": "ng_ukraine",
-          "origin": "official",
-          "score": 1,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "RT Олександр Півненко: 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дя...",
-          "summaryUk": "RT Олександр Півненко 🇺🇦 Сьогодні з полону звільнено ще 38 нагцвардійців! Щиро дякую всім, хто залучений до процесу повернення наших захисників!"
-        },
-        {
-          "id": "x-ng_ukraine-adf05128017bf9",
-          "title": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «С...",
-          "summary": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «Спартан» долітає до російської логістики в її глибокому тилу – і водночас нагадує: українці вже поруч. І так, одного дня «Червона Рута» знову звучатиме над українською «Донбас Ареною» 🇺🇦",
-          "url": "https://x.com/ng_ukraine/status/2055535422374084706",
-          "publishedAt": "2026-05-16T06:26:49.000Z",
-          "source": "x",
-          "sourceLabel": "ng_ukraine",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «С...",
-          "summaryUk": "Донецьк. Тимчасово окупований, але не забутий. Мідл-страйк гвардійців з бригади «Спартан» долітає до російської логістики в її глибокому тилу – і водночас нагадує: українці вже поруч. І так, одного дня «Червона Рута» знову звучатиме над українською «Донбас Ареною» 🇺🇦"
-        },
-        {
-          "id": "x-ng_ukraine-232228df9cb55c",
-          "title": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!",
-          "summary": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!",
-          "url": "https://x.com/ng_ukraine/status/2055261603684049260",
-          "publishedAt": "2026-05-15T12:18:45.000Z",
-          "source": "x",
-          "sourceLabel": "ng_ukraine",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!",
-          "summaryUk": "Прорідження рядів армії окупанта триває – нацгвардійці тримають темп!"
-        },
-        {
-          "id": "x-ng_ukraine-5416be48455396",
-          "title": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 ...",
-          "summary": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 українських захисників. Серед них – 38 гвардійців.",
-          "url": "https://x.com/ng_ukraine/status/2055201089641648515",
-          "publishedAt": "2026-05-15T08:18:18.000Z",
-          "source": "x",
-          "sourceLabel": "ng_ukraine",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 ...",
-          "summaryUk": "Щемливі кадри з обміну ❤️‍🩹 У перший день великого обміну «1000 на 1000» звільнено 205 українських захисників. Серед них – 38 гвардійців."
         }
       ]
     },
@@ -1100,17 +1297,18 @@
       ]
     },
     {
-      "id": "28-ombr",
-      "name": "28 ОМБр імені Лицарів Зимового Походу",
+      "id": "air-force-ua",
+      "name": "Повітряні Сили ЗСУ",
       "aliases": [
-        "28 ОМБр імені Лицарів Зимового Походу",
-        "28 омбр",
-        "28th mechanized brigade"
+        "Повітряні Сили ЗСУ",
+        "повітряні сили",
+        "air force ua",
+        "пс зсу"
       ],
       "sources": [
         {
           "platform": "x",
-          "handle": "28ombr",
+          "handle": "KpsZSU",
           "trusted": true
         }
       ],
@@ -1123,21 +1321,21 @@
       "hasOfficialFeed": true,
       "items": [
         {
-          "id": "x-28ombr-66d6069a89b967",
-          "title": "A new group of foreign volunteers has joined the 28th Brigade’s UAV Battalion “Spalakh” after completing training and combat preparation. Different...",
-          "summary": "A new group of foreign volunteers has joined the 28th Brigade’s UAV Battalion “Spalakh” after completing training and combat preparation. Different languages. Different countries. One goal — defeat the evil threatening far more than Ukraine. Join us. 🫡 #Ukraine",
-          "url": "https://x.com/28ombr/status/2054861517707706860",
-          "publishedAt": "2026-05-14T09:48:57.000Z",
+          "id": "x-KpsZSU-f2f1af1fa00632",
+          "title": "Air Fighter is back on the air",
+          "summary": "Air Fighter is back on the air",
+          "url": "https://x.com/KpsZSU/status/2055213344013914469",
+          "publishedAt": "2026-05-15T09:06:59.000Z",
           "source": "x",
-          "sourceLabel": "28ombr",
+          "sourceLabel": "KpsZSU",
           "origin": "official",
           "score": 0,
           "strikeScore": 0,
           "reorgScore": 0,
           "isStrike": false,
           "isReorg": false,
-          "titleUk": "До складу батальйону БПЛА «Спалах» 28-ї бригади після проходження навчально-бойової підготовки приєдналася нова група іноземних добровольців. Різні...",
-          "summaryUk": "До складу батальйону БПЛА «Спалах» 28-ї бригади після проходження навчально-бойової підготовки приєдналася нова група іноземних добровольців. Різні мови. Різні країни. Мета одна — перемогти зло, яке загрожує набагато більше, ніж Україні. приєднуйтесь до нас 🫡 #Україна"
+          "titleUk": "Air Fighter знову в ефірі",
+          "summaryUk": "Air Fighter знову в ефірі"
         }
       ]
     }
