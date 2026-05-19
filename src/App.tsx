@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState, useEffect, lazy, Suspense, useMemo } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower } from 'lucide-react';
+import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower, Home, Map, Radio, MoreHorizontal, ChevronDown, X } from 'lucide-react';
 import { Post, InvestigationArticle } from './types';
 import { formatPreview, normalizePosts, postTelegramUrl, resolveImageUrl } from './lib/posts';
 import { setSeo } from './lib/seo';
@@ -592,42 +592,16 @@ export default function App() {
               ТЕЛЕГРАМ <ArrowUpRight className="w-3 h-3" />
             </a>
           </div>
-          {/* Mobile hamburger */}
-          <button
-            className="md:hidden flex flex-col gap-[5px] p-1"
-            onClick={() => setMobileMenuOpen(v => !v)}
-            aria-label="Меню"
-          >
-            <span className={`block w-5 h-[2px] bg-[#c9a227] transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
-            <span className={`block w-5 h-[2px] bg-[#c9a227] transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`} />
-            <span className={`block w-5 h-[2px] bg-[#c9a227] transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
-          </button>
+          {/* Mobile: Telegram link (compact) */}
+          <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
+            className="md:hidden flex items-center gap-1 font-mono text-[10px] font-bold text-[#c9a227] uppercase tracking-widest">
+            TG <ArrowUpRight className="w-3 h-3" />
+          </a>
         </div>
-        {/* Mobile dropdown */}
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t border-[#c9a227]/10 bg-[#1c1c12] px-4 py-5 flex flex-col gap-4 font-mono text-[11px] uppercase tracking-widest">
-            <Link to="/" className="text-white/60 hover:text-[#c9a227] transition-colors py-1" onClick={() => setMobileMenuOpen(false)}>Головна</Link>
-            <Link to="/targets" className="text-[#c9a227] font-bold flex items-center gap-1 py-1" onClick={() => setMobileMenuOpen(false)}>
-              <Target className="w-3 h-3" /> БАЗА ЦІЛЕЙ
-            </Link>
-            <button type="button" onClick={() => openSection('map')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">Карта</button>
-            <button type="button" onClick={() => openSection('brigades')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">Підрозділи</button>
-            <button type="button" onClick={() => openSection('analytics')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">Аналітика</button>
-            <button type="button" onClick={() => openSection('sbs')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">SBS</button>
-            <button type="button" onClick={() => openSection('deepstate')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">DeepState</button>
-            <button type="button" onClick={() => openSection('investigations')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">Розслідування</button>
-            <button type="button" onClick={() => openSection('rss')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">RSS</button>
-            <button type="button" onClick={() => openSection('feed')} className="text-left text-white/60 hover:text-[#c9a227] transition-colors py-1">Стрічка</button>
-            <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-              className="text-white font-bold flex items-center gap-1 py-1 hover:text-[#c9a227] transition-colors">
-              ТЕЛЕГРАМ <ArrowUpRight className="w-3 h-3" />
-            </a>
-          </div>
-        )}
       </nav>
 
       {/* ── Main ───────────────────────────────────────────────────────────── */}
-      <main className="pt-24 md:pt-40 px-4 md:px-8 pb-24">
+      <main className="pt-24 md:pt-40 px-4 md:px-8 pb-6 md:pb-24 main-content-pad">
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -1698,6 +1672,100 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* ── Mobile Bottom Nav (PWA) ─────────────────────────────────────────── */}
+      {/* "More" sheet — slides up from behind the nav bar */}
+      {mobileMenuOpen && (
+        <div className="md:hidden fixed inset-0 z-[998]" onClick={() => setMobileMenuOpen(false)}>
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+          <div
+            className="absolute bottom-0 left-0 right-0 bg-[#1c1c12] border-t border-[#c9a227]/20 px-4 pt-4 pb-2 flex flex-col gap-1 font-mono text-[11px] uppercase tracking-widest z-[999]"
+            style={{ paddingBottom: 'calc(var(--nav-h) + var(--safe-bottom) + 0.5rem)' }}
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between mb-3 px-1">
+              <span className="text-[#c9a227] font-bold text-[10px] tracking-[0.2em]">НАВІГАЦІЯ</span>
+              <button type="button" onClick={() => setMobileMenuOpen(false)} className="text-white/40 hover:text-white p-1">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <button type="button" onClick={() => openSection('brigades')}
+              className="flex items-center gap-3 text-white/60 hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5 text-left w-full">
+              <Shield className="w-4 h-4 flex-shrink-0" /><span>Підрозділи</span>
+            </button>
+            <button type="button" onClick={() => openSection('analytics')}
+              className="flex items-center gap-3 text-white/60 hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5 text-left w-full">
+              <BarChart3 className="w-4 h-4 flex-shrink-0" /><span>Аналітика</span>
+            </button>
+            <button type="button" onClick={() => openSection('sbs')}
+              className="flex items-center gap-3 text-white/60 hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5 text-left w-full">
+              <Activity className="w-4 h-4 flex-shrink-0" /><span>SBS</span>
+            </button>
+            <button type="button" onClick={() => openSection('deepstate')}
+              className="flex items-center gap-3 text-white/60 hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5 text-left w-full">
+              <Table2 className="w-4 h-4 flex-shrink-0" /><span>DeepState</span>
+            </button>
+            <button type="button" onClick={() => openSection('investigations')}
+              className="flex items-center gap-3 text-white/60 hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5 text-left w-full">
+              <Database className="w-4 h-4 flex-shrink-0" /><span>Розслідування</span>
+            </button>
+            <button type="button" onClick={() => openSection('rss')}
+              className="flex items-center gap-3 text-white/60 hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5 text-left w-full">
+              <Rss className="w-4 h-4 flex-shrink-0" /><span>RSS</span>
+            </button>
+            <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
+              className="flex items-center gap-3 text-white font-bold hover:text-[#c9a227] transition-colors py-2.5 px-3 rounded-lg hover:bg-white/5">
+              <RadioTower className="w-4 h-4 flex-shrink-0" /><span>Телеграм</span><ArrowUpRight className="w-3 h-3 ml-auto" />
+            </a>
+          </div>
+        </div>
+      )}
+
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-[1000] bottom-nav
+        bg-[#1c1c12]/96 backdrop-blur-xl border-t border-[#c9a227]/15">
+        <div className="h-14 flex items-stretch">
+          {/* Home */}
+          <Link to="/"
+            onClick={() => setMobileMenuOpen(false)}
+            className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
+              ${location.pathname === '/' && !mobileMenuOpen ? 'text-[#c9a227]' : 'text-white/35 active:text-white/70'}`}>
+            <Home className="w-[18px] h-[18px]" />
+            <span className="font-mono text-[8px] tracking-widest uppercase">Огляд</span>
+          </Link>
+          {/* Map */}
+          <button type="button"
+            onClick={() => openSection('map')}
+            className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
+              ${location.pathname === '/' && !mobileMenuOpen ? 'text-white/35 active:text-white/70' : 'text-white/35'}`}>
+            <Map className="w-[18px] h-[18px]" />
+            <span className="font-mono text-[8px] tracking-widest uppercase">Карта</span>
+          </button>
+          {/* Targets */}
+          <Link to="/targets"
+            onClick={() => setMobileMenuOpen(false)}
+            className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
+              ${location.pathname === '/targets' && !mobileMenuOpen ? 'text-[#c9a227]' : 'text-white/35 active:text-white/70'}`}>
+            <Target className="w-[18px] h-[18px]" />
+            <span className="font-mono text-[8px] tracking-widest uppercase">Цілі</span>
+          </Link>
+          {/* Feed */}
+          <button type="button"
+            onClick={() => openSection('feed')}
+            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-white/35 active:text-white/70 transition-colors">
+            <Radio className="w-[18px] h-[18px]" />
+            <span className="font-mono text-[8px] tracking-widest uppercase">Стрічка</span>
+          </button>
+          {/* More */}
+          <button type="button"
+            onClick={() => setMobileMenuOpen(v => !v)}
+            className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
+              ${mobileMenuOpen ? 'text-[#c9a227]' : 'text-white/35 active:text-white/70'}`}>
+            <MoreHorizontal className="w-[18px] h-[18px]" />
+            <span className="font-mono text-[8px] tracking-widest uppercase">Ще</span>
+          </button>
+        </div>
+      </nav>
+
     </div>
   );
 }

@@ -157,6 +157,24 @@ body {
   }
 }
 
+/* ── PWA / iOS safe-area ───────────────────────────────────────────────────── */
+:root {
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top:    env(safe-area-inset-top, 0px);
+  --nav-h:       56px;  /* mobile bottom nav height */
+}
+
+/* push page content above the bottom nav + home indicator */
+.main-content-pad {
+  padding-bottom: calc(var(--nav-h) + var(--safe-bottom) + 0.5rem);
+}
+
+/* the bottom nav bar itself gets safe-area padding so icons sit above the home indicator */
+.bottom-nav {
+  padding-bottom: var(--safe-bottom);
+  height: calc(var(--nav-h) + var(--safe-bottom));
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;
