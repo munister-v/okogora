@@ -514,14 +514,14 @@ export default function App() {
   const deepstateMaxAbs = Math.max(1, deepstateTable?.maxAbsDiffKm2 || 1);
   const heroSignals = [
     { label: 'Telegram-пости', value: posts.length, note: 'стрічка Око Гора' },
-    { label: 'OSINT RSS', value: rssItems.length + fbItems.length, note: 'X + Facebook' },
+    { label: 'OSINT RSS', value: rssItems.length + fbItems.length, note: 'новинні джерела' },
     { label: 'Активні підрозділи', value: brigadeDashboard?.totals.unitsWithOfficialFeeds ?? brigadeDashboard?.totals.brigadesWithOfficialFeeds ?? 0, note: 'останні 3 доби' },
     { label: 'Події ударів', value: dashboard.total, note: '7 днів / з посиланнями' },
   ];
   const rssFeed = useMemo(() => {
     const normalized = [
-      ...rssItems.map((item) => ({ ...item, feedSource: 'x' as const, sourceLabel: 'X / Twitter' })),
-      ...fbItems.map((item) => ({ ...item, feedSource: 'facebook' as const, sourceLabel: 'Facebook' })),
+      ...rssItems.map((item) => ({ ...item, feedSource: 'x' as const, sourceLabel: item.author || 'OSINT RSS' })),
+      ...fbItems.map((item) => ({ ...item, feedSource: 'facebook' as const, sourceLabel: item.author || 'Facebook' })),
     ].map((item) => {
       const title = cleanRssText(item.titleUk || item.title || '');
       const summary = cleanRssText(item.summaryUk || item.summary || '');
@@ -1320,12 +1320,12 @@ export default function App() {
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ LIVE RSS</span>
                   <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">RSS OSINT-стрічка</h2>
                   <p className="mt-4 text-ink/70 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
-                    Пости з X і Facebook за останні 3 дні про Україну, війну, підрозділи, удари та відкриті джерела. Текст очищається від HTML-вставок, картки сортуються за часом, а фільтри допомагають швидко знайти потрібну тему.
+                    Новини з українських та OSINT-видань (Українська Правда, Euromaidan Press, ArmyInform, UNIAN, Militarnyi) за останні дні про Україну, війну, підрозділи та удари. Текст очищається від HTML-вставок, картки сортуються за часом, а фільтри допомагають швидко знайти потрібну тему.
                   </p>
                 </div>
-                <a href="https://x.com" target="_blank" rel="noreferrer"
+                <a href="https://www.pravda.com.ua/" target="_blank" rel="noreferrer"
                   className="inline-flex items-center gap-2 self-start lg:self-auto border border-gold/45 rounded-2xl bg-gold/10 px-4 py-3 font-mono text-[11px] uppercase tracking-widest text-gold-ink hover:bg-gold/16 transition-colors shrink-0">
-                  Перевірити X <ArrowUpRight className="w-3.5 h-3.5" />
+                  Джерела новин <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </div>
 
@@ -1344,7 +1344,7 @@ export default function App() {
                   <div className="grid grid-cols-3 gap-2">
                     {[
                       ['all', 'Усі', rssItems.length + fbItems.length],
-                      ['x', 'X', rssItems.length],
+                      ['x', 'Новини', rssItems.length],
                       ['facebook', 'Facebook', fbItems.length],
                     ].map(([id, label, count]) => (
                       <button

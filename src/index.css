@@ -155,7 +155,13 @@
     scroll-behavior: smooth;
   }
   body {
-    background: var(--oko-bg);
+    /* Warm, subtly textured backdrop instead of flat white — adds depth. */
+    background-color: var(--oko-bg);
+    background-image:
+      radial-gradient(1200px 600px at 85% -5%, rgba(201, 162, 39, 0.10), transparent 60%),
+      radial-gradient(900px 500px at -10% 8%, rgba(201, 162, 39, 0.06), transparent 55%),
+      linear-gradient(180deg, #ffffff 0%, #faf9f5 100%);
+    background-attachment: fixed;
     color: var(--oko-ink);
     @apply font-sans antialiased;
     font-weight: 400;
@@ -177,9 +183,20 @@
 /* ── Reusable Diia-style primitives ───────────────────────────────────────── */
 @layer components {
   .oko-card {
-    background: var(--oko-surface);
+    background: linear-gradient(180deg, #ffffff 0%, var(--oko-surface-2) 140%);
     border: 1px solid var(--oko-line);
     border-radius: var(--radius);
+    box-shadow:
+      0 1px 2px rgba(11, 11, 12, 0.04),
+      0 12px 30px -18px rgba(11, 11, 12, 0.18);
+    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+  .oko-card:hover {
+    border-color: rgba(201, 162, 39, 0.35);
+    box-shadow:
+      0 2px 4px rgba(11, 11, 12, 0.05),
+      0 22px 50px -22px rgba(201, 162, 39, 0.30);
+    transform: translateY(-2px);
   }
   .oko-inset {
     background: var(--oko-surface-2);
@@ -187,12 +204,22 @@
   }
   /* eyebrow / label — Diia uses spaced, small head type */
   .oko-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
     font-family: var(--font-head);
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.16em;
     font-size: 0.6875rem;
-    color: var(--oko-ink-2);
+    color: var(--oko-accent-ink);
+  }
+  .oko-eyebrow::before {
+    content: "";
+    width: 1.4rem;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--oko-accent), transparent);
   }
   .oko-btn {
     display: inline-flex; align-items: center; gap: .5rem;
