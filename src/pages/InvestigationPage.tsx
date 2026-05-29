@@ -643,12 +643,14 @@ export default function InvestigationPage() {
         }
         .article-body h2::before {
           content: "0" counter(section-counter);
-          display: block;
-          margin-bottom: 0.4rem;
+          display: inline-block;
+          margin-bottom: 0.7rem;
+          padding-bottom: 0.32rem;
+          border-bottom: 2px solid #c9a227;
           color: #8a6a0e;
-          font-size: 0.72rem;
+          font-size: 0.74rem;
           font-weight: 700;
-          letter-spacing: 0.1em;
+          letter-spacing: 0.18em;
         }
         .article-body h3 {
           margin: 2.15rem 0 0.8rem;
@@ -726,16 +728,27 @@ export default function InvestigationPage() {
         .article-body .recovery-chart + p {
           text-indent: 0;
         }
-        /* Lead paragraph */
+        /* Standfirst / deck — the opening framing line */
         .article-body p:first-of-type {
-          font-family: var(--font-sans);
-          font-size: 1.08rem;
-          line-height: 1.65;
+          font-family: var(--font-head);
+          font-size: clamp(1.2rem, 2.1vw, 1.42rem);
+          line-height: 1.42;
           color: #0b0b0c;
-          font-weight: 500;
+          font-weight: 600;
+          letter-spacing: -0.012em;
           margin-bottom: 0;
           text-align: left;
           text-indent: 0;
+        }
+        /* Drop cap on the first body paragraph (after the deck + divider) */
+        .article-body > p:first-of-type + hr + p::first-letter {
+          float: left;
+          font-family: var(--font-head);
+          font-weight: 700;
+          font-size: 3.5rem;
+          line-height: 0.78;
+          padding: 0.16rem 0.6rem 0 0;
+          color: #8a6a0e;
         }
         .article-body a {
           color: #8a6a0e;
@@ -952,7 +965,7 @@ export default function InvestigationPage() {
           margin-bottom: 0;
         }
         .article-body hr {
-          margin: 1.5rem 0;
+          margin: 1.9rem 0;
           border: 0;
           border-top: 1px solid rgba(11,11,12,0.1);
         }
@@ -1201,6 +1214,10 @@ export default function InvestigationPage() {
           }
           .article-body p {
             margin-bottom: 0.9rem;
+          }
+          .article-body > p:first-of-type + hr + p::first-letter {
+            font-size: 2.9rem;
+            padding-right: 0.5rem;
           }
           .share-bar {
             margin-top: 2.2rem;

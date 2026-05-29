@@ -632,10 +632,11 @@ export default function App() {
               />
             </div>
 
-            <h1 className="text-[16vw] md:text-[11vw] leading-[0.9] md:leading-[0.85] font-bold tracking-[-0.02em] mb-3 md:mb-8 relative z-10 text-ink">
+            <p className="oko-eyebrow mb-3 md:mb-5 relative z-10">OSINT-моніторинг бойового простору</p>
+            <h1 className="text-[16vw] md:text-[11vw] leading-[0.9] md:leading-[0.85] font-bold tracking-[-0.02em] mb-4 md:mb-7 relative z-10 text-ink">
               Око Гора
             </h1>
-            <p className="mb-7 md:mb-10 max-w-xl text-base md:text-lg leading-snug text-ink/70 relative z-10">
+            <p className="mb-8 md:mb-12 max-w-2xl text-lg md:text-2xl leading-relaxed text-ink/75 relative z-10">
               Незалежний моніторинг, аеророзвідка та аналітика бойового простору на основі відкритих джерел.
             </p>
 
@@ -699,10 +700,11 @@ export default function App() {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-14">
               {heroSignals.map((signal) => (
-                <div key={signal.label} className="border border-gold/20 rounded-2xl bg-surface-2/80 p-4 md:p-5">
-                  <p className="text-[11px] md:text-xs font-medium text-ink/60">{signal.label}</p>
-                  <p className="mt-2 text-3xl md:text-5xl font-black tracking-tighter text-gold-ink tabular-nums">{formatNumber(signal.value)}</p>
-                  <p className="mt-1 text-xs md:text-sm text-ink/55">{signal.note}</p>
+                <div key={signal.label} className="group relative overflow-hidden border border-ink/10 rounded-2xl bg-surface p-4 md:p-5 hover:border-gold/45 hover:shadow-[0_8px_28px_rgba(11,11,12,0.06)] transition-all duration-300">
+                  <span className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-gold to-gold/15" />
+                  <p className="text-[11px] md:text-xs font-medium uppercase tracking-wide text-ink/55">{signal.label}</p>
+                  <p className="mt-2.5 text-3xl md:text-5xl font-bold tracking-tight text-ink tabular-nums">{formatNumber(signal.value)}</p>
+                  <p className="mt-1.5 text-xs md:text-sm text-ink/55">{signal.note}</p>
                 </div>
               ))}
             </div>
