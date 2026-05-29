@@ -1,8 +1,10 @@
-import { useEffect, useMemo, useState } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowUpRight, BookOpen, CalendarDays, Database, FileText, RefreshCw, ShieldCheck } from 'lucide-react';
 import { InvestigationArticle } from '../types';
 import { setSeo } from '../lib/seo';
+
+const RefineryMap = lazy(() => import('../components/RefineryMap'));
 
 function escapeHtml(input: string) {
   return input
@@ -54,6 +56,24 @@ function renderMarkdown(md: string) {
     return 'Доказ / ілюстративний матеріал';
   };
   const renderScheme = (type: string) => {
+    if (type === 'strike-map') {
+      return '<!--STRIKE_MAP-->';
+    }
+    if (type === 'key-stats') {
+      const stats = [
+        { v: '40+', l: "об'єктів нафтопереробки під ударами", s: 'за оцінками ГУР, весна 2026' },
+        { v: '−12–15%', l: 'первинної переробки нижче довоєнного рівня', s: 'Kpler, Vortexa — I кв. 2026' },
+        { v: '4', l: 'заводи важкого машинобудування на всю галузь', s: 'вузьке горло ремонту' },
+        { v: '3–6', l: 'років на заміну корпусного апарата', s: 'колони, реактори — у 2026' },
+      ];
+      const cards = stats.map((x) => `
+        <div class="ks-card">
+          <div class="ks-val">${x.v}</div>
+          <div class="ks-label">${x.l}</div>
+          <div class="ks-sub">${x.s}</div>
+        </div>`).join('');
+      return `<div class="key-stats" aria-label="Ключові цифри">${cards}</div>`;
+    }
     if (type !== 'recovery-bars') return '';
 
     // Realistic 2026 recovery horizon by equipment type.
@@ -343,6 +363,12 @@ export default function InvestigationPage() {
   }, [item]);
 
   const html = useMemo(() => renderMarkdown(markdown), [markdown]);
+  const [htmlBeforeMap, htmlAfterMap] = useMemo(() => {
+    const idx = html.indexOf('<!--STRIKE_MAP-->');
+    if (idx === -1) return [html, null] as const;
+    return [html.slice(0, idx), html.slice(idx + '<!--STRIKE_MAP-->'.length)] as const;
+  }, [html]);
+
   const headings = useMemo(() => extractHeadings(markdown), [markdown]);
   const wordCount = useMemo(() => markdown.split(/\s+/).filter(Boolean).length, [markdown]);
   const readMinutes = Math.max(3, Math.round(wordCount / 180));
@@ -496,7 +522,17 @@ export default function InvestigationPage() {
         <main className="lg:col-span-9 xl:col-span-9">
           <article className="article-shell rounded-2xl border border-ink/10 bg-surface p-5 md:p-8 lg:p-10">
             {markdown ? (
-              <div className="article-body" dangerouslySetInnerHTML={{ __html: html }} />
+              htmlAfterMap !== null ? (
+                <>
+                  <div className="article-body" dangerouslySetInnerHTML={{ __html: htmlBeforeMap }} />
+                  <Suspense fallback={<div className="rm-loading">Завантаження карти…</div>}>
+                    <RefineryMap />
+                  </Suspense>
+                  <div className="article-body" dangerouslySetInnerHTML={{ __html: htmlAfterMap }} />
+                </>
+              ) : (
+                <div className="article-body" dangerouslySetInnerHTML={{ __html: html }} />
+              )
             ) : (
               <p className="text-ink-2">Контент ще готується.</p>
             )}
@@ -577,8 +613,10 @@ export default function InvestigationPage() {
           text-align: left;
           hyphens: none;
           text-wrap: pretty;
-          counter-reset: section-counter;
           font-weight: 400;
+        }
+        .article-shell {
+          counter-reset: section-counter;
         }
         .article-body > *:first-child {
           margin-top: 0;
@@ -629,10 +667,54 @@ export default function InvestigationPage() {
         }
         .article-body > .recovery-chart,
         .article-body > .editorial-figure,
+        .article-body > .key-stats,
         .article-body > .article-table-wrap {
           width: min(880px, calc(100vw - 4rem));
           margin-left: 50%;
           transform: translateX(-50%);
+        }
+        /* ── Key stats ───────────────────────────────────────────── */
+        .key-stats {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 0.85rem;
+          margin: 2.25rem 0 0.5rem;
+        }
+        .ks-card {
+          position: relative;
+          border: 1px solid rgba(11,11,12,0.1);
+          border-radius: 14px;
+          padding: 1.15rem 1.1rem 1.05rem;
+          background: linear-gradient(180deg, #ffffff 0%, #f4f5f3 170%);
+          overflow: hidden;
+        }
+        .ks-card::before {
+          content: "";
+          position: absolute;
+          left: 0; top: 0; bottom: 0;
+          width: 3px;
+          background: linear-gradient(180deg, #c9a227, rgba(201,162,39,0.25));
+        }
+        .ks-val {
+          font-family: var(--font-head);
+          font-weight: 700;
+          font-size: 2rem;
+          line-height: 1;
+          letter-spacing: -0.02em;
+          color: #0b0b0c;
+        }
+        .ks-label {
+          margin-top: 0.6rem;
+          font-size: 0.82rem;
+          line-height: 1.4;
+          color: #0b0b0c;
+        }
+        .ks-sub {
+          margin-top: 0.45rem;
+          font-size: 0.7rem;
+          font-weight: 600;
+          letter-spacing: 0.02em;
+          color: #8a6a0e;
         }
         /* No indent after headings, blockquotes, figures, lists */
         .article-body h2 + p,
@@ -966,7 +1048,146 @@ export default function InvestigationPage() {
           border-top: 1px solid rgba(11,11,12,0.08);
           text-align: left;
         }
+        /* ── Strike map ──────────────────────────────────────────── */
+        .refinery-map {
+          margin: 2.4rem 0;
+          border: 1px solid rgba(11,11,12,0.1);
+          border-radius: 16px;
+          background: linear-gradient(180deg, #ffffff 0%, #f4f5f3 140%);
+          overflow: hidden;
+          box-shadow: 0 1px 2px rgba(11,11,12,0.04), 0 12px 30px -18px rgba(11,11,12,0.18);
+        }
+        .rm-head {
+          padding: 1.3rem 1.4rem 1rem;
+        }
+        .rm-title {
+          font-family: var(--font-head);
+          font-size: 1.45rem;
+          font-weight: 700;
+          letter-spacing: -0.018em;
+          margin: 0.5rem 0 0.4rem;
+          color: #0b0b0c;
+        }
+        .rm-sub {
+          margin: 0;
+          color: #54564f;
+          font-size: 0.9rem;
+          line-height: 1.55;
+          max-width: 60ch;
+        }
+        .rm-canvas {
+          position: relative;
+          height: 460px;
+          width: 100%;
+          border-top: 1px solid rgba(11,11,12,0.08);
+          border-bottom: 1px solid rgba(11,11,12,0.08);
+        }
+        .rm-canvas .leaflet-container {
+          height: 100%;
+          width: 100%;
+          font-family: var(--font-sans);
+        }
+        .rm-stats {
+          position: absolute;
+          left: 12px;
+          bottom: 12px;
+          z-index: 1000;
+          display: flex;
+          flex-direction: column;
+          gap: 0.3rem;
+          padding: 0.6rem 0.8rem;
+          background: rgba(255,255,255,0.92);
+          backdrop-filter: blur(4px);
+          border: 1px solid rgba(11,11,12,0.1);
+          border-radius: 10px;
+          box-shadow: 0 6px 18px -10px rgba(11,11,12,0.4);
+          pointer-events: none;
+        }
+        .rm-stats span {
+          font-size: 0.72rem;
+          color: #54564f;
+          line-height: 1.2;
+        }
+        .rm-stats b {
+          font-family: var(--font-head);
+          font-size: 0.92rem;
+          color: #0b0b0c;
+          margin-right: 0.25rem;
+        }
+        .rm-canvas .leaflet-tooltip.rm-label {
+          background: transparent;
+          border: none;
+          box-shadow: none;
+          padding: 0;
+          color: #7a2c08;
+          font-weight: 700;
+          font-size: 0.72rem;
+          text-shadow: 0 1px 2px #fff, 0 0 4px #fff, 0 0 4px #fff;
+        }
+        .rm-canvas .leaflet-tooltip.rm-label::before { display: none; }
+        .rm-canvas path.rm-hot {
+          animation: rmPulse 2.1s ease-in-out infinite;
+          transform-box: fill-box;
+          transform-origin: center;
+        }
+        @keyframes rmPulse {
+          0%, 100% { stroke-opacity: 1; stroke-width: 1.5; }
+          50% { stroke-opacity: 0.3; stroke-width: 5; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .rm-canvas path.rm-hot { animation: none; }
+        }
+        .rm-tip {
+          font-family: var(--font-sans);
+          font-size: 0.78rem;
+          line-height: 1.45;
+          color: #0b0b0c;
+        }
+        .rm-tip strong { color: #0b0b0c; }
+        .rm-legend {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.1rem;
+          padding: 0.9rem 1.4rem;
+        }
+        .rm-leg {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 0.8rem;
+          color: #54564f;
+        }
+        .rm-sw {
+          width: 0.85rem;
+          height: 0.85rem;
+          border-radius: 999px;
+          display: inline-block;
+        }
+        .rm-sw-hit { background: #ea580c; border: 1.5px solid #c2410c; }
+        .rm-sw-plant { background: #c9a227; border: 2px solid #8a6a0e; }
+        .rm-cap {
+          padding: 0 1.4rem 1.2rem;
+          margin: 0;
+          color: #54564f;
+          font-size: 0.74rem;
+          line-height: 1.5;
+        }
+        .rm-loading {
+          padding: 3rem 1.4rem;
+          text-align: center;
+          color: #54564f;
+          font-size: 0.85rem;
+        }
         @media (max-width: 720px) {
+          .key-stats { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
+          .ks-val { font-size: 1.6rem; }
+          .ks-label { font-size: 0.78rem; }
+          .rm-canvas { height: 340px; }
+          .rm-head { padding: 1.1rem 1.1rem 0.85rem; }
+          .rm-title { font-size: 1.2rem; }
+          .rm-sub { font-size: 0.84rem; }
+          .rm-legend { padding: 0.8rem 1.1rem; gap: 0.8rem; }
+          .rm-cap { padding: 0 1.1rem 1rem; }
           .article-body {
             font-size: 0.94rem;
             line-height: 1.68;

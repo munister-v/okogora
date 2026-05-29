@@ -279,7 +279,9 @@ function buildRegionalStrikes(items: RssItem[]) {
 }
 
 export default function MapService() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(
+    () => typeof window === 'undefined' || window.innerWidth >= 768,
+  );
   const [telemetry, setTelemetry] = useState({ lat: 45.0, lng: 35.0 });
   const [measurePoints, setMeasurePoints] = useState<[number, number][]>([]);
   const [distance, setDistance] = useState<number | null>(null);
@@ -374,104 +376,103 @@ export default function MapService() {
 
   return (
     <div className="w-full flex flex-col font-sans">
-      <div className="flex justify-between items-center mb-4 md:mb-6 font-mono text-[10px] md:text-xs uppercase tracking-[0.2em] border-b border-[#111111] pb-3">
-        <div className="flex items-center gap-3">
-          <div className="w-2 h-2 bg-red-500 rounded-full animate-ping" />
-          <MapIcon className="w-4 h-4" />
-          <span className="font-bold">КАРТА // РЕГІОНАЛЬНИЙ OSINT-МОНІТОР</span>
+      <div className="flex justify-between items-center gap-3 mb-4 md:mb-6 border-b border-ink/10 pb-3">
+        <div className="flex items-center gap-2.5 min-w-0">
+          <MapIcon className="w-4 h-4 text-gold-ink shrink-0" />
+          <span className="font-head font-semibold text-ink text-sm md:text-base truncate">Карта · регіональний OSINT-монітор</span>
         </div>
         <button
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="flex items-center gap-2 bg-[#111111] text-white px-4 py-1.5 rounded-full text-[9px] hover:bg-zinc-800 transition-colors font-semibold"
+          className="flex items-center gap-2 border border-ink/15 bg-white text-ink px-3.5 py-1.5 rounded-full text-[11px] hover:bg-surface-2 transition-colors font-semibold shrink-0"
         >
           {isSidebarOpen ? <CloseIcon className="w-3 h-3" /> : <Menu className="w-3 h-3" />}
-          {isSidebarOpen ? 'ПРИХОВАТИ ПАНЕЛЬ' : 'ПОКАЗАТИ ПАНЕЛЬ'}
+          <span className="hidden sm:inline">{isSidebarOpen ? 'Приховати панель' : 'Показати панель'}</span>
         </button>
       </div>
 
-      <div className="relative w-full h-[520px] md:h-[800px] bg-[#0a0a0a] border border-[#111111]/20 rounded-2xl overflow-hidden group shadow-2xl">
-        <div className={`absolute top-4 md:top-6 left-4 md:left-6 z-[400] w-64 md:w-72 space-y-4 transition-all duration-700 ease-in-out ${isSidebarOpen ? 'translate-x-0 opacity-100' : '-translate-x-[120%] opacity-0 pointer-events-none'}`}>
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
-            <div className="flex items-center gap-2 mb-3 border-b border-[#f4f4f4]/10 pb-3">
-              <Activity className="w-3 h-3 text-red-400" />
-              <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Статус карти</span>
+      <div className="relative w-full h-[520px] md:h-[800px] bg-[#0a0a0a] border border-ink/10 rounded-2xl overflow-hidden group shadow-sm">
+        <div className={`absolute top-4 md:top-6 left-4 md:left-6 right-4 sm:right-auto z-[400] sm:w-64 md:w-72 max-h-[calc(100%-2rem)] md:max-h-[calc(100%-3rem)] overflow-y-auto space-y-3 transition-all duration-500 ease-in-out ${isSidebarOpen ? 'translate-x-0 opacity-100' : '-translate-x-[120%] opacity-0 pointer-events-none'}`}>
+          <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
+            <div className="flex items-center gap-2 mb-3 border-b border-ink/10 pb-2.5">
+              <Activity className="w-3.5 h-3.5 text-gold-ink" />
+              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Статус карти</span>
             </div>
-            <p className="font-mono text-[8px] uppercase tracking-widest text-white/35 leading-relaxed">
-              ТОЧНІ ВІЙСЬКОВІ КООРДИНАТИ НЕ ВІДОБРАЖАЮТЬСЯ. ПОКАЗАНІ РЕГІОНАЛЬНІ OSINT-ІНДИКАТОРИ ТА ЗГАДКИ ЗА 7 ДНІВ.
+            <p className="text-[11px] text-ink-2 leading-relaxed">
+              Точні військові координати не відображаються. Показані регіональні OSINT-індикатори та згадки за 7 днів.
             </p>
-            <div className="mt-4 border border-white/10 bg-white/[0.03] p-3 font-mono text-[9px] text-white/65 leading-relaxed">
-              Автооновлення: кожні 5 хвилин із RSS/X та Facebook-стрічок. Останнє оновлення: {strikeUpdatedAt ? formatDate(strikeUpdatedAt) : 'н/д'}.
+            <div className="mt-3 border border-ink/10 bg-surface-2 rounded-lg p-2.5 text-[11px] text-ink-2 leading-relaxed">
+              Автооновлення кожні 5 хвилин із RSS/X та Facebook-стрічок. Останнє оновлення: {strikeUpdatedAt ? formatDate(strikeUpdatedAt) : 'н/д'}.
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
+          <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
             <div className="flex items-center gap-2 mb-3">
-              <RadioTower className="w-3 h-3 text-red-300" />
-              <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Удари по РФ · 7 днів</span>
+              <RadioTower className="w-3.5 h-3.5 text-red-600" />
+              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Удари по РФ · 7 днів</span>
             </div>
-            <div className="space-y-2 font-mono text-[9px] text-white/60">
+            <div className="space-y-1.5 text-[12px] text-ink-2">
               {regionalStrikes.slice(0, 5).map((region) => (
-                <div key={region.id} className="flex items-center justify-between gap-3 border-b border-white/5 pb-1">
-                  <span className="truncate text-white/75">{region.label}</span>
-                  <span className="text-red-300 font-bold">{region.count}</span>
+                <div key={region.id} className="flex items-center justify-between gap-3 border-b border-ink/5 pb-1">
+                  <span className="truncate">{region.label}</span>
+                  <span className="text-red-600 font-bold tabular-nums">{region.count}</span>
                 </div>
               ))}
               {regionalStrikes.length === 0 && (
-                <div className="text-white/40 leading-relaxed">За останні 7 днів немає регіональних згадок, що пройшли фільтр.</div>
+                <div className="text-ink-2/70 leading-relaxed">За останні 7 днів немає регіональних згадок, що пройшли фільтр.</div>
               )}
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
+          <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
             <div className="flex items-center gap-2 mb-3">
-              <Plane className="w-3 h-3 text-[#facc15]" />
-              <Anchor className="w-3 h-3 text-sky-300" />
-              <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Військова інфраструктура</span>
+              <Plane className="w-3.5 h-3.5 text-gold-ink" />
+              <Anchor className="w-3.5 h-3.5 text-sky-600" />
+              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Військова інфраструктура</span>
             </div>
-            <div className="space-y-2 font-mono text-[9px] text-white/60">
-              <div className="flex items-center justify-between border-b border-white/5 pb-1">
+            <div className="space-y-1.5 text-[12px] text-ink-2">
+              <div className="flex items-center justify-between border-b border-ink/5 pb-1">
                 <span>Аеродроми РФ</span>
-                <span className="text-[#facc15] font-bold">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'airfield').length}</span>
+                <span className="text-gold-ink font-bold tabular-nums">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'airfield').length}</span>
               </div>
-              <div className="flex items-center justify-between border-b border-white/5 pb-1">
+              <div className="flex items-center justify-between border-b border-ink/5 pb-1">
                 <span>Морські контури</span>
-                <span className="text-sky-300 font-bold">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'naval').length}</span>
+                <span className="text-sky-600 font-bold tabular-nums">{INFRASTRUCTURE_POINTS.filter((p) => p.kind === 'naval').length}</span>
               </div>
-              <p className="text-[8px] text-white/35 leading-relaxed">
+              <p className="text-[10px] text-ink-2/70 leading-relaxed pt-0.5">
                 Координати аеродромів з відкритих джерел (Wikipedia, GlobalSecurity). Морські контури — узагальнені.
               </p>
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
+          <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
             <div className="flex items-center gap-2 mb-3">
-              <MapIcon className="w-3 h-3 text-gold" />
-              <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Шар території</span>
+              <MapIcon className="w-3.5 h-3.5 text-gold-ink" />
+              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Шар території</span>
             </div>
-            <div className="space-y-2 font-mono text-[9px] text-white/60">
-              <div className="flex items-center justify-between border-b border-white/5 pb-1">
+            <div className="space-y-1.5 text-[12px] text-ink-2">
+              <div className="flex items-center justify-between border-b border-ink/5 pb-1">
                 <span>OWL MAPS</span>
-                <span className={territoryStatus === 'ready' ? 'text-green-300' : territoryStatus === 'error' ? 'text-red-300' : 'text-amber-300'}>
+                <span className={`font-semibold ${territoryStatus === 'ready' ? 'text-green-600' : territoryStatus === 'error' ? 'text-red-600' : 'text-amber-600'}`}>
                   {territoryStatusLabel(territoryStatus)}
                 </span>
               </div>
-              <div className="text-[8px] text-white/35 leading-relaxed">
+              <div className="text-[10px] text-ink-2/70 leading-relaxed pt-0.5">
                 Шар лишився як загальний контекст лінії контролю без додаткових зовнішніх точкових накладок.
               </div>
             </div>
           </div>
 
-          <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
+          <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
             <div className="flex items-center gap-2 mb-3">
-              <Ruler className="w-3 h-3 text-orange-400" />
-              <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Дистанційна лінійка</span>
+              <Ruler className="w-3.5 h-3.5 text-orange-600" />
+              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Дистанційна лінійка</span>
             </div>
-            <p className="text-[8px] font-mono text-white/40 leading-relaxed mb-3">
+            <p className="text-[11px] text-ink-2 leading-relaxed mb-3">
               Клікніть на мапу двічі, щоб виміряти відстань між двома точками.
             </p>
             {distance && (
-              <div className="bg-orange-500/10 border border-orange-500/20 p-2 text-orange-500 font-mono text-[10px] text-center font-bold">
-                ВІДСТАНЬ: {distance.toFixed(1)} КМ
+              <div className="bg-orange-50 border border-orange-200 rounded-lg p-2 text-orange-700 text-[12px] text-center font-bold">
+                Відстань: {distance.toFixed(1)} км
               </div>
             )}
             <button
@@ -479,42 +480,42 @@ export default function MapService() {
                 setMeasurePoints([]);
                 setDistance(null);
               }}
-              className="w-full mt-3 text-[8px] font-mono uppercase text-white/20 hover:text-white/60 transition-colors"
+              className="w-full mt-3 text-[11px] font-semibold text-ink-2/60 hover:text-ink transition-colors"
             >
-              [ ОЧИСТИТИ_ВИМІРИ ]
+              Очистити виміри
             </button>
           </div>
         </div>
 
-        <div className="absolute bottom-6 left-6 z-[400] bg-[#111111]/90 text-[#f4f4f4] p-5 font-mono border border-[#f4f4f4]/10 rounded-2xl backdrop-blur-md pointer-events-none shadow-2xl">
-          <div className="flex items-center gap-3 mb-4 border-b border-[#f4f4f4]/10 pb-3">
-            <div className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
-            <span className="tracking-widest uppercase text-[10px] font-bold opacity-90">КООРДИНАТИ КУРСОРА</span>
+        <div className="hidden md:block absolute bottom-6 left-6 z-[400] bg-white/95 text-ink p-4 border border-ink/10 rounded-2xl backdrop-blur-md pointer-events-none shadow-lg">
+          <div className="flex items-center gap-2.5 mb-3 border-b border-ink/10 pb-2.5">
+            <div className="w-1.5 h-1.5 bg-gold rounded-full animate-pulse" />
+            <span className="tracking-wide uppercase text-[11px] font-semibold">Координати курсора</span>
           </div>
-          <div className="space-y-2.5 text-[10px]">
-            <div className="flex justify-between gap-12 border-b border-white/5 pb-1">
-              <span className="opacity-30">ШИРОТА</span>
-              <span className="font-bold text-white/85 tracking-tighter">{telemetry.lat.toFixed(6)}° N</span>
+          <div className="space-y-2 text-[11px]">
+            <div className="flex justify-between gap-12 border-b border-ink/5 pb-1">
+              <span className="text-ink-2">Широта</span>
+              <span className="font-bold tabular-nums">{telemetry.lat.toFixed(6)}° N</span>
             </div>
-            <div className="flex justify-between gap-12 border-b border-white/5 pb-1">
-              <span className="opacity-30">ДОВГОТА</span>
-              <span className="font-bold text-white/85 tracking-tighter">{telemetry.lng.toFixed(6)}° E</span>
+            <div className="flex justify-between gap-12 border-b border-ink/5 pb-1">
+              <span className="text-ink-2">Довгота</span>
+              <span className="font-bold tabular-nums">{telemetry.lng.toFixed(6)}° E</span>
             </div>
-            <div className="flex justify-between gap-12 text-[9px] pt-1">
-              <span className="opacity-30 text-gold font-bold">ТЕРИТОРІЯ</span>
-              <span className="text-gold/90">{territoryStatusLabel(territoryStatus)}</span>
+            <div className="flex justify-between gap-12 pt-0.5">
+              <span className="text-gold-ink font-semibold">Територія</span>
+              <span className="text-ink-2">{territoryStatusLabel(territoryStatus)}</span>
             </div>
-            <div className="flex justify-between gap-12 text-[9px] pt-1">
-              <span className="opacity-30 text-red-300 font-bold">УДАРИ РФ</span>
-              <span className="text-red-300/90">{regionalStrikes.length} РЕГІОНІВ</span>
+            <div className="flex justify-between gap-12 pt-0.5">
+              <span className="text-red-600 font-semibold">Удари РФ</span>
+              <span className="text-ink-2">{regionalStrikes.length} регіонів</span>
             </div>
-            <div className="flex justify-between gap-12 text-[9px] pt-1">
-              <span className="opacity-30 text-sky-300 font-bold">ІНФРА</span>
-              <span className="text-sky-300/90">{INFRASTRUCTURE_POINTS.length} МАРКЕРІВ</span>
+            <div className="flex justify-between gap-12 pt-0.5">
+              <span className="text-sky-600 font-semibold">Інфра</span>
+              <span className="text-ink-2">{INFRASTRUCTURE_POINTS.length} маркерів</span>
             </div>
-            <div className="flex justify-between gap-12 text-[9px] pt-1">
-              <span className="opacity-30 text-orange-300 font-bold">ВИМІР</span>
-              <span className="text-orange-300/90">{measurePoints.length}/2 ТОЧКИ</span>
+            <div className="flex justify-between gap-12 pt-0.5">
+              <span className="text-orange-600 font-semibold">Вимір</span>
+              <span className="text-ink-2">{measurePoints.length}/2 точки</span>
             </div>
           </div>
         </div>
@@ -659,8 +660,6 @@ export default function MapService() {
             />
           ))}
         </MapContainer>
-
-        <div className="absolute inset-0 pointer-events-none z-[450] opacity-[0.03] overflow-hidden bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]" />
       </div>
 
       <style>{`
@@ -689,11 +688,15 @@ export default function MapService() {
           margin: 4px 8px !important;
         }
         .leaflet-control-layers {
-          background: rgba(17, 17, 17, 0.92) !important;
-          color: #f4f4f4 !important;
-          border: 1px solid rgba(255, 255, 255, 0.1) !important;
-          border-radius: 0 !important;
-          box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28) !important;
+          background: rgba(255, 255, 255, 0.95) !important;
+          color: #0b0b0c !important;
+          border: 1px solid rgba(11, 11, 12, 0.1) !important;
+          border-radius: 12px !important;
+          box-shadow: 0 8px 24px rgba(11, 11, 12, 0.12) !important;
+          font-family: var(--font-sans, system-ui) !important;
+        }
+        .leaflet-control-layers label {
+          font-size: 12px !important;
         }
       `}</style>
     </div>
