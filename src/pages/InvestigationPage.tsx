@@ -347,14 +347,14 @@ export default function InvestigationPage() {
   const related = useMemo(() => allItems.filter((x) => x.id !== item?.id && (x.status || 'published') === 'published').slice(0, 2), [allItems, item?.id]);
   const category = item?.tags?.[0] || 'OSINT';
 
-  if (loading) return <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] flex items-center justify-center">Loading...</div>;
-  if (!item) return <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] flex items-center justify-center">Not found</div>;
+  if (loading) return <div className="min-h-screen bg-surface text-ink flex items-center justify-center">Loading...</div>;
+  if (!item) return <div className="min-h-screen bg-surface text-ink flex items-center justify-center">Not found</div>;
 
   return (
-    <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] font-sans">
-      <div className="relative overflow-hidden border-b border-[#c9a227]/15 bg-[#f4f5f3]">
+    <div className="min-h-screen bg-surface text-ink font-sans">
+      <div className="relative overflow-hidden border-b border-gold/15 bg-surface-2">
         <div className="mx-auto max-w-[1280px] px-4 py-6 md:px-8 md:py-8">
-          <Link to="/#investigations" className="inline-flex min-h-11 items-center gap-2 text-[12px] text-[#54564f] transition-colors hover:text-[#8a6a0e]">
+          <Link to="/#investigations" className="inline-flex min-h-11 items-center gap-2 text-[12px] text-ink-2 transition-colors hover:text-gold-ink">
             <ArrowLeft className="h-3.5 w-3.5" /> До розслідувань
           </Link>
         </div>
@@ -362,47 +362,47 @@ export default function InvestigationPage() {
         <section className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 pb-10 md:px-8 md:pb-14 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-8 xl:col-span-9">
             <div className="mb-4 flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center rounded-full border border-[#c9a227]/45 bg-[#c9a227]/10 px-3 py-1 text-[11px] font-medium tracking-wide text-[#8a6a0e]">{item.code}</span>
+              <span className="inline-flex items-center rounded-full border border-gold/45 bg-gold/10 px-3 py-1 text-[11px] font-medium tracking-wide text-gold-ink">{item.code}</span>
               <StatusBadge status={item.status} />
               <RiskBadge tags={item.tags} />
             </div>
-            <h1 className="max-w-5xl text-balance text-[2rem] font-bold leading-[1.03] text-[#0b0b0c] md:text-[3rem] lg:text-[3.5rem]">{item.title}</h1>
-            <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-[#54564f] md:text-lg">{item.summary}</p>
+            <h1 className="max-w-5xl text-balance text-[2rem] font-bold leading-[1.03] text-ink md:text-[3rem] lg:text-[3.5rem]">{item.title}</h1>
+            <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-ink-2 md:text-lg">{item.summary}</p>
           </div>
 
           <aside className="lg:col-span-4 xl:col-span-3">
             <div className="oko-card p-5 md:p-6">
-              <p className="mb-4 text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">Article Meta</p>
-              <div className="space-y-3 text-sm text-[#54564f]">
-                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
-                  <span className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 text-[#c9a227]" /> Опубліковано</span>
+              <p className="mb-4 text-[11px] uppercase tracking-[0.08em] text-gold-ink">Article Meta</p>
+              <div className="space-y-3 text-sm text-ink-2">
+                <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-2.5">
+                  <span className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 text-gold" /> Опубліковано</span>
                   <span className="text-right">{formatArticleDate(item.publishedAt)}</span>
                 </div>
                 {item.updatedAt && item.updatedAt !== item.publishedAt && (
-                  <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
-                    <span className="inline-flex items-center gap-2"><RefreshCw className="h-4 w-4 text-[#c9a227]" /> Оновлено</span>
+                  <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-2.5">
+                    <span className="inline-flex items-center gap-2"><RefreshCw className="h-4 w-4 text-gold" /> Оновлено</span>
                     <span className="text-right">{formatArticleDate(item.updatedAt)}</span>
                   </div>
                 )}
-                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
-                  <span className="inline-flex items-center gap-2"><FileText className="h-4 w-4 text-[#c9a227]" /> Категорія</span>
+                <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-2.5">
+                  <span className="inline-flex items-center gap-2"><FileText className="h-4 w-4 text-gold" /> Категорія</span>
                   <span>{category}</span>
                 </div>
-                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
-                  <span className="inline-flex items-center gap-2"><BookOpen className="h-4 w-4 text-[#c9a227]" /> Читання</span>
+                <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-2.5">
+                  <span className="inline-flex items-center gap-2"><BookOpen className="h-4 w-4 text-gold" /> Читання</span>
                   <span>{readMinutes} хв</span>
                 </div>
-                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
-                  <span className="inline-flex items-center gap-2"><Database className="h-4 w-4 text-[#c9a227]" /> Формат</span>
+                <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-2.5">
+                  <span className="inline-flex items-center gap-2"><Database className="h-4 w-4 text-gold" /> Формат</span>
                   <span>OSINT</span>
                 </div>
                 <div className="flex items-center justify-between gap-4">
-                  <span className="inline-flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-[#c9a227]" /> Точність</span>
+                  <span className="inline-flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-gold" /> Точність</span>
                   <span>відкриті джерела</span>
                 </div>
               </div>
               {item.url && (
-                <a href={item.url} target="_blank" rel="noreferrer" className="mt-5 inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-[#c9a227]/40 px-4 py-3 text-[12px] text-[#8a6a0e] transition-colors hover:bg-[#c9a227]/10">
+                <a href={item.url} target="_blank" rel="noreferrer" className="mt-5 inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-gold/40 px-4 py-3 text-[12px] text-gold-ink transition-colors hover:bg-gold/10">
                   Зовнішнє джерело <ArrowUpRight className="h-3 w-3" />
                 </a>
               )}
@@ -415,7 +415,7 @@ export default function InvestigationPage() {
         <aside className="lg:col-span-3 xl:col-span-3">
           <div className="lg:sticky lg:top-24 space-y-4">
             <div className="oko-card p-5">
-              <div className="mb-4 flex items-center gap-2 text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">
+              <div className="mb-4 flex items-center gap-2 text-[11px] uppercase tracking-[0.08em] text-gold-ink">
                 <FileText className="h-3.5 w-3.5" /> Навігація
               </div>
               <nav className="space-y-1">
@@ -424,7 +424,7 @@ export default function InvestigationPage() {
                     key={heading.id}
                     type="button"
                     onClick={() => document.getElementById(heading.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                    className="block w-full border-l border-[#0b0b0c]/10 px-3 py-2 text-left text-[13px] leading-snug text-[#54564f] transition-colors hover:border-[#c9a227]/70 hover:text-[#0b0b0c]"
+                    className="block w-full border-l border-ink/10 px-3 py-2 text-left text-[13px] leading-snug text-ink-2 transition-colors hover:border-gold/70 hover:text-ink"
                   >
                     {heading.label}
                   </button>
@@ -433,10 +433,10 @@ export default function InvestigationPage() {
             </div>
             {(item.tags || []).length > 0 && (
               <div className="oko-card p-5">
-                <p className="mb-3 text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">Tags</p>
+                <p className="mb-3 text-[11px] uppercase tracking-[0.08em] text-gold-ink">Tags</p>
                 <div className="flex flex-wrap gap-2">
                   {(item.tags || []).map((tag) => (
-                    <span key={tag} className="rounded-full border border-[#0b0b0c]/10 bg-[#f4f5f3] px-2.5 py-1 text-[12px] text-[#54564f]">{tag}</span>
+                    <span key={tag} className="rounded-full border border-ink/10 bg-surface-2 px-2.5 py-1 text-[12px] text-ink-2">{tag}</span>
                   ))}
                 </div>
               </div>
@@ -445,11 +445,11 @@ export default function InvestigationPage() {
         </aside>
 
         <main className="lg:col-span-9 xl:col-span-9">
-          <article className="article-shell rounded-2xl border border-[#0b0b0c]/10 bg-[#ffffff] p-5 md:p-8 lg:p-10">
+          <article className="article-shell rounded-2xl border border-ink/10 bg-surface p-5 md:p-8 lg:p-10">
             {markdown ? (
               <div className="article-body" dangerouslySetInnerHTML={{ __html: html }} />
             ) : (
-              <p className="text-[#54564f]">Контент ще готується.</p>
+              <p className="text-ink-2">Контент ще готується.</p>
             )}
             <div className="share-bar">
               <span className="share-label">Поділитися розслідуванням</span>
@@ -462,13 +462,13 @@ export default function InvestigationPage() {
               </button>
             </div>
             {related.length > 0 && (
-              <section className="mt-8 border-t border-[#0b0b0c]/10 pt-6">
-                <h3 className="mb-3 text-lg font-bold text-[#0b0b0c]">Пов’язані матеріали</h3>
+              <section className="mt-8 border-t border-ink/10 pt-6">
+                <h3 className="mb-3 text-lg font-bold text-ink">Пов’язані матеріали</h3>
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                   {related.map((r) => (
-                    <Link key={r.id} to={`/investigation/${r.id}`} className="rounded-xl border border-[#0b0b0c]/10 bg-[#ffffff] p-4 transition-colors hover:border-[#c9a227]/45 hover:bg-[#f4f5f3]">
-                      <p className="text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">{r.id}</p>
-                      <p className="mt-1 text-sm font-medium text-[#0b0b0c]">{r.title}</p>
+                    <Link key={r.id} to={`/investigation/${r.id}`} className="rounded-xl border border-ink/10 bg-surface p-4 transition-colors hover:border-gold/45 hover:bg-surface-2">
+                      <p className="text-[11px] uppercase tracking-[0.08em] text-gold-ink">{r.id}</p>
+                      <p className="mt-1 text-sm font-medium text-ink">{r.title}</p>
                     </Link>
                   ))}
                 </div>

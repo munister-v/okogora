@@ -562,39 +562,39 @@ export default function App() {
   const investigationCards = publishedInvestigations.filter((item) => item.id !== featuredInvestigation?.id).slice(0, 5);
 
   return (
-    <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] selection:bg-[#c9a227]/30 selection:text-[#0b0b0c] font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-surface text-ink selection:bg-gold/30 selection:text-ink font-sans overflow-x-hidden">
 
       {/* ── Navigation ─────────────────────────────────────────────────────── */}
-      <nav className="fixed top-0 left-0 right-0 z-[1000] border-b border-[#c9a227]/10 bg-[#ffffff]/90 backdrop-blur-xl">
+      <nav className="fixed top-0 left-0 right-0 z-[1000] border-b border-gold/10 bg-surface/90 backdrop-blur-xl">
         <div className="flex items-center justify-between px-4 md:px-8 py-3 md:py-4 text-[10px] md:text-xs font-mono uppercase tracking-widest">
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 bg-[#c9a227] rounded-lg flex items-center justify-center">
-              <div className="w-1.5 h-1.5 bg-[#ffffff] rounded-md animate-pulse" />
+            <div className="w-4 h-4 bg-gold rounded-lg flex items-center justify-center">
+              <div className="w-1.5 h-1.5 bg-surface rounded-md animate-pulse" />
             </div>
-            <Link to="/" className="font-bold tracking-tighter text-[#0b0b0c] hover:text-[#8a6a0e] transition-colors">ОКО ГОРА</Link>
+            <Link to="/" className="font-bold tracking-tighter text-ink hover:text-gold-ink transition-colors">ОКО ГОРА</Link>
           </div>
           {/* Desktop nav links */}
-          <div className="hidden md:flex items-center gap-6 text-[#0b0b0c]/50">
-            <Link to="/" className="hover:text-[#0b0b0c] transition-colors">Головна</Link>
-            <Link to="/targets" className="hover:text-[#0b0b0c] transition-colors flex items-center gap-1 text-[#8a6a0e] font-bold">
+          <div className="hidden md:flex items-center gap-6 text-ink/50">
+            <Link to="/" className="hover:text-ink transition-colors">Головна</Link>
+            <Link to="/targets" className="hover:text-ink transition-colors flex items-center gap-1 text-gold-ink font-bold">
               <Target className="w-3 h-3" /> БАЗА ЦІЛЕЙ
             </Link>
-            <button type="button" onClick={() => openSection('map')} className="hover:text-[#0b0b0c] transition-colors">Карта</button>
-            <button type="button" onClick={() => openSection('brigades')} className="hover:text-[#0b0b0c] transition-colors">Підрозділи</button>
-            <button type="button" onClick={() => openSection('analytics')} className="hover:text-[#0b0b0c] transition-colors">Аналітика</button>
-            <button type="button" onClick={() => openSection('sbs')} className="hover:text-[#0b0b0c] transition-colors">SBS</button>
-            <button type="button" onClick={() => openSection('deepstate')} className="hover:text-[#0b0b0c] transition-colors">DeepState</button>
-            <button type="button" onClick={() => openSection('investigations')} className="hover:text-[#0b0b0c] transition-colors">Розслідування</button>
-            <button type="button" onClick={() => openSection('rss')} className="hover:text-[#0b0b0c] transition-colors">RSS</button>
-            <button type="button" onClick={() => openSection('feed')} className="hover:text-[#0b0b0c] transition-colors">Стрічка</button>
+            <button type="button" onClick={() => openSection('map')} className="hover:text-ink transition-colors">Карта</button>
+            <button type="button" onClick={() => openSection('brigades')} className="hover:text-ink transition-colors">Підрозділи</button>
+            <button type="button" onClick={() => openSection('analytics')} className="hover:text-ink transition-colors">Аналітика</button>
+            <button type="button" onClick={() => openSection('sbs')} className="hover:text-ink transition-colors">SBS</button>
+            <button type="button" onClick={() => openSection('deepstate')} className="hover:text-ink transition-colors">DeepState</button>
+            <button type="button" onClick={() => openSection('investigations')} className="hover:text-ink transition-colors">Розслідування</button>
+            <button type="button" onClick={() => openSection('rss')} className="hover:text-ink transition-colors">RSS</button>
+            <button type="button" onClick={() => openSection('feed')} className="hover:text-ink transition-colors">Стрічка</button>
             <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-              className="hover:text-[#8a6a0e] transition-colors flex items-center gap-1 font-bold text-[#0b0b0c]">
+              className="hover:text-gold-ink transition-colors flex items-center gap-1 font-bold text-ink">
               ТЕЛЕГРАМ <ArrowUpRight className="w-3 h-3" />
             </a>
           </div>
           {/* Mobile: Telegram link (compact) */}
           <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-            className="md:hidden flex items-center gap-1 font-mono text-[10px] font-bold text-[#8a6a0e] uppercase tracking-widest">
+            className="md:hidden flex items-center gap-1 font-mono text-[10px] font-bold text-gold-ink uppercase tracking-widest">
             TG <ArrowUpRight className="w-3 h-3" />
           </a>
         </div>
@@ -617,7 +617,7 @@ export default function App() {
                 alt=""
                 className="w-full h-full object-cover opacity-[0.08] md:opacity-[0.1] grayscale contrast-125"
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#ffffff]/30 via-[#ffffff]/75 to-[#ffffff]" />
+              <div className="absolute inset-0 bg-gradient-to-b from-surface/30 via-surface/75 to-surface" />
             </div>
             <div className="absolute inset-0 -z-10 flex items-center justify-center overflow-hidden pointer-events-none select-none">
               <motion.img
@@ -630,14 +630,14 @@ export default function App() {
               />
             </div>
 
-            <h1 className="text-[14vw] md:text-[12vw] leading-[0.8] font-bold tracking-tighter uppercase mb-8 relative z-10 text-[#0b0b0c]">
+            <h1 className="text-[14vw] md:text-[12vw] leading-[0.8] font-bold tracking-tighter uppercase mb-8 relative z-10 text-ink">
               Око Гора
             </h1>
 
             {/* Ukrainian Armed Forces insignia strip — official Wikimedia SVGs */}
             <div className="flex flex-wrap items-center gap-5 mb-10 relative z-10">
               <div className="flex flex-col items-center gap-1.5 group cursor-default" title="Нарукавний знак ЗСУ">
-                <div className="w-14 h-14 flex items-center justify-center border border-[#c9a227]/30 rounded-2xl bg-[#c9a227]/10 group-hover:border-[#c9a227]/70 group-hover:bg-[#c9a227]/20 transition-all duration-300 p-1.5">
+                <div className="w-14 h-14 flex items-center justify-center border border-gold/30 rounded-2xl bg-gold/10 group-hover:border-gold/70 group-hover:bg-gold/20 transition-all duration-300 p-1.5">
                   <img
                     src="assets-zsu-patch.png"
                     alt="Нарукавний знак ЗСУ"
@@ -645,7 +645,7 @@ export default function App() {
                     loading="lazy"
                   />
                 </div>
-                <span className="font-mono text-[8px] tracking-widest text-[#8a6a0e]/70 group-hover:text-[#8a6a0e] transition-colors uppercase">ЗСУ</span>
+                <span className="font-mono text-[8px] tracking-widest text-gold-ink/70 group-hover:text-gold-ink transition-colors uppercase">ЗСУ</span>
               </div>
               {[
                 { label: 'СВ',  title: 'Сухопутні війська',           url: 'https://upload.wikimedia.org/wikipedia/commons/3/36/%D0%9D%D0%97_%D0%A1%D0%92.svg' },
@@ -655,7 +655,7 @@ export default function App() {
                 { label: 'ДШВ', title: 'Десантно-штурмові війська',   url: 'https://upload.wikimedia.org/wikipedia/commons/8/81/%D0%9D%D0%97_%D0%92%D0%94%D0%92.svg' },
               ].map(branch => (
                 <div key={branch.label} className="flex flex-col items-center gap-1.5 group cursor-default" title={branch.title}>
-                  <div className="w-14 h-14 flex items-center justify-center border border-[#c9a227]/20 rounded-2xl bg-[#c9a227]/5 group-hover:border-[#c9a227]/60 group-hover:bg-[#c9a227]/10 transition-all duration-300 p-1">
+                  <div className="w-14 h-14 flex items-center justify-center border border-gold/20 rounded-2xl bg-gold/5 group-hover:border-gold/60 group-hover:bg-gold/10 transition-all duration-300 p-1">
                     <img
                       src={branch.url}
                       alt={branch.title}
@@ -664,22 +664,22 @@ export default function App() {
                       onError={e => { (e.target as HTMLImageElement).style.opacity = '0.2'; }}
                     />
                   </div>
-                  <span className="font-mono text-[8px] tracking-widest text-[#8a6a0e]/50 group-hover:text-[#8a6a0e] transition-colors uppercase">{branch.label}</span>
+                  <span className="font-mono text-[8px] tracking-widest text-gold-ink/50 group-hover:text-gold-ink transition-colors uppercase">{branch.label}</span>
                 </div>
               ))}
               <a
                 href="https://t.me/oko_gora"
                 target="_blank"
                 rel="noreferrer"
-                className="ml-auto hidden md:inline-flex items-center gap-1.5 font-mono text-[9px] text-[#8a6a0e]/55 hover:text-[#8a6a0e] uppercase tracking-widest transition-colors"
+                className="ml-auto hidden md:inline-flex items-center gap-1.5 font-mono text-[9px] text-gold-ink/55 hover:text-gold-ink uppercase tracking-widest transition-colors"
               >
                 t.me/oko_gora <ArrowUpRight className="w-3 h-3" />
               </a>
             </div>
-            <div className="mb-8 md:mb-12 flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-l-2 border-[#c9a227]/80 rounded-r-2xl bg-[#f4f5f3]/70 p-4 md:p-5">
+            <div className="mb-8 md:mb-12 flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-l-2 border-gold/80 rounded-r-2xl bg-surface-2/70 p-4 md:p-5">
               <div>
-                <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-2">/ ПЛАТФОРМА TELEGRAM-КАНАЛУ</p>
-                <p className="text-[#0b0b0c]/95 text-lg md:text-2xl font-extrabold leading-tight max-w-5xl">
+                <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-2">/ ПЛАТФОРМА TELEGRAM-КАНАЛУ</p>
+                <p className="text-ink/95 text-lg md:text-2xl font-extrabold leading-tight max-w-5xl">
                   Око Гора - цифрова платформа Telegram-каналу про новини, карту, джерела та аналітику.
                 </p>
               </div>
@@ -687,17 +687,17 @@ export default function App() {
                 href="https://t.me/oko_gora"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 self-start md:self-auto shrink-0 border border-[#c9a227]/60 rounded-full bg-[#c9a227]/12 px-5 py-3 font-mono text-[11px] md:text-xs tracking-widest uppercase text-[#8a6a0e] hover:bg-[#c9a227]/20 hover:border-[#c9a227] transition-colors"
+                className="inline-flex items-center gap-2 self-start md:self-auto shrink-0 border border-gold/60 rounded-full bg-gold/12 px-5 py-3 font-mono text-[11px] md:text-xs tracking-widest uppercase text-gold-ink hover:bg-gold/20 hover:border-gold transition-colors"
               >
                 Перейти в Telegram <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-14">
               {heroSignals.map((signal) => (
-                <div key={signal.label} className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/80 p-4 md:p-5">
-                  <p className="font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/42">{signal.label}</p>
-                  <p className="mt-2 text-3xl md:text-5xl font-black tracking-tighter text-[#8a6a0e] tabular-nums">{formatNumber(signal.value)}</p>
-                  <p className="mt-1 text-xs md:text-sm text-[#0b0b0c]/50 font-bold">{signal.note}</p>
+                <div key={signal.label} className="border border-gold/20 rounded-2xl bg-surface-2/80 p-4 md:p-5">
+                  <p className="font-mono text-[9px] uppercase tracking-widest text-ink/42">{signal.label}</p>
+                  <p className="mt-2 text-3xl md:text-5xl font-black tracking-tighter text-gold-ink tabular-nums">{formatNumber(signal.value)}</p>
+                  <p className="mt-1 text-xs md:text-sm text-ink/50 font-bold">{signal.note}</p>
                 </div>
               ))}
             </div>
@@ -705,41 +705,41 @@ export default function App() {
 
           {/* Interactive Investigations */}
           <motion.section id="investigations" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ НОВИЙ РОЗДІЛ</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ НОВИЙ РОЗДІЛ</span>
                   <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">Інтерактивні розслідування</h2>
                 </div>
                 <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-                  className="font-mono text-xs uppercase tracking-widest text-[#0b0b0c]/30 hover:text-[#8a6a0e] transition-colors">
+                  className="font-mono text-xs uppercase tracking-widest text-ink/30 hover:text-gold-ink transition-colors">
                   Telegram-канал <ArrowUpRight className="inline w-3 h-3 ml-1" />
                 </a>
               </div>
 
-              <div className="mb-6 border border-[#c9a227]/30 rounded-2xl bg-[#ffffff] p-5 md:p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div className="mb-6 border border-gold/30 rounded-2xl bg-surface p-5 md:p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-10 h-10 border border-[#c9a227]/40 rounded-2xl bg-[#c9a227]/10 flex items-center justify-center shrink-0">
-                    <Database className="w-5 h-5 text-[#8a6a0e]" />
+                  <div className="w-10 h-10 border border-gold/40 rounded-2xl bg-gold/10 flex items-center justify-center shrink-0">
+                    <Database className="w-5 h-5 text-gold-ink" />
                   </div>
                   <div>
-                    <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/80">Розділ відкрито</p>
-                    <p className="text-lg md:text-xl font-bold text-[#0b0b0c]">Перші розслідування вже доступні.</p>
-                    <p className="text-sm text-[#0b0b0c]/55 mt-1">Матеріали виходять окремими кейсами з хронологією, таблицями, джерелами та короткими висновками.</p>
+                    <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/80">Розділ відкрито</p>
+                    <p className="text-lg md:text-xl font-bold text-ink">Перші розслідування вже доступні.</p>
+                    <p className="text-sm text-ink/55 mt-1">Матеріали виходять окремими кейсами з хронологією, таблицями, джерелами та короткими висновками.</p>
                   </div>
                 </div>
               </div>
 
               {featuredInvestigation && (
-                <article className="mb-5 bg-[#ffffff] border border-[#c9a227]/45 rounded-2xl p-6 md:p-8 lg:p-10">
+                <article className="mb-5 bg-surface border border-gold/45 rounded-2xl p-6 md:p-8 lg:p-10">
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-end">
                     <div className="lg:col-span-8">
-                      <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4">{featuredInvestigation.code}</p>
-                      <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight leading-[0.95] text-[#0b0b0c]">{featuredInvestigation.title}</h3>
-                      <p className="mt-4 text-base md:text-lg text-[#0b0b0c]/60 max-w-3xl leading-relaxed">{featuredInvestigation.summary}</p>
+                      <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4">{featuredInvestigation.code}</p>
+                      <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight leading-[0.95] text-ink">{featuredInvestigation.title}</h3>
+                      <p className="mt-4 text-base md:text-lg text-ink/60 max-w-3xl leading-relaxed">{featuredInvestigation.summary}</p>
                     </div>
                     <div className="lg:col-span-4 flex lg:justify-end">
-                      <Link to={`/investigation/${featuredInvestigation.id}`} className="inline-flex items-center gap-2 border border-[#c9a227]/50 rounded-full bg-[#c9a227]/10 px-6 py-4 font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e] hover:bg-[#c9a227]/20 transition-colors">
+                      <Link to={`/investigation/${featuredInvestigation.id}`} className="inline-flex items-center gap-2 border border-gold/50 rounded-full bg-gold/10 px-6 py-4 font-mono text-[10px] uppercase tracking-widest text-gold-ink hover:bg-gold/20 transition-colors">
                         Читати розслідування <ArrowUpRight className="w-3 h-3" />
                       </Link>
                     </div>
@@ -750,16 +750,16 @@ export default function App() {
               {investigationCards.length > 0 && (
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                   {investigationCards.slice(0, 6).map(item => (
-                  <article key={item.code} className="bg-[#ffffff] border border-[#c9a227]/20 rounded-2xl p-6 md:p-8 hover:border-[#c9a227]/50 transition-colors">
-                    <p className="font-mono text-[9px] uppercase tracking-[0.25em] text-[#8a6a0e] mb-4">{item.code}</p>
-                    <h3 className="text-2xl font-bold tracking-tight uppercase mb-4 text-[#0b0b0c]">{item.title}</h3>
-                    <p className="text-[#0b0b0c]/50 text-sm leading-relaxed">{item.summary}</p>
+                  <article key={item.code} className="bg-surface border border-gold/20 rounded-2xl p-6 md:p-8 hover:border-gold/50 transition-colors">
+                    <p className="font-mono text-[9px] uppercase tracking-[0.25em] text-gold-ink mb-4">{item.code}</p>
+                    <h3 className="text-2xl font-bold tracking-tight uppercase mb-4 text-ink">{item.title}</h3>
+                    <p className="text-ink/50 text-sm leading-relaxed">{item.summary}</p>
                     <div className="mt-4 flex items-center gap-4">
-                      <Link to={`/investigation/${item.id}`} className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/65 hover:text-[#8a6a0e] transition-colors">
+                      <Link to={`/investigation/${item.id}`} className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-ink/65 hover:text-gold-ink transition-colors">
                         Детально <ArrowUpRight className="w-3 h-3" />
                       </Link>
                       {item.url && (
-                        <a href={item.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/45 hover:text-[#8a6a0e] transition-colors">
+                        <a href={item.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-ink/45 hover:text-gold-ink transition-colors">
                           Джерело <ArrowUpRight className="w-3 h-3" />
                         </a>
                       )}
@@ -774,8 +774,8 @@ export default function App() {
           {/* Map */}
           <motion.div id="map" variants={fadeIn} className="mb-32 md:mb-48 w-full scroll-mt-28">
             <Suspense fallback={
-              <div className="w-full h-[500px] md:h-[800px] bg-[#f4f5f3] border border-[#c9a227]/20 rounded-2xl flex items-center justify-center">
-                <span className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/40 animate-pulse">ЗАВАНТАЖЕННЯ_МАПИ...</span>
+              <div className="w-full h-[500px] md:h-[800px] bg-surface-2 border border-gold/20 rounded-2xl flex items-center justify-center">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/40 animate-pulse">ЗАВАНТАЖЕННЯ_МАПИ...</span>
               </div>
             }>
               <MapService />
@@ -786,21 +786,21 @@ export default function App() {
           <motion.div variants={fadeIn} className="mb-32 md:mb-48">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Terminal */}
-              <div className="lg:col-span-1 bg-[#f4f5f3] text-[#8a6a0e] p-6 font-mono text-[10px] leading-relaxed border border-[#c9a227]/25 rounded-2xl shadow-2xl relative overflow-hidden">
-                <div className="flex items-center gap-2 mb-4 border-b border-[#c9a227]/20 pb-2">
+              <div className="lg:col-span-1 bg-surface-2 text-gold-ink p-6 font-mono text-[10px] leading-relaxed border border-gold/25 rounded-2xl shadow-2xl relative overflow-hidden">
+                <div className="flex items-center gap-2 mb-4 border-b border-gold/20 pb-2">
                   <Terminal className="w-3 h-3" />
                   <span className="uppercase tracking-widest text-[9px]">ПРЯМИЙ_ЕФІР_ДАННИХ</span>
                   <span className="ml-auto animate-pulse">●</span>
                 </div>
-                <div className="space-y-1 opacity-80 h-[120px] overflow-hidden text-[#0b0b0c]/70">
+                <div className="space-y-1 opacity-80 h-[120px] overflow-hidden text-ink/70">
                   <p>[оновлено] Telegram-стрічка каналу підтягується з posts.json</p>
                   <p>[оновлено] RSS з X/Facebook очищається від HTML і дублів</p>
                   <p>[мапа] Показуємо цілі, події з постів і відкриті стратегічні обʼєкти</p>
                   <p>[джерела] SBS та DeepState мають окремі посилання на оригінали</p>
                   <p>[важливо] Кожну важливу цифру краще перевіряти за джерелом</p>
-                  <p className="animate-pulse text-[#8a6a0e]">_</p>
+                  <p className="animate-pulse text-gold-ink">_</p>
                 </div>
-                <div className="mt-8 pt-4 border-t border-[#c9a227]/10 flex justify-between opacity-30 text-[8px] uppercase tracking-widest">
+                <div className="mt-8 pt-4 border-t border-gold/10 flex justify-between opacity-30 text-[8px] uppercase tracking-widest">
                   <span>ДАНІ: ВІДКРИТІ ДЖЕРЕЛА</span>
                   <span>ОНОВЛЕННЯ: АВТОМАТИЧНІ</span>
                 </div>
@@ -808,68 +808,68 @@ export default function App() {
 
               {/* Cards */}
               <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-[#ffffff] border border-[#c9a227]/20 rounded-2xl p-8 hover:border-[#c9a227]/60 hover:bg-[#eceee9] transition-all duration-500 group relative">
-                  <Activity className="w-8 h-8 mb-6 text-[#8a6a0e]/40 group-hover:text-[#8a6a0e] transition-colors" />
+                <div className="bg-surface border border-gold/20 rounded-2xl p-8 hover:border-gold/60 hover:bg-surface-3 transition-all duration-500 group relative">
+                  <Activity className="w-8 h-8 mb-6 text-gold-ink/40 group-hover:text-gold-ink transition-colors" />
                   <h4 className="text-2xl font-bold uppercase mb-2 tracking-tighter">Горюшко · щоденне оновлення</h4>
-                  <p className="text-sm text-[#0b0b0c]/50 leading-snug mb-6">Автоматичний лічильник нових записів у каналі за поточний день і за 7 днів. Сумарне значення беремо з останнього номера у тексті поста, не з ID Telegram.</p>
+                  <p className="text-sm text-ink/50 leading-snug mb-6">Автоматичний лічильник нових записів у каналі за поточний день і за 7 днів. Сумарне значення беремо з останнього номера у тексті поста, не з ID Telegram.</p>
                   <div className="grid grid-cols-3 gap-2 mb-6 font-mono text-center">
-                    <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                      <div className="text-lg font-bold text-[#8a6a0e]">{pechalStats?.counters.today ?? 0}</div>
-                      <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">сьогодні</div>
+                    <div className="border border-gold/20 rounded-xl py-2">
+                      <div className="text-lg font-bold text-gold-ink">{pechalStats?.counters.today ?? 0}</div>
+                      <div className="text-[8px] uppercase tracking-widest text-ink/40">сьогодні</div>
                     </div>
-                    <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                      <div className="text-lg font-bold text-[#0b0b0c]">{pechalStats?.counters.last7Days ?? 0}</div>
-                      <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">7 днів</div>
+                    <div className="border border-gold/20 rounded-xl py-2">
+                      <div className="text-lg font-bold text-ink">{pechalStats?.counters.last7Days ?? 0}</div>
+                      <div className="text-[8px] uppercase tracking-widest text-ink/40">7 днів</div>
                     </div>
-                    <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                      <div className="text-lg font-bold text-[#0b0b0c]">{(pechalStats?.counters.totalBySerial ?? pechalStats?.counters.totalApproxByMaxPostId ?? 0).toLocaleString('uk-UA')}</div>
-                      <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">сумарно*</div>
+                    <div className="border border-gold/20 rounded-xl py-2">
+                      <div className="text-lg font-bold text-ink">{(pechalStats?.counters.totalBySerial ?? pechalStats?.counters.totalApproxByMaxPostId ?? 0).toLocaleString('uk-UA')}</div>
+                      <div className="text-[8px] uppercase tracking-widest text-ink/40">сумарно*</div>
                     </div>
                   </div>
-                  <div className="mb-5 border border-[#c9a227]/18 rounded-2xl bg-[#f4f5f3]/55 p-3 font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/42">
+                  <div className="mb-5 border border-gold/18 rounded-2xl bg-surface-2/55 p-3 font-mono text-[9px] uppercase tracking-widest text-ink/42">
                     <div className="flex items-center justify-between gap-3">
                       <span>Оновлено</span>
-                      <span className="text-[#0b0b0c]/75">{formatSnapshotDate(pechalStats?.generatedAt)}</span>
+                      <span className="text-ink/75">{formatSnapshotDate(pechalStats?.generatedAt)}</span>
                     </div>
                     <div className="mt-2 flex items-center justify-between gap-3">
                       <span>Останній пост</span>
                       {pechalStats?.latestProofs?.[0]?.url ? (
-                        <a href={pechalStats.latestProofs[0].url} target="_blank" rel="noreferrer" className="text-[#8a6a0e] hover:text-[#8a6a0e] transition-colors">
+                        <a href={pechalStats.latestProofs[0].url} target="_blank" rel="noreferrer" className="text-gold-ink hover:text-gold-ink transition-colors">
                           #{pechalStats.latestProofs[0].id}
                         </a>
                       ) : (
-                        <span className="text-[#0b0b0c]/45">н/д</span>
+                        <span className="text-ink/45">н/д</span>
                       )}
                     </div>
                   </div>
-                  <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-[#0b0b0c]/10">
-                    <a href={pechalStats?.sourceUrl || 'https://t.me/s/pechalbeda200'} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[#8a6a0e] hover:text-[#8a6a0e] transition-colors"><Shield className="w-3 h-3" /> Відкрити канал</a>
-                    <span className="text-[#0b0b0c]/30">*номер у пості</span>
+                  <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-ink/10">
+                    <a href={pechalStats?.sourceUrl || 'https://t.me/s/pechalbeda200'} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gold-ink hover:text-gold-ink transition-colors"><Shield className="w-3 h-3" /> Відкрити канал</a>
+                    <span className="text-ink/30">*номер у пості</span>
                   </div>
                 </div>
 
-                <Link to="/targets" className="bg-[#ffffff] border border-[#c9a227]/20 rounded-2xl p-8 hover:border-[#c9a227]/60 hover:bg-[#eceee9] transition-all duration-500 group relative block">
-                  <Database className="w-8 h-8 mb-6 text-[#8a6a0e]/40 group-hover:text-[#8a6a0e] transition-colors" />
+                <Link to="/targets" className="bg-surface border border-gold/20 rounded-2xl p-8 hover:border-gold/60 hover:bg-surface-3 transition-all duration-500 group relative block">
+                  <Database className="w-8 h-8 mb-6 text-gold-ink/40 group-hover:text-gold-ink transition-colors" />
                   <h4 className="text-2xl font-bold uppercase mb-2 tracking-tighter">База Цілей</h4>
-                  <p className="text-sm text-[#0b0b0c]/50 leading-snug mb-8">Каталог НПЗ, авіабаз, складів і об'єктів ВПК Росії з координатами та статусом ураження.</p>
-                  <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-[#0b0b0c]/10">
-                    <span className="flex items-center gap-2 text-[#8a6a0e]"><Shield className="w-3 h-3" /> 38+ ОБ'ЄКТІВ</span>
-                    <span className="text-[#0b0b0c]/30 group-hover:text-[#8a6a0e] flex items-center gap-1 transition-colors">ВІДКРИТИ <ArrowUpRight className="w-3 h-3" /></span>
+                  <p className="text-sm text-ink/50 leading-snug mb-8">Каталог НПЗ, авіабаз, складів і об'єктів ВПК Росії з координатами та статусом ураження.</p>
+                  <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-ink/10">
+                    <span className="flex items-center gap-2 text-gold-ink"><Shield className="w-3 h-3" /> 38+ ОБ'ЄКТІВ</span>
+                    <span className="text-ink/30 group-hover:text-gold-ink flex items-center gap-1 transition-colors">ВІДКРИТИ <ArrowUpRight className="w-3 h-3" /></span>
                   </div>
                 </Link>
               </div>
             </div>
 
             {/* Dashboard strip */}
-            <div className="mt-8 aspect-[21/4] w-full bg-[#f4f5f3] relative overflow-hidden group border border-[#c9a227]/10 rounded-2xl">
+            <div className="mt-8 aspect-[21/4] w-full bg-surface-2 relative overflow-hidden group border border-gold/10 rounded-2xl">
               <img
                 src="ui_dashboard.png"
                 alt=""
                 className="w-full h-full object-cover opacity-30 grayscale group-hover:opacity-50 group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#f4f5f3] via-transparent to-[#f4f5f3]" />
+              <div className="absolute inset-0 bg-gradient-to-r from-surface-2 via-transparent to-surface-2" />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <div className="text-[#8a6a0e]/30 font-mono text-[10px] tracking-[0.5em] uppercase">
+                <div className="text-gold-ink/30 font-mono text-[10px] tracking-[0.5em] uppercase">
                   Сайт збирає відкриті дані та дає швидкі переходи до джерел
                 </div>
               </div>
@@ -878,78 +878,78 @@ export default function App() {
 
           {/* Brigades Dashboard */}
           <motion.section id="brigades" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ UNITS DASHBOARD</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ UNITS DASHBOARD</span>
                   <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">Активні підрозділи: ураження та реорганізація</h2>
-                  <p className="mt-4 text-[#0b0b0c]/60 max-w-4xl text-sm leading-relaxed">
+                  <p className="mt-4 text-ink/60 max-w-4xl text-sm leading-relaxed">
                     Автоматичний моніторинг офіційних X/Facebook-пабів українських підрозділів (бригади, полки, батальйони та інші) за останні 3 доби. Показуємо тільки ті підрозділи, що реально активні в цей період.
                   </p>
                 </div>
-                <div className="bg-[#f4f5f3] border border-[#c9a227]/20 rounded-2xl px-6 py-5 min-w-[260px]">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">Статус вибірки</p>
-                  <p className="text-xl font-bold tracking-tight text-[#0b0b0c]">
+                <div className="bg-surface-2 border border-gold/20 rounded-2xl px-6 py-5 min-w-[260px]">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">Статус вибірки</p>
+                  <p className="text-xl font-bold tracking-tight text-ink">
                     {(brigadeDashboard?.totals.unitsWithOfficialFeeds ?? brigadeDashboard?.totals.brigadesWithOfficialFeeds ?? 0)}
                     /
                     {(brigadeDashboard?.totals.units ?? brigadeDashboard?.totals.brigades ?? 0)} активних
                   </p>
-                  <p className="mt-1 text-xs text-[#0b0b0c]/45">Ураження: {brigadeDashboard?.totals.strikeItems ?? 0}</p>
-                  <p className="text-xs text-[#0b0b0c]/45">Реорганізація: {brigadeDashboard?.totals.reorgItems ?? 0}</p>
-                  <p className="text-xs text-[#0b0b0c]/45">Автознайдено підрозділів: {brigadeDashboard?.totals.autoDiscoveredUnits ?? 0}</p>
-                  <p className="mt-1 text-xs text-[#0b0b0c]/45">Оновлено: {brigadeDashboard?.generatedAt ? formatRssDate(brigadeDashboard.generatedAt) : 'очікується...'}</p>
+                  <p className="mt-1 text-xs text-ink/45">Ураження: {brigadeDashboard?.totals.strikeItems ?? 0}</p>
+                  <p className="text-xs text-ink/45">Реорганізація: {brigadeDashboard?.totals.reorgItems ?? 0}</p>
+                  <p className="text-xs text-ink/45">Автознайдено підрозділів: {brigadeDashboard?.totals.autoDiscoveredUnits ?? 0}</p>
+                  <p className="mt-1 text-xs text-ink/45">Оновлено: {brigadeDashboard?.generatedAt ? formatRssDate(brigadeDashboard.generatedAt) : 'очікується...'}</p>
                 </div>
               </div>
 
               {!brigadeDashboard || !brigadeDashboard.brigades.length ? (
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#ffffff] p-8 font-mono text-xs uppercase tracking-widest text-[#0b0b0c]/40">
+                <div className="border border-gold/20 rounded-2xl bg-surface p-8 font-mono text-xs uppercase tracking-widest text-ink/40">
                   Дані дашборду підрозділів ще формуються. Запусти синхронізацію або зачекай автооновлення.
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                   {brigadeDashboard.brigades.map((row) => (
-                    <article key={row.id} className="bg-[#eceee9] border border-[#c9a227]/20 rounded-2xl p-5 md:p-6">
+                    <article key={row.id} className="bg-surface-3 border border-gold/20 rounded-2xl p-5 md:p-6">
                       <h3 className="text-xl font-extrabold leading-snug mb-4">
                         {row.name}
                         {row.autoDiscovered ? <span className="ml-2 text-[10px] align-middle px-2 py-0.5 border border-emerald-400/40 rounded-full text-emerald-300 font-mono uppercase tracking-widest">auto</span> : null}
                       </h3>
                       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-4 font-mono text-center">
-                        <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                          <div className="text-base font-bold text-[#8a6a0e]">{row.officialItems}</div>
-                          <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">офіційні</div>
+                        <div className="border border-gold/20 rounded-xl py-2">
+                          <div className="text-base font-bold text-gold-ink">{row.officialItems}</div>
+                          <div className="text-[8px] uppercase tracking-widest text-ink/40">офіційні</div>
                         </div>
-                        <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                          <div className="text-base font-bold text-[#0b0b0c]">{row.mentionItems}</div>
-                          <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">згадки</div>
+                        <div className="border border-gold/20 rounded-xl py-2">
+                          <div className="text-base font-bold text-ink">{row.mentionItems}</div>
+                          <div className="text-[8px] uppercase tracking-widest text-ink/40">згадки</div>
                         </div>
-                        <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                          <div className="text-base font-bold text-[#0b0b0c]">{row.significantItems}</div>
-                          <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">значимі</div>
+                        <div className="border border-gold/20 rounded-xl py-2">
+                          <div className="text-base font-bold text-ink">{row.significantItems}</div>
+                          <div className="text-[8px] uppercase tracking-widest text-ink/40">значимі</div>
                         </div>
-                        <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                          <div className="text-base font-bold text-[#0b0b0c]">{row.strikeItems}</div>
-                          <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">ураження</div>
+                        <div className="border border-gold/20 rounded-xl py-2">
+                          <div className="text-base font-bold text-ink">{row.strikeItems}</div>
+                          <div className="text-[8px] uppercase tracking-widest text-ink/40">ураження</div>
                         </div>
-                        <div className="border border-[#c9a227]/20 rounded-xl py-2">
-                          <div className="text-base font-bold text-[#0b0b0c]">{row.reorgItems}</div>
-                          <div className="text-[8px] uppercase tracking-widest text-[#0b0b0c]/40">реорганізація</div>
+                        <div className="border border-gold/20 rounded-xl py-2">
+                          <div className="text-base font-bold text-ink">{row.reorgItems}</div>
+                          <div className="text-[8px] uppercase tracking-widest text-ink/40">реорганізація</div>
                         </div>
                       </div>
 
                       {row.items.length === 0 ? (
-                        <p className="text-sm text-[#0b0b0c]/45 leading-relaxed">За останні 3 доби не знайдено релевантних постів у доступних публічних фідах.</p>
+                        <p className="text-sm text-ink/45 leading-relaxed">За останні 3 доби не знайдено релевантних постів у доступних публічних фідах.</p>
                       ) : (
                         <div className="space-y-3">
                           {row.items.slice(0, 3).map((item) => (
-                            <a key={item.id} href={item.url} target="_blank" rel="noreferrer" className="block border border-[#0b0b0c]/10 rounded-xl p-3 hover:border-[#c9a227]/45 transition-colors">
+                            <a key={item.id} href={item.url} target="_blank" rel="noreferrer" className="block border border-ink/10 rounded-xl p-3 hover:border-gold/45 transition-colors">
                               <div className="flex items-center justify-between mb-2 font-mono text-[9px] tracking-widest uppercase">
-                                <span className={item.origin === 'official' ? 'text-[#8a6a0e]' : 'text-[#0b0b0c]/50'}>{item.origin === 'official' ? 'Офіційний паб' : 'Моніторинг згадок'}</span>
-                                <span className="text-[#0b0b0c]/35">{formatRssDate(item.publishedAt)}</span>
+                                <span className={item.origin === 'official' ? 'text-gold-ink' : 'text-ink/50'}>{item.origin === 'official' ? 'Офіційний паб' : 'Моніторинг згадок'}</span>
+                                <span className="text-ink/35">{formatRssDate(item.publishedAt)}</span>
                               </div>
-                              <p className="text-sm text-[#0b0b0c]/80 leading-snug">{formatPreview(item.titleUk || item.title || '', 130)}</p>
+                              <p className="text-sm text-ink/80 leading-snug">{formatPreview(item.titleUk || item.title || '', 130)}</p>
                               <div className="mt-2 flex flex-wrap gap-2">
                                 {item.isStrike && (
-                                  <span className="px-2 py-0.5 border border-[#c9a227]/40 rounded-full text-[9px] font-mono uppercase tracking-widest text-[#8a6a0e]">Ураження</span>
+                                  <span className="px-2 py-0.5 border border-gold/40 rounded-full text-[9px] font-mono uppercase tracking-widest text-gold-ink">Ураження</span>
                                 )}
                                 {item.isReorg && (
                                   <span className="px-2 py-0.5 border border-sky-400/40 rounded-full text-[9px] font-mono uppercase tracking-widest text-sky-300">Реорганізація</span>
@@ -968,73 +968,73 @@ export default function App() {
 
           {/* 7D Dashboard */}
           <motion.section id="analytics" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ OSINT DASHBOARD</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ OSINT DASHBOARD</span>
                   <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">Карта згадок про удари (7 днів)</h2>
-                  <p className="mt-4 text-[#0b0b0c]/60 max-w-3xl text-sm">Цей блок показує не підтверджену кількість реальних влучань, а інтенсивність згадок про удари у відкритих джерелах за останні 7 днів. Ми беремо пости з Telegram, X і Facebook, шукаємо маркери удару, визначаємо область за текстом і лишаємо посилання на першоджерело.</p>
+                  <p className="mt-4 text-ink/60 max-w-3xl text-sm">Цей блок показує не підтверджену кількість реальних влучань, а інтенсивність згадок про удари у відкритих джерелах за останні 7 днів. Ми беремо пости з Telegram, X і Facebook, шукаємо маркери удару, визначаємо область за текстом і лишаємо посилання на першоджерело.</p>
                 </div>
-                <div className="bg-[#f4f5f3] border border-[#c9a227]/20 rounded-2xl px-6 py-5">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">Унікальних згадок (7 днів)</p>
-                  <p className="text-5xl font-bold tracking-tighter text-[#0b0b0c]">{dashboard.total}</p>
-                  <p className="mt-2 text-xs text-[#0b0b0c]/45">Після дедуплікації за днем, областю, джерелом і заголовком.</p>
+                <div className="bg-surface-2 border border-gold/20 rounded-2xl px-6 py-5">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">Унікальних згадок (7 днів)</p>
+                  <p className="text-5xl font-bold tracking-tighter text-ink">{dashboard.total}</p>
+                  <p className="mt-2 text-xs text-ink/45">Після дедуплікації за днем, областю, джерелом і заголовком.</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3] p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">Що це за метрика</p>
-                  <p className="text-sm text-[#0b0b0c]/70 leading-relaxed">Це індикатор інформаційної активності: скільки окремих згадок про удари зʼявилося у стрічці, а не офіційний BDA.</p>
+                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що це за метрика</p>
+                  <p className="text-sm text-ink/70 leading-relaxed">Це індикатор інформаційної активності: скільки окремих згадок про удари зʼявилося у стрічці, а не офіційний BDA.</p>
                 </div>
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3] p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">Що показує heatmap</p>
-                  <p className="text-sm text-[#0b0b0c]/70 leading-relaxed">Кожна клітинка: скільки унікальних згадок про удари привʼязалося до конкретної області у конкретний день.</p>
+                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що показує heatmap</p>
+                  <p className="text-sm text-ink/70 leading-relaxed">Кожна клітинка: скільки унікальних згадок про удари привʼязалося до конкретної області у конкретний день.</p>
                 </div>
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3] p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">Що показує тренд</p>
-                  <p className="text-sm text-[#0b0b0c]/70 leading-relaxed">Горизонтальна шкала праворуч: сумарна кількість згадок за добу по всіх областях, що увійшли в поточний топ.</p>
+                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що показує тренд</p>
+                  <p className="text-sm text-ink/70 leading-relaxed">Горизонтальна шкала праворуч: сумарна кількість згадок за добу по всіх областях, що увійшли в поточний топ.</p>
                 </div>
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3] p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">Що таке “Конкретика”</p>
-                  <p className="text-sm text-[#0b0b0c]/70 leading-relaxed">Нижче наведені реальні заголовки з джерел, дата та автор. Клік по рядку відкриває першоджерело.</p>
+                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що таке “Конкретика”</p>
+                  <p className="text-sm text-ink/70 leading-relaxed">Нижче наведені реальні заголовки з джерел, дата та автор. Клік по рядку відкриває першоджерело.</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
-                <div className="border border-[#0b0b0c]/10 bg-[#f4f5f3] rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/35 mb-2">Областей у топі</p>
-                  <p className="text-3xl font-bold tracking-tighter text-[#0b0b0c]">{dashboard.oblasts.length}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Областей у топі</p>
+                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.oblasts.length}</p>
                 </div>
-                <div className="border border-[#0b0b0c]/10 bg-[#f4f5f3] rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/35 mb-2">Середнє за добу</p>
-                  <p className="text-3xl font-bold tracking-tighter text-[#0b0b0c]">{dashboard.days.length ? (dashboard.total / dashboard.days.length).toFixed(1) : '0.0'}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Середнє за добу</p>
+                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.days.length ? (dashboard.total / dashboard.days.length).toFixed(1) : '0.0'}</p>
                 </div>
-                <div className="border border-[#0b0b0c]/10 bg-[#f4f5f3] rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/35 mb-2">Пік за добу</p>
-                  <p className="text-3xl font-bold tracking-tighter text-[#0b0b0c]">{dashboard.maxTrend}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Пік за добу</p>
+                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.maxTrend}</p>
                 </div>
-                <div className="border border-[#0b0b0c]/10 bg-[#f4f5f3] rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/35 mb-2">Макс. клітинка</p>
-                  <p className="text-3xl font-bold tracking-tighter text-[#0b0b0c]">{dashboard.maxCell}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Макс. клітинка</p>
+                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.maxCell}</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
-                <div className="xl:col-span-7 bg-[#f4f5f3] border border-[#c9a227]/20 rounded-2xl p-6 md:p-8">
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">Heatmap · День × Область</h3>
-                  <p className="text-xs text-[#0b0b0c]/45 mb-4">Темніша клітинка означає більше згадок у межах цього дня та цієї області відносно інших клітинок у 7-денному вікні.</p>
+                <div className="xl:col-span-7 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
+                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Heatmap · День × Область</h3>
+                  <p className="text-xs text-ink/45 mb-4">Темніша клітинка означає більше згадок у межах цього дня та цієї області відносно інших клітинок у 7-денному вікні.</p>
                   <div className="space-y-2">
                     {dashboard.days.map((day) => (
                       <div key={day} className="grid gap-2 items-center" style={{ gridTemplateColumns: `70px repeat(${Math.max(1, dashboard.oblasts.length)}, minmax(0, 1fr))` }}>
-                        <span className="font-mono text-[10px] text-[#0b0b0c]/35 uppercase">{day.slice(5)}</span>
+                        <span className="font-mono text-[10px] text-ink/35 uppercase">{day.slice(5)}</span>
                         {dashboard.oblasts.map((oblast) => {
                           const value = dashboard.byDayOblast[day][oblast] || 0;
                           const alpha = value === 0 ? 0.06 : 0.18 + (value / dashboard.maxCell) * 0.82;
                           return (
-                            <div key={`${day}-${oblast}`} className="h-8 border border-[#c9a227]/20 rounded-lg flex items-center justify-between px-2" style={{ backgroundColor: `rgba(201,162,39,${alpha})` }}>
-                              <span className="font-mono text-[9px] uppercase text-[#0b0b0c]/70 truncate">{oblast.replace('РФ: ', '')}</span>
-                              <span className="font-mono text-[10px] font-bold text-[#0b0b0c]">{value}</span>
+                            <div key={`${day}-${oblast}`} className="h-8 border border-gold/20 rounded-lg flex items-center justify-between px-2" style={{ backgroundColor: `rgba(201,162,39,${alpha})` }}>
+                              <span className="font-mono text-[9px] uppercase text-ink/70 truncate">{oblast.replace('РФ: ', '')}</span>
+                              <span className="font-mono text-[10px] font-bold text-ink">{value}</span>
                             </div>
                           );
                         })}
@@ -1043,52 +1043,52 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="xl:col-span-5 bg-[#ffffff] border border-[#c9a227]/20 rounded-2xl p-6 md:p-8">
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">Тренд · День</h3>
-                  <p className="text-xs text-[#0b0b0c]/45 mb-4">Кожен рядок показує загальну кількість згадок про удари за добу по областях, що потрапили у топ цього блоку.</p>
+                <div className="xl:col-span-5 bg-surface border border-gold/20 rounded-2xl p-6 md:p-8">
+                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Тренд · День</h3>
+                  <p className="text-xs text-ink/45 mb-4">Кожен рядок показує загальну кількість згадок про удари за добу по областях, що потрапили у топ цього блоку.</p>
                   <div className="space-y-2">
                     {dashboard.trend.map((t) => (
                       <div key={t.day} className="flex items-center gap-3">
-                        <span className="font-mono text-[10px] text-[#0b0b0c]/35 w-14">{t.day.slice(5)}</span>
-                        <div className="h-3 bg-[#c9a227] transition-all" style={{ width: `${Math.max(6, (t.total / dashboard.maxTrend) * 100)}%` }} />
-                        <span className="font-mono text-[10px] text-[#0b0b0c]/75">{t.total}</span>
+                        <span className="font-mono text-[10px] text-ink/35 w-14">{t.day.slice(5)}</span>
+                        <div className="h-3 bg-gold transition-all" style={{ width: `${Math.max(6, (t.total / dashboard.maxTrend) * 100)}%` }} />
+                        <span className="font-mono text-[10px] text-ink/75">{t.total}</span>
                       </div>
                     ))}
                   </div>
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mt-8 mb-3">Топ-області</h3>
+                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mt-8 mb-3">Топ-області</h3>
                   <div className="space-y-2">
                     {dashboard.concreteByOblast.slice(0, 6).map((row) => (
-                      <div key={row.oblast} className="flex items-center justify-between border-b border-[#0b0b0c]/10 pb-1">
-                        <span className="text-[#0b0b0c]/70 text-sm truncate">{row.oblast}</span>
-                        <span className="font-mono text-[10px] text-[#8a6a0e]">{row.total}</span>
+                      <div key={row.oblast} className="flex items-center justify-between border-b border-ink/10 pb-1">
+                        <span className="text-ink/70 text-sm truncate">{row.oblast}</span>
+                        <span className="font-mono text-[10px] text-gold-ink">{row.total}</span>
                       </div>
                     ))}
                   </div>
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mt-8 mb-3">Джерела (7 днів)</h3>
+                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mt-8 mb-3">Джерела (7 днів)</h3>
                   <div className="space-y-2 font-mono text-[10px] uppercase tracking-widest">
-                    <div className="flex items-center justify-between border-b border-[#0b0b0c]/10 pb-1"><span className="text-[#0b0b0c]/60">X / Twitter</span><span className="text-[#8a6a0e]">{dashboard.bySource.x}</span></div>
-                    <div className="flex items-center justify-between border-b border-[#0b0b0c]/10 pb-1"><span className="text-[#0b0b0c]/60">Facebook</span><span className="text-[#8a6a0e]">{dashboard.bySource.facebook}</span></div>
-                    <div className="flex items-center justify-between border-b border-[#0b0b0c]/10 pb-1"><span className="text-[#0b0b0c]/60">Telegram</span><span className="text-[#8a6a0e]">{dashboard.bySource.telegram}</span></div>
+                    <div className="flex items-center justify-between border-b border-ink/10 pb-1"><span className="text-ink/60">X / Twitter</span><span className="text-gold-ink">{dashboard.bySource.x}</span></div>
+                    <div className="flex items-center justify-between border-b border-ink/10 pb-1"><span className="text-ink/60">Facebook</span><span className="text-gold-ink">{dashboard.bySource.facebook}</span></div>
+                    <div className="flex items-center justify-between border-b border-ink/10 pb-1"><span className="text-ink/60">Telegram</span><span className="text-gold-ink">{dashboard.bySource.telegram}</span></div>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-6 bg-[#f4f5f3] border border-[#c9a227]/20 rounded-2xl p-6 md:p-8">
-                <h3 className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-4">Конкретика по областях</h3>
+              <div className="mt-6 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
+                <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-4">Конкретика по областях</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {dashboard.concreteByOblast.map((row) => (
-                    <div key={row.oblast} className="border border-[#c9a227]/20 rounded-2xl bg-[#ffffff] p-4">
+                    <div key={row.oblast} className="border border-gold/20 rounded-2xl bg-surface p-4">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]">{row.oblast}</span>
-                        <span className="font-mono text-[10px] text-[#0b0b0c]/50">{row.total} подій</span>
+                        <span className="font-mono text-[10px] uppercase tracking-widest text-gold-ink">{row.oblast}</span>
+                        <span className="font-mono text-[10px] text-ink/50">{row.total} подій</span>
                       </div>
                       <div className="space-y-2">
                         {row.samples.length === 0 ? (
-                          <p className="text-xs text-[#0b0b0c]/40">Немає заголовків у вікні 7 днів.</p>
+                          <p className="text-xs text-ink/40">Немає заголовків у вікні 7 днів.</p>
                         ) : row.samples.map((s) => (
-                          <a key={`${row.oblast}-${s.day}-${s.url}`} href={s.url} target="_blank" rel="noreferrer" className="block text-sm text-[#0b0b0c]/80 leading-snug hover:text-[#8a6a0e] transition-colors">
+                          <a key={`${row.oblast}-${s.day}-${s.url}`} href={s.url} target="_blank" rel="noreferrer" className="block text-sm text-ink/80 leading-snug hover:text-gold-ink transition-colors">
                             • [{s.source}] {s.headline}
-                            <span className="ml-1 text-[#0b0b0c]/40 font-mono text-[10px]">({s.day.slice(5)} · {s.sourceLabel})</span>
+                            <span className="ml-1 text-ink/40 font-mono text-[10px]">({s.day.slice(5)} · {s.sourceLabel})</span>
                           </a>
                         ))}
                       </div>
@@ -1096,10 +1096,10 @@ export default function App() {
                   ))}
                 </div>
               </div>
-              <div className="mt-6 bg-[#f4f5f3] border border-[#c9a227]/20 rounded-2xl p-6 md:p-8">
-                <h3 className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-4">Методологія підрахунку</h3>
-                <p className="text-sm text-[#0b0b0c]/55 leading-relaxed mb-4">Блок варто читати як моніторинг інформаційного навантаження по темі ударів. Один і той самий реальний епізод може дати кілька окремих згадок у різних джерелах, а окремі згадки можуть описувати наслідки, а не момент удару.</p>
-                <ol className="list-decimal pl-5 space-y-2 text-sm text-[#0b0b0c]/75 leading-relaxed">
+              <div className="mt-6 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
+                <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-4">Методологія підрахунку</h3>
+                <p className="text-sm text-ink/55 leading-relaxed mb-4">Блок варто читати як моніторинг інформаційного навантаження по темі ударів. Один і той самий реальний епізод може дати кілька окремих згадок у різних джерелах, а окремі згадки можуть описувати наслідки, а не момент удару.</p>
+                <ol className="list-decimal pl-5 space-y-2 text-sm text-ink/75 leading-relaxed">
                   <li>Збираємо пости за останні 7 діб із Telegram, X і Facebook.</li>
                   <li>Враховуємо лише пости з маркерами удару: `удар`, `влуч`, `strike`, `missile`, `бпла` тощо.</li>
                   <li>Визначаємо область через словник гео-аліасів у тексті.</li>
@@ -1112,31 +1112,31 @@ export default function App() {
 
           {/* SBS Stats */}
           <motion.section id="sbs" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ SBS STATS</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ SBS STATS</span>
                   <h2 className="text-4xl md:text-6xl font-bold uppercase leading-[0.92]">SBS: ураження за добу</h2>
-                  <p className="mt-4 text-[#0b0b0c]/68 max-w-4xl text-sm md:text-base leading-relaxed">
+                  <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут показана відкрита статистика SBS у зручному вигляді. Беремо останній доступний запис за добу, показуємо кількість уражених і знищених цілей, категорії техніки та посилання на оригінальну сторінку.
                   </p>
                 </div>
-                <a href="https://foosint.github.io/sbs-stats/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 border border-[#c9a227]/60 rounded-2xl bg-[#c9a227]/12 px-4 py-2 font-mono text-[11px] md:text-xs tracking-widest uppercase text-[#8a6a0e] hover:bg-[#c9a227]/20 hover:border-[#c9a227] transition-colors">
+                <a href="https://foosint.github.io/sbs-stats/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 border border-gold/60 rounded-2xl bg-gold/12 px-4 py-2 font-mono text-[11px] md:text-xs tracking-widest uppercase text-gold-ink hover:bg-gold/20 hover:border-gold transition-colors">
                   Відкрити джерело <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </div>
-              <div className="relative overflow-hidden border border-[#c9a227]/25 rounded-2xl bg-[#f4f5f3]">
+              <div className="relative overflow-hidden border border-gold/25 rounded-2xl bg-surface-2">
                 <div className="absolute inset-0 opacity-25" style={{ backgroundImage: 'linear-gradient(rgba(201,162,39,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(201,162,39,0.12) 1px, transparent 1px)', backgroundSize: '34px 34px' }} />
-                <div className="absolute -right-28 -top-28 w-[520px] h-[520px] border border-[#c9a227]/20 rounded-full" />
+                <div className="absolute -right-28 -top-28 w-[520px] h-[520px] border border-gold/20 rounded-full" />
                 <div className="relative grid grid-cols-1 xl:grid-cols-12 gap-6 p-5 md:p-8">
-                  <div className="xl:col-span-4 border border-[#c9a227]/25 rounded-2xl bg-[#f4f5f3]/90 p-5 md:p-7">
+                  <div className="xl:col-span-4 border border-gold/25 rounded-2xl bg-surface-2/90 p-5 md:p-7">
                     <div className="flex items-start justify-between gap-4">
                       <div>
-                        <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">останній зріз</p>
+                        <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">останній зріз</p>
                         <h3 className="text-2xl md:text-3xl font-extrabold uppercase leading-none mt-2">Доба {sbsStats?.latestDate || '...'}</h3>
-                        <p className="mt-2 text-xs text-[#0b0b0c]/48">Година: {sbsStats ? `${sbsStats.latestHour}:00 UTC` : 'очікується'} · оновлено {formatSnapshotDate(sbsStats?.generatedAt)}</p>
+                        <p className="mt-2 text-xs text-ink/48">Година: {sbsStats ? `${sbsStats.latestHour}:00 UTC` : 'очікується'} · оновлено {formatSnapshotDate(sbsStats?.generatedAt)}</p>
                       </div>
-                      <RadioTower className="w-8 h-8 text-[#8a6a0e] shrink-0" />
+                      <RadioTower className="w-8 h-8 text-gold-ink shrink-0" />
                     </div>
                     <div className="grid grid-cols-2 gap-3 mt-7">
                       {[
@@ -1145,65 +1145,65 @@ export default function App() {
                         ['Втрати о/с', sbsStats?.summary.personnelCasualties, 'killed + wounded'],
                         ['KIA', sbsStats?.summary.personnelKilled, 'за SBS DB'],
                       ].map(([label, value, note]) => (
-                        <div key={label as string} className="border border-[#c9a227]/18 rounded-2xl bg-[#ffffff]/80 p-4">
-                          <p className="font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/42">{label}</p>
-                          <p className="mt-2 text-3xl font-black tracking-tighter text-[#8a6a0e] tabular-nums">{formatNumber(value as number)}</p>
-                          <p className="mt-1 text-[11px] text-[#0b0b0c]/45">{note}</p>
+                        <div key={label as string} className="border border-gold/18 rounded-2xl bg-surface/80 p-4">
+                          <p className="font-mono text-[9px] uppercase tracking-widest text-ink/42">{label}</p>
+                          <p className="mt-2 text-3xl font-black tracking-tighter text-gold-ink tabular-nums">{formatNumber(value as number)}</p>
+                          <p className="mt-1 text-[11px] text-ink/45">{note}</p>
                         </div>
                       ))}
                     </div>
-                    <div className="mt-6 border-t border-[#0b0b0c]/10 pt-5">
-                      <p className="text-sm text-[#0b0b0c]/65 leading-relaxed">
+                    <div className="mt-6 border-t border-ink/10 pt-5">
+                      <p className="text-sm text-ink/65 leading-relaxed">
                     Це не прогноз і не оцінка редакції. Це зріз із відкритої бази: якщо джерело оновило дані, сайт підтягує новий JSON.
                       </p>
                     </div>
                   </div>
                   <div className="xl:col-span-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="lg:col-span-2 border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/85 p-5">
+                    <div className="lg:col-span-2 border border-gold/20 rounded-2xl bg-surface-2/85 p-5">
                       <div className="flex items-center justify-between gap-4 mb-5">
                         <div>
-                          <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">категорії уражень</p>
+                          <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">категорії уражень</p>
                           <h4 className="text-2xl font-extrabold uppercase leading-none mt-1">Що саме фіксує SBS</h4>
                         </div>
-                        <BarChart3 className="w-7 h-7 text-[#8a6a0e]" />
+                        <BarChart3 className="w-7 h-7 text-gold-ink" />
                       </div>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                         {(sbsTopCategories.length ? sbsTopCategories : [{ id: 0, label: 'Очікуємо синхронізацію', hit: 0, destroyed: 0 }]).map((item) => (
-                          <div key={item.id} className="border border-[#c9a227]/18 rounded-2xl bg-[#ffffff]/70 p-4">
+                          <div key={item.id} className="border border-gold/18 rounded-2xl bg-surface/70 p-4">
                             <div className="flex items-center justify-between gap-3">
                               <p className="text-base md:text-lg font-extrabold uppercase leading-tight">{item.label}</p>
-                              <p className="font-mono text-[10px] text-[#8a6a0e] shrink-0">hit {formatNumber(item.hit)}</p>
+                              <p className="font-mono text-[10px] text-gold-ink shrink-0">hit {formatNumber(item.hit)}</p>
                             </div>
-                            <div className="mt-3 h-2 bg-[#0b0b0c]/[0.05]">
-                              <div className="h-full bg-[#c9a227]" style={{ width: `${Math.max(3, ((item.hit + item.destroyed) / sbsMaxCategory) * 100)}%` }} />
+                            <div className="mt-3 h-2 bg-ink/[0.05]">
+                              <div className="h-full bg-gold" style={{ width: `${Math.max(3, ((item.hit + item.destroyed) / sbsMaxCategory) * 100)}%` }} />
                             </div>
-                            <p className="mt-2 text-xs text-[#0b0b0c]/50">Знищено: <span className="font-bold text-[#0b0b0c]/80">{formatNumber(item.destroyed)}</span></p>
+                            <p className="mt-2 text-xs text-ink/50">Знищено: <span className="font-bold text-ink/80">{formatNumber(item.destroyed)}</span></p>
                           </div>
                         ))}
                       </div>
                     </div>
-                    <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/80 p-5">
-                      <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-4">добовий тренд hit</p>
+                    <div className="border border-gold/20 rounded-2xl bg-surface-2/80 p-5">
+                      <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-4">добовий тренд hit</p>
                       <div className="space-y-2">
                         {sbsTrend.map((row) => (
                           <div key={`${row.date}-${row.hour}`} className="grid grid-cols-[76px_1fr_52px] items-center gap-3">
-                            <span className="font-mono text-[10px] text-[#0b0b0c]/50">{row.date.slice(5)}</span>
-                            <div className="h-3 bg-[#0b0b0c]/[0.05]">
-                              <div className="h-full bg-[#c9a227]" style={{ width: `${Math.max(4, (row.targetsHit / sbsMaxDaily) * 100)}%` }} />
+                            <span className="font-mono text-[10px] text-ink/50">{row.date.slice(5)}</span>
+                            <div className="h-3 bg-ink/[0.05]">
+                              <div className="h-full bg-gold" style={{ width: `${Math.max(4, (row.targetsHit / sbsMaxDaily) * 100)}%` }} />
                             </div>
-                            <span className="font-mono text-[10px] text-[#0b0b0c]/75 text-right">{formatNumber(row.targetsHit)}</span>
+                            <span className="font-mono text-[10px] text-ink/75 text-right">{formatNumber(row.targetsHit)}</span>
                           </div>
                         ))}
                       </div>
                     </div>
-                    <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/80 p-5">
-                      <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-4">методологія</p>
-                      <div className="space-y-3 text-sm text-[#0b0b0c]/67 leading-relaxed">
+                    <div className="border border-gold/20 rounded-2xl bg-surface-2/80 p-5">
+                      <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-4">методологія</p>
+                      <div className="space-y-3 text-sm text-ink/67 leading-relaxed">
                         {(sbsStats?.methodology || [
                           'JSON ще не завантажено у браузері.',
                           'Після синхронізації тут буде методологія джерела.',
                         ]).map((line) => (
-                          <p key={line} className="border-b border-[#0b0b0c]/10 pb-2">{line}</p>
+                          <p key={line} className="border-b border-ink/10 pb-2">{line}</p>
                         ))}
                       </div>
                     </div>
@@ -1215,28 +1215,28 @@ export default function App() {
 
           {/* DeepState Table */}
           <motion.section id="deepstate" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ DEEPSTATE TABLE</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ DEEPSTATE TABLE</span>
                   <h2 className="text-4xl md:text-6xl font-bold uppercase leading-[0.92]">DeepState: зміни фронту</h2>
-                  <p className="mt-4 text-[#0b0b0c]/68 max-w-4xl text-sm md:text-base leading-relaxed">
+                  <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут коротко показані останні рядки з таблиці DeepState: скільки змінилося, який текст пояснення і де відкрити повну таблицю.
                   </p>
                 </div>
-                <a href="https://deepstat.xyz/table" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 border border-[#c9a227]/60 rounded-2xl bg-[#c9a227]/12 px-4 py-2 font-mono text-[11px] md:text-xs tracking-widest uppercase text-[#8a6a0e] hover:bg-[#c9a227]/20 hover:border-[#c9a227] transition-colors">
+                <a href="https://deepstat.xyz/table" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 border border-gold/60 rounded-2xl bg-gold/12 px-4 py-2 font-mono text-[11px] md:text-xs tracking-widest uppercase text-gold-ink hover:bg-gold/20 hover:border-gold transition-colors">
                   Відкрити DeepState <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </div>
               <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
-                <div className="xl:col-span-7 border border-[#c9a227]/25 rounded-2xl bg-[#f4f5f3] p-5 md:p-7 overflow-hidden">
+                <div className="xl:col-span-7 border border-gold/25 rounded-2xl bg-surface-2 p-5 md:p-7 overflow-hidden">
                   <div className="flex items-center justify-between mb-6">
                     <div>
-                      <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">data-diff matrix</p>
+                      <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">data-diff matrix</p>
                       <h3 className="text-2xl md:text-3xl font-extrabold uppercase leading-none mt-2">Останні зміни за таблицею</h3>
-                      <p className="mt-2 text-sm text-[#0b0b0c]/52">Мінус у DeepState означає збільшення окупованої площі, плюс — звільнення або уточнення на користь України.</p>
+                      <p className="mt-2 text-sm text-ink/52">Мінус у DeepState означає збільшення окупованої площі, плюс — звільнення або уточнення на користь України.</p>
                     </div>
-                    <MapPinned className="w-8 h-8 text-[#8a6a0e]" />
+                    <MapPinned className="w-8 h-8 text-gold-ink" />
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
                     {[
@@ -1245,10 +1245,10 @@ export default function App() {
                       ['Сума вікна', formatSignedKm2(deepstateTable?.netChangeKm2), `${deepstateTable?.recentWindowDays || 0} останніх рядків`],
                       ['Оновлено', formatSnapshotDate(deepstateTable?.generatedAt), 'локальний JSON'],
                     ].map(([label, value, note]) => (
-                      <div key={label} className="border border-[#c9a227]/18 rounded-2xl bg-[#f4f5f3]/80 p-4">
-                        <p className="font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/42">{label}</p>
-                        <p className="mt-2 text-xl md:text-2xl font-black tracking-tighter text-[#8a6a0e] tabular-nums">{value}</p>
-                        <p className="mt-1 text-xs text-[#0b0b0c]/48">{note}</p>
+                      <div key={label} className="border border-gold/18 rounded-2xl bg-surface-2/80 p-4">
+                        <p className="font-mono text-[9px] uppercase tracking-widest text-ink/42">{label}</p>
+                        <p className="mt-2 text-xl md:text-2xl font-black tracking-tighter text-gold-ink tabular-nums">{value}</p>
+                        <p className="mt-1 text-xs text-ink/48">{note}</p>
                       </div>
                     ))}
                   </div>
@@ -1259,50 +1259,50 @@ export default function App() {
                       return (
                         <div
                           key={`${row.day}-${i}`}
-                          className={`relative min-h-[120px] border p-3 flex flex-col justify-between ${isRelease ? 'border-sky-300/40 bg-sky-400/15' : 'border-[#c9a227]/35 bg-[#c9a227]/15'}`}
+                          className={`relative min-h-[120px] border p-3 flex flex-col justify-between ${isRelease ? 'border-sky-300/40 bg-sky-400/15' : 'border-gold/35 bg-gold/15'}`}
                           style={{ opacity: 0.48 + intensity * 0.52 }}
                           title={row.text}
                         >
-                          <span className="font-mono text-[10px] text-[#0b0b0c]/60">день {row.day}</span>
-                          <span className={`text-2xl font-black tracking-tighter tabular-nums ${isRelease ? 'text-sky-200' : 'text-[#8a6a0e]'}`}>{formatSignedKm2(row.diffKm2)}</span>
-                          <span className="font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/38">{isRelease ? 'звільнення' : 'просування ворога'}</span>
+                          <span className="font-mono text-[10px] text-ink/60">день {row.day}</span>
+                          <span className={`text-2xl font-black tracking-tighter tabular-nums ${isRelease ? 'text-sky-200' : 'text-gold-ink'}`}>{formatSignedKm2(row.diffKm2)}</span>
+                          <span className="font-mono text-[9px] uppercase tracking-widest text-ink/38">{isRelease ? 'звільнення' : 'просування ворога'}</span>
                         </div>
                       );
                     })}
                   </div>
-                  <div className="mt-5 border border-[#0b0b0c]/10 bg-[#f4f5f3]/70 rounded-xl p-4">
-                    <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-2">останнє пояснення</p>
-                    <p className="text-lg md:text-xl font-bold leading-snug text-[#0b0b0c]">{deepstateTable?.latest?.text || 'Очікуємо синхронізацію таблиці DeepState.'}</p>
+                  <div className="mt-5 border border-ink/10 bg-surface-2/70 rounded-xl p-4">
+                    <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">останнє пояснення</p>
+                    <p className="text-lg md:text-xl font-bold leading-snug text-ink">{deepstateTable?.latest?.text || 'Очікуємо синхронізацію таблиці DeepState.'}</p>
                   </div>
                 </div>
-                <div className="xl:col-span-5 border border-[#c9a227]/25 rounded-2xl bg-[#f4f5f3] p-5 md:p-7">
+                <div className="xl:col-span-5 border border-gold/25 rounded-2xl bg-surface-2 p-5 md:p-7">
                   <div className="flex items-center justify-between mb-6">
                     <div>
-                      <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">table rows</p>
+                      <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">table rows</p>
                       <h3 className="text-2xl font-extrabold uppercase leading-none mt-2">Пояснення з рядків</h3>
                     </div>
-                    <Table2 className="w-7 h-7 text-[#8a6a0e]" />
+                    <Table2 className="w-7 h-7 text-gold-ink" />
                   </div>
                   <div className="space-y-3 max-h-[560px] overflow-y-auto pr-1">
                     {deepstateRows.map((row) => (
-                      <div key={`${row.day}-${row.text}`} className="grid grid-cols-[1fr_auto] gap-4 items-start border-b border-[#0b0b0c]/10 pb-3">
+                      <div key={`${row.day}-${row.text}`} className="grid grid-cols-[1fr_auto] gap-4 items-start border-b border-ink/10 pb-3">
                         <div>
-                          <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70">рядок {row.day} · {row.occupiedPercent.toFixed(3)}%</p>
+                          <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">рядок {row.day} · {row.occupiedPercent.toFixed(3)}%</p>
                           <p className="text-base md:text-lg font-bold leading-snug mt-1">{row.text}</p>
-                          <p className="text-xs text-[#0b0b0c]/45 mt-1">Окупована площа: {formatKm2(row.occupiedKm2)}</p>
+                          <p className="text-xs text-ink/45 mt-1">Окупована площа: {formatKm2(row.occupiedKm2)}</p>
                         </div>
-                        <span className={`font-mono text-[9px] uppercase tracking-widest border px-2 py-1 shrink-0 ${row.diffKm2 > 0 ? 'border-sky-300/35 text-sky-200' : 'border-[#c9a227]/35 text-[#8a6a0e]'}`}>{formatSignedKm2(row.diffKm2)}</span>
+                        <span className={`font-mono text-[9px] uppercase tracking-widest border px-2 py-1 shrink-0 ${row.diffKm2 > 0 ? 'border-sky-300/35 text-sky-200' : 'border-gold/35 text-gold-ink'}`}>{formatSignedKm2(row.diffKm2)}</span>
                       </div>
                     ))}
                     {deepstateRows.length === 0 && (
-                      <p className="text-sm text-[#0b0b0c]/55">JSON DeepState ще не завантажено. Після синхронізації тут зʼявляться останні рядки таблиці.</p>
+                      <p className="text-sm text-ink/55">JSON DeepState ще не завантажено. Після синхронізації тут зʼявляться останні рядки таблиці.</p>
                     )}
                   </div>
-                  <a href="https://deepstat.xyz/table" target="_blank" rel="noreferrer" className="mt-6 flex items-center justify-between border border-[#c9a227]/30 rounded-2xl bg-[#c9a227]/10 p-4 font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e] hover:bg-[#c9a227]/15 transition-colors">
+                  <a href="https://deepstat.xyz/table" target="_blank" rel="noreferrer" className="mt-6 flex items-center justify-between border border-gold/30 rounded-2xl bg-gold/10 p-4 font-mono text-[10px] uppercase tracking-widest text-gold-ink hover:bg-gold/15 transition-colors">
                     Перейти до актуальної таблиці
                     <ArrowUpRight className="w-4 h-4" />
                   </a>
-                  <div className="mt-4 space-y-2 text-xs text-[#0b0b0c]/45 leading-relaxed">
+                  <div className="mt-4 space-y-2 text-xs text-ink/45 leading-relaxed">
                     {(deepstateTable?.methodology || []).map((line) => (
                       <p key={line}>• {line}</p>
                     ))}
@@ -1314,33 +1314,33 @@ export default function App() {
 
           {/* RSS / X feed */}
           <motion.section id="rss" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ LIVE RSS</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ LIVE RSS</span>
                   <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">RSS OSINT-стрічка</h2>
-                  <p className="mt-4 text-[#0b0b0c]/70 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
+                  <p className="mt-4 text-ink/70 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
                     Пости з X і Facebook за останні 3 дні про Україну, війну, підрозділи, удари та відкриті джерела. Текст очищається від HTML-вставок, картки сортуються за часом, а фільтри допомагають швидко знайти потрібну тему.
                   </p>
                 </div>
                 <a href="https://x.com" target="_blank" rel="noreferrer"
-                  className="inline-flex items-center gap-2 self-start lg:self-auto border border-[#c9a227]/45 rounded-2xl bg-[#c9a227]/10 px-4 py-3 font-mono text-[11px] uppercase tracking-widest text-[#8a6a0e] hover:bg-[#c9a227]/16 transition-colors shrink-0">
+                  className="inline-flex items-center gap-2 self-start lg:self-auto border border-gold/45 rounded-2xl bg-gold/10 px-4 py-3 font-mono text-[11px] uppercase tracking-widest text-gold-ink hover:bg-gold/16 transition-colors shrink-0">
                   Перевірити X <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </div>
 
               <div className="mb-6 grid grid-cols-1 xl:grid-cols-12 gap-4">
-                <div className="xl:col-span-5 border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/80 p-4 md:p-5">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-3">швидкий пошук</p>
+                <div className="xl:col-span-5 border border-gold/20 rounded-2xl bg-surface-2/80 p-4 md:p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-3">швидкий пошук</p>
                   <input
                     value={rssSearch}
                     onChange={(e) => setRssSearch(e.target.value)}
                     placeholder="Пошук: Pokrovsk, drone, СБС, reorg..."
-                    className="w-full bg-[#f4f5f3] border border-[#c9a227]/25 rounded-2xl px-4 py-3 text-base font-bold text-[#0b0b0c] placeholder:text-[#0b0b0c]/28 outline-none focus:border-[#c9a227]/70 transition-colors"
+                    className="w-full bg-surface-2 border border-gold/25 rounded-2xl px-4 py-3 text-base font-bold text-ink placeholder:text-ink/28 outline-none focus:border-gold/70 transition-colors"
                   />
                 </div>
-                <div className="xl:col-span-4 border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/80 p-4 md:p-5">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-3">джерело</p>
+                <div className="xl:col-span-4 border border-gold/20 rounded-2xl bg-surface-2/80 p-4 md:p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-3">джерело</p>
                   <div className="grid grid-cols-3 gap-2">
                     {[
                       ['all', 'Усі', rssItems.length + fbItems.length],
@@ -1351,7 +1351,7 @@ export default function App() {
                         key={id as string}
                         type="button"
                         onClick={() => setRssSourceFilter(id as 'all' | 'x' | 'facebook')}
-                        className={`border px-3 py-2 text-left transition-colors ${rssSourceFilter === id ? 'border-[#c9a227] bg-[#c9a227]/18 text-[#8a6a0e]' : 'border-[#0b0b0c]/10 bg-white/[0.03] text-[#0b0b0c]/52 hover:text-[#0b0b0c] hover:border-[#c9a227]/40'}`}
+                        className={`border px-3 py-2 text-left transition-colors ${rssSourceFilter === id ? 'border-gold bg-gold/18 text-gold-ink' : 'border-ink/10 bg-white/[0.03] text-ink/52 hover:text-ink hover:border-gold/40'}`}
                       >
                         <span className="block font-mono text-[9px] uppercase tracking-widest">{label}</span>
                         <span className="block mt-1 text-xl font-black tabular-nums">{formatNumber(count as number)}</span>
@@ -1359,14 +1359,14 @@ export default function App() {
                     ))}
                   </div>
                 </div>
-                <div className="xl:col-span-3 border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/80 p-4 md:p-5">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e]/70 mb-3">результат</p>
+                <div className="xl:col-span-3 border border-gold/20 rounded-2xl bg-surface-2/80 p-4 md:p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-3">результат</p>
                   <div className="flex items-end justify-between gap-4">
                     <div>
-                      <p className="text-4xl font-black tracking-tighter text-[#8a6a0e] tabular-nums">{formatNumber(rssFeed.length)}</p>
-                      <p className="text-xs text-[#0b0b0c]/45 font-bold">карток після фільтрів</p>
+                      <p className="text-4xl font-black tracking-tighter text-gold-ink tabular-nums">{formatNumber(rssFeed.length)}</p>
+                      <p className="text-xs text-ink/45 font-bold">карток після фільтрів</p>
                     </div>
-                    <Rss className="w-8 h-8 text-[#8a6a0e]/60 mb-1" />
+                    <Rss className="w-8 h-8 text-gold-ink/60 mb-1" />
                   </div>
                 </div>
               </div>
@@ -1375,7 +1375,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => setRssTopicFilter('all')}
-                  className={`px-3 py-2 border font-mono text-[10px] uppercase tracking-widest transition-colors ${rssTopicFilter === 'all' ? 'border-[#c9a227] bg-[#c9a227]/18 text-[#8a6a0e]' : 'border-[#0b0b0c]/10 text-[#0b0b0c]/45 hover:text-[#0b0b0c] hover:border-[#c9a227]/40'}`}
+                  className={`px-3 py-2 border font-mono text-[10px] uppercase tracking-widest transition-colors ${rssTopicFilter === 'all' ? 'border-gold bg-gold/18 text-gold-ink' : 'border-ink/10 text-ink/45 hover:text-ink hover:border-gold/40'}`}
                 >
                   Усі теми
                 </button>
@@ -1384,22 +1384,22 @@ export default function App() {
                     key={topic.tag}
                     type="button"
                     onClick={() => setRssTopicFilter(topic.tag)}
-                    className={`px-3 py-2 border font-mono text-[10px] uppercase tracking-widest transition-colors ${rssTopicFilter === topic.tag ? 'border-[#c9a227] bg-[#c9a227]/18 text-[#8a6a0e]' : 'border-[#0b0b0c]/10 text-[#0b0b0c]/45 hover:text-[#0b0b0c] hover:border-[#c9a227]/40'}`}
+                    className={`px-3 py-2 border font-mono text-[10px] uppercase tracking-widest transition-colors ${rssTopicFilter === topic.tag ? 'border-gold bg-gold/18 text-gold-ink' : 'border-ink/10 text-ink/45 hover:text-ink hover:border-gold/40'}`}
                   >
-                    {topic.tag} <span className="text-[#0b0b0c]/35">{topic.count}</span>
+                    {topic.tag} <span className="text-ink/35">{topic.count}</span>
                   </button>
                 ))}
               </div>
 
               {rssItems.length + fbItems.length === 0 ? (
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#ffffff] p-8 font-mono text-xs uppercase tracking-widest text-[#0b0b0c]/30">
+                <div className="border border-gold/20 rounded-2xl bg-surface p-8 font-mono text-xs uppercase tracking-widest text-ink/30">
                   Дані RSS ще оновлюються. Перевір через кілька хвилин.
                 </div>
               ) : rssFeed.length === 0 ? (
-                <div className="border border-[#c9a227]/20 rounded-2xl bg-[#ffffff] p-8">
-                  <p className="text-2xl font-black uppercase tracking-tight text-[#0b0b0c]">Нічого не знайдено</p>
-                  <p className="mt-2 text-sm text-[#0b0b0c]/55 leading-relaxed">Спробуй очистити пошук або вибрати іншу тему. Фільтри працюють по перекладеному заголовку, опису, автору і тегам.</p>
-                  <button type="button" onClick={() => { setRssSearch(''); setRssSourceFilter('all'); setRssTopicFilter('all'); }} className="mt-5 border border-[#c9a227]/40 rounded-xl px-4 py-3 font-mono text-[10px] uppercase tracking-widest text-[#8a6a0e] hover:bg-[#c9a227]/10 transition-colors">
+                <div className="border border-gold/20 rounded-2xl bg-surface p-8">
+                  <p className="text-2xl font-black uppercase tracking-tight text-ink">Нічого не знайдено</p>
+                  <p className="mt-2 text-sm text-ink/55 leading-relaxed">Спробуй очистити пошук або вибрати іншу тему. Фільтри працюють по перекладеному заголовку, опису, автору і тегам.</p>
+                  <button type="button" onClick={() => { setRssSearch(''); setRssSourceFilter('all'); setRssTopicFilter('all'); }} className="mt-5 border border-gold/40 rounded-xl px-4 py-3 font-mono text-[10px] uppercase tracking-widest text-gold-ink hover:bg-gold/10 transition-colors">
                     Скинути фільтри
                   </button>
                 </div>
@@ -1408,23 +1408,23 @@ export default function App() {
                   {rssFeed.slice(0, 24).map((item, index) => (
                     <article
                       key={`${item.feedSource}-${item.id}`}
-                      className={`${index === 0 ? 'lg:col-span-6 lg:row-span-2' : 'lg:col-span-3'} group relative overflow-hidden border border-[#c9a227]/18 rounded-2xl bg-[#f4f5f3] hover:border-[#c9a227]/55 transition-colors shadow-[0_14px_45px_rgba(0,0,0,0.24)]`}
+                      className={`${index === 0 ? 'lg:col-span-6 lg:row-span-2' : 'lg:col-span-3'} group relative overflow-hidden border border-gold/18 rounded-2xl bg-surface-2 hover:border-gold/55 transition-colors shadow-[0_14px_45px_rgba(0,0,0,0.24)]`}
                     >
-                      <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#c9a227] via-[#8a6a0e] to-transparent opacity-60" />
+                      <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-gold via-gold-ink to-transparent opacity-60" />
                       <div className="p-5 md:p-6 flex min-h-full flex-col">
                         <div className="flex items-start justify-between gap-4 mb-5">
                           <div>
-                            <p className="font-mono text-[9px] uppercase tracking-[0.24em] text-[#8a6a0e]/75">{item.sourceLabel}</p>
-                            <p className="mt-1 font-mono text-[10px] tracking-wider text-[#0b0b0c]/38">@{item.handle || item.author}</p>
+                            <p className="font-mono text-[9px] uppercase tracking-[0.24em] text-gold-ink/75">{item.sourceLabel}</p>
+                            <p className="mt-1 font-mono text-[10px] tracking-wider text-ink/38">@{item.handle || item.author}</p>
                           </div>
-                          <span className="shrink-0 border border-[#c9a227]/22 rounded-2xl bg-[#c9a227]/8 px-2 py-1 font-mono text-[9px] uppercase tracking-widest text-[#8a6a0e]/80">
+                          <span className="shrink-0 border border-gold/22 rounded-2xl bg-gold/8 px-2 py-1 font-mono text-[9px] uppercase tracking-widest text-gold-ink/80">
                             {formatRssDate(item.publishedAt)}
                           </span>
                         </div>
-                        <h3 className={`${index === 0 ? 'text-2xl md:text-4xl' : 'text-xl md:text-2xl'} font-black tracking-tight mb-4 leading-[1.05] text-[#0b0b0c] group-hover:text-[#8a6a0e] transition-colors`}>
+                        <h3 className={`${index === 0 ? 'text-2xl md:text-4xl' : 'text-xl md:text-2xl'} font-black tracking-tight mb-4 leading-[1.05] text-ink group-hover:text-gold-ink transition-colors`}>
                           {formatPreview(item.titleClean, index === 0 ? 230 : 150)}
                         </h3>
-                        <p className={`${index === 0 ? 'text-base md:text-lg line-clamp-7' : 'text-[0.98rem] line-clamp-5'} font-semibold text-[#0b0b0c]/72 leading-relaxed mb-5`}>
+                        <p className={`${index === 0 ? 'text-base md:text-lg line-clamp-7' : 'text-[0.98rem] line-clamp-5'} font-semibold text-ink/72 leading-relaxed mb-5`}>
                           {formatPreview(item.summaryClean, index === 0 ? 420 : 240)}
                         </p>
                         <div className="mt-auto">
@@ -1434,21 +1434,21 @@ export default function App() {
                                 key={`${item.id}-${tag}`}
                                 type="button"
                                 onClick={() => setRssTopicFilter(tag)}
-                                className="px-2.5 py-1 border border-[#c9a227]/20 rounded-full font-mono text-[8px] uppercase tracking-widest text-[#8a6a0e]/62 hover:text-[#8a6a0e] hover:border-[#c9a227]/50 transition-colors"
+                                className="px-2.5 py-1 border border-gold/20 rounded-full font-mono text-[8px] uppercase tracking-widest text-gold-ink/62 hover:text-gold-ink hover:border-gold/50 transition-colors"
                               >
                                 {tag}
                               </button>
                             ))}
                           </div>
-                          <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-[#0b0b0c]/10">
+                          <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-ink/10">
                             <a href={item.url} target="_blank" rel="noreferrer"
-                              className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/65 hover:text-[#8a6a0e] transition-colors">
+                              className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-ink/65 hover:text-gold-ink transition-colors">
                               Відкрити пост <ArrowUpRight className="w-3 h-3" />
                             </a>
                             <button
                               type="button"
                               onClick={() => shareLink(item.id, item.titleClean, item.url)}
-                              className="font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/45 hover:text-[#8a6a0e] transition-colors"
+                              className="font-mono text-[10px] uppercase tracking-widest text-ink/45 hover:text-gold-ink transition-colors"
                             >
                               {sharedItemId === item.id ? 'Скопійовано' : 'Поділитися'}
                             </button>
@@ -1464,17 +1464,17 @@ export default function App() {
 
           {/* Posts Feed */}
           <motion.section id="feed" variants={fadeIn} className="mb-32 scroll-mt-28">
-            <div className="border-t border-[#c9a227]/30 pt-12 md:pt-16">
-              <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 border-b border-[#c9a227]/22 pb-7 mb-8 md:mb-10">
+            <div className="border-t border-gold/30 pt-12 md:pt-16">
+              <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 border-b border-gold/22 pb-7 mb-8 md:mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e] mb-4 block">/ ПУБЛІКАЦІЇ КАНАЛУ</span>
-                  <h2 className="text-4xl md:text-7xl font-bold tracking-tighter uppercase text-[#0b0b0c] leading-[0.88]">Стрічка Око Гора</h2>
-                  <p className="mt-4 max-w-3xl text-base md:text-lg font-semibold leading-relaxed text-[#0b0b0c]/64">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ ПУБЛІКАЦІЇ КАНАЛУ</span>
+                  <h2 className="text-4xl md:text-7xl font-bold tracking-tighter uppercase text-ink leading-[0.88]">Стрічка Око Гора</h2>
+                  <p className="mt-4 max-w-3xl text-base md:text-lg font-semibold leading-relaxed text-ink/64">
                     Останні пости з Telegram-каналу: коротке превʼю, джерело внизу картки та швидка кнопка для поширення.
                   </p>
                 </div>
                 <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-                  className="inline-flex items-center gap-2 self-start lg:self-auto border border-[#c9a227]/45 rounded-2xl bg-[#c9a227]/10 px-4 py-3 font-mono text-[11px] uppercase tracking-widest text-[#8a6a0e] hover:bg-[#c9a227]/16 hover:border-[#c9a227]/70 transition-colors">
+                  className="inline-flex items-center gap-2 self-start lg:self-auto border border-gold/45 rounded-2xl bg-gold/10 px-4 py-3 font-mono text-[11px] uppercase tracking-widest text-gold-ink hover:bg-gold/16 hover:border-gold/70 transition-colors">
                   Відкрити Telegram <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </div>
@@ -1486,10 +1486,10 @@ export default function App() {
                   return (
                     <article
                       key={post.id}
-                      className={`${isLead ? 'lg:col-span-6 lg:row-span-2' : 'lg:col-span-3'} group overflow-hidden border border-[#c9a227]/18 rounded-2xl bg-[#f4f5f3] hover:border-[#c9a227]/55 transition-colors shadow-[0_18px_55px_rgba(0,0,0,0.24)]`}
+                      className={`${isLead ? 'lg:col-span-6 lg:row-span-2' : 'lg:col-span-3'} group overflow-hidden border border-gold/18 rounded-2xl bg-surface-2 hover:border-gold/55 transition-colors shadow-[0_18px_55px_rgba(0,0,0,0.24)]`}
                     >
-                      <Link to={`/post/${post.id}`} className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c9a227]/80">
-                        <div className={`${isLead ? 'aspect-[16/10] md:aspect-[21/10]' : 'aspect-[16/9]'} relative overflow-hidden bg-[#ffffff]`}>
+                      <Link to={`/post/${post.id}`} className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-gold/80">
+                        <div className={`${isLead ? 'aspect-[16/10] md:aspect-[21/10]' : 'aspect-[16/9]'} relative overflow-hidden bg-surface`}>
                           {post.image ? (
                             <img
                               src={resolveImageUrl(post.image)}
@@ -1503,31 +1503,31 @@ export default function App() {
                               <img src="oko_logo.png" alt="" className="w-20 h-20 object-contain opacity-28" loading="lazy" />
                             </div>
                           )}
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#ffffff] via-[#ffffff]/18 to-transparent" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/18 to-transparent" />
                           <div className="absolute left-4 top-4 flex flex-wrap items-center gap-2">
-                            <span className="border border-[#c9a227]/45 rounded-2xl bg-[#ffffff]/72 px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-[#8a6a0e]">
+                            <span className="border border-gold/45 rounded-2xl bg-surface/72 px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-gold-ink">
                               {post.id}
                             </span>
-                            <span className="border border-[#0b0b0c]/15 bg-[#ffffff]/58 rounded-2xl px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/68">
+                            <span className="border border-ink/15 bg-surface/58 rounded-2xl px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-ink/68">
                               {post.date}
                             </span>
                           </div>
                         </div>
 
                         <div className="p-5 md:p-6">
-                          <div className="mb-4 flex items-center justify-between gap-4 font-mono text-[9px] uppercase tracking-[0.22em] text-[#0b0b0c]/36">
+                          <div className="mb-4 flex items-center justify-between gap-4 font-mono text-[9px] uppercase tracking-[0.22em] text-ink/36">
                             <span>Telegram / Око Гора</span>
                             <span>{(post.tags || []).slice(0, 1).map(tag => `#${tag}`).join(' ')}</span>
                           </div>
-                          <h3 className={`${isLead ? 'text-3xl md:text-5xl' : 'text-[1.7rem] md:text-[2rem]'} font-black uppercase tracking-tight mb-4 group-hover:text-[#8a6a0e] transition-colors leading-[1.02] text-[#0b0b0c]`}>
+                          <h3 className={`${isLead ? 'text-3xl md:text-5xl' : 'text-[1.7rem] md:text-[2rem]'} font-black uppercase tracking-tight mb-4 group-hover:text-gold-ink transition-colors leading-[1.02] text-ink`}>
                             {post.title}
                           </h3>
-                          <p className={`${isLead ? 'text-base md:text-lg line-clamp-7' : 'text-[1rem] line-clamp-5'} text-[#0b0b0c]/68 leading-relaxed mb-5 font-semibold`}>
+                          <p className={`${isLead ? 'text-base md:text-lg line-clamp-7' : 'text-[1rem] line-clamp-5'} text-ink/68 leading-relaxed mb-5 font-semibold`}>
                             {formatPreview(post.text, isLead ? 420 : 260)}
                           </p>
                           <div className="flex flex-wrap gap-2">
                             {(post.tags || []).slice(0, isLead ? 6 : 4).map(tag => (
-                              <span key={tag} className="px-2.5 py-1 border border-[#c9a227]/20 rounded-full font-mono text-[8px] tracking-widest uppercase text-[#8a6a0e]/64 group-hover:border-[#c9a227]/50 group-hover:text-[#8a6a0e] transition-all">
+                              <span key={tag} className="px-2.5 py-1 border border-gold/20 rounded-full font-mono text-[8px] tracking-widest uppercase text-gold-ink/64 group-hover:border-gold/50 group-hover:text-gold-ink transition-all">
                                 #{tag}
                               </span>
                             ))}
@@ -1535,18 +1535,18 @@ export default function App() {
                         </div>
                       </Link>
 
-                      <div className="mx-5 md:mx-6 mb-5 md:mb-6 flex flex-wrap items-center gap-3 border-t border-[#0b0b0c]/10 pt-4">
+                      <div className="mx-5 md:mx-6 mb-5 md:mb-6 flex flex-wrap items-center gap-3 border-t border-ink/10 pt-4">
                         <button
                           type="button"
                           onClick={() => window.open(postTelegramUrl(post), '_blank', 'noopener,noreferrer')}
-                          className="inline-flex min-h-11 items-center gap-1.5 border border-[#c9a227]/25 rounded-2xl bg-[#c9a227]/8 px-3 py-2 font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/62 hover:text-[#8a6a0e] hover:border-[#c9a227]/55 hover:bg-[#c9a227]/12 transition-colors"
+                          className="inline-flex min-h-11 items-center gap-1.5 border border-gold/25 rounded-2xl bg-gold/8 px-3 py-2 font-mono text-[9px] uppercase tracking-widest text-ink/62 hover:text-gold-ink hover:border-gold/55 hover:bg-gold/12 transition-colors"
                         >
                           Джерело в Telegram <ArrowUpRight className="w-3 h-3" />
                         </button>
                         <button
                           type="button"
                           onClick={() => shareLink(post.id, post.title, `${window.location.origin}${postUrl}`)}
-                          className="inline-flex min-h-11 items-center border border-[#0b0b0c]/10 rounded-2xl px-3 py-2 font-mono text-[9px] uppercase tracking-widest text-[#0b0b0c]/48 hover:text-[#8a6a0e] hover:border-[#c9a227]/45 transition-colors"
+                          className="inline-flex min-h-11 items-center border border-ink/10 rounded-2xl px-3 py-2 font-mono text-[9px] uppercase tracking-widest text-ink/48 hover:text-gold-ink hover:border-gold/45 transition-colors"
                         >
                           {sharedItemId === post.id ? 'Скопійовано' : 'Поділитися з друзями'}
                         </button>
@@ -1562,24 +1562,24 @@ export default function App() {
       </main>
 
       {/* ── Footer ─────────────────────────────────────────────────────────── */}
-      <footer id="contacts" className="relative overflow-hidden border-t border-[#c9a227]/30 px-4 md:px-8 py-12 md:py-20 bg-[#f4f5f3] text-[#0b0b0c] scroll-mt-28">
+      <footer id="contacts" className="relative overflow-hidden border-t border-gold/30 px-4 md:px-8 py-12 md:py-20 bg-surface-2 text-ink scroll-mt-28">
         <div className="absolute inset-0 pointer-events-none opacity-35" style={{ backgroundImage: 'linear-gradient(rgba(201,162,39,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(201,162,39,0.08) 1px, transparent 1px)', backgroundSize: '42px 42px' }} />
-        <div className="absolute -right-32 -bottom-32 w-[460px] h-[460px] rounded-full border border-[#c9a227]/15 pointer-events-none" />
+        <div className="absolute -right-32 -bottom-32 w-[460px] h-[460px] rounded-full border border-gold/15 pointer-events-none" />
         <div className="max-w-[1800px] mx-auto relative">
           <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 md:gap-8 mb-8 md:mb-12">
-            <div className="xl:col-span-5 border border-[#c9a227]/25 rounded-2xl bg-[#f4f5f3]/88 p-6 md:p-8">
+            <div className="xl:col-span-5 border border-gold/25 rounded-2xl bg-surface-2/88 p-6 md:p-8">
               <div className="flex items-start gap-4 mb-7">
-                <div className="w-12 h-12 md:w-14 md:h-14 border border-[#c9a227]/40 rounded-2xl bg-[#c9a227]/10 flex items-center justify-center shrink-0">
+                <div className="w-12 h-12 md:w-14 md:h-14 border border-gold/40 rounded-2xl bg-gold/10 flex items-center justify-center shrink-0">
                   <img src="oko_logo.png" alt="" className="w-8 h-8 md:w-10 md:h-10 object-contain opacity-90" loading="lazy" />
                 </div>
                 <div>
-                  <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e]/75">/ ЦИФРОВА ПЛАТФОРМА КАНАЛУ</p>
-                  <h3 className="mt-2 text-4xl md:text-6xl font-black tracking-tighter uppercase leading-[0.82] text-[#8a6a0e]">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/75">/ ЦИФРОВА ПЛАТФОРМА КАНАЛУ</p>
+                  <h3 className="mt-2 text-4xl md:text-6xl font-black tracking-tighter uppercase leading-[0.82] text-gold-ink">
                     Око Гора
                   </h3>
                 </div>
               </div>
-              <p className="text-[#0b0b0c]/72 max-w-2xl text-base md:text-lg font-bold leading-relaxed">
+              <p className="text-ink/72 max-w-2xl text-base md:text-lg font-bold leading-relaxed">
                 Це сайт Telegram-каналу «Око Гора - новини та аналітика». Тут зібрані пости, карта, RSS-джерела, статистика SBS, таблиця DeepState і посилання для перевірки.
               </p>
               <div className="grid grid-cols-2 gap-3 mt-7">
@@ -1589,17 +1589,17 @@ export default function App() {
                   ['RSS записів', rssItems.length + fbItems.length],
                   ['Подій 7 днів', dashboard.total],
                 ].map(([label, value]) => (
-                  <div key={label as string} className="border border-[#c9a227]/16 rounded-2xl bg-[#ffffff]/70 p-3 md:p-4">
-                    <p className="font-mono text-[8px] md:text-[9px] uppercase tracking-widest text-[#0b0b0c]/38">{label}</p>
-                    <p className="mt-1 text-xl md:text-2xl font-black tracking-tighter text-[#0b0b0c] tabular-nums">{typeof value === 'number' ? formatNumber(value) : value}</p>
+                  <div key={label as string} className="border border-gold/16 rounded-2xl bg-surface/70 p-3 md:p-4">
+                    <p className="font-mono text-[8px] md:text-[9px] uppercase tracking-widest text-ink/38">{label}</p>
+                    <p className="mt-1 text-xl md:text-2xl font-black tracking-tighter text-ink tabular-nums">{typeof value === 'number' ? formatNumber(value) : value}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="xl:col-span-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/72 p-5 md:p-6">
-                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e]/70 block mb-5">/ РОЗДІЛИ</span>
+              <div className="border border-gold/20 rounded-2xl bg-surface-2/72 p-5 md:p-6">
+                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/70 block mb-5">/ РОЗДІЛИ</span>
                 <div className="grid grid-cols-1 gap-2 font-mono text-[11px] md:text-xs tracking-widest uppercase">
                   {[
                     ['Карта', 'map'],
@@ -1610,20 +1610,20 @@ export default function App() {
                     ['RSS', 'rss'],
                     ['Стрічка', 'feed'],
                   ].map(([label, id]) => (
-                    <button key={id} type="button" onClick={() => openSection(id as SectionId)} className="flex items-center justify-between gap-3 border-b border-[#0b0b0c]/10 py-2 text-left text-[#0b0b0c]/58 hover:text-[#8a6a0e] hover:border-[#c9a227]/40 transition-colors">
+                    <button key={id} type="button" onClick={() => openSection(id as SectionId)} className="flex items-center justify-between gap-3 border-b border-ink/10 py-2 text-left text-ink/58 hover:text-gold-ink hover:border-gold/40 transition-colors">
                       <span>{label}</span>
                       <ArrowUpRight className="w-3 h-3 opacity-45" />
                     </button>
                   ))}
-                  <Link to="/targets" className="flex items-center justify-between gap-3 border-b border-[#0b0b0c]/10 py-2 text-left text-[#8a6a0e] hover:border-[#c9a227]/40 transition-colors">
+                  <Link to="/targets" className="flex items-center justify-between gap-3 border-b border-ink/10 py-2 text-left text-gold-ink hover:border-gold/40 transition-colors">
                     <span>База цілей</span>
                     <Target className="w-3 h-3" />
                   </Link>
                 </div>
               </div>
 
-              <div className="border border-[#c9a227]/20 rounded-2xl bg-[#f4f5f3]/72 p-5 md:p-6">
-                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e]/70 block mb-5">/ ДЖЕРЕЛА</span>
+              <div className="border border-gold/20 rounded-2xl bg-surface-2/72 p-5 md:p-6">
+                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/70 block mb-5">/ ДЖЕРЕЛА</span>
                 <div className="space-y-3 font-mono text-[11px] md:text-xs tracking-widest uppercase">
                   {[
                     ['Telegram канал', 'https://t.me/oko_gora'],
@@ -1631,7 +1631,7 @@ export default function App() {
                     ['SBS Stats', 'https://foosint.github.io/sbs-stats/'],
                     ['DeepState Table', 'https://deepstat.xyz/table'],
                   ].map(([label, href]) => (
-                    <a key={href} href={href} target="_blank" rel="noreferrer" className="flex items-center justify-between gap-3 border-b border-[#0b0b0c]/10 py-2 text-[#0b0b0c]/58 hover:text-[#8a6a0e] hover:border-[#c9a227]/40 transition-colors">
+                    <a key={href} href={href} target="_blank" rel="noreferrer" className="flex items-center justify-between gap-3 border-b border-ink/10 py-2 text-ink/58 hover:text-gold-ink hover:border-gold/40 transition-colors">
                       <span>{label}</span>
                       <ArrowUpRight className="w-3 h-3 opacity-55" />
                     </a>
@@ -1640,20 +1640,20 @@ export default function App() {
               </div>
             </div>
 
-            <div className="xl:col-span-3 border border-[#c9a227]/25 rounded-2xl bg-[#c9a227]/10 p-5 md:p-6 flex flex-col justify-between gap-6">
+            <div className="xl:col-span-3 border border-gold/25 rounded-2xl bg-gold/10 p-5 md:p-6 flex flex-col justify-between gap-6">
               <div>
-                <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#8a6a0e]/80">/ CONTACT</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/80">/ CONTACT</p>
                 <h4 className="mt-3 text-2xl md:text-3xl font-black uppercase leading-none">Слідкувати за оновленнями</h4>
-                <p className="mt-4 text-sm md:text-base text-[#0b0b0c]/65 leading-relaxed font-medium">
+                <p className="mt-4 text-sm md:text-base text-ink/65 leading-relaxed font-medium">
                   Найшвидше оновлення, пояснення до мапи та нові розбори публікуються у Telegram.
                 </p>
               </div>
               <div className="space-y-3">
-                <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer" className="flex items-center justify-between gap-3 bg-[#0b0b0c] text-white px-4 py-3 font-mono text-[11px] md:text-xs font-black uppercase tracking-widest hover:opacity-85 transition-opacity">
+                <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer" className="flex items-center justify-between gap-3 bg-ink text-white px-4 py-3 font-mono text-[11px] md:text-xs font-black uppercase tracking-widest hover:opacity-85 transition-opacity">
                   Відкрити Telegram
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
-                <button type="button" onClick={() => shareLink('footer-home', 'Око Гора', window.location.origin)} className="w-full flex items-center justify-between gap-3 border border-[#c9a227]/40 rounded-xl px-4 py-3 font-mono text-[11px] md:text-xs font-black uppercase tracking-widest text-[#8a6a0e] hover:bg-[#c9a227]/12 transition-colors">
+                <button type="button" onClick={() => shareLink('footer-home', 'Око Гора', window.location.origin)} className="w-full flex items-center justify-between gap-3 border border-gold/40 rounded-xl px-4 py-3 font-mono text-[11px] md:text-xs font-black uppercase tracking-widest text-gold-ink hover:bg-gold/12 transition-colors">
                   {sharedItemId === 'footer-home' ? 'Посилання скопійовано' : 'Поділитися сайтом'}
                   <ArrowUpRight className="w-4 h-4" />
                 </button>
@@ -1661,7 +1661,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="border-t border-[#c9a227]/12 pt-5 md:pt-6 flex flex-col lg:flex-row justify-between gap-4 font-mono text-[9px] md:text-[10px] tracking-[0.22em] text-[#0b0b0c]/34 uppercase">
+          <div className="border-t border-gold/12 pt-5 md:pt-6 flex flex-col lg:flex-row justify-between gap-4 font-mono text-[9px] md:text-[10px] tracking-[0.22em] text-ink/34 uppercase">
             <div className="leading-relaxed">© {new Date().getFullYear()} OKO GORA. ЦИФРОВА ПЛАТФОРМА TELEGRAM-КАНАЛУ. ДАНІ З ВІДКРИТИХ ДЖЕРЕЛ.</div>
             <div className="flex flex-wrap gap-x-5 gap-y-2">
               <span>STATUS: ACTIVE</span>
@@ -1679,42 +1679,42 @@ export default function App() {
         <div className="md:hidden fixed inset-0 z-[998]" onClick={() => setMobileMenuOpen(false)}>
           <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
           <div
-            className="absolute bottom-0 left-0 right-0 bg-[#f4f5f3] border-t border-[#c9a227]/20 px-4 pt-4 pb-2 flex flex-col gap-1 font-mono text-[11px] uppercase tracking-widest z-[999]"
+            className="absolute bottom-0 left-0 right-0 bg-surface-2 border-t border-gold/20 px-4 pt-4 pb-2 flex flex-col gap-1 font-mono text-[11px] uppercase tracking-widest z-[999]"
             style={{ paddingBottom: 'calc(var(--nav-h) + var(--safe-bottom) + 0.5rem)' }}
             onClick={e => e.stopPropagation()}
           >
             <div className="flex items-center justify-between mb-3 px-1">
-              <span className="text-[#8a6a0e] font-bold text-[10px] tracking-[0.2em]">НАВІГАЦІЯ</span>
-              <button type="button" onClick={() => setMobileMenuOpen(false)} className="text-[#0b0b0c]/40 hover:text-[#0b0b0c] p-1">
+              <span className="text-gold-ink font-bold text-[10px] tracking-[0.2em]">НАВІГАЦІЯ</span>
+              <button type="button" onClick={() => setMobileMenuOpen(false)} className="text-ink/40 hover:text-ink p-1">
                 <X className="w-4 h-4" />
               </button>
             </div>
             <button type="button" onClick={() => openSection('brigades')}
-              className="flex items-center gap-3 text-[#0b0b0c]/60 hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04] text-left w-full">
+              className="flex items-center gap-3 text-ink/60 hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04] text-left w-full">
               <Shield className="w-4 h-4 flex-shrink-0" /><span>Підрозділи</span>
             </button>
             <button type="button" onClick={() => openSection('analytics')}
-              className="flex items-center gap-3 text-[#0b0b0c]/60 hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04] text-left w-full">
+              className="flex items-center gap-3 text-ink/60 hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04] text-left w-full">
               <BarChart3 className="w-4 h-4 flex-shrink-0" /><span>Аналітика</span>
             </button>
             <button type="button" onClick={() => openSection('sbs')}
-              className="flex items-center gap-3 text-[#0b0b0c]/60 hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04] text-left w-full">
+              className="flex items-center gap-3 text-ink/60 hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04] text-left w-full">
               <Activity className="w-4 h-4 flex-shrink-0" /><span>SBS</span>
             </button>
             <button type="button" onClick={() => openSection('deepstate')}
-              className="flex items-center gap-3 text-[#0b0b0c]/60 hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04] text-left w-full">
+              className="flex items-center gap-3 text-ink/60 hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04] text-left w-full">
               <Table2 className="w-4 h-4 flex-shrink-0" /><span>DeepState</span>
             </button>
             <button type="button" onClick={() => openSection('investigations')}
-              className="flex items-center gap-3 text-[#0b0b0c]/60 hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04] text-left w-full">
+              className="flex items-center gap-3 text-ink/60 hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04] text-left w-full">
               <Database className="w-4 h-4 flex-shrink-0" /><span>Розслідування</span>
             </button>
             <button type="button" onClick={() => openSection('rss')}
-              className="flex items-center gap-3 text-[#0b0b0c]/60 hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04] text-left w-full">
+              className="flex items-center gap-3 text-ink/60 hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04] text-left w-full">
               <Rss className="w-4 h-4 flex-shrink-0" /><span>RSS</span>
             </button>
             <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-              className="flex items-center gap-3 text-[#0b0b0c] font-bold hover:text-[#8a6a0e] transition-colors py-2.5 px-3 rounded-lg hover:bg-[#0b0b0c]/[0.04]">
+              className="flex items-center gap-3 text-ink font-bold hover:text-gold-ink transition-colors py-2.5 px-3 rounded-lg hover:bg-ink/[0.04]">
               <RadioTower className="w-4 h-4 flex-shrink-0" /><span>Телеграм</span><ArrowUpRight className="w-3 h-3 ml-auto" />
             </a>
           </div>
@@ -1722,13 +1722,13 @@ export default function App() {
       )}
 
       <nav className="md:hidden fixed bottom-0 left-0 right-0 z-[1000] bottom-nav
-        bg-[#f4f5f3]/96 backdrop-blur-xl border-t border-[#c9a227]/15">
+        bg-surface-2/96 backdrop-blur-xl border-t border-gold/15">
         <div className="h-14 flex items-stretch">
           {/* Home */}
           <Link to="/"
             onClick={() => setMobileMenuOpen(false)}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${location.pathname === '/' && !mobileMenuOpen ? 'text-[#8a6a0e]' : 'text-[#0b0b0c]/35 active:text-[#0b0b0c]/70'}`}>
+              ${location.pathname === '/' && !mobileMenuOpen ? 'text-gold-ink' : 'text-ink/35 active:text-ink/70'}`}>
             <Home className="w-[18px] h-[18px]" />
             <span className="font-mono text-[8px] tracking-widest uppercase">Огляд</span>
           </Link>
@@ -1736,7 +1736,7 @@ export default function App() {
           <button type="button"
             onClick={() => openSection('map')}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${location.pathname === '/' && !mobileMenuOpen ? 'text-[#0b0b0c]/35 active:text-[#0b0b0c]/70' : 'text-[#0b0b0c]/35'}`}>
+              ${location.pathname === '/' && !mobileMenuOpen ? 'text-ink/35 active:text-ink/70' : 'text-ink/35'}`}>
             <MapIcon className="w-[18px] h-[18px]" />
             <span className="font-mono text-[8px] tracking-widest uppercase">Карта</span>
           </button>
@@ -1744,14 +1744,14 @@ export default function App() {
           <Link to="/targets"
             onClick={() => setMobileMenuOpen(false)}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${location.pathname === '/targets' && !mobileMenuOpen ? 'text-[#8a6a0e]' : 'text-[#0b0b0c]/35 active:text-[#0b0b0c]/70'}`}>
+              ${location.pathname === '/targets' && !mobileMenuOpen ? 'text-gold-ink' : 'text-ink/35 active:text-ink/70'}`}>
             <Target className="w-[18px] h-[18px]" />
             <span className="font-mono text-[8px] tracking-widest uppercase">Цілі</span>
           </Link>
           {/* Feed */}
           <button type="button"
             onClick={() => openSection('feed')}
-            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-[#0b0b0c]/35 active:text-[#0b0b0c]/70 transition-colors">
+            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-ink/35 active:text-ink/70 transition-colors">
             <Radio className="w-[18px] h-[18px]" />
             <span className="font-mono text-[8px] tracking-widest uppercase">Стрічка</span>
           </button>
@@ -1759,7 +1759,7 @@ export default function App() {
           <button type="button"
             onClick={() => setMobileMenuOpen(v => !v)}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${mobileMenuOpen ? 'text-[#8a6a0e]' : 'text-[#0b0b0c]/35 active:text-[#0b0b0c]/70'}`}>
+              ${mobileMenuOpen ? 'text-gold-ink' : 'text-ink/35 active:text-ink/70'}`}>
             <MoreHorizontal className="w-[18px] h-[18px]" />
             <span className="font-mono text-[8px] tracking-widest uppercase">Ще</span>
           </button>

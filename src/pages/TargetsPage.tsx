@@ -35,16 +35,16 @@ const TYPE_LABELS: Record<string, string> = {
 };
 
 const STATUS_META = {
-  active:    { label: 'АКТИВНИЙ',   color: 'text-[#c2410c]', bg: 'bg-[#c2410c]/10', dot: 'bg-[#c2410c]', icon: AlertTriangle },
+  active:    { label: 'АКТИВНИЙ',   color: 'text-danger', bg: 'bg-danger/10', dot: 'bg-danger', icon: AlertTriangle },
   damaged:   { label: 'ПОШКОДЖЕНО', color: 'text-[#b45309]', bg: 'bg-[#b45309]/10', dot: 'bg-[#d97706]', icon: Zap },
   destroyed: { label: 'ЗНИЩЕНО',    color: 'text-[#15803d]', bg: 'bg-[#15803d]/10', dot: 'bg-[#16a34a]', icon: CheckCircle },
 };
 
 const PRIORITY_META = {
-  critical: { label: 'КРИТИЧНИЙ', badge: 'border-[#c2410c]/40 text-[#c2410c] bg-[#c2410c]/5' },
+  critical: { label: 'КРИТИЧНИЙ', badge: 'border-danger/40 text-danger bg-danger/5' },
   high:     { label: 'ВИСОКИЙ',   badge: 'border-[#b45309]/40 text-[#b45309] bg-[#b45309]/5' },
-  medium:   { label: 'СЕРЕДНІЙ',  badge: 'border-[#8a6a0e]/40 text-[#8a6a0e] bg-[#fbf4dd]' },
-  low:      { label: 'НИЗЬКИЙ',   badge: 'border-[#0b0b0c]/15 text-[#0b0b0c]/40' },
+  medium:   { label: 'СЕРЕДНІЙ',  badge: 'border-gold-ink/40 text-gold-ink bg-gold-soft' },
+  low:      { label: 'НИЗЬКИЙ',   badge: 'border-ink/15 text-ink/40' },
 };
 
 type FilterType = 'all' | string;
@@ -85,28 +85,28 @@ export default function TargetsPage() {
     critical: targets.filter(t => t.priority === 'critical').length,
   };
 
-  const selectClass = 'bg-[#f4f5f3] border border-[#0b0b0c]/10 rounded-xl px-4 py-2.5 font-mono text-xs text-[#54564f] focus:outline-none focus:border-[#c9a227]/60 tracking-wider';
+  const selectClass = 'bg-surface-2 border border-ink/10 rounded-xl px-4 py-2.5 font-mono text-xs text-ink-2 focus:outline-none focus:border-gold/60 tracking-wider';
 
   return (
-    <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] font-sans selection:bg-[#c9a227]/30 selection:text-[#0b0b0c]">
+    <div className="min-h-screen bg-surface text-ink font-sans selection:bg-gold/30 selection:text-ink">
       {/* Nav */}
-      <nav className="fixed top-0 left-0 right-0 z-[1000] border-b border-[#c9a227]/10 bg-[#ffffff]/90 backdrop-blur-xl">
+      <nav className="fixed top-0 left-0 right-0 z-[1000] border-b border-gold/10 bg-surface/90 backdrop-blur-xl">
         <div className="grid grid-cols-2 md:grid-cols-4 px-4 md:px-8 py-3 md:py-4 text-[10px] md:text-xs font-mono uppercase tracking-widest items-center">
           <div className="col-span-1 flex items-center gap-3">
-            <Link to="/" className="flex items-center gap-2 text-[#0b0b0c]/60 hover:text-[#0b0b0c] transition-colors">
+            <Link to="/" className="flex items-center gap-2 text-ink/60 hover:text-ink transition-colors">
               <ArrowLeft className="w-3.5 h-3.5" />
             </Link>
-            <div className="w-4 h-4 bg-[#c9a227] rounded-lg flex items-center justify-center">
-              <div className="w-1.5 h-1.5 bg-[#ffffff] rounded-md animate-pulse" />
+            <div className="w-4 h-4 bg-gold rounded-lg flex items-center justify-center">
+              <div className="w-1.5 h-1.5 bg-surface rounded-md animate-pulse" />
             </div>
-            <Link to="/" className="font-bold tracking-tighter text-[#0b0b0c] hover:text-[#8a6a0e] transition-colors">ОКО ГОРА</Link>
+            <Link to="/" className="font-bold tracking-tighter text-ink hover:text-gold-ink transition-colors">ОКО ГОРА</Link>
           </div>
-          <div className="hidden md:block col-span-2 text-center text-[#0b0b0c]/30">
+          <div className="hidden md:block col-span-2 text-center text-ink/30">
             БАЗА_ЦІЛЕЙ // РОСІЯ // OSINT
           </div>
           <div className="col-span-1 flex justify-end">
             <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-              className="text-[#0b0b0c] hover:text-[#8a6a0e] transition-colors flex items-center gap-1 font-bold">
+              className="text-ink hover:text-gold-ink transition-colors flex items-center gap-1 font-bold">
               ТЕЛЕГРАМ <ArrowUpRight className="w-3 h-3" />
             </a>
           </div>
@@ -121,14 +121,14 @@ export default function TargetsPage() {
           transition={{ duration: 0.6 }}
           className="max-w-[1400px] mx-auto mb-16"
         >
-          <div className="border-b border-[#0b0b0c]/10 pb-12 mb-12">
-            <span className="oko-eyebrow text-[#8a6a0e] mb-6 block">
+          <div className="border-b border-ink/10 pb-12 mb-12">
+            <span className="oko-eyebrow text-gold-ink mb-6 block">
               / Стратегічна база даних
             </span>
-            <h1 className="text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-[0.85] mb-8 text-[#0b0b0c]">
+            <h1 className="text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-[0.85] mb-8 text-ink">
               База<br />Цілей
             </h1>
-            <p className="text-[#54564f] text-sm md:text-base max-w-2xl leading-relaxed">
+            <p className="text-ink-2 text-sm md:text-base max-w-2xl leading-relaxed">
               Каталог критичної інфраструктури Росії — НПЗ, авіабази, склади боєприпасів, об'єкти ВПК та логістичні вузли.
               Координати, описи, статус ураження.
             </p>
@@ -137,15 +137,15 @@ export default function TargetsPage() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
             {[
-              { label: 'ВСЬОГО ОБ\'ЄКТІВ', val: stats.total, color: 'text-[#0b0b0c]' },
-              { label: 'АКТИВНИХ', val: stats.active, color: 'text-[#c2410c]' },
+              { label: 'ВСЬОГО ОБ\'ЄКТІВ', val: stats.total, color: 'text-ink' },
+              { label: 'АКТИВНИХ', val: stats.active, color: 'text-danger' },
               { label: 'ПОШКОДЖЕНО', val: stats.damaged, color: 'text-[#b45309]' },
               { label: 'ЗНИЩЕНО', val: stats.destroyed, color: 'text-[#15803d]' },
-              { label: 'КРИТИЧНИХ', val: stats.critical, color: 'text-[#c2410c]' },
+              { label: 'КРИТИЧНИХ', val: stats.critical, color: 'text-danger' },
             ].map(s => (
               <div key={s.label} className="oko-card p-6">
                 <div className={`text-3xl md:text-4xl font-bold tracking-tighter mb-2 ${s.color}`}>{s.val}</div>
-                <div className="font-mono text-[9px] uppercase tracking-widest text-[#54564f]">{s.label}</div>
+                <div className="font-mono text-[9px] uppercase tracking-widest text-ink-2">{s.label}</div>
               </div>
             ))}
           </div>
@@ -154,13 +154,13 @@ export default function TargetsPage() {
           <div className="flex flex-col md:flex-row gap-4 mb-8">
             {/* Search */}
             <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-[#0b0b0c]/30" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-ink/30" />
               <input
                 type="text"
                 placeholder="Пошук за назвою, регіоном..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
-                className="w-full bg-[#f4f5f3] border border-[#0b0b0c]/10 rounded-xl pl-9 pr-4 py-2.5 font-mono text-xs text-[#0b0b0c] placeholder-[#0b0b0c]/30 focus:outline-none focus:border-[#c9a227]/60 tracking-wider"
+                className="w-full bg-surface-2 border border-ink/10 rounded-xl pl-9 pr-4 py-2.5 font-mono text-xs text-ink placeholder-ink/30 focus:outline-none focus:border-gold/60 tracking-wider"
               />
             </div>
 
@@ -189,23 +189,23 @@ export default function TargetsPage() {
             </select>
 
             {/* View toggle */}
-            <div className="flex border border-[#0b0b0c]/10 rounded-xl overflow-hidden">
+            <div className="flex border border-ink/10 rounded-xl overflow-hidden">
               <button
                 onClick={() => setView('list')}
-                className={`px-4 py-2.5 font-mono text-[10px] uppercase tracking-widest transition-colors ${view === 'list' ? 'bg-[#0b0b0c] text-white' : 'text-[#54564f] hover:text-[#0b0b0c] hover:bg-[#f4f5f3]'}`}
+                className={`px-4 py-2.5 font-mono text-[10px] uppercase tracking-widest transition-colors ${view === 'list' ? 'bg-ink text-white' : 'text-ink-2 hover:text-ink hover:bg-surface-2'}`}
               >
                 СПИСОК
               </button>
               <button
                 onClick={() => setView('map')}
-                className={`px-4 py-2.5 font-mono text-[10px] uppercase tracking-widest transition-colors ${view === 'map' ? 'bg-[#0b0b0c] text-white' : 'text-[#54564f] hover:text-[#0b0b0c] hover:bg-[#f4f5f3]'}`}
+                className={`px-4 py-2.5 font-mono text-[10px] uppercase tracking-widest transition-colors ${view === 'map' ? 'bg-ink text-white' : 'text-ink-2 hover:text-ink hover:bg-surface-2'}`}
               >
                 КАРТА
               </button>
             </div>
           </div>
 
-          <div className="font-mono text-[10px] text-[#0b0b0c]/30 uppercase tracking-widest mb-8">
+          <div className="font-mono text-[10px] text-ink/30 uppercase tracking-widest mb-8">
             <Filter className="w-3 h-3 inline mr-2" />
             {filtered.length} об'єктів з {targets.length}
           </div>
@@ -216,7 +216,7 @@ export default function TargetsPage() {
           <div className="max-w-[1400px] mx-auto mb-16">
             <Suspense fallback={
               <div className="w-full h-[600px] oko-card flex items-center justify-center">
-                <span className="font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/30 animate-pulse">ЗАВАНТАЖЕННЯ МАПИ...</span>
+                <span className="font-mono text-[10px] uppercase tracking-widest text-ink/30 animate-pulse">ЗАВАНТАЖЕННЯ МАПИ...</span>
               </div>
             }>
               <TargetMap targets={filtered} onSelect={setSelected} selected={selected} />
@@ -228,13 +228,13 @@ export default function TargetsPage() {
         {view === 'list' && (
           <div className="max-w-[1400px] mx-auto">
             {loading && (
-              <div className="text-center py-24 font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/30 animate-pulse">
+              <div className="text-center py-24 font-mono text-[10px] uppercase tracking-widest text-ink/30 animate-pulse">
                 ЗАВАНТАЖЕННЯ...
               </div>
             )}
 
             {!loading && filtered.length === 0 && (
-              <div className="text-center py-24 font-mono text-[10px] uppercase tracking-widest text-[#0b0b0c]/30">
+              <div className="text-center py-24 font-mono text-[10px] uppercase tracking-widest text-ink/30">
                 НІЧОГО НЕ ЗНАЙДЕНО
               </div>
             )}
@@ -252,17 +252,17 @@ export default function TargetsPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: Math.min(i * 0.04, 0.4) }}
                     onClick={() => setSelected(isSel ? null : t)}
-                    className={`rounded-2xl cursor-pointer transition-all duration-300 border ${isSel ? 'border-[#c9a227]/60 bg-[#fbf4dd]/40 shadow-sm' : 'border-[#0b0b0c]/10 bg-[#ffffff] hover:border-[#c9a227]/40 hover:bg-[#f4f5f3]/60'}`}
+                    className={`rounded-2xl cursor-pointer transition-all duration-300 border ${isSel ? 'border-gold/60 bg-gold-soft/40 shadow-sm' : 'border-ink/10 bg-surface hover:border-gold/40 hover:bg-surface-2/60'}`}
                   >
                     {/* Header */}
                     <div className="p-5 pb-4 flex flex-wrap justify-between gap-2">
                       <div className="flex items-start gap-3 flex-1 min-w-0">
                         <div className={`w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 ${sm.dot} ${t.status === 'active' ? 'animate-pulse' : ''}`} />
                         <div className="min-w-0">
-                          <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-[#54564f] mb-1">
+                          <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-ink-2 mb-1">
                             {TYPE_LABELS[t.type] || t.type} · {t.region}
                           </div>
-                          <h3 className="text-sm md:text-base font-bold uppercase tracking-tight text-[#0b0b0c] leading-tight">
+                          <h3 className="text-sm md:text-base font-bold uppercase tracking-tight text-ink leading-tight">
                             {t.name}
                           </h3>
                         </div>
@@ -282,14 +282,14 @@ export default function TargetsPage() {
                       <motion.div
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
-                        className="px-5 pb-5 border-t border-[#0b0b0c]/10 pt-4 space-y-4"
+                        className="px-5 pb-5 border-t border-ink/10 pt-4 space-y-4"
                       >
-                        <p className="text-[#54564f] text-sm leading-relaxed">{t.description}</p>
+                        <p className="text-ink-2 text-sm leading-relaxed">{t.description}</p>
 
                         <div className="grid grid-cols-2 gap-3">
                           {t.coords_precise && (
                             <div>
-                              <div className="font-mono text-[9px] text-[#0b0b0c]/40 uppercase tracking-widest mb-1">Координати</div>
+                              <div className="font-mono text-[9px] text-ink/40 uppercase tracking-widest mb-1">Координати</div>
                               <div className="font-mono text-xs text-[#15803d] flex items-center gap-1">
                                 <MapPin className="w-3 h-3" /> {t.coords_precise}
                               </div>
@@ -297,22 +297,22 @@ export default function TargetsPage() {
                           )}
                           {t.capacity && (
                             <div>
-                              <div className="font-mono text-[9px] text-[#0b0b0c]/40 uppercase tracking-widest mb-1">Потужність</div>
-                              <div className="font-mono text-xs text-[#0b0b0c]/70 flex items-center gap-1">
+                              <div className="font-mono text-[9px] text-ink/40 uppercase tracking-widest mb-1">Потужність</div>
+                              <div className="font-mono text-xs text-ink/70 flex items-center gap-1">
                                 <BarChart2 className="w-3 h-3" /> {t.capacity}
                               </div>
                             </div>
                           )}
                           {t.owner && (
                             <div>
-                              <div className="font-mono text-[9px] text-[#0b0b0c]/40 uppercase tracking-widest mb-1">Власник</div>
-                              <div className="font-mono text-xs text-[#54564f]">{t.owner}</div>
+                              <div className="font-mono text-[9px] text-ink/40 uppercase tracking-widest mb-1">Власник</div>
+                              <div className="font-mono text-xs text-ink-2">{t.owner}</div>
                             </div>
                           )}
                           {t.unit && (
                             <div>
-                              <div className="font-mono text-[9px] text-[#0b0b0c]/40 uppercase tracking-widest mb-1">Підрозділ</div>
-                              <div className="font-mono text-xs text-[#54564f]">{t.unit}</div>
+                              <div className="font-mono text-[9px] text-ink/40 uppercase tracking-widest mb-1">Підрозділ</div>
+                              <div className="font-mono text-xs text-ink-2">{t.unit}</div>
                             </div>
                           )}
                         </div>
@@ -332,7 +332,7 @@ export default function TargetsPage() {
                             target="_blank"
                             rel="noreferrer"
                             onClick={e => e.stopPropagation()}
-                            className="font-mono text-[9px] uppercase tracking-widest text-[#54564f] hover:text-[#0b0b0c] transition-colors flex items-center gap-1"
+                            className="font-mono text-[9px] uppercase tracking-widest text-ink-2 hover:text-ink transition-colors flex items-center gap-1"
                           >
                             Google Maps <ArrowUpRight className="w-2.5 h-2.5" />
                           </a>
@@ -341,7 +341,7 @@ export default function TargetsPage() {
                             target="_blank"
                             rel="noreferrer"
                             onClick={e => e.stopPropagation()}
-                            className="font-mono text-[9px] uppercase tracking-widest text-[#54564f] hover:text-[#0b0b0c] transition-colors flex items-center gap-1"
+                            className="font-mono text-[9px] uppercase tracking-widest text-ink-2 hover:text-ink transition-colors flex items-center gap-1"
                           >
                             OSM <ArrowUpRight className="w-2.5 h-2.5" />
                           </a>
@@ -356,12 +356,12 @@ export default function TargetsPage() {
         )}
       </main>
 
-      <footer className="border-t border-[#0b0b0c]/10 px-4 md:px-8 py-12 bg-[#ffffff]">
+      <footer className="border-t border-ink/10 px-4 md:px-8 py-12 bg-surface">
         <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <Link to="/" className="text-2xl font-bold tracking-tighter uppercase text-[#0b0b0c] hover:text-[#8a6a0e] transition-colors">
+          <Link to="/" className="text-2xl font-bold tracking-tighter uppercase text-ink hover:text-gold-ink transition-colors">
             Око Гора
           </Link>
-          <div className="font-mono text-[9px] text-[#0b0b0c]/30 uppercase tracking-widest">
+          <div className="font-mono text-[9px] text-ink/30 uppercase tracking-widest">
             ДАНІ ОНОВЛЮЮТЬСЯ АВТОМАТИЧНО · © {new Date().getFullYear()} OKO GORA GROUP
           </div>
         </div>

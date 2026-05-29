@@ -955,7 +955,7 @@ export default function AdminPage() {
                 });
                 setIsNewInvestigation(true);
               }}
-              className="flex items-center gap-2 bg-[#c9a227] text-[#111111] font-mono font-extrabold text-xs uppercase tracking-widest px-5 py-2.5 sm:px-6 sm:py-3 hover:brightness-105 transition-colors"
+              className="flex items-center gap-2 bg-gold text-[#111111] font-mono font-extrabold text-xs uppercase tracking-widest px-5 py-2.5 sm:px-6 sm:py-3 hover:brightness-105 transition-colors"
             >
               <Sparkles className="w-4 h-4" /> НОВЕ РОЗСЛІДУВАННЯ
             </button>

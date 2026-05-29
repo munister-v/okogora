@@ -123,7 +123,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
   }, [selected]);
 
   return (
-    <div className="relative w-full h-[600px] border border-[#0b0b0c]/10 rounded-2xl overflow-hidden">
+    <div className="relative w-full h-[600px] border border-ink/10 rounded-2xl overflow-hidden">
       <div ref={mapRef} className="w-full h-full" />
       <style>{`
         .target-tooltip { background: transparent !important; border: none !important; box-shadow: none !important; }
@@ -131,8 +131,8 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
         .leaflet-tooltip-top:before { display: none; }
       `}</style>
       {/* Legend — hidden on mobile */}
-      <div className="absolute bottom-4 left-4 z-[400] bg-[#ffffff]/95 border border-[#0b0b0c]/10 rounded-xl p-3 backdrop-blur-sm hidden md:block shadow-sm">
-        <div className="font-mono text-[9px] uppercase tracking-widest text-[#54564f] mb-2">Статус</div>
+      <div className="absolute bottom-4 left-4 z-[400] bg-surface/95 border border-ink/10 rounded-xl p-3 backdrop-blur-sm hidden md:block shadow-sm">
+        <div className="font-mono text-[9px] uppercase tracking-widest text-ink-2 mb-2">Статус</div>
         {Object.entries(STATUS_COLORS).map(([s, c]) => (
           <div key={s} className="flex items-center gap-2 mb-1">
             <div className="w-2 h-2 rounded-sm" style={{ background: c }} />

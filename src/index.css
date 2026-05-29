@@ -98,6 +98,18 @@
     --radius-2xl: calc(var(--radius) * 1.8);
     --radius-3xl: calc(var(--radius) * 2.2);
     --radius-4xl: calc(var(--radius) * 2.6);
+
+    /* ── Brand color tokens (single source of truth for utilities) ──────────── */
+    --color-surface:   var(--oko-surface);
+    --color-surface-2: var(--oko-surface-2);
+    --color-surface-3: var(--oko-surface-3);
+    --color-ink:       var(--oko-ink);
+    --color-ink-2:     var(--oko-ink-2);
+    --color-gold:      var(--oko-accent);
+    --color-gold-ink:  var(--oko-accent-ink);
+    --color-gold-soft: var(--oko-accent-soft);
+    --color-line:      var(--oko-line);
+    --color-danger:    var(--oko-danger);
 }
 
 :root {

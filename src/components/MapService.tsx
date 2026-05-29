@@ -445,7 +445,7 @@ export default function MapService() {
 
           <div className="bg-[#111111]/95 backdrop-blur-xl border border-[#f4f4f4]/10 rounded-2xl p-5 shadow-2xl">
             <div className="flex items-center gap-2 mb-3">
-              <MapIcon className="w-3 h-3 text-[#c9a227]" />
+              <MapIcon className="w-3 h-3 text-gold" />
               <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">Шар території</span>
             </div>
             <div className="space-y-2 font-mono text-[9px] text-white/60">
@@ -501,8 +501,8 @@ export default function MapService() {
               <span className="font-bold text-white/85 tracking-tighter">{telemetry.lng.toFixed(6)}° E</span>
             </div>
             <div className="flex justify-between gap-12 text-[9px] pt-1">
-              <span className="opacity-30 text-[#c9a227] font-bold">ТЕРИТОРІЯ</span>
-              <span className="text-[#c9a227]/90">{territoryStatusLabel(territoryStatus)}</span>
+              <span className="opacity-30 text-gold font-bold">ТЕРИТОРІЯ</span>
+              <span className="text-gold/90">{territoryStatusLabel(territoryStatus)}</span>
             </div>
             <div className="flex justify-between gap-12 text-[9px] pt-1">
               <span className="opacity-30 text-red-300 font-bold">УДАРИ РФ</span>

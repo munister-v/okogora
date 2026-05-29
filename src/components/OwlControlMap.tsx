@@ -67,11 +67,11 @@ export default function OwlControlMap() {
     <div className="w-full flex flex-col gap-3">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="font-mono text-[10px] uppercase tracking-widest text-[#c9a227]">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-gold">
             КАРТА_КОНТРОЛЮ_TERRITORY
           </span>
           {status === 'loading' && (
-            <span className="font-mono text-[9px] text-[#c9a227]/50 animate-pulse">● ЗАВАНТАЖЕННЯ</span>
+            <span className="font-mono text-[9px] text-gold/50 animate-pulse">● ЗАВАНТАЖЕННЯ</span>
           )}
           {status === 'ready' && (
             <span className="font-mono text-[9px] text-green-500/70">● ОНЛАЙН</span>
@@ -84,17 +84,17 @@ export default function OwlControlMap() {
           href="https://uacontrolmap.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono text-[8px] uppercase tracking-widest text-[#c9a227]/40 hover:text-[#c9a227] transition-colors"
+          className="font-mono text-[8px] uppercase tracking-widest text-gold/40 hover:text-gold transition-colors"
         >
           SOURCE: UACONTROLMAP.COM ↗
         </a>
       </div>
 
-      <div className="relative w-full h-[500px] md:h-[700px] border border-[#c9a227]/20 overflow-hidden">
+      <div className="relative w-full h-[500px] md:h-[700px] border border-gold/20 overflow-hidden">
         {status === 'loading' && (
           <div className="absolute inset-0 z-[1000] flex items-center justify-center bg-[#1c1c12]/80 pointer-events-none">
             <div className="text-center">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-[#c9a227]/60 animate-pulse block">
+              <span className="font-mono text-[10px] uppercase tracking-widest text-gold/60 animate-pulse block">
                 ЗАВАНТАЖЕННЯ_КМZ...
               </span>
               <span className="font-mono text-[8px] text-white/20 block mt-1">
@@ -158,7 +158,7 @@ export default function OwlControlMap() {
           <span className="inline-block w-3 h-1.5 bg-[#f9a825] opacity-70 rounded-sm" />
           Лінія фронту
         </span>
-        <span className="ml-auto text-[#c9a227]/20">
+        <span className="ml-auto text-gold/20">
           Дані: Project Owl · uacontrolmap.com · оновлення щодня
         </span>
       </div>
