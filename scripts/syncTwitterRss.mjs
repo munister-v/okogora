@@ -7,15 +7,13 @@ const CONFIG_PATH = 'public/data/rss_twitter_config.json';
 const DEFAULT_CONFIG = {
   windowDays: 3,
   maxItems: 80,
-  authors: [
-    { handle: 'OSINTtechnical', name: 'OSINTtechnical' },
-    { handle: 'GeoConfirmed', name: 'GeoConfirmed' },
-    { handle: 'DefMon3', name: 'Def Mon' },
-    { handle: 'NOELreports', name: 'NOELREPORTS' },
-    { handle: 'War_Mapper', name: 'War Mapper' },
-    { handle: 'ChrisO_wiki', name: 'ChrisO_wiki' },
-    { handle: 'Tendar', name: 'Tendar' },
-    { handle: 'RALee85', name: 'Rob Lee' },
+  // Native RSS feeds from Ukrainian / OSINT news outlets (Twitter mirrors are dead).
+  sources: [
+    { handle: 'pravda', name: 'Українська Правда', url: 'https://www.pravda.com.ua/rss/' },
+    { handle: 'euromaidan', name: 'Euromaidan Press', url: 'https://euromaidanpress.com/feed/' },
+    { handle: 'armyinform', name: 'ArmyInform', url: 'https://armyinform.com.ua/feed/' },
+    { handle: 'unian', name: 'UNIAN', url: 'https://rss.unian.net/site/news_eng.rss' },
+    { handle: 'militarnyi', name: 'Militarnyi', url: 'https://mil.in.ua/uk/feed/' },
   ],
   keywords: [
     'ukraine', 'ukrainian', 'kyiv', 'kharkiv', 'kherson', 'odesa', 'odes',
@@ -23,17 +21,12 @@ const DEFAULT_CONFIG = {
     'osint', 'humint', 'intelligence', 'frontline', 'satellite',
     'missile', 'drone', 'strike', 'air defense', 'russian', 'russia',
     'occupation', 'naval', 'black sea', 'battle', 'brigade',
+    // Ukrainian-language keywords (native feeds are often in UA)
+    'україн', 'росі', 'рф', 'фронт', 'обстріл', 'дрон', 'ракет', 'удар',
+    'окупант', 'втрати', 'наступ', 'оборон', 'бпла', 'всзу', 'зсу', 'війн',
   ],
   excludeKeywords: ['giveaway', 'promo', 'discount'],
 };
-
-const FEED_FACTORIES = [
-  (handle) => `https://nitter.poast.org/${handle}/rss`,
-  (handle) => `https://twiiit.com/${handle}/rss`,
-  (handle) => `https://rsshub.app/twitter/user/${handle}`,
-  (handle) => `https://rsshub.pseudoyu.com/twitter/user/${handle}`,
-  (handle) => `https://rsshub.uocat.com/twitter/user/${handle}`,
-];
 
 const TRANSLATE_ENDPOINT = 'https://translate.googleapis.com/translate_a/single';
 
@@ -176,46 +169,40 @@ async function translateToUkrainian(text) {
   }
 }
 
-function parseItems(xml, author) {
+function parseItems(xml, source) {
   const rawItems = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
 
   return rawItems.map((itemXml) => {
     const title = pickTag(itemXml, 'title');
     const link = pickTag(itemXml, 'link');
-    const description = pickTag(itemXml, 'description');
-    const pubDate = pickTag(itemXml, 'pubDate') || pickTag(itemXml, 'updated');
+    const description = pickTag(itemXml, 'description') || pickTag(itemXml, 'content:encoded');
+    const pubDate = pickTag(itemXml, 'pubDate') || pickTag(itemXml, 'dc:date') || pickTag(itemXml, 'updated');
     const publishedAt = toIsoOrNow(pubDate);
 
     return {
-      id: `x-${author.handle}-${hashKey(link || title || publishedAt)}`,
+      id: `x-${source.handle}-${hashKey(link || title || publishedAt)}`,
       title,
       url: link,
       summary: description,
       publishedAt,
-      author: author.name,
-      handle: author.handle,
+      author: source.name,
+      handle: source.handle,
       source: 'x_rss',
-      tags: ['OSINT', 'HUMINT', 'UKRAINE'],
+      tags: ['OSINT', 'UKRAINE'],
     };
   });
 }
 
-async function fetchAuthorItems(author) {
-  for (const makeUrl of FEED_FACTORIES) {
-    const url = makeUrl(author.handle);
-    try {
-      const xml = await fetchText(url);
-      const parsed = parseItems(xml, author);
-      if (parsed.length > 0) {
-        console.log(`OK ${author.handle} via ${url} -> ${parsed.length}`);
-        return parsed;
-      }
-    } catch (err) {
-      console.log(`FAIL ${author.handle} via ${url}: ${String(err.message || err)}`);
-    }
+async function fetchSourceItems(source) {
+  try {
+    const xml = await fetchText(source.url);
+    const parsed = parseItems(xml, source);
+    console.log(`OK ${source.handle} via ${source.url} -> ${parsed.length}`);
+    return parsed;
+  } catch (err) {
+    console.log(`FAIL ${source.handle} via ${source.url}: ${String(err.message || err)}`);
+    return [];
   }
-
-  return [];
 }
 
 async function loadConfig() {
@@ -225,7 +212,7 @@ async function loadConfig() {
     return {
       windowDays: Number(cfg.windowDays) > 0 ? Number(cfg.windowDays) : DEFAULT_CONFIG.windowDays,
       maxItems: Number(cfg.maxItems) > 0 ? Number(cfg.maxItems) : DEFAULT_CONFIG.maxItems,
-      authors: Array.isArray(cfg.authors) && cfg.authors.length ? cfg.authors : DEFAULT_CONFIG.authors,
+      sources: Array.isArray(cfg.sources) && cfg.sources.length ? cfg.sources : DEFAULT_CONFIG.sources,
       keywords: Array.isArray(cfg.keywords) && cfg.keywords.length ? cfg.keywords : DEFAULT_CONFIG.keywords,
       excludeKeywords: Array.isArray(cfg.excludeKeywords) ? cfg.excludeKeywords : DEFAULT_CONFIG.excludeKeywords,
     };
@@ -246,14 +233,15 @@ async function main() {
     previousItems = [];
   }
 
-  for (const author of cfg.authors) {
-    const normalizedAuthor =
-      typeof author === 'string'
-        ? { handle: author.trim(), name: author.trim() }
-        : { handle: String(author.handle || '').trim(), name: String(author.name || author.handle || '').trim() };
+  for (const source of cfg.sources) {
+    const normalizedSource = {
+      handle: String(source.handle || source.name || '').trim().toLowerCase().replace(/\s+/g, '-'),
+      name: String(source.name || source.handle || '').trim(),
+      url: String(source.url || '').trim(),
+    };
 
-    if (!normalizedAuthor.handle) continue;
-    const items = await fetchAuthorItems(normalizedAuthor);
+    if (!normalizedSource.url) continue;
+    const items = await fetchSourceItems(normalizedSource);
     all.push(...items);
   }
 
@@ -326,7 +314,7 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     windowDays: cfg.windowDays,
-    authors: cfg.authors,
+    sources: cfg.sources,
     keywords: cfg.keywords,
     excludeKeywords: cfg.excludeKeywords,
     items: finalItems,
