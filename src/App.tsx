@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState, useEffect, lazy, Suspense, useMemo } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower, Home, Map, Radio, MoreHorizontal, ChevronDown, X } from 'lucide-react';
+import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower, Home, Map as MapIcon, Radio, MoreHorizontal, ChevronDown, X } from 'lucide-react';
 import { Post, InvestigationArticle } from './types';
 import { formatPreview, normalizePosts, postTelegramUrl, resolveImageUrl } from './lib/posts';
 import { setSeo } from './lib/seo';
@@ -1737,7 +1737,7 @@ export default function App() {
             onClick={() => openSection('map')}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
               ${location.pathname === '/' && !mobileMenuOpen ? 'text-white/35 active:text-white/70' : 'text-white/35'}`}>
-            <Map className="w-[18px] h-[18px]" />
+            <MapIcon className="w-[18px] h-[18px]" />
             <span className="font-mono text-[8px] tracking-widest uppercase">Карта</span>
           </button>
           {/* Targets */}
