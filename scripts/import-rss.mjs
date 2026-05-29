@@ -124,7 +124,14 @@ function parseRss(xml) {
 
 async function main() {
   console.log(`Fetching RSS: ${RSS_URL}`);
-  const xml = await fetchText(RSS_URL);
+  let xml;
+  try {
+    xml = await fetchText(RSS_URL);
+  } catch (e) {
+    // Dead/unreachable source feed: skip this run without failing the workflow.
+    console.warn(`Source feed unreachable, skipping: ${e.message}`);
+    process.exit(0);
+  }
   const items = parseRss(xml);
   console.log(`Parsed ${items.length} items`);
 

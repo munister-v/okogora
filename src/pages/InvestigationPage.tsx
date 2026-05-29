@@ -54,105 +54,56 @@ function renderMarkdown(md: string) {
     return 'Доказ / ілюстративний матеріал';
   };
   const renderScheme = (type: string) => {
-    if (type === 'delay-chain') {
-      return `
-        <section class="visual-block visual-chain" aria-label="Схема затримки ремонту НПЗ">
-          <div class="visual-kicker">Контекст / як простій перетворюється на довгу проблему</div>
-          <div class="chain-list">
-            <div class="chain-row">
-              <span class="chain-index">01</span>
-              <div class="chain-copy"><strong>Видиме пошкодження</strong><p>Дим і пожежа потрапляють у новини одразу, але це лише поверхня проблеми.</p></div>
-            </div>
-            <div class="chain-row">
-              <span class="chain-index">02</span>
-              <div class="chain-copy"><strong>Аварійний ремонт</strong><p>Кабелі, обвʼязка, насоси й автоматика часто повертаються швидше за все інше.</p></div>
-            </div>
-            <div class="chain-row">
-              <span class="chain-index">03</span>
-              <div class="chain-copy"><strong>Вибуття великого апарата</strong><p>Якщо зачеплено колону або реактор, швидкого повернення до нормального режиму вже не буде.</p></div>
-            </div>
-            <div class="chain-row">
-              <span class="chain-index">04</span>
-              <div class="chain-copy"><strong>Черга на виробництві</strong><p>Далі все впирається в метал, зварювання, термообробку, контроль і приймання.</p></div>
-            </div>
-            <div class="chain-row is-hot">
-              <span class="chain-index">05</span>
-              <div class="chain-copy"><strong>Довгий промисловий простій</strong><p>У цей момент проблема вже живе не на НПЗ, а в контурі важкого машинобудування.</p></div>
-            </div>
-          </div>
-        </section>
-      `;
-    }
+    if (type !== 'recovery-bars') return '';
 
-    if (type === 'factory-cluster') {
-      return `
-        <section class="visual-block visual-factories" aria-label="Контур виробників обладнання">
-          <div>
-            <div class="visual-kicker">Промисловий контур</div>
-            <h3>Чотири вузли, на яких тримається ремонтна арифметика</h3>
-            <p>Це не список для фізичних дій. Це карта залежностей: хто в РФ публічно заявляє компетенції у великих апаратах, без яких НПЗ складно повернути на нормальний режим.</p>
-          </div>
-          <div class="factory-grid">
-            <div><span>Волгоград</span><strong>Волгограднефтемаш</strong><em>колони, реактори, коксові камери</em></div>
-            <div><span>Єкатеринбург</span><strong>Уралхиммаш</strong><em>вакуумні колони, реакторне обладнання</em></div>
-            <div><span>Колпіно</span><strong>Іжорські заводи</strong><em>посудини високого тиску, спецсталі</em></div>
-            <div><span>Башкортостан</span><strong>Салаватнефтемаш</strong><em>теплообмінники, змійовики, ємності</em></div>
-          </div>
-        </section>
-      `;
-    }
+    // Realistic 2026 recovery horizon by equipment type.
+    // base = виробництво + монтаж (міс.), queue = черга + санкційні затримки (міс.).
+    const SCALE = 60; // міс. = 5 років
+    const rows = [
+      { label: 'Насоси, КВПіА, кабелі', base: 2, queue: 0, note: 'до 2 міс' },
+      { label: 'Типові теплообмінники', base: 4, queue: 2, note: '4–6 міс' },
+      { label: 'Внутрішні пристрої колон', base: 8, queue: 4, note: '8–12 міс' },
+      { label: 'Нестандартні теплообмінники', base: 10, queue: 5, note: '10–16 міс' },
+      { label: 'Коксова камера', base: 24, queue: 10, note: '1.5–3 роки' },
+      { label: 'Атмосферна колона', base: 25, queue: 12, note: '2–3 роки' },
+      { label: 'Вакуумна колона', base: 28, queue: 14, note: '2.5–3.5 роки' },
+      { label: 'Реактор гідроочистки', base: 30, queue: 15, note: '2.5–4 роки' },
+      { label: 'Реактор каткрекінгу', base: 38, queue: 19, note: '3–5 років' },
+    ];
+    const pct = (v: number) => `${((v / SCALE) * 100).toFixed(1)}%`;
+    const gridYears = [1, 2, 3, 4, 5];
 
-    if (type === 'repair-clock') {
-      return `
-        <section class="visual-block visual-clock" aria-label="Горизонти ремонту">
-          <div class="visual-kicker">Ремонтний годинник</div>
-          <div class="clock-grid">
-            <div><span>Дні</span><strong>обвʼязка / кабелі</strong><p>Швидкий аварійний контур.</p></div>
-            <div><span>Тижні</span><strong>насоси / теплообмінники</strong><p>Можливі резерви й канібалізація.</p></div>
-            <div><span>Місяці</span><strong>внутрішні пристрої</strong><p>Колона стоїть, режим кульгає.</p></div>
-            <div class="hot"><span>Квартали+</span><strong>корпус колони / реактор</strong><p>Ось тут починається справжня промислова мʼясорубка.</p></div>
-          </div>
-        </section>
-      `;
-    }
+    const bars = rows.map((r) => `
+      <div class="rc-row">
+        <div class="rc-label">${r.label}</div>
+        <div class="rc-val">${r.note}</div>
+        <div class="rc-track">
+          <div class="rc-seg rc-base${r.queue ? '' : ' rc-solo'}" style="width:${pct(r.base)}"></div>
+          ${r.queue ? `<div class="rc-seg rc-queue" style="width:${pct(r.queue)}"></div>` : ''}
+        </div>
+      </div>`).join('');
 
-    if (type === 'osint-radar') {
-      return `
-        <section class="visual-block visual-radar" aria-label="OSINT радар">
-          <div class="visual-kicker">OSINT-радар</div>
-          <div class="radar-layout">
-            <div class="radar-rings"></div>
-            <div class="radar-sweep"></div>
-            <div class="radar-core">НПЗ<br />простій</div>
-            <div class="radar-item r1"><span class="radar-tag high">HIGH</span>відвантаження колон</div>
-            <div class="radar-item r2"><span class="radar-tag med">MED</span>тендери на внутрішні пристрої</div>
-            <div class="radar-item r3"><span class="radar-tag med">MED</span>нестандартні перевезення</div>
-            <div class="radar-item r4"><span class="radar-tag high">HIGH</span>спецсталі й поковки</div>
-            <div class="radar-item r5"><span class="radar-tag crit">CRIT</span>позапланові ремонти</div>
-          </div>
-          <div class="radar-notes">
-            <div><strong>CRIT:</strong> сигнал, який часто передує довгому простою.</div>
-            <div><strong>HIGH:</strong> висока ймовірність вузького місця в ремонті.</div>
-            <div><strong>MED:</strong> підтверджує картину лише в комбінації з іншими даними.</div>
-          </div>
-        </section>
-      `;
-    }
-    if (type === 'risk-matrix') {
-      return `
-        <section class="visual-block visual-risk" aria-label="Матриця імпортного ризику">
-          <div class="visual-kicker">Import Risk Matrix</div>
-          <div class="risk-grid">
-            <div class="risk-card risk-critical"><span>Критичний</span><strong>DCS/ESD + КВПіА</strong><p>Без стабільної автоматики установка працює "на нервах", а не в проєкті.</p></div>
-            <div class="risk-card risk-high"><span>Високий</span><strong>Каталізатор + ліцензія</strong><p>Формальний запуск можливий, але глибина та якість переробки просідає.</p></div>
-            <div class="risk-card risk-high"><span>Високий</span><strong>Внутрішні пристрої колон</strong><p>Корпус є, але сепарація фракцій уже не тримає паспортний режим.</p></div>
-            <div class="risk-card risk-mid"><span>Середній</span><strong>Корпусні апарати</strong><p>РФ може варити "важкий метал", але не закриває всю систему вузлів навколо.</p></div>
-          </div>
-        </section>
-      `;
-    }
+    const grid = gridYears.map((y) => `
+      <div class="rc-gridline" style="left:${pct(y * 12)}"><span>${y} р</span></div>`).join('');
 
-    return '';
+    return `
+      <figure class="recovery-chart" aria-label="Час відновлення обладнання НПЗ за типом">
+        <div class="rc-head">
+          <div class="figure-label">Дані / реальний горизонт відновлення</div>
+          <h3 class="rc-title">Чим важче обладнання, тим довша черга</h3>
+          <p class="rc-sub">Час від удару до повного повернення на проєктний режим, з урахуванням черги на чотирьох заводах, конкуренції з ОПК і санкцій. Місяці.</p>
+        </div>
+        <div class="rc-legend">
+          <span class="rc-leg"><i class="rc-sw rc-base"></i>Виробництво + монтаж</span>
+          <span class="rc-leg"><i class="rc-sw rc-queue"></i>Черга та санкційні затримки</span>
+        </div>
+        <div class="rc-plot">
+          <div class="rc-grid">${grid}</div>
+          ${bars}
+        </div>
+        <figcaption>Косметичні пошкодження повертають завод за тижні. Корпусні апарати — колони та реактори — вибивають його з ладу на роки. Саме ця різниця і є справжнім ефектом ударів.</figcaption>
+      </figure>
+    `;
   };
 
   for (let i = 0; i < lines.length; i += 1) {
@@ -277,7 +228,7 @@ function renderMarkdown(md: string) {
     if (evidenceMatch) {
       flushParagraph();
       closeList();
-      out.push(`<div class="evidence-row"><div class="evidence-key">${inline(evidenceMatch[1])}</div><p class="evidence-value">${inline(evidenceMatch[2])}</p></div>`);
+      out.push(`<p class="lead-in"><strong>${inline(evidenceMatch[1])}</strong> ${inline(evidenceMatch[2])}</p>`);
       continue;
     }
 
@@ -325,7 +276,7 @@ function StatusBadge({ status }: { status?: string }) {
   const value = (status || 'published').toLowerCase();
   const isPublished = value === 'published';
   return (
-    <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${isPublished ? 'border-emerald-400/35 bg-emerald-400/10 text-emerald-200' : 'border-amber-400/35 bg-amber-400/10 text-amber-200'}`}>
+    <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${isPublished ? 'border-emerald-600/30 bg-emerald-600/10 text-emerald-700' : 'border-amber-600/30 bg-amber-600/10 text-amber-700'}`}>
       {isPublished ? 'Published' : value}
     </span>
   );
@@ -335,10 +286,10 @@ function RiskBadge({ tags }: { tags?: string[] }) {
   const joined = (tags || []).join(' ').toLowerCase();
   const level = joined.includes('critical') ? 'Critical' : joined.includes('high') ? 'High' : 'Medium';
   const cls = level === 'Critical'
-    ? 'border-red-400/35 bg-red-400/10 text-red-200'
+    ? 'border-red-600/30 bg-red-600/10 text-red-700'
     : level === 'High'
-      ? 'border-orange-400/35 bg-orange-400/10 text-orange-200'
-      : 'border-sky-400/35 bg-sky-400/10 text-sky-200';
+      ? 'border-orange-600/30 bg-orange-600/10 text-orange-700'
+      : 'border-sky-600/30 bg-sky-600/10 text-sky-700';
   return <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${cls}`}>Risk: {level}</span>;
 }
 
@@ -396,14 +347,14 @@ export default function InvestigationPage() {
   const related = useMemo(() => allItems.filter((x) => x.id !== item?.id && (x.status || 'published') === 'published').slice(0, 2), [allItems, item?.id]);
   const category = item?.tags?.[0] || 'OSINT';
 
-  if (loading) return <div className="min-h-screen bg-[#252519] text-white flex items-center justify-center">Loading...</div>;
-  if (!item) return <div className="min-h-screen bg-[#252519] text-white flex items-center justify-center">Not found</div>;
+  if (loading) return <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] flex items-center justify-center">Loading...</div>;
+  if (!item) return <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] flex items-center justify-center">Not found</div>;
 
   return (
-    <div className="min-h-screen bg-[#0c0f0b] text-white">
-      <div className="relative overflow-hidden border-b border-[#c9a227]/20 bg-[#141812]">
+    <div className="min-h-screen bg-[#ffffff] text-[#0b0b0c] font-sans">
+      <div className="relative overflow-hidden border-b border-[#c9a227]/15 bg-[#f4f5f3]">
         <div className="mx-auto max-w-[1280px] px-4 py-6 md:px-8 md:py-8">
-          <Link to="/#investigations" className="inline-flex min-h-11 items-center gap-2 text-[12px] text-white/68 transition-colors hover:text-[#e4c76d]">
+          <Link to="/#investigations" className="inline-flex min-h-11 items-center gap-2 text-[12px] text-[#54564f] transition-colors hover:text-[#8a6a0e]">
             <ArrowLeft className="h-3.5 w-3.5" /> До розслідувань
           </Link>
         </div>
@@ -411,37 +362,37 @@ export default function InvestigationPage() {
         <section className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 pb-10 md:px-8 md:pb-14 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-8 xl:col-span-9">
             <div className="mb-4 flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center rounded-full border border-[#c9a227]/45 bg-[#c9a227]/10 px-3 py-1 text-[11px] font-medium tracking-wide text-[#f3d97f]">{item.code}</span>
+              <span className="inline-flex items-center rounded-full border border-[#c9a227]/45 bg-[#c9a227]/10 px-3 py-1 text-[11px] font-medium tracking-wide text-[#8a6a0e]">{item.code}</span>
               <StatusBadge status={item.status} />
               <RiskBadge tags={item.tags} />
             </div>
-            <h1 className="max-w-5xl text-balance text-[2rem] font-semibold leading-[1.03] text-white md:text-[3rem] lg:text-[3.5rem]">{item.title}</h1>
-            <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-white/72 md:text-lg">{item.summary}</p>
+            <h1 className="max-w-5xl text-balance text-[2rem] font-bold leading-[1.03] text-[#0b0b0c] md:text-[3rem] lg:text-[3.5rem]">{item.title}</h1>
+            <p className="mt-5 max-w-3xl text-pretty text-base leading-7 text-[#54564f] md:text-lg">{item.summary}</p>
           </div>
 
           <aside className="lg:col-span-4 xl:col-span-3">
-            <div className="rounded-xl border border-[#c9a227]/20 bg-[#0e120d]/85 p-5 md:p-6">
-              <p className="mb-4 text-[11px] uppercase tracking-[0.08em] text-[#c9a227]/80">Article Meta</p>
-              <div className="space-y-3 text-sm text-white/72">
-                <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
+            <div className="oko-card p-5 md:p-6">
+              <p className="mb-4 text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">Article Meta</p>
+              <div className="space-y-3 text-sm text-[#54564f]">
+                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
                   <span className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 text-[#c9a227]" /> Опубліковано</span>
                   <span className="text-right">{formatArticleDate(item.publishedAt)}</span>
                 </div>
                 {item.updatedAt && item.updatedAt !== item.publishedAt && (
-                  <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
+                  <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
                     <span className="inline-flex items-center gap-2"><RefreshCw className="h-4 w-4 text-[#c9a227]" /> Оновлено</span>
                     <span className="text-right">{formatArticleDate(item.updatedAt)}</span>
                   </div>
                 )}
-                <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
+                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
                   <span className="inline-flex items-center gap-2"><FileText className="h-4 w-4 text-[#c9a227]" /> Категорія</span>
                   <span>{category}</span>
                 </div>
-                <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
+                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
                   <span className="inline-flex items-center gap-2"><BookOpen className="h-4 w-4 text-[#c9a227]" /> Читання</span>
                   <span>{readMinutes} хв</span>
                 </div>
-                <div className="flex items-center justify-between gap-4 border-b border-white/10 pb-2.5">
+                <div className="flex items-center justify-between gap-4 border-b border-[#0b0b0c]/10 pb-2.5">
                   <span className="inline-flex items-center gap-2"><Database className="h-4 w-4 text-[#c9a227]" /> Формат</span>
                   <span>OSINT</span>
                 </div>
@@ -451,7 +402,7 @@ export default function InvestigationPage() {
                 </div>
               </div>
               {item.url && (
-                <a href={item.url} target="_blank" rel="noreferrer" className="mt-5 inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-[#c9a227]/40 px-4 py-3 text-[12px] text-[#f3d97f] transition-colors hover:bg-[#c9a227]/10">
+                <a href={item.url} target="_blank" rel="noreferrer" className="mt-5 inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-[#c9a227]/40 px-4 py-3 text-[12px] text-[#8a6a0e] transition-colors hover:bg-[#c9a227]/10">
                   Зовнішнє джерело <ArrowUpRight className="h-3 w-3" />
                 </a>
               )}
@@ -463,24 +414,29 @@ export default function InvestigationPage() {
       <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 py-8 md:px-8 md:py-12 lg:grid-cols-12 lg:gap-10">
         <aside className="lg:col-span-3 xl:col-span-3">
           <div className="lg:sticky lg:top-24 space-y-4">
-            <div className="rounded-xl border border-white/12 bg-[#111611] p-5">
-              <div className="mb-4 flex items-center gap-2 text-[11px] uppercase tracking-[0.08em] text-[#c9a227]/80">
+            <div className="oko-card p-5">
+              <div className="mb-4 flex items-center gap-2 text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">
                 <FileText className="h-3.5 w-3.5" /> Навігація
               </div>
               <nav className="space-y-1">
                 {headings.slice(0, 10).map((heading) => (
-                  <a key={heading.id} href={`#${heading.id}`} className="block border-l border-white/10 px-3 py-2 text-[13px] leading-snug text-white/56 transition-colors hover:border-[#c9a227]/70 hover:text-white/82">
+                  <button
+                    key={heading.id}
+                    type="button"
+                    onClick={() => document.getElementById(heading.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                    className="block w-full border-l border-[#0b0b0c]/10 px-3 py-2 text-left text-[13px] leading-snug text-[#54564f] transition-colors hover:border-[#c9a227]/70 hover:text-[#0b0b0c]"
+                  >
                     {heading.label}
-                  </a>
+                  </button>
                 ))}
               </nav>
             </div>
             {(item.tags || []).length > 0 && (
-              <div className="rounded-xl border border-white/12 bg-[#111611] p-5">
-                <p className="mb-3 text-[11px] uppercase tracking-[0.08em] text-[#c9a227]/80">Tags</p>
+              <div className="oko-card p-5">
+                <p className="mb-3 text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">Tags</p>
                 <div className="flex flex-wrap gap-2">
                   {(item.tags || []).map((tag) => (
-                    <span key={tag} className="rounded-full border border-white/15 bg-white/[0.03] px-2.5 py-1 text-[12px] text-white/75">{tag}</span>
+                    <span key={tag} className="rounded-full border border-[#0b0b0c]/10 bg-[#f4f5f3] px-2.5 py-1 text-[12px] text-[#54564f]">{tag}</span>
                   ))}
                 </div>
               </div>
@@ -489,11 +445,11 @@ export default function InvestigationPage() {
         </aside>
 
         <main className="lg:col-span-9 xl:col-span-9">
-          <article className="article-shell rounded-xl border border-white/12 bg-[#0f130f] p-5 md:p-8 lg:p-10">
+          <article className="article-shell rounded-2xl border border-[#0b0b0c]/10 bg-[#ffffff] p-5 md:p-8 lg:p-10">
             {markdown ? (
               <div className="article-body" dangerouslySetInnerHTML={{ __html: html }} />
             ) : (
-              <p className="text-white/60">Контент ще готується.</p>
+              <p className="text-[#54564f]">Контент ще готується.</p>
             )}
             <div className="share-bar">
               <span className="share-label">Поділитися розслідуванням</span>
@@ -506,13 +462,13 @@ export default function InvestigationPage() {
               </button>
             </div>
             {related.length > 0 && (
-              <section className="mt-8 border-t border-white/12 pt-6">
-                <h3 className="mb-3 text-lg font-semibold text-white">Пов’язані матеріали</h3>
+              <section className="mt-8 border-t border-[#0b0b0c]/10 pt-6">
+                <h3 className="mb-3 text-lg font-bold text-[#0b0b0c]">Пов’язані матеріали</h3>
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                   {related.map((r) => (
-                    <Link key={r.id} to={`/investigation/${r.id}`} className="rounded-lg border border-white/12 bg-white/[0.02] p-4 transition-colors hover:border-[#c9a227]/45 hover:bg-white/[0.04]">
-                      <p className="text-[11px] uppercase tracking-[0.08em] text-[#c9a227]/78">{r.id}</p>
-                      <p className="mt-1 text-sm font-medium text-white">{r.title}</p>
+                    <Link key={r.id} to={`/investigation/${r.id}`} className="rounded-xl border border-[#0b0b0c]/10 bg-[#ffffff] p-4 transition-colors hover:border-[#c9a227]/45 hover:bg-[#f4f5f3]">
+                      <p className="text-[11px] uppercase tracking-[0.08em] text-[#8a6a0e]">{r.id}</p>
+                      <p className="mt-1 text-sm font-medium text-[#0b0b0c]">{r.title}</p>
                     </Link>
                   ))}
                 </div>
@@ -528,18 +484,18 @@ export default function InvestigationPage() {
         .share-bar {
           margin-top: 3rem;
           padding-top: 2rem;
-          border-top: 1px solid rgba(255,255,255,0.1);
+          border-top: 1px solid rgba(11,11,12,0.1);
           display: flex;
           align-items: center;
           gap: 1rem;
           flex-wrap: wrap;
         }
         .share-label {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          font-family: var(--font-sans);
           font-size: 0.8rem;
           text-transform: uppercase;
           letter-spacing: 0.06em;
-          color: rgba(255,255,255,0.4);
+          color: #54564f;
           font-weight: 600;
         }
         .share-btn {
@@ -547,25 +503,26 @@ export default function InvestigationPage() {
           align-items: center;
           gap: 0.5rem;
           padding: 0.6rem 1.2rem;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          font-family: var(--font-sans);
           font-size: 0.82rem;
           font-weight: 600;
-          color: #fff;
+          color: #0b0b0c;
           background: transparent;
-          border: 1px solid rgba(255,255,255,0.25);
+          border: 1px solid rgba(11,11,12,0.2);
+          border-radius: 999px;
           cursor: pointer;
           transition: background 0.15s, border-color 0.15s;
           letter-spacing: 0.02em;
         }
         .share-btn:hover {
-          background: rgba(255,255,255,0.07);
-          border-color: rgba(255,255,255,0.5);
+          background: rgba(11,11,12,0.04);
+          border-color: rgba(11,11,12,0.4);
         }
         .article-body {
           max-width: 740px;
           margin: 0 auto;
-          color: rgba(255, 255, 255, 0.78);
-          font-family: "Inter", "Segoe UI", "Noto Sans", Arial, sans-serif;
+          color: #2c2c2e;
+          font-family: var(--font-sans);
           font-size: 1rem;
           line-height: 1.82;
           text-align: left;
@@ -580,18 +537,18 @@ export default function InvestigationPage() {
         .article-body h1,
         .article-body h2,
         .article-body h3 {
-          font-family: "Inter", "Segoe UI", "Noto Sans", Arial, sans-serif;
-          color: #ffffff;
+          font-family: var(--font-head);
+          color: #0b0b0c;
           font-weight: 700;
           line-height: 1.16;
-          letter-spacing: -0.015em;
+          letter-spacing: -0.018em;
           text-align: left;
           hyphens: none;
         }
         .article-body h2 {
           margin: 3.25rem 0 1rem;
           padding-top: 1rem;
-          border-top: 1px solid rgba(255, 255, 255, 0.08);
+          border-top: 1px solid rgba(11,11,12,0.1);
           font-size: clamp(1.18rem, 1.9vw, 1.48rem);
           scroll-margin-top: 7rem;
           counter-increment: section-counter;
@@ -601,7 +558,7 @@ export default function InvestigationPage() {
           content: "0" counter(section-counter);
           display: block;
           margin-bottom: 0.4rem;
-          color: rgba(201,162,39,0.78);
+          color: #8a6a0e;
           font-size: 0.72rem;
           font-weight: 700;
           letter-spacing: 0.1em;
@@ -621,7 +578,7 @@ export default function InvestigationPage() {
         .article-body p + p {
           margin-top: 0;
         }
-        .article-body > .visual-block,
+        .article-body > .recovery-chart,
         .article-body > .editorial-figure,
         .article-body > .article-table-wrap {
           width: min(880px, calc(100vw - 4rem));
@@ -635,68 +592,59 @@ export default function InvestigationPage() {
         .article-body figure + p,
         .article-body ul + p,
         .article-body hr + p,
-        .article-body .visual-block + p {
+        .article-body .recovery-chart + p {
           text-indent: 0;
         }
         /* Lead paragraph */
         .article-body p:first-of-type {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          font-size: 1.02rem;
+          font-family: var(--font-sans);
+          font-size: 1.08rem;
           line-height: 1.65;
-          color: rgba(255, 255, 255, 0.92);
-          font-weight: 450;
+          color: #0b0b0c;
+          font-weight: 500;
           margin-bottom: 0;
           text-align: left;
           text-indent: 0;
         }
         .article-body a {
-          color: #fff;
+          color: #8a6a0e;
           text-decoration: underline;
-          text-decoration-color: rgba(255, 255, 255, 0.4);
+          text-decoration-color: rgba(138,106,14,0.4);
           text-underline-offset: 0.25em;
           transition: text-decoration-color 0.2s;
         }
         .article-body a:hover {
-          text-decoration-color: #fff;
+          text-decoration-color: #8a6a0e;
         }
         .article-body strong {
-          color: rgba(255, 255, 255, 0.9);
-          font-weight: 550;
-        }
-        .evidence-row {
-          margin: 1.35rem 0;
-          border: 1px solid rgba(255,255,255,0.08);
-          border-left: 2px solid rgba(201,162,39,0.55);
-          border-radius: 10px;
-          background: rgba(255,255,255,0.018);
-          padding: 0.85rem 0.95rem;
-        }
-        .evidence-key {
-          margin: 0 0 0.35rem;
-          color: #f3d97f;
-          font-size: 0.8rem;
+          color: #0b0b0c;
           font-weight: 600;
-          letter-spacing: 0.01em;
         }
-        .evidence-value {
-          margin: 0 !important;
-          color: rgba(255,255,255,0.8);
-          line-height: 1.6;
-          font-size: 0.92rem;
+        .article-body .lead-in {
+          margin: 0 0 0.95rem;
+          color: #2c2c2e;
+          line-height: 1.7;
+          font-size: 1rem;
+          text-align: left;
+          text-indent: 0;
+        }
+        .article-body .lead-in strong {
+          color: #0b0b0c;
+          font-weight: 700;
         }
         .article-body code {
-          font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-          background: rgba(255, 255, 255, 0.1);
+          font-family: var(--font-mono);
+          background: rgba(11,11,12,0.06);
           padding: 0.2rem 0.4rem;
           font-size: 0.85em;
-          border-radius: 3px;
+          border-radius: 4px;
         }
         .article-body blockquote {
           position: relative;
           margin: 1.6rem 0;
           padding: 0.9rem 0 0.9rem 1.9rem;
-          border-left: 1px solid rgba(201,162,39,0.45);
-          color: rgba(255, 255, 255, 0.94);
+          border-left: 2px solid rgba(201,162,39,0.6);
+          color: #0b0b0c;
           font-size: 1.1rem;
           font-style: normal;
           font-weight: 500;
@@ -711,7 +659,7 @@ export default function InvestigationPage() {
           position: absolute;
           left: -0.05rem;
           top: -0.15rem;
-          color: rgba(201,162,39,0.72);
+          color: rgba(201,162,39,0.85);
           font-size: 2.15rem;
           line-height: 1;
           font-weight: 500;
@@ -721,10 +669,10 @@ export default function InvestigationPage() {
           text-indent: 0;
         }
         .article-lead {
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          font-family: var(--font-sans);
           font-size: 1rem;
           font-weight: 400;
-          color: rgba(255,255,255,0.6);
+          color: #54564f;
           font-style: italic;
           margin: 0;
           line-height: 1.6;
@@ -734,319 +682,148 @@ export default function InvestigationPage() {
           padding-left: 0;
           position: relative;
           margin: 0 0 0.75rem;
-          color: rgba(255,255,255,0.88);
+          color: #2c2c2e;
           text-align: left;
         }
         .numbered-item strong {
-          color: #fff;
+          color: #0b0b0c;
         }
-        .visual-block {
+        .recovery-chart {
           margin: 2.8rem 0;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          border: 0;
-          border-radius: 0;
-          padding: 0.15rem 0;
-          background: transparent;
-          box-shadow: none;
+          font-family: var(--font-sans);
+          border: 1px solid rgba(11,11,12,0.1);
+          border-radius: 16px;
+          background: #ffffff;
+          padding: 1.6rem 1.6rem 1.4rem;
         }
-        .visual-kicker {
-          margin-bottom: 1rem;
-          color: rgba(201,162,39,0.82);
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          font-size: 0.68rem;
+        .rc-head { margin-bottom: 1.3rem; }
+        .rc-title {
+          margin: 0.5rem 0 0;
+          color: #0b0b0c;
+          font-family: var(--font-head);
+          font-size: 1.45rem;
+          line-height: 1.18;
           font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 0.09em;
         }
-        .chain-list {
-          position: relative;
-          display: grid;
-          gap: 0.75rem;
-          padding-left: 0.5rem;
+        .rc-sub {
+          margin: 0.55rem 0 0;
+          color: #54564f;
+          font-size: 0.9rem;
+          line-height: 1.5;
+          max-width: 56ch;
         }
-        .chain-list::before {
-          content: "";
-          position: absolute;
-          left: 1.12rem;
-          top: 0.35rem;
-          bottom: 0.35rem;
-          width: 1px;
-          background: linear-gradient(180deg, rgba(201,162,39,0.12), rgba(255,255,255,0.06));
+        .rc-legend {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1.2rem;
+          margin-bottom: 1.6rem;
         }
-        .chain-row {
-          position: relative;
-          display: grid;
-          grid-template-columns: 2.4rem minmax(0, 1fr);
-          gap: 1rem;
-          align-items: start;
-        }
-        .chain-index {
-          position: relative;
-          z-index: 1;
+        .rc-leg {
           display: inline-flex;
           align-items: center;
-          justify-content: center;
-          width: 2rem;
-          height: 2rem;
-          border-radius: 999px;
-          border: 1px solid rgba(201,162,39,0.22);
-          background: #10140f;
-          color: rgba(255,255,255,0.82);
-          font-size: 0.72rem;
-          font-weight: 600;
-          letter-spacing: 0.04em;
-        }
-        .chain-copy {
-          padding: 0.1rem 0 0.8rem;
-          border-bottom: 1px solid rgba(255,255,255,0.06);
-        }
-        .chain-row:last-child .chain-copy {
-          border-bottom: 0;
-          padding-bottom: 0;
-        }
-        .chain-row.is-hot .chain-index {
-          border-color: rgba(201,162,39,0.4);
-          color: #f3d97f;
-        }
-        .chain-copy strong {
-          display: block;
-          color: #fff;
-          font-size: 0.94rem;
-          line-height: 1.28;
-          font-weight: 700;
-        }
-        .chain-copy p {
-          margin: 0.4rem 0 0;
-          color: rgba(255,255,255,0.72);
-          font-size: 0.9rem;
-          line-height: 1.52;
-        }
-        .clock-grid > div,
-        .factory-grid > div {
-          min-height: 100%;
-          background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
-          border: 1px solid rgba(255,255,255,0.08);
-          border-radius: 10px;
-          padding: 1.25rem;
-        }
-        .clock-grid span,
-        .factory-grid span {
-          display: block;
-          margin-bottom: 0.5rem;
-          color: #888;
-          font-size: 0.75rem;
-          font-weight: 600;
-          text-transform: uppercase;
-        }
-        .clock-grid strong,
-        .factory-grid strong {
-          display: block;
-          color: #fff;
-          font-size: 0.9rem;
-          line-height: 1.3;
-          font-weight: 600;
-        }
-        .clock-grid p,
-        .visual-factories p {
-          margin: 0.5rem 0 0;
-          color: rgba(255, 255, 255, 0.7);
-          font-size: 0.8rem;
-          line-height: 1.4;
-        }
-        .clock-grid .hot {
-          background: rgba(255, 255, 255, 0.05);
-        }
-        .visual-factories {
-          display: grid;
-          grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-          gap: 2rem;
-          align-items: stretch;
-        }
-        .visual-factories h3 {
-          margin: 0;
-          color: #fff;
-          font-size: 1.5rem;
-          line-height: 1.2;
-          font-weight: 600;
-        }
-        .factory-grid {
-          display: grid;
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-          gap: 0.6rem;
-          background: transparent;
-        }
-        .factory-grid em {
-          display: block;
-          margin-top: 0.75rem;
-          color: rgba(255, 255, 255, 0.6);
-          font-size: 0.85rem;
-          font-style: normal;
-          line-height: 1.4;
-        }
-        .clock-grid {
-          display: grid;
-          grid-template-columns: repeat(4, minmax(0, 1fr));
-          gap: 0.6rem;
-          background: transparent;
-        }
-        .risk-grid {
-          display: grid;
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-          gap: 0.7rem;
-        }
-        .risk-card {
-          border: 1px solid rgba(255,255,255,0.08);
-          background: rgba(255,255,255,0.02);
-          padding: 1rem;
-        }
-        .risk-card span {
-          display: inline-block;
-          margin-bottom: 0.55rem;
-          padding: 0.18rem 0.5rem;
-          border: 1px solid currentColor;
-          font-size: 0.64rem;
-          letter-spacing: 0.04em;
-          text-transform: uppercase;
-          font-weight: 700;
-        }
-        .risk-card strong {
-          display: block;
-          color: #fff;
-          font-size: 0.95rem;
-          line-height: 1.32;
-        }
-        .risk-card p {
-          margin: 0.55rem 0 0;
-          color: rgba(255,255,255,0.74);
-          font-size: 0.86rem;
-          line-height: 1.5;
-        }
-        .risk-mid { border-color: rgba(245, 158, 11, 0.4); }
-        .risk-mid span { color: #f59e0b; }
-        .risk-high { border-color: rgba(249, 115, 22, 0.45); }
-        .risk-high span { color: #f97316; }
-        .risk-critical {
-          border-color: rgba(239, 68, 68, 0.5);
-          background: linear-gradient(180deg, rgba(84, 22, 22, 0.3), #151515);
-        }
-        .risk-critical span { color: #ef4444; }
-        .radar-layout {
-          position: relative;
-          min-height: 430px;
-          border: 1px solid rgba(255,255,255,0.18);
-          border-radius: 14px;
-          background: radial-gradient(circle at center, rgba(60, 60, 60, 0.32), #0f0f0f 64%);
-          overflow: hidden;
-        }
-        .radar-rings {
-          position: absolute;
-          inset: 0;
-          background:
-            radial-gradient(circle, transparent 16%, rgba(255,255,255,0.1) 16.4% 16.8%, transparent 17%),
-            radial-gradient(circle, transparent 33%, rgba(255,255,255,0.08) 33.4% 33.8%, transparent 34%),
-            radial-gradient(circle, transparent 50%, rgba(255,255,255,0.07) 50.4% 50.8%, transparent 51%);
-        }
-        .radar-sweep {
-          position: absolute;
-          inset: -20% -20%;
-          background: conic-gradient(from 0deg, transparent 0deg, rgba(140, 255, 140, 0.16) 34deg, transparent 76deg);
-          animation: radarSpin 7.2s linear infinite;
-          transform-origin: center;
-          pointer-events: none;
-        }
-        .radar-core,
-        .radar-item {
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          gap: 0.45rem;
+          color: #54564f;
+          font-size: 0.78rem;
           font-weight: 500;
         }
-        .radar-core {
-          left: 50%;
-          top: 50%;
-          width: 7rem;
-          height: 7rem;
-          transform: translate(-50%, -50%);
-          border: 1px solid rgba(255,255,255,0.5);
-          border-radius: 50%;
-          background: #1a1a1a;
-          color: #fff;
-          font-size: 0.82rem;
-          line-height: 1.2;
-          z-index: 2;
+        .rc-sw {
+          width: 0.85rem;
+          height: 0.85rem;
+          border-radius: 3px;
+          flex: none;
         }
-        .radar-item {
-          width: 11rem;
-          min-height: 3.5rem;
-          border: 1px solid rgba(255,255,255,0.22);
-          border-radius: 10px;
-          background: rgba(18,18,18,0.92);
-          padding: 0.75rem;
-          color: rgba(255, 255, 255, 0.8);
-          font-size: 0.76rem;
-          line-height: 1.34;
-          text-align: left;
-          justify-content: flex-start;
-          z-index: 2;
+        .rc-sw.rc-base { background: #0b0b0c; }
+        .rc-sw.rc-queue { background: #c9a227; }
+        .rc-plot {
+          position: relative;
+          padding-top: 1.5rem;
+          display: grid;
+          gap: 1rem;
         }
-        .radar-tag {
-          display: inline-block;
-          margin-bottom: 0.35rem;
-          padding: 0.12rem 0.35rem;
-          font-size: 0.6rem;
-          font-weight: 700;
-          letter-spacing: 0.04em;
-          border: 1px solid currentColor;
+        .rc-grid {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 1.5rem;
+          bottom: 0;
+          pointer-events: none;
+        }
+        .rc-gridline {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          background: rgba(11,11,12,0.08);
+        }
+        .rc-gridline span {
+          position: absolute;
+          top: -1.35rem;
+          left: 0;
+          transform: translateX(-50%);
+          color: #9a9a90;
+          font-size: 0.66rem;
+          font-variant-numeric: tabular-nums;
+          white-space: nowrap;
+        }
+        .rc-row {
+          position: relative;
+          z-index: 1;
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto;
+          gap: 0.4rem 0.8rem;
+          align-items: baseline;
+        }
+        .rc-label {
+          grid-column: 1;
+          color: #2c2c2e;
+          font-size: 0.86rem;
+          line-height: 1.25;
+        }
+        .rc-val {
+          grid-column: 2;
+          text-align: right;
+          color: #8a6a0e;
+          font-size: 0.78rem;
+          font-weight: 600;
+          white-space: nowrap;
+          font-variant-numeric: tabular-nums;
+        }
+        .rc-track {
+          grid-column: 1 / -1;
+          display: flex;
+          align-items: center;
+          height: 1.35rem;
+        }
+        .rc-seg {
+          height: 100%;
+        }
+        .rc-seg.rc-base {
+          background: #0b0b0c;
+          border-radius: 3px 0 0 3px;
+        }
+        .rc-seg.rc-queue {
+          background: #c9a227;
+          border-radius: 0 3px 3px 0;
+        }
+        .rc-seg.rc-solo {
           border-radius: 3px;
         }
-        .radar-tag.med { color: #fbbf24; }
-        .radar-tag.high { color: #fb923c; }
-        .radar-tag.crit { color: #f87171; }
-        .radar-notes {
-          margin-top: 0.75rem;
-          display: grid;
-          gap: 0.4rem;
-          color: rgba(255,255,255,0.72);
-          font-size: 0.8rem;
-          line-height: 1.45;
+        .recovery-chart figcaption {
+          margin-top: 1.5rem;
+          padding: 1rem 0 0;
+          border-top: 1px solid rgba(11,11,12,0.08);
+          color: #54564f;
+          font-size: 0.82rem;
+          line-height: 1.55;
+          text-align: left;
         }
-        .radar-notes strong {
-          font-weight: 600;
-          color: rgba(255,255,255,0.92);
-        }
-        .r1 { left: 5%; top: 15%; }
-        .r2 { right: 5%; top: 18%; }
-        .r3 { left: 5%; bottom: 16%; }
-        .r4 { right: 5%; bottom: 14%; }
-        .r5 { left: 50%; top: 5%; transform: translateX(-50%); }
-        .r1::after,
-        .r2::after,
-        .r3::after,
-        .r4::after,
-        .r5::after {
-          content: "";
-          position: absolute;
-          width: 36px;
-          height: 1px;
-          background: rgba(255,255,255,0.26);
-          top: 50%;
-        }
-        .r1::after, .r3::after { right: -30px; }
-        .r2::after, .r4::after { left: -30px; }
-        .r5::after {
-          width: 1px;
-          height: 30px;
-          left: 50%;
-          top: auto;
-          bottom: -30px;
+        .recovery-chart .figure-label {
+          margin-bottom: 0;
         }
         .article-body hr {
           margin: 1.5rem 0;
           border: 0;
-          border-top: 1px solid rgba(255,255,255,0.08);
+          border-top: 1px solid rgba(11,11,12,0.1);
         }
         .article-body ul {
           margin: 0 0 1.5rem 1rem;
@@ -1058,7 +835,7 @@ export default function InvestigationPage() {
           position: relative;
           margin: 0 0 0.65rem;
           padding-left: 1.35rem;
-          color: rgba(255, 255, 255, 0.88);
+          color: #2c2c2e;
           line-height: 1.7;
           text-align: left;
         }
@@ -1067,17 +844,17 @@ export default function InvestigationPage() {
           position: absolute;
           left: 0;
           top: 0;
-          color: rgba(255,255,255,0.3);
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #8a6a0e;
+          font-family: var(--font-sans);
         }
         .article-table-wrap {
           overflow-x: auto;
           margin: 2.2rem 0;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          border: 1px solid rgba(255,255,255,0.08);
+          font-family: var(--font-sans);
+          border: 1px solid rgba(11,11,12,0.1);
           border-radius: 12px;
           padding: 0 0.85rem;
-          background: rgba(255,255,255,0.015);
+          background: #ffffff;
         }
         .article-table-wrap table {
           width: 100%;
@@ -1087,37 +864,38 @@ export default function InvestigationPage() {
         }
         .article-table-wrap th,
         .article-table-wrap td {
-          border-bottom: 1px solid #333;
+          border-bottom: 1px solid rgba(11,11,12,0.08);
           padding: 0.92rem 0.6rem;
           vertical-align: top;
           text-align: left;
         }
         .article-table-wrap th {
-          border-top: 1px solid #666;
-          border-bottom: 2px solid #666;
-          color: #fff;
+          border-top: 1px solid rgba(11,11,12,0.12);
+          border-bottom: 2px solid rgba(11,11,12,0.12);
+          color: #0b0b0c;
           font-weight: 500;
           text-transform: uppercase;
           font-size: 0.72rem;
           letter-spacing: 0.05em;
         }
         .article-table-wrap td {
-          color: rgba(255, 255, 255, 0.8);
+          color: #2c2c2e;
           line-height: 1.4;
           font-size: 0.86rem;
         }
         figure {
           margin: 2.4rem 0;
           overflow: hidden;
-          border: 1px solid rgba(255,255,255,0.08);
-          background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+          border: 1px solid rgba(11,11,12,0.1);
+          border-radius: 12px;
+          background: #ffffff;
         }
         .editorial-figure {
           padding: 0.6rem;
         }
         .figure-label {
           margin: 0 0 0.65rem;
-          color: rgba(201,162,39,0.8);
+          color: #8a6a0e;
           font-size: 0.66rem;
           font-weight: 700;
           letter-spacing: 0.09em;
@@ -1128,15 +906,15 @@ export default function InvestigationPage() {
           height: 360px;
           object-fit: cover;
           display: block;
-          background: #000;
+          background: #f4f5f3;
         }
         figcaption {
           padding: 0.8rem 0.9rem 0.9rem;
-          color: rgba(255, 255, 255, 0.62);
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #54564f;
+          font-family: var(--font-sans);
           font-size: 0.78rem;
           line-height: 1.52;
-          border-top: 1px solid rgba(255,255,255,0.08);
+          border-top: 1px solid rgba(11,11,12,0.08);
           text-align: left;
         }
         @media (max-width: 720px) {
@@ -1144,7 +922,7 @@ export default function InvestigationPage() {
             font-size: 0.94rem;
             line-height: 1.68;
           }
-          .article-body > .visual-block,
+          .article-body > .recovery-chart,
           .article-body > .editorial-figure,
           .article-body > .article-table-wrap {
             width: 100%;
@@ -1158,16 +936,15 @@ export default function InvestigationPage() {
             margin-top: 2.2rem;
             padding-top: 1.5rem;
           }
-          .chain-grid,
-          .clock-grid,
-          .risk-grid,
-          .factory-grid,
-          .visual-factories {
-            grid-template-columns: 1fr;
+          .recovery-chart {
+            padding: 1.2rem 1.1rem 1.1rem;
           }
-          .chain-row {
-            grid-template-columns: 2.1rem minmax(0, 1fr);
-            gap: 0.8rem;
+          .rc-row {
+            grid-template-columns: minmax(0, 1fr);
+          }
+          .rc-val {
+            grid-column: 1;
+            text-align: left;
           }
           .article-body blockquote {
             font-size: 1.08rem;
@@ -1180,35 +957,8 @@ export default function InvestigationPage() {
           figure img {
             height: 240px;
           }
-          .radar-layout {
-            min-height: auto;
-            display: grid;
-            gap: 0.45rem;
-            background: #111;
-            border: 1px solid rgba(255,255,255,0.12);
-          }
-          .r1::after,
-          .r2::after,
-          .r3::after,
-          .r4::after,
-          .r5::after {
-            display: none;
-          }
-          .radar-core,
-          .radar-item {
-            position: static;
-            width: auto;
-            min-height: 0;
-            transform: none;
-            background: rgba(18,18,18,0.95);
-          }
-          .radar-core {
-            border-radius: 0;
-            padding: 1.5rem;
-            height: auto;
-          }
           .article-table-wrap {
-            border-top: 1px solid #333;
+            border-top: 1px solid rgba(11,11,12,0.08);
           }
           .article-table-wrap table,
           .article-table-wrap thead,
@@ -1225,26 +975,23 @@ export default function InvestigationPage() {
           }
           .article-table-wrap tr {
             margin-bottom: 1rem;
-            background: #111;
+            background: #f4f5f3;
+            border-radius: 12px;
           }
           .article-table-wrap td {
-            border-bottom: 1px solid #222;
+            border-bottom: 1px solid rgba(11,11,12,0.08);
             padding: 1rem;
           }
           .article-table-wrap td::before {
             content: attr(data-label);
             display: block;
             margin-bottom: 0.5rem;
-            color: #888;
+            color: #8a6a0e;
             font-size: 0.7rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
           }
-        }
-        @keyframes radarSpin {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
         }
       `}</style>
     </div>

@@ -1,25 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* ── e-Ukraine (Diia design system fonts, self-hosted) ────────────────────── */
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-Light.woff2') format('woff2');
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-Regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-Medium.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-Bold.woff2') format('woff2');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Medium.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Bold.woff2') format('woff2');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "e-Ukraine", ui-sans-serif, system-ui, sans-serif;
+  --font-head: "e-Ukraine Head", "e-Ukraine", ui-sans-serif, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
-body {
-  @apply bg-zinc-50 text-zinc-900 font-sans antialiased;
-  font-weight: 520;
-  text-rendering: optimizeLegibility;
+/* ── Око Гора · light "Дія"-style palette ─────────────────────────────────── */
+:root {
+  --oko-bg:        #ffffff;   /* page background */
+  --oko-surface:   #ffffff;   /* card surface */
+  --oko-surface-2: #f4f5f3;   /* subtle section / inset fill */
+  --oko-surface-3: #eceee9;   /* deeper inset */
+  --oko-ink:       #0b0b0c;   /* primary text / black UI */
+  --oko-ink-2:     #54564f;   /* secondary text */
+  --oko-line:      rgba(11, 11, 12, 0.10);  /* hairline border */
+  --oko-line-2:    rgba(11, 11, 12, 0.06);
+  --oko-accent:    #c9a227;   /* brand gold — highlights, active */
+  --oko-accent-ink:#8a6a0e;   /* accessible gold for text on white */
+  --oko-accent-soft:#fbf4dd;  /* gold tint fill */
+  --oko-danger:    #c2410c;
+  --radius: 1rem;
 }
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
-@import "@fontsource-variable/geist";
-
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
-    --font-heading: var(--font-sans);
-    --font-sans: 'Geist Variable', sans-serif;
+    --font-heading: var(--font-head);
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -62,131 +102,131 @@ body {
 
 :root {
     --background: oklch(1 0 0);
-    --foreground: oklch(0.145 0 0);
+    --foreground: oklch(0.16 0 0);
     --card: oklch(1 0 0);
-    --card-foreground: oklch(0.145 0 0);
+    --card-foreground: oklch(0.16 0 0);
     --popover: oklch(1 0 0);
-    --popover-foreground: oklch(0.145 0 0);
-    --primary: oklch(0.205 0 0);
-    --primary-foreground: oklch(0.985 0 0);
+    --popover-foreground: oklch(0.16 0 0);
+    --primary: oklch(0.16 0 0);
+    --primary-foreground: oklch(0.99 0 0);
     --secondary: oklch(0.97 0 0);
-    --secondary-foreground: oklch(0.205 0 0);
+    --secondary-foreground: oklch(0.16 0 0);
     --muted: oklch(0.97 0 0);
-    --muted-foreground: oklch(0.556 0 0);
+    --muted-foreground: oklch(0.45 0 0);
     --accent: oklch(0.97 0 0);
-    --accent-foreground: oklch(0.205 0 0);
+    --accent-foreground: oklch(0.16 0 0);
     --destructive: oklch(0.577 0.245 27.325);
     --border: oklch(0.922 0 0);
     --input: oklch(0.922 0 0);
     --ring: oklch(0.708 0 0);
-    --chart-1: oklch(0.87 0 0);
-    --chart-2: oklch(0.556 0 0);
-    --chart-3: oklch(0.439 0 0);
-    --chart-4: oklch(0.371 0 0);
-    --chart-5: oklch(0.269 0 0);
-    --radius: 0.875rem;
-    --sidebar: oklch(0.985 0 0);
-    --sidebar-foreground: oklch(0.145 0 0);
-    --sidebar-primary: oklch(0.205 0 0);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --chart-1: oklch(0.769 0.121 90);   /* gold */
+    --chart-2: oklch(0.55 0.02 90);
+    --chart-3: oklch(0.45 0 0);
+    --chart-4: oklch(0.7 0.04 90);
+    --chart-5: oklch(0.3 0 0);
+    --sidebar: oklch(0.99 0 0);
+    --sidebar-foreground: oklch(0.16 0 0);
+    --sidebar-primary: oklch(0.16 0 0);
+    --sidebar-primary-foreground: oklch(0.99 0 0);
     --sidebar-accent: oklch(0.97 0 0);
-    --sidebar-accent-foreground: oklch(0.205 0 0);
+    --sidebar-accent-foreground: oklch(0.16 0 0);
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
-}
-
-.dark {
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.87 0 0);
-    --chart-2: oklch(0.556 0 0);
-    --chart-3: oklch(0.439 0 0);
-    --chart-4: oklch(0.371 0 0);
-    --chart-5: oklch(0.269 0 0);
-    --sidebar: oklch(0.205 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.488 0.243 264.376);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.556 0 0);
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    }
-  body {
-    @apply bg-background text-foreground;
-    font-weight: 520;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
   html {
     @apply font-sans;
     scroll-behavior: smooth;
   }
-  p, li, a, button, input, textarea, select, label {
-    font-weight: 500;
+  body {
+    background: var(--oko-bg);
+    color: var(--oko-ink);
+    @apply font-sans antialiased;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  h1, h2, h3, h4, h5, h6, strong, b {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-head);
     font-weight: 700;
+    letter-spacing: -0.018em;
+    color: var(--oko-ink);
   }
-  img {
-    border-radius: 0.75rem;
+  p, li { color: var(--oko-ink); }
+  img { border-radius: 0.75rem; }
+  a, button { transition: color .18s ease, background-color .18s ease, border-color .18s ease, opacity .18s ease; }
+}
+
+/* ── Reusable Diia-style primitives ───────────────────────────────────────── */
+@layer components {
+  .oko-card {
+    background: var(--oko-surface);
+    border: 1px solid var(--oko-line);
+    border-radius: var(--radius);
   }
-  a, button {
-    transition: all 0.2s ease;
+  .oko-inset {
+    background: var(--oko-surface-2);
+    border-radius: calc(var(--radius) * 0.8);
+  }
+  /* eyebrow / label — Diia uses spaced, small head type */
+  .oko-eyebrow {
+    font-family: var(--font-head);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.6875rem;
+    color: var(--oko-ink-2);
+  }
+  .oko-btn {
+    display: inline-flex; align-items: center; gap: .5rem;
+    background: var(--oko-ink); color: #fff;
+    border-radius: 999px;
+    padding: 0.75rem 1.4rem;
+    font-weight: 500;
+    font-size: 0.9375rem;
+  }
+  .oko-btn:hover { opacity: .88; }
+  .oko-btn-ghost {
+    display: inline-flex; align-items: center; gap: .5rem;
+    background: transparent; color: var(--oko-ink);
+    border: 1px solid var(--oko-line);
+    border-radius: 999px;
+    padding: 0.75rem 1.4rem;
+    font-weight: 500;
+    font-size: 0.9375rem;
+  }
+  .oko-btn-ghost:hover { background: var(--oko-surface-2); }
+  .oko-chip {
+    display: inline-flex; align-items: center; gap: .4rem;
+    background: var(--oko-surface-2);
+    border-radius: 999px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.75rem;
+    color: var(--oko-ink-2);
   }
 }
 
-/* ── PWA / iOS safe-area ───────────────────────────────────────────────────── */
+/* ── PWA / iOS safe-area ──────────────────────────────────────────────────── */
 :root {
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top:    env(safe-area-inset-top, 0px);
-  --nav-h:       56px;  /* mobile bottom nav height */
+  --nav-h:       58px;
 }
-
-/* push page content above the bottom nav + home indicator */
 .main-content-pad {
   padding-bottom: calc(var(--nav-h) + var(--safe-bottom) + 0.5rem);
 }
-
-/* the bottom nav bar itself gets safe-area padding so icons sit above the home indicator */
 .bottom-nav {
   padding-bottom: var(--safe-bottom);
   height: calc(var(--nav-h) + var(--safe-bottom));
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: rgba(201, 162, 39, 0.2);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(201, 162, 39, 0.4);
-}
+/* ── Scrollbar ────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(11,11,12,0.16); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(11,11,12,0.3); }

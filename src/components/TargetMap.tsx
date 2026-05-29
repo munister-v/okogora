@@ -2,9 +2,9 @@ import { useEffect, useMemo, useRef } from 'react';
 import type { Target } from '../pages/TargetsPage';
 
 const STATUS_COLORS: Record<string, string> = {
-  active: '#ef4444',
-  damaged: '#eab308',
-  destroyed: '#22c55e',
+  active: '#c2410c',
+  damaged: '#d97706',
+  destroyed: '#16a34a',
 };
 
 const TYPE_ICONS: Record<string, string> = {
@@ -41,7 +41,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
         attributionControl: false,
       });
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         maxZoom: 18,
       }).addTo(map);
 
@@ -104,10 +104,10 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
         .on('click', () => onSelect(t));
 
       marker.bindTooltip(
-        `<div style="font-family:monospace;font-size:11px;background:#111;color:#f4f4f4;border:1px solid ${color};padding:6px 10px;border-radius:12px">
+        `<div style="font-family:monospace;font-size:11px;background:#ffffff;color:#0b0b0c;border:1px solid ${color};padding:6px 10px;border-radius:12px;box-shadow:0 4px 16px rgba(11,11,12,0.12)">
           <div style="color:${color};text-transform:uppercase;font-size:9px;letter-spacing:0.15em;margin-bottom:4px">${t.status.toUpperCase()}</div>
           <strong>${t.name}</strong><br/>
-          <span style="color:#888;font-size:10px">${t.region}</span>
+          <span style="color:#54564f;font-size:10px">${t.region}</span>
         </div>`,
         { className: 'target-tooltip', direction: 'top', offset: [0, -size / 2 - 4] }
       );
@@ -123,7 +123,7 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
   }, [selected]);
 
   return (
-    <div className="relative w-full h-[600px] border border-white/10 rounded-2xl overflow-hidden">
+    <div className="relative w-full h-[600px] border border-[#0b0b0c]/10 rounded-2xl overflow-hidden">
       <div ref={mapRef} className="w-full h-full" />
       <style>{`
         .target-tooltip { background: transparent !important; border: none !important; box-shadow: none !important; }
@@ -131,8 +131,8 @@ export default function TargetMap({ targets, selected, onSelect }: Props) {
         .leaflet-tooltip-top:before { display: none; }
       `}</style>
       {/* Legend — hidden on mobile */}
-      <div className="absolute bottom-4 left-4 z-[400] bg-[#1c1c12]/90 border border-white/10 rounded-xl p-3 backdrop-blur-sm hidden md:block">
-        <div className="font-mono text-[9px] uppercase tracking-widest text-white/40 mb-2">Статус</div>
+      <div className="absolute bottom-4 left-4 z-[400] bg-[#ffffff]/95 border border-[#0b0b0c]/10 rounded-xl p-3 backdrop-blur-sm hidden md:block shadow-sm">
+        <div className="font-mono text-[9px] uppercase tracking-widest text-[#54564f] mb-2">Статус</div>
         {Object.entries(STATUS_COLORS).map(([s, c]) => (
           <div key={s} className="flex items-center gap-2 mb-1">
             <div className="w-2 h-2 rounded-sm" style={{ background: c }} />
