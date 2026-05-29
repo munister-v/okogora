@@ -52,6 +52,8 @@ function decodeHtml(input) {
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<(video|img|source|iframe)[^>]*>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -159,6 +161,38 @@ function parseItems(xml, source) {
   });
 }
 
+function parseTelegramPosts(html, source) {
+  const blocks = html.split('<div class="tgme_widget_message_wrap').slice(1);
+  const items = [];
+  for (const block of blocks) {
+    const dataPostMatch = block.match(/data-post="([^"]+)"/);
+    if (!dataPostMatch) continue;
+    const dataPost = dataPostMatch[1];
+    const channelName = dataPost.split('/')[0];
+    const postNum = dataPost.split('/')[1];
+    if (!channelName || !postNum) continue;
+
+    const textMatch = block.match(/<div class="tgme_widget_message_text[^>]*>([\s\S]*?)<\/div>/);
+    const rawText = textMatch ? decodeHtml(textMatch[1]) : '';
+    if (!rawText) continue;
+
+    const dtMatch = block.match(/<time[^>]*datetime="([^"]+)"/);
+    const pubDate = dtMatch ? dtMatch[1] : new Date().toISOString();
+    const url = `https://t.me/${channelName}/${postNum}`;
+
+    items.push({
+      id: `telegram-${source.handle}-${hashKey(url)}`,
+      title: rawText.length > 160 ? `${rawText.slice(0, 157)}…` : rawText,
+      summary: rawText,
+      url,
+      publishedAt: toIsoOrNow(pubDate),
+      source: 'telegram',
+      sourceLabel: source.handle,
+    });
+  }
+  return items;
+}
+
 function withinDays(iso, days) {
   const ts = new Date(iso).getTime();
   if (Number.isNaN(ts)) return false;
@@ -252,6 +286,30 @@ async function fetchText(url) {
     const text = await res.text();
     if (!/<rss|<feed/i.test(text)) throw new Error('not_feed');
     return text;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchTelegramItems(source, windowDays) {
+  const url = `https://t.me/s/${source.handle}`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 12000);
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; okogora-brigades/1.0)',
+        'Accept-Language': 'uk,en;q=0.8',
+        Accept: 'text/html',
+      },
+      signal: controller.signal,
+      redirect: 'follow',
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    return parseTelegramPosts(html, source)
+      .map((item) => ({ ...item, origin: 'official' }))
+      .filter((item) => item.url && item.title && withinDays(item.publishedAt, windowDays));
   } finally {
     clearTimeout(timer);
   }
@@ -362,6 +420,18 @@ async function main() {
   async function fetchSourceBundle({ source, aliases = [], requireAliasMatch = true }) {
     const key = `${source.platform}:${source.handle}`;
     if (feedCache.has(key)) return feedCache.get(key);
+
+    if (source.platform === 'telegram') {
+      let tgItems = [];
+      try {
+        tgItems = await fetchTelegramItems(source, windowDays);
+      } catch {
+        tgItems = [];
+      }
+      const result = { items: tgItems, meta: { title: source.handle } };
+      feedCache.set(key, result);
+      return result;
+    }
 
     const factories = source.platform === 'facebook' ? FB_FEED_FACTORIES : X_FEED_FACTORIES;
     let outItems = [];

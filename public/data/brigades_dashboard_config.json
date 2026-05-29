@@ -1,466 +1,74 @@
 {
-  "windowDays": 3,
+  "windowDays": 5,
   "maxItemsPerBrigade": 8,
   "maxItemsTotal": 360,
   "minOfficialItems": 1,
   "includeMentionOnlyRows": false,
   "brigades": [
     {
-      "id": "3-assault",
-      "name": "3 ОШБр / 3-й Армійський Корпус",
-      "aliases": ["3 ошбр", "третій армійський корпус", "third assault brigade", "ab3"],
-      "sources": [
-        { "platform": "x", "handle": "ab3army", "trusted": true }
-      ]
-    },
-    {
-      "id": "3-iron",
-      "name": "3 ОВМБр «Залізна»",
-      "aliases": ["3 овмбр", "залізна бригада", "3 iron brigade", "3 важка механізована"],
-      "sources": [
-        { "platform": "x", "handle": "3ironbrigade", "trusted": true }
-      ]
-    },
-    {
-      "id": "10-ogshbr",
-      "name": "10 ОГШБр «Едельвейс»",
-      "aliases": ["10 огшбр", "едельвейс", "10th mountain brigade"],
-      "sources": []
-    },
-    {
-      "id": "22-ombr",
-      "name": "22 ОМБр",
-      "aliases": ["22 омбр", "22nd mechanized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "22ombr", "trusted": true }
-      ]
-    },
-    {
-      "id": "24-ombr",
-      "name": "24 ОМБр імені короля Данила",
-      "aliases": ["24 омбр", "24th mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "25-odshbr",
-      "name": "25 ОПДБр (Січеслав)",
-      "aliases": ["25 опдбр", "25 січеслав", "25th airborne brigade"],
-      "sources": []
-    },
-    {
-      "id": "28-ombr",
-      "name": "28 ОМБр імені Лицарів Зимового Походу",
-      "aliases": ["28 омбр", "28th mechanized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "28ombr", "trusted": true }
-      ]
-    },
-    {
-      "id": "30-ombr",
-      "name": "30 ОМБр імені князя Костянтина Острозького",
-      "aliases": ["30 омбр", "30th mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "34-coast",
-      "name": "34 ОБрБО",
-      "aliases": ["34 обрбо", "34th coast guard brigade"],
-      "sources": []
-    },
-    {
-      "id": "36-obrmp",
-      "name": "36 ОБрМП",
-      "aliases": ["36 обрмп", "36th marine brigade", "миколаївські морпіхи"],
-      "sources": [
-        { "platform": "x", "handle": "36obrmp", "trusted": true }
-      ]
-    },
-    {
-      "id": "38-obrmp",
-      "name": "38 ОБрМП",
-      "aliases": ["38 обрмп", "38th marine brigade"],
-      "sources": [
-        { "platform": "x", "handle": "38obrmp", "trusted": true }
-      ]
-    },
-    {
-      "id": "39-coast",
-      "name": "39 ОБрБО",
-      "aliases": ["39 обрбо", "39th coast guard brigade"],
-      "sources": []
-    },
-    {
-      "id": "47-ombr",
-      "name": "47 ОМБр «Маґура»",
-      "aliases": ["47 омбр", "магура", "47th mechanized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "47_OMBr", "trusted": true }
-      ]
-    },
-    {
-      "id": "54-ombr",
-      "name": "54 ОМБр імені Івана Мазепи",
-      "aliases": ["54 омбр", "54th mechanized brigade", "мазепи"],
-      "sources": []
-    },
-    {
-      "id": "59-oshbr",
-      "name": "59 ОШБр",
-      "aliases": ["59 ошбр", "59th assault brigade"],
-      "sources": []
-    },
-    {
-      "id": "72-ombr",
-      "name": "72 ОМБр імені Чорних Запорожців",
-      "aliases": ["72 омбр", "чорних запорожців", "72nd mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "80-odshbr",
-      "name": "80 ОДШБр",
-      "aliases": ["80 одшбр", "80th air assault brigade"],
-      "sources": [
-        { "platform": "x", "handle": "80brigade", "trusted": true }
-      ]
-    },
-    {
-      "id": "82-odshbr",
-      "name": "82 ОДШБр «Буковина»",
-      "aliases": ["82 одшбр", "буковина", "82nd air assault brigade"],
-      "sources": []
-    },
-    {
-      "id": "92-oshbr",
-      "name": "92 ОШБр імені Івана Сірка",
-      "aliases": ["92 ошбр", "92nd assault brigade", "івана сірка"],
-      "sources": [
-        { "platform": "x", "handle": "92brigade", "trusted": true }
-      ]
-    },
-    {
-      "id": "93-ombr",
-      "name": "93 ОМБр «Холодний Яр»",
-      "aliases": ["93 омбр", "холодний яр", "93rd mechanized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "93OMBr", "trusted": true }
-      ]
-    },
-    {
-      "id": "95-odshbr",
-      "name": "95 ОДШБр",
-      "aliases": ["95 одшбр", "95th air assault brigade"],
-      "sources": []
-    },
-    {
-      "id": "103-tro",
-      "name": "103 ОБрТрО",
-      "aliases": ["103 обртро", "103rd territorial defense brigade"],
-      "sources": []
-    },
-    {
-      "id": "108-tro",
-      "name": "108 ОБрТрО",
-      "aliases": ["108 обртро", "108th territorial defense brigade"],
-      "sources": []
-    },
-    {
-      "id": "127-tro",
-      "name": "127 ОБрТрО",
-      "aliases": ["127 обртро", "127th territorial defense brigade"],
-      "sources": []
-    },
-    {
-      "id": "128-ogshbr",
-      "name": "128 ОГШБр",
-      "aliases": ["128 огшбр", "128th mountain assault brigade"],
-      "sources": []
-    },
-    {
-      "id": "13-khartia",
-      "name": "13 Бригада НГУ «Хартія»",
-      "aliases": ["хартія", "13 бригада нгу", "khartia brigade", "13th operational brigade"],
-      "sources": [
-        { "platform": "x", "handle": "khartiiabrygada", "trusted": true }
-      ]
-    },
-    {
-      "id": "156-ombr",
-      "name": "156 ОМБр",
-      "aliases": ["156 омбр", "156 separate mechanized brigade", "156 mechanized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "156ombr_AFU", "trusted": true }
-      ]
-    },
-    {
-      "id": "413-raid",
-      "name": "413 Окремий Батальйон «RAID»",
-      "aliases": ["413 raid", "413 батальйон", "413 окремий батальйон"],
-      "sources": [
-        { "platform": "x", "handle": "413_raid", "trusted": true }
-      ]
-    },
-    {
-      "id": "ua-navy",
-      "name": "ВМС ЗС України",
-      "aliases": ["вмс зс україни", "ua navy", "ukrainian navy"],
-      "sources": [
-        { "platform": "x", "handle": "UA_NAVY", "trusted": true }
-      ]
-    },
-    {
-      "id": "ngu",
-      "name": "Національна Гвардія України",
-      "aliases": ["нгу", "національна гвардія україни", "national guard of ukraine"],
-      "sources": [
-        { "platform": "x", "handle": "ng_ukraine", "trusted": true }
-      ]
-    },
-    {
-      "id": "stratcom-afu",
-      "name": "СтратКом ЗСУ",
-      "aliases": ["стратком зсу", "stratcom afu"],
-      "sources": [
-        { "platform": "x", "handle": "StratCom_AFU", "trusted": true }
-      ]
-    },
-    {
       "id": "general-staff-ua",
-      "name": "Генеральний Штаб ЗСУ",
-      "aliases": ["генеральний штаб зсу", "general staff ua"],
-      "sources": [
-        { "platform": "x", "handle": "GeneralStaffUA", "trusted": true }
-      ]
-    },
-    {
-      "id": "5-oshbr",
-      "name": "5 ОШБр",
-      "aliases": ["5 ошбр", "5th assault brigade"],
-      "sources": [
-        { "platform": "x", "handle": "5OShBr", "trusted": true }
-      ]
-    },
-    {
-      "id": "12-azov",
-      "name": "12 Бригада НГУ «Азов»",
-      "aliases": ["азов", "12 бригада нгу", "azov brigade", "12th operational brigade"],
-      "sources": [
-        { "platform": "x", "handle": "AzovBrigade", "trusted": true }
-      ]
-    },
-    {
-      "id": "14-ombr",
-      "name": "14 ОМБр імені князя Романа Великого",
-      "aliases": ["14 омбр", "14th mechanized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "14ombr_", "trusted": true }
-      ]
-    },
-    {
-      "id": "17-otbr",
-      "name": "17 ОТБр імені Костянтина Пестушка",
-      "aliases": ["17 отбр", "17th tank brigade"],
-      "sources": [
-        { "platform": "x", "handle": "17otbr", "trusted": true }
-      ]
-    },
-    {
-      "id": "23-ombr",
-      "name": "23 ОМБр імені Хортиці",
-      "aliases": ["23 омбр", "23rd mechanized brigade", "хортиця"],
-      "sources": []
-    },
-    {
-      "id": "31-ombr",
-      "name": "31 ОМБр",
-      "aliases": ["31 омбр", "31st mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "32-ombr",
-      "name": "32 ОМБр",
-      "aliases": ["32 омбр", "32nd mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "42-ombr",
-      "name": "42 ОМБр імені Валерія Гудзя",
-      "aliases": ["42 омбр", "42nd mechanized brigade", "гудзя"],
-      "sources": []
-    },
-    {
-      "id": "53-ombr",
-      "name": "53 ОМБр імені Володимира Мономаха",
-      "aliases": ["53 омбр", "53rd mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "57-ompbr",
-      "name": "57 ОМПБр імені Кошового Отамана Костя Гордієнка",
-      "aliases": ["57 омпбр", "57th motorized brigade"],
-      "sources": [
-        { "platform": "x", "handle": "57OMPBr", "trusted": true }
-      ]
-    },
-    {
-      "id": "60-ombr",
-      "name": "60 ОМБр «Інгулецька»",
-      "aliases": ["60 омбр", "60th mechanized brigade", "інгулецька"],
-      "sources": []
-    },
-    {
-      "id": "63-ombr",
-      "name": "63 ОМБр",
-      "aliases": ["63 омбр", "63rd mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "65-ombr",
-      "name": "65 ОМБр",
-      "aliases": ["65 омбр", "65th mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "67-ombr",
-      "name": "67 ОМБр «ДУК»",
-      "aliases": ["67 омбр", "67th mechanized brigade", "дук"],
-      "sources": [
-        { "platform": "x", "handle": "67OMBr_DUK", "trusted": true }
-      ]
-    },
-    {
-      "id": "68-oebr",
-      "name": "68 ОЄБр",
-      "aliases": ["68 оєбр", "68th jäger brigade"],
-      "sources": [
-        { "platform": "x", "handle": "68brigade", "trusted": true }
-      ]
-    },
-    {
-      "id": "71-oebr",
-      "name": "71 ОЄБр",
-      "aliases": ["71 оєбр", "71st jäger brigade"],
-      "sources": [
-        { "platform": "x", "handle": "71brigade", "trusted": true }
-      ]
-    },
-    {
-      "id": "79-odshbr",
-      "name": "79 ОДШБр",
-      "aliases": ["79 одшбр", "79th air assault brigade"],
-      "sources": []
-    },
-    {
-      "id": "100-ombr",
-      "name": "100 ОМБр",
-      "aliases": ["100 омбр", "100th mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "110-ombr",
-      "name": "110 ОМБр",
-      "aliases": ["110 омбр", "110th mechanized brigade"],
-      "sources": []
-    },
-    {
-      "id": "115-ombr",
-      "name": "115 ОМБр",
-      "aliases": ["115 омбр", "115th mechanized brigade"],
-      "sources": []
+      "name": "Генеральний штаб ЗСУ",
+      "aliases": ["генеральний штаб зсу", "генштаб зсу", "general staff ua"],
+      "sources": [{ "platform": "telegram", "handle": "generalstaff_ua", "trusted": true }]
     },
     {
       "id": "air-force-ua",
       "name": "Повітряні Сили ЗСУ",
-      "aliases": ["повітряні сили", "air force ua", "пс зсу"],
-      "sources": [
-        { "platform": "x", "handle": "KpsZSU", "trusted": true }
-      ]
+      "aliases": ["повітряні сили", "повітряні сили зсу", "air force ukraine"],
+      "sources": [{ "platform": "telegram", "handle": "kpszsu", "trusted": true }]
     },
     {
-      "id": "dshv",
-      "name": "Десантно-штурмові війська ЗСУ",
-      "aliases": ["дшв зсу", "air assault forces", "десантно-штурмові"],
-      "sources": [
-        { "platform": "x", "handle": "daborukr", "trusted": true }
-      ]
+      "id": "sso-ua",
+      "name": "Сили спеціальних операцій (ССО)",
+      "aliases": ["сили спеціальних операцій", "ссо", "special operations forces"],
+      "sources": [{ "platform": "telegram", "handle": "SpecialOperationsForces", "trusted": true }]
     },
     {
-      "id": "gur-mo",
-      "name": "ГУР МО України",
-      "aliases": ["гур", "гур мо", "defense intelligence", "головне управління розвідки"],
-      "sources": [
-        { "platform": "x", "handle": "DefenceU", "trusted": true }
-      ]
+      "id": "3-army-corps",
+      "name": "3-й армійський корпус (3 ОШБр)",
+      "aliases": ["третій армійський корпус", "3 армійський корпус", "3 ошбр", "third assault brigade"],
+      "sources": [{ "platform": "telegram", "handle": "ab3army", "trusted": true }]
+    },
+    {
+      "id": "azov-1-corps",
+      "name": "1-й корпус НГУ «Азов»",
+      "aliases": ["азов", "1-й корпус азов", "перший корпус нгу азов", "azov"],
+      "sources": [{ "platform": "telegram", "handle": "azov_media", "trusted": true }]
+    },
+    {
+      "id": "aerorozvidka",
+      "name": "Аеророзвідка",
+      "aliases": ["аеророзвідка", "aerorozvidka"],
+      "sources": [{ "platform": "telegram", "handle": "aerorozvidka", "trusted": true }]
+    },
+    {
+      "id": "spartan-ngu",
+      "name": "Бригада «Спартан» НГУ",
+      "aliases": ["спартан", "бригада спартан", "spartan"],
+      "sources": [{ "platform": "telegram", "handle": "spartan_ngu", "trusted": true }]
+    },
+    {
+      "id": "liut-npu",
+      "name": "ОШБр НПУ «Лють»",
+      "aliases": ["лють", "ошбр лють", "бригада лють"],
+      "sources": [{ "platform": "telegram", "handle": "npu_liut", "trusted": true }]
+    },
+    {
+      "id": "davinci-wolves",
+      "name": "Вовки Да Вінчі",
+      "aliases": ["вовки да вінчі", "da vinci wolves", "wolves davinci"],
+      "sources": [{ "platform": "telegram", "handle": "wolves_davinci", "trusted": true }]
+    },
+    {
+      "id": "offensive-guard",
+      "name": "Гвардія наступу",
+      "aliases": ["гвардія наступу", "offensive guard"],
+      "sources": [{ "platform": "telegram", "handle": "offensiveguard", "trusted": true }]
     }
   ],
-  "autoDiscovery": {
-    "enabled": true,
-    "maxCandidates": 12,
-    "maxNewUnits": 10,
-    "minScore": 3,
-    "minHits": 1,
-    "xKeywords": [
-      "окрема бригада",
-      "окремий батальйон",
-      "артилерійська бригада",
-      "полк зсу",
-      "корпус зсу",
-      "морська піхота україни",
-      "дшв зсу",
-      "тероборона бригада",
-      "бригада нгу"
-    ],
-    "excludeHandles": [
-      "osinttechnical",
-      "geoconfirmed",
-      "defmon3",
-      "noelreports",
-      "war_mapper",
-      "chriso_wiki",
-      "tendar",
-      "ralee85",
-      "maks_nafo_fella",
-      "coupsure",
-      "front_ukrainian",
-      "geoinsider",
-      "mil_in_ua",
-      "defencehq",
-      "osint613"
-    ]
-  },
-  "strikeKeywords": [
-    "удар",
-    "уражен",
-    "знищ",
-    "ліквід",
-    "влуч",
-    "обстріл",
-    "дрон",
-    "бпла",
-    "артилер",
-    "strike",
-    "hit",
-    "destroy",
-    "eliminate",
-    "assault"
-  ],
-  "reorgKeywords": [
-    "реорганіз",
-    "реформ",
-    "корпус",
-    "нова структура",
-    "створенн",
-    "підпорядк",
-    "переформ",
-    "командуван",
-    "new corps",
-    "reorganization",
-    "command structure",
-    "restructure"
-  ],
-  "significantKeywords": [
-    "знищ", "ліквід", "уражен", "влуч", "удар", "штурм", "полон", "евак",
-    "втрат", "піхот", "fpv", "дрон", "бпла", "артилер", "strike", "hit",
-    "destroy", "eliminate", "captured", "assault", "offensive"
-  ],
+  "autoDiscovery": { "enabled": false },
+  "strikeKeywords": ["удар", "уражен", "знищ", "ліквід", "влуч", "обстріл", "дрон", "бпла", "артилер", "strike", "hit", "destroy", "eliminate", "assault"],
+  "reorgKeywords": ["реорганіз", "реформ", "корпус", "нова структура", "створенн", "підпорядк", "переформ", "командуван", "new corps", "reorganization", "command structure", "restructure"],
+  "significantKeywords": ["знищ", "ліквід", "уражен", "влуч", "удар", "штурм", "полон", "евак", "втрат", "піхот", "fpv", "дрон", "бпла", "артилер", "strike", "hit", "destroy", "eliminate", "captured", "assault", "offensive"],
   "excludeKeywords": ["реклама", "giveaway", "promo", "discount"]
 }

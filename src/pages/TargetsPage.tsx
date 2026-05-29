@@ -125,8 +125,8 @@ export default function TargetsPage() {
             <span className="oko-eyebrow text-gold-ink mb-6 block">
               / Стратегічна база даних
             </span>
-            <h1 className="text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-[0.85] mb-8 text-ink">
-              База<br />Цілей
+            <h1 className="text-5xl md:text-8xl font-bold tracking-[-0.02em] leading-[0.98] mb-8 text-ink">
+              База цілей
             </h1>
             <p className="text-ink-2 text-sm md:text-base max-w-2xl leading-relaxed">
               Каталог критичної інфраструктури Росії — НПЗ, авіабази, склади боєприпасів, об'єкти ВПК та логістичні вузли.
@@ -262,7 +262,7 @@ export default function TargetsPage() {
                           <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-ink-2 mb-1">
                             {TYPE_LABELS[t.type] || t.type} · {t.region}
                           </div>
-                          <h3 className="text-sm md:text-base font-bold uppercase tracking-tight text-ink leading-tight">
+                          <h3 className="text-sm md:text-base font-bold tracking-[-0.01em] text-ink leading-tight">
                             {t.name}
                           </h3>
                         </div>

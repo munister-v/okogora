@@ -124,7 +124,7 @@ export default function PostPage() {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter uppercase leading-[0.9] mb-10 md:mb-16">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-[-0.02em] leading-[1.04] mb-10 md:mb-16">
             {post.title}
           </h1>
 
@@ -218,7 +218,7 @@ export default function PostPage() {
                   <div className="font-mono text-[9px] text-ink/40 uppercase tracking-[0.2em] mb-2">
                     {p.id} · {p.date}
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight group-hover:underline transition-all">
+                  <h3 className="text-xl md:text-2xl font-bold tracking-[-0.018em] leading-snug group-hover:underline transition-all">
                     {p.title}
                   </h3>
                 </Link>

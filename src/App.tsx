@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState, useEffect, lazy, Suspense, useMemo } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower, Home, Map as MapIcon, Radio, MoreHorizontal, ChevronDown, X } from 'lucide-react';
+import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower, Home, Map as MapIcon, Radio, MoreHorizontal, ChevronDown, X, Info } from 'lucide-react';
 import { Post, InvestigationArticle } from './types';
 import { formatPreview, normalizePosts, postTelegramUrl, resolveImageUrl } from './lib/posts';
 import { setSeo } from './lib/seo';
@@ -287,13 +287,15 @@ export default function App() {
   }
 
   function formatKm2(value: number | undefined | null) {
-    return `${Number(value || 0).toLocaleString('uk-UA', { maximumFractionDigits: 1 })} км²`;
+    const num = Number(value || 0).toLocaleString('uk-UA', { maximumFractionDigits: 1 }).replace(/\s/g, ' ');
+    return `${num} км²`;
   }
 
   function formatSignedKm2(value: number | undefined | null) {
     const n = Number(value || 0);
     const sign = n > 0 ? '+' : '';
-    return `${sign}${n.toLocaleString('uk-UA', { maximumFractionDigits: 2 })} км²`;
+    const num = n.toLocaleString('uk-UA', { maximumFractionDigits: 2 }).replace(/\s/g, ' ');
+    return `${sign}${num} км²`;
   }
 
   function formatSnapshotDate(iso: string | undefined) {
@@ -630,7 +632,7 @@ export default function App() {
               />
             </div>
 
-            <h1 className="text-[14vw] md:text-[12vw] leading-[0.8] font-bold tracking-tighter uppercase mb-8 relative z-10 text-ink">
+            <h1 className="text-[13vw] md:text-[11vw] leading-[0.85] font-bold tracking-[-0.02em] mb-8 relative z-10 text-ink">
               Око Гора
             </h1>
 
@@ -709,7 +711,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ НОВИЙ РОЗДІЛ</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">Інтерактивні розслідування</h2>
+                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">Інтерактивні розслідування</h2>
                 </div>
                 <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
                   className="font-mono text-xs uppercase tracking-widest text-ink/30 hover:text-gold-ink transition-colors">
@@ -735,7 +737,7 @@ export default function App() {
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-end">
                     <div className="lg:col-span-8">
                       <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4">{featuredInvestigation.code}</p>
-                      <h3 className="text-3xl md:text-5xl font-bold uppercase tracking-tight leading-[0.95] text-ink">{featuredInvestigation.title}</h3>
+                      <h3 className="text-3xl md:text-5xl font-bold tracking-[-0.018em] leading-[1.05] text-ink">{featuredInvestigation.title}</h3>
                       <p className="mt-4 text-base md:text-lg text-ink/60 max-w-3xl leading-relaxed">{featuredInvestigation.summary}</p>
                     </div>
                     <div className="lg:col-span-4 flex lg:justify-end">
@@ -752,7 +754,7 @@ export default function App() {
                   {investigationCards.slice(0, 6).map(item => (
                   <article key={item.code} className="bg-surface border border-gold/20 rounded-2xl p-6 md:p-8 hover:border-gold/50 transition-colors">
                     <p className="font-mono text-[9px] uppercase tracking-[0.25em] text-gold-ink mb-4">{item.code}</p>
-                    <h3 className="text-2xl font-bold tracking-tight uppercase mb-4 text-ink">{item.title}</h3>
+                    <h3 className="text-2xl font-bold tracking-[-0.018em] leading-snug mb-4 text-ink">{item.title}</h3>
                     <p className="text-ink/50 text-sm leading-relaxed">{item.summary}</p>
                     <div className="mt-4 flex items-center gap-4">
                       <Link to={`/investigation/${item.id}`} className="inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-widest text-ink/65 hover:text-gold-ink transition-colors">
@@ -810,7 +812,7 @@ export default function App() {
               <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-surface border border-gold/20 rounded-2xl p-8 hover:border-gold/60 hover:bg-surface-3 transition-all duration-500 group relative">
                   <Activity className="w-8 h-8 mb-6 text-gold-ink/40 group-hover:text-gold-ink transition-colors" />
-                  <h4 className="text-2xl font-bold uppercase mb-2 tracking-tighter">Горюшко · щоденне оновлення</h4>
+                  <h4 className="text-2xl font-bold mb-2 tracking-[-0.018em]">Горюшко · щоденне оновлення</h4>
                   <p className="text-sm text-ink/50 leading-snug mb-6">Автоматичний лічильник нових записів у каналі за поточний день і за 7 днів. Сумарне значення беремо з останнього номера у тексті поста, не з ID Telegram.</p>
                   <div className="grid grid-cols-3 gap-2 mb-6 font-mono text-center">
                     <div className="border border-gold/20 rounded-xl py-2">
@@ -850,7 +852,7 @@ export default function App() {
 
                 <Link to="/targets" className="bg-surface border border-gold/20 rounded-2xl p-8 hover:border-gold/60 hover:bg-surface-3 transition-all duration-500 group relative block">
                   <Database className="w-8 h-8 mb-6 text-gold-ink/40 group-hover:text-gold-ink transition-colors" />
-                  <h4 className="text-2xl font-bold uppercase mb-2 tracking-tighter">База Цілей</h4>
+                  <h4 className="text-2xl font-bold mb-2 tracking-[-0.018em]">База цілей</h4>
                   <p className="text-sm text-ink/50 leading-snug mb-8">Каталог НПЗ, авіабаз, складів і об'єктів ВПК Росії з координатами та статусом ураження.</p>
                   <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-ink/10">
                     <span className="flex items-center gap-2 text-gold-ink"><Shield className="w-3 h-3" /> 38+ ОБ'ЄКТІВ</span>
@@ -882,9 +884,9 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ UNITS DASHBOARD</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">Активні підрозділи: ураження та реорганізація</h2>
+                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">Активні підрозділи: ураження та реорганізація</h2>
                   <p className="mt-4 text-ink/60 max-w-4xl text-sm leading-relaxed">
-                    Автоматичний моніторинг офіційних X/Facebook-пабів українських підрозділів (бригади, полки, батальйони та інші) за останні 3 доби. Показуємо тільки ті підрозділи, що реально активні в цей період.
+                    Автоматичний моніторинг офіційних Telegram-каналів українських підрозділів (бригади, корпуси, полки та командування) за останні дні. Показуємо тільки ті підрозділи, що реально публікували оновлення в цей період.
                   </p>
                 </div>
                 <div className="bg-surface-2 border border-gold/20 rounded-2xl px-6 py-5 min-w-[260px]">
@@ -943,7 +945,7 @@ export default function App() {
                           {row.items.slice(0, 3).map((item) => (
                             <a key={item.id} href={item.url} target="_blank" rel="noreferrer" className="block border border-ink/10 rounded-xl p-3 hover:border-gold/45 transition-colors">
                               <div className="flex items-center justify-between mb-2 font-mono text-[9px] tracking-widest uppercase">
-                                <span className={item.origin === 'official' ? 'text-gold-ink' : 'text-ink/50'}>{item.origin === 'official' ? 'Офіційний паб' : 'Моніторинг згадок'}</span>
+                                <span className={item.origin === 'official' ? 'text-gold-ink' : 'text-ink/50'}>{item.origin === 'official' ? 'Офіційний канал' : 'Моніторинг згадок'}</span>
                                 <span className="text-ink/35">{formatRssDate(item.publishedAt)}</span>
                               </div>
                               <p className="text-sm text-ink/80 leading-snug">{formatPreview(item.titleUk || item.title || '', 130)}</p>
@@ -969,61 +971,43 @@ export default function App() {
           {/* 7D Dashboard */}
           <motion.section id="analytics" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
-              <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
-                <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ OSINT DASHBOARD</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">Карта згадок про удари (7 днів)</h2>
-                  <p className="mt-4 text-ink/60 max-w-3xl text-sm">Цей блок показує не підтверджену кількість реальних влучань, а інтенсивність згадок про удари у відкритих джерелах за останні 7 днів. Ми беремо пости з Telegram, X і Facebook, шукаємо маркери удару, визначаємо область за текстом і лишаємо посилання на першоджерело.</p>
-                </div>
-                <div className="bg-surface-2 border border-gold/20 rounded-2xl px-6 py-5">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">Унікальних згадок (7 днів)</p>
-                  <p className="text-5xl font-bold tracking-tighter text-ink">{dashboard.total}</p>
-                  <p className="mt-2 text-xs text-ink/45">Після дедуплікації за днем, областю, джерелом і заголовком.</p>
-                </div>
+              <div className="mb-8">
+                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ МОНІТОРИНГ ВІДКРИТИХ ДЖЕРЕЛ</span>
+                <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">Карта згадок про удари</h2>
+                <p className="mt-4 text-ink/60 max-w-3xl text-sm md:text-base leading-relaxed">Скільки разів за останні 7 днів у відкритих джерелах згадували удари — у розрізі областей і днів. Це міра інформаційної активності навколо теми, а не реєстр підтверджених влучань.</p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що це за метрика</p>
-                  <p className="text-sm text-ink/70 leading-relaxed">Це індикатор інформаційної активності: скільки окремих згадок про удари зʼявилося у стрічці, а не офіційний BDA.</p>
-                </div>
-                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що показує heatmap</p>
-                  <p className="text-sm text-ink/70 leading-relaxed">Кожна клітинка: скільки унікальних згадок про удари привʼязалося до конкретної області у конкретний день.</p>
-                </div>
-                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що показує тренд</p>
-                  <p className="text-sm text-ink/70 leading-relaxed">Горизонтальна шкала праворуч: сумарна кількість згадок за добу по всіх областях, що увійшли в поточний топ.</p>
-                </div>
-                <div className="border border-gold/20 rounded-2xl bg-surface-2 p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Що таке “Конкретика”</p>
-                  <p className="text-sm text-ink/70 leading-relaxed">Нижче наведені реальні заголовки з джерел, дата та автор. Клік по рядку відкриває першоджерело.</p>
-                </div>
+              {/* Key disclaimer — the section is mention-intensity, not confirmed strikes */}
+              <div className="mb-8 flex items-start gap-3 border border-gold/35 rounded-2xl bg-gold-soft px-5 py-4">
+                <Info className="w-5 h-5 text-gold-ink shrink-0 mt-0.5" />
+                <p className="text-sm text-ink/75 leading-relaxed">
+                  <span className="font-semibold text-ink">Як читати:</span> одне число = одна унікальна згадка про удар у стрічці (Telegram, X, Facebook), а не одне підтверджене влучання. Один реальний епізод може дати кілька згадок у різних каналах. Кожен приклад нижче має пряме посилання на першоджерело.
+                </p>
               </div>
 
-              <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
-                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Областей у топі</p>
-                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.oblasts.length}</p>
+              <div className="grid grid-cols-2 xl:grid-cols-4 gap-3 md:gap-4 mb-6">
+                <div className="border border-gold/25 bg-surface-2 rounded-2xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Усього згадок · 7 днів</p>
+                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-gold-ink tabular-nums">{dashboard.total}</p>
                 </div>
-                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Середнє за добу</p>
-                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.days.length ? (dashboard.total / dashboard.days.length).toFixed(1) : '0.0'}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-2xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">Областей у вибірці</p>
+                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-ink tabular-nums">{dashboard.oblasts.length}</p>
                 </div>
-                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Пік за добу</p>
-                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.maxTrend}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-2xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">Згадок за добу · сер.</p>
+                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-ink tabular-nums">{dashboard.days.length ? (dashboard.total / dashboard.days.length).toFixed(1) : '0.0'}</p>
                 </div>
-                <div className="border border-ink/10 bg-surface-2 rounded-xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/35 mb-2">Макс. клітинка</p>
-                  <p className="text-3xl font-bold tracking-tighter text-ink">{dashboard.maxCell}</p>
+                <div className="border border-ink/10 bg-surface-2 rounded-2xl p-4">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">Пік за добу</p>
+                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-ink tabular-nums">{dashboard.maxTrend}</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
                 <div className="xl:col-span-7 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Heatmap · День × Область</h3>
-                  <p className="text-xs text-ink/45 mb-4">Темніша клітинка означає більше згадок у межах цього дня та цієї області відносно інших клітинок у 7-денному вікні.</p>
+                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Теплокарта · день × область</h3>
+                  <p className="text-xs text-ink/45 mb-4">Рядок — день, стовпчик — область. Що темніша клітинка, то більше згадок про удари в цей день у цій області.</p>
                   <div className="space-y-2">
                     {dashboard.days.map((day) => (
                       <div key={day} className="grid gap-2 items-center" style={{ gridTemplateColumns: `70px repeat(${Math.max(1, dashboard.oblasts.length)}, minmax(0, 1fr))` }}>
@@ -1044,8 +1028,8 @@ export default function App() {
                 </div>
 
                 <div className="xl:col-span-5 bg-surface border border-gold/20 rounded-2xl p-6 md:p-8">
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Тренд · День</h3>
-                  <p className="text-xs text-ink/45 mb-4">Кожен рядок показує загальну кількість згадок про удари за добу по областях, що потрапили у топ цього блоку.</p>
+                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Згадок за добу</h3>
+                  <p className="text-xs text-ink/45 mb-4">Сумарна кількість згадок про удари за кожну добу — по всіх областях вибірки разом.</p>
                   <div className="space-y-2">
                     {dashboard.trend.map((t) => (
                       <div key={t.day} className="flex items-center gap-3">
@@ -1074,13 +1058,14 @@ export default function App() {
               </div>
 
               <div className="mt-6 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
-                <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-4">Конкретика по областях</h3>
+                <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Приклади згадок по областях</h3>
+                <p className="text-xs text-ink/45 mb-4">Реальні заголовки з джерел із датою та автором. Клік відкриває першоджерело у новій вкладці.</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {dashboard.concreteByOblast.map((row) => (
                     <div key={row.oblast} className="border border-gold/20 rounded-2xl bg-surface p-4">
                       <div className="flex items-center justify-between mb-2">
                         <span className="font-mono text-[10px] uppercase tracking-widest text-gold-ink">{row.oblast}</span>
-                        <span className="font-mono text-[10px] text-ink/50">{row.total} подій</span>
+                        <span className="font-mono text-[10px] text-ink/50">{row.total} згадок</span>
                       </div>
                       <div className="space-y-2">
                         {row.samples.length === 0 ? (
@@ -1116,7 +1101,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ SBS STATS</span>
-                  <h2 className="text-4xl md:text-6xl font-bold uppercase leading-[0.92]">SBS: ураження за добу</h2>
+                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">SBS: ураження за добу</h2>
                   <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут показана відкрита статистика SBS у зручному вигляді. Беремо останній доступний запис за добу, показуємо кількість уражених і знищених цілей, категорії техніки та посилання на оригінальну сторінку.
                   </p>
@@ -1133,7 +1118,7 @@ export default function App() {
                     <div className="flex items-start justify-between gap-4">
                       <div>
                         <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">останній зріз</p>
-                        <h3 className="text-2xl md:text-3xl font-extrabold uppercase leading-none mt-2">Доба {sbsStats?.latestDate || '...'}</h3>
+                        <h3 className="text-2xl md:text-3xl font-extrabold tracking-[-0.018em] leading-tight mt-2">Доба {sbsStats?.latestDate || '...'}</h3>
                         <p className="mt-2 text-xs text-ink/48">Година: {sbsStats ? `${sbsStats.latestHour}:00 UTC` : 'очікується'} · оновлено {formatSnapshotDate(sbsStats?.generatedAt)}</p>
                       </div>
                       <RadioTower className="w-8 h-8 text-gold-ink shrink-0" />
@@ -1163,7 +1148,7 @@ export default function App() {
                       <div className="flex items-center justify-between gap-4 mb-5">
                         <div>
                           <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">категорії уражень</p>
-                          <h4 className="text-2xl font-extrabold uppercase leading-none mt-1">Що саме фіксує SBS</h4>
+                          <h4 className="text-2xl font-extrabold tracking-[-0.018em] leading-tight mt-1">Що саме фіксує SBS</h4>
                         </div>
                         <BarChart3 className="w-7 h-7 text-gold-ink" />
                       </div>
@@ -1171,7 +1156,7 @@ export default function App() {
                         {(sbsTopCategories.length ? sbsTopCategories : [{ id: 0, label: 'Очікуємо синхронізацію', hit: 0, destroyed: 0 }]).map((item) => (
                           <div key={item.id} className="border border-gold/18 rounded-2xl bg-surface/70 p-4">
                             <div className="flex items-center justify-between gap-3">
-                              <p className="text-base md:text-lg font-extrabold uppercase leading-tight">{item.label}</p>
+                              <p className="text-base md:text-lg font-extrabold tracking-[-0.018em] leading-tight">{item.label}</p>
                               <p className="font-mono text-[10px] text-gold-ink shrink-0">hit {formatNumber(item.hit)}</p>
                             </div>
                             <div className="mt-3 h-2 bg-ink/[0.05]">
@@ -1219,7 +1204,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ DEEPSTATE TABLE</span>
-                  <h2 className="text-4xl md:text-6xl font-bold uppercase leading-[0.92]">DeepState: зміни фронту</h2>
+                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">DeepState: зміни фронту</h2>
                   <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут коротко показані останні рядки з таблиці DeepState: скільки змінилося, який текст пояснення і де відкрити повну таблицю.
                   </p>
@@ -1233,7 +1218,7 @@ export default function App() {
                   <div className="flex items-center justify-between mb-6">
                     <div>
                       <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">data-diff matrix</p>
-                      <h3 className="text-2xl md:text-3xl font-extrabold uppercase leading-none mt-2">Останні зміни за таблицею</h3>
+                      <h3 className="text-2xl md:text-3xl font-extrabold tracking-[-0.018em] leading-tight mt-2">Останні зміни за таблицею</h3>
                       <p className="mt-2 text-sm text-ink/52">Мінус у DeepState означає збільшення окупованої площі, плюс — звільнення або уточнення на користь України.</p>
                     </div>
                     <MapPinned className="w-8 h-8 text-gold-ink" />
@@ -1247,12 +1232,12 @@ export default function App() {
                     ].map(([label, value, note]) => (
                       <div key={label} className="border border-gold/18 rounded-2xl bg-surface-2/80 p-4">
                         <p className="font-mono text-[9px] uppercase tracking-widest text-ink/42">{label}</p>
-                        <p className="mt-2 text-xl md:text-2xl font-black tracking-tighter text-gold-ink tabular-nums">{value}</p>
+                        <p className="mt-2 text-lg sm:text-xl md:text-2xl font-black tracking-[-0.01em] text-gold-ink tabular-nums whitespace-nowrap">{value}</p>
                         <p className="mt-1 text-xs text-ink/48">{note}</p>
                       </div>
                     ))}
                   </div>
-                  <div className="grid grid-cols-4 md:grid-cols-8 gap-2 min-h-[220px]">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2 min-h-[220px]">
                     {(deepstateRows.length ? deepstateRows : Array.from({ length: 8 }, (_, i) => ({ day: `${i + 1}`, diffKm2: 0, text: 'Очікуємо дані', occupiedKm2: 0, occupiedPercent: 0 }))).map((row, i) => {
                       const intensity = Math.max(0.12, Math.min(1, Math.abs(row.diffKm2) / deepstateMaxAbs));
                       const isRelease = row.diffKm2 > 0;
@@ -1264,7 +1249,7 @@ export default function App() {
                           title={row.text}
                         >
                           <span className="font-mono text-[10px] text-ink/60">день {row.day}</span>
-                          <span className={`text-2xl font-black tracking-tighter tabular-nums ${isRelease ? 'text-sky-200' : 'text-gold-ink'}`}>{formatSignedKm2(row.diffKm2)}</span>
+                          <span className={`text-base sm:text-sm md:text-xs lg:text-sm xl:text-base font-black tracking-[-0.01em] tabular-nums whitespace-nowrap ${isRelease ? 'text-sky-700' : 'text-gold-ink'}`}>{formatSignedKm2(row.diffKm2)}</span>
                           <span className="font-mono text-[9px] uppercase tracking-widest text-ink/38">{isRelease ? 'звільнення' : 'просування ворога'}</span>
                         </div>
                       );
@@ -1279,7 +1264,7 @@ export default function App() {
                   <div className="flex items-center justify-between mb-6">
                     <div>
                       <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70">table rows</p>
-                      <h3 className="text-2xl font-extrabold uppercase leading-none mt-2">Пояснення з рядків</h3>
+                      <h3 className="text-2xl font-extrabold tracking-[-0.018em] leading-tight mt-2">Пояснення з рядків</h3>
                     </div>
                     <Table2 className="w-7 h-7 text-gold-ink" />
                   </div>
@@ -1318,7 +1303,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ LIVE RSS</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-tighter uppercase leading-[0.9]">RSS OSINT-стрічка</h2>
+                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">RSS OSINT-стрічка</h2>
                   <p className="mt-4 text-ink/70 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
                     Новини з українських та OSINT-видань (Українська Правда, Euromaidan Press, ArmyInform, UNIAN, Militarnyi) за останні дні про Україну, війну, підрозділи та удари. Текст очищається від HTML-вставок, картки сортуються за часом, а фільтри допомагають швидко знайти потрібну тему.
                   </p>
@@ -1397,7 +1382,7 @@ export default function App() {
                 </div>
               ) : rssFeed.length === 0 ? (
                 <div className="border border-gold/20 rounded-2xl bg-surface p-8">
-                  <p className="text-2xl font-black uppercase tracking-tight text-ink">Нічого не знайдено</p>
+                  <p className="text-2xl font-black tracking-[-0.018em] text-ink">Нічого не знайдено</p>
                   <p className="mt-2 text-sm text-ink/55 leading-relaxed">Спробуй очистити пошук або вибрати іншу тему. Фільтри працюють по перекладеному заголовку, опису, автору і тегам.</p>
                   <button type="button" onClick={() => { setRssSearch(''); setRssSourceFilter('all'); setRssTopicFilter('all'); }} className="mt-5 border border-gold/40 rounded-xl px-4 py-3 font-mono text-[10px] uppercase tracking-widest text-gold-ink hover:bg-gold/10 transition-colors">
                     Скинути фільтри
@@ -1468,7 +1453,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 border-b border-gold/22 pb-7 mb-8 md:mb-10">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ ПУБЛІКАЦІЇ КАНАЛУ</span>
-                  <h2 className="text-4xl md:text-7xl font-bold tracking-tighter uppercase text-ink leading-[0.88]">Стрічка Око Гора</h2>
+                  <h2 className="text-4xl md:text-7xl font-bold tracking-[-0.02em] text-ink leading-[1.0]">Стрічка Око Гора</h2>
                   <p className="mt-4 max-w-3xl text-base md:text-lg font-semibold leading-relaxed text-ink/64">
                     Останні пости з Telegram-каналу: коротке превʼю, джерело внизу картки та швидка кнопка для поширення.
                   </p>
@@ -1519,7 +1504,7 @@ export default function App() {
                             <span>Telegram / Око Гора</span>
                             <span>{(post.tags || []).slice(0, 1).map(tag => `#${tag}`).join(' ')}</span>
                           </div>
-                          <h3 className={`${isLead ? 'text-3xl md:text-5xl' : 'text-[1.7rem] md:text-[2rem]'} font-black uppercase tracking-tight mb-4 group-hover:text-gold-ink transition-colors leading-[1.02] text-ink`}>
+                          <h3 className={`${isLead ? 'text-3xl md:text-5xl' : 'text-[1.7rem] md:text-[2rem]'} font-black tracking-[-0.018em] mb-4 group-hover:text-gold-ink transition-colors leading-[1.08] text-ink`}>
                             {post.title}
                           </h3>
                           <p className={`${isLead ? 'text-base md:text-lg line-clamp-7' : 'text-[1rem] line-clamp-5'} text-ink/68 leading-relaxed mb-5 font-semibold`}>
@@ -1574,7 +1559,7 @@ export default function App() {
                 </div>
                 <div>
                   <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/75">/ ЦИФРОВА ПЛАТФОРМА КАНАЛУ</p>
-                  <h3 className="mt-2 text-4xl md:text-6xl font-black tracking-tighter uppercase leading-[0.82] text-gold-ink">
+                  <h3 className="mt-2 text-4xl md:text-6xl font-black tracking-[-0.02em] leading-[1.0] text-gold-ink">
                     Око Гора
                   </h3>
                 </div>
@@ -1643,7 +1628,7 @@ export default function App() {
             <div className="xl:col-span-3 border border-gold/25 rounded-2xl bg-gold/10 p-5 md:p-6 flex flex-col justify-between gap-6">
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/80">/ CONTACT</p>
-                <h4 className="mt-3 text-2xl md:text-3xl font-black uppercase leading-none">Слідкувати за оновленнями</h4>
+                <h4 className="mt-3 text-2xl md:text-3xl font-black tracking-[-0.018em] leading-tight">Слідкувати за оновленнями</h4>
                 <p className="mt-4 text-sm md:text-base text-ink/65 leading-relaxed font-medium">
                   Найшвидше оновлення, пояснення до мапи та нові розбори публікуються у Telegram.
                 </p>
