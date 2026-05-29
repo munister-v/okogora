@@ -277,20 +277,20 @@ function StatusBadge({ status }: { status?: string }) {
   const isPublished = value === 'published';
   return (
     <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${isPublished ? 'border-emerald-600/30 bg-emerald-600/10 text-emerald-700' : 'border-amber-600/30 bg-amber-600/10 text-amber-700'}`}>
-      {isPublished ? 'Published' : value}
+      {isPublished ? 'Опубліковано' : value}
     </span>
   );
 }
 
 function RiskBadge({ tags }: { tags?: string[] }) {
   const joined = (tags || []).join(' ').toLowerCase();
-  const level = joined.includes('critical') ? 'Critical' : joined.includes('high') ? 'High' : 'Medium';
-  const cls = level === 'Critical'
+  const level = joined.includes('critical') ? 'Критичний' : joined.includes('high') ? 'Високий' : 'Середній';
+  const cls = level === 'Критичний'
     ? 'border-red-600/30 bg-red-600/10 text-red-700'
-    : level === 'High'
+    : level === 'Високий'
       ? 'border-orange-600/30 bg-orange-600/10 text-orange-700'
       : 'border-sky-600/30 bg-sky-600/10 text-sky-700';
-  return <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${cls}`}>Risk: {level}</span>;
+  return <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium tracking-wide ${cls}`}>Ризик: {level}</span>;
 }
 
 export default function InvestigationPage() {
@@ -300,6 +300,8 @@ export default function InvestigationPage() {
   const [markdown, setMarkdown] = useState('');
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [activeSection, setActiveSection] = useState('');
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href).then(() => {
@@ -347,20 +349,63 @@ export default function InvestigationPage() {
   const related = useMemo(() => allItems.filter((x) => x.id !== item?.id && (x.status || 'published') === 'published').slice(0, 2), [allItems, item?.id]);
   const category = item?.tags?.[0] || 'OSINT';
 
+  useEffect(() => {
+    const onScroll = () => {
+      const el = document.documentElement;
+      const max = el.scrollHeight - el.clientHeight;
+      setProgress(max > 0 ? Math.min(100, (el.scrollTop / max) * 100) : 0);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [html]);
+
+  useEffect(() => {
+    if (!headings.length) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) setActiveSection(visible[0].target.id);
+      },
+      { rootMargin: '-15% 0px -75% 0px', threshold: 0 },
+    );
+    headings.forEach((h) => {
+      const el = document.getElementById(h.id);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, [headings, html]);
+
   if (loading) return <div className="min-h-screen bg-surface text-ink flex items-center justify-center">Loading...</div>;
   if (!item) return <div className="min-h-screen bg-surface text-ink flex items-center justify-center">Not found</div>;
 
   return (
     <div className="min-h-screen bg-surface text-ink font-sans">
+      <div className="fixed left-0 top-0 z-[1100] h-[3px] w-full bg-transparent">
+        <div
+          className="h-full bg-gold shadow-[0_0_8px_rgba(201,162,39,0.6)] transition-[width] duration-150 ease-out"
+          style={{ width: `${progress}%` }}
+        />
+      </div>
       <div className="relative overflow-hidden border-b border-gold/15 bg-surface-2">
-        <div className="mx-auto max-w-[1280px] px-4 py-6 md:px-8 md:py-8">
+        <div
+          className="pointer-events-none absolute inset-0"
+          style={{
+            backgroundImage:
+              'radial-gradient(900px 380px at 92% -12%, rgba(201,162,39,0.14), transparent 60%), radial-gradient(720px 340px at -6% 4%, rgba(201,162,39,0.08), transparent 55%)',
+          }}
+        />
+        <div className="relative z-10 mx-auto max-w-[1280px] px-4 py-6 md:px-8 md:py-8">
           <Link to="/#investigations" className="inline-flex min-h-11 items-center gap-2 text-[12px] text-ink-2 transition-colors hover:text-gold-ink">
             <ArrowLeft className="h-3.5 w-3.5" /> До розслідувань
           </Link>
         </div>
 
-        <section className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 pb-10 md:px-8 md:pb-14 lg:grid-cols-12 lg:gap-10">
+        <section className="relative z-10 mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 pb-10 md:px-8 md:pb-14 lg:grid-cols-12 lg:gap-10">
           <div className="lg:col-span-8 xl:col-span-9">
+            <div className="oko-eyebrow mb-4">Розслідування · {category}</div>
             <div className="mb-4 flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center rounded-full border border-gold/45 bg-gold/10 px-3 py-1 text-[11px] font-medium tracking-wide text-gold-ink">{item.code}</span>
               <StatusBadge status={item.status} />
@@ -372,7 +417,7 @@ export default function InvestigationPage() {
 
           <aside className="lg:col-span-4 xl:col-span-3">
             <div className="oko-card p-5 md:p-6">
-              <p className="mb-4 text-[11px] uppercase tracking-[0.08em] text-gold-ink">Article Meta</p>
+              <p className="mb-4 text-[11px] uppercase tracking-[0.08em] text-gold-ink">Деталі матеріалу</p>
               <div className="space-y-3 text-sm text-ink-2">
                 <div className="flex items-center justify-between gap-4 border-b border-ink/10 pb-2.5">
                   <span className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 text-gold" /> Опубліковано</span>
@@ -424,7 +469,11 @@ export default function InvestigationPage() {
                     key={heading.id}
                     type="button"
                     onClick={() => document.getElementById(heading.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                    className="block w-full border-l border-ink/10 px-3 py-2 text-left text-[13px] leading-snug text-ink-2 transition-colors hover:border-gold/70 hover:text-ink"
+                    className={`block w-full border-l-2 px-3 py-2 text-left text-[13px] leading-snug transition-colors ${
+                      activeSection === heading.id
+                        ? 'border-gold font-medium text-ink'
+                        : 'border-ink/10 text-ink-2 hover:border-gold/70 hover:text-ink'
+                    }`}
                   >
                     {heading.label}
                   </button>
@@ -433,7 +482,7 @@ export default function InvestigationPage() {
             </div>
             {(item.tags || []).length > 0 && (
               <div className="oko-card p-5">
-                <p className="mb-3 text-[11px] uppercase tracking-[0.08em] text-gold-ink">Tags</p>
+                <p className="mb-3 text-[11px] uppercase tracking-[0.08em] text-gold-ink">Теги</p>
                 <div className="flex flex-wrap gap-2">
                   {(item.tags || []).map((tag) => (
                     <span key={tag} className="rounded-full border border-ink/10 bg-surface-2 px-2.5 py-1 text-[12px] text-ink-2">{tag}</span>
