@@ -568,12 +568,12 @@ export default function App() {
 
       {/* ── Navigation ─────────────────────────────────────────────────────── */}
       <nav className="fixed top-0 left-0 right-0 z-[1000] border-b border-gold/10 bg-surface/90 backdrop-blur-xl">
-        <div className="flex items-center justify-between px-4 md:px-8 py-3 md:py-4 text-[10px] md:text-xs font-mono uppercase tracking-widest">
+        <div className="flex items-center justify-between px-4 md:px-8 py-3 md:py-4 text-xs md:text-sm font-medium tracking-wide">
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 bg-gold rounded-lg flex items-center justify-center">
               <div className="w-1.5 h-1.5 bg-surface rounded-md animate-pulse" />
             </div>
-            <Link to="/" className="font-bold tracking-tighter text-ink hover:text-gold-ink transition-colors">ОКО ГОРА</Link>
+            <Link to="/" className="font-bold text-ink hover:text-gold-ink transition-colors">Око Гора</Link>
           </div>
           {/* Desktop nav links */}
           <div className="hidden md:flex items-center gap-6 text-ink/50">
@@ -596,14 +596,14 @@ export default function App() {
           </div>
           {/* Mobile: Telegram link (compact) */}
           <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
-            className="md:hidden flex items-center gap-1 font-mono text-[10px] font-bold text-gold-ink uppercase tracking-widest">
-            TG <ArrowUpRight className="w-3 h-3" />
+            className="md:hidden flex items-center gap-1 text-xs font-semibold text-gold-ink">
+            Telegram <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
         </div>
       </nav>
 
       {/* ── Main ───────────────────────────────────────────────────────────── */}
-      <main className="pt-24 md:pt-40 px-4 md:px-8 pb-6 md:pb-24 main-content-pad">
+      <main className="pt-16 md:pt-40 px-4 md:px-8 pb-6 md:pb-24 main-content-pad">
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -612,42 +612,45 @@ export default function App() {
         >
 
           {/* Hero Typography */}
-          <motion.div variants={fadeIn} className="mb-16 md:mb-32 relative overflow-hidden">
-            <div className="absolute inset-0 -z-20 pointer-events-none select-none">
+          <motion.div variants={fadeIn} className="mb-12 md:mb-32 relative overflow-hidden">
+            <div className="absolute inset-0 -z-20 pointer-events-none select-none hidden md:block">
               <img
                 src="assets-zsu-patch.png"
                 alt=""
-                className="w-full h-full object-cover opacity-[0.08] md:opacity-[0.1] grayscale contrast-125"
+                className="w-full h-full object-cover opacity-[0.1] grayscale contrast-125"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-surface/30 via-surface/75 to-surface" />
             </div>
-            <div className="absolute inset-0 -z-10 flex items-center justify-center overflow-hidden pointer-events-none select-none">
+            <div className="absolute inset-0 -z-10 hidden md:flex items-center justify-center overflow-hidden pointer-events-none select-none">
               <motion.img
                 src="oko_logo.png"
                 alt=""
                 initial={{ opacity: 0, scale: 1.1, rotate: -2 }}
                 animate={{ opacity: 0.05, scale: 1, rotate: 0 }}
                 transition={{ duration: 4, ease: 'easeOut' }}
-                className="w-[100%] md:w-[80%] lg:w-[60%] max-w-[1200px] mix-blend-multiply"
+                className="w-[80%] lg:w-[60%] max-w-[1200px] mix-blend-multiply"
               />
             </div>
 
-            <h1 className="text-[13vw] md:text-[11vw] leading-[0.85] font-bold tracking-[-0.02em] mb-8 relative z-10 text-ink">
+            <h1 className="text-[16vw] md:text-[11vw] leading-[0.9] md:leading-[0.85] font-bold tracking-[-0.02em] mb-3 md:mb-8 relative z-10 text-ink">
               Око Гора
             </h1>
+            <p className="mb-7 md:mb-10 max-w-xl text-base md:text-lg leading-snug text-ink/70 relative z-10">
+              Незалежний моніторинг, аеророзвідка та аналітика бойового простору на основі відкритих джерел.
+            </p>
 
             {/* Ukrainian Armed Forces insignia strip — official Wikimedia SVGs */}
-            <div className="flex flex-wrap items-center gap-5 mb-10 relative z-10">
+            <div className="grid grid-cols-6 gap-2 md:flex md:flex-wrap md:items-center md:gap-5 mb-10 relative z-10">
               <div className="flex flex-col items-center gap-1.5 group cursor-default" title="Нарукавний знак ЗСУ">
-                <div className="w-14 h-14 flex items-center justify-center border border-gold/30 rounded-2xl bg-gold/10 group-hover:border-gold/70 group-hover:bg-gold/20 transition-all duration-300 p-1.5">
+                <div className="w-full h-[52px] md:w-14 md:h-14 flex items-center justify-center border border-gold/30 rounded-2xl bg-gold/10 group-hover:border-gold/70 group-hover:bg-gold/20 transition-all duration-300 p-1.5">
                   <img
                     src="assets-zsu-patch.png"
                     alt="Нарукавний знак ЗСУ"
-                    className="w-full h-full object-contain"
+                    className="max-w-full max-h-full object-contain"
                     loading="lazy"
                   />
                 </div>
-                <span className="font-mono text-[8px] tracking-widest text-gold-ink/70 group-hover:text-gold-ink transition-colors uppercase">ЗСУ</span>
+                <span className="text-[10px] font-medium text-gold-ink/80 group-hover:text-gold-ink transition-colors">ЗСУ</span>
               </div>
               {[
                 { label: 'СВ',  title: 'Сухопутні війська',           url: 'https://upload.wikimedia.org/wikipedia/commons/3/36/%D0%9D%D0%97_%D0%A1%D0%92.svg' },
@@ -657,16 +660,16 @@ export default function App() {
                 { label: 'ДШВ', title: 'Десантно-штурмові війська',   url: 'https://upload.wikimedia.org/wikipedia/commons/8/81/%D0%9D%D0%97_%D0%92%D0%94%D0%92.svg' },
               ].map(branch => (
                 <div key={branch.label} className="flex flex-col items-center gap-1.5 group cursor-default" title={branch.title}>
-                  <div className="w-14 h-14 flex items-center justify-center border border-gold/20 rounded-2xl bg-gold/5 group-hover:border-gold/60 group-hover:bg-gold/10 transition-all duration-300 p-1">
+                  <div className="w-full h-[52px] md:w-14 md:h-14 flex items-center justify-center border border-gold/20 rounded-2xl bg-gold/5 group-hover:border-gold/60 group-hover:bg-gold/10 transition-all duration-300 p-1">
                     <img
                       src={branch.url}
                       alt={branch.title}
-                      className="w-full h-full object-contain"
+                      className="max-w-full max-h-full object-contain"
                       loading="lazy"
                       onError={e => { (e.target as HTMLImageElement).style.opacity = '0.2'; }}
                     />
                   </div>
-                  <span className="font-mono text-[8px] tracking-widest text-gold-ink/50 group-hover:text-gold-ink transition-colors uppercase">{branch.label}</span>
+                  <span className="text-[10px] font-medium text-gold-ink/70 group-hover:text-gold-ink transition-colors">{branch.label}</span>
                 </div>
               ))}
               <a
@@ -680,26 +683,26 @@ export default function App() {
             </div>
             <div className="mb-8 md:mb-12 flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-l-2 border-gold/80 rounded-r-2xl bg-surface-2/70 p-4 md:p-5">
               <div>
-                <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-2">/ ПЛАТФОРМА TELEGRAM-КАНАЛУ</p>
-                <p className="text-ink/95 text-lg md:text-2xl font-extrabold leading-tight max-w-5xl">
-                  Око Гора - цифрова платформа Telegram-каналу про новини, карту, джерела та аналітику.
+                <p className="oko-eyebrow mb-2">Платформа Telegram-каналу</p>
+                <p className="text-ink/90 text-base md:text-xl font-bold leading-snug max-w-3xl">
+                  Цифрова платформа Telegram-каналу про новини, карту, джерела та аналітику.
                 </p>
               </div>
               <a
                 href="https://t.me/oko_gora"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 self-start md:self-auto shrink-0 border border-gold/60 rounded-full bg-gold/12 px-5 py-3 font-mono text-[11px] md:text-xs tracking-widest uppercase text-gold-ink hover:bg-gold/20 hover:border-gold transition-colors"
+                className="inline-flex items-center justify-center gap-2 min-h-[44px] self-start md:self-auto shrink-0 border border-gold/60 rounded-full bg-gold/12 px-5 py-3 text-sm font-medium text-gold-ink hover:bg-gold/20 hover:border-gold transition-colors"
               >
-                Перейти в Telegram <ArrowUpRight className="w-3.5 h-3.5" />
+                Перейти в Telegram <ArrowUpRight className="w-4 h-4" />
               </a>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-14">
               {heroSignals.map((signal) => (
                 <div key={signal.label} className="border border-gold/20 rounded-2xl bg-surface-2/80 p-4 md:p-5">
-                  <p className="font-mono text-[9px] uppercase tracking-widest text-ink/42">{signal.label}</p>
+                  <p className="text-[11px] md:text-xs font-medium text-ink/60">{signal.label}</p>
                   <p className="mt-2 text-3xl md:text-5xl font-black tracking-tighter text-gold-ink tabular-nums">{formatNumber(signal.value)}</p>
-                  <p className="mt-1 text-xs md:text-sm text-ink/50 font-bold">{signal.note}</p>
+                  <p className="mt-1 text-xs md:text-sm text-ink/55">{signal.note}</p>
                 </div>
               ))}
             </div>
@@ -711,7 +714,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ НОВИЙ РОЗДІЛ</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">Інтерактивні розслідування</h2>
+                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">Інтерактивні розслідування</h2>
                 </div>
                 <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
                   className="font-mono text-xs uppercase tracking-widest text-ink/30 hover:text-gold-ink transition-colors">
@@ -884,7 +887,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ UNITS DASHBOARD</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">Активні підрозділи: ураження та реорганізація</h2>
+                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">Активні підрозділи: ураження та реорганізація</h2>
                   <p className="mt-4 text-ink/60 max-w-4xl text-sm leading-relaxed">
                     Автоматичний моніторинг офіційних Telegram-каналів українських підрозділів (бригади, корпуси, полки та командування) за останні дні. Показуємо тільки ті підрозділи, що реально публікували оновлення в цей період.
                   </p>
@@ -973,7 +976,7 @@ export default function App() {
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="mb-8">
                 <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ МОНІТОРИНГ ВІДКРИТИХ ДЖЕРЕЛ</span>
-                <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">Карта згадок про удари</h2>
+                <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">Карта згадок про удари</h2>
                 <p className="mt-4 text-ink/60 max-w-3xl text-sm md:text-base leading-relaxed">Скільки разів за останні 7 днів у відкритих джерелах згадували удари — у розрізі областей і днів. Це міра інформаційної активності навколо теми, а не реєстр підтверджених влучань.</p>
               </div>
 
@@ -1101,7 +1104,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ SBS STATS</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">SBS: ураження за добу</h2>
+                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">SBS: ураження за добу</h2>
                   <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут показана відкрита статистика SBS у зручному вигляді. Беремо останній доступний запис за добу, показуємо кількість уражених і знищених цілей, категорії техніки та посилання на оригінальну сторінку.
                   </p>
@@ -1204,7 +1207,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ DEEPSTATE TABLE</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">DeepState: зміни фронту</h2>
+                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">DeepState: зміни фронту</h2>
                   <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут коротко показані останні рядки з таблиці DeepState: скільки змінилося, який текст пояснення і де відкрити повну таблицю.
                   </p>
@@ -1303,7 +1306,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ LIVE RSS</span>
-                  <h2 className="text-4xl md:text-6xl font-bold tracking-[-0.018em] leading-[1.02]">RSS OSINT-стрічка</h2>
+                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">RSS OSINT-стрічка</h2>
                   <p className="mt-4 text-ink/70 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
                     Новини з українських та OSINT-видань (Українська Правда, Euromaidan Press, ArmyInform, UNIAN, Militarnyi) за останні дні про Україну, війну, підрозділи та удари. Текст очищається від HTML-вставок, картки сортуються за часом, а фільтри допомагають швидко знайти потрібну тему.
                   </p>
@@ -1453,7 +1456,7 @@ export default function App() {
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 border-b border-gold/22 pb-7 mb-8 md:mb-10">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ ПУБЛІКАЦІЇ КАНАЛУ</span>
-                  <h2 className="text-4xl md:text-7xl font-bold tracking-[-0.02em] text-ink leading-[1.0]">Стрічка Око Гора</h2>
+                  <h2 className="text-[1.75rem] md:text-7xl font-bold tracking-[-0.02em] text-ink leading-[1.1] md:leading-[1.0]">Стрічка Око Гора</h2>
                   <p className="mt-4 max-w-3xl text-base md:text-lg font-semibold leading-relaxed text-ink/64">
                     Останні пости з Telegram-каналу: коротке превʼю, джерело внизу картки та швидка кнопка для поширення.
                   </p>
@@ -1713,40 +1716,39 @@ export default function App() {
           <Link to="/"
             onClick={() => setMobileMenuOpen(false)}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${location.pathname === '/' && !mobileMenuOpen ? 'text-gold-ink' : 'text-ink/35 active:text-ink/70'}`}>
+              ${location.pathname === '/' && !mobileMenuOpen ? 'text-gold-ink' : 'text-ink/55 active:text-ink'}`}>
             <Home className="w-[18px] h-[18px]" />
-            <span className="font-mono text-[8px] tracking-widest uppercase">Огляд</span>
+            <span className="text-[10px] font-medium">Огляд</span>
           </Link>
           {/* Map */}
           <button type="button"
             onClick={() => openSection('map')}
-            className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${location.pathname === '/' && !mobileMenuOpen ? 'text-ink/35 active:text-ink/70' : 'text-ink/35'}`}>
+            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-ink/55 active:text-ink transition-colors">
             <MapIcon className="w-[18px] h-[18px]" />
-            <span className="font-mono text-[8px] tracking-widest uppercase">Карта</span>
+            <span className="text-[10px] font-medium">Карта</span>
           </button>
           {/* Targets */}
           <Link to="/targets"
             onClick={() => setMobileMenuOpen(false)}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${location.pathname === '/targets' && !mobileMenuOpen ? 'text-gold-ink' : 'text-ink/35 active:text-ink/70'}`}>
+              ${location.pathname === '/targets' && !mobileMenuOpen ? 'text-gold-ink' : 'text-ink/55 active:text-ink'}`}>
             <Target className="w-[18px] h-[18px]" />
-            <span className="font-mono text-[8px] tracking-widest uppercase">Цілі</span>
+            <span className="text-[10px] font-medium">Цілі</span>
           </Link>
           {/* Feed */}
           <button type="button"
             onClick={() => openSection('feed')}
-            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-ink/35 active:text-ink/70 transition-colors">
+            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-ink/55 active:text-ink transition-colors">
             <Radio className="w-[18px] h-[18px]" />
-            <span className="font-mono text-[8px] tracking-widest uppercase">Стрічка</span>
+            <span className="text-[10px] font-medium">Стрічка</span>
           </button>
           {/* More */}
           <button type="button"
             onClick={() => setMobileMenuOpen(v => !v)}
             className={`flex-1 flex flex-col items-center justify-center gap-0.5 transition-colors
-              ${mobileMenuOpen ? 'text-gold-ink' : 'text-ink/35 active:text-ink/70'}`}>
+              ${mobileMenuOpen ? 'text-gold-ink' : 'text-ink/55 active:text-ink'}`}>
             <MoreHorizontal className="w-[18px] h-[18px]" />
-            <span className="font-mono text-[8px] tracking-widest uppercase">Ще</span>
+            <span className="text-[10px] font-medium">Ще</span>
           </button>
         </div>
       </nav>
