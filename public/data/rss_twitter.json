@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T14:03:31.452Z",
+  "generatedAt": "2026-05-30T15:35:23.494Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,102 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-93a014e92872",
+      "title": "Жителям багатоповерхівки в Галаці, в яку врізався дрон РФ, дозволили повернутися додому",
+      "url": "https://www.pravda.com.ua/news/2026/05/30/8037082/",
+      "summary": "",
+      "publishedAt": "2026-05-30T15:14:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Жителям багатоповерхівки в Галаці, в яку врізався дрон РФ, дозволили повернутися додому",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-8793861d528d",
+      "title": "СБС уразили позиції 64 бригади РФ, яка лютувала під час окупації Бучі – Мадяр",
+      "url": "https://www.pravda.com.ua/news/2026/05/30/8037080/",
+      "summary": "Сили безпілотних систем ЗСУ атакували позиції 64 омсбр РФ, яка скоювала злочини у Бучі. Втрати ворога – щонайменше 31 військовий.",
+      "publishedAt": "2026-05-30T15:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "СБС уразили позиції 64 бригади РФ, яка лютувала під час окупації Бучі – Мадяр",
+      "summaryUk": "Сили безпілотних систем ЗСУ атакували позиції 64 омсбр РФ, яка скоювала злочини у Бучі. Втрати ворога – щонайменше 31 військовий."
+    },
+    {
+      "id": "x-euromaidan-2b6e3eb6ad42",
+      "title": "Tusk urges NATO to heed Medvedev&#8217;s threats after Russian drone strikes Romanian apartment block",
+      "url": "https://euromaidanpress.com/2026/05/30/tusk-urges-nato-to-heed-medvedevs-threats-after-russian-drone-strikes-romanian-apartment-block/",
+      "summary": "The Polish leader's appeal followed a Kremlin official's vow that EU citizens would no longer sleep peacefully amid repeated UAV crossings into the bloc.",
+      "publishedAt": "2026-05-30T14:49:09.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Туск закликає НАТО прислухатися до погроз Медведєва після того, як російський безпілотник завдав удару по житловому будинку в Румунії",
+      "summaryUk": "Звернення польського лідера послідувало за обіцянкою кремлівського чиновника, що громадяни ЄС більше не будуть спати спокійно на тлі повторних проходів БПЛА на території блоку."
+    },
+    {
+      "id": "x-euromaidan-a02b09cf5725",
+      "title": "Hegseth sidesteps Zelenskyy&#8217;s plea for more Patriot missiles, vows to find a way to help",
+      "url": "https://euromaidanpress.com/2026/05/30/hegseth-sidesteps-zelenskyys-plea-for-more-patriot-missiles-vows-to-find-a-way-to-help/",
+      "summary": "The US defense secretary, speaking in Singapore, declined to confirm whether Washington will boost interceptor deliveries, pointing instead to ramped-up munitions output.",
+      "publishedAt": "2026-05-30T14:38:35.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Хегсет ухиляється від благання Зеленського надати більше ракет Patriot і обіцяє знайти спосіб допомогти",
+      "summaryUk": "Міністр оборони США, виступаючи в Сінгапурі, відмовився підтвердити, чи буде Вашингтон збільшувати поставки перехоплювачів, вказавши натомість на збільшення виробництва боєприпасів."
+    },
+    {
+      "id": "x-euromaidan-4b71d964f8f3",
+      "title": "Estonia switches on first border sensors to detect drones as Baltic incursions mount",
+      "url": "https://euromaidanpress.com/2026/05/30/estonia-switches-on-first-border-sensors-to-detect-drones-as-baltic-incursions-mount/",
+      "summary": "The Interior Ministry says equipment now operating near the Luhamaa crossing begins a system meant to shield the entire eastern frontier by year's end.",
+      "publishedAt": "2026-05-30T14:26:37.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Естонія вмикає перші прикордонні датчики для виявлення безпілотних літальних апаратів у міру посилення вторгнення в Балтію",
+      "summaryUk": "Міністерство внутрішніх справ повідомляє, що обладнання, яке зараз працює поблизу пункту пропуску Лухамаа, починає роботу системи, призначеної для захисту всього східного кордону до кінця року."
+    },
+    {
+      "id": "x-armyinform-69240ae7adda",
+      "title": "ООН внесла російську армію до «чорного списку» за сексуальне насильство під час війни в Україні",
+      "url": "https://armyinform.com.ua/2026/05/30/oon-vnesla-rosijsku-armiyu-do-chornogo-spysku-za-seksualne-nasylstvo-pid-chas-vijny-v-ukrayini/",
+      "summary": "Про це йдеться у щорічній доповіді Організації Об’єднаних Націй щодо сексуального насильства в умовах конфлікту, повідомив Уповноважений Верховної Ради України...",
+      "publishedAt": "2026-05-30T14:04:49.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ООН внесла російську армію до «чорного списку» за сексуальне насильство під час війни в Україні",
+      "summaryUk": "Про це йдеться у щорічній доповіді Організації Об’єднаних Націй щодо сексуального насильства в умовах конфлікту, повідомив Уповноважений Верховної Ради України..."
+    },
     {
       "id": "x-pravda-27a6dbe6cbcc",
       "title": "У Нижньогородській області РФ створять міністерство для захисту від українських дронів",
@@ -511,7 +607,7 @@
         "UKRAINE"
       ],
       "titleUk": "Волгоградський нафтопереробний завод і ключова ярославська нафтопроводна станція вдарили в одну ніч",
-      "summaryUk": "У другій половині дня Росія закрила аеропорти за 2000 км від України через безпрецедентну ракетну тривогу, яка охопила весь Уральський федеральний округ, оскільки Київ просунув свою далекобійну кампанію глибше на російську територію."
+      "summaryUk": "У другій половині дня Росія закрила аеропорти за 2000 км від України через безпрецедентну ракетну тривогу, яка охопила весь Уральський федеральний округ, оскільки Київ просував свою далекобійну кампанію глибше на російську територію."
     },
     {
       "id": "x-euromaidan-6bc01e036a45",
@@ -542,7 +638,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російський радар не помітив українських безпілотників. Він став 28-м російським ЗРК, знищеним цього травня",
+      "titleUk": "Російський радар не помітив українських безпілотників. Це стало 28-м російським ЗРК, знищеним цього травня",
       "summaryUk": "Окрім радіолокатора повітряного огляду СТ-68, Україна завдала ударів по ще одному зенітному комплексу Panrsir, бензовозу та численним військовим вантажівкам у наземному коридорі до окупованого Криму."
     },
     {
@@ -558,7 +654,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Найгостріша відповідь Румунії: Бухарест щойно закрив консульство Росії в Констанці після того, як «Геран-2» впав на житловий будинок у Галаці",
+      "titleUk": "Найгостріша відповідь Румунії: Бухарест щойно закрив консульство Росії в Констанці після того, як \"Геран-2\" впав на житловий будинок Галац",
       "summaryUk": "Президент Нікушор Дан назвав Росію повністю відповідальною та виступив проти румунських політиків, які намагалися применшити її значення."
     },
     {
@@ -768,54 +864,6 @@
       ],
       "titleUk": "Інцидент у Старобільську підкреслює занепокоєність України щодо ризику для цивільного населення через глибокі удари та обмеження верифікації військового часу на окупованих територіях",
       "summaryUk": "Україна заявила, що завдала удару по командній позиції «Рубікон» в окупованому Старобільську, тоді як російська окупаційна влада стверджує, що був уражений гуртожиток і повідомляє про втрати."
-    },
-    {
-      "id": "x-euromaidan-7af06c41fcd6",
-      "title": "Ukraine sets new procedure for captured Russian equipment, enabling its use in defense and international cooperation",
-      "url": "https://euromaidanpress.com/2026/05/28/ukraine-sets-new-procedure-for-captured-russian-equipment-enabling-its-use-in-defense-and-international-cooperation/",
-      "summary": "Ukrainian crews have repaired and redeployed enemy tanks, armored vehicles, and artillery throughout the war.",
-      "publishedAt": "2026-05-28T16:09:52.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна встановлює новий порядок зберігання захопленої російської техніки, що дозволяє використовувати її в обороні та міжнародному співробітництві",
-      "summaryUk": "Українські екіпажі протягом всієї війни ремонтували та передислокували ворожі танки, бронетехніку та артилерію."
-    },
-    {
-      "id": "x-euromaidan-8e556ed1f28d",
-      "title": "Zelenskyy and Sweden&#8217;s Kristersson sign joint defense declaration at Uppsala air base, including work within Drone Deal",
-      "url": "https://euromaidanpress.com/2026/05/28/zelenskyy-and-swedens-kristersson-sign-joint-defense-declaration-at-uppsala-air-base-including-work-within-drone-deal/",
-      "summary": "Also, Stockholm unveiled its largest aid package for Kyiv, worth $2.7 billion.",
-      "publishedAt": "2026-05-28T15:44:49.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський і швед Крістерссон підписали спільну оборонну декларацію на авіабазі Упсала, включаючи роботу в рамках Drone Deal",
-      "summaryUk": "Також Стокгольм оприлюднив найбільший пакет допомоги Києву на 2,7 мільярда доларів."
-    },
-    {
-      "id": "x-euromaidan-ea3ac436049a",
-      "title": "EU approves nearly €2.8 billion for Ukraine after positive assessment of its fourth-quarter 2025 reform progress",
-      "url": "https://euromaidanpress.com/2026/05/28/eu-approves-nearly-e2-8-billion-for-ukraine-after-positive-assessment-of-its-fourth-quarter-2025-reform-progress/",
-      "summary": "The tranche follows the sixth payment of €2.3 billion approved in December 2025 and brings total Ukraine Facility disbursements since 2024 to €26.8 billion.",
-      "publishedAt": "2026-05-28T15:24:53.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ЄС схвалив майже 2,8 мільярда євро для України після позитивної оцінки прогресу її реформ у четвертому кварталі 2025 року",
-      "summaryUk": "Транш надійшов після шостого платежу в розмірі 2,3 мільярда євро, схваленого в грудні 2025 року, і загальні виплати за програмою Ukraine Facility з 2024 року досягли 26,8 мільярда євро."
     },
     {
       "id": "x-militarnyi-de3ccb4374a7",
