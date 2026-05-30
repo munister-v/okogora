@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, type DragEvent, type ChangeEvent } from 'react';
+import { useState, useRef, useCallback, useEffect, type DragEvent, type ChangeEvent } from 'react';
 import { UploadCloud, Link, X, CheckCircle, AlertTriangle, Loader, Image as ImageIcon } from 'lucide-react';
 import { uploadToGitHub, fetchImageFromUrl, validateFile } from '../lib/imageUpload';
 
@@ -42,23 +42,48 @@ export default function ImageUploader({ token, value, onChange }: Props) {
     }
   }, [token, onChange]);
 
-  const handleDrop = useCallback((e: DragEvent) => {
-    e.preventDefault();
-    setDragging(false);
-    const file = e.dataTransfer.files[0];
+  // Shared entry point for a picked/dropped/pasted file: validate, then upload.
+  const acceptFile = useCallback((file: File | null | undefined) => {
     if (!file) return;
     const err = validateFile(file);
     if (err) { setError(err); setMode('error'); return; }
     handleFile(file);
   }, [handleFile]);
 
+  const handleDrop = useCallback((e: DragEvent) => {
+    e.preventDefault();
+    setDragging(false);
+    acceptFile(e.dataTransfer.files[0]);
+  }, [acceptFile]);
+
   const handleFileInput = (e: ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-    const err = validateFile(file);
-    if (err) { setError(err); setMode('error'); return; }
-    handleFile(file);
+    acceptFile(e.target.files?.[0]);
   };
+
+  // Paste (Cmd/Ctrl+V) an image anywhere in the editor → upload it as the image.
+  // Plain-text pastes are ignored, so editing the other fields stays unaffected.
+  useEffect(() => {
+    const onPaste = (e: ClipboardEvent) => {
+      if (mode === 'uploading') return;
+      const cd = e.clipboardData;
+      if (!cd) return;
+      let file: File | null = null;
+      for (let i = 0; i < cd.items.length; i++) {
+        const it = cd.items[i];
+        if (it.kind === 'file' && it.type.startsWith('image/')) { file = it.getAsFile(); break; }
+      }
+      if (!file && cd.files) {
+        for (let i = 0; i < cd.files.length; i++) {
+          if (cd.files[i].type.startsWith('image/')) { file = cd.files[i]; break; }
+        }
+      }
+      if (!file) return;
+      e.preventDefault();
+      acceptFile(file);
+    };
+    window.addEventListener('paste', onPaste);
+    return () => window.removeEventListener('paste', onPaste);
+  }, [mode, acceptFile]);
 
   const handleUrlSubmit = async () => {
     if (!urlInput.trim()) return;
@@ -145,7 +170,7 @@ export default function ImageUploader({ token, value, onChange }: Props) {
               <UploadCloud className="w-8 h-8 text-[#f4f4f4]/20" />
               <div className="text-center">
                 <p className="font-mono text-[10px] text-[#f4f4f4]/50 uppercase tracking-widest">
-                  Перетягніть файл або клікніть
+                  Перетягніть, вставте (Ctrl/Cmd+V) або клікніть
                 </p>
                 <p className="font-mono text-[9px] text-[#f4f4f4]/20 mt-1">
                   JPG · PNG · WebP · GIF · макс. 5 МБ
