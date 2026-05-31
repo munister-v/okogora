@@ -1,4 +1,5 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
+import SupportCard from '../components/SupportCard';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowUpRight, BookOpen, CalendarDays, Database, FileText, RefreshCw, ShieldCheck } from 'lucide-react';
 import { InvestigationArticle } from '../types';
@@ -536,6 +537,7 @@ export default function InvestigationPage() {
             ) : (
               <p className="text-ink-2">Контент ще готується.</p>
             )}
+            <SupportCard variant="article" />
             <div className="share-bar">
               <span className="share-label">Поділитися розслідуванням</span>
               <button onClick={handleCopyLink} className="share-btn">

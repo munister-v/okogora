@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { useState, useEffect, lazy, Suspense, useMemo } from 'react';
+import SupportCard from './components/SupportCard';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ArrowUpRight, Activity, Database, Shield, Terminal, Rss, Target, BarChart3, MapPinned, Table2, RadioTower, Home, Map as MapIcon, Radio, MoreHorizontal, ChevronDown, X, Info } from 'lucide-react';
 import { Post, InvestigationArticle } from './types';
@@ -1630,7 +1631,9 @@ export default function App() {
               </div>
             </div>
 
-            <div className="xl:col-span-3 border border-gold/25 rounded-2xl bg-gold/10 p-5 md:p-6 flex flex-col justify-between gap-6">
+            <div className="xl:col-span-3 flex flex-col gap-4">
+              <SupportCard variant="footer" />
+              <div className="border border-gold/25 rounded-2xl bg-gold/10 p-5 md:p-6 flex flex-col justify-between gap-6">
               <div>
                 <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/80">/ CONTACT</p>
                 <h4 className="mt-3 text-2xl md:text-3xl font-black tracking-[-0.018em] leading-tight">Слідкувати за оновленнями</h4>
@@ -1649,6 +1652,7 @@ export default function App() {
                 </button>
               </div>
             </div>
+            </div>{/* end support+contact column */}
           </div>
 
           <div className="border-t border-gold/12 pt-5 md:pt-6 flex flex-col lg:flex-row justify-between gap-4 font-mono text-[9px] md:text-[10px] tracking-[0.22em] text-ink/34 uppercase">
