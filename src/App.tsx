@@ -8,6 +8,7 @@ import { formatPreview, normalizePosts, postTelegramUrl, resolveImageUrl } from 
 import { setSeo } from './lib/seo';
 
 const MapService = lazy(() => import('./components/MapService'));
+const StrategicMap = lazy(() => import('./components/StrategicMap'));
 
 // ── Color tokens ──────────────────────────────────────────────────────────────
 // bg:    #ffffff  (dark military olive)
@@ -188,6 +189,8 @@ export default function App() {
   const [pechalStats, setPechalStats] = useState<PechalStats | null>(null);
   const [sbsStats, setSbsStats] = useState<SbsStatsPayload | null>(null);
   const [deepstateTable, setDeepstateTable] = useState<DeepstateTablePayload | null>(null);
+  const [strategicTargets, setStrategicTargets] = useState<unknown[]>([]);
+  const [targetTypeFilter, setTargetTypeFilter] = useState<string>('all');
   const [investigations, setInvestigations] = useState<InvestigationArticle[]>([]);
   const [sharedItemId, setSharedItemId] = useState<string>('');
   const [rssSourceFilter, setRssSourceFilter] = useState<'all' | 'x' | 'facebook'>('all');
@@ -256,6 +259,11 @@ export default function App() {
       fetch(`/data/sbs_stats_snapshot.json?_t=${t}`)
         .then(r => r.json())
         .then((data: SbsStatsPayload) => setSbsStats(data && data.summary ? data : null))
+        .catch(() => {});
+
+      fetch(`/data/targets.json?_t=${t}`)
+        .then(r => r.json())
+        .then((data: unknown[]) => setStrategicTargets(Array.isArray(data) ? data : []))
         .catch(() => {});
 
       fetch(`/data/deepstate_table.json?_t=${t}`)
@@ -975,133 +983,155 @@ export default function App() {
             </div>
           </motion.section>
 
-          {/* 7D Dashboard */}
+          {/* Strategic Targets */}
           <motion.section id="analytics" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
-              <div className="mb-8">
-                <span className="oko-eyebrow mb-4">/ МОНІТОРИНГ ВІДКРИТИХ ДЖЕРЕЛ</span>
-                <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">Карта згадок про удари</h2>
-                <p className="mt-4 text-ink/60 max-w-3xl text-sm md:text-base leading-relaxed">Скільки разів за останні 7 днів у відкритих джерелах згадували удари — у розрізі областей і днів. Це міра інформаційної активності навколо теми, а не реєстр підтверджених влучань.</p>
-              </div>
-
-              {/* Key disclaimer — the section is mention-intensity, not confirmed strikes */}
-              <div className="mb-8 flex items-start gap-3 border border-gold/35 rounded-2xl bg-gold-soft px-5 py-4">
-                <Info className="w-5 h-5 text-gold-ink shrink-0 mt-0.5" />
-                <p className="text-sm text-ink/75 leading-relaxed">
-                  <span className="font-semibold text-ink">Як читати:</span> одне число = одна унікальна згадка про удар у стрічці (Telegram, X, Facebook), а не одне підтверджене влучання. Один реальний епізод може дати кілька згадок у різних каналах. Кожен приклад нижче має пряме посилання на першоджерело.
-                </p>
-              </div>
-
-              <div className="grid grid-cols-2 xl:grid-cols-4 gap-3 md:gap-4 mb-6">
-                <div className="border border-gold/25 bg-surface-2 rounded-2xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Усього згадок · 7 днів</p>
-                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-gold-ink tabular-nums">{dashboard.total}</p>
-                </div>
-                <div className="border border-ink/10 bg-surface-2 rounded-2xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">Областей у вибірці</p>
-                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-ink tabular-nums">{dashboard.oblasts.length}</p>
-                </div>
-                <div className="border border-ink/10 bg-surface-2 rounded-2xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">Згадок за добу · сер.</p>
-                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-ink tabular-nums">{dashboard.days.length ? (dashboard.total / dashboard.days.length).toFixed(1) : '0.0'}</p>
-                </div>
-                <div className="border border-ink/10 bg-surface-2 rounded-2xl p-4">
-                  <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40 mb-2">Пік за добу</p>
-                  <p className="text-3xl md:text-4xl font-bold tracking-[-0.01em] text-ink tabular-nums">{dashboard.maxTrend}</p>
+              <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
+                <div>
+                  <span className="oko-eyebrow mb-4">Стратегічна розвідка</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">Цілі на території РФ</h2>
+                  <p className="mt-4 text-ink/60 max-w-3xl text-sm md:text-base leading-relaxed">
+                    Каталог стратегічних об'єктів РФ — НПЗ, авіабази, флот, склади — з відомими статусами ураження. Дані на основі відкритих джерел і підтверджених звітів.
+                  </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
-                <div className="xl:col-span-7 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Теплокарта · день × область</h3>
-                  <p className="text-xs text-ink/45 mb-4">Рядок — день, стовпчик — область. Що темніша клітинка, то більше згадок про удари в цей день у цій області.</p>
-                  <div className="space-y-2">
-                    {dashboard.days.map((day) => (
-                      <div key={day} className="grid gap-2 items-center" style={{ gridTemplateColumns: `70px repeat(${Math.max(1, dashboard.oblasts.length)}, minmax(0, 1fr))` }}>
-                        <span className="font-mono text-[10px] text-ink/35 uppercase">{day.slice(5)}</span>
-                        {dashboard.oblasts.map((oblast) => {
-                          const value = dashboard.byDayOblast[day][oblast] || 0;
-                          const alpha = value === 0 ? 0.06 : 0.18 + (value / dashboard.maxCell) * 0.82;
-                          return (
-                            <div key={`${day}-${oblast}`} className="h-8 border border-gold/20 rounded-lg flex items-center justify-between px-2" style={{ backgroundColor: `rgba(201,162,39,${alpha})` }}>
-                              <span className="font-mono text-[9px] uppercase text-ink/70 truncate">{oblast.replace('РФ: ', '')}</span>
-                              <span className="font-mono text-[10px] font-bold text-ink">{value}</span>
-                            </div>
-                          );
-                        })}
+              {/* Stats row */}
+              {(() => {
+                const tgts = strategicTargets as Array<{type:string;status:string;priority:string;strike_history?:string}>;
+                const damaged = tgts.filter(t => t.status === 'damaged' || t.status === 'destroyed').length;
+                const withHistory = tgts.filter(t => t.strike_history).length;
+                const critical = tgts.filter(t => t.priority === 'critical').length;
+                return (
+                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
+                    {[
+                      { v: tgts.length, l: 'Відстежуємо цілей', s: 'НПЗ, авіабаза, флот, склади…' },
+                      { v: critical, l: 'Критичного пріоритету', s: 'ключові вузли' },
+                      { v: damaged, l: 'Пошкоджено / знищено', s: 'підтверджений статус' },
+                      { v: withHistory, l: 'Задокументованих ударів', s: 'з відомою датою' },
+                    ].map(({ v, l, s }) => (
+                      <div key={l} className="relative overflow-hidden border border-ink/10 rounded-2xl bg-surface p-4 hover:border-gold/45 transition-colors">
+                        <span className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-gold to-gold/15" />
+                        <p className="text-[11px] font-medium uppercase tracking-wide text-ink/55">{l}</p>
+                        <p className="mt-2 text-3xl md:text-4xl font-bold tracking-tight text-ink tabular-nums">{v}</p>
+                        <p className="mt-1 text-xs text-ink/45">{s}</p>
                       </div>
                     ))}
                   </div>
-                </div>
+                );
+              })()}
 
-                <div className="xl:col-span-5 bg-surface border border-gold/20 rounded-2xl p-6 md:p-8">
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Згадок за добу</h3>
-                  <p className="text-xs text-ink/45 mb-4">Сумарна кількість згадок про удари за кожну добу — по всіх областях вибірки разом.</p>
-                  <div className="space-y-2">
-                    {dashboard.trend.map((t) => (
-                      <div key={t.day} className="flex items-center gap-3">
-                        <span className="font-mono text-[10px] text-ink/35 w-14">{t.day.slice(5)}</span>
-                        <div className="h-3 bg-gold transition-all" style={{ width: `${Math.max(6, (t.total / dashboard.maxTrend) * 100)}%` }} />
-                        <span className="font-mono text-[10px] text-ink/75">{t.total}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mt-8 mb-3">Топ-області</h3>
-                  <div className="space-y-2">
-                    {dashboard.concreteByOblast.slice(0, 6).map((row) => (
-                      <div key={row.oblast} className="flex items-center justify-between border-b border-ink/10 pb-1">
-                        <span className="text-ink/70 text-sm truncate">{row.oblast}</span>
-                        <span className="font-mono text-[10px] text-gold-ink">{row.total}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mt-8 mb-3">Джерела (7 днів)</h3>
-                  <div className="space-y-2 font-mono text-[10px] uppercase tracking-widest">
-                    <div className="flex items-center justify-between border-b border-ink/10 pb-1"><span className="text-ink/60">X / Twitter</span><span className="text-gold-ink">{dashboard.bySource.x}</span></div>
-                    <div className="flex items-center justify-between border-b border-ink/10 pb-1"><span className="text-ink/60">Facebook</span><span className="text-gold-ink">{dashboard.bySource.facebook}</span></div>
-                    <div className="flex items-center justify-between border-b border-ink/10 pb-1"><span className="text-ink/60">Telegram</span><span className="text-gold-ink">{dashboard.bySource.telegram}</span></div>
-                  </div>
-                </div>
+              {/* Type filter */}
+              <div className="flex flex-wrap gap-2 mb-5">
+                {[
+                  { id: 'all', label: 'Усі' },
+                  { id: 'npz', label: 'НПЗ' },
+                  { id: 'airbase', label: 'Авіабази' },
+                  { id: 'navy', label: 'Флот' },
+                  { id: 'ammo', label: 'Склади БК' },
+                  { id: 'radar', label: 'Радар/ЗРК' },
+                  { id: 'logistics', label: 'Логістика' },
+                  { id: 'energy', label: 'Енергетика' },
+                  { id: 'industry', label: 'Промисловість' },
+                ].map(({ id, label }) => (
+                  <button
+                    key={id}
+                    type="button"
+                    onClick={() => setTargetTypeFilter(id)}
+                    className={`px-3.5 py-1.5 rounded-full text-[12px] font-medium transition-colors border ${
+                      targetTypeFilter === id
+                        ? 'bg-ink text-white border-ink'
+                        : 'bg-white border-ink/15 text-ink/70 hover:border-gold/50 hover:text-ink'
+                    }`}
+                  >
+                    {label}
+                    {id !== 'all' && (
+                      <span className={`ml-1.5 text-[10px] ${targetTypeFilter === id ? 'text-white/60' : 'text-ink/40'}`}>
+                        {(strategicTargets as Array<{type:string}>).filter(t => t.type === id).length}
+                      </span>
+                    )}
+                  </button>
+                ))}
               </div>
 
-              <div className="mt-6 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
-                <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-2">Приклади згадок по областях</h3>
-                <p className="text-xs text-ink/45 mb-4">Реальні заголовки з джерел із датою та автором. Клік відкриває першоджерело у новій вкладці.</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {dashboard.concreteByOblast.map((row) => (
-                    <div key={row.oblast} className="border border-gold/20 rounded-2xl bg-surface p-4">
-                      <div className="flex items-center justify-between mb-2">
-                        <span className="font-mono text-[10px] uppercase tracking-widest text-gold-ink">{row.oblast}</span>
-                        <span className="font-mono text-[10px] text-ink/50">{row.total} згадок</span>
-                      </div>
-                      <div className="space-y-2">
-                        {row.samples.length === 0 ? (
-                          <p className="text-xs text-ink/40">Немає заголовків у вікні 7 днів.</p>
-                        ) : row.samples.map((s) => (
-                          <a key={`${row.oblast}-${s.day}-${s.url}`} href={s.url} target="_blank" rel="noreferrer" className="block text-sm text-ink/80 leading-snug hover:text-gold-ink transition-colors">
-                            • [{s.source}] {s.headline}
-                            <span className="ml-1 text-ink/40 font-mono text-[10px]">({s.day.slice(5)} · {s.sourceLabel})</span>
-                          </a>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+              {/* Map */}
+              <div className="rounded-2xl border border-ink/10 overflow-hidden mb-6 shadow-sm">
+                <Suspense fallback={<div className="h-[480px] bg-surface-2 flex items-center justify-center"><span className="text-ink/40 text-sm animate-pulse">Завантаження карти…</span></div>}>
+                  <StrategicMap
+                    targets={strategicTargets as never[]}
+                    activeTypes={
+                      targetTypeFilter === 'all'
+                        ? new Set(['npz','airbase','navy','ammo','radar','logistics','energy','industry','military'])
+                        : new Set([targetTypeFilter])
+                    }
+                  />
+                </Suspense>
               </div>
-              <div className="mt-6 bg-surface-2 border border-gold/20 rounded-2xl p-6 md:p-8">
-                <h3 className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/70 mb-4">Методологія підрахунку</h3>
-                <p className="text-sm text-ink/55 leading-relaxed mb-4">Блок варто читати як моніторинг інформаційного навантаження по темі ударів. Один і той самий реальний епізод може дати кілька окремих згадок у різних джерелах, а окремі згадки можуть описувати наслідки, а не момент удару.</p>
-                <ol className="list-decimal pl-5 space-y-2 text-sm text-ink/75 leading-relaxed">
-                  <li>Збираємо пости за останні 7 діб із Telegram, X і Facebook.</li>
-                  <li>Враховуємо лише пости з маркерами удару: `удар`, `влуч`, `strike`, `missile`, `бпла` тощо.</li>
-                  <li>Визначаємо область через словник гео-аліасів у тексті.</li>
-                  <li>Видаляємо дублікати подій за ключем: день + область + джерело + заголовок.</li>
-                  <li>Кожен пункт має пряме посилання на пост або сторінку, звідки взята інформація.</li>
-                </ol>
+
+              {/* Legend */}
+              <div className="flex flex-wrap gap-x-4 gap-y-2 mb-6 text-[11px] text-ink-2">
+                {[
+                  { color: '#f97316', label: 'НПЗ' },
+                  { color: '#3b82f6', label: 'Авіабаза' },
+                  { color: '#14b8a6', label: 'Флот' },
+                  { color: '#a855f7', label: 'Склад БК' },
+                  { color: '#eab308', label: 'Радар/ЗРК' },
+                  { color: '#6b7280', label: 'Логістика' },
+                  { color: '#f59e0b', label: 'Енергетика' },
+                  { color: '#c084fc', label: 'Промисловість' },
+                ].map(({ color, label }) => (
+                  <span key={label} className="flex items-center gap-1.5">
+                    <span className="inline-block w-2.5 h-2.5 rounded-full" style={{ background: color }} />
+                    {label}
+                  </span>
+                ))}
+                <span className="flex items-center gap-1.5 ml-2 pl-2 border-l border-ink/10">
+                  <span className="inline-block w-2.5 h-2.5 rounded-full border-2 border-amber-500 bg-amber-500/40" /> Пошкоджено
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="inline-block w-2.5 h-2.5 rounded-full border-2 border-red-500 bg-red-500/40" /> Знищено
+                </span>
+                <span className="ml-auto text-ink/40 text-[10px] hidden md:inline">Ctrl + скрол для масштабування</span>
+              </div>
+
+              {/* Target list */}
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+                {(strategicTargets as Array<{id:string;name:string;type:string;region:string;status:string;priority:string;strike_history?:string;capacity?:string}>)
+                  .filter(t => targetTypeFilter === 'all' || t.type === targetTypeFilter)
+                  .sort((a, b) => {
+                    const po = {critical:0,high:1,medium:2,low:3};
+                    const so = {destroyed:0,damaged:1,active:2};
+                    return (so[a.status as keyof typeof so] ?? 2) - (so[b.status as keyof typeof so] ?? 2) ||
+                           (po[a.priority as keyof typeof po] ?? 3) - (po[b.priority as keyof typeof po] ?? 3);
+                  })
+                  .map((t) => {
+                    const typeLabels: Record<string,string> = {npz:'НПЗ',airbase:'Авіабаза',navy:'Флот',ammo:'Склад БК',radar:'Радар',logistics:'Логістика',energy:'Енергетика',industry:'Промисловість',military:'Військова'};
+                    const statusColor = t.status === 'destroyed' ? 'text-red-600 bg-red-50 border-red-200' : t.status === 'damaged' ? 'text-amber-700 bg-amber-50 border-amber-200' : 'text-green-700 bg-green-50 border-green-200';
+                    const statusLabel = t.status === 'destroyed' ? '✕ Знищено' : t.status === 'damaged' ? '△ Пошкоджено' : '✓ Активний';
+                    const prioColor = t.priority === 'critical' ? 'text-orange-700' : t.priority === 'high' ? 'text-amber-700' : 'text-ink/50';
+                    return (
+                      <div key={t.id} className={`oko-card p-4 ${t.status !== 'active' ? 'ring-1 ring-amber-400/30' : ''}`}>
+                        <div className="flex items-start justify-between gap-2 mb-2">
+                          <p className="font-semibold text-sm text-ink leading-snug flex-1">{t.name}</p>
+                          <span className={`shrink-0 text-[10px] font-semibold px-2 py-0.5 rounded-full border ${statusColor}`}>{statusLabel}</span>
+                        </div>
+                        <p className="text-[11px] text-ink/55 mb-2">{t.region}</p>
+                        <div className="flex flex-wrap gap-1.5 mb-2">
+                          <span className="text-[10px] px-2 py-0.5 rounded-full bg-surface-2 border border-ink/10 text-ink/65">{typeLabels[t.type] ?? t.type}</span>
+                          <span className={`text-[10px] px-2 py-0.5 rounded-full bg-surface-2 border border-ink/10 font-semibold ${prioColor}`}>{t.priority}</span>
+                          {t.capacity && <span className="text-[10px] px-2 py-0.5 rounded-full bg-surface-2 border border-ink/10 text-ink/55">{t.capacity}</span>}
+                        </div>
+                        {t.strike_history && (
+                          <p className="text-[11px] text-ink/65 leading-relaxed border-t border-ink/8 pt-2 mt-1">
+                            <span className="font-semibold text-gold-ink">↯</span> {t.strike_history}
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })}
               </div>
             </div>
           </motion.section>
-
           {/* SBS Stats */}
           <motion.section id="sbs" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
