@@ -139,31 +139,62 @@ const INFRASTRUCTURE_POINTS: InfrastructurePoint[] = [
 ];
 
 const STRIKE_REGIONS: StrikeRegion[] = [
-  { id: 'ru-belgorod', label: 'Бєлгородська область', position: [50.7, 37.1], aliases: ['бєлгород', 'белгород', 'belgorod'] },
-  { id: 'ru-kursk', label: 'Курська область', position: [51.7, 36.2], aliases: ['курськ', 'kursk'] },
-  { id: 'ru-bryansk', label: 'Брянська область', position: [53.2, 34.4], aliases: ['брянськ', 'bryansk'] },
-  { id: 'ru-rostov', label: 'Ростовська область', position: [47.45, 40.1], aliases: ['ростов', 'rostov', 'таганрог', 'taganrog'] },
-  { id: 'ru-krasnodar', label: 'Краснодарський край', position: [45.2, 39.1], aliases: ['краснодар', 'krasnodar', 'туапсе', 'tuapse', 'новоросійськ', 'новороссийск', 'novorossiysk', 'приморсько-ахтарськ', 'приморско-ахтарск'] },
-  { id: 'ru-volgograd', label: 'Волгоградська область', position: [48.7, 44.5], aliases: ['волгоград', 'volgograd'] },
-  { id: 'ru-saratov', label: 'Саратовська область', position: [51.55, 46.05], aliases: ['саратов', 'saratov', 'енгельс', 'engels'] },
-  { id: 'ru-ryazan', label: 'Рязанська область', position: [54.62, 39.75], aliases: ['рязань', 'ryazan', 'дягілево', 'дягилево', 'dyagilevo'] },
-  { id: 'ru-samara', label: 'Самарська область', position: [53.2, 50.15], aliases: ['самар', 'samara', 'куйбишев', 'куйбышев', 'novokuibyshevsk', 'новокуйбишев'] },
-  { id: 'ru-tatarstan', label: 'Татарстан', position: [55.7, 51.0], aliases: ['татарстан', 'tatarstan', 'нижньокамськ', 'нижнекамск', 'nizhnekamsk', 'танеко', 'taneco', 'елабуга', 'yelabuga'] },
-  { id: 'ru-bashkortostan', label: 'Башкортостан', position: [54.7, 56.0], aliases: ['башкортостан', 'bashkortostan', 'уфа', 'ufa', 'салават', 'salavat'] },
-  { id: 'ru-nizhny', label: 'Нижегородська область', position: [56.25, 44.0], aliases: ['нижегород', 'nizhny', 'кстово', 'kstovo', 'норси', 'norsi'] },
-  { id: 'ru-leningrad', label: 'Ленінградська область', position: [59.75, 30.2], aliases: ['ленінград', 'ленинград', 'санкт-петербург', 'st petersburg', 'петербург', 'усть-луга', 'ust-luga', 'приморськ', 'приморск', 'primorsk'] },
-  { id: 'ru-moscow', label: 'Москва / Московська область', position: [55.75, 37.6], aliases: ['москва', 'moscow', 'московськ', 'московск'] },
-  { id: 'ru-orel', label: 'Орловська область', position: [52.95, 36.05], aliases: ['орел', 'орёл', 'oryol', 'orel'] },
-  { id: 'ru-tula', label: 'Тульська область', position: [54.2, 37.6], aliases: ['тула', 'tula'] },
-  { id: 'ru-voronezh', label: 'Воронезька область', position: [51.65, 39.2], aliases: ['воронеж', 'voronezh'] },
-  { id: 'ru-astrakhan', label: 'Астраханська область', position: [46.35, 48.05], aliases: ['астрахан', 'astrakhan'] },
-  { id: 'ru-perm', label: 'Пермський край', position: [58.0, 56.25], aliases: ['перм', 'perm'] },
+  // Прикордонні (найактивніші)
+  { id: 'ru-belgorod', label: 'Бєлгородська область', position: [50.7, 37.1], aliases: ['бєлгород', 'белгород', 'belgorod', 'бєлгородськ', 'белгородск', 'шебекіно', 'shebekino', 'валуйки', 'valuyki'] },
+  { id: 'ru-kursk', label: 'Курська область', position: [51.7, 36.2], aliases: ['курськ', 'kursk', 'курщин', 'курська', 'курской', 'суджа', 'sudja', 'sudzha', 'рильськ', 'rylsk'] },
+  { id: 'ru-bryansk', label: 'Брянська область', position: [53.2, 34.4], aliases: ['брянськ', 'bryansk', 'брянська', 'брянской', 'клинц', 'klintsy', 'стародуб', 'starodub', 'новозибків', 'novozybkov', 'сєща', 'seshcha'] },
+  { id: 'ru-voronezh', label: 'Воронезька область', position: [51.65, 39.2], aliases: ['воронеж', 'voronezh', 'воронезьк', 'воронежск', 'борисоглєбськ', 'borisoglebsk'] },
+  { id: 'ru-orel', label: 'Орловська область', position: [52.95, 36.05], aliases: ['орел', 'орёл', 'oryol', 'orel', 'орловськ', 'орловск'] },
+
+  // Нафтопереробка / промисловість
+  { id: 'ru-ryazan', label: 'Рязанська область', position: [54.62, 39.75], aliases: ['рязань', 'ryazan', 'рязанськ', 'рязанск', 'дягілево', 'дягилево', 'dyagilevo', 'рязанський нпз', 'ryazan refinery'] },
+  { id: 'ru-samara', label: 'Самарська область', position: [53.2, 50.15], aliases: ['самар', 'samara', 'куйбишев', 'куйбышев', 'novokuibyshevsk', 'новокуйбишев', 'новокуйбишевськ', 'сизрань', 'syzran', 'сизранськ'] },
+  { id: 'ru-volgograd', label: 'Волгоградська область', position: [48.7, 44.5], aliases: ['волгоград', 'volgograd', 'волгоградськ', 'волгоградск', 'волгограднєфтємаш', 'маріновка', 'marinovka'] },
+  { id: 'ru-saratov', label: 'Саратовська область', position: [51.55, 46.05], aliases: ['саратов', 'saratov', 'саратовськ', 'саратовск', 'енгельс', 'engels', 'роснєфть', 'rosneft'] },
+  { id: 'ru-tatarstan', label: 'Татарстан / Казань', position: [55.7, 51.0], aliases: ['татарстан', 'tatarstan', 'казань', 'kazan', 'нижньокамськ', 'нижнекамск', 'nizhnekamsk', 'танеко', 'taneco', 'елабуга', 'yelabuga', 'набережні', 'naberezhnye'] },
+  { id: 'ru-bashkortostan', label: 'Башкортостан / Уфа', position: [54.7, 56.0], aliases: ['башкортостан', 'bashkortostan', 'уфа', 'ufa', 'салават', 'salavat', 'стерлітамак', 'sterlitamak', 'белорецьк', 'beloretsk'] },
+  { id: 'ru-nizhny', label: 'Нижегородська область', position: [56.25, 44.0], aliases: ['нижегород', 'nizhny', 'кстово', 'kstovo', 'нижній новгород', 'nizhniy novgorod', 'норси', 'norsi', 'дзержинськ', 'dzerzhinsk'] },
+  { id: 'ru-yaroslavl', label: 'Ярославська область', position: [57.55, 40.0], aliases: ['ярославл', 'yaroslavl', 'ярославська', 'ярославской', 'ярославський нпз', 'slavneft', 'ярославська нафто'] },
+  { id: 'ru-kirov', label: 'Кіровська область', position: [58.6, 49.65], aliases: ['кіров', 'кіровськ', 'kirov', 'kirovsk', 'вʼятка', 'вятка', 'vyatka', 'кіровська', 'кировской'] },
+  { id: 'ru-lipetsk', label: 'Ліпецька область', position: [52.6, 39.6], aliases: ['ліпецьк', 'lipetsk', 'ліпецька', 'липецкой', 'новоліпецьк', 'nlmk'] },
+
+  // Південь / узбережжя
+  { id: 'ru-rostov', label: 'Ростовська область', position: [47.45, 40.1], aliases: ['ростов', 'rostov', 'таганрог', 'taganrog', 'шахти', 'shakhty', 'новочеркаськ', 'novocherkassk', 'азов', 'azov', 'батайськ', 'bataysk', 'балтимор', 'baltimore-airfield'] },
+  { id: 'ru-krasnodar', label: 'Краснодарський край', position: [45.2, 39.1], aliases: ['краснодар', 'krasnodar', 'туапсе', 'tuapse', 'новоросійськ', 'новороссийск', 'novorossiysk', 'тихорецьк', 'tikhoretsk', 'приморсько-ахтарськ', 'primorsko-akhtarsk', 'афіпськ', 'afipsk', 'кримськ', 'krymsk', 'єйськ', 'yeysk', 'ханська', 'khanskaya'] },
+  { id: 'ru-astrakhan', label: 'Астраханська область', position: [46.35, 48.05], aliases: ['астрахан', 'astrakhan', 'астраханськ'] },
+
+  // Центральна Росія / ППО
+  { id: 'ru-moscow', label: 'Москва / Підмосков\'я', position: [55.75, 37.6], aliases: ['москва', 'moscow', 'московськ', 'московск', 'капотня', 'kapotnya', 'подмосков', 'підмосков', 'кубинка', 'kubinka', 'чкаловськ', 'chkalovsky'] },
+  { id: 'ru-tula', label: 'Тульська область', position: [54.2, 37.6], aliases: ['тула', 'tula', 'тульська', 'тульской', 'клоково', 'klokovo'] },
+  { id: 'ru-kaluga', label: 'Калузька область', position: [54.5, 36.25], aliases: ['калуга', 'kaluga', 'калузька', 'калужской', 'шайковка', 'shaykovka'] },
+  { id: 'ru-tver', label: 'Тверська область', position: [56.85, 35.9], aliases: ['твер', 'tver', 'тверська', 'тверской', 'торжок', 'torzhok', 'хотілово', 'khotilovo', 'мігалово', 'migalovo'] },
+  { id: 'ru-smolensk', label: 'Смоленська область', position: [54.8, 32.05], aliases: ['смоленськ', 'smolensk', 'смоленська', 'смоленской', 'шаталово', 'shatalovo'] },
+  { id: 'ru-pskov', label: 'Псковська область', position: [57.8, 28.34], aliases: ['псков', 'pskov', 'псковська', 'псковской', 'острів', 'ostrov-airfield'] },
+
+  // Ленінград / Північ
+  { id: 'ru-leningrad', label: 'Ленінград / Санкт-Петербург', position: [59.75, 30.2], aliases: ['ленінград', 'ленинград', 'санкт-петербург', 'st petersburg', 'петербург', 'усть-луга', 'ust-luga', 'приморськ', 'primorsk', 'левашово', 'levashovo', 'кіріші', 'kirishi', 'кинеф', 'kinef'] },
+
+  // Урал
+  { id: 'ru-orenburg', label: 'Оренбурзька область', position: [51.75, 55.1], aliases: ['оренбург', 'orenburg', 'орськ', 'orsk', 'оренбурзька', 'оренбургской'] },
+  { id: 'ru-perm', label: 'Пермський край', position: [58.0, 56.25], aliases: ['перм', 'perm', 'пермськ', 'пермск', 'велике савіно', 'bolshoye savino'] },
+  { id: 'ru-chelyabinsk', label: 'Челябінська область', position: [55.15, 61.4], aliases: ['челябінськ', 'chelyabinsk', 'челябінська', 'челябинской', 'шагол', 'shagol'] },
+  { id: 'ru-yekaterinburg', label: 'Єкатеринбург / Свердловська', position: [56.85, 60.6], aliases: ['єкатеринбург', 'yekaterinburg', 'sverdlovsk', 'свердловськ', 'уралхіммаш', 'uralkhimmash'] },
+
+  // Поволжя
   { id: 'ru-chuvashia', label: 'Чувашія', position: [56.15, 47.25], aliases: ['чуваш', 'cheboksary', 'чебоксар'] },
-  { id: 'ru-crimea', label: 'Крим', position: [45.25, 34.25], aliases: ['крим', 'crimea', 'севастопол', 'sevastopol', 'саки', 'saky', 'бельбек', 'belbek'] },
+  { id: 'ru-ulyanovsk', label: 'Ульяновська область', position: [54.3, 48.4], aliases: ['ульяновськ', 'ulyanovsk', 'ульяновська', 'ульяновской'] },
+
+  // Крим та Чорноморський регіон
+  { id: 'ru-crimea', label: 'Крим', position: [45.25, 34.25], aliases: ['крим', 'crimea', 'севастопол', 'sevastopol', 'саки', 'saky', 'бельбек', 'belbek', 'керч', 'kerch', 'джанкой', 'dzhankoi', 'гвардійське', 'hvardiiske', 'євпаторія', 'yevpatoria', 'сімферопол', 'simferopol'] },
 ];
 
-const STRIKE_RE = /(удар|влуч|уражен|знищен|атака|атакован|пожеж|вибух|дрон|бпла|strike|struck|hit|attack|explosion|blast|fire|drone|uav)/i;
-const RUSSIA_CONTEXT_RE = /(росі|росс|russia|russian|рф|окупован|crimea|крим|севастопол)/i;
+// Expanded STRIKE_RE: includes refinery/oil keywords and more verbs
+const STRIKE_RE = /(удар|влуч|уражен|знищен|атака|обстріл|пожеж|вибух|дрон|бпла|горить|горить|палає|підпалили|підпалено|strike|struck|hit|attack|shelling|explosion|blast|fire|drone|uav|refin|нпз|нафтопере|паливн|airstrike|missile)/i;
+
+// Must indicate Russian territory as the TARGET (not Russia doing the striking)
+// Positive: Russian cities/regions mentioned in Russian-target context
+// Also matches "по РФ", "у РФ", "в РФ", "на Росію"
+const RUSSIA_TARGET_RE = /(рф|росій[сц]|russia[n]|по росі|у росі|в росі|на росі|над рф|в рф|у рф|по рф|russian territory|russian soil|deep strike|all.*russia|crimea|крим|севастопол|окупован.*рф|рф.*горить|горить.*рф|вибух.*рф|рф.*вибух|аеродром.*рф|рф.*аеродром|паливо.*рф|рф.*паливо)/i;
 
 function TerritoryLayer({ geojson }: { geojson: GeoJsonObject }) {
   return (
@@ -265,9 +296,12 @@ function formatDate(value: string) {
 
 function buildRegionalStrikes(items: RssItem[]) {
   const now = Date.now();
-  const windowMs = 7 * 24 * 60 * 60 * 1000;
+  const windowMs = 14 * 24 * 60 * 60 * 1000; // 14-day window for better coverage
   const byRegion = new Map<string, RegionalStrike>();
   const seen = new Set<string>();
+
+  // Filter: exclude items where Ukraine is clearly the TARGET (not Russia)
+  const UKRAINE_TARGET_RE = /(рівненщин|дніпропетр|харківщин|запоріжж|херсонщин|одещин|миколаїв|сумщин|чернігівщ|по україн|по ukrainian|ukraine.*hit|ukraine.*struck|вдарив по.*украін|атакував.*украін|обстріл.*украін)/i;
 
   for (const item of items) {
     const ts = new Date(item.publishedAt || '').getTime();
@@ -275,7 +309,11 @@ function buildRegionalStrikes(items: RssItem[]) {
 
     const title = cleanText(item.titleUk || item.title || '');
     const text = `${title} ${cleanText(item.summaryUk || item.summary || '')}`;
-    if (!STRIKE_RE.test(text) || !RUSSIA_CONTEXT_RE.test(text)) continue;
+
+    // Must match strike keyword AND Russian territory context
+    if (!STRIKE_RE.test(text) || !RUSSIA_TARGET_RE.test(text)) continue;
+    // Skip items where Ukraine is clearly the target of the strike
+    if (UKRAINE_TARGET_RE.test(text)) continue;
 
     const low = text.toLowerCase();
     const matchedRegions = STRIKE_REGIONS.filter((region) =>
@@ -283,7 +321,7 @@ function buildRegionalStrikes(items: RssItem[]) {
     );
 
     for (const region of matchedRegions) {
-      const key = `${region.id}:${title.toLowerCase().slice(0, 120)}`;
+      const key = `${region.id}:${title.toLowerCase().slice(0, 100)}`;
       if (seen.has(key)) continue;
       seen.add(key);
 
@@ -321,6 +359,8 @@ export default function MapService() {
   const [distance, setDistance] = useState<number | null>(null);
   const [regionalStrikes, setRegionalStrikes] = useState<RegionalStrike[]>([]);
   const [strikeUpdatedAt, setStrikeUpdatedAt] = useState('');
+  const [strikeTotalItems, setStrikeTotalItems] = useState(0);
+  const [nextUpdateSec, setNextUpdateSec] = useState(300);
   const [territoryGeojson, setTerritoryGeojson] = useState<GeoJsonObject | null>(null);
   const [territoryStatus, setTerritoryStatus] = useState<'loading' | 'ready' | 'error'>('loading');
 
@@ -353,15 +393,34 @@ export default function MapService() {
       Promise.all([
         fetch(`/data/rss_twitter.json?_t=${t}`).then((r) => (r.ok ? r.json() : { items: [] })),
         fetch(`/data/rss_facebook.json?_t=${t}`).then((r) => (r.ok ? r.json() : { items: [] })),
+        // Telegram channel posts as a third source
+        fetch(`/data/posts.json?_t=${t}`).then((r) => {
+          if (!r.ok) return [];
+          return r.json().then((posts: Array<{ title?: string; text?: string; date?: string; telegramUrl?: string }>) =>
+            (Array.isArray(posts) ? posts : []).map((p) => ({
+              id: p.telegramUrl || String(Math.random()),
+              title: p.title || p.text?.slice(0, 120) || '',
+              summary: p.text || '',
+              publishedAt: p.date ? new Date(p.date.replace(/(\d+) ([А-ЯІЇЄ]+) (\d{4}) \/ (\d{2}):(\d{2})/, (_, d, m, y, hh, mm) => {
+                const months: Record<string, string> = { 'СІЧ':'Jan','ЛЮТ':'Feb','БЕР':'Mar','КВІ':'Apr','ТРА':'May','ЧЕР':'Jun','ЛИП':'Jul','СЕР':'Aug','ВЕР':'Sep','ЖОВ':'Oct','ЛИС':'Nov','ГРУ':'Dec','ТРАВ':'May','ЧЕРВ':'Jun','СЕРП':'Aug','ВЕРЕС':'Sep','ЖОВТ':'Oct','ЛИСТ':'Nov','ГРУД':'Dec' };
+                return `${d} ${months[m.toUpperCase()] || 'Jan'} ${y} ${hh}:${mm}`;
+              })).toISOString() : new Date().toISOString(),
+              url: p.telegramUrl || '',
+            }))
+          );
+        }).catch(() => []),
       ])
-        .then(([xData, fbData]) => {
+        .then(([xData, fbData, postsItems]) => {
           if (cancelled) return;
           const items = [
             ...(Array.isArray(xData?.items) ? xData.items : []),
             ...(Array.isArray(fbData?.items) ? fbData.items : []),
+            ...(Array.isArray(postsItems) ? postsItems : []),
           ] as RssItem[];
+          setStrikeTotalItems(items.length);
           setRegionalStrikes(buildRegionalStrikes(items));
           setStrikeUpdatedAt(new Date().toISOString());
+          setNextUpdateSec(300);
         })
         .catch(() => {
           if (!cancelled) setRegionalStrikes([]);
@@ -370,9 +429,14 @@ export default function MapService() {
 
     loadRegionalStrikes();
     const interval = setInterval(loadRegionalStrikes, 5 * 60 * 1000);
+    // Countdown timer
+    const countdownInterval = setInterval(() => {
+      setNextUpdateSec((s) => (s > 0 ? s - 1 : 300));
+    }, 1000);
     return () => {
       cancelled = true;
       clearInterval(interval);
+      clearInterval(countdownInterval);
     };
   }, []);
 
@@ -437,32 +501,55 @@ export default function MapService() {
       <div className="relative w-full h-[520px] md:h-[800px] bg-[#0a0a0a] border border-ink/10 rounded-2xl overflow-hidden group shadow-sm">
         <div className={`absolute top-4 md:top-6 left-4 md:left-6 right-4 sm:right-auto z-[400] sm:w-64 md:w-72 max-h-[calc(100%-2rem)] md:max-h-[calc(100%-3rem)] overflow-y-auto space-y-3 transition-all duration-500 ease-in-out ${isSidebarOpen ? 'translate-x-0 opacity-100' : '-translate-x-[120%] opacity-0 pointer-events-none'}`}>
           <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
-            <div className="flex items-center gap-2 mb-3 border-b border-ink/10 pb-2.5">
+            <div className="flex items-center gap-2 mb-2.5 border-b border-ink/10 pb-2.5">
               <Activity className="w-3.5 h-3.5 text-gold-ink" />
-              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Статус карти</span>
+              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Статус моніторингу</span>
             </div>
-            <p className="text-[11px] text-ink-2 leading-relaxed">
-              Точні військові координати не відображаються. Показані регіональні OSINT-індикатори та згадки за 7 днів.
+            <div className="grid grid-cols-3 gap-2 mb-2.5">
+              <div className="text-center border border-ink/8 rounded-lg py-1.5">
+                <p className="text-base font-bold text-ink tabular-nums">{strikeTotalItems}</p>
+                <p className="text-[9px] uppercase tracking-wide text-ink-2/70">джерел</p>
+              </div>
+              <div className="text-center border border-ink/8 rounded-lg py-1.5">
+                <p className="text-base font-bold text-red-600 tabular-nums">{regionalStrikes.length}</p>
+                <p className="text-[9px] uppercase tracking-wide text-ink-2/70">регіонів</p>
+              </div>
+              <div className="text-center border border-ink/8 rounded-lg py-1.5">
+                <p className="text-base font-bold text-gold-ink tabular-nums">{Math.floor(nextUpdateSec / 60)}:{String(nextUpdateSec % 60).padStart(2, '0')}</p>
+                <p className="text-[9px] uppercase tracking-wide text-ink-2/70">оновлення</p>
+              </div>
+            </div>
+            <p className="text-[10px] text-ink-2/60 leading-relaxed">
+              Оновлення кожні 5 хв · RSS/X + Facebook + Telegram. Останнє: {strikeUpdatedAt ? formatDate(strikeUpdatedAt) : '—'}.
             </p>
-            <div className="mt-3 border border-ink/10 bg-surface-2 rounded-lg p-2.5 text-[11px] text-ink-2 leading-relaxed">
-              Автооновлення кожні 5 хвилин із RSS/X та Facebook-стрічок. Останнє оновлення: {strikeUpdatedAt ? formatDate(strikeUpdatedAt) : 'н/д'}.
-            </div>
           </div>
 
           <div className="bg-white/95 backdrop-blur-xl border border-ink/10 rounded-2xl p-4 shadow-lg">
-            <div className="flex items-center gap-2 mb-3">
-              <RadioTower className="w-3.5 h-3.5 text-red-600" />
-              <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Удари по РФ · 7 днів</span>
+            <div className="flex items-center justify-between gap-2 mb-3">
+              <div className="flex items-center gap-2">
+                <RadioTower className="w-3.5 h-3.5 text-red-600" />
+                <span className="text-[11px] uppercase tracking-wide font-semibold text-ink">Удари по РФ · 14 днів</span>
+              </div>
+              {regionalStrikes.length > 0 && (
+                <span className="text-[10px] text-red-600 font-bold bg-red-50 border border-red-200 rounded-full px-2 py-0.5">{regionalStrikes.reduce((a, r) => a + r.count, 0)} згадок</span>
+              )}
             </div>
             <div className="space-y-1.5 text-[12px] text-ink-2">
-              {regionalStrikes.slice(0, 5).map((region) => (
-                <div key={region.id} className="flex items-center justify-between gap-3 border-b border-ink/5 pb-1">
-                  <span className="truncate">{region.label}</span>
-                  <span className="text-red-600 font-bold tabular-nums">{region.count}</span>
+              {regionalStrikes.slice(0, 8).map((region) => (
+                <div key={region.id} className="flex items-center gap-2 border-b border-ink/5 pb-1">
+                  <div className="flex-1 min-w-0">
+                    <span className="truncate block text-ink">{region.label}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    <div className="h-1.5 rounded-full bg-red-200" style={{ width: `${Math.max(16, Math.min(48, region.count * 8))}px` }}>
+                      <div className="h-full rounded-full bg-red-500" style={{ width: '100%' }} />
+                    </div>
+                    <span className="text-red-600 font-bold tabular-nums w-5 text-right">{region.count}</span>
+                  </div>
                 </div>
               ))}
               {regionalStrikes.length === 0 && (
-                <div className="text-ink-2/70 leading-relaxed">За останні 7 днів немає регіональних згадок, що пройшли фільтр.</div>
+                <div className="text-ink-2/60 text-[11px] leading-relaxed py-1">За останні 14 днів немає підтверджених регіональних згадок.</div>
               )}
             </div>
           </div>
