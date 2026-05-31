@@ -644,12 +644,13 @@ export default function App() {
             {/* Ukrainian Armed Forces insignia strip — official Wikimedia SVGs */}
             <div className="grid grid-cols-6 gap-2 md:flex md:flex-wrap md:items-center md:gap-5 mb-10 relative z-10">
               <div className="flex flex-col items-center gap-1.5 group cursor-default" title="Нарукавний знак ЗСУ">
-                <div className="w-full h-[52px] md:w-14 md:h-14 flex items-center justify-center border border-gold/30 rounded-2xl bg-gold/10 group-hover:border-gold/70 group-hover:bg-gold/20 transition-all duration-300 p-1.5">
+                <div className="w-full h-[52px] md:w-14 md:h-14 flex items-center justify-center border border-gold/30 rounded-2xl bg-gold/10 group-hover:border-gold/70 group-hover:bg-gold/20 transition-all duration-300 p-1">
                   <img
-                    src="assets-zsu-patch.png"
+                    src="zsu-insignia.png"
                     alt="Нарукавний знак ЗСУ"
                     className="max-w-full max-h-full object-contain"
                     loading="lazy"
+                    onError={e => { (e.target as HTMLImageElement).style.opacity = '0.2'; }}
                   />
                 </div>
                 <span className="text-[10px] font-medium text-gold-ink/80 group-hover:text-gold-ink transition-colors">ЗСУ</span>
