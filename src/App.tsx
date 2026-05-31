@@ -1256,7 +1256,7 @@ export default function App() {
                           title={row.text}
                         >
                           <span className="font-mono text-[10px] text-ink/60">день {row.day}</span>
-                          <span className={`text-base sm:text-sm md:text-xs lg:text-sm xl:text-base font-black tracking-[-0.01em] tabular-nums whitespace-nowrap ${isRelease ? 'text-sky-700' : 'text-gold-ink'}`}>{formatSignedKm2(row.diffKm2)}</span>
+                          <span className={`text-sm font-black tracking-[-0.01em] tabular-nums leading-tight ${isRelease ? 'text-sky-700' : 'text-gold-ink'}`}>{formatSignedKm2(row.diffKm2)}</span>
                           <span className="font-mono text-[9px] uppercase tracking-widest text-ink/38">{isRelease ? 'звільнення' : 'просування ворога'}</span>
                         </div>
                       );
