@@ -187,15 +187,15 @@
     border: 1px solid var(--oko-line);
     border-radius: var(--radius);
     box-shadow:
-      0 1px 2px rgba(11, 11, 12, 0.04),
-      0 12px 30px -18px rgba(11, 11, 12, 0.18);
-    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+      0 1px 3px rgba(11, 11, 12, 0.05),
+      0 8px 24px -12px rgba(11, 11, 12, 0.12);
+    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
   }
   .oko-card:hover {
-    border-color: rgba(201, 162, 39, 0.35);
+    border-color: rgba(201, 162, 39, 0.40);
     box-shadow:
-      0 2px 4px rgba(11, 11, 12, 0.05),
-      0 22px 50px -22px rgba(201, 162, 39, 0.30);
+      0 2px 6px rgba(11, 11, 12, 0.06),
+      0 18px 40px -16px rgba(201, 162, 39, 0.28);
     transform: translateY(-2px);
   }
   .oko-inset {

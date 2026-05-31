@@ -603,7 +603,7 @@ export default function App() {
       </nav>
 
       {/* ── Main ───────────────────────────────────────────────────────────── */}
-      <main className="pt-16 md:pt-40 px-4 md:px-8 pb-6 md:pb-24 main-content-pad">
+      <main className="pt-14 md:pt-28 px-4 md:px-8 pb-6 md:pb-16 main-content-pad">
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -612,7 +612,7 @@ export default function App() {
         >
 
           {/* Hero Typography */}
-          <motion.div variants={fadeIn} className="mb-12 md:mb-32 relative overflow-hidden">
+          <motion.div variants={fadeIn} className="mb-10 md:mb-20 relative overflow-hidden">
             <div className="absolute inset-0 -z-20 pointer-events-none select-none hidden md:block">
               <img
                 src="assets-zsu-patch.png"
@@ -711,12 +711,12 @@ export default function App() {
           </motion.div>
 
           {/* Interactive Investigations */}
-          <motion.section id="investigations" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
+          <motion.section id="investigations" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ НОВИЙ РОЗДІЛ</span>
-                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">Інтерактивні розслідування</h2>
+                  <span className="oko-eyebrow mb-4">/ НОВИЙ РОЗДІЛ</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">Інтерактивні розслідування</h2>
                 </div>
                 <a href="https://t.me/oko_gora" target="_blank" rel="noreferrer"
                   className="font-mono text-xs uppercase tracking-widest text-ink/30 hover:text-gold-ink transition-colors">
@@ -741,7 +741,7 @@ export default function App() {
                 <article className="mb-5 bg-surface border border-gold/45 rounded-2xl p-6 md:p-8 lg:p-10">
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-end">
                     <div className="lg:col-span-8">
-                      <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4">{featuredInvestigation.code}</p>
+                      <p className="oko-eyebrow mb-4">{featuredInvestigation.code}</p>
                       <h3 className="text-3xl md:text-5xl font-bold tracking-[-0.018em] leading-[1.05] text-ink">{featuredInvestigation.title}</h3>
                       <p className="mt-4 text-base md:text-lg text-ink/60 max-w-3xl leading-relaxed">{featuredInvestigation.summary}</p>
                     </div>
@@ -779,7 +779,7 @@ export default function App() {
           </motion.section>
 
           {/* Map */}
-          <motion.div id="map" variants={fadeIn} className="mb-32 md:mb-48 w-full scroll-mt-28">
+          <motion.div id="map" variants={fadeIn} className="mb-16 md:mb-28 w-full scroll-mt-28">
             <Suspense fallback={
               <div className="w-full h-[500px] md:h-[800px] bg-surface-2 border border-gold/20 rounded-2xl flex items-center justify-center">
                 <span className="font-mono text-[10px] uppercase tracking-widest text-gold-ink/40 animate-pulse">ЗАВАНТАЖЕННЯ_МАПИ...</span>
@@ -790,7 +790,7 @@ export default function App() {
           </motion.div>
 
           {/* System Utilities */}
-          <motion.div variants={fadeIn} className="mb-32 md:mb-48">
+          <motion.div variants={fadeIn} className="mb-16 md:mb-28">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Terminal */}
               <div className="lg:col-span-1 bg-surface-2 text-gold-ink p-6 font-mono text-[10px] leading-relaxed border border-gold/25 rounded-2xl shadow-2xl relative overflow-hidden">
@@ -884,12 +884,12 @@ export default function App() {
           </motion.div>
 
           {/* Brigades Dashboard */}
-          <motion.section id="brigades" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
+          <motion.section id="brigades" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ UNITS DASHBOARD</span>
-                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">Активні підрозділи: ураження та реорганізація</h2>
+                  <span className="oko-eyebrow mb-4">/ UNITS DASHBOARD</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">Активні підрозділи: ураження та реорганізація</h2>
                   <p className="mt-4 text-ink/60 max-w-4xl text-sm leading-relaxed">
                     Автоматичний моніторинг офіційних Telegram-каналів українських підрозділів (бригади, корпуси, полки та командування) за останні дні. Показуємо тільки ті підрозділи, що реально публікували оновлення в цей період.
                   </p>
@@ -974,11 +974,11 @@ export default function App() {
           </motion.section>
 
           {/* 7D Dashboard */}
-          <motion.section id="analytics" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
+          <motion.section id="analytics" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="mb-8">
-                <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ МОНІТОРИНГ ВІДКРИТИХ ДЖЕРЕЛ</span>
-                <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">Карта згадок про удари</h2>
+                <span className="oko-eyebrow mb-4">/ МОНІТОРИНГ ВІДКРИТИХ ДЖЕРЕЛ</span>
+                <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">Карта згадок про удари</h2>
                 <p className="mt-4 text-ink/60 max-w-3xl text-sm md:text-base leading-relaxed">Скільки разів за останні 7 днів у відкритих джерелах згадували удари — у розрізі областей і днів. Це міра інформаційної активності навколо теми, а не реєстр підтверджених влучань.</p>
               </div>
 
@@ -1101,12 +1101,12 @@ export default function App() {
           </motion.section>
 
           {/* SBS Stats */}
-          <motion.section id="sbs" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
+          <motion.section id="sbs" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ SBS STATS</span>
-                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">SBS: ураження за добу</h2>
+                  <span className="oko-eyebrow mb-4">/ SBS STATS</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">SBS: ураження за добу</h2>
                   <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут показана відкрита статистика SBS у зручному вигляді. Беремо останній доступний запис за добу, показуємо кількість уражених і знищених цілей, категорії техніки та посилання на оригінальну сторінку.
                   </p>
@@ -1204,12 +1204,12 @@ export default function App() {
           </motion.section>
 
           {/* DeepState Table */}
-          <motion.section id="deepstate" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
+          <motion.section id="deepstate" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ DEEPSTATE TABLE</span>
-                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">DeepState: зміни фронту</h2>
+                  <span className="oko-eyebrow mb-4">/ DEEPSTATE TABLE</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">DeepState: зміни фронту</h2>
                   <p className="mt-4 text-ink/68 max-w-4xl text-sm md:text-base leading-relaxed">
                     Тут коротко показані останні рядки з таблиці DeepState: скільки змінилося, який текст пояснення і де відкрити повну таблицю.
                   </p>
@@ -1303,12 +1303,12 @@ export default function App() {
           </motion.section>
 
           {/* RSS / X feed */}
-          <motion.section id="rss" variants={fadeIn} className="mb-32 md:mb-48 scroll-mt-28">
+          <motion.section id="rss" variants={fadeIn} className="mb-16 md:mb-28 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ LIVE RSS</span>
-                  <h2 className="text-[1.75rem] md:text-6xl font-bold tracking-[-0.018em] leading-[1.1] md:leading-[1.02]">RSS OSINT-стрічка</h2>
+                  <span className="oko-eyebrow mb-4">/ LIVE RSS</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] leading-[1.1] md:leading-[1.04]">RSS OSINT-стрічка</h2>
                   <p className="mt-4 text-ink/70 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
                     Новини з українських та OSINT-видань (Українська Правда, Euromaidan Press, ArmyInform, UNIAN, Militarnyi) за останні дні про Україну, війну, підрозділи та удари. Текст очищається від HTML-вставок, картки сортуються за часом, а фільтри допомагають швидко знайти потрібну тему.
                   </p>
@@ -1453,12 +1453,12 @@ export default function App() {
           </motion.section>
 
           {/* Posts Feed */}
-          <motion.section id="feed" variants={fadeIn} className="mb-32 scroll-mt-28">
+          <motion.section id="feed" variants={fadeIn} className="mb-16 scroll-mt-28">
             <div className="border-t border-gold/30 pt-12 md:pt-16">
               <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 border-b border-gold/22 pb-7 mb-8 md:mb-10">
                 <div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink mb-4 block">/ ПУБЛІКАЦІЇ КАНАЛУ</span>
-                  <h2 className="text-[1.75rem] md:text-7xl font-bold tracking-[-0.02em] text-ink leading-[1.1] md:leading-[1.0]">Стрічка Око Гора</h2>
+                  <span className="oko-eyebrow mb-4">/ ПУБЛІКАЦІЇ КАНАЛУ</span>
+                  <h2 className="text-[1.6rem] md:text-5xl font-bold tracking-[-0.022em] text-ink leading-[1.1] md:leading-[1.04]">Стрічка Око Гора</h2>
                   <p className="mt-4 max-w-3xl text-base md:text-lg font-semibold leading-relaxed text-ink/64">
                     Останні пости з Telegram-каналу: коротке превʼю, джерело внизу картки та швидка кнопка для поширення.
                   </p>
@@ -1564,7 +1564,7 @@ export default function App() {
                 </div>
                 <div>
                   <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold-ink/75">/ ЦИФРОВА ПЛАТФОРМА КАНАЛУ</p>
-                  <h3 className="mt-2 text-4xl md:text-6xl font-black tracking-[-0.02em] leading-[1.0] text-gold-ink">
+                  <h3 className="mt-2 text-3xl md:text-5xl font-black tracking-[-0.022em] leading-[1.04] text-gold-ink">
                     Око Гора
                   </h3>
                 </div>

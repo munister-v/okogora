@@ -429,7 +429,7 @@ export default function InvestigationPage() {
           </Link>
         </div>
 
-        <section className="relative z-10 mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 pb-10 md:px-8 md:pb-14 lg:grid-cols-12 lg:gap-10">
+        <section className="relative z-10 mx-auto grid max-w-[1280px] grid-cols-1 gap-6 px-4 pb-6 md:px-8 md:pb-8 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-8 xl:col-span-9">
             <div className="oko-eyebrow mb-4">Розслідування · {category}</div>
             <div className="mb-4 flex flex-wrap items-center gap-2">
@@ -482,7 +482,7 @@ export default function InvestigationPage() {
         </section>
       </div>
 
-      <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 py-8 md:px-8 md:py-12 lg:grid-cols-12 lg:gap-10">
+      <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-8 px-4 py-6 md:px-8 md:py-8 lg:grid-cols-12 lg:gap-10">
         <aside className="lg:col-span-3 xl:col-span-3">
           <div className="lg:sticky lg:top-24 space-y-4">
             <div className="oko-card p-5">
@@ -604,12 +604,12 @@ export default function InvestigationPage() {
           border-color: rgba(11,11,12,0.4);
         }
         .article-body {
-          max-width: 740px;
+          max-width: 720px;
           margin: 0 auto;
           color: #2c2c2e;
           font-family: var(--font-sans);
-          font-size: 1rem;
-          line-height: 1.82;
+          font-size: 1.0625rem;
+          line-height: 1.78;
           text-align: left;
           hyphens: none;
           text-wrap: pretty;
