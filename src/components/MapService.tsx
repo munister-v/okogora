@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Circle, CircleMarker, GeoJSON, LayersControl, Polyline, Popup, Tooltip, useMapEvents } from 'react-leaflet';
+import { useCallback, useEffect, useState } from 'react';
+import { MapContainer, TileLayer, Circle, CircleMarker, GeoJSON, LayersControl, Polyline, Popup, Tooltip, useMap, useMapEvents, ZoomControl } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import type { PathOptions } from 'leaflet';
@@ -203,6 +203,39 @@ function MapEvents({
   return null;
 }
 
+/**
+ * Prevents the map from hijacking page scroll on mobile & desktop.
+ * Scroll-wheel zoom only engages while Ctrl/Cmd is held; otherwise the
+ * wheel event passes through to the page and a hint banner appears briefly.
+ */
+function ScrollGuard({ onBlocked }: { onBlocked: () => void }) {
+  const map = useMap();
+  useEffect(() => {
+    map.scrollWheelZoom.disable();
+    const container = map.getContainer();
+    const handleWheel = (e: WheelEvent) => {
+      if (e.ctrlKey || e.metaKey) {
+        if (!map.scrollWheelZoom.enabled()) map.scrollWheelZoom.enable();
+      } else {
+        if (map.scrollWheelZoom.enabled()) map.scrollWheelZoom.disable();
+        onBlocked();
+      }
+    };
+    const releaseKey = (e: KeyboardEvent) => {
+      if ((e.key === 'Control' || e.key === 'Meta') && map.scrollWheelZoom.enabled()) {
+        map.scrollWheelZoom.disable();
+      }
+    };
+    container.addEventListener('wheel', handleWheel, { passive: true });
+    window.addEventListener('keyup', releaseKey);
+    return () => {
+      container.removeEventListener('wheel', handleWheel);
+      window.removeEventListener('keyup', releaseKey);
+    };
+  }, [map, onBlocked]);
+  return null;
+}
+
 function territoryStatusLabel(status: 'loading' | 'ready' | 'error') {
   if (status === 'ready') return 'ГОТОВО';
   if (status === 'error') return 'ПОМИЛКА';
@@ -282,6 +315,7 @@ export default function MapService() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(
     () => typeof window === 'undefined' || window.innerWidth >= 768,
   );
+  const [scrollHint, setScrollHint] = useState(false);
   const [telemetry, setTelemetry] = useState({ lat: 45.0, lng: 35.0 });
   const [measurePoints, setMeasurePoints] = useState<[number, number][]>([]);
   const [distance, setDistance] = useState<number | null>(null);
@@ -341,6 +375,16 @@ export default function MapService() {
       clearInterval(interval);
     };
   }, []);
+
+  const showScrollHint = useCallback(() => {
+    setScrollHint(true);
+  }, []);
+
+  useEffect(() => {
+    if (!scrollHint) return;
+    const t = setTimeout(() => setScrollHint(false), 1800);
+    return () => clearTimeout(t);
+  }, [scrollHint]);
 
   const calculateDistance = (p1: [number, number], p2: [number, number]) => {
     const lat1 = p1[0];
@@ -520,11 +564,20 @@ export default function MapService() {
           </div>
         </div>
 
+        {/* Scroll-wheel hint overlay */}
+        {scrollHint && (
+          <div className="absolute inset-0 z-[500] flex items-center justify-center pointer-events-none">
+            <div className="bg-black/70 text-white text-sm md:text-base font-medium px-6 py-3 rounded-full backdrop-blur-sm animate-fade-hint">
+              Ctrl + скрол для масштабування
+            </div>
+          </div>
+        )}
+
         <MapContainer
           center={[53.4, 43.2]}
           zoom={4}
-          scrollWheelZoom
-          className="w-full h-full z-0 cursor-crosshair"
+          scrollWheelZoom={false}
+          className="w-full h-full z-0"
           zoomControl={false}
         >
           <LayersControl position="bottomright">
@@ -549,6 +602,8 @@ export default function MapService() {
             </LayersControl.Overlay>
           </LayersControl>
 
+          <ZoomControl position="topright" />
+          <ScrollGuard onBlocked={showScrollHint} />
           <MapEvents
             onMouseMove={(lat, lng) => setTelemetry({ lat, lng })}
             onClick={(lat, lng) => handleMapClick(lat, lng)}
@@ -560,33 +615,33 @@ export default function MapService() {
             const color = isNaval ? '#38bdf8' : '#facc15';
             const radius = isAirfield ? 5 : 7;
             const kindLabel = isAirfield ? 'Аеродром' : isNaval ? 'Морський контур' : 'Авіаційний регіон';
-            const badge = isAirfield ? '✈ АЕРОДРОМ' : isNaval ? '⚓ ФЛОТ' : 'АВІА';
+            const badge = isAirfield ? '✈ Аеродром' : isNaval ? '⚓ Флот' : 'Авіа';
             return (
               <CircleMarker
                 key={point.id}
                 center={point.position}
                 radius={radius}
                 pathOptions={{
-                  color: isAirfield ? color : '#ffffff',
-                  weight: isAirfield ? 1 : 1.5,
+                  color: '#ffffff',
+                  weight: 1.8,
                   fillColor: color,
-                  fillOpacity: isAirfield ? 0.75 : 0.88,
+                  fillOpacity: 0.82,
                 }}
               >
                 <Tooltip direction="top" offset={[0, -6]} opacity={0.95}>
-                  <span className="font-mono text-[10px]">
-                    {kindLabel} · {point.label}
+                  <span className="text-[11px]">
+                    {kindLabel} · <strong>{point.label}</strong>
                   </span>
                 </Tooltip>
                 <Popup className="tactical-popup">
-                  <div className="font-mono p-3 bg-[#111111] text-white border border-white/10 min-w-[250px]">
-                    <div className="flex justify-between items-start mb-2 border-b border-white/15 pb-2 gap-2">
-                      <h5 className="font-bold text-white uppercase text-xs tracking-tight leading-tight">{point.label}</h5>
-                      <span className="text-[8px] px-1.5 py-0.5 bg-white/10 rounded" style={{ color }}>
+                  <div className="p-4 bg-[#111111] text-white min-w-[260px] rounded-xl">
+                    <div className="flex justify-between items-start mb-2.5 pb-2.5 border-b border-white/10 gap-3">
+                      <h5 className="font-semibold text-white text-[13px] leading-snug">{point.label}</h5>
+                      <span className="text-[9px] px-2 py-0.5 rounded-full font-semibold whitespace-nowrap" style={{ color, background: `${color}20` }}>
                         {badge}
                       </span>
                     </div>
-                    <p className="text-[9px] text-white/60 leading-relaxed">{point.note}</p>
+                    <p className="text-[11px] text-white/65 leading-relaxed">{point.note}</p>
                   </div>
                 </Popup>
               </CircleMarker>
@@ -608,29 +663,29 @@ export default function MapService() {
                 }}
               >
                 <Tooltip direction="top" offset={[0, -radius]} opacity={0.95}>
-                  <span className="font-mono text-[10px]">
-                    {region.label}: {region.count} згад.
+                  <span className="text-[11px]">
+                    <strong>{region.label}</strong> · {region.count} згадок
                   </span>
                 </Tooltip>
                 <Popup className="tactical-popup">
-                  <div className="font-mono p-3 bg-[#111111] text-white border border-white/10 min-w-[270px]">
-                    <div className="flex justify-between items-start mb-2 border-b border-white/15 pb-2 gap-2">
-                      <h5 className="font-bold text-white uppercase text-xs tracking-tight leading-tight">{region.label}</h5>
-                      <span className="text-[8px] px-1.5 py-0.5 bg-red-500/15 text-red-200">{region.count} / 7 ДНІВ</span>
+                  <div className="p-4 bg-[#111111] text-white min-w-[270px] rounded-xl">
+                    <div className="flex justify-between items-start mb-2.5 pb-2.5 border-b border-white/10 gap-3">
+                      <h5 className="font-semibold text-white text-[13px] leading-snug">{region.label}</h5>
+                      <span className="text-[9px] px-2 py-0.5 rounded-full bg-red-500/20 text-red-300 font-semibold whitespace-nowrap">{region.count} / 7 днів</span>
                     </div>
-                    <div className="space-y-2 text-[9px]">
-                      <p className="text-white/60 leading-relaxed">Регіональна OSINT-агрегація повідомлень про удари по території РФ. Маркер не є точною геолокацією події.</p>
+                    <div className="space-y-2.5 text-[11px]">
+                      <p className="text-white/55 leading-relaxed">OSINT-агрегація повідомлень про удари по території РФ. Маркер — не точна геолокація.</p>
                       {region.latestTitle && (
-                        <p className="text-white/85 leading-relaxed border-t border-white/5 pt-2">{region.latestTitle}</p>
+                        <p className="text-white/85 leading-relaxed border-t border-white/8 pt-2">{region.latestTitle}</p>
                       )}
-                      <div className="flex justify-between border-t border-white/5 pt-2">
-                        <span className="opacity-45 uppercase">Останнє:</span>
-                        <span className="text-white/75">{region.latestDate ? formatDate(region.latestDate) : 'н/д'}</span>
+                      <div className="flex justify-between border-t border-white/8 pt-2 text-[10px]">
+                        <span className="text-white/40">Останнє</span>
+                        <span className="text-white/70">{region.latestDate ? formatDate(region.latestDate) : 'н/д'}</span>
                       </div>
                       {region.latestUrl && (
-                        <div className="flex justify-between">
-                          <span className="opacity-45 uppercase">Джерело:</span>
-                          <a href={region.latestUrl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">відкрити</a>
+                        <div className="flex justify-between text-[10px]">
+                          <span className="text-white/40">Джерело</span>
+                          <a href={region.latestUrl} target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200 underline underline-offset-2">відкрити ↗</a>
                         </div>
                       )}
                     </div>
@@ -662,22 +717,53 @@ export default function MapService() {
         </MapContainer>
       </div>
 
+      {/* Legend */}
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-3 px-1 text-[11px] md:text-xs text-ink-2">
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#facc15] border border-[#a68b0d]" />
+          Аеродроми РФ
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#38bdf8] border border-white/60" />
+          Морські об'єкти
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-2.5 h-2.5 rounded-full bg-[#ef4444] border border-white/60" />
+          Удари по РФ (7 днів)
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="inline-block w-3 h-[3px] rounded bg-orange-500" />
+          Вимірювальна лінійка
+        </span>
+        <span className="ml-auto text-ink-2/50 text-[10px] hidden md:inline">Ctrl + скрол для масштабування</span>
+      </div>
+
       <style>{`
         .leaflet-container {
           background: #0a0a0a !important;
         }
+        /* ── Popups ── */
         .tactical-popup .leaflet-popup-content-wrapper {
           background: transparent !important;
           color: white !important;
           padding: 0 !important;
-          border-radius: 0 !important;
-          box-shadow: none !important;
+          border-radius: 12px !important;
+          box-shadow: 0 12px 40px rgba(0,0,0,0.45) !important;
+          overflow: hidden !important;
         }
         .tactical-popup .leaflet-popup-content {
           margin: 0 !important;
         }
         .tactical-popup .leaflet-popup-tip {
           background: #111 !important;
+        }
+        /* ── Tooltips ── */
+        .leaflet-tooltip {
+          font-family: var(--font-sans, system-ui) !important;
+          border-radius: 8px !important;
+          padding: 4px 10px !important;
+          font-size: 11px !important;
+          box-shadow: 0 4px 14px rgba(0,0,0,0.25) !important;
         }
         .measurement-tooltip {
           background: rgba(17, 17, 17, 0.92) !important;
@@ -687,6 +773,7 @@ export default function MapService() {
         .measurement-tooltip .leaflet-tooltip-content {
           margin: 4px 8px !important;
         }
+        /* ── Layer control ── */
         .leaflet-control-layers {
           background: rgba(255, 255, 255, 0.95) !important;
           color: #0b0b0c !important;
@@ -694,9 +781,50 @@ export default function MapService() {
           border-radius: 12px !important;
           box-shadow: 0 8px 24px rgba(11, 11, 12, 0.12) !important;
           font-family: var(--font-sans, system-ui) !important;
+          padding: 6px 4px !important;
         }
         .leaflet-control-layers label {
           font-size: 12px !important;
+        }
+        /* ── Zoom control ── */
+        .leaflet-control-zoom {
+          border: 1px solid rgba(11,11,12,0.1) !important;
+          border-radius: 12px !important;
+          box-shadow: 0 4px 16px rgba(11,11,12,0.1) !important;
+          overflow: hidden;
+        }
+        .leaflet-control-zoom a {
+          background: rgba(255,255,255,0.95) !important;
+          color: #0b0b0c !important;
+          width: 36px !important;
+          height: 36px !important;
+          line-height: 36px !important;
+          font-size: 18px !important;
+          border: none !important;
+          border-bottom: 1px solid rgba(11,11,12,0.08) !important;
+        }
+        .leaflet-control-zoom a:last-child {
+          border-bottom: none !important;
+        }
+        .leaflet-control-zoom a:hover {
+          background: #f4f5f3 !important;
+        }
+        /* ── Scroll hint animation ── */
+        @keyframes fadeHint {
+          0% { opacity: 0; transform: scale(0.92); }
+          15% { opacity: 1; transform: scale(1); }
+          85% { opacity: 1; }
+          100% { opacity: 0; }
+        }
+        .animate-fade-hint {
+          animation: fadeHint 1.8s ease-out forwards;
+        }
+        /* ── Attribution ── */
+        .leaflet-control-attribution {
+          font-size: 9px !important;
+          background: rgba(255,255,255,0.7) !important;
+          border-radius: 6px 0 0 0 !important;
+          padding: 2px 6px !important;
         }
       `}</style>
     </div>

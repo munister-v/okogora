@@ -32,6 +32,25 @@
         }
       })();
     </script>
+    <script>
+      // Source protection: disable right-click context menu, common devtools shortcuts, text selection on non-input elements
+      (function(){
+        document.addEventListener('contextmenu',function(e){e.preventDefault();});
+        document.addEventListener('keydown',function(e){
+          // F12, Ctrl+Shift+I/J/C, Ctrl+U
+          if(e.key==='F12'||(e.ctrlKey&&e.shiftKey&&/^[IJC]$/i.test(e.key))||(e.ctrlKey&&e.key==='u')){e.preventDefault();}
+        });
+        // Detect devtools open via debugger timing (soft — doesn't break anything)
+        var _dc=0;(function _chk(){var s=performance.now();(function(){}).constructor('debugger')();if(performance.now()-s>100){_dc++;if(_dc>2)document.body.classList.add('dt-open');}setTimeout(_chk,3000);})();
+      })();
+    </script>
+    <style>
+      /* Disable text selection site-wide except inputs/textareas */
+      body{-webkit-user-select:none;user-select:none;}
+      input,textarea,pre,code,[contenteditable]{-webkit-user-select:text;user-select:text;}
+      /* When devtools detected, blur the app slightly as a deterrent */
+      .dt-open #root{filter:blur(3px);pointer-events:none;}
+    </style>
   </head>
   <body>
     <div id="root"></div>
