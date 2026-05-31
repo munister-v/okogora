@@ -9,6 +9,7 @@ import { setSeo } from './lib/seo';
 
 const MapService = lazy(() => import('./components/MapService'));
 const StrategicMap = lazy(() => import('./components/StrategicMap'));
+const SupplyRoutesMap = lazy(() => import('./components/SupplyRoutesMap'));
 
 // ── Color tokens ──────────────────────────────────────────────────────────────
 // bg:    #ffffff  (dark military olive)
@@ -902,15 +903,22 @@ export default function App() {
                   </div>
                 </div>
 
-                <Link to="/targets" className="bg-surface border border-gold/20 rounded-2xl p-8 hover:border-gold/60 hover:bg-surface-3 transition-all duration-500 group relative block">
-                  <Database className="w-8 h-8 mb-6 text-gold-ink/40 group-hover:text-gold-ink transition-colors" />
-                  <h4 className="text-2xl font-bold mb-2 tracking-[-0.018em]">База цілей</h4>
-                  <p className="text-sm text-ink/50 leading-snug mb-8">Каталог НПЗ, авіабаз, складів і об'єктів ВПК Росії з координатами та статусом ураження.</p>
-                  <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-ink/10">
-                    <span className="flex items-center gap-2 text-gold-ink"><Shield className="w-3 h-3" /> 38+ ОБ'ЄКТІВ</span>
-                    <span className="text-ink/30 group-hover:text-gold-ink flex items-center gap-1 transition-colors">ВІДКРИТИ <ArrowUpRight className="w-3 h-3" /></span>
+                <div className="bg-surface border border-ink/10 rounded-2xl overflow-hidden flex flex-col">
+                  <div className="px-4 pt-4 pb-2 flex items-center justify-between border-b border-ink/8">
+                    <div>
+                      <p className="oko-eyebrow mb-1">Логістика РФ</p>
+                      <h4 className="text-lg font-bold tracking-[-0.018em] leading-tight">Траси постачання</h4>
+                    </div>
+                    <Link to="/targets" className="text-[11px] font-medium text-gold-ink hover:opacity-75 transition-opacity flex items-center gap-1">
+                      База цілей <ArrowUpRight className="w-3 h-3" />
+                    </Link>
                   </div>
-                </Link>
+                  <div className="flex-1 min-h-0">
+                    <Suspense fallback={<div className="h-[340px] flex items-center justify-center text-[11px] text-ink/40 animate-pulse">Завантаження карти…</div>}>
+                      <SupplyRoutesMap />
+                    </Suspense>
+                  </div>
+                </div>
               </div>
             </div>
 
