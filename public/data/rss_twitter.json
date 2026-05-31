@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T21:15:00.367Z",
+  "generatedAt": "2026-05-31T23:16:44.739Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,38 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-0bd83b1cbfac",
+      "title": "Russia&#8217;s $30m terror missile keeps missing",
+      "url": "https://euromaidanpress.com/2026/06/01/oreshnik-fails/",
+      "summary": "If Russia's Oreshnik missile is a terror weapon, it's not actually a very scary one. It keeps missing and failing.",
+      "publishedAt": "2026-05-31T22:28:12.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російська терористична ракета вартістю 30 мільйонів доларів продовжує зникати",
+      "summaryUk": "Якщо російська ракета «Орешник» є терористичною зброєю, то насправді вона не дуже страшна. Він постійно відсутній і виходить з ладу."
+    },
+    {
+      "id": "x-euromaidan-5fa82f901bf5",
+      "title": "Can Russian missiles really decimate Kyiv?",
+      "url": "https://euromaidanpress.com/2026/06/01/can-russian-missiles-really-decimate-kyiv/",
+      "summary": "Missiles remain a deadly threat but are bottlenecked by production and launch platform availability",
+      "publishedAt": "2026-05-31T22:26:16.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Чи справді російські ракети можуть знищити Київ?",
+      "summaryUk": "Ракети залишаються смертельною загрозою, але вони обмежені через наявність платформи для виробництва та запуску"
+    },
     {
       "id": "x-pravda-6500b419ffd5",
       "title": "В Одесі дрон влучив у багатоповерхівку",
@@ -912,38 +944,6 @@
       ],
       "titleUk": "Загроза глобальній продовольчій безпеці: Росія збила три торгові судна під іноземним прапором в українському Чорноморському коридорі",
       "summaryUk": "Судно під прапором Вануату евакуювало поранених. Балкер АНТ був підбитий під час переходу з Одеси до Туреччини."
-    },
-    {
-      "id": "x-euromaidan-106f9a70492e",
-      "title": "Volgograd refinery and a key Yaroslavl oil-pipeline station struck in one night",
-      "url": "https://euromaidanpress.com/2026/05/29/volgograd-refinery-and-a-key-yaroslavl-oil-pipeline-station-struck-in-one-night/",
-      "summary": "In the afternoon, Russia shut airports 2,000 km from Ukraine over an unprecedented missile alert that covered the entire Urals Federal District, as Kyiv pushed its long-range campaign deeper into Russian territory.",
-      "publishedAt": "2026-05-29T17:02:34.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Волгоградський нафтопереробний завод і ключова ярославська нафтопроводна станція вдарили в одну ніч",
-      "summaryUk": "У другій половині дня Росія закрила аеропорти за 2000 км від України через безпрецедентну ракетну тривогу, яка охопила весь Уральський федеральний округ, оскільки Київ просунув свою далекобійну кампанію глибше на російську територію."
-    },
-    {
-      "id": "x-euromaidan-6bc01e036a45",
-      "title": "Real risk: Kyiv is detecting Belarus activity that could threaten Ukraine and European countries in future, &#8220;Flash&#8221; Beskrestnov says",
-      "url": "https://euromaidanpress.com/2026/05/29/real-risk-ukraine-is-detecting-belarus-activity-that-could-threaten-ukraine-and-european-countries-in-future/",
-      "summary": "Serhii 'Flash' Beskrestnov doesn't rule out Russia using Belarus as a missile or Shahed launchpad.",
-      "publishedAt": "2026-05-29T16:20:07.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Реальний ризик: Київ фіксує активність Білорусі, яка в майбутньому може загрожувати Україні та європейським країнам, – «Спалах» Бескрестнов",
-      "summaryUk": "Сергій «Флеш» Бескрестнов не виключає використання Росією Білорусі як ракетного або пускового майданчика «Шахед»."
     },
     {
       "id": "x-militarnyi-de3ccb4374a7",
