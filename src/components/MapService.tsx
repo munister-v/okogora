@@ -676,9 +676,9 @@ export default function MapService() {
                     <div className="space-y-2.5 text-[11px]">
                       <p className="text-white/55 leading-relaxed">OSINT-агрегація повідомлень про удари по території РФ. Маркер — не точна геолокація.</p>
                       {region.latestTitle && (
-                        <p className="text-white/85 leading-relaxed border-t border-white/8 pt-2">{region.latestTitle}</p>
+                        <p className="text-white/85 leading-relaxed border-t border-white/10 pt-2">{region.latestTitle}</p>
                       )}
-                      <div className="flex justify-between border-t border-white/8 pt-2 text-[10px]">
+                      <div className="flex justify-between border-t border-white/10 pt-2 text-[10px]">
                         <span className="text-white/40">Останнє</span>
                         <span className="text-white/70">{region.latestDate ? formatDate(region.latestDate) : 'н/д'}</span>
                       </div>
