@@ -655,7 +655,6 @@ export default function MapService() {
         {scrollHint && (
           <div className="absolute inset-0 z-[500] flex items-center justify-center pointer-events-none">
             <div className="bg-black/70 text-white text-sm md:text-base font-medium px-6 py-3 rounded-full backdrop-blur-sm animate-fade-hint">
-              Ctrl + скрол для масштабування
             </div>
           </div>
         )}
@@ -822,7 +821,6 @@ export default function MapService() {
           <span className="inline-block w-3 h-[3px] rounded bg-orange-500" />
           Вимірювальна лінійка
         </span>
-        <span className="ml-auto text-ink-2/50 text-[10px] hidden md:inline">Ctrl + скрол для масштабування</span>
       </div>
 
       <style>{`

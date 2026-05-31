@@ -54,6 +54,7 @@ type PechalStats = {
     totalBySerial?: number;
     totalApproxByMaxPostId: number;
   };
+  days?: Array<{ day: string; count: number }>;
   latestProofs?: Array<{
     id: number;
     datetime: string;
@@ -825,43 +826,79 @@ export default function App() {
 
               {/* Cards */}
               <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-surface border border-gold/20 rounded-2xl p-8 hover:border-gold/60 hover:bg-surface-3 transition-all duration-500 group relative">
-                  <Activity className="w-8 h-8 mb-6 text-gold-ink/40 group-hover:text-gold-ink transition-colors" />
-                  <h4 className="text-2xl font-bold mb-2 tracking-[-0.018em]">Горюшко · щоденне оновлення</h4>
-                  <p className="text-sm text-ink/50 leading-snug mb-6">Автоматичний лічильник нових записів у каналі за поточний день і за 7 днів. Сумарне значення беремо з останнього номера у тексті поста, не з ID Telegram.</p>
-                  <div className="grid grid-cols-3 gap-2 mb-6 font-mono text-center">
-                    <div className="border border-gold/20 rounded-xl py-2">
-                      <div className="text-lg font-bold text-gold-ink">{pechalStats?.counters.today ?? 0}</div>
-                      <div className="text-[8px] uppercase tracking-widest text-ink/40">сьогодні</div>
+                <div className="bg-surface border border-ink/10 rounded-2xl overflow-hidden hover:border-gold/45 hover:shadow-[0_12px_40px_rgba(11,11,12,0.07)] transition-all duration-400 group relative">
+                  {/* Header */}
+                  <div className="px-6 pt-6 pb-4 border-b border-ink/8">
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <div>
+                        <p className="oko-eyebrow mb-2">Горюшко · щоденне</p>
+                        <h4 className="text-xl font-bold tracking-[-0.018em] leading-tight">Втрати ЗС РФ</h4>
+                      </div>
+                      <div className="w-10 h-10 rounded-xl bg-red-50 border border-red-200/60 flex items-center justify-center shrink-0">
+                        <Activity className="w-5 h-5 text-red-500" />
+                      </div>
                     </div>
-                    <div className="border border-gold/20 rounded-xl py-2">
-                      <div className="text-lg font-bold text-ink">{pechalStats?.counters.last7Days ?? 0}</div>
-                      <div className="text-[8px] uppercase tracking-widest text-ink/40">7 днів</div>
-                    </div>
-                    <div className="border border-gold/20 rounded-xl py-2">
-                      <div className="text-lg font-bold text-ink">{(pechalStats?.counters.totalBySerial ?? pechalStats?.counters.totalApproxByMaxPostId ?? 0).toLocaleString('uk-UA')}</div>
-                      <div className="text-[8px] uppercase tracking-widest text-ink/40">сумарно*</div>
-                    </div>
+                    <p className="text-[11px] text-ink/50 leading-relaxed mt-2">Канал «Горюшко»: документовані записи про загиблих бійців ЗС РФ. Число — порядковий номер із тексту посту.</p>
                   </div>
-                  <div className="mb-5 border border-gold/18 rounded-2xl bg-surface-2/55 p-3 font-mono text-[9px] uppercase tracking-widest text-ink/42">
-                    <div className="flex items-center justify-between gap-3">
-                      <span>Оновлено</span>
-                      <span className="text-ink/75">{formatSnapshotDate(pechalStats?.generatedAt)}</span>
-                    </div>
-                    <div className="mt-2 flex items-center justify-between gap-3">
-                      <span>Останній пост</span>
-                      {pechalStats?.latestProofs?.[0]?.url ? (
-                        <a href={pechalStats.latestProofs[0].url} target="_blank" rel="noreferrer" className="text-gold-ink hover:text-gold-ink transition-colors">
-                          #{pechalStats.latestProofs[0].id}
-                        </a>
-                      ) : (
-                        <span className="text-ink/45">н/д</span>
-                      )}
-                    </div>
+
+                  {/* Big number */}
+                  <div className="px-6 py-5 bg-gradient-to-br from-surface to-surface-2 border-b border-ink/8">
+                    <p className="text-[11px] font-semibold uppercase tracking-wider text-ink/45 mb-1">Задокументовано загалом</p>
+                    <p className="text-4xl md:text-5xl font-black tracking-[-0.03em] text-ink tabular-nums">
+                      {(pechalStats?.counters.totalBySerial ?? 0).toLocaleString('uk-UA')}
+                    </p>
+                    <p className="text-[11px] text-ink/40 mt-1">записів у базі</p>
                   </div>
-                  <div className="flex justify-between items-center font-mono text-[10px] tracking-widest pt-4 border-t border-ink/10">
-                    <a href={pechalStats?.sourceUrl || 'https://t.me/s/pechalbeda200'} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gold-ink hover:text-gold-ink transition-colors"><Shield className="w-3 h-3" /> Відкрити канал</a>
-                    <span className="text-ink/30">*номер у пості</span>
+
+                  {/* Mini bar chart — last 7 days */}
+                  <div className="px-6 py-4 border-b border-ink/8">
+                    <p className="text-[10px] font-semibold uppercase tracking-wider text-ink/45 mb-3">Останні 8 днів</p>
+                    {(() => {
+                      const days = pechalStats?.days?.slice(-8) ?? [];
+                      const max = Math.max(1, ...days.map(d => d.count));
+                      return (
+                        <div className="flex items-end gap-1 h-12">
+                          {days.length > 0 ? days.map((d, i) => {
+                            const isToday = i === days.length - 1;
+                            const h = Math.max(4, Math.round((d.count / max) * 100));
+                            return (
+                              <div key={d.day} className="flex-1 flex flex-col items-center gap-1 group/bar" title={`${d.day.slice(5)}: ${d.count}`}>
+                                <span className="text-[9px] text-ink/45 leading-none">{d.count}</span>
+                                <div
+                                  className={`w-full rounded-t-sm transition-all ${isToday ? 'bg-gold' : 'bg-ink/15 group-hover/bar:bg-gold/60'}`}
+                                  style={{ height: `${h}%` }}
+                                />
+                                <span className="text-[8px] text-ink/35 leading-none">{d.day.slice(8)}</span>
+                              </div>
+                            );
+                          }) : (
+                            <div className="flex items-center w-full text-[11px] text-ink/40">Дані оновлюються…</div>
+                          )}
+                        </div>
+                      );
+                    })()}
+                  </div>
+
+                  {/* Stats row */}
+                  <div className="grid grid-cols-3 divide-x divide-ink/8">
+                    {[
+                      { v: pechalStats?.counters.today ?? 0, l: 'сьогодні' },
+                      { v: pechalStats?.counters.last7Days ?? 0, l: '7 днів' },
+                      { v: pechalStats?.counters.last30Days ?? 0, l: '30 днів' },
+                    ].map(({ v, l }) => (
+                      <div key={l} className="px-3 py-3 text-center">
+                        <p className="text-lg font-black tabular-nums text-ink">{v}</p>
+                        <p className="text-[9px] uppercase tracking-wide text-ink/40">{l}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Footer */}
+                  <div className="px-6 py-3 flex items-center justify-between border-t border-ink/8 bg-surface-2/40">
+                    <a href={pechalStats?.sourceUrl || 'https://t.me/s/pechalbeda200'} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-[11px] font-medium text-gold-ink hover:opacity-80 transition-opacity">
+                      <Shield className="w-3 h-3" /> Відкрити канал
+                    </a>
+                    <span className="text-[10px] text-ink/35 font-mono">{pechalStats?.latestProofs?.[0] ? `#${pechalStats.latestProofs[0].id}` : '—'}</span>
                   </div>
                 </div>
 
@@ -1091,7 +1128,6 @@ export default function App() {
                 <span className="flex items-center gap-1.5">
                   <span className="inline-block w-2.5 h-2.5 rounded-full border-2 border-red-500 bg-red-500/40" /> Знищено
                 </span>
-                <span className="ml-auto text-ink/40 text-[10px] hidden md:inline">Ctrl + скрол для масштабування</span>
               </div>
 
               {/* Target list */}
