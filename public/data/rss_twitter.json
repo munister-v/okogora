@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T20:24:38.856Z",
+  "generatedAt": "2026-06-04T23:36:00.051Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,8 +98,152 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-18f80804ccf3",
+      "title": "Russia keeps four field armies fed through three southern towns. Ukraine&#8217;s drones just arrived.",
+      "url": "https://euromaidanpress.com/2026/06/05/southern-chokepoints/",
+      "summary": "A 1 June drone strike near Chernihivka hit the layer the Russians used to assume was out of reach.",
+      "publishedAt": "2026-06-04T23:31:04.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія тримає чотири польові армії, які харчуються через три південні міста. Щойно прибули українські дрони.",
+      "summaryUk": "1 червня безпілотник під Чернігівкою вразив шар, який росіяни вважали недосяжним."
+    },
+    {
+      "id": "x-euromaidan-c751aad40480",
+      "title": "Russo-Ukrainian war, day 1562: Zelenskyy writes open letter to Putin as Berlin, Paris, and London sketch a plan to bring Moscow to talks",
+      "url": "https://euromaidanpress.com/2026/06/05/russo-ukrainian-war-day-1562/",
+      "summary": "Zelenskyy issued an open letter telling Putin the war is his personal choice, as Germany, France, and the UK sketched a plan to bring Moscow to the negotiating table — with Kyiv holding the final say. On the battlefield, Ukraine claimed \"fire control\" over occupied Donetsk Airport, closing out its heaviest deep-strike month of the year. Sweden and France seized Russian shadow-fleet assets, while the IAEA reported fresh attacks on power infrastructure tied to the Zaporizhzhia nuclear plant.",
+      "publishedAt": "2026-06-04T21:51:37.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1562: Зеленський пише відкритого листа Путіну, поки Берлін, Париж і Лондон накидають план залучення Москви до переговорів",
+      "summaryUk": "Зеленський опублікував відкритий лист, в якому сказав Путіну, що війна є його особистим вибором, оскільки Німеччина, Франція та Велика Британія накидали план посадити Москву за стіл переговорів, а останнє слово за Києвом. На полі бою Україна заявила про «контроль над вогнем» над окупованим Донецьким аеропортом, завершивши свій найсильніший місяць з глибокими ударами в році. Швеція та Франція захопили активи російського тіньового флоту, а МАГАТЕ повідомило про нові атаки на енергетичну інфраструктуру, пов’язану із Запорізькою АЕС."
+    },
+    {
+      "id": "x-pravda-e0a120e25e07",
+      "title": "Росіяни атакували Конотоп безпілотниками: поранено п'ятьох людей, серед них троє дітей",
+      "url": "https://www.pravda.com.ua/news/2026/06/05/8037837/",
+      "summary": "Російські окупанти вдарили безпілотниками по житлових будинках і цивільній інфраструктурі Конотопа, внаслідок чого постраждали щонайменше п'ятеро людей.",
+      "publishedAt": "2026-06-04T21:26:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували Конотоп безпілотниками: поранено п'ятьох людей, серед них троє дітей",
+      "summaryUk": "Російські окупанти вдарили безпілотниками по житлових будинках і цивільній інфраструктурі Конотопа, внаслідок чого постраждали щонайменше п'ятеро людей."
+    },
+    {
+      "id": "x-euromaidan-ed6b8e0e2df3",
+      "title": "“First operation of its kind”: Ukraine claims “fire control” over occupied Donetsk Airport deep behind frontline",
+      "url": "https://euromaidanpress.com/2026/06/05/ukraine-claims-fire-control-over-donetsk-airport/",
+      "summary": "Ukrainian forces say sustained strikes have made the occupied airport unusable for Russian military operations.",
+      "publishedAt": "2026-06-04T21:16:28.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Перша операція такого роду»: Україна заявляє про «контроль над вогнем» над окупованим Донецьким аеропортом глибоко за лінією фронту",
+      "summaryUk": "Українські сили кажуть, що постійні удари зробили окупований аеропорт непридатним для російських військових операцій."
+    },
+    {
+      "id": "x-pravda-3bab367f2597",
+      "title": "У Києві та низці областей оголошували тривогу через загрозу балістики",
+      "url": "https://www.pravda.com.ua/news/2026/06/05/8037836/",
+      "summary": "У Києві та низці регіонів України оголошували повітряну тривогу через загрозу застосування російськими військами балістичного озброєння.",
+      "publishedAt": "2026-06-04T21:02:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві та низці областей оголошували тривогу через загрозу балістики",
+      "summaryUk": "У Києві та низці регіонів України оголошували повітряну тривогу через загрозу застосування російськими військами балістичного озброєння."
+    },
+    {
+      "id": "x-pravda-f6e741fc80c3",
+      "title": "Генштаб повідомив про 224 бойових зіткнення з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/06/04/8037835/",
+      "summary": "З початку доби 4 червня на фронті відбулось 224 бойових зіткнення, з них 33 на Покровському напрямку і 27 – на Гуляйпільському.",
+      "publishedAt": "2026-06-04T20:55:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб повідомив про 224 бойових зіткнення з початку доби",
+      "summaryUk": "З початку доби 4 червня на фронті відбулось 224 бойових зіткнення, з них 33 на Покровському напрямку і 27 – на Гуляйпільському."
+    },
+    {
+      "id": "x-euromaidan-75c16761fc3b",
+      "title": "Ukraine logs heaviest deep strike month of the year, hitting 18 oil and gas facilities in Russia",
+      "url": "https://euromaidanpress.com/2026/06/04/ukraine-logs-heaviest-deep-strike-month-of-the-year-hitting-18-oil-and-gas-facilities-in-russia/",
+      "summary": "Ukraine hit a laundry list of targets including military factories, warships, shadow fleet tankers, aircraft, and other assets",
+      "publishedAt": "2026-06-04T20:51:14.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна зафіксувала найсильніший глибокий удар у цьому році, вразивши 18 нафтогазових об’єктів у Росії",
+      "summaryUk": "Україна вразила список цілей, включаючи військові заводи, військові кораблі, танкери тіньового флоту, літаки та інші активи"
+    },
+    {
+      "id": "x-euromaidan-230a99b0eeaf",
+      "title": "“Nuclear blackmail” – IAEA reports attack on power infrastructure tied to Zaporizhzhia nuclear plant",
+      "url": "https://euromaidanpress.com/2026/06/04/iaea-reports-attack-on-power-infrastructure-tied-to-zaporizhzhia-nuclear-plant/",
+      "summary": "Ukraine says only demilitarization can restore safety at the occupied facility.",
+      "publishedAt": "2026-06-04T20:41:58.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "“Ядерний шантаж” – МАГАТЕ заявляє про атаку на енергоінфраструктуру, прив’язану до Запорізької АЕС",
+      "summaryUk": "Україна каже, що лише демілітаризація може відновити безпеку на окупованому об’єкті."
+    },
+    {
+      "id": "x-pravda-8236d5e01e0c",
+      "title": "Посли ЄС у п'ятницю планують погодити спільну позицію щодо першого кластера для України",
+      "url": "https://www.pravda.com.ua/news/2026/06/04/8037833/",
+      "summary": "Комітет постійних представників ЄС 5 червня планує дійти принципової згоди щодо спільної позиції Європейського Союзу щодо кластера 1 \"Основи\" для України та для Молдови, аби обидва документи ухвалили наступного тижня.",
+      "publishedAt": "2026-06-04T20:18:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Посли ЄС у п'ятницю планують погодити спільну позицію щодо першого кластера для України",
+      "summaryUk": "Комітет постійних представників ЄС 5 червня планує дійти принципової згоди щодо спільної позиції Європейського Союзу щодо кластера 1 \"Основи\" для України та для Молдови, аби обидва документи ухвалили наступного тижня."
+    },
+    {
       "id": "x-pravda-f20d74fb8ca3",
-      "title": "Кількість поранених через російську атаку по Запоріжжю зросла до 10",
+      "title": "Через російську атаку по Запоріжжю загинула жінка, кількість постраждалих зросла до 11",
       "url": "https://www.pravda.com.ua/news/2026/06/04/8037813/",
       "summary": "Російська армія атакувала безпілотниками спальний район Запоріжжя: постраждали 4 людей.",
       "publishedAt": "2026-06-04T20:07:00.000Z",
@@ -110,7 +254,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Кількість поранених через російську атаку по Запоріжжю зросла до 10",
+      "titleUk": "Через російську атаку по Запоріжжю загинула жінка, кількість постраждалих зросла до 11",
       "summaryUk": "Російська армія атакувала безпілотниками спальний район Запоріжжя: постраждали 4 людей."
     },
     {
@@ -126,7 +270,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Ця війна — твій особистий вибір»: відкритий лист Зеленського до Путіна закликає припинити війну, попереджає, що Росія зіткнулася зі зростаючим тиском",
+      "titleUk": "«Ця війна — ваш особистий вибір»: відкритий лист Зеленського до Путіна закликає припинити війну та попереджає, що Росія зіткнеться зі зростаючим тиском",
       "summaryUk": "Зеленський закликає до припинення вогню та переговорів на рівні лідерів, кажучи, що Росія перебуває під зростаючим тиском через втрати, санкції та внутрішню втому."
     },
     {
@@ -143,7 +287,7 @@
         "UKRAINE"
       ],
       "titleUk": "Україна показала світові свій дрон-пускову установку. Росія знайшла його через чотири дні.",
-      "summaryUk": "Дронам, націленим на штучний інтелект, потрібні тренувальні зображення, щоб знаходити свої цілі. Україна щойно подарувала Росії один."
+      "summaryUk": "Дронам, націленим на штучний інтелект, потрібні навчальні зображення, щоб знаходити свої цілі. Україна щойно подарувала Росії один."
     },
     {
       "id": "x-pravda-de81bcbcb7bd",
@@ -226,6 +370,22 @@
       "summaryUk": "Президент України Володимир Зеленський закликав російського лідера Володимира Путіна не продовжувати війну у 2027 та 2028 роках."
     },
     {
+      "id": "x-armyinform-ee3a1734b12c",
+      "title": "«Не бійтеся вийти з війни»: Володимир Зеленський запропонував путіну зустріч і припинення вогню",
+      "url": "https://armyinform.com.ua/2026/06/04/ne-bijtesya-vyjty-z-vijny-volodymyr-zelenskyj-zaproponuvav-putinu-zustrich-i-prypynennya-vognyu/",
+      "summary": "Про це йдеться у відкритому листі Президента України, оприлюдненому Офісом Президента. Володимир Зеленський заявив, що після більш ніж 26 років влади путіна порядок денний між...",
+      "publishedAt": "2026-06-04T18:53:32.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Не бійтеся вийти з війни»: Володимир Зеленський запропонував путіну зустріч і припинення вогню",
+      "summaryUk": "Про це йдеться у відкритому листі Президента України, оприлюдненому Офісом Президента. Володимир Зеленський заявив, що після більш ніж 26 років влади путіна порядок денний між..."
+    },
+    {
       "id": "x-pravda-f687b7644ecd",
       "title": "Зеленський у відкритому листі запропонував Путіну зустрітись, але не в Москві, щоб закінчити війну",
       "url": "https://www.pravda.com.ua/news/2026/06/04/8037818/",
@@ -306,52 +466,100 @@
       "summaryUk": "Путін після зустрічі з Трампом заявив про готовність Росії до мирних компромісів для завершення війни проти України."
     },
     {
-      "id": "x-pravda-16c231c0a943",
-      "title": "СБС взяли під вогневий контроль Донецький аеропорт, перетворений на логістичний хаб",
-      "url": "https://www.pravda.com.ua/news/2026/06/04/8037800/",
-      "summary": "СБС знищив установки Шахед, крани, техніку й склади РФ у Донецькому аеропорту, ускладнивши функціонування ворога.",
-      "publishedAt": "2026-06-04T17:33:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
+      "id": "x-armyinform-0d3026a240f9",
+      "title": "174 пробоїни в російському «щиті»: СБС уразили ППО ворога на понад $5,4 млрд",
+      "url": "https://armyinform.com.ua/2026/06/04/174-proboyiny-v-rosijskomu-shhyti-sbs-urazyly-ppo-voroga-na-ponad-54-mlrd/",
+      "summary": "Про це повідомили у Силах безпілотних систем ЗСУ. Серед підтверджених цілей — зенітні ракетні комплекси, радіолокаційні станції та засоби радіоелектронної боротьби. Саме ці системи росіяни використовували...",
+      "publishedAt": "2026-06-04T17:30:57.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "СБС взяли під вогневий контроль Донецький аеропорт, перетворений на логістичний хаб",
-      "summaryUk": "СБС знищив установки Шахед, крани, техніку й склади РФ у Донецькому аеропорту, ускладнивши функціонування ворога."
+      "titleUk": "174 пробоїни в російському «щиті»: СБС уразили ППО ворога на понад $5,4 млрд",
+      "summaryUk": "Про це повідомили у Силах безпілотних систем ЗСУ. Серед підтверджених цілей — зенітні ракетні комплекси, радіолокаційні станції та засоби радіоелектронної боротьби. Саме ці системи росіяни використовували..."
     },
     {
-      "id": "x-pravda-62a1f405dbe9",
-      "title": "Росіяни у Херсоні атакували \"швидку\" на території лікарні: постраждали 3 медпрацівники",
-      "url": "https://www.pravda.com.ua/news/2026/06/04/8037768/",
-      "summary": "У Херсоні росіяни обстріляли авто швидкої допомоги натериторії лікарні. Постраждали 2 медпрацівники, є пошкодження транспорту.",
-      "publishedAt": "2026-06-04T17:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
+      "id": "x-armyinform-7adacea6630a",
+      "title": "Україна чекає запуску пакета на €90 млрд уже в червні — Володимир Зеленський",
+      "url": "https://armyinform.com.ua/2026/06/04/ukrayina-chekaye-zapusku-paketa-na-e90-mlrd-uzhe-v-chervni-volodymyr-zelenskyj/",
+      "summary": "Про це повідомив Президент України Володимир Зеленський. За його словами, українська команда активно працює з урядом, щоб кошти з європейського пакета підтримки запрацювали вже влітку....",
+      "publishedAt": "2026-06-04T17:23:06.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росіяни у Херсоні атакували \"швидку\" на території лікарні: постраждали 3 медпрацівники",
-      "summaryUk": "У Херсоні росіяни обстріляли авто швидкої допомоги натериторії лікарні. Постраждали 2 медпрацівники, є пошкодження транспорту."
+      "titleUk": "Україна чекає запуску пакета на €90 млрд уже в червні — Володимир Зеленський",
+      "summaryUk": "Про це повідомив Президент України Володимир Зеленський. За його словами, українська команда активно працює з урядом, щоб кошти з європейського пакета підтримки запрацювали вже влітку...."
     },
     {
-      "id": "x-pravda-764bb6ea3e31",
-      "title": "Прем’єр Чехії бачить Мерца перемовником від ЄС з РФ щодо закінчення війни",
-      "url": "https://www.pravda.com.ua/news/2026/06/04/8037795/",
-      "summary": "Прем'єр Чехії пропонує канцлера ФРН Мерца як переговорника ЄС для припинення агресії РФ.",
-      "publishedAt": "2026-06-04T16:46:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
+      "id": "x-armyinform-46bd9074eccd",
+      "title": "«Стрілецький контакт зустрічається дуже рідко»: на Лиманському напрямку мало хто з окупантів гине від автомата",
+      "url": "https://armyinform.com.ua/2026/06/04/strileczkyj-kontakt-zustrichayetsya-duzhe-ridko-na-lymanskomu-napryamku-malo-hto-z-okupantiv-gyne-vid-avtomata/",
+      "summary": "Про це на стрімі АрміяTV розповів головний сержант 2-го механізованого батальйону 125-ї важкої механізованої бригади з позивним «Фобос». «Сили ворога...",
+      "publishedAt": "2026-06-04T17:11:15.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Прем’єр Чехії бачить Мерца перемовником від ЄС з РФ щодо закінчення війни",
-      "summaryUk": "Прем'єр Чехії пропонує канцлера ФРН Мерца як переговорника ЄС для припинення агресії РФ."
+      "titleUk": "«Стрілецький контакт зустрічається дуже рідко»: на Лиманському напрямку мало хто з окупантів гине від автомата",
+      "summaryUk": "Про це на стрімі АрміяTV розповів головний сержант 2-го механізованого батальйону 125-ї важкої механізованої бригади з позивним «Фобос». «Сили ворога..."
+    },
+    {
+      "id": "x-armyinform-a55530df2ca8",
+      "title": "«Стабільне майбутнє» з дірою на $80 млрд: у СЗР оцінили стан економіки рф",
+      "url": "https://armyinform.com.ua/2026/06/04/stabilne-majbutnye-z-diroyu-na-80-mlrd-u-szr-oczinyly-stan-ekonomiky-rf/",
+      "summary": "Про це повідомили у Службі зовнішньої розвідки України. У СЗР зазначили, що нинішній форум у Санкт-Петербурзі росія проводить під назвою «Прагматичний діалог — шлях до стабільного майбутнього». Водночас...",
+      "publishedAt": "2026-06-04T16:57:22.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Стабільне майбутнє» з дірою на $80 млрд: у СЗР оцінили стан економіки рф",
+      "summaryUk": "Про це повідомили у Службі зовнішньої розвідки України. У СЗР зазначили, що нинішній форум у Санкт-Петербурзі росія проводить під назвою «Прагматичний діалог — шлях до стабільного майбутнього». Водночас..."
+    },
+    {
+      "id": "x-armyinform-3a1826160a7d",
+      "title": "Жіноче лідерство як фактор кіберстійкості: перспективи та реалізація",
+      "url": "https://armyinform.com.ua/2026/06/04/zhinoche-liderstvo-yak-faktor-kiberstijkosti-perspektyvy-ta-realizacziya/",
+      "summary": "Про це повідомили на сайті РНБО України. Захід організований Національним координаційним центром кібербезпеки при РНБО України за підтримки партнерів. Участь...",
+      "publishedAt": "2026-06-04T16:43:23.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Жіноче лідерство як фактор кіберстійкості: перспективи та реалізація",
+      "summaryUk": "Про це повідомили на сайті РНБО України. Захід організований Національним координаційним центром кібербезпеки при РНБО України за підтримки партнерів. Участь..."
+    },
+    {
+      "id": "x-armyinform-5ad7740b9a36",
+      "title": "ДАП став пасткою для «Шахедів»: СБС взяли Донецький аеропорт під вогневий контроль",
+      "url": "https://armyinform.com.ua/2026/06/04/dap-stav-pastkoyu-dlya-shahediv-sbs-vzyaly-doneczkyj-aeroport-pid-vognevyj-kontrol/",
+      "summary": "Відповідне відео оприлюднили на сторінці 1-го окремого центру БпС СБС. У підрозділі зазначили, що це перша в сучасній історії операція такого типу. Її мета — зробити функціонування аеродрому для противника неможливим....",
+      "publishedAt": "2026-06-04T16:34:34.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ДАП став пасткою для «Шахедів»: СБС взяли Донецький аеропорт під вогневий контроль",
+      "summaryUk": "Відповідне відео оприлюднили на сторінці 1-го окремого центру БпС СБС. У підрозділі зазначили, що це перша в сучасній історії операція такого типу. Її мета — зробити функціонування аеродрому для противника неможливим...."
     },
     {
       "id": "x-euromaidan-5cf23cba3e07",
@@ -368,38 +576,6 @@
       ],
       "titleUk": "Швеція наказала арештувати судно Caffa, пов'язане з ймовірною крадіжкою зерна Росією з окупованої України",
       "summaryUk": "Українські чиновники кажуть, що це рішення є проривом у спробах переслідувати судна, які ймовірно брали участь у видобутку зерна з окупованих регіонів України."
-    },
-    {
-      "id": "x-pravda-f638c7410526",
-      "title": "Лавров заявив, що \"війна Байдена\" стала \"війною Трампа\"",
-      "url": "https://www.pravda.com.ua/news/2026/06/04/8037792/",
-      "summary": "Глава російського МЗС Сергій Лавров заявив, що США виступають не як посередник у російсько-українській війні, а як країна, що підтримує Україну.",
-      "publishedAt": "2026-06-04T16:23:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Лавров заявив, що \"війна Байдена\" стала \"війною Трампа\"",
-      "summaryUk": "Глава російського МЗС Сергій Лавров заявив, що США виступають не як посередник у російсько-українській війні, а як країна, що підтримує Україну."
-    },
-    {
-      "id": "x-pravda-7101ee1b8978",
-      "title": "Рік у бою: що показав корпусний експеримент на фронті",
-      "url": "https://www.pravda.com.ua/columns/2026/06/04/8037790/",
-      "summary": "Як Третій армійський корпус змінив підходи до війни та досяг стійкості фронту завдяки технологіям і ефективним реформам.",
-      "publishedAt": "2026-06-04T16:18:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Рік у бою: що показав корпусний експеримент на фронті",
-      "summaryUk": "Як Третій армійський корпус змінив підходи до війни та досяг стійкості фронту завдяки технологіям і ефективним реформам."
     },
     {
       "id": "x-euromaidan-4fd496363f9d",
@@ -446,7 +622,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Головнокомандувач латвійських військ попереджає, що до 2028 року Росія може використати безпілотники для нападу на країни Балтії",
+      "titleUk": "Головнокомандувач латвійських військ попереджає, що Росія може використовувати дрони Edge для нападу на країни Балтії до 2028 року",
       "summaryUk": "Більшість європейських програм модернізації армії не набудуть чинності до 2029 року, залишаючи прогалину, яку, за словами російського військового начальника, Москва, можливо, розраховує використати."
     },
     {
@@ -558,7 +734,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія хоче 47 мільйонів євро від компанії, що озброює країну, в яку вона вторглася",
+      "titleUk": "Росія хоче 47 мільйонів євро від компанії, яка озброює країну, в яку вона вторглася",
       "summaryUk": "За контрактом Москва хоче гроші за будівництво навчального центру, де репетирували війська Путіна для України."
     },
     {
@@ -718,7 +894,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Не тільки Путін: Україна звинувачує двох російських командирів, які віддали наказ про удар, який забрав життя трьох поколінь однієї родини",
+      "titleUk": "Не тільки Путін: Україна звинувачує двох російських командирів, які віддали наказ про удар, який вбив три покоління однієї родини",
       "summaryUk": "У квітні 2022 року внаслідок удару Х-101 по 16-поверховому будинку в Одесі загинули вісім людей, серед яких тримісячна Кіра Глодан, її мама та бабуся."
     },
     {
@@ -736,86 +912,6 @@
       ],
       "titleUk": "З 2022 року оборонна промисловість України зросла в десять разів. Зараз це машина вартістю 50 мільярдів доларів",
       "summaryUk": "Цю цифру Зеленський озвучив на спільній прес-конференції з генсеком НАТО Марком Рютте в Києві. Про це йдеться напередодні саміту НАТО в Анкарі 7-8 липня, на якому Україна планує обговорити довгострокові фінансові гарантії."
-    },
-    {
-      "id": "x-euromaidan-b222756bd932",
-      "title": "Ukraine&#8217;s new frontline robot hauls cargo, evacuates soldiers, and clears mines. Meet Vepr, built from real combat experience",
-      "url": "https://euromaidanpress.com/2026/06/03/ukraines-new-frontline-robot-hauls-cargo-evacuates-soldiers-and-clears-mines-meet-vepr-built-from-real-combat-experience/",
-      "summary": "The Ministry of Defense codified the modernized Vepr logistics-and-evacuation UGV for service in the Armed Forces.",
-      "publishedAt": "2026-06-03T15:30:36.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Новий український фронтовий робот перевозить вантажі, евакуює солдат і розмінує. Зустрічайте Vepr, створений на основі досвіду реальних бойових дій",
-      "summaryUk": "Міністерство оборони сертифікувало модернізований тилово-евакуаційний УГВ «Вепрь» для служби в ЗСУ."
-    },
-    {
-      "id": "x-euromaidan-226a9b041533",
-      "title": "Russia lost $435 million worth of equipment over past 24 hours. Ground robots are among losses, too",
-      "url": "https://euromaidanpress.com/2026/06/03/russia-lost-435-million-worth-of-equipment-over-past-24-hours-ground-robots-are-among-losses-too/",
-      "summary": "The Ukrainian General Staff's daily tally for 3 June: 60 artillery systems, 1,853 drones, 437 vehicles, and 5 tanks.",
-      "publishedAt": "2026-06-03T14:48:27.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "За минулу добу Росія втратила обладнання на 435 мільйонів доларів. Серед втрат також наземні роботи",
-      "summaryUk": "За добу Генштабу України за 3 червня: 60 артилерійських систем, 1853 безпілотника, 437 одиниць техніки, 5 танків."
-    },
-    {
-      "id": "x-euromaidan-9d7b40f72ec2",
-      "title": "Norway pledges air defense support to Ukraine after Zelenskyy call",
-      "url": "https://euromaidanpress.com/2026/06/03/norway-pledges-air-defense-support-to-ukraine-after-zelenskyy-call/",
-      "summary": "The conversation followed Russia's 2 June attack that killed 23 people and wounded 151 across Ukraine.",
-      "publishedAt": "2026-06-03T14:27:04.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Норвегія обіцяє підтримку протиповітряної оборони України після дзвінка Зеленського",
-      "summaryUk": "Розмова відбулася після теракту Росії 2 червня, в результаті якого загинуло 23 людини та 151 було поранено по всій Україні."
-    },
-    {
-      "id": "x-euromaidan-d7c578df85e8",
-      "title": "Sport is letting Russia back in. This Ukrainian tennis player says no.",
-      "url": "https://euromaidanpress.com/2026/06/03/sport-is-letting-russia-back-in-this-ukrainian-tennis-player-says-no/",
-      "summary": "Tennis cracked the door open. Other federations are quietly walking through.",
-      "publishedAt": "2026-06-03T14:16:55.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Спорт повертає Росію. Українська тенісистка каже, що ні.",
-      "summaryUk": "Теніс відчинив двері. Інші федерації спокійно проходять."
-    },
-    {
-      "id": "x-euromaidan-9166aab05238",
-      "title": "Russian corvette stationed near St. Petersburg for repairs now needs more of them after Ukrainian strike",
-      "url": "https://euromaidanpress.com/2026/06/03/russian-corvette-stationed-near-st-petersburg-for-repairs-now-needs-more-of-them-after-ukrainian-strike/",
-      "summary": "Drones struck the center of the ship, where its expensive and capricious electronic systems are located.",
-      "publishedAt": "2026-06-03T13:50:17.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російський корвет, який дислокується під Санкт-Петербургом для ремонту, тепер потребує їх додаткової кількості після українського удару",
-      "summaryUk": "Безпілотники вдарили по центру корабля, де розташовані його дорогі та примхливі електронні системи."
     },
     {
       "id": "x-militarnyi-ad0fbd2e6f64",
