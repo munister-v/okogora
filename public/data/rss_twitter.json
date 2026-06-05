@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T21:43:38.719Z",
+  "generatedAt": "2026-06-05T23:37:03.902Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,54 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-06e9c422175c",
+      "title": "&#8220;Ukraine might have won&#8221; if NATO had acted in 2022, ex-top chief says",
+      "url": "https://euromaidanpress.com/2026/06/06/ukraine-could-have-won-in-2022-natos-former-military-chief-admits/",
+      "summary": "Admiral Rob Bauer says the West armed Ukraine too slowly to win—and never had a strategy for victory at all",
+      "publishedAt": "2026-06-05T23:08:06.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Якби НАТО діяв у 2022 році, Україна могла б виграти, – екс-глава НАТО",
+      "summaryUk": "Адмірал Роб Бауер каже, що Захід надто повільно озброював Україну, щоб перемогти, і взагалі ніколи не мав стратегії перемоги"
+    },
+    {
+      "id": "x-euromaidan-ea431310264f",
+      "title": "Ukraine&#8217;s drones got bigger warheads. A Russian corvette in the Baltic just found out.",
+      "url": "https://euromaidanpress.com/2026/06/06/fp-1-anti-ship/",
+      "summary": "The Fire Point FP-1 that struck Boikiy at Kronstadt on 3 June crossed 1,100 km to get there — and arrived with a heavier warhead than the model that started Ukraine's deep-strike campaign.",
+      "publishedAt": "2026-06-05T22:28:48.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українські безпілотники отримали більші боєголовки. Російський корвет на Балтиці щойно дізнався.",
+      "summaryUk": "Fire Point FP-1, який вразив Бойків у Кронштадті 3 червня, подолав 1100 км, щоб дістатися туди — і прибув із важчою боєголовкою, ніж модель, яка розпочала українську кампанію глибокого удару."
+    },
+    {
+      "id": "x-euromaidan-c359d89f64b6",
+      "title": "NATO had no plan for Ukraine to win—and isn&#8217;t likely to make one, former chief says",
+      "url": "https://euromaidanpress.com/2026/06/06/natos-former-military-chief-admits-there-was-never-a-plan-for-ukraine-to-win/",
+      "summary": "Admiral Rob Bauer says Ukraine \"might have won\" in 2022—if the weapons had come in time",
+      "publishedAt": "2026-06-05T22:16:58.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У НАТО не було плану перемоги України — і навряд чи його розробить, каже колишній глава НАТО",
+      "summaryUk": "Адмірал Роб Бауер каже, що Україна «могла б перемогти» у 2022 році, якби зброя прийшла вчасно"
+    },
+    {
       "id": "x-euromaidan-3c51f21a53b8",
       "title": "Russo-Ukrainian war, day 1563: Ukraine doubles its deep strikes past 50 km as the US House moves over $1 bn in aid",
       "url": "https://euromaidanpress.com/2026/06/06/russo-ukrainian-war-day-1563/",
@@ -111,7 +159,7 @@
         "UKRAINE"
       ],
       "titleUk": "Російсько-українська війна, день 1563: Україна подвоює свої глибокі удари понад 50 км, оскільки Палата США передає понад 1 мільярд доларів допомоги",
-      "summaryUk": "«Логістичний локдаун» України в травні ще більше просунувся в російську транспортну мережу, тоді як новий пакет допомоги США приніс Києву перемогу."
+      "summaryUk": "У травні українська «логістична локдаун» ще більше просунулася в російську транспортну мережу, тоді як новий пакет допомоги США приніс Києву перемогу."
     },
     {
       "id": "x-pravda-eff55b7a2c97",
@@ -159,7 +207,7 @@
         "UKRAINE"
       ],
       "titleUk": "Україна подвоює глибокі удари понад 50 км, оскільки «блокування логістики» зміщує пріоритет глибше в російські транспортні вузли та тилові логістичні ланцюги",
-      "summaryUk": "Київ каже, що ця зміна є частиною більш широких зусиль, спрямованих на розрив ланцюжків поставок і зниження здатності Росії підтримувати операції на передовій."
+      "summaryUk": "Київ каже, що ця зміна є частиною більш широких зусиль, спрямованих на розрив ланцюгів поставок і зниження здатності Росії підтримувати операції на передовій."
     },
     {
       "id": "x-pravda-446664b1c074",
@@ -402,22 +450,6 @@
       "summaryUk": "Прискорювач спалює хімічне паливо, а не використовує реактивний рух."
     },
     {
-      "id": "x-pravda-c9f93e0c062f",
-      "title": "Туск про конфлікт щодо \"Героїв УПА\": Україна сама призвела до проблеми, нехай шукає рішення",
-      "url": "https://www.pravda.com.ua/news/2026/06/05/8037967/",
-      "summary": "Прем'єр Польщі Дональд Туск поклав на українську сторону відповідальність за вирішення напруженості у польсько-українських відносинах після рішення про присвоєння підрозділу ССО найменування \"Героїв УПА\".",
-      "publishedAt": "2026-06-05T16:36:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Туск про конфлікт щодо \"Героїв УПА\": Україна сама призвела до проблеми, нехай шукає рішення",
-      "summaryUk": "Прем'єр Польщі Дональд Туск поклав на українську сторону відповідальність за вирішення напруженості у польсько-українських відносинах після рішення про присвоєння підрозділу ССО найменування \"Героїв УПА\"."
-    },
-    {
       "id": "x-euromaidan-a70347f2fbcd",
       "title": "Ukraine&#8217;s drones hit 5 vessels in occupied Azov ports overnight — Azerbaijan says 5 of its nationals died as Russia blames Kyiv",
       "url": "https://euromaidanpress.com/2026/06/05/ukraines-drones-hit-5-vessels-in-occupied-azov-ports-overnight-azerbaijan-says-5-of-its-nationals-died-as-russia-blames-kyiv/",
@@ -434,22 +466,6 @@
       "summaryUk": "Командувач сил безпілотних систем Роберт «Мадьяр» Бровді назвав човни контрабандистами, які перевозили награбоване зерно, паливо та військові припаси, зафарбувавши імена та виключивши радари."
     },
     {
-      "id": "x-pravda-6ec6321b40bf",
-      "title": "Четверо людей поранені через російські атаки на Дніпропетровщині",
-      "url": "https://www.pravda.com.ua/news/2026/06/05/8037968/",
-      "summary": "Російська армія 5 червня понад 50 разів атакувала три райони Дніпропетровщини безпілотниками, артилерією та авіабомбою: четверо людей поранені.",
-      "publishedAt": "2026-06-05T16:31:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Четверо людей поранені через російські атаки на Дніпропетровщині",
-      "summaryUk": "Російська армія 5 червня понад 50 разів атакувала три райони Дніпропетровщини безпілотниками, артилерією та авіабомбою: четверо людей поранені."
-    },
-    {
       "id": "x-euromaidan-f0016394365b",
       "title": "Russia more than doubles production of converted SAMs to make ballistic missile strikes even harder to defend",
       "url": "https://euromaidanpress.com/2026/06/05/russia-more-than-doubles-production-of-converted-sams-to-make-ballistic-missile-strikes-even-harder-to-defend/",
@@ -463,7 +479,7 @@
         "UKRAINE"
       ],
       "titleUk": "Росія більш ніж подвоює виробництво переобладнаних ЗРК, щоб зробити удари від балістичних ракет ще важчими для захисту",
-      "summaryUk": "Ракети додають небагато якісних покращень, але додають масовості терористичним атакам Росії"
+      "summaryUk": "Ракети додають кілька якісних покращень, але додають масовості терористичним атакам Росії"
     },
     {
       "id": "x-euromaidan-7ac7dbd1038b",
@@ -495,7 +511,7 @@
         "UKRAINE"
       ],
       "titleUk": "Україна класифікує свої безпілотники за глибиною бачення. 413-й на вершині вже три місяці",
-      "summaryUk": "Підрозділ військ безпілотних систем у березні та квітні 2026 року посідав перше місце, а у травні – друге в рейтингу українських систем інформування про бойові дії «Дельта»."
+      "summaryUk": "Збройні сили безпілотних систем у березні та квітні 2026 року посідали перше місце, а у травні – друге в рейтингу українських систем інформування про бойові дії «Дельта»."
     },
     {
       "id": "x-euromaidan-939cc724114b",
@@ -558,7 +574,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У румунському порту підірвався морський безпілотник, Міноборони підозрює українське походження",
+      "titleUk": "Морський безпілотник підірвався в порту Румунії, Міноборони підозрює українського походження",
       "summaryUk": "Безпілотне судно здетонувало біля штаб-квартири Румунського морського пошуково-рятувального агентства близько 10:30 ранку."
     },
     {
@@ -574,7 +590,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Окупаційна влада Криму забороняє знімати паливні цистерни, називаючи це диверсійною допомогою",
+      "titleUk": "Окупаційна влада Криму заборонила знімати паливні цистерни, назвавши це диверсією",
       "summaryUk": "Встановлені Росією чиновники попередили, що кримінальне переслідування може початися з 14 років, навіть якщо жителі постійно поширювали кадри палаючих колон по всьому півострову."
     },
     {
@@ -607,7 +623,7 @@
         "UKRAINE"
       ],
       "titleUk": "Російські безпілотники вбили четверо на харчкомбінаті в Київській області, поранили шестеро мирних жителів на Харківщині",
-      "summaryUk": "Дві сім'ї з дітьми були серед жертв, коли Росія за ніч запустила 216 безпілотників і дві керовані ракети."
+      "summaryUk": "Дві сім’ї з дітьми були серед жертв, коли Росія за ніч запустила 216 безпілотників і дві керовані ракети."
     },
     {
       "id": "x-euromaidan-bda1109226ba",
@@ -638,7 +654,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія представила дві системи протидії безпілотникам України. Аналітики з питань оборони мають запитання щодо математики",
+      "titleUk": "Росія представила дві системи боротьби з безпілотниками України. Аналітики з питань оборони мають запитання щодо математики",
       "summaryUk": "Заявлена ​​максимальна швидкість Sokol-I 150 км/год відповідає крейсерській швидкості Hornet."
     },
     {
@@ -703,7 +719,7 @@
         "UKRAINE"
       ],
       "titleUk": "На нафтобазі в окупованому Луганську спалахнув безпілотник",
-      "summaryUk": "Чорний дим, що здіймався на кілометри, позначив наслідки нічної атаки на те, що канали моніторингу ідентифікували як склад пального, що постачало російські сили."
+      "summaryUk": "Чорний дим, що здіймався на кілометри, відзначив наслідки нічної атаки на те, що канали моніторингу ідентифікували як склад пального, що постачало російські сили."
     },
     {
       "id": "x-euromaidan-4590b8aff57f",
@@ -752,54 +768,6 @@
       ],
       "titleUk": "Палата представників США схвалила допомогу Україні, включаючи жорсткі нафтові санкції на тлі терористичних атак Росії на Київ, і Україна назвала це «важливим кроком»",
       "summaryUk": "Закон про підтримку України передбачає пряму допомогу на суму понад 1 мільярд доларів США, кредити на суму до 8 мільярдів доларів США та санкції щодо російського нафтового, банківського та гірничодобувного секторів."
-    },
-    {
-      "id": "x-euromaidan-7e5a04985a62",
-      "title": "Production dates on downed Russian weapons reveal country may be running on zero reserve — with one particularly dangerous exception",
-      "url": "https://euromaidanpress.com/2026/06/05/production-dates-on-downed-russian-weapons-reveal-country-may-be-running-on-zero-reserve-with-one-particularly-dangerous-exception/",
-      "summary": "Russia stockpiles 180-250 Iskanders, fires other missiles \"straight from the factory,\" Beskrestnov says.",
-      "publishedAt": "2026-06-05T05:53:42.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дати виробництва збитої російської зброї показують, що країна може працювати з нульовим резервом — за одним особливо небезпечним винятком",
-      "summaryUk": "Росія накопичує 180-250 «Іскандерів», запускає інші ракети «прямо з заводу», каже Бескрестнов."
-    },
-    {
-      "id": "x-euromaidan-18f80804ccf3",
-      "title": "Russia keeps four field armies fed through three southern towns. Ukraine&#8217;s drones just arrived.",
-      "url": "https://euromaidanpress.com/2026/06/05/southern-chokepoints/",
-      "summary": "A 1 June drone strike near Chernihivka hit the layer the Russians used to assume was out of reach.",
-      "publishedAt": "2026-06-04T23:31:04.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія тримає чотири польові армії, які харчуються через три південні міста. Щойно прибули українські дрони.",
-      "summaryUk": "Удар безпілотника 1 червня під Чернігівкою влучив у шар, який росіяни вважали недосяжним."
-    },
-    {
-      "id": "x-euromaidan-c751aad40480",
-      "title": "Russo-Ukrainian war, day 1562: Zelenskyy writes open letter to Putin as Berlin, Paris, and London sketch a plan to bring Moscow to talks",
-      "url": "https://euromaidanpress.com/2026/06/05/russo-ukrainian-war-day-1562/",
-      "summary": "Zelenskyy issued an open letter telling Putin the war is his personal choice, as Germany, France, and the UK sketched a plan to bring Moscow to the negotiating table — with Kyiv holding the final say. On the battlefield, Ukraine claimed \"fire control\" over occupied Donetsk Airport, closing out its heaviest deep-strike month of the year. Sweden and France seized Russian shadow-fleet assets, while the IAEA reported fresh attacks on power infrastructure tied to the Zaporizhzhia nuclear plant.",
-      "publishedAt": "2026-06-04T21:51:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-українська війна, день 1562: Зеленський пише відкритого листа Путіну, поки Берлін, Париж і Лондон накидають план залучення Москви до переговорів",
-      "summaryUk": "Зеленський опублікував відкритий лист, в якому сказав Путіну, що війна є його особистим вибором, оскільки Німеччина, Франція та Велика Британія накидали план посадити Москву за стіл переговорів, а останнє слово за Києвом. На полі бою Україна заявила про «контроль над вогнем» над окупованим Донецьким аеропортом, завершивши свій найсильніший місяць з глибокими ударами в році. Швеція та Франція захопили активи російського тіньового флоту, а МАГАТЕ повідомило про нові атаки на енергетичну інфраструктуру, пов’язану із Запорізькою АЕС."
     },
     {
       "id": "x-militarnyi-de3ccb4374a7",
