@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:17:46.088Z",
+  "generatedAt": "2026-06-22T22:16:05.837Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,166 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-ab31f5ac90fa",
+      "title": "Мельник на Радбезі ООН попередив про зміну підходів України: \"Наше терпіння не безмежне\"",
+      "url": "https://www.pravda.com.ua/news/2026/06/23/8040643/",
+      "summary": "Постійний представник України при ООН Андрій Мельник заявив, що терпіння України не є безмежним, та натякнув на можливу зміну підходів Києва, якщо Рада Безпеки ООН і надалі зволікатиме з реакцією на російську агресію.",
+      "publishedAt": "2026-06-22T22:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Мельник на Радбезі ООН попередив про зміну підходів України: \"Наше терпіння не безмежне\"",
+      "summaryUk": "Постійний представник України при ООН Андрій Мельник заявив, що терпіння України не є безмежним, та натякнув на можливу зміну підходів Києва, якщо Рада Безпеки ООН і надалі зволікатиме з реакцією на російську агресію."
+    },
+    {
+      "id": "x-pravda-07b6e510fd8f",
+      "title": "Росіяни намагаються просочитися на околиці Лиману, складна ситуація в Ямполі та Озерному – DeepState",
+      "url": "https://www.pravda.com.ua/news/2026/06/23/8040641/",
+      "summary": "Аналітики моніторингового проєкту DeepState повідомили, що російські окупаційні війська намагаються просочитися на східні околиці Лиману Донецької області, а також попередили про складну ситуацію в районах населених пунктів Ямпіль та Озерне.",
+      "publishedAt": "2026-06-22T21:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни намагаються просочитися на околиці Лиману, складна ситуація в Ямполі та Озерному – DeepState",
+      "summaryUk": "Аналітики моніторингового проєкту DeepState повідомили, що російські окупаційні війська намагаються просочитися на східні околиці Лиману Донецької області, а також попередили про складну ситуацію в районах населених пунктів Ямпіль та Озерне."
+    },
+    {
+      "id": "x-euromaidan-bd4dd2b900d7",
+      "title": "Russo-Ukrainian war, day 1580: Ukraine&#8217;s drone fleet strikes back at Moscow, shutting airports for hours",
+      "url": "https://euromaidanpress.com/2026/06/22/russo-ukrainian-war-day-1580-ukraines-drone-fleet-strikes-back-at-moscow-shutting-airports-for-hours/",
+      "summary": "Belarus's exiled opposition delivered a 30-page dossier to Ukrainian Foreign Minister Andrii Sybiha outlining eight ways Lukashenko's regime has transformed the country into a military launch platform for Russia.",
+      "publishedAt": "2026-06-22T20:22:19.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1580: Український флот безпілотників завдає удару у відповідь на Москву, закриваючи аеропорти на години",
+      "summaryUk": "Білоруська опозиція в екзилі передала міністру закордонних справ України Андрію Сибізі 30-сторінкове досьє, в якому окреслено вісім способів, як режим Лукашенка перетворив країну на військовий плацдарм для Росії."
+    },
+    {
+      "id": "x-euromaidan-a73d2c831c7d",
+      "title": "Ukrainian veteran lost both hands and eye to Russian drone. So he built rifle he could shoot based on German machine gun",
+      "url": "https://euromaidanpress.com/2026/06/22/ukrainian-veteran-lost-both-hands-and-eye-to-russian-drone-so-he-built-rifle-he-could-shoot-based-on-german-machine-gun/",
+      "summary": "He helped design an adaptive rifle.",
+      "publishedAt": "2026-06-22T20:07:31.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Український ветеран втратив обидві руки та око від російського безпілотника. Тож він побудував гвинтівку, з якої міг стріляти на основі німецького кулемета",
+      "summaryUk": "Він допоміг розробити адаптивну гвинтівку."
+    },
+    {
+      "id": "x-pravda-1ce094b66aa9",
+      "title": "На фронті від початку доби зафіксували 158 бойових зіткнень – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/06/22/8040634/",
+      "summary": "Від початку доби 22 червня на фронті відбулось 158 бойових зіткнень, з них 25 — на Покровському напрямку.",
+      "publishedAt": "2026-06-22T20:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті від початку доби зафіксували 158 бойових зіткнень – Генштаб",
+      "summaryUk": "Від початку доби 22 червня на фронті відбулось 158 бойових зіткнень, з них 25 — на Покровському напрямку."
+    },
+    {
+      "id": "x-euromaidan-af986cf4e710",
+      "title": "Russia demands Donbas at table. DeepState says taking it would cost two years of fighting and colossal losses",
+      "url": "https://euromaidanpress.com/2026/06/22/russia-demands-donbas-at-table-deepstate-says-taking-it-would-cost-two-years-of-fighting-and-colossal-losses/",
+      "summary": "Three independent assessments now pointed in the same direction.",
+      "publishedAt": "2026-06-22T19:47:47.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія вимагає Донбасу за столом. DeepState каже, що його захоплення коштуватиме двох років боїв і колосальних втрат",
+      "summaryUk": "Три незалежні оцінки тепер вказали в одному напрямку."
+    },
+    {
+      "id": "x-pravda-5b0a90fd5676",
+      "title": "Росіяни скинули 6 КАБів на Суми: поранений водій тролейбуса",
+      "url": "https://www.pravda.com.ua/news/2026/06/22/8040632/",
+      "summary": "Російські війська 22 червня атакували КАБами Суми: під удар потрапив тролейбус, водій постраждав.",
+      "publishedAt": "2026-06-22T19:21:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни скинули 6 КАБів на Суми: поранений водій тролейбуса",
+      "summaryUk": "Російські війська 22 червня атакували КАБами Суми: під удар потрапив тролейбус, водій постраждав."
+    },
+    {
+      "id": "x-euromaidan-6d59f2486d08",
+      "title": "Ukraine just cleared new Gyurza-2 for front. It weighs 18 tonnes and survives mine blast",
+      "url": "https://euromaidanpress.com/2026/06/22/ukraine-just-cleared-new-gyurza-2-for-front-it-weighs-18-tonnes-and-survives-mine-blast/",
+      "summary": "Ukraine's Defense Ministry codified the modernized Gyurza-2 armored vehicle with Level 3a/3b mine protection, AI threat detection, and 1,200 km range.",
+      "publishedAt": "2026-06-22T19:19:48.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна щойно зачистила нову Гюрзу-2 для фронту. Він важить 18 тонн і витримав підрив на міні",
+      "summaryUk": "Міністерство оборони України сертифікувало модернізовану броньовану машину «Гюрза-2» з протимінним рівнем захисту 3а/3б, системою штучного виявлення загроз і дальністю дії 1200 км."
+    },
+    {
+      "id": "x-euromaidan-2cfcfd530add",
+      "title": "Drones hunt anything that moves near front. Ukraine&#8217;s drone-proof network now grows 9 kilometers daily",
+      "url": "https://euromaidanpress.com/2026/06/22/drones-hunt-anything-that-moves-near-front-ukraines-drone-proof-network-now-grows-9-kilometers-daily/",
+      "summary": "The service has now installed more than 887 kilometers of anti-drone road protection in front-line oblasts since the start of 2026.",
+      "publishedAt": "2026-06-22T18:59:57.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Дрони полюють на все, що рухається поблизу. Зараз українська безпілотна мережа зростає на 9 кілометрів щодня",
+      "summaryUk": "Наразі з початку 2026 року служба встановила понад 887 кілометрів захисту доріг від дронів у прифронтових областях."
+    },
+    {
+      "id": "x-pravda-3d3fa9c350fd",
+      "title": "У Польщі розповіли про подальшу долю відібраного у Зеленського ордена",
+      "url": "https://www.pravda.com.ua/news/2026/06/22/8040627/",
+      "summary": "Речник президента Польщі Рафал Лескевич заявив, що орден Білого орла, який президент України Володимир Зеленський відправив Новою поштою, був отриманий.",
+      "publishedAt": "2026-06-22T18:39:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Польщі розповіли про подальшу долю відібраного у Зеленського ордена",
+      "summaryUk": "Речник президента Польщі Рафал Лескевич заявив, що орден Білого орла, який президент України Володимир Зеленський відправив Новою поштою, був отриманий."
+    },
     {
       "id": "x-pravda-925d2455abfa",
       "title": "Україна отримає 3,2 млрд євро першого траншу кредиту ЄС на Конференції в Польщі",
@@ -482,22 +642,6 @@
       "summaryUk": "31-річна мати хлопчика, його 10-річний брат і 13-річна сестра вижили з пораненнями."
     },
     {
-      "id": "x-pravda-18eb3e4776b8",
-      "title": "Майже 80 млн бойових виплат без законних підстав: підозру отримав екскомандир бригади ТрО",
-      "url": "https://www.pravda.com.ua/news/2026/06/22/8040577/",
-      "summary": "Колишньому командиру військової частини 103 окремої бригади Територіальної оборони Валерію Курку оголосили підозру в завданні понад 79 млн грн збитків на безпідставних \"бойових\" виплатах.",
-      "publishedAt": "2026-06-22T14:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Майже 80 млн бойових виплат без законних підстав: підозру отримав екскомандир бригади ТрО",
-      "summaryUk": "Колишньому командиру військової частини 103 окремої бригади Територіальної оборони Валерію Курку оголосили підозру в завданні понад 79 млн грн збитків на безпідставних \"бойових\" виплатах."
-    },
-    {
       "id": "x-euromaidan-2a6a0a5a2778",
       "title": "Ukraine gave its drone-killer system an &#8220;app store&#8221;—with one rule no add-on can break",
       "url": "https://euromaidanpress.com/2026/06/22/ukraine-gave-its-drone-killer-system-an-app-store-with-one-rule-no-add-on-can-break/",
@@ -512,70 +656,6 @@
       ],
       "titleUk": "Україна подарувала своїй системі-вбивці дронів «магазин додатків» — з одним правилом, яке не може порушити жодне доповнення",
       "summaryUk": "Інженери можуть додати майже що завгодно, але нічого не дозволяє стріляти зі зброї само по собі."
-    },
-    {
-      "id": "x-pravda-b9e4e4f22d07",
-      "title": "Як священики, згенеровані ШІ, поширюють російську пропаганду",
-      "url": "https://www.pravda.com.ua/news/2026/06/22/8040576/",
-      "summary": "",
-      "publishedAt": "2026-06-22T14:20:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Як священики, згенеровані ШІ, поширюють російську пропаганду",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-dfffceb8ddd1",
-      "title": "Божественно-наукова фантастика. Як ШІ-батюшки поширюють російську пропаганду",
-      "url": "https://www.pravda.com.ua/articles/2026/06/22/8040575/",
-      "summary": "У 1891 році Папа Римський Лев XIII написав одну з найвідоміших і найцитованіших Енциклік (офіційний лист Папи до вірян) в історії католицької церкви під назвою \"Про нові речі\". Це був період піку промислової революції, коли мільйони людей ринули працювати на новозбудованих заводах по 12–15 годин на добу.",
-      "publishedAt": "2026-06-22T14:07:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Божественно-наукова фантастика. Як ШІ-батюшки поширюють російську пропаганду",
-      "summaryUk": "У 1891 році Папа Римський Лев XIII написав одну з найвідоміших і найцитованіших Енциклік (офіційний лист Папи до вірян) в історії католицької церкви під назвою \"Про нові речі\". Це був період піку промислової революції, коли мільйони людей ринули працювати на новозбудованих заводах по 12–15 годин на добу."
-    },
-    {
-      "id": "x-pravda-056c1b405224",
-      "title": "Скандал з орденом \"Білого Орла\": Навроцький звернувся до Зеленського",
-      "url": "https://www.pravda.com.ua/news/2026/06/22/8040572/",
-      "summary": "Президент Польщі Кароль Навроцький заперечив слова Володимира Зеленського про те, що скандал довкола ордена \"Білого Орла\" пов'язаний із внутрішньою політичною боротьбою у Польщі та розпалюванням неприязні до українців.",
-      "publishedAt": "2026-06-22T13:25:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Скандал з орденом \"Білого Орла\": Навроцький звернувся до Зеленського",
-      "summaryUk": "Президент Польщі Кароль Навроцький заперечив слова Володимира Зеленського про те, що скандал довкола ордена \"Білого Орла\" пов'язаний із внутрішньою політичною боротьбою у Польщі та розпалюванням неприязні до українців."
-    },
-    {
-      "id": "x-pravda-9fc826bb262d",
-      "title": "Представники польського бізнесу закликають Польщу та Україну до діалогу",
-      "url": "https://www.pravda.com.ua/news/2026/06/22/8040569/",
-      "summary": "",
-      "publishedAt": "2026-06-22T13:12:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Представники польського бізнесу закликають Польщу та Україну до діалогу",
-      "summaryUk": ""
     },
     {
       "id": "x-euromaidan-2cc915f4be36",
@@ -623,7 +703,7 @@
         "UKRAINE"
       ],
       "titleUk": "Російський дрон у Чорному морі вбив єгипетського кухаря на цивільному вантажному судні",
-      "summaryUk": "Турецький балкер Victress, який прямував до українського порту, загорівся після нічного страйку 22 червня. Ще одне комерційне судно зазнало незначних пошкоджень."
+      "summaryUk": "Турецький балкер Victress, що прямував до українського порту, загорівся після нічного страйку 22 червня. Ще одне комерційне судно зазнало незначних пошкоджень."
     },
     {
       "id": "x-euromaidan-09e42322aee6",
@@ -718,7 +798,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Наші сім’ї – частина України» – КиївПрайд щорічно збирає тисячі людей на вулицях Києва",
+      "titleUk": "«Наші родини – частина України» – КиївПрайд щорічно збирає тисячі людей на вулицях Києва",
       "summaryUk": "Близько 5 тисяч людей приєдналися до щорічної ходи КиївПрайд у центрі Києва. Пізніше подія була перервана повітряною тривогою, у столиці було чутно вибухи та спрацювала протиповітряна оборона."
     },
     {
@@ -750,7 +830,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Велика Британія виключає американські частини з ланцюга виробництва ракет у нових системах для України",
+      "titleUk": "Велика Британія вирізає американські частини з ланцюжка виробництва ракет у нових системах для України",
       "summaryUk": "Британія розробила нові прототипи крилатих ракет для України, які виключають американські частини, щоб зменшити залежність у виробництві зброї."
     },
     {
@@ -879,87 +959,7 @@
         "UKRAINE"
       ],
       "titleUk": "Партизанська диверсія призвела до аварійної зупинки виробництва безпілотників на російському оборонному заводі, стверджує ATESH",
-      "summaryUk": "За словами групи опору, пошкодження електричної підстанції призвело до переривання виробничих і випробувальних ліній на підприємстві, де виробляються системи безпілотників для російської армії."
-    },
-    {
-      "id": "x-euromaidan-579b0933a4a7",
-      "title": "Russo-Ukrainian war, day 1577: Zelenskyy gives Lukashenka one week to remove Russian signal repeaters from Belarus border towers",
-      "url": "https://euromaidanpress.com/2026/06/19/russo-ukrainian-war-day-1577-zelenskyy-gives-lukashenka-one-week-to-remove-russian-signal-repeaters-from-belarus-border-towers/",
-      "summary": "A Spanish laser-guidance kit that turns Soviet-era Grad rockets into sub-three-meter precision weapons is meanwhile giving Ukraine new firepower.",
-      "publishedAt": "2026-06-19T20:36:29.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-українська війна, день 1577: Зеленський дав Лукашенку тиждень, щоб прибрати російські ретранслятори сигналу з білоруських прикордонних веж",
-      "summaryUk": "Тим часом іспанський комплект лазерного наведення, який перетворює ракети «Град» радянської епохи на зброю з точністю менше трьох метрів, дає Україні нову вогневу міць."
-    },
-    {
-      "id": "x-euromaidan-d6b4411d8abe",
-      "title": "&#8220;What happens in Ukraine matters in Indo-Pacific&#8221;: Australia pledged Ukraine another $70 million",
-      "url": "https://euromaidanpress.com/2026/06/19/what-happens-in-ukraine-matters-in-indo-pacific-australia-pledged-ukraine-another-70-million/",
-      "summary": "The funding will be delivered in two $35 million tranches over the next 12 months through the PURL initiative.",
-      "publishedAt": "2026-06-19T20:28:43.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Те, що відбувається в Україні, має значення в Індо-Тихоокеанському регіоні»: Австралія пообіцяла Україні ще $70 млн",
-      "summaryUk": "Фінансування буде надано двома траншами по 35 мільйонів доларів США протягом наступних 12 місяців через ініціативу PURL."
-    },
-    {
-      "id": "x-euromaidan-566918cdd3d8",
-      "title": "Russia sent quad bikes to clear a minefield. Ukraine&#8217;s drones did the rest.",
-      "url": "https://euromaidanpress.com/2026/06/19/mine-plow-atv/",
-      "summary": "Mines blast Russian assault groups from below. To clear a path, one Russian field army modified an all-terrain vehicle.",
-      "publishedAt": "2026-06-19T20:20:39.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія відправила квадроцикли для розмінування поля. Решту зробили українські дрони.",
-      "summaryUk": "Знизу мінують російські штурмові групи. Щоб розчистити шлях, одна російська польова армія модифікувала всюдихід."
-    },
-    {
-      "id": "x-euromaidan-daa90ea83f4b",
-      "title": "Watch Ukrainian drones hit gas storage site deep in Crimea. Same operation took out radars, tankers, and Russian command post",
-      "url": "https://euromaidanpress.com/2026/06/19/madiars-drones-hit-gas-storage-site-deep-in-crimea-same-operation-took-out-radars-tankers-and-russian-command-post/",
-      "summary": "The Hlibivske facility regulates seasonal and daily gas consumption on the Crimean peninsula and supports pressure in the peninsula's gas transport system.",
-      "publishedAt": "2026-06-19T19:40:48.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дивіться, як українські безпілотники влучили в газосховище в глибині Криму. Ця ж операція знищила радари, танкери та російський командний пункт",
-      "summaryUk": "Глібівське підприємство регулює сезонне та добове споживання газу на Кримському півострові та підтримує тиск у газотранспортній системі півострова."
-    },
-    {
-      "id": "x-euromaidan-dbf47e23a959",
-      "title": "&#8220;If he doesn&#8217;t, Ukraine will&#8221;: Zelenskyy just gave Lukashenka one week to strip Russian repeaters off Belarus&#8217;s border towers",
-      "url": "https://euromaidanpress.com/2026/06/19/if-he-doesnt-ukraine-will-zelenskyy-just-gave-lukashenka-one-week-to-strip-russian-repeaters-off-belaruss-border-towers/",
-      "summary": "Zelenskyy made the announcement during a joint press conference with Honduran President Nasry Asfura in Kyiv on 19 June 2026.",
-      "publishedAt": "2026-06-19T19:01:53.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Ні він, то Україна»: Зеленський щойно дав Лукашенку тиждень, щоб зняти російські ретранслятори з прикордонних веж Білорусі",
-      "summaryUk": "Про це Зеленський заявив під час спільної прес-конференції з президентом Гондурасу Насрі Асфурою в Києві 19 червня 2026 року."
+      "summaryUk": "За словами групи опору, пошкодження електричної підстанції призвело до переривання виробничих і випробувальних ліній на підприємстві з виробництва безпілотних систем для російських військових."
     }
   ]
 }
