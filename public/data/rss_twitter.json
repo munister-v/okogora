@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:21:45.591Z",
+  "generatedAt": "2026-06-25T23:44:11.334Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,10 +98,122 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-09804dbdcf61",
+      "title": "Russia built its air defense in layers. A Ukrainian commander says the drones are peeling them off one by one",
+      "url": "https://euromaidanpress.com/2026/06/26/russia-built-its-air-defense-in-layers-a-ukrainian-commander-says-the-drones-are-peeling-them-off-one-by-one/",
+      "summary": "The layers were the whole point—each system covering the next. Now the sky over the occupied south opens for Ukrainian jets",
+      "publishedAt": "2026-06-25T23:21:43.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія будувала свою ППО пошарово. Український командир каже, що безпілотники знімають їх по одному",
+      "summaryUk": "Шари були суть — кожна система покривала наступну. Тепер небо над окупованим півднем відкривається для українських літаків"
+    },
+    {
+      "id": "x-pravda-296322586b89",
+      "title": "У Києві та деяких областях оголошували повітряну тривогу через загрозу балістики",
+      "url": "https://www.pravda.com.ua/news/2026/06/26/8041159/",
+      "summary": "У ніч на 26 червня у Києві та регіонах була повітряна тривога.",
+      "publishedAt": "2026-06-25T22:59:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві та деяких областях оголошували повітряну тривогу через загрозу балістики",
+      "summaryUk": "У ніч на 26 червня у Києві та регіонах була повітряна тривога."
+    },
+    {
+      "id": "x-pravda-9b4e56f5e4d3",
+      "title": "На конференції у Гданську підписали 160 угод на понад 10 млрд євро – Свириденко",
+      "url": "https://www.pravda.com.ua/news/2026/06/26/8041161/",
+      "summary": "Прем'єр-міністр України Юлія Свириденко повідомила про підписання 160 угод на суму понад 10 мільярдів євро за підсумками Конференції у Гданську.",
+      "publishedAt": "2026-06-25T22:32:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На конференції у Гданську підписали 160 угод на понад 10 млрд євро – Свириденко",
+      "summaryUk": "Прем'єр-міністр України Юлія Свириденко повідомила про підписання 160 угод на суму понад 10 мільярдів євро за підсумками Конференції у Гданську."
+    },
+    {
+      "id": "x-euromaidan-b55e8be6bab9",
+      "title": "Russia is bolting World War II-style bridges onto armored tractors. They&#8217;re slow—and Ukraine&#8217;s drones are fast",
+      "url": "https://euromaidanpress.com/2026/06/26/vovcha-river-crossing/",
+      "summary": "Every bridge over the Vovcha is gone, so Russian crews drive improvised spans into the river and bail out—leaving the vehicles behind as makeshift bridges. The drones find them anyway.",
+      "publishedAt": "2026-06-25T22:19:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія прикручує мости в стилі Другої світової війни до броньованих тягачів. Вони повільні, а українські дрони швидкі",
+      "summaryUk": "Кожен міст через Вовчу зник, тож російські бригади забивають імпровізовані прольоти в річку та вириваються, залишаючи техніку як імпровізовані мости. Безпілотники все одно їх знаходять."
+    },
+    {
+      "id": "x-euromaidan-04208a9a51a3",
+      "title": "Russo-Ukrainian war, day 1583: Russia bombs Ukraine&#8217;s grain ports ahead of harvest",
+      "url": "https://euromaidanpress.com/2026/06/26/russo-ukrainian-war-day-1583-russia-bombs-ukraines-grain-ports-ahead-of-harvest/",
+      "summary": "Ukraine's new AI defense center is steering drones onto targets in their final seconds of flight, part of a broader push to build an autonomous military that can outpace Russian jamming.",
+      "publishedAt": "2026-06-25T22:04:38.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1583: Росія бомбить українські зернові порти перед жнивами",
+      "summaryUk": "Новий український центр штучного інтелекту направляє безпілотники на цілі в останні секунди польоту, що є частиною ширшого поштовху до створення автономної армії, яка може випереджати російське глушіння."
+    },
+    {
+      "id": "x-pravda-a1a3c3f7d58c",
+      "title": "США підтвердили в тексті, що більше не є нейтралітетим посередником та підтримали Україну – Макрон",
+      "url": "https://www.pravda.com.ua/news/2026/06/26/8041158/",
+      "summary": "Макрон: США вперше офіційно заявили, що не є нейтральними у війні РФ проти України, підтримують територіальну цілісність України.",
+      "publishedAt": "2026-06-25T21:50:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "США підтвердили в тексті, що більше не є нейтралітетим посередником та підтримали Україну – Макрон",
+      "summaryUk": "Макрон: США вперше офіційно заявили, що не є нейтральними у війні РФ проти України, підтримують територіальну цілісність України."
+    },
+    {
+      "id": "x-pravda-af4766247acb",
+      "title": "У Києві пролунали вибухи: загорілись склади у Дарницькому районі, є постраждалі",
+      "url": "https://www.pravda.com.ua/news/2026/06/25/8041144/",
+      "summary": "Увечері 25 червня у Києві пролунали вибухи: Повітряні сили повідомили про ракету. Двоє людей постраждали через падіння уламків.",
+      "publishedAt": "2026-06-25T20:25:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві пролунали вибухи: загорілись склади у Дарницькому районі, є постраждалі",
+      "summaryUk": "Увечері 25 червня у Києві пролунали вибухи: Повітряні сили повідомили про ракету. Двоє людей постраждали через падіння уламків."
+    },
+    {
       "id": "x-euromaidan-5875cf0b73cb",
-      "title": "Ukraine Recovery Conference opens with both presidents absent and relations at a low",
+      "title": "Recovery conference for Ukraine opens in Poland as Warsaw-Kyiv ties hit bottom",
       "url": "https://euromaidanpress.com/2026/06/25/ukraine-recovery-conference-begins-as-polish-ukrainian-relation-hit-a-low-point/",
-      "summary": "Inside the halls, investment and reconstruction. Outside them, the same question on every delegate's lips—how fast can two estranged partners make up.",
+      "summary": "Both presidents stayed away from Gdańsk—and the corridors talked less about rebuilding Ukraine than about whether Kyiv and Warsaw can rebuild their own partnership.",
       "publishedAt": "2026-06-25T19:49:37.000Z",
       "author": "Euromaidan Press",
       "handle": "euromaidan",
@@ -110,8 +222,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Конференція з відновлення України відкривається за відсутності обох президентів і на низькому рівні відносин",
-      "summaryUk": "Всередині зали, інвестиції та реконструкція. Поза ними одне й те ж питання на вустах кожного делегата — як швидко можуть помиритися два партнери, які відчужуються."
+      "titleUk": "У Польщі відкривається конференція з відновлення України, коли відносини між Варшавою та Києвом досягли дна",
+      "summaryUk": "Обидва президенти трималися подалі від Гданська — і в коридорах говорили не про відновлення України, а про те, чи зможуть Київ і Варшава відновити власне партнерство."
     },
     {
       "id": "x-pravda-26c9d2879f11",
@@ -143,7 +255,7 @@
         "UKRAINE"
       ],
       "titleUk": "Росія продовжує націлюватися на енергомережу України. Британський пакет у розмірі 381,5 мільйона доларів робить ставку на ядерне паливо, щоб підтримувати його роботу",
-      "summaryUk": "Більшу частину грошей, 210 мільйонів фунтів стерлінгів, становить угода щодо ядерного палива, про яку вперше було оголошено цього місяця."
+      "summaryUk": "Більшу частину грошей, 210 мільйонів фунтів стерлінгів, становить угода з ядерного палива, про яку вперше було оголошено цього місяця."
     },
     {
       "id": "x-pravda-47e079244f52",
@@ -192,22 +304,6 @@
       ],
       "titleUk": "РФ закриває Генконсульство Румунії у Санкт-Петербурзі",
       "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-af4766247acb",
-      "title": "У Києві пролунали вибухи: загорілись склади у Дарницькому районі",
-      "url": "https://www.pravda.com.ua/news/2026/06/25/8041144/",
-      "summary": "Увечері 25 червня у Києві пролунали вибухи: Повітряні сили повідомили про ракету.",
-      "publishedAt": "2026-06-25T18:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Києві пролунали вибухи: загорілись склади у Дарницькому районі",
-      "summaryUk": "Увечері 25 червня у Києві пролунали вибухи: Повітряні сили повідомили про ракету."
     },
     {
       "id": "x-armyinform-f09ee67ac940",
@@ -466,22 +562,6 @@
       "summaryUk": "Олена Кондратюк про важливість діалогу й довіри між Україною та Польщею на тлі загострення відносин."
     },
     {
-      "id": "x-pravda-501407b2b5a3",
-      "title": "Довічний термін отримав полковник СБУ-\"топщур\" ФСБ",
-      "url": "https://www.pravda.com.ua/news/2026/06/25/8041119/",
-      "summary": "Викритого на співпраці з ФСБ РФ у лютому 2025 року екскерівника штабу Антитерористичного центру СБУ полковника Дмитра Козюру засуджено до довічного позбавлення волі за передачу таємних даних російським спецслужбам.",
-      "publishedAt": "2026-06-25T15:49:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Довічний термін отримав полковник СБУ-\"топщур\" ФСБ",
-      "summaryUk": "Викритого на співпраці з ФСБ РФ у лютому 2025 року екскерівника штабу Антитерористичного центру СБУ полковника Дмитра Козюру засуджено до довічного позбавлення волі за передачу таємних даних російським спецслужбам."
-    },
-    {
       "id": "x-euromaidan-00cd876e5cea",
       "title": "Ukraine passes 20 reforms to unlock $3.39 billion from World Bank",
       "url": "https://euromaidanpress.com/2026/06/25/ukraine-passes-20-reforms-to-unlock-3-39-billion-from-world-bank/",
@@ -498,38 +578,6 @@
       "summaryUk": "Велика Британія та Японія підтримали позику, а решту коштів покрило грантовий фонд у розмірі 2,35 мільярда доларів."
     },
     {
-      "id": "x-pravda-f02636e2bea1",
-      "title": "Зеленський: Рівень тривожності росіян вищий, ніж під час Курської операції ЗСУ",
-      "url": "https://www.pravda.com.ua/news/2026/06/25/8041110/",
-      "summary": "Президент Володимир Зеленський каже, що за даними з РФ, здобутими українською розвідкою, більш ніж 80% росіян вважають неминучою масштабну економічну кризу в Росії.",
-      "publishedAt": "2026-06-25T15:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Рівень тривожності росіян вищий, ніж під час Курської операції ЗСУ",
-      "summaryUk": "Президент Володимир Зеленський каже, що за даними з РФ, здобутими українською розвідкою, більш ніж 80% росіян вважають неминучою масштабну економічну кризу в Росії."
-    },
-    {
-      "id": "x-pravda-af19bef56e07",
-      "title": "Філософиня Лене Рейчел Андерсен: Я хочу, щоб Росія почала поводитися як нормальна країна",
-      "url": "https://www.pravda.com.ua/news/2026/06/25/8041079/",
-      "summary": "",
-      "publishedAt": "2026-06-25T15:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Філософиня Лене Рейчел Андерсен: Я хочу, щоб Росія почала поводитися як нормальна країна",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-b07c8caa95b1",
       "title": "Half of Ukraine&#8217;s new trainer planes were bought by Czech charity. Fund is called &#8220;Gift for Putin&#8221;",
       "url": "https://euromaidanpress.com/2026/06/25/half-of-ukraines-new-trainer-planes-were-bought-by-czech-charity-fund-is-called-gift-for-putin/",
@@ -543,7 +591,7 @@
         "UKRAINE"
       ],
       "titleUk": "Половину нових навчально-тренувальних літаків України купила чеська благодійна організація. Фонд називається «Подарунок для Путіна»",
-      "summaryUk": "The light planes let Ukraine train future fighter pilots at home and slash the cost of every flight hour."
+      "summaryUk": "Легкі літаки дозволяють Україні готувати майбутніх пілотів-винищувачів вдома та знижують вартість кожної години польоту."
     },
     {
       "id": "x-euromaidan-286087a9cc49",
@@ -558,7 +606,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна хоче мати армію на основі ШІ. Its new defense center is already putting AI inside kill chain, steering drones onto target in final seconds",
+      "titleUk": "Україна хоче мати армію на основі ШІ. Його новий центр захисту вже вставляє штучний інтелект у ланцюжок убивств, направляючи дрони на ціль за останні секунди",
       "summaryUk": "Український військовий центр хоче, щоб штучний інтелект був повсюди: від націлювання на останній милі, яке перемагає глушіння, до автономних турелей, але люди все одно натискають на курок."
     },
     {
@@ -591,7 +639,7 @@
         "UKRAINE"
       ],
       "titleUk": "Безпілотники пролетіли 1300 км до російської Уфи, а потім завдали ударів по НПЗ «Башнефти»",
-      "summaryUk": "Глава Башкортостану стверджував, що безпілотники збили засоби протиповітряної оборони і що пошкодження завдано лише падінням уламків."
+      "summaryUk": "Bashkortostan’s head claimed air defenses had shot down the drones and that the damage was caused only by falling debris."
     },
     {
       "id": "x-euromaidan-b3b9b6aacbec",
@@ -654,7 +702,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У Херсонській області внаслідок удару росіян по норвезькій благодійній групі саперів двоє вбитих, четверо поранених",
+      "titleUk": "У Херсонській області внаслідок удару Росії по норвезькій благодійній групі саперів двоє вбитих, четверо поранених",
       "summaryUk": "Робітники розміновували, щоб зробити сільськогосподарські угіддя безпечними, коли стався страйк, повідомила група."
     },
     {
@@ -686,8 +734,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Електромережі окупованого Криму ще одна ніч завдано ударів, оскільки Ялта та Севастополь знеструмлені",
-      "summaryUk": "Безпілотники налетіли з усіх боків, тоді як повітряна тривога про окупацію відставала на кілька годин."
+      "titleUk": "Енергетика окупованого Криму приймає ще одну ніч страйків, оскільки Ялта та Севастополь знеструмлені",
+      "summaryUk": "Безпілотники налітали з усіх боків, тоді як повітряна тривога про окупацію відставала на кілька годин."
     },
     {
       "id": "x-euromaidan-46413d4a04d0",
@@ -750,7 +798,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Вашингтон щойно виключив із чорного списку санкцій ще сімох росіян, два кораблі та дві турецькі компанії",
+      "titleUk": "Вашингтон щойно виключив із чорного списку санкцій ще сім росіян, два кораблі та дві турецькі компанії",
       "summaryUk": "Підрозділ санкцій Міністерства фінансів не пояснив причин для видалення 24 червня, яке відновило доступ до активів і дозволило американським компаніям знову мати справу з названими сторонами."
     },
     {
@@ -878,8 +926,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Київ дав правителю Білорусі тиждень, щоб перетягнути естафети безпілотників Росії. Замовкли за три дні, каже Зеленський",
-      "summaryUk": "Чи Білорусь їх демонтувала, чи діяла Україна, президент каже, що поки не знає."
+      "titleUk": "Київ дав правителю Білорусі тиждень, щоб перетягнути естафети безпілотників Росії. Вони замовкли за три дні, каже Зеленський",
+      "summaryUk": "Білорусь їх демонтувала чи діяла Україна, президент каже, що поки не знає."
     },
     {
       "id": "x-euromaidan-946aa2018d1d",
@@ -896,54 +944,6 @@
       ],
       "titleUk": "Україна побудувала досить дешевий безпілотник-розвідник для односторонніх місій. Пентагон вже стежить за продюсером",
       "summaryUk": "Україна проводить бойові випробування розвідувального безпілотника, створеного для польотів глибоко в тилу Росії та досить дешевого, щоб ризикувати..."
-    },
-    {
-      "id": "x-euromaidan-72242cb7d236",
-      "title": "Ukraine asked Denmark to rework its aid. New 15,000 rounds will hit Russian logistics from safer distance",
-      "url": "https://euromaidanpress.com/2026/06/24/ukraine-asked-denmark-to-rework-its-aid-new-15000-rounds-will-hit-russian-logistics-from-safer-distance/",
-      "summary": "Denmark is rerouting planned military aid to send Ukraine long-range artillery instead of short-range shells. Ukraine's Defense Forces&#8230;",
-      "publishedAt": "2026-06-24T16:27:59.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна попросила Данію переоформити допомогу. Нові 15 тисяч снарядів вразять російське матеріально-технічне забезпечення з більш безпечної відстані",
-      "summaryUk": "Данія перенаправляє заплановану військову допомогу на відправлення Україні далекобійної артилерії замість снарядів малої дальності. Сили оборони України…"
-    },
-    {
-      "id": "x-euromaidan-8fb04cf13e1a",
-      "title": "Earthquakes are doing what Ukraine&#8217;s missiles couldn&#8217;t. Seismologist says they&#8217;ll finish Crimean Bridge",
-      "url": "https://euromaidanpress.com/2026/06/24/earthquakes-are-doing-what-ukraines-missiles-couldnt-seismologist-says-theyll-finish-crimean-bridge/",
-      "summary": "The structure sits on unstable ground and faces irreversible weakening that could fell it without a single Ukrainian missile, the scientist says.",
-      "publishedAt": "2026-06-24T15:54:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Землетруси роблять те, що не змогли українські ракети. Сейсмологи кажуть, що добудують Кримський міст",
-      "summaryUk": "Конструкція стоїть на нестабільному ґрунті та зазнає незворотного ослаблення, яке може впасти без жодної української ракети, каже науковець."
-    },
-    {
-      "id": "x-euromaidan-ea0571ae265b",
-      "title": "It&#8217;s summer in Zaporizhzhia, so people were at beach. Russia struck it and wounded three children",
-      "url": "https://euromaidanpress.com/2026/06/24/its-summer-in-zaporizhzhia-so-people-were-at-beach-russia-struck-it-and-wounded-three-children/",
-      "summary": "The attack damaged cars and a shuttered eatery.",
-      "publishedAt": "2026-06-24T15:24:58.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Запоріжжі літо, тому люди були на пляжі. Росія вдарила по ньому і поранила трьох дітей",
-      "summaryUk": "Напад пошкодив автомобілі та закриту закусочну."
     },
     {
       "id": "x-militarnyi-f47d99ee4518",
