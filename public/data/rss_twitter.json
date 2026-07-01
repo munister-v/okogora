@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:13:08.891Z",
+  "generatedAt": "2026-07-01T21:45:59.051Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,38 @@
   ],
   "items": [
     {
+      "id": "x-pravda-821ac60ee854",
+      "title": "У Києві чутно вибухи: є падіння уламків, триває загроза ударних БпЛА",
+      "url": "https://www.pravda.com.ua/news/2026/07/02/8042001/",
+      "summary": "1 липня у Києві пролунали вибухи. ППО збиває ворожі БпЛА, є загроза атак та падіння уламків у районах міста.",
+      "publishedAt": "2026-07-01T21:08:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві чутно вибухи: є падіння уламків, триває загроза ударних БпЛА",
+      "summaryUk": "1 липня у Києві пролунали вибухи. ППО збиває ворожі БпЛА, є загроза атак та падіння уламків у районах міста."
+    },
+    {
+      "id": "x-euromaidan-50b9e49845d2",
+      "title": "Russo-Ukrainian war, day 1589: Ukraine strikes Russia&#8217;s Su-30 hangars",
+      "url": "https://euromaidanpress.com/2026/07/01/russo-ukrainian-war-day-1589-ukraine-strikes-russias-su-30-hangars/",
+      "summary": "Denmark meanwhile signaled a shift in how Europe backs Kyiv, unveiling a €590 million package of ammunition and training funding alongside a ministerial visit to the capital.",
+      "publishedAt": "2026-07-01T20:56:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1589: Україна завдала ударів по ангарах російських Су-30",
+      "summaryUk": "Тим часом Данія продемонструвала зміну того, як Європа підтримує Київ, оприлюднивши пакет боєприпасів і навчання на 590 мільйонів євро разом із міністерським візитом до столиці."
+    },
+    {
       "id": "x-pravda-ee40ef8c2fee",
       "title": "Генштаб повідомляє про 210 бойових зіткнень на фронті з початку доби",
       "url": "https://www.pravda.com.ua/news/2026/07/01/8042006/",
@@ -176,22 +208,6 @@
       ],
       "titleUk": "Україна заявляє, що тримає Донецький аеропорт під «вогневим контролем». Супутникові знімки показують, що Росія все одно там будує",
       "summaryUk": "Росія розширює стартові майданчики в Донецькому аеропорту для своїх реактивних безпілотників Геран-3, свідчать нові супутникові знімки."
-    },
-    {
-      "id": "x-pravda-d251efcce4f1",
-      "title": "У Києві чутно вибухи: є загроза ударних БпЛА",
-      "url": "https://www.pravda.com.ua/news/2026/07/01/8042001/",
-      "summary": "Увечері 1 липня в Києві пролунали вибухи. Повідомляють про загрозу БпЛА.",
-      "publishedAt": "2026-07-01T18:46:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Києві чутно вибухи: є загроза ударних БпЛА",
-      "summaryUk": "Увечері 1 липня в Києві пролунали вибухи. Повідомляють про загрозу БпЛА."
     },
     {
       "id": "x-pravda-9f8aa9d4822f",
@@ -944,22 +960,6 @@
       ],
       "titleUk": "Росія важить три шляхи в Україну. Український головнокомандувач каже, що Чернігів – справжній",
       "summaryUk": "Сирський ставить Брянську вісь вище за атаку з Білорусі"
-    },
-    {
-      "id": "x-euromaidan-633d9d05c01b",
-      "title": "1,400 kilometers of range, six configurations, one armed with missiles. Ukraine&#8217;s Mobidik covers entire Black Sea",
-      "url": "https://euromaidanpress.com/2026/06/30/1400-kilometers-of-range-six-configurations-one-armed-with-missiles-ukraines-mobidik-covers-entire-black-sea/",
-      "summary": "Ukraine's Avarid presented the Mobidik naval drone in six versions at DIH Naval Forge 2026.",
-      "publishedAt": "2026-06-30T16:37:10.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Радіус дії 1400 кілометрів, шість конфігурацій, одна з яких озброєна ракетами. Український Мобідік покриває все Чорне море",
-      "summaryUk": "Український «Аварід» представив на DIH Naval Forge 2026 морський безпілотник «Мобідік» у шести модифікаціях."
     }
   ]
 }
