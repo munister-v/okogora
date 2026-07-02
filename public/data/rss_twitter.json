@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T19:49:50.588Z",
+  "generatedAt": "2026-07-02T21:31:07.944Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,54 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-4b6f2e4b66b4",
+      "title": "РФ завдала ракетного удару по Кривому Рогу: двоє поранених",
+      "url": "https://www.pravda.com.ua/news/2026/07/02/8042171/",
+      "summary": "Увечері 2 липня Росія завдала удару по Кривому Рогу, удар прийшовся по сектору щільної міської забудови між багатоквартирними будинками. Двоє людей поранені.",
+      "publishedAt": "2026-07-02T20:58:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ завдала ракетного удару по Кривому Рогу: двоє поранених",
+      "summaryUk": "Увечері 2 липня Росія завдала удару по Кривому Рогу, удар прийшовся по сектору щільної міської забудови між багатоквартирними будинками. Двоє людей поранені."
+    },
+    {
+      "id": "x-euromaidan-de85acd64767",
+      "title": "Russo-Ukrainian war, day 1590: Russia&#8217;s largest attack on Kyiv in months kills 25 — a record 52,500 shelter underground",
+      "url": "https://euromaidanpress.com/2026/07/02/russo-ukrainian-war-day-1590/",
+      "summary": "A record 52,500 people sheltered in the Kyiv metro overnight as Russia mounted its heaviest strike on the capital in months; separately, Kyiv stayed silent on its first ballistic missile and left Moscow's defense ministry to announce the weapon.",
+      "publishedAt": "2026-07-02T20:38:31.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1590 року: найбільша атака Росії на Київ за кілька місяців убила 25 людей — рекордні 52 500 осіб укрилися під землею",
+      "summaryUk": "Рекордні 52 500 людей сховалися в київському метро протягом ночі, коли Росія завдала найсильнішого удару по столиці за останні місяці; Крім того, Київ мовчав щодо своєї першої балістичної ракети та покинув московське міністерство оборони, щоб оголосити про зброю."
+    },
+    {
+      "id": "x-euromaidan-c8e43f1d7030",
+      "title": "Ukrainian drones disabled 13 Russian power stations across occupied territory in 48 hours, commander says",
+      "url": "https://euromaidanpress.com/2026/07/02/ukrainian-drones-disabled-13-russian-power-stations-in-48-hours/",
+      "summary": "The reported 48-hour operation targeted Russian-controlled energy infrastructure across occupied Crimea, Melitopol, Donetsk, and Luhansk as Ukraine intensifies strikes behind the front line.",
+      "publishedAt": "2026-07-02T20:09:08.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українські безпілотники за 48 годин вивели з ладу 13 російських електростанцій на окупованій території, - командир",
+      "summaryUk": "Повідомляється, що 48-годинна операція була спрямована на контрольовану Росією енергетичну інфраструктуру в окупованому Криму, Мелітополі, Донецьку та Луганську, оскільки Україна посилює удари за лінією фронту."
+    },
     {
       "id": "x-pravda-1b626111058e",
       "title": "Генштаб: Від початку доби на фронті відбулось 224 зіткнення",
@@ -562,54 +610,6 @@
       "summaryUk": "Двоє найвпливовіших економічних чиновників Росії публічно визнали зростаючі витрати на війну в Україні, оскільки удари Києва по нафтовій інфраструктурі та рекордні військові витрати виявляють зростаючі тріщини в економіці Кремля під час війни"
     },
     {
-      "id": "x-pravda-1bcfcef80983",
-      "title": "\"Буферні зони\" Путіна, удар по \"Іскандерах\", Gripen проти Су-34 – про війну за тиждень",
-      "url": "https://www.pravda.com.ua/news/2026/07/02/8042113/",
-      "summary": "",
-      "publishedAt": "2026-07-02T14:09:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "\"Буферні зони\" Путіна, удар по \"Іскандерах\", Gripen проти Су-34 – про війну за тиждень",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-3fa8bac0d422",
-      "title": "РФ посилила стеження за європейськими ядерними об’єктами – дослідження",
-      "url": "https://www.pravda.com.ua/news/2026/07/02/8042110/",
-      "summary": "Росія активізує розвідку дронами біля військових баз Європи, виявлено 144 інциденти — дані IISS та Greenpeace.",
-      "publishedAt": "2026-07-02T14:04:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "РФ посилила стеження за європейськими ядерними об’єктами – дослідження",
-      "summaryUk": "Росія активізує розвідку дронами біля військових баз Європи, виявлено 144 інциденти — дані IISS та Greenpeace."
-    },
-    {
-      "id": "x-pravda-0c71f595e089",
-      "title": "Уряд Естонії підтримав заборону на купівлю нерухомості для частини росіян і білорусів",
-      "url": "https://www.pravda.com.ua/news/2026/07/02/8042107/",
-      "summary": "Уряд Естонії підтримав законопроєкт, який заборонить громадянам Росії та Білорусі без права на постійне проживання чи статусу довгострокового резидента купувати нерухомість у країні. Документ ще має схвалити парламент.",
-      "publishedAt": "2026-07-02T13:25:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Уряд Естонії підтримав заборону на купівлю нерухомості для частини росіян і білорусів",
-      "summaryUk": "Уряд Естонії підтримав законопроєкт, який заборонить громадянам Росії та Білорусі без права на постійне проживання чи статусу довгострокового резидента купувати нерухомість у країні. Документ ще має схвалити парламент."
-    },
-    {
       "id": "x-euromaidan-1b414fd7bf5f",
       "title": "Record 52,500 people sheltered in Kyiv metro during Russia&#8217;s overnight attack — including 4,500 children",
       "url": "https://euromaidanpress.com/2026/07/02/record-52500-people-sheltered-in-kyiv-metro-during-russias-overnight-attack-including-4500-children/",
@@ -944,38 +944,6 @@
       ],
       "titleUk": "Російські шахиди коштують по 10 тисяч доларів. В Україні щойно представили дрон, який їх вбиває за 2000 доларів",
       "summaryUk": "В Україні показали безпілотник-перехоплювач «ЗІРКА» за $2 тис. за одиницю з автоматичним націлюванням."
-    },
-    {
-      "id": "x-euromaidan-a40a3be851c4",
-      "title": "Moscow spent centuries explaining Ukraine to the world. A Lviv institute is breaking the monopoly",
-      "url": "https://euromaidanpress.com/2026/07/01/sasha-dovzhyk-index-ukraine-epistemic-justice/",
-      "summary": "Sasha Dovzhyk runs INDEX, a Lviv institute that brings foreign scholars to live inside wartime Ukraine long enough to get it right. She spoke with Euromaidan Press about epistemic justice and why she thinks the world still lets Moscow narrate its neighbors.",
-      "publishedAt": "2026-07-01T14:25:57.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Москва століттями пояснювала світові Україну. Львівський інститут ламає монополію",
-      "summaryUk": "Саша Довжик керує INDEX, львівським інститутом, який змушує іноземних науковців жити в Україні під час війни достатньо довго, щоб це було правильно. Вона поговорила з Euromaidan Press про епістемічну справедливість і чому, на її думку, світ досі дозволяє Москві розповідати про своїх сусідів."
-    },
-    {
-      "id": "x-euromaidan-e20d7ac1c6b3",
-      "title": "Sweden signed heritage deal with Ukraine aboard ship that beat Russia in 1790. Choice wasn&#8217;t accident",
-      "url": "https://euromaidanpress.com/2026/07/01/sweden-signed-heritage-deal-with-ukraine-aboard-ship-that-beat-russia-in-1790-choice-wasnt-accident/",
-      "summary": "Sweden and Ukraine signed a memorandum to document Cossack sites Russia's Kakhovka dam attack uncovered.",
-      "publishedAt": "2026-07-01T13:05:45.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Швеція підписала з Україною угоду про спадщину на борту корабля, який бив Росію в 1790 році. Вибір не був випадковим",
-      "summaryUk": "Швеція та Україна підписали меморандум, щоб задокументувати козацькі місця, розкриту атаку Росії на Каховську дамбу."
     }
   ]
 }
