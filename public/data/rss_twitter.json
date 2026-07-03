@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T19:47:46.757Z",
+  "generatedAt": "2026-07-03T21:31:03.141Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,102 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-54339b6200cd",
+      "title": "Russo-Ukrainian war, day 1591: Russia&#8217;s rear is &#8220;no longer peaceful&#8221; as Ukraine&#8217;s drones reach ever deeper into its war machine",
+      "url": "https://euromaidanpress.com/2026/07/04/russo-ukrainian-war-day-1591/",
+      "summary": "Refineries, naval bases, and power plants took hits across Russia and occupied Crimea even as Moscow's strikes killed 19 civilians over the last day and left 30 dead in Kyiv yesterday.",
+      "publishedAt": "2026-07-03T21:26:59.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1591: у тилу Росії «більше не мирно», оскільки українські безпілотники все глибше проникають у її військову машину",
+      "summaryUk": "Нафтопереробні заводи, військово-морські бази та електростанції зазнали ударів по всій Росії та окупованому Криму, незважаючи на те, що удари Москви вбили 19 мирних жителів за останню добу та залишили 30 жертв у Києві вчора."
+    },
+    {
+      "id": "x-pravda-8d0a3f124acb",
+      "title": "З початку доби відбулось 225 боїв, найгарячіше на Слов’янському та Костянтинівському напрямках – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/07/03/8042324/",
+      "summary": "З початку доби 3 липня на фронті відбулось 225 боїв, з них 24 відбулось на слов'янському напрямку і 24 – на Костянтинівському.",
+      "publishedAt": "2026-07-03T20:56:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "З початку доби відбулось 225 боїв, найгарячіше на Слов’янському та Костянтинівському напрямках – Генштаб",
+      "summaryUk": "З початку доби 3 липня на фронті відбулось 225 боїв, з них 24 відбулось на слов'янському напрямку і 24 – на Костянтинівському."
+    },
+    {
+      "id": "x-euromaidan-ad511b0d8c20",
+      "title": "Mini air defense against FPVs and the &#8220;Peace Duck&#8221; AI interceptor: Ukraine unveils 20-system counter-drone arsenal",
+      "url": "https://euromaidanpress.com/2026/07/03/contra-drone-unveils-20-system-counter-drone-arsenal/",
+      "summary": "Ukrainian defense company Contra Drone showcased an integrated architecture combining radar, electronic warfare, autonomous interceptors, and strike drones to counter Russia's expanding UAV threat.",
+      "publishedAt": "2026-07-03T20:43:18.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Міні-ППО від FPV та ШІ-перехоплювача «Мирна качка»: в Україні показали арсенал протидії безпілотників з 20 систем",
+      "summaryUk": "Українська оборонна компанія Contra Drone продемонструвала інтегровану архітектуру, яка поєднує в собі радар, засоби електронної боротьби, автономні перехоплювачі та ударні безпілотники, щоб протистояти зростаючій загрозі Росії БПЛА."
+    },
+    {
+      "id": "x-euromaidan-6649709c8e2e",
+      "title": "Poland to scrap the MiG-29 fighter jets it was supposed to hand Ukraine amid growing tensions between the allies",
+      "url": "https://euromaidanpress.com/2026/07/03/poland-to-scrap-the-mig-29-fighter-jets-it-was-supposed-to-hand-ukraine/",
+      "summary": "Poland says it will retire its remaining MiG-29 fighters after talks over a proposed transfer to Ukraine broke down amid a worsening political rift between the two countries.",
+      "publishedAt": "2026-07-03T20:08:59.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Польща збирається здавати на металобрухт винищувачі МіГ-29, які мала передати Україні, на тлі зростання напруженості між союзниками",
+      "summaryUk": "Польща заявляє, що звільнить винищувачі МіГ-29, які залишилися, після того, як переговори щодо запропонованої передачі Україні зірвалися на тлі загострення політичного розколу між двома країнами."
+    },
+    {
+      "id": "x-pravda-08712033c75d",
+      "title": "Щонайменше 4 людей загинули через російський удар 6 КАБами по центру Сум",
+      "url": "https://www.pravda.com.ua/news/2026/07/03/8042322/",
+      "summary": "Російська армія 3 липня поцілила авіабомбою по одній із центральних вулиць Сум: загинули 4 людей, є поранені, серед них діти.",
+      "publishedAt": "2026-07-03T20:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Щонайменше 4 людей загинули через російський удар 6 КАБами по центру Сум",
+      "summaryUk": "Російська армія 3 липня поцілила авіабомбою по одній із центральних вулиць Сум: загинули 4 людей, є поранені, серед них діти."
+    },
+    {
+      "id": "x-pravda-424d4db689f5",
+      "title": "РФ вдарила по залізниці на Дніпропетровщині: пошкоджені локомотиви",
+      "url": "https://www.pravda.com.ua/news/2026/07/03/8042321/",
+      "summary": "Російські війська 3 липня атакували безпілотниками на Дніпропетровщині два локомотиви.",
+      "publishedAt": "2026-07-03T19:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ вдарила по залізниці на Дніпропетровщині: пошкоджені локомотиви",
+      "summaryUk": "Російські війська 3 липня атакували безпілотниками на Дніпропетровщині два локомотиви."
+    },
+    {
       "id": "x-euromaidan-213e3a4dc33b",
       "title": "Crimea occupation officials pack up as some reportedly flee to Russia on state fuel as Ukrainian strikes intensify, ATESH claims",
       "url": "https://euromaidanpress.com/2026/07/03/crimea-occupation-officials-ordered-to-evacuate-documents-atesh/",
@@ -159,7 +255,7 @@
         "UKRAINE"
       ],
       "titleUk": "У червні Росія втратила позиції другий місяць поспіль. CSIS каже, що також втратив ініціативу",
-      "summaryUk": "Війна в Україні переходить у новий заморожений стан, оскільки просування Росії сповільнюється або повертається в останні місяці."
+      "summaryUk": "Війна в Україні переходить у новий заморожений стан, оскільки російське просування сповільнюється або повертається в останні місяці."
     },
     {
       "id": "x-euromaidan-fdf6d94a0740",
@@ -174,8 +270,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російська війна продовжує вбивати дельфінів: в парку Одеської області викинуло ще п’ять мертвих дельфінів – з кінця травня їх 63",
-      "summaryUk": "Вчені кажуть, що справжня кількість жертв може досягти тисяч, після того як з кінця травня на узбережжі українського Чорного моря було задокументовано 63 мертві морські свині."
+      "titleUk": "Російська війна продовжує вбивати дельфінів: в Одеському обласному парку викинуло ще п’ять мертвих дельфінів – з кінця травня 63",
+      "summaryUk": "Вчені кажуть, що справжня кількість жертв може досягти тисяч, після того, як з кінця травня на українському узбережжі Чорного моря було задокументовано 63 мертві морські свині."
     },
     {
       "id": "x-pravda-5e5d7cb1df64",
@@ -515,7 +611,7 @@
     },
     {
       "id": "x-euromaidan-585f487d2b6e",
-      "title": "Russian strikes kill 15 civilians across Ukraine, including toddler in Sumy Oblast",
+      "title": "Russian strikes kill 19 civilians across Ukraine, including toddler in Sumy Oblast",
       "url": "https://euromaidanpress.com/2026/07/03/russian-strikes-3-july/",
       "summary": "Russia's latest attacks killed civilians across Ukraine, with deadly strikes in Sumy, Donetsk, and Dnipropetrovsk oblasts and dozens more wounded nationwide.",
       "publishedAt": "2026-07-03T15:12:20.000Z",
@@ -526,7 +622,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "В результаті російських ударів по всій Україні загинуло 15 мирних жителів, у тому числі дитина в Сумській області",
+      "titleUk": "В результаті російських ударів по всій Україні загинули 19 мирних жителів, у тому числі дитина в Сумській області",
       "summaryUk": "Останні напади Росії призвели до загибелі мирних жителів по всій Україні, зі смертельними ударами в Сумській, Донецькій та Дніпропетровській областях і десятки поранених по всій країні."
     },
     {
@@ -544,54 +640,6 @@
       ],
       "titleUk": "Генштаб: ЗСУ уразили залізничний міст у Криму",
       "summaryUk": "В ніч на 3 липня підрозділи Сил оборони України уразили залізничний міст через Красногвардійський канал у районі Красногвардійського на тимчасово окупованій території АР Крим."
-    },
-    {
-      "id": "x-pravda-bcf5aed86048",
-      "title": "Саміт НАТО в Анкарі назве Росію загрозою й пообіцяє Україні 140 млрд євро на два роки",
-      "url": "https://www.pravda.com.ua/news/2026/07/03/8042274/",
-      "summary": "Підсумкова декларація саміту НАТО в Анкарі 7-8 липня, проєкт якої союзники планують фіналізувати у пʼятницю, 3 липня, включатиме в себе тезу про те, що Росія становить загрозу для Євроатлантичної безпеки, а також обіцянку держав-членів НАТО надати Україні по 70 млрд євро військової підтримки щороку в 2026-27 роках.",
-      "publishedAt": "2026-07-03T14:38:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Саміт НАТО в Анкарі назве Росію загрозою й пообіцяє Україні 140 млрд євро на два роки",
-      "summaryUk": "Підсумкова декларація саміту НАТО в Анкарі 7-8 липня, проєкт якої союзники планують фіналізувати у пʼятницю, 3 липня, включатиме в себе тезу про те, що Росія становить загрозу для Євроатлантичної безпеки, а також обіцянку держав-членів НАТО надати Україні по 70 млрд євро військової підтримки щороку в 2026-27 роках."
-    },
-    {
-      "id": "x-pravda-d70c997bfe47",
-      "title": "Медведєв приїхав до Ірану на церемонію прощання з Хаменеї",
-      "url": "https://www.pravda.com.ua/news/2026/07/03/8042268/",
-      "summary": "Медведєв і делегація РФ взяли участь у траурній церемонії прощання з Алі Хаменеї в Ірані.",
-      "publishedAt": "2026-07-03T14:02:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Медведєв приїхав до Ірану на церемонію прощання з Хаменеї",
-      "summaryUk": "Медведєв і делегація РФ взяли участь у траурній церемонії прощання з Алі Хаменеї в Ірані."
-    },
-    {
-      "id": "x-pravda-bac86dff0a66",
-      "title": "Удар РФ по Києву 2 липня: з-під завалів дев’ятиповерхівки дістали 10 загиблих, пошук завершено",
-      "url": "https://www.pravda.com.ua/news/2026/07/03/8042265/",
-      "summary": "У Дарницькому районі Києва знайшли 10 загиблих під завалами після атаки РФ 2 липня. Тривають відновлювальні роботи.",
-      "publishedAt": "2026-07-03T13:35:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Удар РФ по Києву 2 липня: з-під завалів дев’ятиповерхівки дістали 10 загиблих, пошук завершено",
-      "summaryUk": "У Дарницькому районі Києва знайшли 10 загиблих під завалами після атаки РФ 2 липня. Тривають відновлювальні роботи."
     },
     {
       "id": "x-euromaidan-adc05decab00",
@@ -622,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна вперше в історії розмитнила експорт готових бойових безпілотників — і вони поїхали до США",
+      "titleUk": "Україна вперше розмитнила експорт готових бойових безпілотників — і вони поїхали до США",
       "summaryUk": "Більшу частину війни Київ забороняв експорт безпілотників. Перша партія пішла до Пентагону"
     },
     {
@@ -654,8 +702,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Вночі на кримських електропідстанціях знову сталася пожежа, вдруге за тиждень",
-      "summaryUk": "Пожежі на відновленому вузлі та критичному хабі залишають Старий Крим темним"
+      "titleUk": "За ніч на підстанціях Криму знову сталася пожежа, вдруге за тиждень",
+      "summaryUk": "Пожежі на відновленому вузлі та критичному центрі залишають Старий Крим темним"
     },
     {
       "id": "x-euromaidan-73dc39a565d7",
@@ -687,7 +735,7 @@
         "UKRAINE"
       ],
       "titleUk": "Росія заборонила науковцям, які документували голодування України Сталіним. Вони все-таки йдуть своїм курсом — як Москва повторює голод.",
-      "summaryUk": "Коли її війська облягають окуповане місто Олешки, Росія забороняє західним науковцям, які документують сталінський голод в Україні, — це Москва продовжує заперечувати. Вчені дали відповідь новим курсом."
+      "summaryUk": "Поки її війська облягають окуповане місто Олешки, Росія забороняє західним науковцям, які документують сталінський голод в Україні, — це Москва продовжує заперечувати. Вчені дали відповідь новим курсом."
     },
     {
       "id": "x-euromaidan-1f6e7d5e46d7",
@@ -734,7 +782,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російсько-українська війна, день 1590 року: найбільша атака Росії на Київ за останні місяці вбила 25 людей — рекордні 52 500 укрилися під землею",
+      "titleUk": "Російсько-українська війна, день 1590 року: найбільша атака Росії на Київ за кілька місяців убила 25 людей — рекордні 52 500 осіб укрилися під землею",
       "summaryUk": "Рекордні 52 500 людей сховалися в київському метро протягом ночі, коли Росія завдала найсильнішого удару по столиці за останні місяці; Крім того, Київ мовчав щодо своєї першої балістичної ракети та покинув московське міністерство оборони, щоб оголосити про зброю."
     },
     {
@@ -767,7 +815,7 @@
         "UKRAINE"
       ],
       "titleUk": "«Ми не хочемо, щоб матеріали, вироблені в Ірландії, підтримували російську військову машину» – Ірландія наближається до рішення щодо експорту глинозему",
-      "summaryUk": "Прем’єр-міністр Ірландії Майкл Мартін каже, що розслідування ймовірних поставок глинозему до Росії наближається до завершення, оскільки президент Володимир Зеленський закликає до негайних дій."
+      "summaryUk": "Прем’єр-міністр Ірландії Майкл Мартін заявив, що розслідування ймовірних поставок глинозему до Росії наближається до завершення, оскільки президент Володимир Зеленський закликає до негайних дій."
     },
     {
       "id": "x-euromaidan-e54c4ca7738a",
@@ -814,7 +862,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна закликає партнерів терміново звільнити ракети Patriot після однієї з наймасштабніших повітряних атак війни",
+      "titleUk": "Україна закликає партнерів терміново звільнити ракети Patriot після однієї з найбільших авіаційних атак війни",
       "summaryUk": "Президент Зеленський сказав, що затримки з поставками обіцяних ракет Patriot не дозволили Україні перехопити всю останню атаку Росії, додавши, що більш швидка підтримка могла б врятувати життя та домівки."
     },
     {
@@ -832,54 +880,6 @@
       ],
       "titleUk": "Вищі банкіри Росії порушують табу, визнають, що війна шкодить економіці",
       "summaryUk": "Двоє найвпливовіших економічних чиновників Росії публічно визнали зростаючі витрати на війну в Україні, оскільки удари Києва по нафтовій інфраструктурі та рекордні військові витрати виявляють зростаючі тріщини в економіці Кремля під час війни"
-    },
-    {
-      "id": "x-euromaidan-1b414fd7bf5f",
-      "title": "Record 52,500 people sheltered in Kyiv metro during Russia&#8217;s overnight attack — including 4,500 children",
-      "url": "https://euromaidanpress.com/2026/07/02/record-52500-people-sheltered-in-kyiv-metro-during-russias-overnight-attack-including-4500-children/",
-      "summary": "Russia's overnight attack on Kyiv was the largest in months — and more people fled underground than any night in recent years.",
-      "publishedAt": "2026-07-02T12:38:56.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Під час нічної атаки Росії в київському метро сховалися рекордні 52 500 людей — у тому числі 4 500 дітей",
-      "summaryUk": "Нічний напад Росії на Київ був наймасштабнішим за кілька місяців — і більше людей втекли під землю, ніж будь-якої ночі за останні роки."
-    },
-    {
-      "id": "x-euromaidan-bf6d831c993f",
-      "title": "Russia destroyed 49 post offices. Japan rebuilt 20 of them—as modular units near the front line",
-      "url": "https://euromaidanpress.com/2026/07/02/russia-destroyed-49-post-offices-japan-rebuilt-20-of-them-as-modular-units-near-the-front-line/",
-      "summary": "20 modular branches now operating in Dnipropetrovsk, Kharkiv, Sumy, Zaporizhzhia, Chernihiv, and Kherson oblasts",
-      "publishedAt": "2026-07-02T12:30:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія знищила 49 поштових відділень. Японія відновила 20 із них — як модульні одиниці поблизу лінії фронту",
-      "summaryUk": "20 modular branches now operating in Dnipropetrovsk, Kharkiv, Sumy, Zaporizhzhia, Chernihiv, and Kherson oblasts"
-    },
-    {
-      "id": "x-euromaidan-972eff06f85f",
-      "title": "Airbus joins Ukraine&#8217;s frontline defence innovation program",
-      "url": "https://euromaidanpress.com/2026/07/02/airbus-joins-ukraines-frontline-defence-innovation-program/",
-      "summary": "Airbus has signed a memorandum with Ukraine's Brave1 defence technology cluster, marking the company's entry into a combat-tested innovation system that feeds frontline data directly into weapons development",
-      "publishedAt": "2026-07-02T12:26:35.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Airbus приєднується до програми передових оборонних інновацій України",
-      "summaryUk": "Airbus підписала меморандум з українським кластером оборонних технологій Brave1, що відзначає входження компанії в перевірену в бойових діях інноваційну систему, яка передає дані безпосередньо в розробку зброї."
     }
   ]
 }
