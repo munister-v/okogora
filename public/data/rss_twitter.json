@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T15:21:00.437Z",
+  "generatedAt": "2026-07-04T17:17:59.038Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,118 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-57e9c2bd8a67",
+      "title": "Poland&#8217;s Tusk expects Ukraine to take first step to ease White Eagle crisis",
+      "url": "https://euromaidanpress.com/2026/07/04/polands-tusk-expects-ukraine-to-take-first-step-to-ease-white-eagle-crisis/",
+      "summary": "A former Ukrainian president Viktor Yushchenko has written to Warsaw urging reconciliation.",
+      "publishedAt": "2026-07-04T17:14:26.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Туск очікує, що Україна зробить перший крок для послаблення кризи Білого Орла",
+      "summaryUk": "Екс-президент України Віктор Ющенко написав до Варшави лист із закликом до примирення."
+    },
+    {
+      "id": "x-pravda-e51bf91be424",
+      "title": "Берлін підтвердив, що китайського посла викликали на розмову через навчання вояків РФ",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042421/",
+      "summary": "",
+      "publishedAt": "2026-07-04T17:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Берлін підтвердив, що китайського посла викликали на розмову через навчання вояків РФ",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-b9b6f2b2f825",
+      "title": "Ukrainian girl who lost her mother in the Czech Republic returns home to her father",
+      "url": "https://euromaidanpress.com/2026/07/04/ukrainian-girl-who-lost-her-mother-in-the-czech-republic-returns-home-to-her-father/",
+      "summary": "Six months of cross-border negotiation brought her back after her mother's sudden death.",
+      "publishedAt": "2026-07-04T16:50:39.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українка, яка втратила матір у Чехії, повертається додому до батька",
+      "summaryUk": "Шість місяців транскордонних переговорів повернули її після раптової смерті матері."
+    },
+    {
+      "id": "x-pravda-057948286ab7",
+      "title": "Зеленський ухвалив рішення про створення в Одесі Академії військово-морських сил",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042418/",
+      "summary": "Президент України Володимир Зеленський напередодні Дня ВМС України повідомив про рішення створити в Одесі Академію військово-морських сил.",
+      "publishedAt": "2026-07-04T16:45:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський ухвалив рішення про створення в Одесі Академії військово-морських сил",
+      "summaryUk": "Президент України Володимир Зеленський напередодні Дня ВМС України повідомив про рішення створити в Одесі Академію військово-морських сил."
+    },
+    {
+      "id": "x-pravda-e411b41ced57",
+      "title": "РФ пропонує Україні припинити вогонь у Костянтинівці й провести передачу тіл",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042420/",
+      "summary": "Росія запропонувала Україні провести провести передачу тіл загиблих військовослужбовців у Костянтинівці та припинити вогонь.",
+      "publishedAt": "2026-07-04T16:36:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ пропонує Україні припинити вогонь у Костянтинівці й провести передачу тіл",
+      "summaryUk": "Росія запропонувала Україні провести провести передачу тіл загиблих військовослужбовців у Костянтинівці та припинити вогонь."
+    },
+    {
+      "id": "x-pravda-5914b41a3a24",
+      "title": "Росіяни скинули ФАБ на супермаркет у Краматорську: щонайменше 5 людей поранені, серед них дитина",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042412/",
+      "summary": "Російські війська увечері 4 липня атакували центральну частину Краматорська, виникла пожежа в супермаркеті: постраждали 5 людей.",
+      "publishedAt": "2026-07-04T15:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни скинули ФАБ на супермаркет у Краматорську: щонайменше 5 людей поранені, серед них дитина",
+      "summaryUk": "Російські війська увечері 4 липня атакували центральну частину Краматорська, виникла пожежа в супермаркеті: постраждали 5 людей."
+    },
+    {
+      "id": "x-pravda-9e53a8e45b54",
+      "title": "У Кишиневі припиняє роботу культурний центр \"Русский дом\"",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042403/",
+      "summary": "Російський державний культурний центр \"Русский дом\" у столиці Молдови Кишиневі припиняє свою роботу.",
+      "publishedAt": "2026-07-04T15:24:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Кишиневі припиняє роботу культурний центр \"Русский дом\"",
+      "summaryUk": "Російський державний культурний центр \"Русский дом\" у столиці Молдови Кишиневі припиняє свою роботу."
+    },
     {
       "id": "x-pravda-92f3616c1f35",
       "title": "Зеленський відвідав Одещину: обговорив збільшення кількості гелікоптерів",
@@ -418,22 +530,6 @@
       "summaryUk": "Про нові досягнення своїх операторів БпЛА розповіло у суботу, 4 липня, Головне управління розвідки Міністерства оборони. Як повідомляється, минулого тижня..."
     },
     {
-      "id": "x-pravda-b40b4d0b0b81",
-      "title": "Зеленський кличе Путіна на зустріч в \"окупованій\" Костянтинівці",
-      "url": "https://www.pravda.com.ua/news/2026/07/04/8042375/",
-      "summary": "Президент Зеленський закликав Путіна зустрітися у Костянтинівці, спростовуючи заяви РФ про окупацію міста.",
-      "publishedAt": "2026-07-04T11:03:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський кличе Путіна на зустріч в \"окупованій\" Костянтинівці",
-      "summaryUk": "Президент Зеленський закликав Путіна зустрітися у Костянтинівці, спростовуючи заяви РФ про окупацію міста."
-    },
-    {
       "id": "x-armyinform-e5acd1659e2d",
       "title": "Чим нинішня бензинова криза у рф відрізняється від ситуації, яка склалася там у 90-х — архівні кадри",
       "url": "https://armyinform.com.ua/2026/07/04/chym-nynishnya-benzynova-kryza-u-rf-vidriznyayetsya-vid-sytuacziyi-yaka-sklalasya-tam-u-90-h-arhivni-kadry/",
@@ -464,54 +560,6 @@
       ],
       "titleUk": "Спортсмени ЗСУ — чемпіони Європи з сучасного п’ятиборства серед юніорів",
       "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. «На чемпіонаті Європи з сучасного п’ятиборства серед юніорів, який триває..."
-    },
-    {
-      "id": "x-pravda-a6bf30d730c5",
-      "title": "Сирський відзвітував про успіхи ППО за червень",
-      "url": "https://www.pravda.com.ua/news/2026/07/04/8042369/",
-      "summary": "Головком ЗСУ Олександр Сирський заявив, що протягом червня знищено майже 5 тисяч ударних безпілотників типу Shahed та інших аналогічних типів.",
-      "publishedAt": "2026-07-04T09:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сирський відзвітував про успіхи ППО за червень",
-      "summaryUk": "Головком ЗСУ Олександр Сирський заявив, що протягом червня знищено майже 5 тисяч ударних безпілотників типу Shahed та інших аналогічних типів."
-    },
-    {
-      "id": "x-pravda-b8e953289d8e",
-      "title": "Качинський: Україна не вступить до ЄС, якщо не змінить курс",
-      "url": "https://www.pravda.com.ua/news/2026/07/04/8042367/",
-      "summary": "Ярослав Качинський закликав блокувати вступ України до ЄС через «культ Бандери» та УПА.",
-      "publishedAt": "2026-07-04T09:17:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Качинський: Україна не вступить до ЄС, якщо не змінить курс",
-      "summaryUk": "Ярослав Качинський закликав блокувати вступ України до ЄС через «культ Бандери» та УПА."
-    },
-    {
-      "id": "x-pravda-72bb550a871b",
-      "title": "Зеленський повідомив про успішні удари поблизу Петербурга",
-      "url": "https://www.pravda.com.ua/news/2026/07/04/8042358/",
-      "summary": "Президент Володимир Зеленський заявив, що у ніч на 4 липня українські \"далекобійні санкції\" спрацювали поблизу російського Петербурга.",
-      "publishedAt": "2026-07-04T08:02:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський повідомив про успішні удари поблизу Петербурга",
-      "summaryUk": "Президент Володимир Зеленський заявив, що у ніч на 4 липня українські \"далекобійні санкції\" спрацювали поблизу російського Петербурга."
     },
     {
       "id": "x-euromaidan-312a47fc9550",
@@ -848,38 +896,6 @@
       ],
       "titleUk": "Кількість загиблих у Києві зросла до 30, оскільки рятувальники шукають трьох людей, які все ще поховані під дев’ятиповерхівкою",
       "summaryUk": "За словами начальника Київської міської військової адміністрації Тимура Ткаченка, троє мешканців вважаються зниклими безвісти."
-    },
-    {
-      "id": "x-euromaidan-de85acd64767",
-      "title": "Russo-Ukrainian war, day 1590: Russia&#8217;s largest attack on Kyiv in months kills 25 — a record 52,500 shelter underground",
-      "url": "https://euromaidanpress.com/2026/07/02/russo-ukrainian-war-day-1590/",
-      "summary": "A record 52,500 people sheltered in the Kyiv metro overnight as Russia mounted its heaviest strike on the capital in months; separately, Kyiv stayed silent on its first ballistic missile and left Moscow's defense ministry to announce the weapon.",
-      "publishedAt": "2026-07-02T20:38:31.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-українська війна, день 1590 року: найбільша атака Росії на Київ за останні місяці вбила 25 людей — рекордні 52 500 укрилися під землею",
-      "summaryUk": "Рекордні 52 500 людей сховалися в київському метро протягом ночі, коли Росія завдала найсильнішого удару по столиці за останні місяці; Крім того, Київ мовчав щодо своєї першої балістичної ракети та покинув московське міністерство оборони, щоб оголосити про зброю."
-    },
-    {
-      "id": "x-euromaidan-c8e43f1d7030",
-      "title": "Ukrainian drones disabled 13 Russian power stations across occupied territory in 48 hours, commander says",
-      "url": "https://euromaidanpress.com/2026/07/02/ukrainian-drones-disabled-13-russian-power-stations-in-48-hours/",
-      "summary": "The reported 48-hour operation targeted Russian-controlled energy infrastructure across occupied Crimea, Melitopol, Donetsk, and Luhansk as Ukraine intensifies strikes behind the front line.",
-      "publishedAt": "2026-07-02T20:09:08.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українські безпілотники за 48 годин вивели з ладу 13 російських електростанцій на окупованій території, - командир",
-      "summaryUk": "Повідомляється, що 48-годинна операція була спрямована на контрольовану Росією енергетичну інфраструктуру в окупованому Криму, Мелітополі, Донецьку та Луганську, оскільки Україна посилює удари за лінією фронту."
     }
   ]
 }
