@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T17:17:59.038Z",
+  "generatedAt": "2026-07-04T19:35:35.386Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,150 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-e6273e2de9d6",
+      "title": "Генштаб повідомив про 236 бойових зіткнень з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042428/",
+      "summary": "На фронті з початку доби 4 липня відбулось 236 бойових зіткнень, зокрема, 23 на Покровському напрямку.",
+      "publishedAt": "2026-07-04T19:26:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб повідомив про 236 бойових зіткнень з початку доби",
+      "summaryUk": "На фронті з початку доби 4 липня відбулось 236 бойових зіткнень, зокрема, 23 на Покровському напрямку."
+    },
+    {
+      "id": "x-euromaidan-35c0e7398f0e",
+      "title": "Analysts spotted missile launcher Ukraine had kept classified for three years",
+      "url": "https://euromaidanpress.com/2026/07/04/analysts-spotted-missile-launcher-ukraine-had-kept-classified-for-three-years/",
+      "summary": "Zelenskyy's 4 July Odesa video reveals Ukraine's Harpoon and NSM anti-ship launchers for the first time.",
+      "publishedAt": "2026-07-04T19:16:18.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Аналітики помітили ракетну установку, яку Україна зберігала в секреті протягом трьох років",
+      "summaryUk": "На відео Зеленського від 4 липня в Одесі вперше показано українські протикорабельні пускові установки «Гарпун» і НСМ."
+    },
+    {
+      "id": "x-euromaidan-aa5fb3aa865b",
+      "title": "Helicopter, railway bridge, two command posts: Ukraine lists six strikes in one day",
+      "url": "https://euromaidanpress.com/2026/07/04/helicopter-railway-bridge-two-command-posts-ukraine-lists-six-strikes-in-one-day/",
+      "summary": "Ukraine's General Staff says it hit a Russian helicopter over the Sea of Azov. The strike was one&#8230;",
+      "publishedAt": "2026-07-04T18:44:15.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Вертоліт, залізничний міст, два командні пункти: Україна завдала шість ударів за добу",
+      "summaryUk": "У Генштабі України заявляють, що над Азовським морем збили російський гелікоптер. Страйк був один…"
+    },
+    {
+      "id": "x-euromaidan-c2e9d0ce00e5",
+      "title": "&#8220;Strength of American spirit&#8221;: Zelenskyy&#8217;s US Independence Day message credits Trump&#8217;s 2018 Javelin decision",
+      "url": "https://euromaidanpress.com/2026/07/04/strength-of-american-spirit-zelenskyys-us-independence-day-message-credits-trumps-2018-javelin-decision/",
+      "summary": "Ukrainian President Volodymyr Zelenskyy used his US Independence Day message to praise Donald Trump for the 2018 Javelin&#8230;",
+      "publishedAt": "2026-07-04T18:13:58.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Сила американського духу»: у посланні Зеленського до Дня незалежності США відзначають рішення Трампа про використання Javelin у 2018 році",
+      "summaryUk": "Президент України Володимир Зеленський використав своє звернення до Дня незалежності США, щоб похвалити Дональда Трампа за Javelin у 2018 році…"
+    },
+    {
+      "id": "x-pravda-d5ada26307b5",
+      "title": "До 31 зросла кількість загиблих внаслідок російського обстрілу Києва 2 липня",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042425/",
+      "summary": "Внаслідок російської атаки на Київ 2 липня загинула 31 людина та 102 людини травмовані.",
+      "publishedAt": "2026-07-04T18:13:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "До 31 зросла кількість загиблих внаслідок російського обстрілу Києва 2 липня",
+      "summaryUk": "Внаслідок російської атаки на Київ 2 липня загинула 31 людина та 102 людини травмовані."
+    },
+    {
+      "id": "x-pravda-0bab09d26253",
+      "title": "У лікарні померла херсонська волонтерка Олена Тарасенко, яка була поранена внаслідок обстрілу",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042423/",
+      "summary": "Херсонська волонтерка Олена Тарасенко, яка отримала тяжкі поранення внаслідок російського обстрілу 24 травня, померла у лікарні у віці 48 років.",
+      "publishedAt": "2026-07-04T17:51:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У лікарні померла херсонська волонтерка Олена Тарасенко, яка була поранена внаслідок обстрілу",
+      "summaryUk": "Херсонська волонтерка Олена Тарасенко, яка отримала тяжкі поранення внаслідок російського обстрілу 24 травня, померла у лікарні у віці 48 років."
+    },
+    {
+      "id": "x-euromaidan-b4a4dbcf4578",
+      "title": "Russia is building fake Ukrainians: One AI video, telling Ukrainians their soldiers are dying so politicians can buy villas, got 900,000 views",
+      "url": "https://euromaidanpress.com/2026/07/04/russia-is-building-fake-ukrainians-one-ai-video-telling-ukrainians-their-soldiers-are-dying-so-politicians-can-buy-villas-got-900000-views/",
+      "summary": "Russia has moved to \"conveyor production\" of fakes.",
+      "publishedAt": "2026-07-04T17:47:56.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія будує фальшивих українців: одне відео ШІ розповідає, що українці гинуть їхні солдати, щоб політики могли купувати вілли, набрало 900 тис. переглядів",
+      "summaryUk": "Росія перейшла на «конвеєрне виробництво» підробок."
+    },
+    {
+      "id": "x-pravda-b427c94eed18",
+      "title": "У Сумах російські війська атакували АЗС: постраждали троє жінок",
+      "url": "https://www.pravda.com.ua/news/2026/07/04/8042422/",
+      "summary": "Росія 4 липня атакувала безпілотником АЗС у Сумах: сталася пожежа, постраждали 3 жінки.",
+      "publishedAt": "2026-07-04T17:19:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Сумах російські війська атакували АЗС: постраждали троє жінок",
+      "summaryUk": "Росія 4 липня атакувала безпілотником АЗС у Сумах: сталася пожежа, постраждали 3 жінки."
+    },
+    {
+      "id": "x-euromaidan-2c2f99888b14",
+      "title": "What makes Russia&#8217;s new &#8220;Banderol&#8221; missile so hard to shoot down?",
+      "url": "https://euromaidanpress.com/2026/07/04/what-makes-russias-new-banderol-missile-so-hard-to-shoot-down/",
+      "summary": "Russia's Banderol cruise missile is fast, cheap, and made from foreign components from 30 companies worldwide.",
+      "publishedAt": "2026-07-04T17:18:45.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Чому нову російську ракету «Бандероль» так важко збити?",
+      "summaryUk": "Російська крилата ракета «Бандерол» швидка, дешева і виготовлена ​​з іноземних комплектуючих від 30 компаній з усього світу."
+    },
     {
       "id": "x-euromaidan-57e9c2bd8a67",
       "title": "Poland&#8217;s Tusk expects Ukraine to take first step to ease White Eagle crisis",
@@ -338,26 +482,10 @@
       "summaryUk": "Військова розвідка України ХУР знищила російський винищувач МіГ-29 на аеродромі Бельбек в окупованому Криму."
     },
     {
-      "id": "x-armyinform-40afee3d5177",
-      "title": "Президент обговорив з військовими кроки для захисту Одещини від ворожих ракет та дронів",
-      "url": "https://armyinform.com.ua/2026/07/04/prezydent-obgovoryv-z-vijskovymy-kroky-dlya-zahystu-odeshhyny-vid-vorozhyh-raket-ta-droniv/",
-      "summary": "Про це він повідомив у суботу, 4 липня, у себе у соцмережах. Серед іншого, військові представили главі держави свої технічні...",
-      "publishedAt": "2026-07-04T13:47:32.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Президент обговорив з військовими кроки для захисту Одещини від ворожих ракет та дронів",
-      "summaryUk": "Про це він повідомив у суботу, 4 липня, у себе у соцмережах. Серед іншого, військові представили главі держави свої технічні..."
-    },
-    {
       "id": "x-pravda-72c044ced355",
-      "title": "Запоріжжя знову під атакою РФ: троє постраждалих, серед них дитина",
+      "title": "Запоріжжя знову під атакою РФ: 7 постраждалих, серед них дитина",
       "url": "https://www.pravda.com.ua/news/2026/07/04/8042395/",
-      "summary": "Російські війська 4 липня атакували Запоріжжя: три людини постраждали.",
+      "summary": "Російські війська 4 липня атакували Запоріжжя: 7 людей постраждали.",
       "publishedAt": "2026-07-04T13:45:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -366,24 +494,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Запоріжжя знову під атакою РФ: троє постраждалих, серед них дитина",
-      "summaryUk": "Російські війська 4 липня атакували Запоріжжя: три людини постраждали."
-    },
-    {
-      "id": "x-armyinform-e30cc76e5595",
-      "title": "«Дав прикурити»: FPV-дрон позбавив окупанта одразу двох шкідливих звичок",
-      "url": "https://armyinform.com.ua/2026/07/04/dav-prykuryty-fpv-dron-pozbavyv-okupanta-odrazu-dvoh-shkidlyvyh-zvychok/",
-      "summary": "Про це свідчить відео, яким у суботу, 4 липня, поділився у себе у соцмережах радник міністра оборони з питань підвищення...",
-      "publishedAt": "2026-07-04T13:28:47.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Дав прикурити»: FPV-дрон позбавив окупанта одразу двох шкідливих звичок",
-      "summaryUk": "Про це свідчить відео, яким у суботу, 4 липня, поділився у себе у соцмережах радник міністра оборони з питань підвищення..."
+      "titleUk": "Запоріжжя знову під атакою РФ: 7 постраждалих, серед них дитина",
+      "summaryUk": "Російські війська 4 липня атакували Запоріжжя: 7 людей постраждали."
     },
     {
       "id": "x-pravda-9fdd4d5ebe4b",
@@ -400,166 +512,6 @@
       ],
       "titleUk": "Зеленський привітав США з 250-річчям незалежності",
       "summaryUk": "Президент України Володимир Зеленський опублікував вітання для Сполучених Штатів до 250-ї річниці незалежності країни, що відзначається 4 липня."
-    },
-    {
-      "id": "x-armyinform-7e8c2a80dbd8",
-      "title": "Покровський, Гуляйпільський та Слов’янський: Генштаб ЗСУ назвав напрямки з найбільшою ворожою активністю",
-      "url": "https://armyinform.com.ua/2026/07/04/pokrovskyj-gulyajpilskyj-ta-slovyanskyj-genshtab-zsu-nazvav-napryamky-z-najbilshoyu-vorozhoyu-aktyvnistyu/",
-      "summary": "Про це йдеться у зведенні Генерального штабу ЗСУ з оперативною інформацією станом на 16.00 4 липня. На Північно-Слобожанському і Курському...",
-      "publishedAt": "2026-07-04T13:11:13.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Покровський, Гуляйпільський та Слов’янський: Генштаб ЗСУ назвав напрямки з найбільшою ворожою активністю",
-      "summaryUk": "Про це йдеться у зведенні Генерального штабу ЗСУ з оперативною інформацією станом на 16.00 4 липня. На Північно-Слобожанському і Курському..."
-    },
-    {
-      "id": "x-armyinform-8a741d52844b",
-      "title": "Ворог намагається розсікти лівобережний плацдарм ЗСУ в районі Куп’янська",
-      "url": "https://armyinform.com.ua/2026/07/04/vorog-namagayetsya-rozsikty-livoberezhnyj-placzdarm-zsu-v-rajoni-kupyanska/",
-      "summary": "Про це в ефірі онлайн-медіа «Третя світова» розповів речник Угруповання об’єднаних сил Віктор Трегубов. Водночас він зазначив, що плани російського...",
-      "publishedAt": "2026-07-04T12:55:23.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ворог намагається розсікти лівобережний плацдарм ЗСУ в районі Куп’янська",
-      "summaryUk": "Про це в ефірі онлайн-медіа «Третя світова» розповів речник Угруповання об’єднаних сил Віктор Трегубов. Водночас він зазначив, що плани російського..."
-    },
-    {
-      "id": "x-pravda-cca5b8ea4973",
-      "title": "Дронами \"вимкнули\" ППО, а потім пустили авіацію: бійці показали спільну операцію",
-      "url": "https://www.pravda.com.ua/news/2026/07/04/8042386/",
-      "summary": "Українські військові дронами знищили «Бук-М3», після чого авіація завдала ударів по двох штабах РФ.",
-      "publishedAt": "2026-07-04T12:40:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дронами \"вимкнули\" ППО, а потім пустили авіацію: бійці показали спільну операцію",
-      "summaryUk": "Українські військові дронами знищили «Бук-М3», після чого авіація завдала ударів по двох штабах РФ."
-    },
-    {
-      "id": "x-pravda-203ad16af7b0",
-      "title": "Туск хоче \"чітких сигналів\" від України щодо скандалу з \"героями УПА\"",
-      "url": "https://www.pravda.com.ua/news/2026/07/04/8042383/",
-      "summary": "Премʼєр Польщі Туск чекає чіткого сигналу від Києва для розрядки у відносинах після скандалу з УПА.",
-      "publishedAt": "2026-07-04T12:27:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Туск хоче \"чітких сигналів\" від України щодо скандалу з \"героями УПА\"",
-      "summaryUk": "Премʼєр Польщі Туск чекає чіткого сигналу від Києва для розрядки у відносинах після скандалу з УПА."
-    },
-    {
-      "id": "x-armyinform-fe61513496c2",
-      "title": "«Сховатися не вийде»: дрони «Форпосту» позбавляють ворога можливості вести бойові дії",
-      "url": "https://armyinform.com.ua/2026/07/04/shovatysya-ne-vyjde-drony-forpostu-pozbavlyayut-voroga-mozhlyvosti-vesty-bojovi-diyi/",
-      "summary": "Про це свідчить нова добірка з ураженнями ворожих цілей, оприлюднена у суботу, 4 липня, Державною прикордонною службою. Як зазначають українські...",
-      "publishedAt": "2026-07-04T12:25:55.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Сховатися не вийде»: дрони «Форпосту» позбавляють ворога можливості вести бойові дії",
-      "summaryUk": "Про це свідчить нова добірка з ураженнями ворожих цілей, оприлюднена у суботу, 4 липня, Державною прикордонною службою. Як зазначають українські..."
-    },
-    {
-      "id": "x-armyinform-9731887b3429",
-      "title": "Спецпризначенці «Альфи» ліквідували за тиждень понад 1500 окупантів",
-      "url": "https://armyinform.com.ua/2026/07/04/speczpryznachenczi-alfy-likviduvaly-za-tyzhden-ponad-1500-okupantiv/",
-      "summary": "Результатами роботи своїх бійців СБУ поділилася у суботу, 4 липня, у своєму Telegram-каналі. Зокрема, на оприлюднених кадрах можна побачити полювання...",
-      "publishedAt": "2026-07-04T11:57:40.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Спецпризначенці «Альфи» ліквідували за тиждень понад 1500 окупантів",
-      "summaryUk": "Результатами роботи своїх бійців СБУ поділилася у суботу, 4 липня, у своєму Telegram-каналі. Зокрема, на оприлюднених кадрах можна побачити полювання..."
-    },
-    {
-      "id": "x-armyinform-9ff2acd9ec27",
-      "title": "Москва палала двічі: Міноборони відзвітувало щодо інтенсивності діпстрайків у червні",
-      "url": "https://armyinform.com.ua/2026/07/04/moskva-palala-dvichi-minoborony-vidzvituvalo-shhodo-intensyvnosti-dipstrajkiv-u-chervni/",
-      "summary": "Відповідну інфографіку відомство оприлюднило у суботу, 4 липня, у своєму Telegram-каналі. Як зазначається, за весь місяць було всього кілька днів,...",
-      "publishedAt": "2026-07-04T11:32:50.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Москва палала двічі: Міноборони відзвітувало щодо інтенсивності діпстрайків у червні",
-      "summaryUk": "Відповідну інфографіку відомство оприлюднило у суботу, 4 липня, у своєму Telegram-каналі. Як зазначається, за весь місяць було всього кілька днів,..."
-    },
-    {
-      "id": "x-armyinform-74969b7fb7be",
-      "title": "Згоріли «десятки мільйонів доларів»: бійці ГУР знищили у Криму російський Міг-29 та спецтехніку",
-      "url": "https://armyinform.com.ua/2026/07/04/zgorily-desyatky-miljoniv-dolariv-bijczi-gur-znyshhyly-u-krymu-rosijskyj-mig-29-ta-specztehniku/",
-      "summary": "Про нові досягнення своїх операторів БпЛА розповіло у суботу, 4 липня, Головне управління розвідки Міністерства оборони. Як повідомляється, минулого тижня...",
-      "publishedAt": "2026-07-04T11:18:16.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Згоріли «десятки мільйонів доларів»: бійці ГУР знищили у Криму російський Міг-29 та спецтехніку",
-      "summaryUk": "Про нові досягнення своїх операторів БпЛА розповіло у суботу, 4 липня, Головне управління розвідки Міністерства оборони. Як повідомляється, минулого тижня..."
-    },
-    {
-      "id": "x-armyinform-e5acd1659e2d",
-      "title": "Чим нинішня бензинова криза у рф відрізняється від ситуації, яка склалася там у 90-х — архівні кадри",
-      "url": "https://armyinform.com.ua/2026/07/04/chym-nynishnya-benzynova-kryza-u-rf-vidriznyayetsya-vid-sytuacziyi-yaka-sklalasya-tam-u-90-h-arhivni-kadry/",
-      "summary": "Так, у Telegram-каналі Exilenova+ з’явилося відео, змонтоване з архівних кадрів того періоду та катастрофи, яка накрила російські регіони сьогодні. Проведені...",
-      "publishedAt": "2026-07-04T10:58:46.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Чим нинішня бензинова криза у рф відрізняється від ситуації, яка склалася там у 90-х — архівні кадри",
-      "summaryUk": "Так, у Telegram-каналі Exilenova+ з’явилося відео, змонтоване з архівних кадрів того періоду та катастрофи, яка накрила російські регіони сьогодні. Проведені..."
-    },
-    {
-      "id": "x-armyinform-8d3a3ef854b4",
-      "title": "Спортсмени ЗСУ — чемпіони Європи з сучасного п’ятиборства серед юніорів",
-      "url": "https://armyinform.com.ua/2026/07/04/sportsmeny-zsu-chempiony-yevropy-z-suchasnogo-pyatyborstva-sered-yunioriv/",
-      "summary": "Про це повідомляє Відділ фізичної культури і спорту МО України. «На чемпіонаті Європи з сучасного п’ятиборства серед юніорів, який триває...",
-      "publishedAt": "2026-07-04T10:45:42.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Спортсмени ЗСУ — чемпіони Європи з сучасного п’ятиборства серед юніорів",
-      "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. «На чемпіонаті Європи з сучасного п’ятиборства серед юніорів, який триває..."
     },
     {
       "id": "x-euromaidan-312a47fc9550",
@@ -816,86 +768,6 @@
       ],
       "titleUk": "Українці думають, дзвонить власна служба безпеки — це Росія вербує диверсантів",
       "summaryUk": "Російські спецслужби видають себе за українські спецслужби в новій схемі вербування, яка використовує підроблені кримінальні розслідування та підроблені документи СБУ."
-    },
-    {
-      "id": "x-euromaidan-5ca7353e6b3e",
-      "title": "Fires hit Crimea power substations again overnight, one for the second time in a week",
-      "url": "https://euromaidanpress.com/2026/07/03/fires-hit-crimea-power-substations-again-overnight-one-for-the-second-time-in-a-week/",
-      "summary": "Blazes at a rebuilt node and a critical hub leave Staryi Krym dark",
-      "publishedAt": "2026-07-03T11:31:13.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Вночі на кримських електропідстанціях знову сталася пожежа, вдруге за тиждень",
-      "summaryUk": "Пожежі на відновленому вузлі та критичному хабі залишають Старий Крим темним"
-    },
-    {
-      "id": "x-euromaidan-73dc39a565d7",
-      "title": "Belgorod loses power and water after Ukrainian strike on gas-turbine plant, one killed",
-      "url": "https://euromaidanpress.com/2026/07/03/belgorod-loses-power-and-water-after-ukrainian-strike-on-gas-turbine-plant-one-killed/",
-      "summary": "The strike came a day after Russia's deadliest assault on Kyiv this year.",
-      "publishedAt": "2026-07-03T11:11:57.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Бєлгород втрачає світло та воду після удару українців по ГТУ, є загиблий",
-      "summaryUk": "Удар було завдано через день після наймасштабнішого нападу Росії на Київ цього року."
-    },
-    {
-      "id": "x-euromaidan-cccef528d310",
-      "title": "Russia banned the scholars documenting Stalin&#8217;s starvation of Ukraine. They put their course out anyway—as Moscow repeats the famine.",
-      "url": "https://euromaidanpress.com/2026/07/03/holodomor-course-oleshky-siege-russia-denial/",
-      "summary": "As its forces besiege the occupied town of Oleshky, Russia bans Western scholars who are documenting Stalin's famine in Ukraine—the one Moscow continues to deny. The scholars have fired back with a new course.",
-      "publishedAt": "2026-07-03T08:00:00.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія заборонила науковцям, які документували голодування України Сталіним. Вони все-таки йдуть своїм курсом — як Москва повторює голод.",
-      "summaryUk": "Коли її війська облягають окуповане місто Олешки, Росія забороняє західним науковцям, які документують сталінський голод в Україні, — це Москва продовжує заперечувати. Вчені дали відповідь новим курсом."
-    },
-    {
-      "id": "x-euromaidan-1f6e7d5e46d7",
-      "title": "Ukraine wants the Ankara summit to name it a NATO security contributor—not just an aid recipient",
-      "url": "https://euromaidanpress.com/2026/07/03/ukraine-wants-the-ankara-summit-to-name-it-a-nato-security-contributor-not-just-an-aid-recipient/",
-      "summary": "Kyiv now red-teams the Alliance's war games and runs its only joint center with NATO—and says a record number of members back its membership.",
-      "publishedAt": "2026-07-03T07:24:15.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна хоче, щоб на саміті в Анкарі її назвали країною, що сприяє безпеці НАТО, а не просто одержувачем допомоги",
-      "summaryUk": "Зараз Київ об’єднує військові ігри Альянсу та керує єдиним спільним центром з НАТО — і каже, що рекордна кількість членів підтримує його членство."
-    },
-    {
-      "id": "x-euromaidan-54e98da3eb55",
-      "title": "Kyiv death toll climbs to 30 as rescuers dig for three still buried under a nine-story block",
-      "url": "https://euromaidanpress.com/2026/07/03/kyiv-death-toll-climbs-to-30-as-rescuers-dig-for-three-still-buried-under-a-nine-story-block/",
-      "summary": "Three residents remain unaccounted for as the search continues, according to Tymur Tkachenko, head of the Kyiv City Military Administration.",
-      "publishedAt": "2026-07-03T06:54:33.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Кількість загиблих у Києві зросла до 30, оскільки рятувальники шукають трьох людей, які все ще поховані під дев’ятиповерхівкою",
-      "summaryUk": "За словами начальника Київської міської військової адміністрації Тимура Ткаченка, троє мешканців вважаються зниклими безвісти."
     }
   ]
 }
