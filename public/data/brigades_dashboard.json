@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:15:13.249Z",
+  "generatedAt": "2026-07-06T04:43:35.848Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 58,
     "mentionItems": 2,
-    "significantItems": 48,
-    "strikeItems": 40,
+    "significantItems": 46,
+    "strikeItems": 38,
     "reorgItems": 15
   },
   "brigades": [
@@ -33,17 +33,17 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 0,
-      "significantItems": 16,
-      "strikeItems": 16,
+      "significantItems": 14,
+      "strikeItems": 14,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
         {
-          "id": "telegram-kpszsu-54df0272980dfb",
-          "title": "🛵 Нові групи БПЛА ➡️ на півночі Сумщини та Чернігівщини.",
-          "summary": "🛵 Нові групи БПЛА ➡️ на півночі Сумщини та Чернігівщини.",
-          "url": "https://t.me/kpszsu/67443",
-          "publishedAt": "2026-07-05T22:04:51.000Z",
+          "id": "telegram-kpszsu-e59f034eee1d60",
+          "title": "🛵 Кіровоградщина: БпЛА повз Олександрію, курс - північно-західний.",
+          "summary": "🛵 Кіровоградщина: БпЛА повз Олександрію, курс - північно-західний.",
+          "url": "https://t.me/kpszsu/67499",
+          "publishedAt": "2026-07-06T04:36:13.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -52,15 +52,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Нові групи БПЛА ➡️ на півночі Сумщини та Чернігівщини.",
-          "summaryUk": "🛵 Нові групи БПЛА ➡️ на півночі Сумщини та Чернігівщини."
+          "titleUk": "🛵 Кіровоградщина: БпЛА повз Олександрію, курс - північно-західний.",
+          "summaryUk": "🛵 Кіровоградщина: БпЛА повз Олександрію, курс - північно-західний."
         },
         {
-          "id": "telegram-kpszsu-c253d38ea680e3",
-          "title": "🛵 Групи БПЛА ➡️ курсом на Кривий Ріг з півдня.",
-          "summary": "🛵 Групи БПЛА ➡️ курсом на Кривий Ріг з півдня.",
-          "url": "https://t.me/kpszsu/67442",
-          "publishedAt": "2026-07-05T21:31:43.000Z",
+          "id": "telegram-kpszsu-12b5c0be68c3df",
+          "title": "🛵 Реактивний БпЛА в районі Миколаєва.",
+          "summary": "🛵 Реактивний БпЛА в районі Миколаєва.",
+          "url": "https://t.me/kpszsu/67498",
+          "publishedAt": "2026-07-06T04:29:33.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -69,15 +69,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Групи БПЛА ➡️ курсом на Кривий Ріг з півдня.",
-          "summaryUk": "🛵 Групи БПЛА ➡️ курсом на Кривий Ріг з півдня."
+          "titleUk": "🛵 Реактивний БпЛА в районі Миколаєва.",
+          "summaryUk": "🛵 Реактивний БпЛА в районі Миколаєва."
         },
         {
-          "id": "telegram-kpszsu-c7cc60a18202ff",
-          "title": "🛵 Сумщина: група БпЛА ➡️ курсом на Конотоп. 🛵 Харківщина: БпЛА повз Люботин/Мерефу ➡️ курс на південь.",
-          "summary": "🛵 Сумщина: група БпЛА ➡️ курсом на Конотоп. 🛵 Харківщина: БпЛА повз Люботин/Мерефу ➡️ курс на південь.",
-          "url": "https://t.me/kpszsu/67441",
-          "publishedAt": "2026-07-05T21:14:39.000Z",
+          "id": "telegram-kpszsu-ee6b17de5a1cc9",
+          "title": "🛵 БпЛА на Кривий Ріг з південного сходу.",
+          "summary": "🛵 БпЛА на Кривий Ріг з південного сходу.",
+          "url": "https://t.me/kpszsu/67497",
+          "publishedAt": "2026-07-06T03:49:20.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -86,15 +86,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Сумщина: група БпЛА ➡️ курсом на Конотоп. 🛵 Харківщина: БпЛА повз Люботин/Мерефу ➡️ курс на південь.",
-          "summaryUk": "🛵 Сумщина: група БпЛА ➡️ курсом на Конотоп. 🛵 Харківщина: БпЛА повз Люботин/Мерефу ➡️ курс на південь."
+          "titleUk": "🛵 БпЛА на Кривий Ріг з південного сходу.",
+          "summaryUk": "🛵 БпЛА на Кривий Ріг з південного сходу."
         },
         {
-          "id": "telegram-kpszsu-b6f4df11ac167b",
-          "title": "🛵 Дніпропетровщина: декілька груп БПЛА ➡️ на Апостолове з півдня.",
-          "summary": "🛵 Дніпропетровщина: декілька груп БПЛА ➡️ на Апостолове з півдня.",
-          "url": "https://t.me/kpszsu/67439",
-          "publishedAt": "2026-07-05T20:40:35.000Z",
+          "id": "telegram-kpszsu-f1087fd088c48d",
+          "title": "🛵 Ще один реактивний БпЛА курсом на Дніпро.",
+          "summary": "🛵 Ще один реактивний БпЛА курсом на Дніпро.",
+          "url": "https://t.me/kpszsu/67496",
+          "publishedAt": "2026-07-06T03:38:02.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -103,15 +103,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Дніпропетровщина: декілька груп БПЛА ➡️ на Апостолове з півдня.",
-          "summaryUk": "🛵 Дніпропетровщина: декілька груп БПЛА ➡️ на Апостолове з півдня."
+          "titleUk": "🛵 Ще один реактивний БпЛА курсом на Дніпро.",
+          "summaryUk": "🛵 Ще один реактивний БпЛА курсом на Дніпро."
         },
         {
-          "id": "telegram-kpszsu-0821159faf77e0",
-          "title": "🛵 БпЛА ➡️ в бік Одеси.",
-          "summary": "🛵 БпЛА ➡️ в бік Одеси.",
-          "url": "https://t.me/kpszsu/67438",
-          "publishedAt": "2026-07-05T20:19:26.000Z",
+          "id": "telegram-kpszsu-6319b13bfb9a7c",
+          "title": "🛵 Реактивний БпЛА курсом на Дніпро/Самар зі сходу.",
+          "summary": "🛵 Реактивний БпЛА курсом на Дніпро/Самар зі сходу.",
+          "url": "https://t.me/kpszsu/67495",
+          "publishedAt": "2026-07-06T03:09:01.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -120,15 +120,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА ➡️ в бік Одеси.",
-          "summaryUk": "🛵 БпЛА ➡️ в бік Одеси."
+          "titleUk": "🛵 Реактивний БпЛА курсом на Дніпро/Самар зі сходу.",
+          "summaryUk": "🛵 Реактивний БпЛА курсом на Дніпро/Самар зі сходу."
         },
         {
-          "id": "telegram-kpszsu-eb3dfcee63f342",
-          "title": "🛵 Миколаївщина: БпЛА повз Очаків ➡️ курсом на північ.",
-          "summary": "🛵 Миколаївщина: БпЛА повз Очаків ➡️ курсом на північ.",
-          "url": "https://t.me/kpszsu/67437",
-          "publishedAt": "2026-07-05T19:52:00.000Z",
+          "id": "telegram-kpszsu-7f7d6a05427e3d",
+          "title": "🛵 БпЛА на Харків з півночі.",
+          "summary": "🛵 БпЛА на Харків з півночі.",
+          "url": "https://t.me/kpszsu/67494",
+          "publishedAt": "2026-07-06T03:05:15.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -137,15 +137,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Миколаївщина: БпЛА повз Очаків ➡️ курсом на північ.",
-          "summaryUk": "🛵 Миколаївщина: БпЛА повз Очаків ➡️ курсом на північ."
+          "titleUk": "🛵 БпЛА на Харків з півночі.",
+          "summaryUk": "🛵 БпЛА на Харків з півночі."
         },
         {
-          "id": "telegram-kpszsu-39de0eccbbfc85",
-          "title": "🛵 Група БпЛА в акваторії Чорного моря ➡️ курсом на Одещину/Миколаївщину.",
-          "summary": "🛵 Група БпЛА в акваторії Чорного моря ➡️ курсом на Одещину/Миколаївщину.",
-          "url": "https://t.me/kpszsu/67436",
-          "publishedAt": "2026-07-05T19:47:19.000Z",
+          "id": "telegram-kpszsu-9dc3c0f3a29e3a",
+          "title": "🛵 Реактивний БпЛА на Миколаїв зі сходу.",
+          "summary": "🛵 Реактивний БпЛА на Миколаїв зі сходу.",
+          "url": "https://t.me/kpszsu/67493",
+          "publishedAt": "2026-07-06T02:52:33.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -154,15 +154,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Група БпЛА в акваторії Чорного моря ➡️ курсом на Одещину/Миколаївщину.",
-          "summaryUk": "🛵 Група БпЛА в акваторії Чорного моря ➡️ курсом на Одещину/Миколаївщину."
+          "titleUk": "🛵 Реактивний БпЛА на Миколаїв зі сходу.",
+          "summaryUk": "🛵 Реактивний БпЛА на Миколаїв зі сходу."
         },
         {
-          "id": "telegram-kpszsu-209bcf21ab2c1a",
-          "title": "🛵 Чернігівщина : група БпЛА ➡️ на Сновськ.",
-          "summary": "🛵 Чернігівщина : група БпЛА ➡️ на Сновськ.",
-          "url": "https://t.me/kpszsu/67435",
-          "publishedAt": "2026-07-05T19:36:05.000Z",
+          "id": "telegram-kpszsu-e0effbf24e1cd5",
+          "title": "🛵 Сумщина: група БпЛА на/повз Охтирку курсом на захід.",
+          "summary": "🛵 Сумщина: група БпЛА на/повз Охтирку курсом на захід.",
+          "url": "https://t.me/kpszsu/67492",
+          "publishedAt": "2026-07-06T02:49:31.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -171,8 +171,8 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Чернігівщина : група БпЛА ➡️ на Сновськ.",
-          "summaryUk": "🛵 Чернігівщина : група БпЛА ➡️ на Сновськ."
+          "titleUk": "🛵 Сумщина: група БпЛА на/повз Охтирку курсом на захід.",
+          "summaryUk": "🛵 Сумщина: група БпЛА на/повз Охтирку курсом на захід."
         }
       ]
     },
@@ -597,19 +597,19 @@
         {
           "id": "pool-aa5fb3aa865b2d",
           "title": "Вертоліт, залізничний міст, два командні пункти: Україна завдала шість ударів за добу",
-          "summary": "У Генштабі України заявили, що над Азовським морем влучили в російський гелікоптер. Страйк був один…",
+          "summary": "У Генштабі України заявляють, що над Азовським морем збили російський гелікоптер. Страйк був один…",
           "url": "https://euromaidanpress.com/2026/07/04/helicopter-railway-bridge-two-command-posts-ukraine-lists-six-strikes-in-one-day/",
           "publishedAt": "2026-07-04T18:44:15.000Z",
           "source": "x",
           "sourceLabel": "euromaidan",
           "origin": "mention",
-          "score": 4,
-          "strikeScore": 2,
+          "score": 3,
+          "strikeScore": 1,
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
           "titleUk": "Вертоліт, залізничний міст, два командні пункти: Україна завдала шість ударів за добу",
-          "summaryUk": "У Генштабі України заявили, що над Азовським морем влучили в російський гелікоптер. Страйк був один…"
+          "summaryUk": "У Генштабі України заявляють, що над Азовським морем збили російський гелікоптер. Страйк був один…"
         },
         {
           "id": "telegram-azov_media-2740bda49c3841",
