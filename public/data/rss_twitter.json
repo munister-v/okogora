@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T19:54:27.172Z",
+  "generatedAt": "2026-07-08T21:29:45.230Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,86 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-0725e07a661d",
+      "title": "Russo-Ukrainian war, day 1596: Trump promised Ukraine license for Patriot missile production",
+      "url": "https://euromaidanpress.com/2026/07/08/russo-ukrainian-war-day-1596-trump-promised-ukraine-license-for-patriot-missile-production/",
+      "summary": "On the battlefield, Russia's fleet of early-warning radar planes is thinning out.",
+      "publishedAt": "2026-07-08T20:38:16.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1596: Трамп пообіцяв Україні ліцензію на виробництво ракет Patriot",
+      "summaryUk": "На полі бою російський флот радіолокаційних літаків раннього попередження рідшає."
+    },
+    {
+      "id": "x-pravda-81b392ce9a4d",
+      "title": "США відновили удари по Ірану",
+      "url": "https://www.pravda.com.ua/news/2026/07/08/8043146/",
+      "summary": "США 8 липня відновили удари по Ірану, щоб позбавити його можливості блокувати Ормузьку протоку.",
+      "publishedAt": "2026-07-08T20:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "США відновили удари по Ірану",
+      "summaryUk": "США 8 липня відновили удари по Ірану, щоб позбавити його можливості блокувати Ормузьку протоку."
+    },
+    {
+      "id": "x-euromaidan-b2c0c07fa572",
+      "title": "Russia has found way to jam Starlink and take down Ukraine&#8217;s drones",
+      "url": "https://euromaidanpress.com/2026/07/08/russia-has-found-way-to-jam-starlink-and-take-down-ukraines-drones/",
+      "summary": "Russia has deployed 10 electronic warfare systems to jam Ukrainian drone control via Starlink. Ukraine has destroyed two.",
+      "publishedAt": "2026-07-08T20:28:22.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія знайшла спосіб заглушити Starlink і збити українські дрони",
+      "summaryUk": "Росія розгорнула 10 систем радіоелектронної боротьби для глушіння управління українськими безпілотниками через Starlink. Україна знищила двох."
+    },
+    {
+      "id": "x-pravda-90912f4c4419",
+      "title": "Генштаб повідомляє про 219 бойових зіткнень на фронті з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/07/08/8043145/",
+      "summary": "Від початку доби 8 липня на фронті відбулось 219 бойових зіткнень, з них",
+      "publishedAt": "2026-07-08T20:27:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб повідомляє про 219 бойових зіткнень на фронті з початку доби",
+      "summaryUk": "Від початку доби 8 липня на фронті відбулось 219 бойових зіткнень, з них"
+    },
+    {
+      "id": "x-euromaidan-513d3e121dce",
+      "title": "Kyiv marked this basement official shelter. It didn&#8217;t save people inside — and authorities won&#8217;t say why no new ones are built",
+      "url": "https://euromaidanpress.com/2026/07/08/kyiv-marked-this-basement-official-shelter-it-didnt-save-people-inside-and-authorities-wont-say-why-no-new-ones-are-built/",
+      "summary": "Rescuers completed operations at a Darnytskyi apartment building where 11 people were killed by a Russian strike.",
+      "publishedAt": "2026-07-08T20:01:46.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Київ відзначив цей підвал офіційним притулком. Це не врятувало людей усередині — і влада не каже, чому не будують нові",
+      "summaryUk": "Рятувальники завершили роботи на Дарницькому житловому будинку, де в результаті російського удару загинули 11 людей."
+    },
     {
       "id": "x-pravda-4c47226f5cbe",
       "title": "Російські війська скинули авіабомбу на Дружківку в Донецькій області: є загиблі та постраждалі",
@@ -546,54 +626,6 @@
       "summaryUk": "Унаслідок російських ударів по Києву вночі та вдень 8 липня 3 людини загинули та ще 14 дістали поранення."
     },
     {
-      "id": "x-pravda-92614a993476",
-      "title": "Трамп розповів, чому мирні переговори не будуть у Москві, та отримав жарт від Зеленського",
-      "url": "https://www.pravda.com.ua/news/2026/07/08/8043092/",
-      "summary": "Американський лідер Дональд Трамп публічно став на бік України щодо місця проведення мирних переговорів з Росією.",
-      "publishedAt": "2026-07-08T14:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп розповів, чому мирні переговори не будуть у Москві, та отримав жарт від Зеленського",
-      "summaryUk": "Американський лідер Дональд Трамп публічно став на бік України щодо місця проведення мирних переговорів з Росією."
-    },
-    {
-      "id": "x-pravda-a6788604de0c",
-      "title": "Трамп: Ми будемо купувати дрони в України",
-      "url": "https://www.pravda.com.ua/news/2026/07/08/8043089/",
-      "summary": "Трамп заявив, що США планують закуповувати дрони з України. Угода обговорювалась на зустрічі із Зеленським в Анкарі.",
-      "publishedAt": "2026-07-08T14:32:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп: Ми будемо купувати дрони в України",
-      "summaryUk": "Трамп заявив, що США планують закуповувати дрони з України. Угода обговорювалась на зустрічі із Зеленським в Анкарі."
-    },
-    {
-      "id": "x-pravda-3ebbbf826994",
-      "title": "Трамп – Зеленському: Ми дамо вам ліцензії робити Patriot",
-      "url": "https://www.pravda.com.ua/news/2026/07/08/8043086/",
-      "summary": "Президент США Дональд Трамп заявив, що Сполучені Штати нададуть Україні право виготовляти Patriot.",
-      "publishedAt": "2026-07-08T14:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп – Зеленському: Ми дамо вам ліцензії робити Patriot",
-      "summaryUk": "Президент США Дональд Трамп заявив, що Сполучені Штати нададуть Україні право виготовляти Patriot."
-    },
-    {
       "id": "x-euromaidan-44388f6e1e1b",
       "title": "Reporters traced 143 properties to Ukraine&#8217;s anti-corruption chief&#8217;s brother. A court just banned the story.",
       "url": "https://euromaidanpress.com/2026/07/08/kyiv-court-bans-slidstvo-info-investigation-sukhachov-brother/",
@@ -655,7 +687,7 @@
         "UKRAINE"
       ],
       "titleUk": "Росія б'є по українських АЗС 20 разів на тиждень. Українське законодавство вказує їм, де кожен з них знаходиться",
-      "summaryUk": "186 страйків з квітня. Розвідувальна інформація надходить не від безпілотників — вона є в публічному реєстрі"
+      "summaryUk": "186 страйків з квітня. Розвідувальна інформація не надходить від дронів — вона є в публічному реєстрі"
     },
     {
       "id": "x-euromaidan-a9c51dcd8a3e",
@@ -691,7 +723,7 @@
     },
     {
       "id": "x-euromaidan-36116ce2b998",
-      "title": "Kostianynivka: Why one city in Donbas matters so much that Putin lies about having captured it",
+      "title": "Kostiantynivka: Why one city in Donbas matters so much that Putin lies about having captured it",
       "url": "https://euromaidanpress.com/2026/07/08/kostianynivka-why-one-city-in-donbas-matters-so-much-that-putin-lies-about-having-captured-it/",
       "summary": "Putin declared the city “liberated” while Ukrainian troops still held it, a lie aimed at the negotiating table, not the battlefield",
       "publishedAt": "2026-07-08T10:12:04.000Z",
@@ -702,7 +734,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Костянинівка: Чому одне місто на Донбасі настільки важливе, що Путін бреше, що його захопив",
+      "titleUk": "Костянтинівка: Чому одне місто на Донбасі настільки важливе, що Путін бреше, що його захопив",
       "summaryUk": "Путін оголосив місто «звільненим», поки українські війська все ще його утримували, брехня, спрямована за стіл переговорів, а не на поле бою"
     },
     {
@@ -798,7 +830,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Україна стає постачальником безпеки для Європи»: Україна підписує угоди про безпілотники з Естонією, Нідерландами та Данією, оскільки Європа користується збройовою технологією Києва, випробуваною на полі бою",
+      "titleUk": "«Україна стає постачальником безпеки для Європи»: Україна підписує угоди про безпілотники з Естонією, Нідерландами та Данією, оскільки Європа залучає київську збройову технологію, випробувану на полі бою",
       "summaryUk": "Україна розширює мережу оборонних партнерств, зосереджених на безпілотниках, ППО та військових технологіях, розроблених під час повномасштабної війни."
     },
     {
@@ -814,8 +846,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Оскільки Україна терміново потребує посилення ППО, Канада оголосила про пакет військової допомоги на 900 мільйонів доларів",
-      "summaryUk": "Канада оголосила про виділення Україні майже 900 мільйонів доларів нової військової допомоги, а президент Володимир Зеленський заявив, що цей пакет передбачає підтримку зміцнення протиповітряної оборони країни."
+      "titleUk": "Оскільки Україна терміново потребує посилення ППО, Канада оголосила про пакет військової допомоги на суму 900 мільйонів доларів",
+      "summaryUk": "Канада оголосила про виділення майже 900 мільйонів доларів нової військової допомоги Україні, а президент Володимир Зеленський заявив, що пакет включає підтримку зміцнення протиповітряної оборони країни."
     },
     {
       "id": "x-euromaidan-b268ba8f4629",
@@ -847,7 +879,7 @@
         "UKRAINE"
       ],
       "titleUk": "«Нагальні потреби України мають бути в центрі»: дев’ять міністрів ЄС підштовхують Брюссель до розблокування ракет ППО «Пейтріот», оскільки балістичні атаки Росії посилюються",
-      "summaryUk": "Дев'ять європейських міністрів оборони закликали Європейську комісію прискорити схвалення для України закупівлі ракет Patriot та іншої важливої ​​зброї з-за меж ЄС у рамках кредиту підтримки на суму 90 мільярдів євро."
+      "summaryUk": "Дев'ять європейських міністрів оборони закликали Європейську комісію прискорити схвалення для України закупівлі ракет Patriot та іншої важливої ​​зброї з-за меж ЄС у рамках кредиту підтримки на 90 мільярдів євро."
     },
     {
       "id": "x-euromaidan-d6744dcc6ac8",
@@ -863,7 +895,7 @@
         "UKRAINE"
       ],
       "titleUk": "Від Карелії до Камчатки: Росія розподіляє паливо там, де б’ють безпілотники, і зберігає його там, де не може",
-      "summaryUk": "Кампанія безпілотників проти НПЗ змушує росіян купувати бензин за QR-кодом, номерним знаком і п’ятигодинною чергою."
+      "summaryUk": "Кампанія безпілотників проти нафтопереробних заводів змушує росіян купувати бензин за QR-кодом, номерним знаком і п’ятигодинною чергою."
     },
     {
       "id": "x-euromaidan-801ee37de2ca",
@@ -912,54 +944,6 @@
       ],
       "titleUk": "Буданов: Україна не прийме ультиматумів від Польщі, як відмовилася від Росії",
       "summaryUk": "Керівник Офісу президента очікує, що пік розриву припаде на річницю Волині 11 липня."
-    },
-    {
-      "id": "x-euromaidan-3307a1f7f973",
-      "title": "Belgorod gas facility burns as Moscow fends off over 430 drones in one night",
-      "url": "https://euromaidanpress.com/2026/07/07/belgorod-comes-under-missile-attack-hitting-gas-pipeline-facility-airport-and-power-plant/",
-      "summary": "Fires broke out at Belgorod's gas pipeline dispatch station, airport, and thermal power plant after missiles struck the Russian city on 7 July.",
-      "publishedAt": "2026-07-07T05:53:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Бєлгородський газовий завод горить, оскільки Москва відбиває понад 430 дронів за одну ніч",
-      "summaryUk": "Після ракетного удару по російському місту 7 липня у Бєлгороді спалахнули пожежі на диспетчерській станції газопроводу, аеропорту та теплоелектростанції."
-    },
-    {
-      "id": "x-euromaidan-02bfbc0200b6",
-      "title": "Russo-Ukrainian war, day 1594: Lack of Patriot interceptors leaves Kyiv exposed to Russian attacks, as death toll rises to 19",
-      "url": "https://euromaidanpress.com/2026/07/07/russo-ukrainian-war-day-1594-lack-of-patriot-interceptors-leaves-kyiv-exposed-to-russian-attacks-as-death-toll-rises-to-19/",
-      "summary": "Ukraine now intercepts an estimated 92–96% of gasoline-powered Shahed drones, pushing Russia to shift production toward jet-powered variants.",
-      "publishedAt": "2026-07-07T05:52:26.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-українська війна, день 1594: відсутність перехоплювачів Patriot залишає Київ підданим нападам Росії, кількість загиблих зросла до 19",
-      "summaryUk": "Зараз Україна перехоплює приблизно 92–96% безпілотних літальних апаратів Shahed з бензиновими двигунами, що спонукає Росію переорієнтувати виробництво на варіанти з реактивними двигунами."
-    },
-    {
-      "id": "x-euromaidan-bce02958c156",
-      "title": "Kyiv death toll rises to 19 after Russia&#8217;s overnight strike, State Emergency Service says",
-      "url": "https://euromaidanpress.com/2026/07/07/kyiv-death-toll-rises-to-19-after-russias-overnight-strike-state-emergency-service-says/",
-      "summary": "Rescue crews kept searching rubble in Kyiv's Darnytskyi district on 7 July, more than a day after Russia's missile and drone barrage struck the capital.",
-      "publishedAt": "2026-07-07T05:42:25.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Кількість загиблих у Києві в результаті нічного удару в Росії зросла до 19, повідомляє Держслужба з надзвичайних ситуацій",
-      "summaryUk": "Рятувальники продовжували пошук завалів у Дарницькому районі Києва 7 липня, більше ніж через добу після того, як російські ракети та безпілотники обстріляли столицю."
     }
   ]
 }
