@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T19:49:41.075Z",
+  "generatedAt": "2026-07-10T21:19:29.017Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-6debbd290d27",
+      "title": "Russo-Ukrainian war, day 1598: Ukraine batters Russia&#8217;s Crimea fuel lifeline as drone swarm hits 48 ships in five days",
+      "url": "https://euromaidanpress.com/2026/07/11/russo-ukrainian-war-day-1598/",
+      "summary": "Ukraine's drone campaign against Russian fuel shipping reached a new scale this week, with strikes on tankers, oil terminals, and depots across the Azov coast and Crimea in what ISW calls a new phase of the peninsula's isolation.",
+      "publishedAt": "2026-07-10T21:08:36.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1598: Україна завдає удару по рятувальній лінії російського Криму, оскільки рій безпілотників вражає 48 кораблів за п’ять днів",
+      "summaryUk": "Цього тижня українська кампанія безпілотників проти транспортування російського палива досягла нового масштабу з ударами по танкерах, нафтових терміналах і складах на Азовському узбережжі та в Криму, що ISW називає новою фазою ізоляції півострова."
+    },
+    {
+      "id": "x-pravda-4dbd11bc693a",
+      "title": "Внаслідок російських атак на Сумщині шестеро людей постраждали",
+      "url": "https://www.pravda.com.ua/news/2026/07/10/8043522/",
+      "summary": "Російська армія 10 липня атакувала Сумську область: відомо 6 постраждалих.",
+      "publishedAt": "2026-07-10T20:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Внаслідок російських атак на Сумщині шестеро людей постраждали",
+      "summaryUk": "Російська армія 10 липня атакувала Сумську область: відомо 6 постраждалих."
+    },
+    {
+      "id": "x-pravda-f046b50ee6e9",
+      "title": "ЗМІ: Іран, ймовірно, відбудовує свої ядерні об’єкти після американських ударів",
+      "url": "https://www.pravda.com.ua/news/2026/07/10/8043523/",
+      "summary": "",
+      "publishedAt": "2026-07-10T20:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ЗМІ: Іран, ймовірно, відбудовує свої ядерні об’єкти після американських ударів",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-5eb57e9b984f",
+      "title": "У Краматорську російський FPV-дрон атакував автівку рятувальників",
+      "url": "https://www.pravda.com.ua/news/2026/07/10/8043520/",
+      "summary": "Російський FPV-дрон пошкодив автомобіль рятувальників у Краматорську на Донеччині.",
+      "publishedAt": "2026-07-10T20:12:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Краматорську російський FPV-дрон атакував автівку рятувальників",
+      "summaryUk": "Російський FPV-дрон пошкодив автомобіль рятувальників у Краматорську на Донеччині."
+    },
     {
       "id": "x-pravda-f659e10eb1ab",
       "title": "На фронті зафіксували 226 бойових зіткнень з початку доби",
@@ -514,22 +578,6 @@
       "summaryUk": "Про це повідомили в Міністерстві оборони України. Кластер оборонних інновацій Brave1 у партнерстві з Офісом ефективного регулювання (BRDO) розпочали третій етап грантової програми EU4UA Defence..."
     },
     {
-      "id": "x-pravda-3900ca62c40c",
-      "title": "П'ятеро людей постраждали від російських атак на Дніпропетровщину",
-      "url": "https://www.pravda.com.ua/news/2026/07/10/8043488/",
-      "summary": "Протягом доби російські війська понад 30 разів атакували чотири райони Дніпропетровської області безпілотниками, артилерією та авіабомбою, унаслідок чого п'ятеро людей зазнали поранень.",
-      "publishedAt": "2026-07-10T15:47:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "П'ятеро людей постраждали від російських атак на Дніпропетровщину",
-      "summaryUk": "Протягом доби російські війська понад 30 разів атакували чотири райони Дніпропетровської області безпілотниками, артилерією та авіабомбою, унаслідок чого п'ятеро людей зазнали поранень."
-    },
-    {
       "id": "x-euromaidan-c8b77cc4941e",
       "title": "Russia risks losing part of its grain harvest as Ukraine&#8217;s refinery strikes dry up diesel",
       "url": "https://euromaidanpress.com/2026/07/10/russia-risks-losing-part-of-its-grain-harvest-as-ukraines-refinery-strikes-dry-up-diesel/",
@@ -544,22 +592,6 @@
       ],
       "titleUk": "Росія ризикує втратити частину врожаю зерна через страйки на українських НПЗ",
       "summaryUk": "Фермери південної житниці країни стикаються з обмеженнями на паливо, порожніми насосами та стрибками цін саме в той момент, коли комбайни мають запуститися, оскільки Москва продовжує дорогу війну проти України."
-    },
-    {
-      "id": "x-pravda-23490eeaf1bd",
-      "title": "Україна має шанс побудувати краще майбутнє для своїх найвразливіших громадян",
-      "url": "https://www.pravda.com.ua/columns/2026/07/10/8043484/",
-      "summary": "Україна переходить від інтернатів до європейської моделі підтримки людей з інвалідністю у громаді.",
-      "publishedAt": "2026-07-10T15:14:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна має шанс побудувати краще майбутнє для своїх найвразливіших громадян",
-      "summaryUk": "Україна переходить від інтернатів до європейської моделі підтримки людей з інвалідністю у громаді."
     },
     {
       "id": "x-euromaidan-fba0ee084e58",
@@ -623,7 +655,7 @@
         "UKRAINE"
       ],
       "titleUk": "Україна наступає на південному сході. Цього ще недостатньо, щоб виграти війну",
-      "summaryUk": "Поточна боротьба за Комар є мікрокосмом для ширшої війни. Українські війська наступають. Але це не означає, що війна скоро закінчиться."
+      "summaryUk": "The ongoing fight for Komar is a microcosm for the wider war. Ukrainian troops are advancing. But that doesn't mean the war is about to end."
     },
     {
       "id": "x-euromaidan-939c111a39df",
@@ -912,22 +944,6 @@
       ],
       "titleUk": "35 кораблів за чотири дні: кампанія України проти російського азовського палива розширюється",
       "summaryUk": "Ще 12 річкових танкерів тіньового флоту, вантажне судно та буксир серед останніх цілей."
-    },
-    {
-      "id": "x-euromaidan-64079a3b549e",
-      "title": "Russia’s war economy is starving its own strategic projects",
-      "url": "https://euromaidanpress.com/2026/07/09/russia-war-economy-strategic-projects-data-centers-lavna/",
-      "summary": "Russia’s top arms maker can’t afford to build its own garbage incinerators.",
-      "publishedAt": "2026-07-09T14:07:43.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Військова економіка Росії виснажує власні стратегічні проекти",
-      "summaryUk": "Найбільший російський виробник зброї не може дозволити собі будувати власні сміттєспалювальні заводи."
     }
   ]
 }
