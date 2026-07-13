@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T21:12:23.691Z",
+  "generatedAt": "2026-07-13T23:11:28.498Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,102 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-e22e19bec401",
+      "title": "На Харківщині внаслідок російської атаки постраждала дитина",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8043972/",
+      "summary": "Російські війська атакували Харківщину дронами, поранено 11-річну дитину. Наслідки ударів уточнюються.",
+      "publishedAt": "2026-07-13T22:41:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Харківщині внаслідок російської атаки постраждала дитина",
+      "summaryUk": "Російські війська атакували Харківщину дронами, поранено 11-річну дитину. Наслідки ударів уточнюються."
+    },
+    {
+      "id": "x-euromaidan-c6e01ef16248",
+      "title": "Ukraine put armed robot on Russian-held ground. Naval drone was landing craft",
+      "url": "https://euromaidanpress.com/2026/07/14/ukraine-put-armed-robot-on-russian-held-ground-naval-drone-was-landing-craft/",
+      "summary": "Ukraine's 123rd Brigade delivered a ground robot to the Russian-held Kinburn Spit aboard an unmanned surface vessel and landed it to fight.",
+      "publishedAt": "2026-07-13T22:04:01.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна поставила озброєного робота на контрольовану Росією територію. Морський безпілотник був десантним кораблем",
+      "summaryUk": "123-тя бригада ЗСУ доставила наземного робота на підконтрольну Росії Кінбурнську косу на безпілотному надводному кораблі та висадила його для бою."
+    },
+    {
+      "id": "x-euromaidan-c78fad3a59da",
+      "title": "Russo-Ukrainian war, day 1601: Ukraine&#8217;s Crimea blockade nears 100 ships",
+      "url": "https://euromaidanpress.com/2026/07/14/russo-ukrainian-war-day-1601-ukraines-crimea-blockade-nears-100-ships/",
+      "summary": "Ukraine out-produces NATO on drones as Europe eyes a wider alliance.",
+      "publishedAt": "2026-07-13T21:44:50.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1601: блокада українського Криму наближається до 100 кораблів",
+      "summaryUk": "Україна перевершує НАТО у виробництві безпілотників, оскільки Європа шукає ширшого альянсу."
+    },
+    {
+      "id": "x-pravda-452754325107",
+      "title": "Росія атакувала Київ балістикою: є влучання у Голосіївському районі",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8043970/",
+      "summary": "У ніч на 14 липня Київ атакували ракети. Вибухи і пожежі у Голосіївському районі, працювала ППО.",
+      "publishedAt": "2026-07-13T21:37:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія атакувала Київ балістикою: є влучання у Голосіївському районі",
+      "summaryUk": "У ніч на 14 липня Київ атакували ракети. Вибухи і пожежі у Голосіївському районі, працювала ППО."
+    },
+    {
+      "id": "x-euromaidan-8e218df1d2c8",
+      "title": "Ukraine&#8217;s Supreme Court refused to lift Zelenskyy&#8217;s sanctions on opposition leader",
+      "url": "https://euromaidanpress.com/2026/07/14/ukraines-supreme-court-refused-to-lift-zelenskyys-sanctions-on-opposition-leader/",
+      "summary": "The Supreme Court rejected Poroshenko's challenge to sanctions that freeze his assets and strip his state awards. He says the judges were pressured.",
+      "publishedAt": "2026-07-13T21:36:58.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Верховний суд України відмовився зняти санкції Зеленського з опозиціонера",
+      "summaryUk": "Верховний суд відхилив оскарження Порошенка щодо санкцій, які заморожують його активи та позбавляють державних нагород. Каже, на суддів тиснули."
+    },
+    {
+      "id": "x-pravda-b6f9f58892ce",
+      "title": "CNN: Трамп готовий підтримати санкції проти Росії, ініційовані Гремом",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8043971/",
+      "summary": "Президент Трамп підтримав двопартійний законопроєкт про санкції проти РФ після смерті Ліндсі Грема.",
+      "publishedAt": "2026-07-13T21:29:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "CNN: Трамп готовий підтримати санкції проти Росії, ініційовані Гремом",
+      "summaryUk": "Президент Трамп підтримав двопартійний законопроєкт про санкції проти РФ після смерті Ліндсі Грема."
+    },
     {
       "id": "x-pravda-ee23331ce4e8",
       "title": "Прем'єр Британії попередив про можливість нової хвилі гібридних атак РФ",
@@ -434,22 +530,6 @@
       "summaryUk": "Про це заявив Президент України Володимир Зеленський під час першого засідання Європейської антибалістичної коаліції. За словами Глави держави, Європа потребує сучасної,..."
     },
     {
-      "id": "x-pravda-54587859cfd7",
-      "title": "Полк \"Скеля\" звільнив 6 сіл на Дніпропетровщині",
-      "url": "https://www.pravda.com.ua/news/2026/07/13/8043941/",
-      "summary": "425 штурмовий полк \"Скеля\" звільнив шість сіл на Дніпропетровщині. Під контроль України повернули Тернове, Запорізьке, Новогеоргіївку, Вороне, Січневе та Маліївку.",
-      "publishedAt": "2026-07-13T16:44:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Полк \"Скеля\" звільнив 6 сіл на Дніпропетровщині",
-      "summaryUk": "425 штурмовий полк \"Скеля\" звільнив шість сіл на Дніпропетровщині. Під контроль України повернули Тернове, Запорізьке, Новогеоргіївку, Вороне, Січневе та Маліївку."
-    },
-    {
       "id": "x-armyinform-c55c883d8e25",
       "title": "Поки гасили пожежу — потрапили під повторний удар: на Дніпропетровщині поранено трьох рятувальників",
       "url": "https://armyinform.com.ua/2026/07/13/poky-gasyly-pozhezhu-potrapyly-pid-povtornyj-udar-na-dnipropetrovshhyni-poraneno-troh-ryatuvalnykiv/",
@@ -464,38 +544,6 @@
       ],
       "titleUk": "Поки гасили пожежу — потрапили під повторний удар: на Дніпропетровщині поранено трьох рятувальників",
       "summaryUk": "Про це повідомили в ДСНС України. Вони ліквідовували пожежу, що виникла після ворожого обстрілу. У Петропавлівській територіальній громаді Синельниківського району внаслідок російського обстрілу загорівся житловий..."
-    },
-    {
-      "id": "x-pravda-e8add4c9a4cf",
-      "title": "Британія долучилася до оборонних закупівель для України за програмою ЄС на 90 млрд євро",
-      "url": "https://www.pravda.com.ua/news/2026/07/13/8043940/",
-      "summary": "Прем'єр-міністр Великої Британії Кір Стармер оголосив про угоду з Євросоюзом, яка дозволить британським оборонним компаніям брати участь у тендерах у межах кредитної програми для України на 90 млрд євро.",
-      "publishedAt": "2026-07-13T16:40:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Британія долучилася до оборонних закупівель для України за програмою ЄС на 90 млрд євро",
-      "summaryUk": "Прем'єр-міністр Великої Британії Кір Стармер оголосив про угоду з Євросоюзом, яка дозволить британським оборонним компаніям брати участь у тендерах у межах кредитної програми для України на 90 млрд євро."
-    },
-    {
-      "id": "x-pravda-75f63eb32d78",
-      "title": "Російські війська атакували Полтавщину: є загибла та поранені",
-      "url": "https://www.pravda.com.ua/news/2026/07/13/8043936/",
-      "summary": "Російська армія 13 липня атакувала Полтавську область: під удар потрапили приватне домоволодіння та аграрне підприємтсво.",
-      "publishedAt": "2026-07-13T16:23:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російські війська атакували Полтавщину: є загибла та поранені",
-      "summaryUk": "Російська армія 13 липня атакувала Полтавську область: під удар потрапили приватне домоволодіння та аграрне підприємтсво."
     },
     {
       "id": "x-armyinform-b6117f2a09c7",
@@ -880,54 +928,6 @@
       ],
       "titleUk": "Безпілотники підпалили російський Сизранський нафтопереробний завод за 800 км від зони бойових дій — аналітики підраховують кожне ураження основного блоку",
       "summaryUk": "На заводі, який переробляє до 8,9 мільйона тонн нафти на рік, згоріли як установки для перегонки сирої сировини, так і риформер бензину."
-    },
-    {
-      "id": "x-euromaidan-7cf47fcaf54b",
-      "title": "US Senator Graham died day after his last visit to Kyiv. His Russia&#8217;s &#8220;sanctions from hell&#8221; bill loses its architect at moment it might pass",
-      "url": "https://euromaidanpress.com/2026/07/12/us-senator-graham-died-day-after-his-last-visit-to-kyiv-his-russia-sanctions-from-hell-bill-loses-its-architect-at-moment-it-might-pass/",
-      "summary": "US Senator Lindsey Graham, Ukraine's most consistent Senate ally, died at 71 the day after his last Kyiv visit. His Russian oil sanctions bill remains unfinished.",
-      "publishedAt": "2026-07-12T09:25:17.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Американський сенатор Грем помер наступного дня після свого останнього візиту до Києва. Його законопроект про \"санкції з пекла\" Росії втрачає свою ідею в той момент, коли він може бути прийнятий",
-      "summaryUk": "Сенатор США Ліндсі Грем, найпослідовніший союзник України в Сенаті, помер на 71 році життя наступного дня після свого останнього візиту до Києва. Його законопроект про нафтові санкції проти Росії залишається незавершеним."
-    },
-    {
-      "id": "x-euromaidan-06046d7f377c",
-      "title": "One Russian ship every 112 minutes for a week: Ukraine hits 14 more vessels as total tally nears 100",
-      "url": "https://euromaidanpress.com/2026/07/12/one-russian-ship-every-112-minutes-for-a-week-ukraine-hits-14-more-vessels-as-total-tally-nears-100/",
-      "summary": "The Unmanned Systems Forces put July's running total at 91 vessels, with the live scoreboard still updating as reports get verified.",
-      "publishedAt": "2026-07-12T09:04:01.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Один російський корабель кожні 112 хвилин протягом тижня: Україна збиває ще 14 суден, загальна кількість наближається до 100",
-      "summaryUk": "Сили безпілотних систем оцінили загальну кількість кораблів у липні в 91 судно, і табло все ще оновлюється, оскільки звіти перевіряються."
-    },
-    {
-      "id": "x-euromaidan-31ff6ac43e16",
-      "title": "For first time, Ukrainian pilots will fly over Champs-Élysées in French Mirages on Bastille Day",
-      "url": "https://euromaidanpress.com/2026/07/12/for-first-time-ukrainian-pilots-will-fly-over-champs-elysees-in-french-mirages-on-bastille-day/",
-      "summary": "25 Ukrainian troops will march at France's Bastille Day parade for the first time, and Ukrainian pilots will co-pilot Mirage 2000B jets in the opening flyover.",
-      "publishedAt": "2026-07-12T08:21:11.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У День взяття Бастилії українські пілоти вперше пролетять над Єлисейськими полями у французьких Міражах",
-      "summaryUk": "25 українських військовослужбовців вперше пройдуть маршем у Франції на параді до Дня взяття Бастилії, а українські пілоти будуть штурманами літаків Mirage 2000B на естакаді відкриття."
     }
   ]
 }
