@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T19:41:22.660Z",
+  "generatedAt": "2026-07-14T21:14:05.014Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,8 +98,120 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-fc56fd181d49",
+      "title": "Russian drone tracked moving car on Kharkiv road and killed man driving it",
+      "url": "https://euromaidanpress.com/2026/07/15/russian-drone-tracked-moving-car-on-kharkiv-road-and-killed-man-driving-it/",
+      "summary": "A Molniya drone hit a Peugeot on the Zolochiv-Maksymivka road in Bohodukhiv raion. Prosecutors opened a war crimes investigation.",
+      "publishedAt": "2026-07-14T21:10:53.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російський безпілотник відстежив автомобіль, що рухався на харківській дорозі, і вбив чоловіка за кермом",
+      "summaryUk": "На трасі Золочів-Максимівка Богодухівського району безпілотник «Молнія» збив «Пежо». Прокуратура відкрила розслідування військових злочинів."
+    },
+    {
+      "id": "x-euromaidan-597899ee6de9",
+      "title": "Russo-Ukrainian war, day 1602: Allies rally around Kyiv, but air defense still lags behind war&#8217;s pace",
+      "url": "https://euromaidanpress.com/2026/07/14/russo-ukrainian-war-day-1602-allies-rally-around-kyiv-but-air-defense-still-lags-behind-wars-pace/",
+      "summary": "Meanwhile, Russia's oil refining has collapsed to its lowest level since 2005 after months of sustained Ukrainian drone strikes, sending global diesel prices climbing.",
+      "publishedAt": "2026-07-14T20:49:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1602: Союзники гуртуються навколо Києва, але ППО все ще відстає від темпів війни",
+      "summaryUk": "Тим часом нафтопереробка Росії впала до найнижчого рівня з 2005 року після місяців постійних ударів українських безпілотників, що призвело до зростання світових цін на дизельне паливо."
+    },
+    {
+      "id": "x-pravda-9d8434db5258",
+      "title": "Посли ЄС не змогли домовитися про 21-й пакет санкцій проти РФ і продовжать 15 липня",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8044132/",
+      "summary": "",
+      "publishedAt": "2026-07-14T20:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Посли ЄС не змогли домовитися про 21-й пакет санкцій проти РФ і продовжать 15 липня",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-08bcd5c575ef",
+      "title": "РФ атакувала цивільне підприємство в Одесі",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8044131/",
+      "summary": "Російська армія 14 липня вчергове атакувала Одесу: під ударом цивільне підприємство.",
+      "publishedAt": "2026-07-14T20:45:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ атакувала цивільне підприємство в Одесі",
+      "summaryUk": "Російська армія 14 липня вчергове атакувала Одесу: під ударом цивільне підприємство."
+    },
+    {
+      "id": "x-pravda-ab26d1b26f43",
+      "title": "Трамп допустив ухвалення законопроєкту про нові санкції проти Росії",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8044133/",
+      "summary": "",
+      "publishedAt": "2026-07-14T20:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Трамп допустив ухвалення законопроєкту про нові санкції проти Росії",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-277013d6409c",
+      "title": "Генштаб: На фронті найгарячіше на Слов’янському та Покровському напрямках",
+      "url": "https://www.pravda.com.ua/news/2026/07/14/8044130/",
+      "summary": "Від початку доби 14 липня на фронті відбулось 203 бойових зіткнення, зокрема, на Покровському напрямку 41 і на Слов'янському – 20.",
+      "publishedAt": "2026-07-14T20:19:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб: На фронті найгарячіше на Слов’янському та Покровському напрямках",
+      "summaryUk": "Від початку доби 14 липня на фронті відбулось 203 бойових зіткнення, зокрема, на Покровському напрямку 41 і на Слов'янському – 20."
+    },
+    {
+      "id": "x-euromaidan-ffcee35d3e0a",
+      "title": "Ukraine sank Russian ship that shot at its sailors in 2018 with Sargan-3000 naval drone",
+      "url": "https://euromaidanpress.com/2026/07/14/ukraine-sank-russian-ship-that-shot-at-its-sailors-in-2018-with-sargan-3000-naval-drone/",
+      "summary": "The satellite image confirms the destruction of the Russian border patrol ship Izumrud at the mooring wall.",
+      "publishedAt": "2026-07-14T19:44:08.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна потопила російське судно, яке у 2018 році стріляло по своїх моряках із морського безпілотника Сарган-3000",
+      "summaryUk": "Супутниковий знімок підтверджує знищення біля причальної стінки російського прикордонного корабля \"Ізумруд\"."
+    },
+    {
       "id": "x-pravda-fbcaff36e07e",
-      "title": "Росія атакувала околиці Сум: є постраждалі",
+      "title": "Росія атакувала Суми, попередньо, касетним боєприпасом: 7 постраждалих",
       "url": "https://www.pravda.com.ua/news/2026/07/14/8044127/",
       "summary": "Російські війська 14 липня атакували Суми, за попередніми даними, із застосуванням касетного боєприпасу. Є постраждалі.",
       "publishedAt": "2026-07-14T19:22:00.000Z",
@@ -110,7 +222,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія атакувала околиці Сум: є постраждалі",
+      "titleUk": "Росія атакувала Суми, попередньо, касетним боєприпасом: 7 постраждалих",
       "summaryUk": "Російські війська 14 липня атакували Суми, за попередніми даними, із застосуванням касетного боєприпасу. Є постраждалі."
     },
     {
@@ -126,7 +238,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Наслідки власного знищення: Росія розчищає вбитий нею канал, щоб відремонтувати кримські підстанції. Україна продовжує б’яти",
+      "titleUk": "Наслідки власного знищення: Росія розчищає вбитий нею канал, щоб полагодити кримські підстанції. Україна продовжує битися",
       "summaryUk": "ATESH повідомляє, що Росія почала демонтаж трансформаторів потужністю 10-40 МВА з насосних станцій Північно-Кримського каналу, які простоювали після того, як Москва зруйнувала Каховську дамбу."
     },
     {
@@ -271,7 +383,7 @@
         "UKRAINE"
       ],
       "titleUk": "Другий критерій нової державної нагороди України – внесок у безпеку всієї Європи",
-      "summaryUk": "271 народний депутат підтримав нову державну нагороду за заслуги у вступі України до ЄС за день до відкриття ЄС шостого переговорного кластера України."
+      "summaryUk": "271 народний депутат підтримав нову державну нагороду за заслуги у вступі України до ЄС за день до відкриття ЄС шостого переговорного кластеру України."
     },
     {
       "id": "x-armyinform-c64c3c83fe48",
@@ -434,22 +546,6 @@
       "summaryUk": "Поліцейські польського міста Лодзь розшукують невідомого, який напав на поляка, бо думав, що той є українцем; у постраждалого – серйозні травми носа та щелепи."
     },
     {
-      "id": "x-pravda-b09bf1f48b62",
-      "title": "Чого бракує українській дискусії про порнографію",
-      "url": "https://www.pravda.com.ua/columns/2026/07/14/8044082/",
-      "summary": "Законопроєкт №15294: посилення відповідальності за дитячу порнографію та декриміналізація дорослого контенту. Обговорення ризиків.",
-      "publishedAt": "2026-07-14T15:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Чого бракує українській дискусії про порнографію",
-      "summaryUk": "Законопроєкт №15294: посилення відповідальності за дитячу порнографію та декриміналізація дорослого контенту. Обговорення ризиків."
-    },
-    {
       "id": "x-euromaidan-face9c15e211",
       "title": "Ukrainian pilots opened the Bastille Day flypast from French fighter jets",
       "url": "https://euromaidanpress.com/2026/07/14/ukrainian-pilots-opened-the-bastille-day-flypast-from-french-fighter-jets/",
@@ -462,7 +558,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українські льотчики відкрили обліт до Дня взяття Бастилії з французьких винищувачів",
+      "titleUk": "Українські пілоти відкрили обліт до Дня взяття Бастилії з французьких винищувачів",
       "summaryUk": "На останньому параді Макрона як президента не було жодного американського літака та було одне навмисне повідомлення. Україна літала"
     },
     {
@@ -480,22 +576,6 @@
       ],
       "titleUk": "Данія надіслала Україні щось важливе, що підтримує льотну придатність частин F-16",
       "summaryUk": "Данія відправила Україні ще 10 мобільних кліматичних укриттів для авіатехніки. У Міноборони України заявляють, що підрозділи…"
-    },
-    {
-      "id": "x-pravda-9834624ae6eb",
-      "title": "Туск назвав кількість ракет до Patriot, які навесні Польща передала Україні",
-      "url": "https://www.pravda.com.ua/news/2026/07/14/8044081/",
-      "summary": "Польща навесні передала Україні 5 ракет Patriot, повідомив Дональд Туск. Допомога узгоджена з НАТО та не вплинула на оборону країни.",
-      "publishedAt": "2026-07-14T14:49:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Туск назвав кількість ракет до Patriot, які навесні Польща передала Україні",
-      "summaryUk": "Польща навесні передала Україні 5 ракет Patriot, повідомив Дональд Туск. Допомога узгоджена з НАТО та не вплинула на оборону країни."
     },
     {
       "id": "x-euromaidan-571d620ccd45",
@@ -526,7 +606,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Угорщина змінила проросійського прем'єр-міністра. Але це все ще гальмує шлях України до ЄС.",
+      "titleUk": "Угорщина змінила проросійського прем'єр-міністра. Проте це все ще гальмує шлях України до ЄС.",
       "summaryUk": "Угорщина дозволила розпочати два етапи переговорів України про вступ до ЄС, затримавши інші чотири. Петер Мадьяр – це не Віктор Орбан, але роки антиукраїнської політики можуть зробити блокування Києва безпечнішим, ніж допомагати йому."
     },
     {
@@ -590,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія має нафту. У нього більше немає бензину, тож росіяни вчаться робити його самостійно",
+      "titleUk": "Росія має нафту. У нього більше немає бензину, тому росіяни вчаться виготовляти його самостійно",
       "summaryUk": "Українська кампанія безпілотників скоротила російську нафтопереробку до найнижчого рівня з березня 2005 року, а дизельне паливо, яке Росія більше не може продавати, підвищує світові ціни на паливо до багаторічного максимуму."
     },
     {
@@ -622,8 +702,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Два місяці на посаді, три удари по Україні: прем’єр-міністр Болгарії накладає на Коаліцію добровільного виходу блокування допомоги та санкції",
-      "summaryUk": "З травня Радєв припинив державну військову допомогу, захистив двох відомих росіян із чорних списків ЄС, а тепер виключив Болгарію з групи, яка підтримує Київ проти російської агресії."
+      "titleUk": "Два місяці на посаді, три удари по Україні: Прем’єр-міністр Болгарії накладає на Коаліцію добровільного виходу блокування допомоги та санкцій",
+      "summaryUk": "З травня Радєв припинив державну військову допомогу, захистив двох відомих росіян із чорних списків ЄС, а тепер вилучив Болгарію з групи, яка підтримує Київ проти російської агресії."
     },
     {
       "id": "x-euromaidan-fa72c1852c32",
@@ -687,7 +767,7 @@
         "UKRAINE"
       ],
       "titleUk": "Колишній космічний керівник Росії закликає до «систематичного обнулення» угруповання супутників Starlink",
-      "summaryUk": "Сенатор Дмитро Рогозін стверджує, що відключення України від мережі SpaceX завершить війну протягом двох-трьох тижнів — і що Росія знає кілька способів зробити це."
+      "summaryUk": "Сенатор Дмитро Рогозін стверджує, що відключення України від мережі SpaceX припинить війну протягом двох-трьох тижнів — і що Росія знає кілька способів зробити це."
     },
     {
       "id": "x-euromaidan-f02943abde41",
@@ -816,54 +896,6 @@
       ],
       "titleUk": "Верховний суд України відмовився зняти санкції Зеленського з опозиціонера",
       "summaryUk": "Верховний суд відхилив оскарження Порошенка щодо санкцій, які заморожують його активи та позбавляють державних нагород. Каже, на суддів тиснули."
-    },
-    {
-      "id": "x-euromaidan-6947a9411269",
-      "title": "Ukraine approves more than two new drone systems a day this year. Almost all of them are now homemade",
-      "url": "https://euromaidanpress.com/2026/07/13/ukraine-approves-more-than-two-new-drone-systems-a-day-this-year-almost-all-of-them-are-now-homemade/",
-      "summary": "Ukraine's Defense Ministry codified 413 unmanned aerial systems in the first half of 2026, up 73% on 2024.",
-      "publishedAt": "2026-07-13T19:52:48.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Цього року Україна затверджує більше двох нових систем безпілотників на день. Майже всі вони тепер саморобні",
-      "summaryUk": "Міністерство оборони України за перше півріччя 2026 року сертифікувало 413 безпілотних літальних комплексів, що на 73% більше, ніж у 2024 році."
-    },
-    {
-      "id": "x-euromaidan-047436949ef7",
-      "title": "Ukraine says Russia&#8217;s Alabuga workers, including minors, are now inside Zaporizhzhia&#8217;s reactor complex, turned into military base",
-      "url": "https://euromaidanpress.com/2026/07/13/ukraine-says-russias-alabuga-workers-including-minors-are-now-inside-zaporizhzhias-reactor-complex-turned-into-military-base/",
-      "summary": "Ukrainian intelligence says Russia has placed armor in ZNPP turbine halls, machine-gun nests on reactor roofs, and drone control points staffed by Alabuga workers.",
-      "publishedAt": "2026-07-13T19:34:43.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна стверджує, що російські працівники «Алабуги», включно з неповнолітніми, зараз знаходяться в реакторному комплексі Запоріжжя, перетвореному на військову базу",
-      "summaryUk": "Українська розвідка стверджує, що Росія розмістила броню в турбінних залах ЗАЕС, кулеметні гнізда на дахах реакторів і пункти управління безпілотниками, де працюють працівники Алабуги."
-    },
-    {
-      "id": "x-euromaidan-1490fa3631f7",
-      "title": "France licenses Ukraine to build missile for system that has already downed Russian jet",
-      "url": "https://euromaidanpress.com/2026/07/13/france-licenses-ukraine-to-build-missile-for-system-that-has-already-downed-russian-jet/",
-      "summary": "Macron announced a license for Ukraine to build Aster missiles for its SAMP/T systems, as well as for Rafale fighter jets to fly in Ukrainian skies by 2028-2029.",
-      "publishedAt": "2026-07-13T19:09:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Франція надає Україні ліцензію на створення ракети для системи, яка вже збила російський літак",
-      "summaryUk": "Макрон оголосив про надання Україні ліцензії на створення ракет Aster для своїх систем SAMP/T, а також на польоти в українському небі винищувачів Rafale до 2028-2029 років."
     },
     {
       "id": "x-militarnyi-926d29f20c68",
