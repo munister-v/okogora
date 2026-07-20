@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T18:17:57.336Z",
+  "generatedAt": "2026-07-20T21:30:56.015Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,246 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-93d087ac9536",
+      "title": "Everything that hits target gets used: Ukraine just proved 1940s Swedish weapon can kill modern jet-powered drone",
+      "url": "https://euromaidanpress.com/2026/07/21/everything-that-hits-target-gets-used-ukraine-just-proved-1940s-swedish-weapon-can-kill-modern-jet-powered-drone/",
+      "summary": "Ukraine used Bofors L70 anti-aircraft guns for this operation.",
+      "publishedAt": "2026-07-20T21:29:04.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Все, що потрапляє в ціль, звикає: Україна щойно довела, що шведська зброя 1940-х років може вбити сучасний безпілотник з реактивним двигуном",
+      "summaryUk": "Для цієї операції Україна використовувала зенітну установку Bofors L70."
+    },
+    {
+      "id": "x-euromaidan-aa823acfe431",
+      "title": "Russo-Ukrainian war, day 1608: Britain&#8217;s new PM opens with call to Kyiv",
+      "url": "https://euromaidanpress.com/2026/07/21/russo-ukrainian-war-day-1608-britains-new-pm-opens-with-call-to-kyiv/",
+      "summary": "A Turkish-owned bulk carrier came under Russian fire off Odesa, killing ten of the eighteen people aboard, including the pilot who had just come on to guide the ship out.",
+      "publishedAt": "2026-07-20T21:01:57.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1608: новий прем'єр-міністр Британії відкрив візит до Києва",
+      "summaryUk": "Балкер, що належить Туреччині, потрапив під російський вогонь біля Одеси, убивши десять із вісімнадцяти людей на борту, включаючи пілота, який щойно піднявся, щоб скерувати судно."
+    },
+    {
+      "id": "x-pravda-805ce7913f6b",
+      "title": "На фронті від початку доби відбулося 186 бойових зіткнень – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045051/",
+      "summary": "Від початку доби 20 липня на фронті відбулось 186 бойових зіткнень.",
+      "publishedAt": "2026-07-20T20:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті від початку доби відбулося 186 бойових зіткнень – Генштаб",
+      "summaryUk": "Від початку доби 20 липня на фронті відбулось 186 бойових зіткнень."
+    },
+    {
+      "id": "x-pravda-f2de9897ec35",
+      "title": "РФ атакує Суми: виникла масштабна пожежа в ТРЦ, пошкоджена багатоповерхівка, постраждали діти",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045050/",
+      "summary": "Російська армія увечері 20 липня атакувала в Сумах багатоповерхівку та ТРЦ: постраждали двоє дорослих і четверо дітей.",
+      "publishedAt": "2026-07-20T20:19:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ атакує Суми: виникла масштабна пожежа в ТРЦ, пошкоджена багатоповерхівка, постраждали діти",
+      "summaryUk": "Російська армія увечері 20 липня атакувала в Сумах багатоповерхівку та ТРЦ: постраждали двоє дорослих і четверо дітей."
+    },
+    {
+      "id": "x-pravda-0517a94bf1c9",
+      "title": "У Києві та інших містах пʼятий день протестували проти відставки Федорова",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045047/",
+      "summary": "У Києві та інших містах українці п'ятий день поспіль вийшли на протести проти відставки ексміністра оборони Михайла Федорова та за відставку головкома ЗСУ Олександра Сирського.",
+      "publishedAt": "2026-07-20T20:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві та інших містах пʼятий день протестували проти відставки Федорова",
+      "summaryUk": "У Києві та інших містах українці п'ятий день поспіль вийшли на протести проти відставки ексміністра оборони Михайла Федорова та за відставку головкома ЗСУ Олександра Сирського."
+    },
+    {
+      "id": "x-euromaidan-cd5ca3df93aa",
+      "title": "Britain&#8217;s new PM Andy Burnham is opening with calls to Trump and Zelenskyy",
+      "url": "https://euromaidanpress.com/2026/07/20/britains-new-pm-andy-burnham-is-opening-with-calls-to-trump-and-zelenskyy/",
+      "summary": "His first foreign calls go to Zelenskyy and Trump, with UK support for Ukraine \"unwavering.\"",
+      "publishedAt": "2026-07-20T19:45:23.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Новий прем'єр-міністр Британії Енді Бернем розпочав дзвінки Трампу та Зеленському",
+      "summaryUk": "Його перші закордонні дзвінки проходять із Зеленським і Трампом, при цьому підтримка України Великобританією «непохитна»."
+    },
+    {
+      "id": "x-pravda-5dbf33492862",
+      "title": "В Одесі кількість людей, які постраждали через російський удар по підприємству зросла до 8",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045046/",
+      "summary": "Кількість постраждалих внаслідок російської атаки по підприємству в Одесі зросла до 8.",
+      "publishedAt": "2026-07-20T19:44:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "В Одесі кількість людей, які постраждали через російський удар по підприємству зросла до 8",
+      "summaryUk": "Кількість постраждалих внаслідок російської атаки по підприємству в Одесі зросла до 8."
+    },
+    {
+      "id": "x-euromaidan-74a350a5cf9c",
+      "title": "60-year-old Pole stood up for Ukrainian teenager on tram in Poznań. Three men beat him for it",
+      "url": "https://euromaidanpress.com/2026/07/20/60-year-old-pole-stood-up-for-ukrainian-teenager-on-tram-in-poznan-three-men-beat-him-for-it/",
+      "summary": "They turned on him and beat him so badly he suffered memory loss.",
+      "publishedAt": "2026-07-20T19:25:26.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "60-річний поляк заступився за українського підлітка в трамваї в Познані. Троє чоловіків побили його за це",
+      "summaryUk": "Вони накинулися на нього і побили так сильно, що він втратив пам'ять."
+    },
+    {
+      "id": "x-pravda-90030b1ea34f",
+      "title": "Рішення, які готує президент Зеленський – новий випуск УП. Чат",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045045/",
+      "summary": "Які рішення готує президент Володимир Зеленський, чи варто очікувати призначення нового головнокомандувача ЗСУ та яким має бути ефективний діалог між владою і суспільством?",
+      "publishedAt": "2026-07-20T19:17:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Рішення, які готує президент Зеленський – новий випуск УП. Чат",
+      "summaryUk": "Які рішення готує президент Володимир Зеленський, чи варто очікувати призначення нового головнокомандувача ЗСУ та яким має бути ефективний діалог між владою і суспільством?"
+    },
+    {
+      "id": "x-euromaidan-2349f1ca8387",
+      "title": "&#8220;Small service can cost life imprisonment&#8221;: Ukraine warns against Russian Shahed-recording scheme",
+      "url": "https://euromaidanpress.com/2026/07/20/small-service-can-cost-life-imprisonment-ukraine-warns-against-russian-shahed-recording-scheme/",
+      "summary": "Russia is recruiting Ukrainian traitors through social media to record FM signals broadcast by Shahed drones.",
+      "publishedAt": "2026-07-20T19:08:52.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "“Дрібна служба може коштувати довічного ув’язнення”: в Україні застерігають від російської схеми шахедозапису",
+      "summaryUk": "Через соцмережі Росія вербує українських зрадників для запису FM-сигналу, що транслюється дронами Shahed."
+    },
+    {
+      "id": "x-pravda-81e69b3e2e10",
+      "title": "Послом Канади в Україні вперше за 10 років стане дипломат без українського походження",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045044/",
+      "summary": "",
+      "publishedAt": "2026-07-20T19:03:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Послом Канади в Україні вперше за 10 років стане дипломат без українського походження",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-a1ff1365fa1a",
+      "title": "Зеленський провів спеціальну Ставку: вперше зібрав виробників зброї та командирів корпусів",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045043/",
+      "summary": "Президент України Володимир Зеленський 20 липня провів спеціальну зустріч Ставки, де взяли участь виробники зброї та командири корпусів.",
+      "publishedAt": "2026-07-20T18:51:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський провів спеціальну Ставку: вперше зібрав виробників зброї та командирів корпусів",
+      "summaryUk": "Президент України Володимир Зеленський 20 липня провів спеціальну зустріч Ставки, де взяли участь виробники зброї та командири корпусів."
+    },
+    {
+      "id": "x-pravda-2e3df78d7aa3",
+      "title": "РФ вдарила по будинку в Сумах: є постраждалі",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045042/",
+      "summary": "Російські війська 20 липня завдали удару по житловому сектору в Сумах, відомо про трьох постраждалих.",
+      "publishedAt": "2026-07-20T18:40:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ вдарила по будинку в Сумах: є постраждалі",
+      "summaryUk": "Російські війська 20 липня завдали удару по житловому сектору в Сумах, відомо про трьох постраждалих."
+    },
+    {
+      "id": "x-militarnyi-7a4d66379f39",
+      "title": "Захищено: БМ-30 «Смерч»: українські й російські модифікації 300-мм РСЗВ та втрати окупантів",
+      "url": "https://militarnyi.com/uk/bm-30-smerch-ukrayinski-j-rosijski-modyfikatsiyi-300-mm-rszv-ta-vtraty-okupantiv/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bm-30-smerch-ukrayinski-j-rosijski-modyfikatsiyi-300-mm-rszv-ta-vtraty-okupantiv",
+      "summary": "Уривка немає, тому що запис захищений.",
+      "publishedAt": "2026-07-20T18:39:16.000Z",
+      "author": "Militarnyi",
+      "handle": "militarnyi",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Захищено: БМ-30 «Смерч»: українські й російські модифікації 300-мм РСЗВ та втрати окупантів",
+      "summaryUk": "Уривка немає, тому що запис захищений."
+    },
+    {
+      "id": "x-pravda-c54f70f59d5c",
+      "title": "Уряд офіційно призначив Хмару тимчасовим виконувачем обов'язків міністра оборони",
+      "url": "https://www.pravda.com.ua/news/2026/07/20/8045040/",
+      "summary": "Кабінет міністрів офіційно призначив Євгена Хмару тимчасовим виконувачем обов'язки міністра оборони.",
+      "publishedAt": "2026-07-20T18:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Уряд офіційно призначив Хмару тимчасовим виконувачем обов'язків міністра оборони",
+      "summaryUk": "Кабінет міністрів офіційно призначив Євгена Хмару тимчасовим виконувачем обов'язки міністра оборони."
+    },
     {
       "id": "x-pravda-72fe66a75006",
       "title": "Генштаб повідомив про ураження трьох танкерів, залізничного мосту та інших цілей РФ",
@@ -339,7 +579,7 @@
     },
     {
       "id": "x-pravda-89b6345fa93d",
-      "title": "В результаті російської атаки на судно біля Одеси загинули 4 індійця",
+      "title": "В результаті російської атаки на судно біля Одеси загинули 4 індійці",
       "url": "https://www.pravda.com.ua/news/2026/07/20/8045023/",
       "summary": "У результаті російської атаки 19 липня на судно \"Golden Leo\" у Чорному морі загинули четверо індійців.",
       "publishedAt": "2026-07-20T16:49:00.000Z",
@@ -350,7 +590,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "В результаті російської атаки на судно біля Одеси загинули 4 індійця",
+      "titleUk": "В результаті російської атаки на судно біля Одеси загинули 4 індійці",
       "summaryUk": "У результаті російської атаки 19 липня на судно \"Golden Leo\" у Чорному морі загинули четверо індійців."
     },
     {
@@ -402,118 +642,6 @@
       "summaryUk": "Про це в ефірі «Єдиних новин» 20 липня заявив командир 7-го корпусу швидкого регування ДШВ, бригадний генерал Євген Ласійчук. «Літньо-осіння..."
     },
     {
-      "id": "x-pravda-92458e1138aa",
-      "title": "У Нікополі на Дніпропетровщині поранена жінка через удар РФ, також зросла кількість постраждалих у Павлограді",
-      "url": "https://www.pravda.com.ua/news/2026/07/20/8045013/",
-      "summary": "Російські війська 20 липня вдарили по Нікополю, там поранені 81-річна жінка. До 16 зросла кількість постраждалих у Павлограді, двоє людей загинули.",
-      "publishedAt": "2026-07-20T16:19:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Нікополі на Дніпропетровщині поранена жінка через удар РФ, також зросла кількість постраждалих у Павлограді",
-      "summaryUk": "Російські війська 20 липня вдарили по Нікополю, там поранені 81-річна жінка. До 16 зросла кількість постраждалих у Павлограді, двоє людей загинули."
-    },
-    {
-      "id": "x-pravda-af9f0ab85c6f",
-      "title": "Італія заявила про висилку з Росії свого військового аташе",
-      "url": "https://www.pravda.com.ua/news/2026/07/20/8045012/",
-      "summary": "",
-      "publishedAt": "2026-07-20T15:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Італія заявила про висилку з Росії свого військового аташе",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-2d70f9c83105",
-      "title": "У Херсоні через російські удари троє людей отримали поранення",
-      "url": "https://www.pravda.com.ua/news/2026/07/20/8045008/",
-      "summary": "Російські війська за день 20 липня поранили трьох людей у Херсоні ударами безпілотника та обстрілом.",
-      "publishedAt": "2026-07-20T15:35:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Херсоні через російські удари троє людей отримали поранення",
-      "summaryUk": "Російські війська за день 20 липня поранили трьох людей у Херсоні ударами безпілотника та обстрілом."
-    },
-    {
-      "id": "x-pravda-01fee4b232c5",
-      "title": "Не втратити своїх: чому Україні стає все складніше конкурувати за власних мігрантів",
-      "url": "https://www.pravda.com.ua/columns/2026/07/20/8044895/",
-      "summary": "Головні чинники повернення українців додому після війни: безпека, умови життя, нові демографічні виклики.",
-      "publishedAt": "2026-07-20T15:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Не втратити своїх: чому Україні стає все складніше конкурувати за власних мігрантів",
-      "summaryUk": "Головні чинники повернення українців додому після війни: безпека, умови життя, нові демографічні виклики."
-    },
-    {
-      "id": "x-pravda-6b6d68839fc5",
-      "title": "Винищувачі НАТО тричі піднімалися перехоплювати літаки РФ над Балтією",
-      "url": "https://www.pravda.com.ua/news/2026/07/20/8045007/",
-      "summary": "Винищувачі НАТО, які виконують місію повітряної поліції в країнах Балтії, минулого тижня тричі піднімалися в повітря для ідентифікації та супроводу російських військових літаків, що летіли в міжнародному повітряному просторі.",
-      "publishedAt": "2026-07-20T15:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Винищувачі НАТО тричі піднімалися перехоплювати літаки РФ над Балтією",
-      "summaryUk": "Винищувачі НАТО, які виконують місію повітряної поліції в країнах Балтії, минулого тижня тричі піднімалися в повітря для ідентифікації та супроводу російських військових літаків, що летіли в міжнародному повітряному просторі."
-    },
-    {
-      "id": "x-pravda-725510b40a3b",
-      "title": "Винищувачі НАТО тричі піднімалися на перехоплення літаків РФ над Балтією",
-      "url": "https://www.pravda.com.ua/news/2026/07/20/8045006/",
-      "summary": "",
-      "publishedAt": "2026-07-20T15:22:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Винищувачі НАТО тричі піднімалися на перехоплення літаків РФ над Балтією",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-d7bb7b338c12",
-      "title": "Що відбувається у війську на тлі протестів та кого можуть призначити новим головкомом замість Сирського",
-      "url": "https://www.pravda.com.ua/articles/2026/07/20/8044995/",
-      "summary": "Зранку 16 липня, вдруге за час повномасштабної війни, по всій країні почалися протести.",
-      "publishedAt": "2026-07-20T14:59:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Що відбувається у війську на тлі протестів та кого можуть призначити новим головкомом замість Сирського",
-      "summaryUk": "Зранку 16 липня, вдруге за час повномасштабної війни, по всій країні почалися протести."
-    },
-    {
       "id": "x-euromaidan-3669f5cf5e23",
       "title": "Ukraine&#8217;s new combat robot is silent, fits in minivan, and carries MK19 grenade launcher",
       "url": "https://euromaidanpress.com/2026/07/20/ukraines-new-combat-robot-is-silent-fits-in-minivan-and-carries-mk19-grenade-launcher/",
@@ -526,7 +654,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Новий український бойовий робот безшумний, поміщається в мінівен і несе гранатомет МК19",
+      "titleUk": "Новий український бойовий робот безшумний, вміщується в мікроавтобус і несе гранатомет МК19",
       "summaryUk": "В Україні сертифікований наземний розвідувально-ударний робот із безшумним електродвигуном «Змій Міні Страйк»."
     },
     {
@@ -590,7 +718,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Чому Росія імпортує бензин із власної нафти",
+      "titleUk": "Чому Росія імпортує бензин з власної нафти",
       "summaryUk": "Щоб зберегти свої насоси, Москва записала ціну на бензин в Індії у свій податковий кодекс."
     },
     {
@@ -606,7 +734,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українські бойові водолази, які підірвали російський бомбардувальник, щойно створили власний морський дрон",
+      "titleUk": "Українські бойові водолази, які підірвали російський бомбардувальник, щойно побудували власний морський дрон",
       "summaryUk": "Національна гвардія України представила морський безпілотник, розроблений одним із власних підрозділів на передовій, що відображає зростаючу тенденцію створення солдатами зброї, з якою вони воюють."
     },
     {
@@ -655,7 +783,7 @@
         "UKRAINE"
       ],
       "titleUk": "Ботсвана попереджає свій народ про російські шахрайства з роботою, які закінчуються в окопах проти України",
-      "summaryUk": "Чиновники кажуть, що їм постійно телефонують громадяни, які вже перебувають на фронті, описуючи небезпечні умови, на які вони ніколи не підписувалися."
+      "summaryUk": "Чиновники кажуть, що їм постійно телефонують громадяни, які вже перебувають на фронті, і описують небезпечні умови, на які вони ніколи не підписувалися."
     },
     {
       "id": "x-euromaidan-72a1b044e55d",
@@ -719,7 +847,7 @@
         "UKRAINE"
       ],
       "titleUk": "Росія запустила рекордний балістичний ракетний обстріл Києва, випустивши понад 40 ракет менш ніж за годину",
-      "summaryUk": "Протягом нічного нападу Росії на Київ загинула щонайменше одна людина і щонайменше 16 отримали поранення."
+      "summaryUk": "В результаті нічного нападу Росії на Київ загинула щонайменше одна людина і щонайменше 16 отримали поранення."
     },
     {
       "id": "x-euromaidan-5944fcd33ebe",
@@ -846,72 +974,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Найважче літо»: Росія подвійно перегнала запорізький пасажирський потяг",
+      "titleUk": "«Найважче літо»: Росія подвійно зачепила запорізький пасажирський потяг",
       "summaryUk": "Залізничники вчасно евакуювали всіх, ніхто не постраждав."
-    },
-    {
-      "id": "x-euromaidan-e5bf24c7250a",
-      "title": "Vatican&#8217;s top diplomat visits Russian strike site in Kyiv",
-      "url": "https://euromaidanpress.com/2026/07/18/vaticans-top-diplomat-visits-russian-strike-site-in-kyiv/",
-      "summary": "Archbishop Paul Gallagher, the Holy See's foreign minister, visited the site of a Russian missile strike in Kyiv that destroyed homes and killed civilians.",
-      "publishedAt": "2026-07-18T19:15:15.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Перший дипломат Ватикану відвідав місце російського удару в Києві",
-      "summaryUk": "Архієпископ Пол Галлагер, міністр закордонних справ Святого Престолу, відвідав місце російського ракетного удару по Києві, який зруйнував будинки та вбив мирних жителів."
-    },
-    {
-      "id": "x-euromaidan-3ef7ea6bb198",
-      "title": "Pickup that can be replaced when lost is what hunted Ukrainian border regions need. Germany just sent 12",
-      "url": "https://euromaidanpress.com/2026/07/18/pickup-that-can-be-replaced-when-lost-is-what-hunted-ukrainian-border-regions-need-germany-just-sent-12/",
-      "summary": "Kharkiv Oblast received 12 pickup trucks and two road rollers from Germany's Federal Agency for Technical Relief for emergency response, evacuation, and road repair.",
-      "publishedAt": "2026-07-18T17:33:18.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Пікап, який можна замінити при втраті – це те, що потрібно охопленим українським прикордонням. Німеччина щойно надіслала 12",
-      "summaryUk": "Харківська область отримала від Федерального агентства технічної допомоги Німеччини 12 пікапів і два дорожніх катки для реагування на надзвичайні ситуації, евакуації та ремонту доріг."
-    },
-    {
-      "id": "x-euromaidan-4e929cd7ec9c",
-      "title": "Ukraine&#8217;s newest drone hunter doesn&#8217;t chase its prey. It climbs above it",
-      "url": "https://euromaidanpress.com/2026/07/18/ukraines-newest-drone-hunter-doesnt-chase-its-prey-it-climbs-above-it/",
-      "summary": "Ukraine codified the Tsyklop interceptor drone, which can climb higher than Russia's strike and reconnaissance UAVs. One variant has downed over 100 air targets.",
-      "publishedAt": "2026-07-18T17:18:52.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Новітній український мисливець за дронами не женеться за здобиччю. Воно піднімається над ним",
-      "summaryUk": "В Україні сертифікували безпілотний літальний апарат-перехоплювач \"Циклоп\", який може підійматися вище за російські ударно-розвідувальні БПЛА. Один із варіантів збив понад 100 повітряних цілей."
-    },
-    {
-      "id": "x-euromaidan-bb0e71ccce64",
-      "title": "Ukraine is trying to wreck Russia&#8217;s oil fleet without spilling its oil—the Black Sea can&#8217;t take another slick",
-      "url": "https://euromaidanpress.com/2026/07/18/oil-spills/",
-      "summary": "Ukraine's countershipping campaign risks polluting the fragile Black Sea. Drone operators are trying to spill less oil.",
-      "publishedAt": "2026-07-18T16:59:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна намагається знищити російський нафтовий флот, не розливши нафту — Чорне море не може прийняти ще одну пляму",
-      "summaryUk": "Українська контрсудноплавна кампанія ризикує забруднити крихке Чорне море. Оператори дронів намагаються розливати менше нафти."
     }
   ]
 }
