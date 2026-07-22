@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T14:26:44.594Z",
+  "generatedAt": "2026-07-22T16:50:54.097Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -7,11 +7,11 @@
     "autoDiscoveredUnits": 0,
     "brigades": 5,
     "brigadesWithOfficialFeeds": 5,
-    "officialItems": 51,
+    "officialItems": 50,
     "mentionItems": 3,
-    "significantItems": 32,
-    "strikeItems": 23,
-    "reorgItems": 15
+    "significantItems": 34,
+    "strikeItems": 26,
+    "reorgItems": 14
   },
   "brigades": [
     {
@@ -33,17 +33,17 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 0,
-      "significantItems": 12,
-      "strikeItems": 12,
+      "significantItems": 15,
+      "strikeItems": 15,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
         {
-          "id": "telegram-kpszsu-bea758c77ac276",
-          "title": "🛵 Сумщина: БпЛА повз Степанівку ➡️ в напрямку Лебедина.",
-          "summary": "🛵 Сумщина: БпЛА повз Степанівку ➡️ в напрямку Лебедина.",
-          "url": "https://t.me/kpszsu/69663",
-          "publishedAt": "2026-07-22T14:22:02.000Z",
+          "id": "telegram-kpszsu-d000a18545fa84",
+          "title": "🛵 Реактивний БпЛА ➡️ у напрямку Полтави.",
+          "summary": "🛵 Реактивний БпЛА ➡️ у напрямку Полтави.",
+          "url": "https://t.me/kpszsu/69687",
+          "publishedAt": "2026-07-22T16:43:10.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -52,15 +52,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Сумщина: БпЛА повз Степанівку ➡️ в напрямку Лебедина.",
-          "summaryUk": "🛵 Сумщина: БпЛА повз Степанівку ➡️ в напрямку Лебедина."
+          "titleUk": "🛵 Реактивний БпЛА ➡️ у напрямку Полтави.",
+          "summaryUk": "🛵 Реактивний БпЛА ➡️ у напрямку Полтави."
         },
         {
-          "id": "telegram-kpszsu-1bea477478fdb2",
-          "title": "🛵 Чернігівщина: БпЛА ➡️ в напрямку на/повз Ніжин з північного сходу.",
-          "summary": "🛵 Чернігівщина: БпЛА ➡️ в напрямку на/повз Ніжин з північного сходу.",
-          "url": "https://t.me/kpszsu/69662",
-          "publishedAt": "2026-07-22T14:13:21.000Z",
+          "id": "telegram-kpszsu-9e3b9e00858340",
+          "title": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова",
+          "summary": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова",
+          "url": "https://t.me/kpszsu/69685",
+          "publishedAt": "2026-07-22T16:40:33.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -69,15 +69,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Чернігівщина: БпЛА ➡️ в напрямку на/повз Ніжин з північного сходу.",
-          "summaryUk": "🛵 Чернігівщина: БпЛА ➡️ в напрямку на/повз Ніжин з північного сходу."
+          "titleUk": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова",
+          "summaryUk": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова"
         },
         {
-          "id": "telegram-kpszsu-3aae705c8f60a0",
-          "title": "🛵 БпЛА ➡️ в напрямку Харкова з півночі.",
-          "summary": "🛵 БпЛА ➡️ в напрямку Харкова з півночі.",
-          "url": "https://t.me/kpszsu/69660",
-          "publishedAt": "2026-07-22T13:55:41.000Z",
+          "id": "telegram-kpszsu-594df2cce19574",
+          "title": "🛵 Сумщина: БпЛА в напрямку Путивля, Вороніжа з північного сходу.",
+          "summary": "🛵 Сумщина: БпЛА в напрямку Путивля, Вороніжа з північного сходу.",
+          "url": "https://t.me/kpszsu/69684",
+          "publishedAt": "2026-07-22T16:38:29.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -86,15 +86,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА ➡️ в напрямку Харкова з півночі.",
-          "summaryUk": "🛵 БпЛА ➡️ в напрямку Харкова з півночі."
+          "titleUk": "🛵 Сумщина: БпЛА в напрямку Путивля, Вороніжа з північного сходу.",
+          "summaryUk": "🛵 Сумщина: БпЛА в напрямку Путивля, Вороніжа з північного сходу."
         },
         {
-          "id": "telegram-kpszsu-5dfd79f294b430",
-          "title": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Макошиного з північного сходу.",
-          "summary": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Макошиного з північного сходу.",
-          "url": "https://t.me/kpszsu/69659",
-          "publishedAt": "2026-07-22T13:53:27.000Z",
+          "id": "telegram-kpszsu-2928f38dc7d97d",
+          "title": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова",
+          "summary": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова",
+          "url": "https://t.me/kpszsu/69683",
+          "publishedAt": "2026-07-22T16:37:15.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -103,15 +103,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Макошиного з північного сходу.",
-          "summaryUk": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Макошиного з північного сходу."
+          "titleUk": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова",
+          "summaryUk": "🛵 Полтавщина: реактивний БпЛА в напрямку Зінькова"
         },
         {
-          "id": "telegram-kpszsu-a9c096a176a960",
-          "title": "🛵 БпЛА ➡️ в напрямку м.Запоріжжя з півдня.",
-          "summary": "🛵 БпЛА ➡️ в напрямку м.Запоріжжя з півдня.",
-          "url": "https://t.me/kpszsu/69658",
-          "publishedAt": "2026-07-22T13:48:57.000Z",
+          "id": "telegram-kpszsu-fa1ce8262b8587",
+          "title": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Бахмача і Ніжина.",
+          "summary": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Бахмача і Ніжина.",
+          "url": "https://t.me/kpszsu/69680",
+          "publishedAt": "2026-07-22T16:31:14.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -120,15 +120,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА ➡️ в напрямку м.Запоріжжя з півдня.",
-          "summaryUk": "🛵 БпЛА ➡️ в напрямку м.Запоріжжя з півдня."
+          "titleUk": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Бахмача і Ніжина.",
+          "summaryUk": "🛵 Чернігівщина: БпЛА ➡️ в напрямку Бахмача і Ніжина."
         },
         {
-          "id": "telegram-kpszsu-549cdf4635f85a",
-          "title": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря.",
-          "summary": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря.",
-          "url": "https://t.me/kpszsu/69657",
-          "publishedAt": "2026-07-22T13:43:38.000Z",
+          "id": "telegram-kpszsu-db03f961321d5f",
+          "title": "🛵 БпЛА на Кременчук зі сходу.",
+          "summary": "🛵 БпЛА на Кременчук зі сходу.",
+          "url": "https://t.me/kpszsu/69679",
+          "publishedAt": "2026-07-22T16:00:49.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -137,15 +137,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря.",
-          "summaryUk": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря."
+          "titleUk": "🛵 БпЛА на Кременчук зі сходу.",
+          "summaryUk": "🛵 БпЛА на Кременчук зі сходу."
         },
         {
-          "id": "telegram-kpszsu-50b3c1061af89d",
-          "title": "🛵 БпЛА ➡️ в напрямку Харкова з півночі.",
-          "summary": "🛵 БпЛА ➡️ в напрямку Харкова з півночі.",
-          "url": "https://t.me/kpszsu/69654",
-          "publishedAt": "2026-07-22T13:37:21.000Z",
+          "id": "telegram-kpszsu-7ca931dfd38039",
+          "title": "🛵 БпЛА на півночі Київщини, в районі Чорнобильської зони ➡️ курсом на захід.",
+          "summary": "🛵 БпЛА на півночі Київщини, в районі Чорнобильської зони ➡️ курсом на захід.",
+          "url": "https://t.me/kpszsu/69678",
+          "publishedAt": "2026-07-22T15:56:29.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -154,15 +154,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА ➡️ в напрямку Харкова з півночі.",
-          "summaryUk": "🛵 БпЛА ➡️ в напрямку Харкова з півночі."
+          "titleUk": "🛵 БпЛА на півночі Київщини, в районі Чорнобильської зони ➡️ курсом на захід.",
+          "summaryUk": "🛵 БпЛА на півночі Київщини, в районі Чорнобильської зони ➡️ курсом на захід."
         },
         {
-          "id": "telegram-kpszsu-ccc8c69be5a96b",
-          "title": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря.",
-          "summary": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря.",
-          "url": "https://t.me/kpszsu/69652",
-          "publishedAt": "2026-07-22T13:23:45.000Z",
+          "id": "telegram-kpszsu-d5f40b5a4af9e3",
+          "title": "🛵 Полтавщина: БпЛА ➡️ в напрямку Козельщини з північного сходу.",
+          "summary": "🛵 Полтавщина: БпЛА ➡️ в напрямку Козельщини з північного сходу.",
+          "url": "https://t.me/kpszsu/69677",
+          "publishedAt": "2026-07-22T15:46:53.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -171,8 +171,8 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря.",
-          "summaryUk": "🛵 Реактивний БпЛА ➡️ курсом на Одесу з акваторії Чорного моря."
+          "titleUk": "🛵 Полтавщина: БпЛА ➡️ в напрямку Козельщини з північного сходу.",
+          "summaryUk": "🛵 Полтавщина: БпЛА ➡️ в напрямку Козельщини з північного сходу."
         }
       ]
     },
@@ -194,11 +194,11 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 11,
+      "officialItems": 10,
       "mentionItems": 0,
-      "significantItems": 11,
+      "significantItems": 10,
       "strikeItems": 4,
-      "reorgItems": 11,
+      "reorgItems": 10,
       "hasOfficialFeed": true,
       "items": [
         {
