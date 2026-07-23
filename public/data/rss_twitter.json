@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T19:44:24.787Z",
+  "generatedAt": "2026-07-23T21:19:52.680Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,38 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-7886313b1ca1",
+      "title": "Russo-Ukrainian war, day 1611: Ukraine finds uranium in Russian drones striking Chernihiv Oblast",
+      "url": "https://euromaidanpress.com/2026/07/23/russo-ukrainian-war-day-1611-ukraine-finds-uranium-in-russian-drones-striking-chernihiv-oblast/",
+      "summary": "Exclusives Russia just copied Ukraine's cleverest drone hunter. A $500,000 missile is a costly way of taking down&#8230;",
+      "publishedAt": "2026-07-23T20:55:30.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1611: Україна знайшла уран у російських безпілотниках, які обстріляли Чернігівську область",
+      "summaryUk": "Ексклюзив Росія просто скопіювала найспритнішого українського мисливця за дронами. Ракета вартістю 500 000 доларів є дорогим способом збити..."
+    },
+    {
+      "id": "x-pravda-d397c0091cc7",
+      "title": "Від початку доби на фронті відбулося 178 бойових зіткнень – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/07/23/8045617/",
+      "summary": "Від початку доби 23 липня на фронті відбулось 178 бойових зіткнень.",
+      "publishedAt": "2026-07-23T20:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Від початку доби на фронті відбулося 178 бойових зіткнень – Генштаб",
+      "summaryUk": "Від початку доби 23 липня на фронті відбулось 178 бойових зіткнень."
+    },
     {
       "id": "x-pravda-13d2818501a9",
       "title": "До 25 зросла кількість постраждалих внаслідок атаки РФ на Запоріжжя",
@@ -482,22 +514,6 @@
       "summaryUk": "Про свій вибір військовий розповів у відео, яке оприлюднило Міністерство оборони України. Олег каже, що найбільша перевага нового контракту — визначеність. За його словами, він уже..."
     },
     {
-      "id": "x-pravda-c7db32c6c91b",
-      "title": "Палата представників США вдруге закликала Трампа припинити війну з Іраном",
-      "url": "https://www.pravda.com.ua/news/2026/07/23/8045587/",
-      "summary": "",
-      "publishedAt": "2026-07-23T16:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Палата представників США вдруге закликала Трампа припинити війну з Іраном",
-      "summaryUk": ""
-    },
-    {
       "id": "x-armyinform-7b2774f491aa",
       "title": "Кремль готується до виборів, яких боїться більше за санкції: СЗР про кризу всередині рф",
       "url": "https://armyinform.com.ua/2026/07/23/kreml-gotuyetsya-do-vyboriv-yakyh-boyitsya-bilshe-za-sankcziyi-szr-pro-kryzu-vseredyni-rf/",
@@ -512,22 +528,6 @@
       ],
       "titleUk": "Кремль готується до виборів, яких боїться більше за санкції: СЗР про кризу всередині рф",
       "summaryUk": "Про це йдеться в аналітичному матеріалі Служби зовнішньої розвідки України. За оцінкою СЗР, навіть результати підконтрольних Кремлю соціологічних досліджень свідчать про зниження підтримки війни...."
-    },
-    {
-      "id": "x-pravda-63182339ebb5",
-      "title": "Росіяни вдарили по багатоповерхівці у Запоріжжі, є постраждалі",
-      "url": "https://www.pravda.com.ua/news/2026/07/23/8045565/",
-      "summary": "Росія вдарила по багатоповерхівці у Запоріжжі: 5 постраждалих, під завалами люди.",
-      "publishedAt": "2026-07-23T15:46:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вдарили по багатоповерхівці у Запоріжжі, є постраждалі",
-      "summaryUk": "Росія вдарила по багатоповерхівці у Запоріжжі: 5 постраждалих, під завалами люди."
     },
     {
       "id": "x-euromaidan-9500b6bc4d1d",
@@ -928,22 +928,6 @@
       ],
       "titleUk": "Екс-командувач ЗСУ висловився на адресу нового головнокомандувача ЗСУ: це буде «набагато важче, ніж він собі уявляє»",
       "summaryUk": "Але, продовжив він, «Михайлу точно ніколи не буде соромно»."
-    },
-    {
-      "id": "x-euromaidan-6f1574ccda7b",
-      "title": "Russo-Ukrainian war, day 1609: Drapatyi named Ukraine&#8217;s new commander-in-chief as protests force Syrskyi out",
-      "url": "https://euromaidanpress.com/2026/07/22/russo-ukrainian-war-day-1609/",
-      "summary": "Zelenskyy replaced Oleksandr Syrskyi with Mykhailo Drapatyi after a week of nationwide rallies, military consultations, and political pressure over the war's leadership.",
-      "publishedAt": "2026-07-21T21:28:12.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-українська війна, день 1609: Драпатий назвав нового головнокомандувача України, оскільки протести вимусили Сирського піти",
-      "summaryUk": "Зеленський змінив Олександра Сирського на Михайла Драпатого після тижня загальнонаціональних мітингів, військових консультацій і політичного тиску на керівництво війни."
     },
     {
       "id": "x-militarnyi-7a4d66379f39",
