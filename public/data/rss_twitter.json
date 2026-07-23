@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:19:52.680Z",
+  "generatedAt": "2026-07-23T23:10:15.141Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,70 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-d44bb1a75624",
+      "title": "Intelligence: Russia&#8217;s civil aviation deteriorates under sanctions, forcing it to dismantle even new aircraft to obtain spare parts",
+      "url": "https://euromaidanpress.com/2026/07/24/intelligence-russias-civil-aviation-deteriorates-under-sanctions-forcing-it-to-dismantle-even-new-aircraft-to-obtain-spare-parts/",
+      "summary": "Russia is now tearing apart brand-new planes to keep older ones in the air. The country's civil aviation&#8230;",
+      "publishedAt": "2026-07-23T22:06:12.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Розвідка: російська цивільна авіація погіршується під санкціями, змушуючи її розбирати навіть нові літаки, щоб отримати запчастини",
+      "summaryUk": "Зараз Росія розбирає новісінькі літаки, щоб зберегти в повітрі старіші. Цивільна авіація країни…"
+    },
+    {
+      "id": "x-euromaidan-1da75d6e9b99",
+      "title": "Zelenskyy meets team from Raytheon, US company that builds Patriots, and says Ukraine is now negotiating joint interceptor production",
+      "url": "https://euromaidanpress.com/2026/07/24/zelenskyy-meets-team-from-raytheon-us-company-that-builds-patriots-and-says-ukraine-is-now-negotiating-joint-interceptor-production/",
+      "summary": "President Volodymyr Zelenskyy met Raytheon executives in Kyiv.",
+      "publishedAt": "2026-07-23T21:52:02.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський зустрівся з командою американської компанії Raytheon, яка будує Патріоти, і сказав, що Україна зараз веде переговори про спільне виробництво перехоплювачів",
+      "summaryUk": "Президент Володимир Зеленський зустрівся з керівництвом Raytheon у Києві."
+    },
+    {
+      "id": "x-euromaidan-7e157e849a31",
+      "title": "Ireland&#8217;s PM brings $146 million aid package to Kyiv. He also shares findings on Russian-owned alumina plant in Ireland",
+      "url": "https://euromaidanpress.com/2026/07/24/irelands-pm-brings-146-million-aid-package-to-kyiv-he-also-shares-findings-on-russian-owned-alumina-plant-in-ireland/",
+      "summary": "Irish Taoiseach Micheál Martin announced €125 million in aid on a Kyiv visit, while saying an investigation found no definitive proof a Russian-owned Limerick plant supplied Russia's war machine.",
+      "publishedAt": "2026-07-23T21:39:22.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Прем’єр-міністр Ірландії привіз Києву пакет допомоги на 146 мільйонів доларів. Він також ділиться висновками щодо російського глиноземного заводу в Ірландії",
+      "summaryUk": "Ірландський Taoiseach Micheál Martin під час візиту до Києва оголосив про допомогу в розмірі 125 мільйонів євро, водночас заявивши, що розслідування не знайшло остаточних доказів того, що російський завод у Лімеріку постачав російську військову машину."
+    },
+    {
+      "id": "x-pravda-ce4eca43512e",
+      "title": "Через атаку росіян на Чернігівщині – понад 70 тисяч споживачів без світла",
+      "url": "https://www.pravda.com.ua/news/2026/07/24/8045621/",
+      "summary": "Росіяни атакували Чернігівщину, 70 тисяч користувачів лишилися безсівтла.",
+      "publishedAt": "2026-07-23T21:24:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Через атаку росіян на Чернігівщині – понад 70 тисяч споживачів без світла",
+      "summaryUk": "Росіяни атакували Чернігівщину, 70 тисяч користувачів лишилися безсівтла."
+    },
+    {
       "id": "x-euromaidan-7886313b1ca1",
       "title": "Russo-Ukrainian war, day 1611: Ukraine finds uranium in Russian drones striking Chernihiv Oblast",
       "url": "https://euromaidanpress.com/2026/07/23/russo-ukrainian-war-day-1611-ukraine-finds-uranium-in-russian-drones-striking-chernihiv-oblast/",
@@ -190,7 +254,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія просто скопіювала найрозумнішого українського мисливця на дрони",
+      "titleUk": "Росія просто скопіювала найрозумнішого українського мисливця за дронами",
       "summaryUk": "Ракета вартістю 500 000 доларів — це дорогий спосіб збити ударний дрон вартістю 50 000 доларів. Тож росіяни озброюють старі літаки дешевими безпілотниками-перехоплювачами."
     },
     {
@@ -334,7 +398,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Новітній в Україні фронтовий мотоцикл їздить по протитанкових мінах і працює як електростанція",
+      "titleUk": "Новітній фронтовий мотоцикл України їздить по протитанкових мінах і працює як електростанція",
       "summaryUk": "Україна кодифікувала MUL.E, свій перший повнопривідний електричний військовий мотоцикл, чий знімний генератор може заряджати FPV-дрони та живити цілий агрегат у польових умовах."
     },
     {
@@ -464,22 +528,6 @@
       ],
       "titleUk": "«На іншу посаду я не погоджуся»: звільнений міністр оборони України каже, що лише повернення на колишню роботу допоможе покінчити з корупцією у закупівлях армії",
       "summaryUk": "Михайло Федоров каже, що не прийме жодної посади, запропонованої Зеленським, окрім міністра оборони, стверджуючи, що лише три ролі справді формують війну, і він займе лише свою стару."
-    },
-    {
-      "id": "x-pravda-184717d3749a",
-      "title": "Зеленський: ЄС врахував українські пропозиції в новому пакеті санкцій проти РФ",
-      "url": "https://www.pravda.com.ua/news/2026/07/23/8045592/",
-      "summary": "",
-      "publishedAt": "2026-07-23T16:24:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: ЄС врахував українські пропозиції в новому пакеті санкцій проти РФ",
-      "summaryUk": ""
     },
     {
       "id": "x-armyinform-e0208a1f405d",
@@ -623,7 +671,7 @@
         "UKRAINE"
       ],
       "titleUk": "Під час будівництва Росією єдиного в Криму об’єкта всесвітньої спадщини було відкрито 500 000 артефактів. ЮНЕСКО щойно оголосило комплекс у небезпеці",
-      "summaryUk": "ЮНЕСКО внесло Херсонес Таврійський в окупованому Криму до списку всесвітньої спадщини, що перебуває під загрозою."
+      "summaryUk": "ЮНЕСКО внесло Херсонес Таврійський в окупованому Криму до списку Всесвітньої спадщини, що перебуває під загрозою."
     },
     {
       "id": "x-euromaidan-3a3b618e7210",
@@ -751,7 +799,7 @@
         "UKRAINE"
       ],
       "titleUk": "Заступник головнокомандувача заявив, що новий український лазер уже може вбивати FPV",
-      "summaryUk": "Україна може ввести лазерну протиповітряну оборону за два-три місяці, вважає заступник головкома ЗСУ Андрій Лебеденко."
+      "summaryUk": "Україна може ввести лазерну протиповітряну оборону за два-три місяці, вважає заступник головкома Збройних сил Андрій Лебеденко."
     },
     {
       "id": "x-euromaidan-f4bfea8cce5c",
@@ -831,7 +879,7 @@
         "UKRAINE"
       ],
       "titleUk": "«Ми відповімо на їхню відповідь»: Україна випробовує РЕБ проти MESH-контролю Jet Shaheds",
-      "summaryUk": "Україна випробовує нову систему радіоелектронної боротьби проти каналів управління MESH-мережею реактивних літаків Shaheds, заявив радник президента Сергій Бескрестнов після доби на випробувальному полігоні."
+      "summaryUk": "Україна випробовує нові засоби радіоелектронної боротьби проти каналів управління MESH-мережею реактивних літаків Shaheds, заявив радник президента Сергій Бескрестнов після доби на випробувальному полігоні."
     },
     {
       "id": "x-euromaidan-1801783f64c7",
@@ -863,7 +911,7 @@
         "UKRAINE"
       ],
       "titleUk": "Кримські політичні в’язні втратили рятувальний круг, тому що, якби він був відкритим, у в’язниці потрапило б більше людей",
-      "summaryUk": "Рух «Кримська солідарність» підтримував родини затриманих на окупованому півострові, організовував юридичний захист і поширював інформацію, яка виходила з рамок офіційного російського наративу."
+      "summaryUk": "Рух «Кримська солідарність» підтримував сім’ї затриманих на окупованому півострові, організовував юридичний захист і поширював інформацію, яка виходила з рамок офіційного російського наративу."
     },
     {
       "id": "x-euromaidan-910e265bafe3",
@@ -880,54 +928,6 @@
       ],
       "titleUk": "Від «літаючої БМП» до головнокомандувача: нова армія України зупинила Росію під Кривим Розом і втримала Вовчанськ",
       "summaryUk": "Михайло Драпатий, який свого часу протаранив БМП барикаду бойовиків у Маріуполі, а потім пішов у відставку через удари по навчальних центрах, прийняв командування ЗСУ."
-    },
-    {
-      "id": "x-euromaidan-f44a8646555d",
-      "title": "Russia&#8217;s answer to Amazon has a new problem, and it is not delivery times—two more warehouses ablaze",
-      "url": "https://euromaidanpress.com/2026/07/22/russias-answer-to-amazon-has-a-new-problem-and-it-is-not-delivery-times-two-more-warehouses-ablaze/",
-      "summary": "Fires broke out at the company's Krasnodar and Nevinnomyssk hubs overnight, days after two more of its warehouses burned near Moscow.",
-      "publishedAt": "2026-07-22T08:29:03.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російська відповідь Amazon має нову проблему, і це не терміни доставки — горять ще два склади",
-      "summaryUk": "Пожежі спалахнули в центрах компанії в Краснодарі та Невинномиську вночі, через кілька днів після того, як під Москвою згоріли ще два її склади."
-    },
-    {
-      "id": "x-euromaidan-f44a33ee849a",
-      "title": "Bomb-maker working for Russia&#8217;s military intelligence in Zaporizhzhia loses his freedom for 15 years",
-      "url": "https://euromaidanpress.com/2026/07/22/bomb-maker-working-for-russias-military-intelligence-in-zaporizhzhia-loses-his-freedom-for-15-years/",
-      "summary": "The court convicted him of high treason committed under martial law, the article of Ukraine's Criminal Code reserved for wartime collaboration with the enemy.",
-      "publishedAt": "2026-07-22T07:57:35.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "На 15 років втратили свободу вибухівника, який працював на російську військову розвідку в Запоріжжі",
-      "summaryUk": "Суд засудив його за державну зраду, вчинену в умовах воєнного стану, за статтею Кримінального кодексу України за співробітництво з ворогом у воєнний час."
-    },
-    {
-      "id": "x-euromaidan-c3c533b0827a",
-      "title": "Former Ukraine&#8217;s commander has words for Ukraine&#8217;s new army chief: It will be &#8220;much harder than he imagines&#8221;",
-      "url": "https://euromaidanpress.com/2026/07/22/former-ukraines-commander-has-words-for-ukraines-new-army-chief-it-will-be-much-harder-than-he-imagines/",
-      "summary": "But, he continued, \"Mykhailo will certainly never be ashamed.\"",
-      "publishedAt": "2026-07-22T07:56:11.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Екс-командувач ЗСУ висловився на адресу нового головнокомандувача ЗСУ: це буде «набагато важче, ніж він собі уявляє»",
-      "summaryUk": "Але, продовжив він, «Михайлу точно ніколи не буде соромно»."
     },
     {
       "id": "x-militarnyi-7a4d66379f39",
