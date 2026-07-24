@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:19:41.275Z",
+  "generatedAt": "2026-07-24T23:14:56.378Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-5672169294a0",
+      "title": "Ukraine&#8217;s 1970s Sea King helicopters just turned up armed with drone-killing drones",
+      "url": "https://euromaidanpress.com/2026/07/25/sea-king-drone-hunter/",
+      "summary": "Ukraine's tiny interceptor drones need a little help getting into the air. An old naval helicopter is just the thing.",
+      "publishedAt": "2026-07-24T22:22:38.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українські вертольоти Sea King 1970-х років щойно озброєні безпілотними літальними апаратами.",
+      "summaryUk": "Крихітним безпілотникам-перехоплювачам України потрібна невелика допомога піднятися в повітря. Старий військово-морський гелікоптер якраз те."
+    },
+    {
+      "id": "x-pravda-e0be20a6ba11",
+      "title": "Армія РФ вдарила по Запоріжжю: є постраждалі, пошкоджений торговий центр",
+      "url": "https://www.pravda.com.ua/news/2026/07/25/8045814/",
+      "summary": "Внаслідок російської дронової атаки на Запоріжжя пошкоджено торговий центр, є постраждалі та виникла пожежа.",
+      "publishedAt": "2026-07-24T21:32:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Армія РФ вдарила по Запоріжжю: є постраждалі, пошкоджений торговий центр",
+      "summaryUk": "Внаслідок російської дронової атаки на Запоріжжя пошкоджено торговий центр, є постраждалі та виникла пожежа."
+    },
+    {
+      "id": "x-euromaidan-986986bc929f",
+      "title": "Russo-Ukrainian war, day 1612: Russia kills 10 in rare daytime ballistic strike on Kyiv defense industry event",
+      "url": "https://euromaidanpress.com/2026/07/25/russo-ukrainian-war-day-1612/",
+      "summary": "Russia struck a defense industry event in Kyiv Oblast in daylight, killing at least 10 and injuring around 100 as fears grow of a larger attack to come.",
+      "publishedAt": "2026-07-24T21:24:31.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1612: Росія вбила 10 людей під час рідкісного денного балістичного удару по оборонно-промисловому заходу в Києві",
+      "summaryUk": "Росія влаштувала захід оборонної промисловості в Київській області вдень, убивши щонайменше 10 і поранивши близько 100, оскільки зростають побоювання щодо масштабнішої атаки."
+    },
+    {
+      "id": "x-pravda-1e44c7062c20",
+      "title": "На Київщині 25 липня оголосили Днем жалоби після російської атаки",
+      "url": "https://www.pravda.com.ua/news/2026/07/25/8045813/",
+      "summary": "На Київщині 25 липня оголосили День жалоби за загиблими від ракетної атаки Росії.",
+      "publishedAt": "2026-07-24T21:19:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Київщині 25 липня оголосили Днем жалоби після російської атаки",
+      "summaryUk": "На Київщині 25 липня оголосили День жалоби за загиблими від ракетної атаки Росії."
+    },
     {
       "id": "x-pravda-4a23410842e0",
       "title": "Латвія викликала російського дипломата через удар по почесному консульству у Слов'янську",
@@ -514,54 +578,6 @@
       "summaryUk": "Про це повідомили в Генеральному штабі ЗСУ. Т.в.о. міністра оборони України Євгеній Хмара представив керівному складу Генерального штабу нового Головнокомандувача ЗСУ генерал-майора Михайла..."
     },
     {
-      "id": "x-pravda-5e554895adf6",
-      "title": "Зеленський вважає, що Трамп зрозумів, хто не хоче зупиняти війну",
-      "url": "https://www.pravda.com.ua/news/2026/07/24/8045778/",
-      "summary": "Президент Володимир Зеленський вважає, що його американський колега Дональд Трамп розуміє: саме Росія не зацікавлена у припиненні війни.",
-      "publishedAt": "2026-07-24T16:01:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський вважає, що Трамп зрозумів, хто не хоче зупиняти війну",
-      "summaryUk": "Президент Володимир Зеленський вважає, що його американський колега Дональд Трамп розуміє: саме Росія не зацікавлена у припиненні війни."
-    },
-    {
-      "id": "x-pravda-e9cb252bfcf3",
-      "title": "Призначення Драпатого, повернення Федорова і полювання на Wildberries – про війну за тиждень",
-      "url": "https://www.pravda.com.ua/news/2026/07/24/8045684/",
-      "summary": "",
-      "publishedAt": "2026-07-24T15:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Призначення Драпатого, повернення Федорова і полювання на Wildberries – про війну за тиждень",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-f73af42a2625",
-      "title": "Хто це зробив? Як українці вдруге за рік вийшли на протести",
-      "url": "https://www.pravda.com.ua/news/2026/07/24/8045771/",
-      "summary": "",
-      "publishedAt": "2026-07-24T15:33:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Хто це зробив? Як українці вдруге за рік вийшли на протести",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-61db489808c4",
       "title": "From escorting to firing: Romania changes how it meets Russia&#8217;s wandering drones",
       "url": "https://euromaidanpress.com/2026/07/24/from-escorting-to-firing-romania-changes-how-it-meets-russias-wandering-drones/",
@@ -928,38 +944,6 @@
       ],
       "titleUk": "Захищено: Х-101 у війні проти України: розвиток, модернізації та нові можливості",
       "summaryUk": "Уривка немає, тому що запис захищений."
-    },
-    {
-      "id": "x-euromaidan-23105f40ae66",
-      "title": "France hasn&#8217;t finalized terms or funding for the 16 Rafale jets promised to Kyiv",
-      "url": "https://euromaidanpress.com/2026/07/23/france-hasnt-finalized-terms-or-funding-for-the-16-rafale-jets-promised-to-kyiv/",
-      "summary": "What a Paris summit unveiled two weeks ago remains, in the manufacturer's own words, a stated intention rather than a purchase contract.",
-      "publishedAt": "2026-07-23T08:29:45.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Франція не визначила умови або фінансування обіцяних Києву 16 літаків Rafale",
-      "summaryUk": "Те, що було оприлюднено два тижні тому на саміті в Парижі, залишається, за словами власного виробника, заявленим наміром, а не контрактом на купівлю."
-    },
-    {
-      "id": "x-euromaidan-06a8dd999441",
-      "title": "ISW: Russia has taken just 81 km² of Ukraine this year—while claiming 2,226",
-      "url": "https://euromaidanpress.com/2026/07/23/isw-russia-has-taken-just-81-km%c2%b2-of-ukraine-this-year-while-claiming-2226/",
-      "summary": "The false picture is not just propaganda for the public but material that appears to reach the desk of Russia's leader, the think tank says.",
-      "publishedAt": "2026-07-23T08:20:05.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ISW: Цього року Росія захопила лише 81 км² території України, а претендує на 2226",
-      "summaryUk": "Неправдива картина — це не просто пропаганда для громадськості, а матеріал, який, здається, потрапляє на робочий стіл російського лідера, кажуть у мозковому центрі."
     }
   ]
 }
