@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T14:00:11.228Z",
+  "generatedAt": "2026-07-25T15:17:50.249Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,10 +98,42 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-a7cc0edbed59",
+      "title": "Alleged Russian agent arrested in Dnipro, accused of activating 1,000+ Starlink communications terminals to support Russian forces",
+      "url": "https://euromaidanpress.com/2026/07/25/ukraine-arrests-alleged-russian-agent-in-dnipro-accused-of-activating-1000-starlink-terminals/",
+      "summary": "The SBU says a suspect recruited by Russian intelligence used fake identities to activate more than 1,000 Starlink satellite terminals before authorities blocked the network.",
+      "publishedAt": "2026-07-25T15:15:55.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Дніпрі затримали ймовірного російського агента, якого звинувачують в активації понад 1000 терміналів зв’язку Starlink для підтримки російських військ",
+      "summaryUk": "СБУ каже, що підозрюваний, завербований російською розвідкою, використовував підроблені дані для активації понад 1000 супутникових терміналів Starlink до того, як влада заблокувала мережу."
+    },
+    {
+      "id": "x-euromaidan-bbaf71b83c56",
+      "title": "Ukraine detains organizer of defense industry event struck by Russian missile that killed 10, charged with negligence",
+      "url": "https://euromaidanpress.com/2026/07/25/ukraine-detains-organizer-of-defense-industry-event-struck-by-russian-missile/",
+      "summary": "Investigators are examining whether security failures contributed to the scale of the tragedy on 24 July, while emphasizing that Russia bears responsibility for the attack.",
+      "publishedAt": "2026-07-25T14:23:37.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "В Україні затримали організатора оборонно-промислового заходу, ураженого російською ракетою, внаслідок якої загинули 10 осіб, звинувачують у службовій недбалості",
+      "summaryUk": "Слідчі перевіряють, чи збої в безпеці сприяли масштабу трагедії 24 липня, наголошуючи при цьому, що відповідальність за атаку несе Росія."
+    },
+    {
       "id": "x-pravda-d0ddff3ce85f",
-      "title": "СБУ затримала чоловіка, який активував для росіян понад 1000 систем Starlink",
+      "title": "СБУ затримала агента, який активував для росіян понад 1000 систем Starlink",
       "url": "https://www.pravda.com.ua/news/2026/07/25/8045888/",
-      "summary": "У Дніпрі Служба безпеки затримала російського агента, який на замовлення ворога активував понад 1000 систем супутникового зв'язку Starlink.",
+      "summary": "СБУ затримала російського агента у Дніпрі за незаконну верифікацію 1000 Starlink. Йому загрожує до 12 років в'язниці.",
       "publishedAt": "2026-07-25T13:54:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -110,8 +142,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "СБУ затримала чоловіка, який активував для росіян понад 1000 систем Starlink",
-      "summaryUk": "У Дніпрі Служба безпеки затримала російського агента, який на замовлення ворога активував понад 1000 систем супутникового зв'язку Starlink."
+      "titleUk": "СБУ затримала агента, який активував для росіян понад 1000 систем Starlink",
+      "summaryUk": "СБУ затримала російського агента у Дніпрі за незаконну верифікацію 1000 Starlink. Йому загрожує до 12 років в'язниці."
     },
     {
       "id": "x-armyinform-a07faf5545ae",
@@ -530,22 +562,6 @@
       "summaryUk": "Міністр оборони Італії Гвідо Крозетто розповів, що запропонував Михайлу Федорову, якого нещодавно звільнили з глави Міноборони України, посаду радника."
     },
     {
-      "id": "x-pravda-627338b429d6",
-      "title": "Російський удар по виставці озброєння на Київщині: організатору заходу оголосили підозру",
-      "url": "https://www.pravda.com.ua/news/2026/07/25/8045854/",
-      "summary": "Організатора виставки озброєння на Київщині, де внаслідок російського удару 24 липня загинули 10 людей та ще близько 100 дістали поранення, затримали та оголосили йому про підозру.",
-      "publishedAt": "2026-07-25T09:16:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російський удар по виставці озброєння на Київщині: організатору заходу оголосили підозру",
-      "summaryUk": "Організатора виставки озброєння на Київщині, де внаслідок російського удару 24 липня загинули 10 людей та ще близько 100 дістали поранення, затримали та оголосили йому про підозру."
-    },
-    {
       "id": "x-euromaidan-5672169294a0",
       "title": "A Cold War submarine hunter is Ukraine&#8217;s newest Shahed killer",
       "url": "https://euromaidanpress.com/2026/07/25/sea-king-drone-hunter/",
@@ -912,38 +928,6 @@
       ],
       "titleUk": "Дві компанії, які фактично будують Патріоти, описують українське виробництво як «тільки розпочате», а Росія щоночі запускає балістичні ракети",
       "summaryUk": "Через два тижні після того, як Трамп пообіцяв Україні отримати ліцензію на Patriot, Lockheed Martin і RTX кажуть, що перебувають лише на початку переговорів і чекають вказівок уряду США."
-    },
-    {
-      "id": "x-euromaidan-f43e23f450f6",
-      "title": "Ukraine’s defense minister explained how the country buys weapons—after he was sacked",
-      "url": "https://euromaidanpress.com/2026/07/23/ukraine-arms-procurement-secrecy-fedorov/",
-      "summary": "A sacked minister spent 90 minutes explaining how Ukraine buys shells. He told more than the ministry had published in six months.",
-      "publishedAt": "2026-07-23T13:15:33.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Міністр оборони України пояснив, як країна закуповує зброю – після його звільнення",
-      "summaryUk": "Звільнений міністр 90 хвилин пояснював, як Україна купує снаряди. Він розповів більше, ніж оприлюднило міністерство за півроку."
-    },
-    {
-      "id": "x-euromaidan-c6d3455d66ef",
-      "title": "Russia&#8217;s Su-57 newest stealth fighter crashes near Moscow—and the suspects are Russian air defenders",
-      "url": "https://euromaidanpress.com/2026/07/23/russias-su-57-newest-stealth-fighter-crashes-near-moscow-and-the-suspects-are-russian-air-defenders/",
-      "summary": "A Russian military lblogger pointed at a mobile air-defense group guarding the capital, though no official confirmed the cause.",
-      "publishedAt": "2026-07-23T13:11:31.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Під Москвою розбився новітній російський винищувач-невидимка Су-57, підозрювані — російські військовослужбовці ППО",
-      "summaryUk": "Російський військовий блогер вказав на мобільну групу протиповітряної оборони, яка охороняє столицю, але жоден офіційний представник не підтвердив причину."
     },
     {
       "id": "x-militarnyi-87d20e9016a9",
