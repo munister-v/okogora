@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T19:54:58.681Z",
+  "generatedAt": "2026-07-28T22:18:43.865Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 48,
     "mentionItems": 2,
-    "significantItems": 36,
-    "strikeItems": 25,
+    "significantItems": 33,
+    "strikeItems": 22,
     "reorgItems": 13
   },
   "brigades": [
@@ -33,11 +33,28 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 1,
-      "significantItems": 16,
-      "strikeItems": 16,
+      "significantItems": 13,
+      "strikeItems": 13,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
+        {
+          "id": "telegram-kpszsu-ab72e0c06c9a55",
+          "title": "🛵 Ударні БпЛА у напрямку Миколаївщини з Чорного моря північним курсом; 🛵 БпЛА у напрямку Харкова з півночі.",
+          "summary": "🛵 Ударні БпЛА у напрямку Миколаївщини з Чорного моря північним курсом; 🛵 БпЛА у напрямку Харкова з півночі.",
+          "url": "https://t.me/kpszsu/70536",
+          "publishedAt": "2026-07-28T21:13:52.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 4,
+          "strikeScore": 2,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "🛵 Ударні БпЛА у напрямку Миколаївщини з Чорного моря північним курсом; 🛵 БпЛА у напрямку Харкова з півночі.",
+          "summaryUk": "🛵 Ударні БпЛА у напрямку Миколаївщини з Чорного моря північним курсом; 🛵 БпЛА у напрямку Харкова з півночі."
+        },
         {
           "id": "telegram-kpszsu-39b19474ed29de",
           "title": "⚠ Увага! 🛫 Активність ворожої тактичної авіації на південно-східному напрямку! 🚀 🚀 Загроза застосування авіаційних засобів ураження для прифронтових облас…",
@@ -156,23 +173,6 @@
           "isReorg": false,
           "titleUk": "🛵 БпЛА в напрямку Харкова з півночі.",
           "summaryUk": "🛵 БпЛА в напрямку Харкова з півночі."
-        },
-        {
-          "id": "telegram-kpszsu-78fad0e00ad698",
-          "title": "🛵 БпЛА в напрямку Запоріжжя з півдня. 🛵 БпЛА на сході Дніпропетровщини, курс на захід.",
-          "summary": "🛵 БпЛА в напрямку Запоріжжя з півдня. 🛵 БпЛА на сході Дніпропетровщини, курс на захід.",
-          "url": "https://t.me/kpszsu/70521",
-          "publishedAt": "2026-07-28T15:50:28.000Z",
-          "source": "telegram",
-          "sourceLabel": "kpszsu",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "🛵 БпЛА в напрямку Запоріжжя з півдня. 🛵 БпЛА на сході Дніпропетровщини, курс на захід.",
-          "summaryUk": "🛵 БпЛА в напрямку Запоріжжя з півдня. 🛵 БпЛА на сході Дніпропетровщини, курс на захід."
         }
       ]
     },
