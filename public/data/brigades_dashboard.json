@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T09:12:42.088Z",
+  "generatedAt": "2026-07-29T11:35:21.277Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -7,11 +7,11 @@
     "autoDiscoveredUnits": 0,
     "brigades": 5,
     "brigadesWithOfficialFeeds": 5,
-    "officialItems": 51,
-    "mentionItems": 4,
-    "significantItems": 37,
-    "strikeItems": 25,
-    "reorgItems": 15
+    "officialItems": 50,
+    "mentionItems": 2,
+    "significantItems": 33,
+    "strikeItems": 21,
+    "reorgItems": 14
   },
   "brigades": [
     {
@@ -32,28 +32,28 @@
       ],
       "autoDiscovered": false,
       "officialItems": 20,
-      "mentionItems": 3,
-      "significantItems": 15,
-      "strikeItems": 15,
+      "mentionItems": 0,
+      "significantItems": 11,
+      "strikeItems": 11,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
         {
-          "id": "pool-8cffcecc4a94a4",
-          "title": "Росія атакувала Україну 80 дронами: Повітряні сили повідомили результати відбиття атаки",
-          "summary": "В ніч на 29 липня Росія атакувала 80 ударними безпілотниками: протиповітряна оборона усунула 65 із них, водночас є влучання 10 дронів і падіння уламків.",
-          "url": "https://www.pravda.com.ua/news/2026/07/29/8046345/",
-          "publishedAt": "2026-07-29T05:20:00.000Z",
-          "source": "x",
-          "sourceLabel": "pravda",
-          "origin": "mention",
-          "score": 5,
-          "strikeScore": 3,
+          "id": "telegram-kpszsu-5e3367a9e4675a",
+          "title": "🛵 БпЛА на Кривий Ріг.",
+          "summary": "🛵 БпЛА на Кривий Ріг.",
+          "url": "https://t.me/kpszsu/70609",
+          "publishedAt": "2026-07-29T09:50:27.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "Росія атакувала Україну 80 дронами: Повітряні сили повідомили результати відбиття атаки",
-          "summaryUk": "В ніч на 29 липня Росія атакувала 80 ударними безпілотниками: протиповітряна оборона усунула 65 із них, водночас є влучання 10 дронів і падіння уламків."
+          "titleUk": "🛵 БпЛА на Кривий Ріг.",
+          "summaryUk": "🛵 БпЛА на Кривий Ріг."
         },
         {
           "id": "telegram-kpszsu-8b00ce5cbb56be",
@@ -194,30 +194,13 @@
         }
       ],
       "autoDiscovered": false,
-      "officialItems": 12,
+      "officialItems": 11,
       "mentionItems": 0,
-      "significantItems": 12,
-      "strikeItems": 3,
-      "reorgItems": 11,
+      "significantItems": 11,
+      "strikeItems": 2,
+      "reorgItems": 10,
       "hasOfficialFeed": true,
       "items": [
-        {
-          "id": "telegram-ab3army-77d104869eda9e",
-          "title": "«Гуд морнінг, В'єтнам»: день пілота FPV Трійки на GoPro! Виїзд на світанку, розмови про літо між ураженнями ворожих позицій та «Сімпсони» під час обіду — у в…",
-          "summary": "«Гуд морнінг, В'єтнам»: день пілота FPV Трійки на GoPro! Виїзд на світанку, розмови про літо між ураженнями ворожих позицій та «Сімпсони» під час обіду — у відео роботи оператора БпЛА Роти безпілотних систем 1-го штурмбату Третьої штурмової . Найкраща робота в світі — долучайся на ab3.army ! Третій армійський корпус | Instagram | Facebook | YouTube | Threads | ab3.army | TikTok | Підтримати 🇺🇦",
-          "url": "https://t.me/ab3army/7290",
-          "publishedAt": "2026-07-24T10:09:44.000Z",
-          "source": "telegram",
-          "sourceLabel": "ab3army",
-          "origin": "official",
-          "score": 8,
-          "strikeScore": 2,
-          "reorgScore": 1,
-          "isStrike": true,
-          "isReorg": true,
-          "titleUk": "«Гуд морнінг, В'єтнам»: день пілота FPV Трійки на GoPro! Виїзд на світанку, розмови про літо між ураженнями ворожих позицій та «Сімпсони» під час обіду — у в…",
-          "summaryUk": "«Гуд морнінг, В'єтнам»: день пілота FPV Трійки на GoPro! Виїзд на світанку, розмови про літо між ураженнями ворожих позицій та «Сімпсони» під час обіду — у відео роботи оператора БпЛА Роти безпілотних систем 1-го штурмбату Третьої штурмової . Найкраща робота в світі — долучайся на ab3.army ! Третій армійський корпус | Instagram | Facebook | YouTube | Threads | ab3.army | TikTok | Підтримати 🇺🇦"
-        },
         {
           "id": "telegram-ab3army-af56f648e4a75c",
           "title": "Мінус 800+ окупантів, арта та системи РЕБ: результати тижня на рубежах Трійки ! Протягом минулого тижня підрозділи Третього армійського корпусу методично роз…",
@@ -336,6 +319,23 @@
           "isReorg": true,
           "titleUk": "«В першу чергу ти відповідаєш за їхні життя» Адже в Третьому корпусі сержант — взірець для особового складу. І цей принцип щоденно підтверджує друг Кампа, го…",
           "summaryUk": "«В першу чергу ти відповідаєш за їхні життя» Адже в Третьому корпусі сержант — взірець для особового складу. І цей принцип щоденно підтверджує друг Кампа, головний сержант роти 1-го мехбату 53-ї ОМБр . Як сформувати міцний кістяк підрозділу, підготувати новобранців до бою та здолати власний страх — дізнавайся у новому відео. Найкращі побратими та команда мрії — у Трійці . Долучайся на ab3.army ! Третій армійський корпус Facebook | Instagram | YouTube | X | TikTok | Discord"
+        },
+        {
+          "id": "telegram-ab3army-4a5c982f908f97",
+          "title": "Абонент знову в мережі? Бо звʼязківці Трійки проклали оптоволокно! Показуємо, як бійці 122-го окремого батальйону зв’язку забезпечують стабільний і якісний з…",
+          "summary": "Абонент знову в мережі? Бо звʼязківці Трійки проклали оптоволокно! Показуємо, як бійці 122-го окремого батальйону зв’язку забезпечують стабільний і якісний зв’язок на передовій — навіть там, де його не було. Працюй із сучасними засобами — доєднуйся на ab3.army! Третій армійський корпус | Instagram | Facebook | YouTube | Threads | ab3.army | TikTok | Підтримати 🇺🇦",
+          "url": "https://t.me/ab3army/7300",
+          "publishedAt": "2026-07-28T09:02:13.000Z",
+          "source": "telegram",
+          "sourceLabel": "ab3army",
+          "origin": "official",
+          "score": 2,
+          "strikeScore": 0,
+          "reorgScore": 1,
+          "isStrike": false,
+          "isReorg": true,
+          "titleUk": "Абонент знову в мережі? Бо звʼязківці Трійки проклали оптоволокно! Показуємо, як бійці 122-го окремого батальйону зв’язку забезпечують стабільний і якісний з…",
+          "summaryUk": "Абонент знову в мережі? Бо звʼязківці Трійки проклали оптоволокно! Показуємо, як бійці 122-го окремого батальйону зв’язку забезпечують стабільний і якісний зв’язок на передовій — навіть там, де його не було. Працюй із сучасними засобами — доєднуйся на ab3.army! Третій армійський корпус | Instagram | Facebook | YouTube | Threads | ab3.army | TikTok | Підтримати 🇺🇦"
         }
       ]
     },
@@ -357,9 +357,9 @@
       ],
       "autoDiscovered": false,
       "officialItems": 8,
-      "mentionItems": 0,
-      "significantItems": 3,
-      "strikeItems": 3,
+      "mentionItems": 1,
+      "significantItems": 4,
+      "strikeItems": 4,
       "reorgItems": 1,
       "hasOfficialFeed": true,
       "items": [
@@ -396,6 +396,23 @@
           "isReorg": false,
           "titleUk": "28 липня – День вшанування пам’яті Захисників та Захисниць України, учасників добровольчих формувань та цивільних осіб, які були страчені, закатовані або заг…",
           "summaryUk": "28 липня – День вшанування пам’яті Захисників та Захисниць України, учасників добровольчих формувань та цивільних осіб, які були страчені, закатовані або загинули у полоні. / July 28 – Day of Remembrance of the Defenders of Ukraine, Members of Volunteer Formations, and Civilians Who Were Executed, Tortured, or Perished in Captivity. Збройні Сили України вшановують пам’ять українських військовослужбовців, учасників добровольчих формувань та цивільних осіб, які були страчені, закатовані або загинули у полоні внаслідок збройної агресії російської федерації проти України, в боротьбі за незалежність, державний суверенітет і територіальну цілісність України, стали жертвами жорстокого насильства під час російської окупації. Увічнення їхнього героїзму, громадянської відваги, стійкості, самовідданості та сили духу є нашим щоденним і вічним обов’язком. Ця дата закарбована в пам’яті та серцях всієї України на честь тих Захисників та Захисниць України, які обороняли місто Маріуполь та за наказом вищого військового керівництва України вийшли із заводу “Азовсталь” у період з 16 по 20 травня 2022 року, але всупереч домовленостям та гарантіям щодо збереження життя та здоров’я внаслідок теракту на території колишньої Волноваської виправної колонії № 120 у селищі Оленівка Донецької області у ніч з 28 на 29 липня 2022 року були страчені російськими окупаційними військами. Систематичні злочини проти українських полонених стали складовою воєнної практики держави-агресора. Катування електричним струмом, розстріли, сексуальне насильство, голод, відмова в медичній допомозі та у зв’язку з рідними, використання людей як живого щита та інструмента пропаганди – це не окремі ексцеси, а свідома та керована політика. Такими діями російська федерація грубо порушує Женевські конвенції, Конвенцію ООН проти катувань, Римський статут Міжнародного кримінального суду та самі підвалини людяності. Це – воєнні злочини та злочини проти людяності, які не мають терміну давності і про які Україна зобов’язана говорити світові доти, доки кожен винний не постане перед правосуддям. Методи, якими сьогодні діє російська федерація, є прямим спадком московської деспотії, що завжди будувала владу на страху та знищенні непокірних. Опричнина Івана Грозного, каральні експедиції російської імперії проти українського козацтва, Соловки, Сандармох і Биківня доби срср, планомірне винищення цивільних під час Голодомору та депортацій – усе це ланки одного ланцюга. Тортури, страти без суду та наругу над беззахисними москва завжди підносила як норму державного управління. Спадкоємність цих методів – це задокументований історичний факт, який Україна засвідчує власною кров’ю. Збройні Сили України висловлюють глибоку вдячність громадськості, волонтерам, правозахисникам, українським та міжнародним журналістам і всім, хто не дає світові забути про долю наших полонених, хто розшукує зниклих, підтримує родини та тримає зв’язок із тими, хто чекає. Ми пам’ятаємо всіх страчених, закатованих і знищених у полоні. Ми схиляємо голови перед їхньою мужністю, громадянською відвагою та незламністю духу. Ми віримо в повернення кожного нашого воїна. І в силу кожної родини, яка чекає. Вічна шана Героям, які віддали життя за незалежну, соборну та демократичну Україну. Ми пам’ятаємо. І не пробачимо. Слава Україні! #RusiaIsATerroristState #WarCrimes Використано ілюстрацію / Illustration by Yevhen Moroz"
+        },
+        {
+          "id": "pool-2fedd430c6ff08",
+          "title": "Генштаб: Сили оборони уразили Рязанський НПЗ і місце базування катерів ЧФ РФ",
+          "summary": "Генеральний штаб ЗСУ підтвердив, що в ніч на 29 липня підрозділи Сил оборони України завдали ураження Рязанському нафтопереробному заводу.",
+          "url": "https://www.pravda.com.ua/news/2026/07/29/8046364/",
+          "publishedAt": "2026-07-29T07:47:00.000Z",
+          "source": "x",
+          "sourceLabel": "pravda",
+          "origin": "mention",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "Генштаб: Сили оборони уразили Рязанський НПЗ і місце базування катерів ЧФ РФ",
+          "summaryUk": "Генеральний штаб ЗСУ підтвердив, що в ніч на 29 липня підрозділи Сил оборони України завдали ураження Рязанському нафтопереробному заводу."
         },
         {
           "id": "telegram-generalstaff_ua-1e001a76408e9e",
@@ -481,23 +498,6 @@
           "isReorg": false,
           "titleUk": "NATO 🇺🇦 \"99 відсотків усієї оборонної підтримки, що надходить Україні, забезпечують держави-члени НАТО. Я думаю, це багато говорить про міцність відносин м…",
           "summaryUk": "NATO 🇺🇦 \"99 відсотків усієї оборонної підтримки, що надходить Україні, забезпечують держави-члени НАТО. Я думаю, це багато говорить про міцність відносин між Україною та НАТО.\" - наголосив Директор управління оборонного і безпекового співробітництва НАТО Пірс Казалет. (ENG below) Підтримка України з боку НАТО та держав-членів Альянсу охоплює широкий спектр напрямів. Такі ініціативи, як Перелік пріоритетних потреб України (PURL), допомагають визначити найнагальніші та узгодити їх із підтримкою від держав-членів НАТО та партнерів. Без спроможностей, які забезпечує PURL, Україна не змогла б захищатися так, як вона це робить сьогодні. Масштаби руйнувань були б значно більшими, як і кількість жертв серед цивільного населення», - зазначив Директор управління оборонного і безпекового співробітництва НАТО Пірс Казалет. Непохитна підтримка України залишається одним із головних пріоритетів Альянсу. Держави-члени НАТО зобов'язалися надати 70 мільярдів євро військової допомоги Україні цього року та щонайменше таку ж суму наступного року. 🇺🇦 ЗСУ вдячні за підтримку та допомогу #НАТО / AFU are grateful for #NATO support and help \"Ninety-nine percent of all defence support reaching Ukraine is provided by NATO member states. I think that says a great deal about the strength of the relationship between Ukraine and NATO.\" - emphasised Pierce Cazalet, Director of NATO's Defence and Security Cooperation Directorate. The support Ukraine receives from NATO and Allied member states spans a wide range of areas. Initiatives such as the Prioritised Ukraine Requirement List (PURL) help identify the most urgent needs and match them with support from NATO member states and partners. Without the capabilities that PURL provides, Ukraine would not be able to defend itself the way it does today. The scale of destruction would be far greater, as would the number of civilian casualties,\" emphasised Pierce Cazalet, Director of NATO's Defence and Security Cooperation Directorate. Unwavering support for Ukraine remains a top priority for NATO, with Allies pledging €70 billion in military assistance this year and again next year. Відео та текст: © NATO in Ukraine #NATOUA #NATOinUkraine #WeAreNATO #CollectiveDefence #StrongerTogether #PURL #NSATU #JATEC #CURL"
-        },
-        {
-          "id": "telegram-generalstaff_ua-5d5180683b33b5",
-          "title": "У День медичного працівника вшановуємо тих, хто щодня веде боротьбу за найцінніше - людське життя. / On Medical Worker's Day, we honor those who fight every …",
-          "summary": "У День медичного працівника вшановуємо тих, хто щодня веде боротьбу за найцінніше - людське життя. / On Medical Worker's Day, we honor those who fight every day for what matters most - human life. (ENG below) Саме військові медики є невід'ємною складовою обороноздатності держави: їхній професіоналізм, швидкість ухвалення рішень і злагоджена робота безпосередньо впливають на збереження особового складу та стійкість Сил оборони. Передові хірургічні групи - це безперервний конвеєр порятунку життя. Тут кожен знає свою роль і своє завдання, а кожне вчасно прийняте рішення дає шанс воїну повернутися до строю. Поки триває війна - цей конвеєр не має права зупинятися. І саме завдяки відданості, майстерності та самопожертві військових медиків Україна зберігає своїх захисників. Сучасна військова медицина неможлива без висококваліфікованих фахівців та фахівчинь, передових методик і належного оснащення. Щиро дякуємо українським та міжнародним партнерам, волонтерам, які підтримують розвиток медичної спроможності Сил оборони України, забезпечують лікарів сучасним обладнанням, інструментами, медикаментами та допомагають рятувати життя українських воїнів. ENGLISH On Medical Worker's Day, we honor those who fight every day for what matters most - human life. Military medical personnel are an indispensable pillar of our nation's defense capability. Their professionalism, rapid decision-making, and seamless teamwork directly contribute to preserving personnel and sustaining the resilience of Ukraine's Defense Forces. Forward Surgical Teams are a continuous life-saving chain. Every member knows their role and mission, and every timely decision gives a wounded service member the chance to survive, recover, and return to duty. As long as the war continues, this life-saving chain cannot stop. It is through the dedication, expertise, and selfless commitment of military medical personnel that Ukraine continues to save the lives of its defenders. Modern military medicine would not be possible without highly skilled professionals, advanced medical practices, and proper equipment. We sincerely thank our international partners for strengthening the medical capabilities of Ukraine's Defense Forces by providing modern medical equipment, surgical instruments, essential medicines, and other critical support that helps save the lives of Ukrainian service members. Photo / Фото: Перший окремий медичний батальйон",
-          "url": "https://t.me/generalstaff_ua/17258",
-          "publishedAt": "2026-07-27T11:30:23.000Z",
-          "source": "telegram",
-          "sourceLabel": "generalstaff_ua",
-          "origin": "official",
-          "score": 0,
-          "strikeScore": 0,
-          "reorgScore": 0,
-          "isStrike": false,
-          "isReorg": false,
-          "titleUk": "У День медичного працівника вшановуємо тих, хто щодня веде боротьбу за найцінніше - людське життя. / On Medical Worker's Day, we honor those who fight every …",
-          "summaryUk": "У День медичного працівника вшановуємо тих, хто щодня веде боротьбу за найцінніше - людське життя. / On Medical Worker's Day, we honor those who fight every day for what matters most - human life. (ENG below) Саме військові медики є невід'ємною складовою обороноздатності держави: їхній професіоналізм, швидкість ухвалення рішень і злагоджена робота безпосередньо впливають на збереження особового складу та стійкість Сил оборони. Передові хірургічні групи - це безперервний конвеєр порятунку життя. Тут кожен знає свою роль і своє завдання, а кожне вчасно прийняте рішення дає шанс воїну повернутися до строю. Поки триває війна - цей конвеєр не має права зупинятися. І саме завдяки відданості, майстерності та самопожертві військових медиків Україна зберігає своїх захисників. Сучасна військова медицина неможлива без висококваліфікованих фахівців та фахівчинь, передових методик і належного оснащення. Щиро дякуємо українським та міжнародним партнерам, волонтерам, які підтримують розвиток медичної спроможності Сил оборони України, забезпечують лікарів сучасним обладнанням, інструментами, медикаментами та допомагають рятувати життя українських воїнів. ENGLISH On Medical Worker's Day, we honor those who fight every day for what matters most - human life. Military medical personnel are an indispensable pillar of our nation's defense capability. Their professionalism, rapid decision-making, and seamless teamwork directly contribute to preserving personnel and sustaining the resilience of Ukraine's Defense Forces. Forward Surgical Teams are a continuous life-saving chain. Every member knows their role and mission, and every timely decision gives a wounded service member the chance to survive, recover, and return to duty. As long as the war continues, this life-saving chain cannot stop. It is through the dedication, expertise, and selfless commitment of military medical personnel that Ukraine continues to save the lives of its defenders. Modern military medicine would not be possible without highly skilled professionals, advanced medical practices, and proper equipment. We sincerely thank our international partners for strengthening the medical capabilities of Ukraine's Defense Forces by providing modern medical equipment, surgical instruments, essential medicines, and other critical support that helps save the lives of Ukrainian service members. Photo / Фото: Перший окремий медичний батальйон"
         }
       ]
     },
