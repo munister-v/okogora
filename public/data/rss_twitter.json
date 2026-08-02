@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:32:12.010Z",
+  "generatedAt": "2026-08-02T21:09:05.661Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,22 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-cd4baa8d75e5",
+      "title": "Russo-Ukrainian war, day 1621: Overnight strikes hit Russian airbase and refinery as a Russian drone crosses into NATO territory",
+      "url": "https://euromaidanpress.com/2026/08/02/russo-ukrainian-war-day-1621/",
+      "summary": "Ukraine's deep-strike campaign continued into the early hours of 2 August, striking the Engels airbase, the Saratov oil refinery, and drone production facilities, even as a Russian drone drifted into Romanian airspace for around 20 minutes before being shot down over Ukraine.",
+      "publishedAt": "2026-08-02T20:53:20.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1621: нічні удари по російській авіабазі та нафтопереробному заводу, коли російський безпілотник перетинає територію НАТО",
+      "summaryUk": "Українська кампанія глибоких ударів тривала до ранку 2 серпня, завдаючи ударів по авіабазі Енгельс, Саратовському нафтопереробному заводу та об’єктам виробництва безпілотників, навіть коли російський безпілотник дрейфував у повітряному просторі Румунії приблизно на 20 хвилин, перш ніж його збили над Україною."
+    },
     {
       "id": "x-pravda-d24f0e44bd01",
       "title": "На фронті 172 бої за день, Покровський напрямок найактивніший – Генштаб",
@@ -352,22 +368,6 @@
       ],
       "titleUk": "Дрони СБС за місяць уразили 177 енергетичних цілей на ТОТ – Мадяр",
       "summaryUk": "За місяць Сили безпілотних систем ЗСУ уразили 177 енергетичних цілей на окупованих територіях."
-    },
-    {
-      "id": "x-pravda-aa85481eee00",
-      "title": "Росіяни вдарили по поштовому терміналу під Харковом: загинула людина",
-      "url": "https://www.pravda.com.ua/news/2026/08/02/8046917/",
-      "summary": "Унаслідок російського удару по передмістю Харкова загинула одна людина, на території поштового терміналу спалахнула пожежа.",
-      "publishedAt": "2026-08-02T12:54:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вдарили по поштовому терміналу під Харковом: загинула людина",
-      "summaryUk": "Унаслідок російського удару по передмістю Харкова загинула одна людина, на території поштового терміналу спалахнула пожежа."
     },
     {
       "id": "x-armyinform-552b93723b6a",
@@ -928,22 +928,6 @@
       ],
       "titleUk": "Україна готує «асиметричну» відповідь на ракетну кампанію Росії, – Зеленський",
       "summaryUk": "Зеленський каже, що Україна схвалила технологічні та асиметричні заходи протидії зростаючому використанню Росією балістичних ракет, водночас прагнучи отримати більше засобів ППО від європейських партнерів."
-    },
-    {
-      "id": "x-euromaidan-995449b18bcc",
-      "title": "Europe deepens trade with India while Western parts keep reaching Russia’s weapons",
-      "url": "https://euromaidanpress.com/2026/07/30/india-western-parts-russian-weapons/",
-      "summary": "Brussels is drafting its largest-ever corporate blacklist over the war—and expanding trade with the country those parts pass through.",
-      "publishedAt": "2026-07-30T14:31:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Європа поглиблює торгівлю з Індією, тоді як західні частини продовжують діставати зброю Росії",
-      "summaryUk": "Брюссель складає свій найбільший корпоративний чорний список через війну — і розширює торгівлю з країною, через яку проходять ці частини."
     }
   ]
 }
