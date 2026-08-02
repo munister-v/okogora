@@ -17,7 +17,7 @@ export default function MaintenancePage() {
       <div style={{ fontSize: '64px', lineHeight: 1, marginBottom: '20px' }} aria-hidden="true">
         😴
       </div>
-      <h1 style={{ fontSize: 'clamp(1.6rem, 5vw, 2.4rem)', fontWeight: 700, margin: '0 0 12px', letterSpacing: '-0.02em' }}>
+      <h1 style={{ fontSize: 'clamp(1.6rem, 5vw, 2.4rem)', fontWeight: 700, margin: '0 0 12px', letterSpacing: '0.01em', color: '#ffffff' }}>
         Око Гора моргнуло
       </h1>
       <p style={{ maxWidth: '460px', color: 'rgba(244,245,243,.72)', fontSize: '15px', lineHeight: 1.6, margin: '0 0 28px' }}>
