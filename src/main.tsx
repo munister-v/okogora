@@ -9,8 +9,8 @@ import TargetsPage from './pages/TargetsPage.tsx';
 import MaintenancePage from './pages/MaintenancePage.tsx';
 import './index.css';
 
-// Site-wide kill switch. Flip back to true to restore normal routing —
-// /admin stays reachable either way so the team can still manage content.
+// Site-wide kill switch. Flip back to true to restore normal routing,
+// including /admin.
 const SITE_ENABLED = false;
 
 if (typeof window !== 'undefined' && window.location.hash && !window.location.hash.startsWith('#/')) {
@@ -38,12 +38,12 @@ createRoot(document.getElementById('root')!).render(
             <Route path="/post/:id" element={<PostPage />} />
             <Route path="/investigation/:id" element={<InvestigationPage />} />
             <Route path="/targets" element={<TargetsPage />} />
+            <Route path="/admin" element={<AdminPage />} />
             <Route path="*" element={<App />} />
           </>
         ) : (
           <Route path="*" element={<MaintenancePage />} />
         )}
-        <Route path="/admin" element={<AdminPage />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
