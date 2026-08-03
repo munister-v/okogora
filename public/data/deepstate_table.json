@@ -1,14 +1,21 @@
 {
-  "generatedAt": "2026-08-03T20:01:49.109Z",
+  "generatedAt": "2026-08-03T21:32:51.691Z",
   "sourceUrl": "https://deepstat.xyz/table",
   "latest": {
-    "day": "1",
-    "occupiedKm2": 116975.579,
+    "day": "2",
+    "occupiedKm2": 116976.56,
     "occupiedPercent": 19.376,
-    "diffKm2": -4.4367290588561,
-    "text": "22:24:08 Ворог окупував Сухецьке , а також просунувся поблизу Никанорівки та Родинського ."
+    "diffKm2": -0.98044729899266,
+    "text": "21:36:47 Ворог просунувся поблизу Рясного ."
   },
   "rows": [
+    {
+      "day": "2",
+      "occupiedKm2": 116976.56,
+      "occupiedPercent": 19.376,
+      "diffKm2": -0.98044729899266,
+      "text": "21:36:47 Ворог просунувся поблизу Рясного ."
+    },
     {
       "day": "1",
       "occupiedKm2": 116975.579,
@@ -215,7 +222,7 @@
   ],
   "areas": [],
   "recentWindowDays": 7,
-  "netChangeKm2": -22.6466794889856,
+  "netChangeKm2": -21.01443960862516,
   "maxAbsDiffKm2": 4.7740171309706,
   "methodology": [
     "Парситься публічна таблиця deepstat.xyz/table.",
