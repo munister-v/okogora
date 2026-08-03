@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:03:51.870Z",
+  "generatedAt": "2026-08-03T19:55:49.729Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,118 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-4ee9f2dfdef5",
+      "title": "The Guardian: French theme-park company kept working with sanctioned Russian oligarch year after EU blacklisted him, documents show",
+      "url": "https://euromaidanpress.com/2026/08/03/puy-du-fou-malofeyev-theme-park/",
+      "summary": "New records show Puy du Fou continued working with its Russian oligarch partner after he was sanctioned in 2014, as it now pursues a £600 million UK expansion.",
+      "publishedAt": "2026-08-03T19:17:39.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "The Guardian: Французька компанія тематичних парків продовжувала працювати з російським олігархом, який потрапив під санкції, через рік після того, як ЄС вніс його в чорний список, свідчать документи",
+      "summaryUk": "Нові записи показують, що Puy du Fou продовжував працювати зі своїм російським олігархом-партнером після того, як у 2014 році на нього було накладено санкції, оскільки зараз він проводить експансію у Великій Британії на 600 мільйонів фунтів стерлінгів."
+    },
+    {
+      "id": "x-euromaidan-25f99aadfd07",
+      "title": "Ukraine wants its office inside EU Parliament, mirroring bloc&#8217;s representation already open in Kyiv",
+      "url": "https://euromaidanpress.com/2026/08/03/ukraine-wants-its-office-inside-eu-parliament-mirroring-blocs-representation-already-open-in-kyiv/",
+      "summary": "Parliamentary diplomacy amounts to one aim: keeping legislatures across Europe and the G7 mobilized behind Ukraine as the war and the accession process both grind on.",
+      "publishedAt": "2026-08-03T18:59:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна хоче мати свій офіс у парламенті ЄС, подібний до представництва блоку, яке вже відкрито в Києві",
+      "summaryUk": "Парламентська дипломатія має одну мету: утримувати законодавчі органи в Європі та G7 мобілізованими за Україною, поки триває війна та процес вступу."
+    },
+    {
+      "id": "x-armyinform-701549165c11",
+      "title": "Кабмін призначив Миколу Швидкого заступником Міністра оборони",
+      "url": "https://armyinform.com.ua/2026/08/03/kabmin-pryznachyv-mykolu-shvydkogo-zastupnykom-ministra-oborony/",
+      "summary": "Про це стало відомо увечері 3 серпня. Призначення прокоментував тимчасовий виконувач обов’язків Міністра оборони України Євгеній Хмара: «Сьогодні Уряд призначив...",
+      "publishedAt": "2026-08-03T18:47:15.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Кабмін призначив Миколу Швидкого заступником Міністра оборони",
+      "summaryUk": "Про це стало відомо увечері 3 серпня. Призначення прокоментував тимчасовий виконувач обов’язків Міністра оборони України Євгеній Хмара: «Сьогодні Уряд призначив..."
+    },
+    {
+      "id": "x-euromaidan-534bf7f726b5",
+      "title": "Belarus is forming its fourth airborne brigade 40 km from Ukraine, with a permanent base set for 2027",
+      "url": "https://euromaidanpress.com/2026/08/03/belarus-is-forming-its-fourth-airborne-brigade-40-km-from-ukraine-with-a-permanent-base-set-for-2027/",
+      "summary": "Minsk's Special Operations commander says the new 37th brigade is taking shape near Homel, with its permanent base by the Ukrainian frontier not ready until 2027.",
+      "publishedAt": "2026-08-03T18:45:27.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "За 40 км від України Білорусь формує четверту повітряно-десантну бригаду з постійним базуванням у 2027 році",
+      "summaryUk": "Командувач спецназу Мінська каже, що нова 37-ма бригада формується під Гомелем, а її постійна база біля українського кордону буде готова не раніше 2027 року."
+    },
+    {
+      "id": "x-pravda-4ebfbf6b031e",
+      "title": "Росія безпілотником знищила відділення \"Нової пошти\" на Чернігівщині",
+      "url": "https://www.pravda.com.ua/news/2026/08/03/8047107/",
+      "summary": "3 серпня Росія вдарила безпілотниками по вантажному відділенню \"Нової пошти\" у Прилуках Чернігівської області.",
+      "publishedAt": "2026-08-03T18:34:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія безпілотником знищила відділення \"Нової пошти\" на Чернігівщині",
+      "summaryUk": "3 серпня Росія вдарила безпілотниками по вантажному відділенню \"Нової пошти\" у Прилуках Чернігівської області."
+    },
+    {
+      "id": "x-pravda-a1cb20251aa7",
+      "title": "Умєров – новий очільник СЗР. Як він туди потрапив та чи причетний до призначення Єрмак",
+      "url": "https://www.pravda.com.ua/articles/2026/08/03/8047103/",
+      "summary": "Президент Володимир Зеленський 3 серпня заявив, що новим очільником Служби зовнішньої розвідки України став Рустем Умєров. Натомість секретарем Ради нацбезпеки і оборони замість нього – колишній очільник Міністерства внутрішніх справ Ігор Клименко. Відповідні укази вже оприлюднили на сайті президента.",
+      "publishedAt": "2026-08-03T18:23:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Умєров – новий очільник СЗР. Як він туди потрапив та чи причетний до призначення Єрмак",
+      "summaryUk": "Президент Володимир Зеленський 3 серпня заявив, що новим очільником Служби зовнішньої розвідки України став Рустем Умєров. Натомість секретарем Ради нацбезпеки і оборони замість нього – колишній очільник Міністерства внутрішніх справ Ігор Клименко. Відповідні укази вже оприлюднили на сайті президента."
+    },
+    {
+      "id": "x-armyinform-b39a6baf5dc8",
+      "title": "Окупант отримав підозру за знущання над родиною на ТОТ Запорізької області",
+      "url": "https://armyinform.com.ua/2026/08/03/okupant-otrymav-pidozru-za-znushhannya-nad-rodynoyu-na-tot-zaporizkoyi-oblasti/",
+      "summary": "Детальне досьє на окупанта оприлюднила Книга катів українського народу.  Що відомо про злочинця Внуков Роман Олексійович (28 травня 1989 р....",
+      "publishedAt": "2026-08-03T18:05:38.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Окупант отримав підозру за знущання над родиною на ТОТ Запорізької області",
+      "summaryUk": "Детальне досьє на окупанта оприлюднила Книга катів українського народу.  Що відомо про злочинця Внуков Роман Олексійович (28 травня 1989 р...."
+    },
     {
       "id": "x-armyinform-61c9401ebc87",
       "title": "Розмінування триває: у липні підрозділи Міноборони очистили 923 гектари деокупованих територій",
@@ -213,7 +325,7 @@
       "id": "x-pravda-f159ea5fe51a",
       "title": "Зеленський звільнив Стефанішину з посади посла у США",
       "url": "https://www.pravda.com.ua/news/2026/08/03/8047089/",
-      "summary": "Президент України Володимир Зеленський звільнив Ольгу Стефанишину з посади посла у Сполучених Штатах Америки.",
+      "summary": "Президент України Володимир Зеленський звільнив Ольгу Стефанішину з посади посла у Сполучених Штатах Америки.",
       "publishedAt": "2026-08-03T16:54:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -223,7 +335,7 @@
         "UKRAINE"
       ],
       "titleUk": "Зеленський звільнив Стефанішину з посади посла у США",
-      "summaryUk": "Президент України Володимир Зеленський звільнив Ольгу Стефанишину з посади посла у Сполучених Штатах Америки."
+      "summaryUk": "Президент України Володимир Зеленський звільнив Ольгу Стефанішину з посади посла у Сполучених Штатах Америки."
     },
     {
       "id": "x-pravda-310cbe8cb875",
@@ -370,22 +482,6 @@
       "summaryUk": "Прем’єр-міністр Сергій Корецький наголосив, що для просування України до членства в ЄС уряд і Верховна Рада мають узгоджено працювати над ухваленням необхідних законів."
     },
     {
-      "id": "x-armyinform-6b53b4637e36",
-      "title": "ШІ, фейки та політичний розкол: у РНБО розповіли про нові методи російської пропаганди",
-      "url": "https://armyinform.com.ua/2026/08/03/shi-fejky-ta-politychnyj-rozkol-u-rnbo-rozpovily-pro-novi-metody-rosijskoyi-propagandy/",
-      "summary": "Про це в ефірі радіо Армія FM заявив керівник Центру протидії дезінформації при РНБО України Андрій Коваленко. За його словами, частина польських політиків використовує...",
-      "publishedAt": "2026-08-03T16:03:17.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ШІ, фейки та політичний розкол: у РНБО розповіли про нові методи російської пропаганди",
-      "summaryUk": "Про це в ефірі радіо Армія FM заявив керівник Центру протидії дезінформації при РНБО України Андрій Коваленко. За його словами, частина польських політиків використовує..."
-    },
-    {
       "id": "x-euromaidan-ded857627803",
       "title": "&#8220;We have no Churchill in Europe so far&#8221;: Europe&#8217;s top pro-Ukraine coalition may lose its two founders within year while Russia&#8217;s attacks continue",
       "url": "https://euromaidanpress.com/2026/08/03/we-have-no-churchill-in-europe-so-far-europes-top-pro-ukraine-coalition-may-lose-its-two-founders-within-year-while-russias-attacks-continue/",
@@ -400,22 +496,6 @@
       ],
       "titleUk": "«У нас поки немає Черчилля в Європі»: головна європейська проукраїнська коаліція може втратити двох засновників протягом року, поки тривають атаки Росії",
       "summaryUk": "Коли Стармер пішов і Макрон піде наступного року, зростає побоювання щодо вакууму лідерства в європейській проукраїнській коаліції."
-    },
-    {
-      "id": "x-armyinform-ee840aff9d63",
-      "title": "«Ракети потрібні тут, а не на складах»: Президент заслухав доповідь щодо виконання домовленостей з партнерами",
-      "url": "https://armyinform.com.ua/2026/08/03/%c2%abrakety-potribni-tut-a-ne-na-skladah%c2%bb-prezydent-zasluhav-dopovid-shhodo-vykonannya-domovlenostej-z-partneramy/",
-      "summary": "Про результати зустрічі із заступником керівника ОПУ Павлом Палісою він розповів у понеділок, 3 серпня, у себе у соцмережах. За...",
-      "publishedAt": "2026-08-03T15:51:42.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Ракети потрібні тут, а не на складах»: Президент заслухав доповідь щодо виконання домовленостей з партнерами",
-      "summaryUk": "Про результати зустрічі із заступником керівника ОПУ Павлом Палісою він розповів у понеділок, 3 серпня, у себе у соцмережах. За..."
     },
     {
       "id": "x-pravda-8ede1a729070",
@@ -530,38 +610,6 @@
       "summaryUk": "Британська правопопулістська партія Reform UK заявила, що в разі перемоги на виборах вона зупинить потік шукачів притулку за допомогою \"наймасштабнішої військової операції в Ла-Манші з часів Другої світової війни\"."
     },
     {
-      "id": "x-pravda-251ff248a01b",
-      "title": "У Польщі 18-річного українця звинуватили в замаху на вбивство жінки",
-      "url": "https://www.pravda.com.ua/news/2026/08/03/8047063/",
-      "summary": "18-річному українцю у Вроцлаві висунуто звинувачення в замаху на вбивство жінки, йому загрожує довічне ув'язнення.",
-      "publishedAt": "2026-08-03T14:56:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Польщі 18-річного українця звинуватили в замаху на вбивство жінки",
-      "summaryUk": "18-річному українцю у Вроцлаві висунуто звинувачення в замаху на вбивство жінки, йому загрожує довічне ув'язнення."
-    },
-    {
-      "id": "x-pravda-3b4fc6ded838",
-      "title": "Очільник МЗС Молдови виступив українською і розповів, як йому допомагає указ Зеленського",
-      "url": "https://www.pravda.com.ua/news/2026/08/03/8047060/",
-      "summary": "Міністр закордонних справ Молдови Міхай Попшой став почесним спікером загальної наради послів, що відбулася у Києві.",
-      "publishedAt": "2026-08-03T14:47:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Очільник МЗС Молдови виступив українською і розповів, як йому допомагає указ Зеленського",
-      "summaryUk": "Міністр закордонних справ Молдови Міхай Попшой став почесним спікером загальної наради послів, що відбулася у Києві."
-    },
-    {
       "id": "x-euromaidan-ba988e88a07c",
       "title": "French firm that beat NATO&#8217;s tender on glide bombs is now teaching Ukraine&#8217;s interceptor to see its target without GPS",
       "url": "https://euromaidanpress.com/2026/08/03/french-firm-that-beat-natos-tender-on-glide-bombs-is-now-teaching-ukraines-interceptor-to-see-its-target-without-gps/",
@@ -576,22 +624,6 @@
       ],
       "titleUk": "Французька фірма, яка обіграла тендер НАТО на плануючі бомби, тепер навчає український перехоплювач бачити ціль без GPS",
       "summaryUk": "Український підрозділ General Cherry підписав контракт з французькою компанією Alta Ares про інтеграцію штучного інтелектуального наведення в свій перехоплювач BULLET anti-Shahed."
-    },
-    {
-      "id": "x-pravda-85d3d79002d2",
-      "title": "У Польщі виправдалися, чому у деяких місцях не лунала тривога під час загрози від ракети РФ",
-      "url": "https://www.pravda.com.ua/news/2026/08/03/8047056/",
-      "summary": "Голова Люблінського воєводства Кшиштоф Коморський виправдався, чому в деяких повітах Польщі не була оголошена повітряна тривога, коли російська ракета вторглася у повітряний простір країни.",
-      "publishedAt": "2026-08-03T13:57:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Польщі виправдалися, чому у деяких місцях не лунала тривога під час загрози від ракети РФ",
-      "summaryUk": "Голова Люблінського воєводства Кшиштоф Коморський виправдався, чому в деяких повітах Польщі не була оголошена повітряна тривога, коли російська ракета вторглася у повітряний простір країни."
     },
     {
       "id": "x-euromaidan-55288fd01d5b",
@@ -814,8 +846,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Били по стоянці»: російський безпілотник адаптував удар по складу найбільшого в Україні онлайн-магазину в реальному часі",
-      "summaryUk": "Російський реактивний літак Shahed 1 серпня вдарив по складу Rozetka, де працювали 270 людей, убивши співробітника Володимира Мельниченка, семеро госпіталізовані."
+      "titleUk": "«Били по стоянці»: російський безпілотник адаптував удар по складу найбільшого в Україні онлайн-магазину в режимі реального часу",
+      "summaryUk": "Російський реактивний Shahed 1 серпня вдарив по складу Rozetka, де працювало 270 людей, убивши співробітника Володимира Мельниченка, семеро госпіталізовані."
     },
     {
       "id": "x-euromaidan-6eb183a4588f",
@@ -831,7 +863,7 @@
         "UKRAINE"
       ],
       "titleUk": "Росія в 2014 році вкрала український суднобудівний завод і побудувала там свої патрульні катери \"Сарган\". Україна щойно знищила одну з них",
-      "summaryUk": "Українські HUR за одну ніч вразили три цінні російські цілі, включно з патрульним катером «Сарган», який Росія захопила в України."
+      "summaryUk": "Український HUR за одну ніч вразив три цінні російські цілі, включно з патрульним катером «Сарган», який Росія захопила в України."
     },
     {
       "id": "x-euromaidan-b61358a4d33b",
@@ -862,8 +894,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "За одну ніч Росія двічі вдарила по одній будівлі Києва. Причину такої тактики Україна бачила раніше",
-      "summaryUk": "Під час обстрілу 1 серпня Росія двічі завдала ударів по медичному транспортному складу Київмедспецтрансу, знищивши п'ять санітарних машин і пошкодивши ще 20."
+      "titleUk": "Росія за одну ніч двічі вдарила по одній будівлі Києва. Причину такої тактики Україна бачила раніше",
+      "summaryUk": "Під час обстрілу 1 серпня Росія двічі завдала ударів по медичному транспортному складу Київмедспецтрансу, знищивши п'ять машин швидкої допомоги та пошкодивши ще 20."
     },
     {
       "id": "x-euromaidan-03ea37941625",
@@ -878,8 +910,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Тієї ж ночі Україна потопила російське судно і вразила три нафтопереробні заводи, які переробляють мільйони тонн на рік",
-      "summaryUk": "Київ продовжує демонтувати російські знаряддя війни проти України."
+      "titleUk": "Тієї ж ночі Україна потопила російське судно та вразила три нафтопереробні заводи, які переробляють мільйони тонн на рік",
+      "summaryUk": "Київ продовжує демонтувати знаряддя війни Росії проти України."
     },
     {
       "id": "x-euromaidan-9ab9dd7000cc",
@@ -946,38 +978,6 @@
       "summaryUk": "Росія знищила 221 спортивний об'єкт міста. Його боксери, веслувальники та шахісти тренуються у підвалах під ними — і все одно повертаються додому з медалями."
     },
     {
-      "id": "x-euromaidan-dd9694daec5c",
-      "title": "Russia lowered its 2030 electronics-independence target from 80% to 59%",
-      "url": "https://euromaidanpress.com/2026/07/31/russia-irtysh-processor-china-loongarch/",
-      "summary": "Its own ministry proposed the cut, as program funding collapsed fivefold.",
-      "publishedAt": "2026-07-31T14:11:08.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія знизила цільовий показник незалежності електроніки до 2030 року з 80% до 59%",
-      "summaryUk": "Його власне міністерство запропонувало скорочення, оскільки фінансування програми впало вп’ятеро."
-    },
-    {
-      "id": "x-euromaidan-74fdc79d035f",
-      "title": "Individuals now drive nearly half of Ukraine’s bankruptcy cases",
-      "url": "https://euromaidanpress.com/2026/07/31/ukraine-individual-bankruptcy-cases/",
-      "summary": "A “second chance” system Kyiv built for EU accession is reaching ordinary people—while Russia rewrites its own bankruptcy law to let the Kremlin choose who survives.",
-      "publishedAt": "2026-07-31T13:13:28.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Фізичні особи зараз ведуть майже половину справ про банкрутство в Україні",
-      "summaryUk": "Система «другого шансу», створена Києвом для вступу до ЄС, охоплює звичайних людей — у той час як Росія переписує свій власний закон про банкрутство, щоб дозволити Кремлю вибирати, хто виживе."
-    },
-    {
       "id": "x-militarnyi-4e5f92df0e91",
       "title": "Захищено: Ірано-іракська «Війна міст» як дзеркало для розуміння російського терору проти України",
       "url": "https://militarnyi.com/uk/irano-irakska-vijna-mist-yak-dzerkalo-dlya-rozuminnya-rosijskogo-teroru-proty-ukrayiny/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=irano-irakska-vijna-mist-yak-dzerkalo-dlya-rozuminnya-rosijskogo-teroru-proty-ukrayiny",
@@ -992,22 +992,6 @@
       ],
       "titleUk": "Захищено: Ірано-іракська «Війна міст» як дзеркало для розуміння російського терору проти України",
       "summaryUk": "Уривка немає, тому що запис захищений."
-    },
-    {
-      "id": "x-euromaidan-231e34e8b8bf",
-      "title": "The Russian missile that hit Poland was made only months earlier, prosecutors found",
-      "url": "https://euromaidanpress.com/2026/07/31/the-russian-missile-that-hit-poland-was-made-only-months-earlier-prosecutors-found/",
-      "summary": "It came off a production line in Moscow Oblast in the second quarter, according to the Lublin prosecutor's office.",
-      "publishedAt": "2026-07-31T12:21:17.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Прокуратура встановила, що російська ракета, яка влучила в Польщу, була зроблена всього кілька місяців тому",
-      "summaryUk": "Він зійшов з конвеєра в Московській області у другому кварталі, повідомляє прокуратура Любліна."
     }
   ]
 }
