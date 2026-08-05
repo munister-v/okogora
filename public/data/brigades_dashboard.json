@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T19:57:41.739Z",
+  "generatedAt": "2026-08-05T22:28:55.372Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 54,
     "mentionItems": 0,
-    "significantItems": 36,
-    "strikeItems": 25,
+    "significantItems": 37,
+    "strikeItems": 26,
     "reorgItems": 13
   },
   "brigades": [
@@ -33,11 +33,45 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 0,
-      "significantItems": 10,
-      "strikeItems": 10,
+      "significantItems": 11,
+      "strikeItems": 11,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
+        {
+          "id": "telegram-kpszsu-7f436dea9425b9",
+          "title": "🛵 Чернігівщина: реактивні БпЛА курсом на Куликівку/Мену.",
+          "summary": "🛵 Чернігівщина: реактивні БпЛА курсом на Куликівку/Мену.",
+          "url": "https://t.me/kpszsu/71654",
+          "publishedAt": "2026-08-05T21:14:53.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "🛵 Чернігівщина: реактивні БпЛА курсом на Куликівку/Мену.",
+          "summaryUk": "🛵 Чернігівщина: реактивні БпЛА курсом на Куликівку/Мену."
+        },
+        {
+          "id": "telegram-kpszsu-ccc2dee56b5ecb",
+          "title": "🛵 БпЛА курсом на Кам'янське/Дніпро з південного заходу.",
+          "summary": "🛵 БпЛА курсом на Кам'янське/Дніпро з південного заходу.",
+          "url": "https://t.me/kpszsu/71653",
+          "publishedAt": "2026-08-05T20:04:16.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "🛵 БпЛА курсом на Кам'янське/Дніпро з південного заходу.",
+          "summaryUk": "🛵 БпЛА курсом на Кам'янське/Дніпро з південного заходу."
+        },
         {
           "id": "telegram-kpszsu-3141bd9f054e88",
           "title": "🛵 БпЛА із Сумщини (Лебедин) ➡️ у напрямку Полтавщини.",
@@ -139,40 +173,6 @@
           "isReorg": false,
           "titleUk": "⚠ Увага! 🛫 Активність ворожої тактичної авіації над акваторією Чорного моря! 🚀 🚀 Загроза застосування авіаційних засобів ураження для прифронтових областей!",
           "summaryUk": "⚠ Увага! 🛫 Активність ворожої тактичної авіації над акваторією Чорного моря! 🚀 🚀 Загроза застосування авіаційних засобів ураження для прифронтових областей!"
-        },
-        {
-          "id": "telegram-kpszsu-0f86d90effdfce",
-          "title": "🛵 БпЛА на Суми з півночі.",
-          "summary": "🛵 БпЛА на Суми з півночі.",
-          "url": "https://t.me/kpszsu/71637",
-          "publishedAt": "2026-08-05T15:44:58.000Z",
-          "source": "telegram",
-          "sourceLabel": "kpszsu",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "🛵 БпЛА на Суми з півночі.",
-          "summaryUk": "🛵 БпЛА на Суми з півночі."
-        },
-        {
-          "id": "telegram-kpszsu-4a5ecb2ce60ef5",
-          "title": "🛵 Реактивний БпЛА з Донеччини - на південь Харківщини - курсом на Лозову.",
-          "summary": "🛵 Реактивний БпЛА з Донеччини - на південь Харківщини - курсом на Лозову.",
-          "url": "https://t.me/kpszsu/71636",
-          "publishedAt": "2026-08-05T15:44:11.000Z",
-          "source": "telegram",
-          "sourceLabel": "kpszsu",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "🛵 Реактивний БпЛА з Донеччини - на південь Харківщини - курсом на Лозову.",
-          "summaryUk": "🛵 Реактивний БпЛА з Донеччини - на південь Харківщини - курсом на Лозову."
         }
       ]
     },
