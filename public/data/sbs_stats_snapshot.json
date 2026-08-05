@@ -1,44 +1,62 @@
 {
-  "generatedAt": "2026-08-05T21:22:37.040Z",
+  "generatedAt": "2026-08-05T23:16:00.626Z",
   "sourceUrl": "https://foosint.github.io/sbs-stats/",
   "dbUrl": "https://raw.githubusercontent.com/foosint/sbs-stats/main/data/sbs.db",
   "latestDate": "2026-08-06",
-  "latestHour": 0,
-  "collectedAt": "2026-08-05T21:16:50.533Z",
+  "latestHour": 2,
+  "collectedAt": "2026-08-05T23:06:50.544Z",
   "summary": {
-    "personnelKilled": 2,
-    "personnelWounded": 0,
-    "personnelCasualties": 2,
-    "targetsHit": 6,
-    "targetsDestroyed": 3
+    "personnelKilled": 11,
+    "personnelWounded": 2,
+    "personnelCasualties": 13,
+    "targetsHit": 84,
+    "targetsDestroyed": 27
   },
   "categories": [
     {
       "id": 21,
       "label": "Укриття",
-      "hit": 2,
-      "destroyed": 1
+      "hit": 30,
+      "destroyed": 4
     },
     {
       "id": 22,
       "label": "Бліндажі",
-      "hit": 2,
+      "hit": 24,
       "destroyed": 0
+    },
+    {
+      "id": 18,
+      "label": "Мотоцикли / багі",
+      "hit": 3,
+      "destroyed": 3
+    },
+    {
+      "id": 7,
+      "label": "Легка / важка техніка",
+      "hit": 3,
+      "destroyed": 1
+    },
+    {
+      "id": 30,
+      "label": "Shahed",
+      "hit": 1,
+      "destroyed": 1
     }
   ],
   "daily": [
     {
       "date": "2026-08-06",
-      "hour": 0,
-      "targetsHit": 6,
-      "targetsDestroyed": 3,
-      "personnelCasualties": 2
+      "hour": 2,
+      "targetsHit": 84,
+      "targetsDestroyed": 27,
+      "personnelCasualties": 13
     },
     {
       "date": "2026-08-05",
       "hour": 23,
-      "targetsHit": 1744,
-      "targetsDestroyed": 678,
+      "targetsHit": 1772,
+      "targetsDestroyed": 696,
       "personnelCasualties": 308
     },
     {
@@ -108,9 +126,9 @@
   "monthly": [
     {
       "date": "2026-08-01",
-      "targetsHit": 8968,
-      "targetsDestroyed": 3550,
-      "personnelCasualties": 1531
+      "targetsHit": 9074,
+      "targetsDestroyed": 3592,
+      "personnelCasualties": 1542
     },
     {
       "date": "2026-07-01",
