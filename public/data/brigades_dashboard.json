@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T02:23:31.746Z",
+  "generatedAt": "2026-08-08T04:30:39.762Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 57,
     "mentionItems": 1,
-    "significantItems": 43,
-    "strikeItems": 32,
+    "significantItems": 42,
+    "strikeItems": 31,
     "reorgItems": 15
   },
   "brigades": [
@@ -33,8 +33,8 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 0,
-      "significantItems": 15,
-      "strikeItems": 15,
+      "significantItems": 14,
+      "strikeItems": 14,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -54,6 +54,40 @@
           "isReorg": false,
           "titleUk": "🛸 Розвідувальний БпЛА в районі Дніпра, який може бути навідником ворожих засобів ураження!",
           "summaryUk": "🛸 Розвідувальний БпЛА в районі Дніпра, який може бути навідником ворожих засобів ураження!"
+        },
+        {
+          "id": "telegram-kpszsu-515b975c556bdd",
+          "title": "🛵 БпЛА курсом на Суми зі сходу.",
+          "summary": "🛵 БпЛА курсом на Суми зі сходу.",
+          "url": "https://t.me/kpszsu/71931",
+          "publishedAt": "2026-08-08T03:07:21.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "🛵 БпЛА курсом на Суми зі сходу.",
+          "summaryUk": "🛵 БпЛА курсом на Суми зі сходу."
+        },
+        {
+          "id": "telegram-kpszsu-311ae9fc3bcbe6",
+          "title": "🛵 БпЛА в Конотопському районі Сумщини, курсом на Чернігівщину.",
+          "summary": "🛵 БпЛА в Конотопському районі Сумщини, курсом на Чернігівщину.",
+          "url": "https://t.me/kpszsu/71929",
+          "publishedAt": "2026-08-08T02:24:38.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "🛵 БпЛА в Конотопському районі Сумщини, курсом на Чернігівщину.",
+          "summaryUk": "🛵 БпЛА в Конотопському районі Сумщини, курсом на Чернігівщину."
         },
         {
           "id": "telegram-kpszsu-82a46461ac7cff",
@@ -139,40 +173,6 @@
           "isReorg": false,
           "titleUk": "🚀 КАБи на Донеччину. 🛵 БпЛА на Одещину/Миколаївщину з моря!",
           "summaryUk": "🚀 КАБи на Донеччину. 🛵 БпЛА на Одещину/Миколаївщину з моря!"
-        },
-        {
-          "id": "telegram-kpszsu-d5ce2c637db90f",
-          "title": "🛵 БпЛА курсом на Дніпро з південно-східного напрямку!",
-          "summary": "🛵 БпЛА курсом на Дніпро з південно-східного напрямку!",
-          "url": "https://t.me/kpszsu/71918",
-          "publishedAt": "2026-08-07T23:50:10.000Z",
-          "source": "telegram",
-          "sourceLabel": "kpszsu",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "🛵 БпЛА курсом на Дніпро з південно-східного напрямку!",
-          "summaryUk": "🛵 БпЛА курсом на Дніпро з південно-східного напрямку!"
-        },
-        {
-          "id": "telegram-kpszsu-d679d9ddf7849a",
-          "title": "🛵 БпЛА на Суми з півночі!",
-          "summary": "🛵 БпЛА на Суми з півночі!",
-          "url": "https://t.me/kpszsu/71916",
-          "publishedAt": "2026-08-07T23:01:32.000Z",
-          "source": "telegram",
-          "sourceLabel": "kpszsu",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "🛵 БпЛА на Суми з півночі!",
-          "summaryUk": "🛵 БпЛА на Суми з півночі!"
         }
       ]
     },
