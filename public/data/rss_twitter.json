@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T09:46:22.710Z",
+  "generatedAt": "2026-08-10T11:20:09.673Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,36 +98,228 @@
   ],
   "items": [
     {
-      "id": "x-armyinform-5d4aa3e560d5",
-      "title": "Двоє археологів підозрюються у воєнному злочині за незаконні розкопки у Криму",
-      "url": "https://armyinform.com.ua/2026/08/10/dvoye-arheologiv-pidozryuyutsya-u-voyennomu-zlochyni-za-nezakonni-rozkopky-u-krymu/",
-      "summary": "Вони підозрюються у незаконних розкопках на тимчасово окупованій території.  Детальне досьє на підозрюваних оприлюднила Книга катів українського народу.  Хто підозрювані...",
-      "publishedAt": "2026-08-10T09:41:37.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
+      "id": "x-euromaidan-dda962e59134",
+      "title": "Russia&#8217;s advance in Ukraine slows as casualties per square kilometer rise 3.5-fold, Radio Svoboda reports",
+      "url": "https://euromaidanpress.com/2026/08/10/russias-advance-in-ukraine-slows-as-casualties-per-square-kilometer-rise-3-5-fold-radio-svoboda-reports/",
+      "summary": "Ukrainian drone operators say Russian infiltration units moving on foot lose all but one soldier out of every fifteen.",
+      "publishedAt": "2026-08-10T11:12:27.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Двоє археологів підозрюються у воєнному злочині за незаконні розкопки у Криму",
-      "summaryUk": "Вони підозрюються у незаконних розкопках на тимчасово окупованій території.  Детальне досьє на підозрюваних оприлюднила Книга катів українського народу.  Хто підозрювані..."
+      "titleUk": "Просування Росії в Україні сповільнюється: втрати на квадратний кілометр зросли в 3,5 рази, повідомляє Радіо Свобода",
+      "summaryUk": "Українські оператори безпілотників кажуть, що російські підрозділи інфільтрації, які рухаються пішки, втрачають усіх, крім одного солдата з кожних п’ятнадцяти."
     },
     {
-      "id": "x-armyinform-f71ccef7ed70",
-      "title": "Уражено НПЗ «Танеко», підтверджено ураження НПЗ «Ільський» та аеродрому — Генеральний штаб ЗСУ",
-      "url": "https://armyinform.com.ua/2026/08/10/urazheno-npz-taneko-pidtverdzheno-urazhennya-npz-ilskyj-ta-aerodromu-generalnyj-shtab-zsu/",
-      "summary": "Про це повідомив Генеральний штаб ЗСУ. На об’єкті зафіксовано пожежу. Окрім того, уражено ремонтний підрозділ у Хрустальному Луганської області. Також наші воїни били...",
-      "publishedAt": "2026-08-10T09:40:50.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
+      "id": "x-euromaidan-222f76cc2967",
+      "title": "New Iranian loitering munition has started reaching Ukraine, analyst says. It&#8217;s built to hit deep behind front",
+      "url": "https://euromaidanpress.com/2026/08/10/new-iranian-loitering-munition-has-started-reaching-ukraine-analyst-says-its-built-to-hit-deep-behind-front/",
+      "summary": "Iran is improving its Shahed-107 kamikaze drones based on the Ukraine war, adding shrapnel elements.",
+      "publishedAt": "2026-08-10T11:06:58.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Уражено НПЗ «Танеко», підтверджено ураження НПЗ «Ільський» та аеродрому — Генеральний штаб ЗСУ",
-      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. На об’єкті зафіксовано пожежу. Окрім того, уражено ремонтний підрозділ у Хрустальному Луганської області. Також наші воїни били..."
+      "titleUk": "До України почали надходити нові іранські боєприпаси, стверджує аналітик. Він створений для удару глибоко ззаду",
+      "summaryUk": "Іран вдосконалює свої безпілотники-камікадзе Shahed-107 за мотивами війни в Україні, додаючи осколкові елементи."
+    },
+    {
+      "id": "x-pravda-939b4a217b91",
+      "title": "Знову балістика: чи готові США закрити українське небо?",
+      "url": "https://www.pravda.com.ua/columns/2026/08/10/8048056/",
+      "summary": "Україна потребує ППО та ракет Patriot вже зараз — це питання порятунку міст і життів.",
+      "publishedAt": "2026-08-10T11:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Знову балістика: чи готові США закрити українське небо?",
+      "summaryUk": "Україна потребує ППО та ракет Patriot вже зараз — це питання порятунку міст і життів."
+    },
+    {
+      "id": "x-euromaidan-baf4755cb0af",
+      "title": "ISW: Russia strikes the Mayaki bridge linking southern Ukraine to Romania and Moldova",
+      "url": "https://euromaidanpress.com/2026/08/10/isw-russia-strikes-the-mayaki-bridge-linking-southern-ukraine-to-romania-and-moldova/",
+      "summary": "Moscow's overnight hit on the M-15 highway forced Kyiv to halt traffic toward the Danube ports, its main grain outlet after sea exports collapsed.",
+      "publishedAt": "2026-08-10T10:51:36.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ISW: Росія завдала удару по мосту Маяки, що з’єднує південь України з Румунією та Молдовою",
+      "summaryUk": "Нічний удар Москви по автомагістралі М-15 змусив Київ припинити рух у бік дунайських портів, головного місця виходу зерна після падіння морського експорту."
+    },
+    {
+      "id": "x-pravda-f7a2518bd3a0",
+      "title": "У Молдові кажуть, що дрон, який вибухнув в країні вихідними – перший такого типу",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048083/",
+      "summary": "",
+      "publishedAt": "2026-08-10T10:41:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Молдові кажуть, що дрон, який вибухнув в країні вихідними – перший такого типу",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-48c44206929c",
+      "title": "Zaluzhnyi, Fedorov, and Budanov lead Ukraine&#8217;s trust ranking as Zelenskyy places fourth &#8211; KIIS",
+      "url": "https://euromaidanpress.com/2026/08/10/zaluzhnyi-fedorov-and-budanov-lead-ukraines-trust-ranking-as-zelenskyy-places-fourth-kiis/",
+      "summary": "Three of Ukraine's most recognizable wartime figures now command the strongest public confidence, a late-July sociological study found, even as the president's standing lags noticeably behind.",
+      "publishedAt": "2026-08-10T10:36:42.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Залужний, Федоров і Буданов очолили рейтинг довіри в Україні, Зеленський посів четверте – КМІС",
+      "summaryUk": "Соціологічне дослідження, проведене наприкінці липня, показало, що троє найвідоміших діячів України воєнного часу зараз користуються найбільшою довірою суспільства, навіть якщо авторитет президента помітно відстає."
+    },
+    {
+      "id": "x-pravda-c8917847a204",
+      "title": "Росіяни вдарили КАБами по Запоріжжю: 24 постраждалих, 10-річна дівчинка у тяжкому стані",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048081/",
+      "summary": "Вдень 10 серпня російські війська завдали ударів керованими авіабомбами по Запоріжжю, внаслідок атаки постраждали щонайменше 24 людини, серед них двоє дітей. 10-річна дівчинка перебуває у тяжкому стані.",
+      "publishedAt": "2026-08-10T10:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили КАБами по Запоріжжю: 24 постраждалих, 10-річна дівчинка у тяжкому стані",
+      "summaryUk": "Вдень 10 серпня російські війська завдали ударів керованими авіабомбами по Запоріжжю, внаслідок атаки постраждали щонайменше 24 людини, серед них двоє дітей. 10-річна дівчинка перебуває у тяжкому стані."
+    },
+    {
+      "id": "x-euromaidan-f6d780a51506",
+      "title": "Zelenskyy says Russia could receive up to 50,000 North Korean troops",
+      "url": "https://euromaidanpress.com/2026/08/10/zelenskyy-says-russia-could-receive-up-to-50000-north-korean-troops/",
+      "summary": "Kyiv says North Korean deployment numbers have grown from hundreds to tens of thousands within roughly two months, according to Ukrainian estimates.",
+      "publishedAt": "2026-08-10T10:26:39.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський каже, що Росія може прийняти до 50 тисяч північнокорейських військових",
+      "summaryUk": "Київ каже, що, згідно з українськими оцінками, кількість військовослужбовців Північної Кореї зросла з сотень до десятків тисяч протягом приблизно двох місяців."
+    },
+    {
+      "id": "x-pravda-10af53e6466e",
+      "title": "ЗМІ: На відео видно, як дрон врізався в крило українського літака у аеропорту Лейпцига, але не вибухнув",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048079/",
+      "summary": "В аеропорту Лейпцига дрон з вибухівкою атакував літак \"Антонов\": розслідування вказує на спробу теракту.",
+      "publishedAt": "2026-08-10T10:20:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ЗМІ: На відео видно, як дрон врізався в крило українського літака у аеропорту Лейпцига, але не вибухнув",
+      "summaryUk": "В аеропорту Лейпцига дрон з вибухівкою атакував літак \"Антонов\": розслідування вказує на спробу теракту."
+    },
+    {
+      "id": "x-pravda-6b6d27a04960",
+      "title": "Суд змінив Єрмаку запобіжний захід та дозволив їздити по Україні \"на прохання\" командирів",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048078/",
+      "summary": "ВАКС змінив запобіжний захід для Єрмака: обмежив виїзд до 9 областей України.",
+      "publishedAt": "2026-08-10T10:15:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Суд змінив Єрмаку запобіжний захід та дозволив їздити по Україні \"на прохання\" командирів",
+      "summaryUk": "ВАКС змінив запобіжний захід для Єрмака: обмежив виїзд до 9 областей України."
+    },
+    {
+      "id": "x-pravda-81605f023327",
+      "title": "ЗМІ: Пентагон тисне на \"оборонку\" для нарощення виробництва зброї",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048073/",
+      "summary": "",
+      "publishedAt": "2026-08-10T10:04:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ЗМІ: Пентагон тисне на \"оборонку\" для нарощення виробництва зброї",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-6d9afd57e700",
+      "title": "Drones strike Russian oblasts overnight: thick smoke over a Nizhnekamsk refinery as Crimea&#8217;s Krasnoperekopsk industrial zone burns",
+      "url": "https://euromaidanpress.com/2026/08/10/drones-strike-russian-oblasts-overnight-thick-smoke-over-a-nizhnekamsk-refinery-as-crimeas-krasnoperekopsk-industrial-zone-burns/",
+      "summary": "Unmanned aircraft reportedly hit a Tatarstan oil hub and the occupied peninsula, with satellite sensors flagging heat signatures and 15 airports halting flights.",
+      "publishedAt": "2026-08-10T10:03:32.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Безпілотники вночі обстріляли області Росії: густий дим над Нижньокамським нафтопереробним заводом, горить промзона Красноперекопська в Криму",
+      "summaryUk": "Повідомляється, що безпілотний літак вдарив по нафтовому центру Татарстану та окупованому півострову, супутникові датчики помітили теплові сигнатури, а 15 аеропортів призупинили польоти."
+    },
+    {
+      "id": "x-pravda-3245b6baa5f0",
+      "title": "Повітряні сили закликали медіа не підігрувати ворогу гучними заголовками про \"не збиті ракети\"",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048070/",
+      "summary": "Повітряні сили закликали медіа не нагнітати песимістичні настрої серед українців гучними заголовками про \"не збиті ракети\", адже ППО щодня протистоїть комбінованим атакам РФ, застосовуючи всі наявні засоби для їх відбиття.",
+      "publishedAt": "2026-08-10T10:03:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Повітряні сили закликали медіа не підігрувати ворогу гучними заголовками про \"не збиті ракети\"",
+      "summaryUk": "Повітряні сили закликали медіа не нагнітати песимістичні настрої серед українців гучними заголовками про \"не збиті ракети\", адже ППО щодня протистоїть комбінованим атакам РФ, застосовуючи всі наявні засоби для їх відбиття."
+    },
+    {
+      "id": "x-pravda-610061b47b81",
+      "title": "Генштаб: Сили оборони уразили НПЗ \"Танеко\" в Татарстані",
+      "url": "https://www.pravda.com.ua/news/2026/08/10/8048071/",
+      "summary": "У ніч на 10 серпня Сили оборони України уразили нафтопереробний завод \"Танеко\" у російському Татарстані, на території підприємства виникла пожежа.",
+      "publishedAt": "2026-08-10T09:58:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб: Сили оборони уразили НПЗ \"Танеко\" в Татарстані",
+      "summaryUk": "У ніч на 10 серпня Сили оборони України уразили нафтопереробний завод \"Танеко\" у російському Татарстані, на території підприємства виникла пожежа."
     },
     {
       "id": "x-pravda-78ecd1cd1584",
@@ -194,22 +386,6 @@
       "summaryUk": "Залужний і Федоров — лідери довіри серед українців. Опитування КМІС: результати довіри до політиків у липні 2026 року."
     },
     {
-      "id": "x-armyinform-559553f8cdf3",
-      "title": "Рідкісні на сьогодні кадри: ударні дрони 44 ОАБр вполювали російський танк",
-      "url": "https://armyinform.com.ua/2026/08/10/ridkisni-na-sogodni-kadry-udarni-drony-44-oabr-vpolyuvaly-rosijskyj-tank/",
-      "summary": "Відео з ураженням ворожої бронетехніки, яка намагалася сховатися серед зелені, було опублікувано в Telegram-каналі ОК «Захід». Через засилля ударних безпілотників,...",
-      "publishedAt": "2026-08-10T08:39:58.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Рідкісні на сьогодні кадри: ударні дрони 44 ОАБр вполювали російський танк",
-      "summaryUk": "Відео з ураженням ворожої бронетехніки, яка намагалася сховатися серед зелені, було опублікувано в Telegram-каналі ОК «Захід». Через засилля ударних безпілотників,..."
-    },
-    {
       "id": "x-pravda-92f9b65d5fda",
       "title": "У Данії фіксують рекордні перебої з GPS – підозрюють Росію",
       "url": "https://www.pravda.com.ua/news/2026/08/10/8048052/",
@@ -258,38 +434,6 @@
       "summaryUk": ""
     },
     {
-      "id": "x-armyinform-762e38b71d39",
-      "title": "Окупанти обстріляли Краматорськ та Слов’янськ: пошкоджено цивільну інфраструктуру",
-      "url": "https://armyinform.com.ua/2026/08/10/okupanty-obstrilyaly-kramatorsk-ta-slovyansk-poshkodzheno-czyvilnu-infrastrukturu/",
-      "summary": "Про це повідомили в соцмережах ДСНС України. У Слов’янську внаслідок ударів БПЛА загорілися нежитловий будинок та 20 торговельних павільйонів на...",
-      "publishedAt": "2026-08-10T08:23:16.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Окупанти обстріляли Краматорськ та Слов’янськ: пошкоджено цивільну інфраструктуру",
-      "summaryUk": "Про це повідомили в соцмережах ДСНС України. У Слов’янську внаслідок ударів БПЛА загорілися нежитловий будинок та 20 торговельних павільйонів на..."
-    },
-    {
-      "id": "x-armyinform-c73745170238",
-      "title": "Представники ЗСУ здобули дві срібні нагороди на чемпіонаті Європи U23 зі стрільби кульової",
-      "url": "https://armyinform.com.ua/2026/08/10/predstavnyky-zsu-zdobuly-dvi-sribni-nagorody-na-chempionati-yevropy-u23-zi-strilby-kulovoyi/",
-      "summary": "Про це повідомляє Відділ фізичної культури і спорту МО України. Як зазначається, представники ЦСК ЗС України вибороли дві срібні нагороди....",
-      "publishedAt": "2026-08-10T08:16:05.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Представники ЗСУ здобули дві срібні нагороди на чемпіонаті Європи U23 зі стрільби кульової",
-      "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. Як зазначається, представники ЦСК ЗС України вибороли дві срібні нагороди...."
-    },
-    {
       "id": "x-pravda-8eb8a18fd4bd",
       "title": "Росіяни вранці обстріляли Бугаївку на Харківщині: загинули 5 людей",
       "url": "https://www.pravda.com.ua/news/2026/08/10/8048044/",
@@ -304,22 +448,6 @@
       ],
       "titleUk": "Росіяни вранці обстріляли Бугаївку на Харківщині: загинули 5 людей",
       "summaryUk": "Внаслідок обстрілу Бугаївки у Харківській області 10 серпня загинуло п'ятеро людей, розпочато розслідування"
-    },
-    {
-      "id": "x-armyinform-a389c0cb3a7a",
-      "title": "Блогер виявився агентом гру, який коригував ворожі удари через свої Telegram-канали — СБУ",
-      "url": "https://armyinform.com.ua/2026/08/10/bloger-vyyavyvsya-agentom-gru-yakyj-koryguvav-vorozhi-udary-cherez-svoyi-telegram-kanaly-%e2%80%94-sbu/",
-      "summary": "Про це в понеділок, 10 серпня, повідомили у Службі безпеки України. Зловмисником виявився місцевий блогер, завербований воєнною розвідкою рф, більш...",
-      "publishedAt": "2026-08-10T07:31:50.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Блогер виявився агентом гру, який коригував ворожі удари через свої Telegram-канали — СБУ",
-      "summaryUk": "Про це в понеділок, 10 серпня, повідомили у Службі безпеки України. Зловмисником виявився місцевий блогер, завербований воєнною розвідкою рф, більш..."
     },
     {
       "id": "x-pravda-831f8d6c0c8d",
@@ -354,102 +482,6 @@
       "summaryUk": ""
     },
     {
-      "id": "x-pravda-d23133ed11f1",
-      "title": "З квітня Росія зупинила виробництво \"Кинджалів\", щоб робити більше інших ракет – ГУР",
-      "url": "https://www.pravda.com.ua/news/2026/08/10/8048038/",
-      "summary": "Росіяни з квітня місяця перестали випускати балістичні ракети \"Кинджал\" для того, щоб збільшити виробництво інших точніших видів ракет.",
-      "publishedAt": "2026-08-10T07:01:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "З квітня Росія зупинила виробництво \"Кинджалів\", щоб робити більше інших ракет – ГУР",
-      "summaryUk": "Росіяни з квітня місяця перестали випускати балістичні ракети \"Кинджал\" для того, щоб збільшити виробництво інших точніших видів ракет."
-    },
-    {
-      "id": "x-pravda-a66269743efd",
-      "title": "Скібіцький: РФ нарощує виробництво ракет, паузу в ударах навряд чи буде робити",
-      "url": "https://www.pravda.com.ua/news/2026/08/10/8048036/",
-      "summary": "Росія збільшує випуск ракет для ударів по Україні, пауз у ракетних атаках не прогнозується — генерал ГУР МО Скібіцький.",
-      "publishedAt": "2026-08-10T06:42:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Скібіцький: РФ нарощує виробництво ракет, паузу в ударах навряд чи буде робити",
-      "summaryUk": "Росія збільшує випуск ракет для ударів по Україні, пауз у ракетних атаках не прогнозується — генерал ГУР МО Скібіцький."
-    },
-    {
-      "id": "x-pravda-f61d4bf14da8",
-      "title": "РФ атакувала ракетою Х-59/69 та 126 безпілотниками: ППО знешкодила 92 дрони",
-      "url": "https://www.pravda.com.ua/news/2026/08/10/8048034/",
-      "summary": "У ніч на 10 серпня ППО України знищила 92 ворожі дрони та три боєприпаси «Бандероль». Атака триває.",
-      "publishedAt": "2026-08-10T06:13:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "РФ атакувала ракетою Х-59/69 та 126 безпілотниками: ППО знешкодила 92 дрони",
-      "summaryUk": "У ніч на 10 серпня ППО України знищила 92 ворожі дрони та три боєприпаси «Бандероль». Атака триває."
-    },
-    {
-      "id": "x-pravda-4cfe9569d2e8",
-      "title": "Снаряди в обмін на ЄС: навіщо Зеленський поїхав до Сербії та що отримали обидві сторони",
-      "url": "https://www.pravda.com.ua/articles/2026/08/10/8048032/",
-      "summary": "Чи був сенс у візиті для Володимира Зеленського до найбільш дружньої до Росії держави Європи? Є підстави вважати, що обидва лідери досягли поставлених цілей...",
-      "publishedAt": "2026-08-10T05:55:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Снаряди в обмін на ЄС: навіщо Зеленський поїхав до Сербії та що отримали обидві сторони",
-      "summaryUk": "Чи був сенс у візиті для Володимира Зеленського до найбільш дружньої до Росії держави Європи? Є підстави вважати, що обидва лідери досягли поставлених цілей..."
-    },
-    {
-      "id": "x-pravda-a2c4ef267bac",
-      "title": "Росіяни скинули 5 КАБів на Суми: поранено 14 людей",
-      "url": "https://www.pravda.com.ua/news/2026/08/10/8048017/",
-      "summary": "Вночі 10 серпня росіяни завдали 5 авіаударів по Сумах — постраждали 14 людей, пошкоджено житло й інфраструктуру.",
-      "publishedAt": "2026-08-10T05:45:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни скинули 5 КАБів на Суми: поранено 14 людей",
-      "summaryUk": "Вночі 10 серпня росіяни завдали 5 авіаударів по Сумах — постраждали 14 людей, пошкоджено житло й інфраструктуру."
-    },
-    {
-      "id": "x-pravda-6c8841c8be70",
-      "title": "На фронті понад 250 боїв: ворог намагався вклинитись в оборону на Лиманському напрямку",
-      "url": "https://www.pravda.com.ua/news/2026/08/10/8048029/",
-      "summary": "Ворог здійснив 254 атаки на різних напрямках, ЗСУ тримають оборону. Деталі зведення Генштабу за добу.",
-      "publishedAt": "2026-08-10T05:26:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "На фронті понад 250 боїв: ворог намагався вклинитись в оборону на Лиманському напрямку",
-      "summaryUk": "Ворог здійснив 254 атаки на різних напрямках, ЗСУ тримають оборону. Деталі зведення Генштабу за добу."
-    },
-    {
       "id": "x-euromaidan-34fbdacbedf1",
       "title": "Russian electric locomotive was named target of Ukrainian partisan operation. It carried military supplies toward Kharkiv front",
       "url": "https://euromaidanpress.com/2026/08/10/russian-electric-locomotive-was-named-target-of-ukrainian-partisan-operation-it-carried-military-supplies-toward-kharkiv-front/",
@@ -479,7 +511,7 @@
         "UKRAINE"
       ],
       "titleUk": "Гуманітарний склад ВООЗ у Дніпрі зруйновано внаслідок удару, – гендиректор",
-      "summaryUk": "Персонал евакуював менше половини з приблизно 300 піддонів із медичним приладдям до того, як 7 серпня було обстріляно склад."
+      "summaryUk": "Співробітники евакуювали менше половини з приблизно 300 піддонів із медичним приладдям до того, як 7 серпня було обстріляно склад."
     },
     {
       "id": "x-euromaidan-ea12dc8a5e0e",
@@ -542,7 +574,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У Житомирській області російський хіт отримав виробник електропроводки для Volkswagen і Škoda",
+      "titleUk": "У Житомирській області російський удар отримав виробник електропроводки для Volkswagen і Škoda",
       "summaryUk": "Удар припав на повністю німецького виробника, якого чиновники зараховують до бюджетоутворюючих підприємств регіону."
     },
     {
@@ -638,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Генштаб України підтвердив удари по двох російських нафтопереробних заводах і чорноморській буровій платформі",
+      "titleUk": "Генштаб України підтвердив удари по двох російських нафтопереробних заводах і буровій платформі в Чорному морі",
       "summaryUk": "Один завод належить «Роснефти» і може переробляти 8,5 млн тонн нафти на рік; на іншому спалахнула пожежа."
     },
     {
@@ -654,8 +686,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "ЄС спрямовує ще 30 мільйонів євро до Фонду підтримки енергетики України, збільшуючи його загальний внесок до 279 мільйонів євро",
-      "summaryUk": "Поповнення відбулося після нещодавніх переказів із Люксембургу та Данії, остання додала понад 10 мільйонів євро до того самого механізму."
+      "titleUk": "ЄС направляє ще 30 мільйонів євро до Фонду підтримки енергетики України, збільшуючи його загальний внесок до 279 мільйонів євро",
+      "summaryUk": "Поповнення сталося після нещодавніх переказів із Люксембургу та Данії, остання додала понад 10 мільйонів євро до того самого механізму."
     },
     {
       "id": "x-euromaidan-1fe1a6ab4029",
@@ -750,7 +782,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Північна Корея заробила 22 мільярди доларів, озброюючи Росію – майже в чотири рази більше, ніж перед війною",
+      "titleUk": "Північна Корея заробила 22 мільярди доларів на озброєнні Росії – майже в чотири рази більше, ніж до війни",
       "summaryUk": "Війна фінансувала бум, який тепер купує есмінці, боєголовки та свободу припинити розмови з Вашингтоном."
     },
     {
@@ -799,103 +831,7 @@
         "UKRAINE"
       ],
       "titleUk": "Люксембург додає 8 мільйонів євро до енергетичного фонду України, довівши загальну суму до 30 мільйонів євро",
-      "summaryUk": "Четвертий внесок від країни з населенням 660 000 людей надходить, оскільки фонд намагається закрити дефіцит у 650 мільйонів євро до зими."
-    },
-    {
-      "id": "x-euromaidan-4482b669f6f3",
-      "title": "Russia is squeezing independent gas stations out of its fuel market",
-      "url": "https://euromaidanpress.com/2026/08/07/russia-squeezes-independent-gas-stations/",
-      "summary": "Russia cannot make more fuel. So it’s handing the market to the state-linked majors, and the independent ones are being cut out.",
-      "publishedAt": "2026-08-07T14:01:38.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія витісняє зі свого паливного ринку незалежні АЗС",
-      "summaryUk": "Росія не може робити більше палива. Таким чином, це передає ринок державним компаніям, а незалежні вирізаються."
-    },
-    {
-      "id": "x-euromaidan-a8359565bce8",
-      "title": "Ukraine&#8217;s Soviet S-300 air defenses ran low—now the US and Ukraine are working to revive their missiles",
-      "url": "https://euromaidanpress.com/2026/08/07/ukraines-soviet-s-300-air-defenses-ran-low-now-the-us-and-ukraine-are-working-to-revive-their-missiles/",
-      "summary": "As Russia continues its missile and drone strikes, Ukraine has depleted the stockpiles of its surface-to-air missiles for the S-300. A joint US-Ukraine effort could start producing new rounds by late 2026, a retired US colonel says.",
-      "publishedAt": "2026-08-07T13:20:40.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Радянська протиповітряна оборона України С-300 вичерпалася — тепер США та Україна працюють над відновленням своїх ракет",
-      "summaryUk": "Оскільки Росія продовжує свої ракетні удари та удари з безпілотників, Україна вичерпала запаси своїх ракет класу «земля-повітря» для С-300. Спільні зусилля США та України можуть розпочати виробництво нових патронів до кінця 2026 року, каже полковник США у відставці."
-    },
-    {
-      "id": "x-euromaidan-d441e4a5451b",
-      "title": "Five Russian defense bosses lose their EU assets and travel rights over Iskander and Sarmat missile production",
-      "url": "https://euromaidanpress.com/2026/08/07/five-russian-defense-bosses-lose-their-eu-assets-and-travel-rights-over-iskander-and-sarmat-missile-production/",
-      "summary": "The listed individuals run plants that produce precision components for the Iskander-M ballistic missile and the RS-28 Sarmat intercontinental rocket. Three others head Russian companies building drone software, military radios, and space-based weapons technology.",
-      "publishedAt": "2026-08-07T12:44:54.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "П'ятеро російських керівників оборонного відомства втратили свої активи в ЄС і права пересування через виробництво ракет \"Іскандер\" і \"Сармат\".",
-      "summaryUk": "Зазначені особи керують заводами, що виробляють високоточні компоненти для балістичної ракети «Іскандер-М» і міжконтинентальної ракети РС-28 «Сармат». Ще троє очолюють російські компанії, що розробляють програмне забезпечення для безпілотників, військові радіостанції та технології космічної зброї."
-    },
-    {
-      "id": "x-euromaidan-e1e34636d20e",
-      "title": "Russia calls them &#8220;volunteers.&#8221; They&#8217;re Ukrainian prisoners of war forced into a new combat brigade",
-      "url": "https://euromaidanpress.com/2026/08/07/russia-calls-them-volunteers-theyre-ukrainian-prisoners-of-war-forced-into-a-new-combat-brigade/",
-      "summary": "Moscow's Defense Ministry merged several POW-based battalions and detachments into a single formation, escalating a practice ISW has tracked since late 2022.",
-      "publishedAt": "2026-08-07T12:27:22.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія називає їх «добровольцями». Це українські військовополонені, загнані в нову бойову бригаду",
-      "summaryUk": "Міністерство оборони Москви об’єднало кілька батальйонів і загонів військовополонених в єдине формування, посиливши практику, яку ISW відслідковує з кінця 2022 року."
-    },
-    {
-      "id": "x-euromaidan-53c4df22b4cf",
-      "title": "Russia launches 147 drones overnight, injuring civilians and damaging infrastructure in Sumy, Dnipropetrovsk oblasts",
-      "url": "https://euromaidanpress.com/2026/08/07/russia-launches-147-drones-overnight-injuring-civilians-and-damaging-infrastructure-in-sumy-dnipropetrovsk-oblasts/",
-      "summary": "114 of them were shot down, but some damaged civilian infrastructure.",
-      "publishedAt": "2026-08-07T11:31:55.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія за ніч запустила 147 безпілотників, поранивши мирних жителів та пошкодивши інфраструктуру в Сумській та Дніпропетровській областях",
-      "summaryUk": "114 з них було збито, але деякі пошкодили цивільну інфраструктуру."
-    },
-    {
-      "id": "x-euromaidan-3a3a7e8f32eb",
-      "title": "Bosch is second German brand in one night to lose its Ukraine warehouse to Russian strike",
-      "url": "https://euromaidanpress.com/2026/08/07/bosch-is-second-german-brand-in-one-night-to-lose-its-ukraine-warehouse-to-russian-strike/",
-      "summary": "Bosch is working with its logistics partner to maintain supplies after the devastating 5 August attack.",
-      "publishedAt": "2026-08-07T11:22:54.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Bosch став другим німецьким брендом за одну ніч, який втратив свій склад в Україні через страйк Росії",
-      "summaryUk": "Bosch співпрацює зі своїм партнером з логістики, щоб підтримувати запаси після руйнівної атаки 5 серпня."
+      "summaryUk": "Четвертий внесок від країни з населенням 660 000 осіб надходить, оскільки фонд намагається закрити дефіцит у 650 мільйонів євро до зими."
     }
   ]
 }
