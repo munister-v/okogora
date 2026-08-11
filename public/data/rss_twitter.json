@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:40:05.979Z",
+  "generatedAt": "2026-08-11T15:15:25.779Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,10 +98,202 @@
   ],
   "items": [
     {
+      "id": "x-armyinform-7c186ebdfb0f",
+      "title": "Дрони «Азову» спалили колону росіян, ССО захопили полоненого, окупант застрягнув у вікні: стрім",
+      "url": "https://armyinform.com.ua/2026/08/11/drony-azovu-spalyly-kolonu-rosiyan-sso-zahopyly-polonenogo-okupant-zastryagnuv-u-vikni-strim/",
+      "summary": "Окупанти накопичували техніку для майбутніх штурмів на Донецькому напрямку, проте безпілотники один за одним атакували колону. Оператори ССО зайшли в...",
+      "publishedAt": "2026-08-11T15:12:46.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Дрони «Азову» спалили колону росіян, ССО захопили полоненого, окупант застрягнув у вікні: стрім",
+      "summaryUk": "Окупанти накопичували техніку для майбутніх штурмів на Донецькому напрямку, проте безпілотники один за одним атакували колону. Оператори ССО зайшли в..."
+    },
+    {
+      "id": "x-euromaidan-35fa5be64678",
+      "title": "From 27,711 to 40,438 in two months: Ukraine&#8217;s drone kill rate is climbing fast",
+      "url": "https://euromaidanpress.com/2026/08/11/from-27711-to-40438-in-two-months-ukraines-drone-kill-rate-is-climbing-fast/",
+      "summary": "All of the destroyed targets were confirmed through the DELTA battle-management system.",
+      "publishedAt": "2026-08-11T15:04:05.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "З 27 711 до 40 438 за два місяці: кількість вбитих безпілотників в Україні стрімко зростає",
+      "summaryUk": "Усі знищені цілі були підтверджені системою управління боєм DELTA."
+    },
+    {
+      "id": "x-armyinform-243822b340a9",
+      "title": "«Форпост» знищив ворожий склад зброї та боєприпасів",
+      "url": "https://armyinform.com.ua/2026/08/11/%c2%abforpost%c2%bb-znyshhyv-vorozhyj-sklad-zbroyi-ta-boyeprypasiv/",
+      "summary": "Про це у вівторок, 11 серпня, повідомили у Державній прикордонній службі України. «Прикордонники бригади „Форпост“ продовжують виявляти та уражати об’єкти,...",
+      "publishedAt": "2026-08-11T14:53:13.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Форпост» знищив ворожий склад зброї та боєприпасів",
+      "summaryUk": "Про це у вівторок, 11 серпня, повідомили у Державній прикордонній службі України. «Прикордонники бригади „Форпост“ продовжують виявляти та уражати об’єкти,..."
+    },
+    {
+      "id": "x-euromaidan-6097629a5341",
+      "title": "Ukraine&#8217;s security service breaks up two schemes registering Starlink terminals for Russia",
+      "url": "https://euromaidanpress.com/2026/08/11/ukraines-security-service-breaks-up-two-schemes-registering-starlink-terminals-for-russia/",
+      "summary": "The SBU says it detained three suspects in Dnipro and Zhytomyr and blocked every device the two operations had signed up.",
+      "publishedAt": "2026-08-11T14:34:37.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Служба безпеки України зламала дві схеми реєстрації терміналів Starlink для Росії",
+      "summaryUk": "СБУ заявляє, що затримала трьох підозрюваних у Дніпрі та Житомирі та заблокувала всі пристрої, зареєстровані двома операціями."
+    },
+    {
+      "id": "x-armyinform-6da363e77d6f",
+      "title": "Чоловік загинув внаслідок російського удару по житловому сектору Сум",
+      "url": "https://armyinform.com.ua/2026/08/11/cholovik-zagynuv-vnaslidok-rosijskogo-udaru-po-zhytlovomu-sektoru-sum/",
+      "summary": "Про це повідомила 11 серпня Сумська обласна військова адміністрація. За її даними, поблизу одного з місць влучання загинув цивільний чоловік....",
+      "publishedAt": "2026-08-11T14:32:45.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Чоловік загинув внаслідок російського удару по житловому сектору Сум",
+      "summaryUk": "Про це повідомила 11 серпня Сумська обласна військова адміністрація. За її даними, поблизу одного з місць влучання загинув цивільний чоловік...."
+    },
+    {
+      "id": "x-pravda-eb7198b6891a",
+      "title": "У Німеччині через невідомий дрон закривали аеропорт",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048270/",
+      "summary": "",
+      "publishedAt": "2026-08-11T14:13:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Німеччині через невідомий дрон закривали аеропорт",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-armyinform-6578a3fc54ee",
+      "title": "Застряг у віконній рамі: окупант обрав вкрай невдалий шлях втечі від українського FPV",
+      "url": "https://armyinform.com.ua/2026/08/11/zastryag-u-vikonnij-rami-okupant-obrav-vkraj-nevdalyj-shlyah-vtechi-vid-ukrayinskogo-fpv/",
+      "summary": "Відео з ліквідацією цього невдахи оприлюднила 119 окрема бригада Територіальної оборони. Як видно на оприлюднених кадрах, помітивши наближення нашого безпілотника,...",
+      "publishedAt": "2026-08-11T14:11:40.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Застряг у віконній рамі: окупант обрав вкрай невдалий шлях втечі від українського FPV",
+      "summaryUk": "Відео з ліквідацією цього невдахи оприлюднила 119 окрема бригада Територіальної оборони. Як видно на оприлюднених кадрах, помітивши наближення нашого безпілотника,..."
+    },
+    {
+      "id": "x-pravda-6f43b4c92257",
+      "title": "Росіяни спалили цистерновоз з олією та легковик на Одещині: двоє загиблих",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048269/",
+      "summary": "Росія атакувала цистерновоз з олією в Одеській області: загинули 2 людини, ще троє постраждали.",
+      "publishedAt": "2026-08-11T14:11:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни спалили цистерновоз з олією та легковик на Одещині: двоє загиблих",
+      "summaryUk": "Росія атакувала цистерновоз з олією в Одеській області: загинули 2 людини, ще троє постраждали."
+    },
+    {
+      "id": "x-pravda-e64eab82be89",
+      "title": "Без грошей і позаду Молдови. Як Україна випускає легку можливість для зближення з ЄС",
+      "url": "https://www.pravda.com.ua/articles/2026/08/11/8048268/",
+      "summary": "",
+      "publishedAt": "2026-08-11T14:05:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Без грошей і позаду Молдови. Як Україна випускає легку можливість для зближення з ЄС",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-109aba083215",
+      "title": "Russia&#8217;s education minister calls it &#8220;objective.&#8221; A new textbook teaches Ukrainian children that their occupied region is historically Russian",
+      "url": "https://euromaidanpress.com/2026/08/11/russian-textbooks-occupied-ukraine/",
+      "summary": "Two new textbooks, compulsory from 1 September for grades 5–7, recast Donetsk, Luhansk, Zaporizhzhia, and Kherson Oblasts as Russian soil.",
+      "publishedAt": "2026-08-11T14:00:57.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Міністр освіти Росії називає це «об'єктивним». Новий підручник вчить українських дітей, що їхній окупований регіон є історично російським",
+      "summaryUk": "Два нові підручники, обов’язкові з 1 вересня для 5-7 класів, перетворюють Донецьку, Луганську, Запорізьку та Херсонську області на російську землю."
+    },
+    {
+      "id": "x-armyinform-3b224930a4fa",
+      "title": "Глибина дурості: засуджено жителя Лимана, який під російськими обстрілами коригував удари ворога",
+      "url": "https://armyinform.com.ua/2026/08/11/glybyna-durosti-zasudzheno-zhytelya-lymana-yakyj-pid-rosijskymy-obstrilamy-koryguvav-udary-voroga/",
+      "summary": "Про це повідомив 11 серпня Офіс Генерального прокурора. Після деокупації Лимана у 2022 році чоловік підтримував зв’язок зі знайомим, який...",
+      "publishedAt": "2026-08-11T13:52:42.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Глибина дурості: засуджено жителя Лимана, який під російськими обстрілами коригував удари ворога",
+      "summaryUk": "Про це повідомив 11 серпня Офіс Генерального прокурора. Після деокупації Лимана у 2022 році чоловік підтримував зв’язок зі знайомим, який..."
+    },
+    {
+      "id": "x-pravda-61216b6a2b4c",
+      "title": "Росіяни скинули бомби на околиці Сум: загинув чоловік, що їхав в авто",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048264/",
+      "summary": "У Сумах 11 серпня росіяни скинули три авіабомби по приватному сектору: руйнування, один загиблий.",
+      "publishedAt": "2026-08-11T13:43:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни скинули бомби на околиці Сум: загинув чоловік, що їхав в авто",
+      "summaryUk": "У Сумах 11 серпня росіяни скинули три авіабомби по приватному сектору: руйнування, один загиблий."
+    },
+    {
       "id": "x-euromaidan-7be7911d55f1",
       "title": "A $300 FPV downs a $20,000 bomber drone. Ukraine tests an EW shield for it",
       "url": "https://euromaidanpress.com/2026/08/11/a-300-fpv-downs-a-20000-bomber-drone-ukraine-tests-an-ew-shield-for-it/",
-      "summary": "Kyiv is testing a new electronic-warfare system designed to stop cheap Russian FPV drones from destroying expensive Ukrainian heavy bomber drones and ground robots without disrupting their own control links.",
+      "summary": "Kyiv is testing a new electronic-warfare system designed to stop cheap Russian FPV drones from destroying expensive Ukrainian heavy bombers.",
       "publishedAt": "2026-08-11T13:27:50.000Z",
       "author": "Euromaidan Press",
       "handle": "euromaidan",
@@ -111,7 +303,7 @@
         "UKRAINE"
       ],
       "titleUk": "FPV за 300 доларів збиває безпілотник-бомбардувальник за 20 000 доларів. Україна випробовує для нього щит РЕБ",
-      "summaryUk": "Київ випробовує нову систему радіоелектронної боротьби, покликану завадити дешевим російським безпілотникам FPV знищувати дорогі українські важкі бомбардувальники та наземні роботи, не порушуючи їх власне управління."
+      "summaryUk": "Київ випробовує нову систему радіоелектронної боротьби, покликану завадити дешевим російським безпілотникам FPV знищувати дорогі українські важкі бомбардувальники."
     },
     {
       "id": "x-armyinform-40a9c1b5402f",
@@ -274,22 +466,6 @@
       "summaryUk": "Слідчі розслідують 428 справ щодо допомоги в ухиленні від служби. 76 керівникам ТЦК оголошено підозру."
     },
     {
-      "id": "x-armyinform-c29b04179f1c",
-      "title": "Нічого святого: росіяни випалюють національний природний парк «Святі гори»",
-      "url": "https://armyinform.com.ua/2026/08/11/nichogo-svyatogo-rosiyany-vypalyuyut-naczionalnyj-pryrodnyj-park-svyati-gory/",
-      "summary": "Відео злочинів росіян було оприлюднене 11 серпня на каналі бригади. Російські окупанти продовжують свої злочини на Лиманському напрямку. Від цього...",
-      "publishedAt": "2026-08-11T11:12:45.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Нічого святого: росіяни випалюють національний природний парк «Святі гори»",
-      "summaryUk": "Відео злочинів росіян було оприлюднене 11 серпня на каналі бригади. Російські окупанти продовжують свої злочини на Лиманському напрямку. Від цього..."
-    },
-    {
       "id": "x-euromaidan-edcc2d64546d",
       "title": "US House takes up Graham sanctions bill targeting Russia&#8217;s oil money and shadow fleet",
       "url": "https://euromaidanpress.com/2026/08/11/us-house-takes-up-graham-sanctions-bill-targeting-russias-oil-money-and-shadow-fleet/",
@@ -302,7 +478,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Палата представників США розглядає законопроект про санкції Грема, спрямований проти нафтових грошей і тіньового флоту Росії",
+      "titleUk": "Палата представників США розглядає законопроект про санкції Грема проти нафтових грошей і тіньового флоту Росії",
       "summaryUk": "Законодавці переїхали під час канікул, і текст палати дослівно ідентичний законопроекту, який Сенат вже ухвалив 86-11."
     },
     {
@@ -336,38 +512,6 @@
       ],
       "titleUk": "В ЄС відреагували на рішення РФ зняти з виборів єдину антивоєнну партію",
       "summaryUk": ""
-    },
-    {
-      "id": "x-armyinform-96b8e11fb667",
-      "title": "Російському генералу, який керував ударами по українській енергетиці, повідомлено про підозру",
-      "url": "https://armyinform.com.ua/2026/08/11/rosijskomu-generalu-yakyj-keruvav-udaramy-po-ukrayinskij-energetyczi-povidomleno-pro-pidozru/",
-      "summary": "Про це у вівторок, 11 серпня, повідомили в СБУ. Як зазначається, йдеться про начальника управління будівництва та розвитку БПЛА генерального...",
-      "publishedAt": "2026-08-11T10:47:31.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російському генералу, який керував ударами по українській енергетиці, повідомлено про підозру",
-      "summaryUk": "Про це у вівторок, 11 серпня, повідомили в СБУ. Як зазначається, йдеться про начальника управління будівництва та розвитку БПЛА генерального..."
-    },
-    {
-      "id": "x-armyinform-533c76df16bc",
-      "title": "Не встигають розгорнути триколори: на Костянтинівському напрямку окупанти гинуть задовго до «флаговтику»",
-      "url": "https://armyinform.com.ua/2026/08/11/ne-vstygayut-rozgornuty-trykolory-na-kostyantynivskomu-napryamku-okupanty-gynut-zadovgo-do-flagovtyku/",
-      "summary": "Відео було оприлюднене 11 серпня на каналі бригади. Росіяни дуже люблять історії про «закріпилися», «просунулися» і неодмінно десь вивісили свій...",
-      "publishedAt": "2026-08-11T10:38:18.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Не встигають розгорнути триколори: на Костянтинівському напрямку окупанти гинуть задовго до «флаговтику»",
-      "summaryUk": "Відео було оприлюднене 11 серпня на каналі бригади. Росіяни дуже люблять історії про «закріпилися», «просунулися» і неодмінно десь вивісили свій..."
     },
     {
       "id": "x-pravda-0bf3418be2b8",
@@ -446,7 +590,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Горять два російських нафтопереробних заводи – Орськ збитий безпілотниками за 1500 км, Комсомольськ горить за 6500 км на схід",
+      "titleUk": "Горять два російські нафтопереробні заводи – Орськ збитий безпілотниками за 1500 км, Комсомольськ горить за 6500 км на схід",
       "summaryUk": "Вибухи прогриміли в Оренбурзькій області перед тим, як полум'я охопило завод \"Роснефти\" в Хабаровську, оскільки канали моніторингу помітили другу пожежу як можливу диверсію."
     },
     {
@@ -464,54 +608,6 @@
       ],
       "titleUk": "Українські дрони підпалили нещодавно відкритий мега-хаб Wildberries під Воронежем",
       "summaryUk": "Українські безпілотники спалили гігантський логістичний комплекс Wildberries під Воронежем, убивши одну людину та змусивши масово евакуювати персонал"
-    },
-    {
-      "id": "x-pravda-dd9515658c3e",
-      "title": "Лана Зеркаль: Кремль готує восени не лише балістичні удари, а й моральну паніку",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048213/",
-      "summary": "",
-      "publishedAt": "2026-08-11T08:44:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Лана Зеркаль: Кремль готує восени не лише балістичні удари, а й моральну паніку",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-75345f7078d8",
-      "title": "Навіщо Путіну перемир'я, в яке він сам не вірить",
-      "url": "https://www.pravda.com.ua/columns/2026/08/11/8048208/",
-      "summary": "Кремль шантажує Європу та Україну, розігруючи карту паніки і ресурсної кризи на фоні ізоляції США.",
-      "publishedAt": "2026-08-11T08:29:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Навіщо Путіну перемир'я, в яке він сам не вірить",
-      "summaryUk": "Кремль шантажує Європу та Україну, розігруючи карту паніки і ресурсної кризи на фоні ізоляції США."
-    },
-    {
-      "id": "x-pravda-f35436536ea2",
-      "title": "Генштаб підтвердив ураження НПЗ в російському Орську",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048210/",
-      "summary": "У ніч на 11 серпня оборонці України вразили російський нафтопереробний завод в Орську. Зафіксовано пожежу.",
-      "publishedAt": "2026-08-11T08:27:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генштаб підтвердив ураження НПЗ в російському Орську",
-      "summaryUk": "У ніч на 11 серпня оборонці України вразили російський нафтопереробний завод в Орську. Зафіксовано пожежу."
     },
     {
       "id": "x-euromaidan-585be82c1687",
@@ -559,7 +655,7 @@
         "UKRAINE"
       ],
       "titleUk": "Настільний теніс відновив російський прапор, а російське вторгнення в Україну триває",
-      "summaryUk": "Швед Антон Келлберг зустрінеться з росіянином Володимиром Сидоренком у Мальме, першим росіянином, який виступатиме під його прапором після того, як знято заборону на настільний теніс під час війни."
+      "summaryUk": "Швед Антон Келлберг зустрінеться з росіянином Володимиром Сидоренком у Мальме, першим росіянином, який виступатиме під його прапором після того, як заборону на настільний теніс було скасовано під час війни."
     },
     {
       "id": "x-euromaidan-245c65075404",
@@ -574,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Канада разом з Україною, ЄС і Швейцарією наклала санкції на виробника зброї з ОАЕ, чиї машини оснащують Нацгвардію Росії",
+      "titleUk": "Канада разом із Україною, ЄС і Швейцарією наклала санкції на виробника зброї з ОАЕ, чиї машини оснащують Нацгвардію Росії",
       "summaryUk": "Канада наклала обмеження на Streit Group, виробника оборонної продукції з ОАЕ."
     },
     {
@@ -595,7 +691,7 @@
     },
     {
       "id": "x-euromaidan-4572f52954ce",
-      "title": "Russia squeezes the flanks, then infiltrates the middle. Around Kramatorsk, it can&#8217;t do both",
+      "title": "Russia squeezes the flanks, then infiltrates the middle. Around Kramatorsk, it can’t do both",
       "url": "https://euromaidanpress.com/2026/08/11/kramatorsk-disruption/",
       "summary": "Russia knows how to take a Ukrainian city. Around Kramatorsk it does not have the infantry to run the method.",
       "publishedAt": "2026-08-10T21:24:22.000Z",
@@ -606,7 +702,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія стискає фланги, потім проникає в середину. Навколо Краматорська не може і того, і іншого",
+      "titleUk": "Росія стискає фланги, потім проникає в середину. Навколо Краматорська не може і те, і інше",
       "summaryUk": "Росія знає, як взяти українське місто. Навколо Краматорська не має піхоти, щоб керувати методом."
     },
     {
@@ -623,7 +719,7 @@
         "UKRAINE"
       ],
       "titleUk": "Нова українська платформа ШІ тренує зброю на п’яти мільйонах кадрів, знятих дроном. Ним також можуть скористатися країни-партнери",
-      "summaryUk": "Міністерство оборони України відкрило Avengers Labs – навчальну платформу зі штучним інтелектом, створену на основі даних з поля бою."
+      "summaryUk": "Міністерство оборони України відкрило Avengers Labs – навчальну платформу зі штучним інтелектом, створену на основі бойових даних."
     },
     {
       "id": "x-euromaidan-57497fecd61e",
@@ -655,7 +751,7 @@
         "UKRAINE"
       ],
       "titleUk": "Швеція заявляє, що припинила російську операцію з дискредитації країни та ЄС. Але ніхто не буде притягнутий до відповідальності",
-      "summaryUk": "Шведська Säpo викрила операцію російської розвідки, яка вербувала агента в іноземну дипломатичну місію, щоб підірвати процес прийняття рішень у Швеції."
+      "summaryUk": "Säpo Швеції викрила операцію російської розвідки, яка завербувала агента в іноземну дипломатичну місію, щоб підірвати процес прийняття рішень у Швеції."
     },
     {
       "id": "x-euromaidan-acfa8e51159e",
@@ -719,7 +815,7 @@
         "UKRAINE"
       ],
       "titleUk": "«Привітальний бонус» у розмірі 20 000 доларів США, який так і не був виплачений: як вербувальник, зареєстрований у Колумбії, відправив перуанців на війну з Росією",
-      "summaryUk": "Росія обманом залучила в свою армію понад 450 громадян Перу, деякі з них уже вбиті."
+      "summaryUk": "Росія обманом залучила до своєї армії понад 450 громадян Перу, деякі з них уже вбиті."
     },
     {
       "id": "x-euromaidan-0b05672e9d52",
@@ -784,54 +880,6 @@
       ],
       "titleUk": "З 1 вересня в школах окупованої України з’явився новий клас російської ідеології, окремий військовий курс і оцінки за поведінку.",
       "summaryUk": "З 1 вересня на тимчасово окупованих територіях разом діють оцінки з поведінки для дітей від другого класу, окремий курс військової підготовки та обов’язковий предмет «Росіяни»."
-    },
-    {
-      "id": "x-euromaidan-e17cd5f37022",
-      "title": "A Russian missile took Oleksandra Paskal&#8217;s leg at six. At 10, she competes in rhythmic gymnastics across five continents",
-      "url": "https://euromaidanpress.com/2026/08/10/a-russian-missile-took-oleksandra-paskals-leg-at-six-at-10-she-competes-in-rhythmic-gymnastics-across-five-continents/",
-      "summary": "She returned to the gym roughly seven months after the amputation, and now trains as hard as any girl in her group, on a prosthesis.",
-      "publishedAt": "2026-08-10T16:08:28.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російська ракета забрала ногу Олександри Паскаль у шість років. У 10 років вона змагається з художньої гімнастики на п’яти континентах",
-      "summaryUk": "Вона повернулася до тренажерного залу приблизно через сім місяців після ампутації, і тепер тренується так само старанно, як і будь-яка дівчина в її групі, на протезі."
-    },
-    {
-      "id": "x-euromaidan-5a2c66d6e55a",
-      "title": "&#8220;What happens here affects next 50 years&#8221;: why American left Pennsylvania to fight in Ukraine&#8217;s 47th Brigade",
-      "url": "https://euromaidanpress.com/2026/08/10/what-happens-here-affects-next-50-years-why-american-left-pennsylvania-to-fight-in-ukraines-47th-brigade/",
-      "summary": "\"Lighthouse\", a soldier in the 47th Brigade's reconnaissance company, came from Pennsylvania after the full-scale war.",
-      "publishedAt": "2026-08-10T15:32:34.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Те, що тут відбувається, впливає на наступні 50 років»: чому американець виїхав з Пенсільванії воювати в 47-й українській бригаді",
-      "summaryUk": "«Маяк», солдат розвідувальної роти 47-ї бригади, приїхав з Пенсильванії після повномасштабної війни."
-    },
-    {
-      "id": "x-euromaidan-1cfbf6df74f8",
-      "title": "&#8220;This is money of his accomplices burning&#8221;: Russian partisans and Ukraine hit Siberian plant tied to Putin&#8217;s inner circle",
-      "url": "https://euromaidanpress.com/2026/08/10/this-is-money-of-his-accomplices-burning-russian-partisans-and-ukraine-hit-siberian-plant-tied-to-putins-inner-circle/",
-      "summary": "The plant is located over 2,000 km away from the Ukrainian border and is one of Russia's largest.",
-      "publishedAt": "2026-08-10T15:01:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Це горять гроші його спільників»: російські партизани та Україна вдарили по сибірському заводу, пов’язаному з найближчим оточенням Путіна",
-      "summaryUk": "Завод розташований на відстані понад 2000 км від українського кордону і є одним із найбільших у Росії."
     }
   ]
 }
