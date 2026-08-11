@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T09:12:29.989Z",
+  "generatedAt": "2026-08-11T11:03:52.459Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,214 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-edcc2d64546d",
+      "title": "US House takes up Graham sanctions bill targeting Russia&#8217;s oil money and shadow fleet",
+      "url": "https://euromaidanpress.com/2026/08/11/us-house-takes-up-graham-sanctions-bill-targeting-russias-oil-money-and-shadow-fleet/",
+      "summary": "Lawmakers moved during recess, and the House text is word-for-word identical to the bill the Senate already passed 86-11.",
+      "publishedAt": "2026-08-11T10:54:01.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Палата представників США розглядає законопроект про санкції Грема, спрямований проти нафтових грошей і тіньового флоту Росії",
+      "summaryUk": "Законодавці переїхали під час канікул, і текст палати дослівно ідентичний законопроекту, який Сенат вже ухвалив 86-11."
+    },
+    {
+      "id": "x-pravda-5ff8ee5e58c0",
+      "title": "Росіяни вдарили по ринку у Слов’янську: 4 поранених",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048231/",
+      "summary": "У Слов'янську російський дрон поцілив у ринок: поранено чотирьох людей, влада закликає до евакуації.",
+      "publishedAt": "2026-08-11T10:49:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили по ринку у Слов’янську: 4 поранених",
+      "summaryUk": "У Слов'янську російський дрон поцілив у ринок: поранено чотирьох людей, влада закликає до евакуації."
+    },
+    {
+      "id": "x-pravda-d8be5f0178ce",
+      "title": "В ЄС відреагували на рішення РФ зняти з виборів єдину антивоєнну партію",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048232/",
+      "summary": "",
+      "publishedAt": "2026-08-11T10:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "В ЄС відреагували на рішення РФ зняти з виборів єдину антивоєнну партію",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-armyinform-96b8e11fb667",
+      "title": "Російському генералу, який керував ударами по українській енергетиці, повідомлено про підозру",
+      "url": "https://armyinform.com.ua/2026/08/11/rosijskomu-generalu-yakyj-keruvav-udaramy-po-ukrayinskij-energetyczi-povidomleno-pro-pidozru/",
+      "summary": "Про це у вівторок, 11 серпня, повідомили в СБУ. Як зазначається, йдеться про начальника управління будівництва та розвитку БПЛА генерального...",
+      "publishedAt": "2026-08-11T10:47:31.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російському генералу, який керував ударами по українській енергетиці, повідомлено про підозру",
+      "summaryUk": "Про це у вівторок, 11 серпня, повідомили в СБУ. Як зазначається, йдеться про начальника управління будівництва та розвитку БПЛА генерального..."
+    },
+    {
+      "id": "x-armyinform-533c76df16bc",
+      "title": "Не встигають розгорнути триколори: на Костянтинівському напрямку окупанти гинуть задовго до «флаговтику»",
+      "url": "https://armyinform.com.ua/2026/08/11/ne-vstygayut-rozgornuty-trykolory-na-kostyantynivskomu-napryamku-okupanty-gynut-zadovgo-do-flagovtyku/",
+      "summary": "Відео було оприлюднене 11 серпня на каналі бригади. Росіяни дуже люблять історії про «закріпилися», «просунулися» і неодмінно десь вивісили свій...",
+      "publishedAt": "2026-08-11T10:38:18.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Не встигають розгорнути триколори: на Костянтинівському напрямку окупанти гинуть задовго до «флаговтику»",
+      "summaryUk": "Відео було оприлюднене 11 серпня на каналі бригади. Росіяни дуже люблять історії про «закріпилися», «просунулися» і неодмінно десь вивісили свій..."
+    },
+    {
+      "id": "x-pravda-0bf3418be2b8",
+      "title": "Позапланова перевірка на Полтавщині: що насправді відбувається з харчуванням у навчальних центрах ЗСУ",
+      "url": "https://www.pravda.com.ua/columns/2026/08/11/8048058/",
+      "summary": "Виявлено дефіцит кухарів та скарги на якість їжі у військовому центрі. Контроль триває.",
+      "publishedAt": "2026-08-11T10:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Позапланова перевірка на Полтавщині: що насправді відбувається з харчуванням у навчальних центрах ЗСУ",
+      "summaryUk": "Виявлено дефіцит кухарів та скарги на якість їжі у військовому центрі. Контроль триває."
+    },
+    {
+      "id": "x-pravda-4b6f927a36cb",
+      "title": "\"Мадяр\" підтвердив удар СБС по логістичному хабу Wildberries у Воронежі РФ",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048225/",
+      "summary": "Командувач СБС Бровді підтвердив удар по логістичному хабу Wildberries у Воронежі та низку атак на інші об’єкти РФ.",
+      "publishedAt": "2026-08-11T10:22:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "\"Мадяр\" підтвердив удар СБС по логістичному хабу Wildberries у Воронежі РФ",
+      "summaryUk": "Командувач СБС Бровді підтвердив удар по логістичному хабу Wildberries у Воронежі та низку атак на інші об’єкти РФ."
+    },
+    {
+      "id": "x-armyinform-e19f2f085ccd",
+      "title": "«Тиждень підготовки, місяць на фронті, полон»: під Покровськом росіяни кидають у бій новобранців",
+      "url": "https://armyinform.com.ua/2026/08/11/tyzhden-pidgotovky-misyacz-na-fronti-polon-pid-pokrovskom-rosiyany-kydayut-u-bij-novobrancziv/",
+      "summary": "Про це на стрімі Армія TV розповів речник 425-го штурмового полку «Скеля» Владислав Малько. «Попри високі втрати, ворог продовжує штовхати...",
+      "publishedAt": "2026-08-11T10:19:27.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Тиждень підготовки, місяць на фронті, полон»: під Покровськом росіяни кидають у бій новобранців",
+      "summaryUk": "Про це на стрімі Армія TV розповів речник 425-го штурмового полку «Скеля» Владислав Малько. «Попри високі втрати, ворог продовжує штовхати..."
+    },
+    {
+      "id": "x-euromaidan-84114a0f754c",
+      "title": "From builder to the eyes of Ukraine&#8217;s front: the soldier with the callsign Dancer who went from Soviet launchers to drones",
+      "url": "https://euromaidanpress.com/2026/08/11/from-builder-to-the-eyes-of-ukraines-front-the-soldier-with-the-callsign-dancer-who-went-from-soviet-launchers-to-drones/",
+      "summary": "When Russia's full-scale invasion began on 24 February 2022, Fedir was 22 and responsible for the generators that kept a Soviet S-300 battery firing. Now he is flying drones on the zero line, the point of closest contact with Russian forces.",
+      "publishedAt": "2026-08-11T10:05:41.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Від будівельника до очей українського фронту: солдат із позивним Танцор, який пройшов шлях від радянських пускових установок до безпілотників",
+      "summaryUk": "Коли 24 лютого 2022 року почалося повномасштабне вторгнення Росії, Федіру було 22 роки, і він відповідав за генератори, які підтримували вогонь радянської батареї С-300. Зараз він керує безпілотниками на нульовій лінії, точці найближчого контакту з російськими військами."
+    },
+    {
+      "id": "x-pravda-a8b22d010bd5",
+      "title": "Тепло і короткочасний дощ на південному сході – погода на 12-14 серпня",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048222/",
+      "summary": "В Україні переважно сухо і тепло, дощі можливі лише 12 серпня на південному сході. Детальний прогноз погоди.",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Тепло і короткочасний дощ на південному сході – погода на 12-14 серпня",
+      "summaryUk": "В Україні переважно сухо і тепло, дощі можливі лише 12 серпня на південному сході. Детальний прогноз погоди."
+    },
+    {
+      "id": "x-euromaidan-58f640d1e8b6",
+      "title": "Two Russian refineries burn &#8211; Orsk hit by drones 1,500 km out, Komsomolsk ablaze 6,500 km east",
+      "url": "https://euromaidanpress.com/2026/08/11/two-russian-refineries-burn-orsk-hit-by-drones-1500-km-out-komsomolsk-ablaze-6500-km-east/",
+      "summary": "Explosions rocked Orenburg Oblast before flames engulfed a Rosneft plant in Khabarovsk, as monitoring channels flagged the second blaze as possible sabotage.",
+      "publishedAt": "2026-08-11T09:55:19.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Горять два російських нафтопереробних заводи – Орськ збитий безпілотниками за 1500 км, Комсомольськ горить за 6500 км на схід",
+      "summaryUk": "Вибухи прогриміли в Оренбурзькій області перед тим, як полум'я охопило завод \"Роснефти\" в Хабаровську, оскільки канали моніторингу помітили другу пожежу як можливу диверсію."
+    },
+    {
+      "id": "x-armyinform-814a9cf463eb",
+      "title": "Операція «Чисте небо»: за два місяці стали збивати майже наполовину більше російських «крил»",
+      "url": "https://armyinform.com.ua/2026/08/11/operacziya-chyste-nebo-za-dva-misyaczi-staly-zbyvaty-majzhe-napolovynu-bilshe-rosijskyh-kryl/",
+      "summary": "Про це повідомило 11 серпня Міністерство оборони України. Кількість знищених коптерів за місяць зросла на 42%: з 14 071 у...",
+      "publishedAt": "2026-08-11T09:36:15.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Операція «Чисте небо»: за два місяці стали збивати майже наполовину більше російських «крил»",
+      "summaryUk": "Про це повідомило 11 серпня Міністерство оборони України. Кількість знищених коптерів за місяць зросла на 42%: з 14 071 у..."
+    },
+    {
+      "id": "x-armyinform-ab76f092213e",
+      "title": "Уражено систему ППО, командний пункт та 6 пунктів управління БПЛА ворога — Генштаб ЗСУ",
+      "url": "https://armyinform.com.ua/2026/08/11/urazheno-systemu-ppo-komandnyj-punkt-ta-6-punktiv-upravlinnya-bpla-voroga-genshtab-zsu/",
+      "summary": "Про це повідомив 11 серпня Генеральний штаб ЗСУ. Сили оборони України системно уражають ключові цілі противника, послідовно знижуючи його спроможності...",
+      "publishedAt": "2026-08-11T09:22:35.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Уражено систему ППО, командний пункт та 6 пунктів управління БПЛА ворога — Генштаб ЗСУ",
+      "summaryUk": "Про це повідомив 11 серпня Генеральний штаб ЗСУ. Сили оборони України системно уражають ключові цілі противника, послідовно знижуючи його спроможності..."
+    },
     {
       "id": "x-armyinform-2f056b1f8e12",
       "title": "Wildberries намагався навести українські БПЛА на свого конкурента Ozon — OSINT-аналітики",
@@ -322,22 +530,6 @@
       "summaryUk": "По Запоріжжю РФ застосувала \"Циркони\", КАБи і ракети з КНДР, є жертви та руйнування."
     },
     {
-      "id": "x-armyinform-c13c204a45f3",
-      "title": "Ворог атакував Запоріжжя балістикою з КНДР — Президент",
-      "url": "https://armyinform.com.ua/2026/08/11/vorog-atakuvav-zaporizhzhya-balistykoyu-z-kndr-%e2%80%94-prezydent/",
-      "summary": "Про це у вівторок, 11 серпня, повідомив у себе у соцмережах Президент України Володимир Зеленський. «З ночі тривають роботи по...",
-      "publishedAt": "2026-08-11T07:44:00.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ворог атакував Запоріжжя балістикою з КНДР — Президент",
-      "summaryUk": "Про це у вівторок, 11 серпня, повідомив у себе у соцмережах Президент України Володимир Зеленський. «З ночі тривають роботи по..."
-    },
-    {
       "id": "x-euromaidan-585be82c1687",
       "title": "With Ukraine short of Patriot interceptors, Russia sees no reason to enter real negotiations, ISW says",
       "url": "https://euromaidanpress.com/2026/08/11/with-ukraine-short-of-patriot-interceptors-russia-sees-no-reason-to-enter-real-negotiations-isw-says/",
@@ -352,22 +544,6 @@
       ],
       "titleUk": "Через брак в України перехоплювачів Patriot Росія не бачить причин вступати в реальні переговори, зазначає ISW",
       "summaryUk": "Військова розвідка попереджає, що протиповітряна оборона Києва, яка скорочується, тепер стикається з новоствореною зброєю, випущеною прямо з конвеєра, а не зі збережених запасів."
-    },
-    {
-      "id": "x-armyinform-61444675280e",
-      "title": "Ухилянт готував ворожі удари по нафтобазах та електростанціях у центрі України — СБУ",
-      "url": "https://armyinform.com.ua/2026/08/11/uhylyant-gotuvav-vorozhi-udary-po-naftobazah-ta-elektrostancziyah-u-czentri-ukrayiny-%e2%80%94-sbu/",
-      "summary": "Про його затримання повідомили у вівторок, 11 серпня, у Службі безпеки України. «Серед пріоритетних „цілей“, які для фігуранта визначив куратор,...",
-      "publishedAt": "2026-08-11T07:26:16.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ухилянт готував ворожі удари по нафтобазах та електростанціях у центрі України — СБУ",
-      "summaryUk": "Про його затримання повідомили у вівторок, 11 серпня, у Службі безпеки України. «Серед пріоритетних „цілей“, які для фігуранта визначив куратор,..."
     },
     {
       "id": "x-euromaidan-820d72af8bb3",
@@ -386,22 +562,6 @@
       "summaryUk": "Молоді пацієнти та медичний персонал дісталися до притулку перед ударом, пощадивши їх, хоча 28-річний чоловік був поранений під час пожежі неподалік."
     },
     {
-      "id": "x-armyinform-f9417ee5fcd9",
-      "title": "«Я хочу навчитися вбивати дронами»: боєць «Філософ» відслужив рік, звільнився, а за 3 дні підписав новий контракт",
-      "url": "https://armyinform.com.ua/2026/08/11/ya-hochu-navchytysya-vbyvaty-dronamy-boyecz-filosof-vidsluzhyv-rik-zvilnyvsya-a-za-3-dni-pidpysav-novyj-kontrakt/",
-      "summary": "Відео розмови з бійцем було оприлюднене 11 серпня на каналі бригади. «Філософу» — 22 роки. Він підписав річний контракт «18-24»...",
-      "publishedAt": "2026-08-11T07:05:23.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Я хочу навчитися вбивати дронами»: боєць «Філософ» відслужив рік, звільнився, а за 3 дні підписав новий контракт",
-      "summaryUk": "Відео розмови з бійцем було оприлюднене 11 серпня на каналі бригади. «Філософу» — 22 роки. Він підписав річний контракт «18-24»..."
-    },
-    {
       "id": "x-pravda-77682f05e081",
       "title": "Російський безпілотник порушив повітряний простір Молдови під час атаки на Одещину",
       "url": "https://www.pravda.com.ua/news/2026/08/11/8048196/",
@@ -418,22 +578,6 @@
       "summaryUk": "Безпілотник РФ на короткий час залетів у повітряний простір Молдови під час атаки на Одещину 10 серпня."
     },
     {
-      "id": "x-armyinform-05b420298269",
-      "title": "Двадцять кілометрів не врятували: «азовці» спалили колону російських штурмовиків у тилу",
-      "url": "https://armyinform.com.ua/2026/08/11/dvadczyat-kilometriv-ne-vryatuvaly-azovczi-spalyly-kolonu-rosijskyh-shturmovykiv-u-tylu/",
-      "summary": "Відео бойової роботи було оприлюднене на каналі бригади, що входить до 1-го корпусу «Азов» Нацгвардії. Окупанти вирішили, що майже 20...",
-      "publishedAt": "2026-08-11T06:49:39.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Двадцять кілометрів не врятували: «азовці» спалили колону російських штурмовиків у тилу",
-      "summaryUk": "Відео бойової роботи було оприлюднене на каналі бригади, що входить до 1-го корпусу «Азов» Нацгвардії. Окупанти вирішили, що майже 20..."
-    },
-    {
       "id": "x-euromaidan-2a10e3c1520e",
       "title": "Table tennis restored Russia’s flag while Russia’s invasion of Ukraine continues",
       "url": "https://euromaidanpress.com/2026/08/11/russia-flag-returns-table-tennis-malmo/",
@@ -448,54 +592,6 @@
       ],
       "titleUk": "Настільний теніс відновив російський прапор, а російське вторгнення в Україну триває",
       "summaryUk": "Швед Антон Келлберг зустрінеться з росіянином Володимиром Сидоренком у Мальме, першим росіянином, який виступатиме під його прапором після того, як знято заборону на настільний теніс під час війни."
-    },
-    {
-      "id": "x-pravda-f9d82cddf5dc",
-      "title": "Російська дезінформація – у Польщі спростували, що українець напав на підлітка",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048193/",
-      "summary": "Нападником на польського підлітка був інший поляк, я не українець, як це припускали у коментарях у соцмережах, заявили в МВС Польщі, назвавши подібні неперевірені чутки російською дезінформацією.",
-      "publishedAt": "2026-08-11T06:42:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російська дезінформація – у Польщі спростували, що українець напав на підлітка",
-      "summaryUk": "Нападником на польського підлітка був інший поляк, я не українець, як це припускали у коментарях у соцмережах, заявили в МВС Польщі, назвавши подібні неперевірені чутки російською дезінформацією."
-    },
-    {
-      "id": "x-pravda-bfb0e1edf6ac",
-      "title": "РФ атакувала Київ і Запоріжжя \"Цирконами\" та балістикою: Повітряні сили не назвали кількість ракет",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048189/",
-      "summary": "У ніч на 11 серпня росія атакувала Україну ракетами й дронами, ППО знищила 98 БпЛА, є влучання та постраждалі.",
-      "publishedAt": "2026-08-11T06:15:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "РФ атакувала Київ і Запоріжжя \"Цирконами\" та балістикою: Повітряні сили не назвали кількість ракет",
-      "summaryUk": "У ніч на 11 серпня росія атакувала Україну ракетами й дронами, ППО знищила 98 БпЛА, є влучання та постраждалі."
-    },
-    {
-      "id": "x-pravda-a9f21e9959dd",
-      "title": "За минулу добу на фронті зафіксували 212 боєзіткнень, 26 атак – на Костянтинівському напрямку",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048186/",
-      "summary": "ЗСУ за добу відбили 212 атак російських військ, найбільше боїв — на Костянтинівському та Покровському напрямках.",
-      "publishedAt": "2026-08-11T05:15:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "За минулу добу на фронті зафіксували 212 боєзіткнень, 26 атак – на Костянтинівському напрямку",
-      "summaryUk": "ЗСУ за добу відбили 212 атак російських військ, найбільше боїв — на Костянтинівському та Покровському напрямках."
     },
     {
       "id": "x-euromaidan-245c65075404",
@@ -531,7 +627,7 @@
     },
     {
       "id": "x-euromaidan-4572f52954ce",
-      "title": "Russia&#8217;s playbook for taking Ukrainian cities needs more troops than Russia has",
+      "title": "Russia squeezes the flanks, then infiltrates the middle. Around Kramatorsk, it can&#8217;t do both",
       "url": "https://euromaidanpress.com/2026/08/11/kramatorsk-disruption/",
       "summary": "Russia knows how to take a Ukrainian city. Around Kramatorsk it does not have the infantry to run the method.",
       "publishedAt": "2026-08-10T21:24:22.000Z",
@@ -542,7 +638,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Russia&#8217;s playbook for taking Ukrainian cities needs more troops than Russia has",
+      "titleUk": "Росія стискає фланги, потім проникає в середину. Навколо Краматорська не може і того, і іншого",
       "summaryUk": "Росія знає, як взяти українське місто. Навколо Краматорська не має піхоти, щоб керувати методом."
     },
     {
@@ -559,7 +655,7 @@
         "UKRAINE"
       ],
       "titleUk": "Нова українська платформа ШІ тренує зброю на п’яти мільйонах кадрів, знятих дроном. Ним також можуть скористатися країни-партнери",
-      "summaryUk": "Ukraine's Defense Ministry opened Avengers Labs, an AI-training platform built on battlefield data."
+      "summaryUk": "Міністерство оборони України відкрило Avengers Labs – навчальну платформу зі штучним інтелектом, створену на основі даних з поля бою."
     },
     {
       "id": "x-euromaidan-57497fecd61e",
@@ -848,54 +944,6 @@
       ],
       "titleUk": "До України почали надходити нові іранські боєприпаси, стверджує аналітик. Він створений для удару глибоко ззаду",
       "summaryUk": "Іран вдосконалює свої безпілотники-камікадзе Shahed-107 за мотивами війни в Україні, додаючи осколкові елементи."
-    },
-    {
-      "id": "x-euromaidan-baf4755cb0af",
-      "title": "ISW: Russia strikes the Mayaki bridge linking southern Ukraine to Romania and Moldova",
-      "url": "https://euromaidanpress.com/2026/08/10/isw-russia-strikes-the-mayaki-bridge-linking-southern-ukraine-to-romania-and-moldova/",
-      "summary": "Moscow's overnight hit on the M-15 highway forced Kyiv to halt traffic toward the Danube ports, its main grain outlet after sea exports collapsed.",
-      "publishedAt": "2026-08-10T10:51:36.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ISW: Росія завдала удару по мосту Маяки, що з’єднує південь України з Румунією та Молдовою",
-      "summaryUk": "Нічний удар Москви по автомагістралі М-15 змусив Київ припинити рух у бік дунайських портів, головного місця виходу зерна після падіння морського експорту."
-    },
-    {
-      "id": "x-euromaidan-48c44206929c",
-      "title": "Zaluzhnyi, Fedorov, and Budanov lead Ukraine&#8217;s trust ranking as Zelenskyy places fourth &#8211; KIIS",
-      "url": "https://euromaidanpress.com/2026/08/10/zaluzhnyi-fedorov-and-budanov-lead-ukraines-trust-ranking-as-zelenskyy-places-fourth-kiis/",
-      "summary": "Three of Ukraine's most recognizable wartime figures now command the strongest public confidence, a late-July sociological study found, even as the president's standing lags noticeably behind.",
-      "publishedAt": "2026-08-10T10:36:42.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Залужний, Федоров і Буданов очолили рейтинг довіри в Україні, Зеленський посів четверте – КМІС",
-      "summaryUk": "Соціологічне дослідження, проведене наприкінці липня, показало, що троє найвідоміших діячів України воєнного часу зараз користуються найбільшою довірою суспільства, навіть якщо авторитет президента помітно відстає."
-    },
-    {
-      "id": "x-euromaidan-f6d780a51506",
-      "title": "Zelenskyy says Russia could receive up to 50,000 North Korean troops",
-      "url": "https://euromaidanpress.com/2026/08/10/zelenskyy-says-russia-could-receive-up-to-50000-north-korean-troops/",
-      "summary": "Kyiv says North Korean deployment numbers have grown from hundreds to tens of thousands within roughly two months, according to Ukrainian estimates.",
-      "publishedAt": "2026-08-10T10:26:39.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський каже, що Росія може прийняти до 50 тисяч північнокорейських військових",
-      "summaryUk": "Київ каже, що, згідно з українськими оцінками, кількість військовослужбовців Північної Кореї зросла з сотень до десятків тисяч протягом приблизно двох місяців."
     }
   ]
 }
