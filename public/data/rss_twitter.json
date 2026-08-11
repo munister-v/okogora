@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:15:25.779Z",
+  "generatedAt": "2026-08-11T17:10:47.537Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,214 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-ba3d3bc228d3",
+      "title": "Трамп: Росія звільняє ув’язненого американського морпіха без обміну",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048293/",
+      "summary": "Президент США Дональд Трамп заявив, що Росія погодилася звільнити колишнього морського піхотинця США Роберта Гілмана, ув'язненого у РФ у 2022 році.",
+      "publishedAt": "2026-08-11T17:04:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Трамп: Росія звільняє ув’язненого американського морпіха без обміну",
+      "summaryUk": "Президент США Дональд Трамп заявив, що Росія погодилася звільнити колишнього морського піхотинця США Роберта Гілмана, ув'язненого у РФ у 2022 році."
+    },
+    {
+      "id": "x-euromaidan-e1395ca90c62",
+      "title": "Russia&#8217;s tank shield shot down seven drones—Ukraine destroyed the tank anyway",
+      "url": "https://euromaidanpress.com/2026/08/11/russias-tank-shield-shot-down-seven-drones-ukraine-destroyed-the-tank-anyway/",
+      "summary": "Russia's Arena-M shield knocked seven drones out of the air on one tank, then ran dry.",
+      "publishedAt": "2026-08-11T16:52:36.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російський танковий щит збив сім безпілотників — Україна все одно знищила танк",
+      "summaryUk": "Російський щит «Арена-М» збив з повітря сім безпілотників на одному танку, після чого засох."
+    },
+    {
+      "id": "x-armyinform-4d1033ae3bb4",
+      "title": "Магніт із жорсткого диска і трофейний АК: як у Президентській бригаді створили дрон-кулеметник",
+      "url": "https://armyinform.com.ua/2026/08/11/magnit-iz-zhorstkogo-dyska-i-trofejnyj-ak-yak-u-prezydentskij-brygadi-stvoryly-dron-kulemetnyk/",
+      "summary": "Про це йдеться у публікації на сторінці Окремої президентської бригади імені гетьмана Богдана Хмельницького. Ідея народилася, коли бійці отримали від волонтерів важкий дрон...",
+      "publishedAt": "2026-08-11T16:52:24.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Магніт із жорсткого диска і трофейний АК: як у Президентській бригаді створили дрон-кулеметник",
+      "summaryUk": "Про це йдеться у публікації на сторінці Окремої президентської бригади імені гетьмана Богдана Хмельницького. Ідея народилася, коли бійці отримали від волонтерів важкий дрон..."
+    },
+    {
+      "id": "x-pravda-3c527751cae0",
+      "title": "Трамп розповів про свої варіанти дій у війні з Іраном",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048289/",
+      "summary": "",
+      "publishedAt": "2026-08-11T16:35:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Трамп розповів про свої варіанти дій у війні з Іраном",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-armyinform-d1ff7ea5bce7",
+      "title": "Скотч, шнурок і трохи фізики: у 155-й бригаді придумали «удочку» проти російських «ждунів»",
+      "url": "https://armyinform.com.ua/2026/08/11/skotch-shnurok-i-trohy-fizyky-u-155-j-brygadi-prydumaly-udochku-proty-rosijskyh-zhduniv/",
+      "summary": "Про це йдеться у сюжеті, опублікованому на YouTube-каналі бригади. Екіпаж безпілотних авіаційних комплексів 155-ї окремої механізованої бригади імені Анни Київської працює на Покровському напрямку. Одне з головних завдань — перехоплення...",
+      "publishedAt": "2026-08-11T16:34:41.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Скотч, шнурок і трохи фізики: у 155-й бригаді придумали «удочку» проти російських «ждунів»",
+      "summaryUk": "Про це йдеться у сюжеті, опублікованому на YouTube-каналі бригади. Екіпаж безпілотних авіаційних комплексів 155-ї окремої механізованої бригади імені Анни Київської працює на Покровському напрямку. Одне з головних завдань — перехоплення..."
+    },
+    {
+      "id": "x-pravda-78821fa7b76c",
+      "title": "ОП: Після повернення останки Коновальця відправлять на КТ, МРТ та інші процедури",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048288/",
+      "summary": "Після повернення до України останки полковника Армії УНР та першого голови Організації українських націоналістів Євгена Коновальця будуть досліджуватися низкою науковців.",
+      "publishedAt": "2026-08-11T16:26:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ОП: Після повернення останки Коновальця відправлять на КТ, МРТ та інші процедури",
+      "summaryUk": "Після повернення до України останки полковника Армії УНР та першого голови Організації українських націоналістів Євгена Коновальця будуть досліджуватися низкою науковців."
+    },
+    {
+      "id": "x-armyinform-a64f3b357e3b",
+      "title": "Як виробнику кодифікувати елементи ОВТ для Сил оборони: МОУ пояснило процедуру",
+      "url": "https://armyinform.com.ua/2026/08/11/yak-vyrobnyku-kodyfikuvaty-elementy-ovt-dlya-syl-oborony-mou-poyasnylo-proczeduru/",
+      "summary": "Про це йдеться на сайті МОУ. Кодифікація озброєння та військової техніки (ОВТ) — це процес набуття предметом виробництва статусу предмета постачання та упорядкування інформації про нього. Кодифікація...",
+      "publishedAt": "2026-08-11T16:12:14.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Як виробнику кодифікувати елементи ОВТ для Сил оборони: МОУ пояснило процедуру",
+      "summaryUk": "Про це йдеться на сайті МОУ. Кодифікація озброєння та військової техніки (ОВТ) — це процес набуття предметом виробництва статусу предмета постачання та упорядкування інформації про нього. Кодифікація..."
+    },
+    {
+      "id": "x-euromaidan-030944e9aef6",
+      "title": "Sweden detains Russians who &#8220;camped&#8221; near home of CEO of Gripen jets Ukraine is buying",
+      "url": "https://euromaidanpress.com/2026/08/11/sweden-detains-russians-who-camped-near-home-of-ceo-of-gripen-jets-ukraine-is-buying/",
+      "summary": "Micael Johansson is under personal protection.",
+      "publishedAt": "2026-08-11T16:03:50.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Швеції затримали росіян, які «таборували» біля дому гендиректора компанії Gripen jets, яку купує Україна",
+      "summaryUk": "Мікаель Йоханссон знаходиться під особистою охороною."
+    },
+    {
+      "id": "x-armyinform-1f96633f1802",
+      "title": "Українська військова медицина на найбільшому світовому форумі: делегація ЗСУ взяла участь у MHSRS-2026",
+      "url": "https://armyinform.com.ua/2026/08/11/ukrayinska-vijskova-medyczyna-na-najbilshomu-svitovomu-forumi-delegacziya-zsu-vzyala-uchast-u-mhsrs-2026/",
+      "summary": "Про це повідомив Генеральний штаб ЗСУ. Форум зібрав представників близько 36 країн світу. Головний хірург Збройних Сил України полковник медичної...",
+      "publishedAt": "2026-08-11T15:56:58.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українська військова медицина на найбільшому світовому форумі: делегація ЗСУ взяла участь у MHSRS-2026",
+      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Форум зібрав представників близько 36 країн світу. Головний хірург Збройних Сил України полковник медичної..."
+    },
+    {
+      "id": "x-euromaidan-c6d75d344436",
+      "title": "North Korean ballistic missile kills 7 steelworkers on their way to shelter, shuts down Zaporizhstal plant",
+      "url": "https://euromaidanpress.com/2026/08/11/north-korean-ballistic-missile-strike-kills-7-steelworkers/",
+      "summary": "The strike comes as Russia expands its use of North Korean KN-23 and KN-24 ballistic missiles, which are harder for Ukraine to intercept and have been linked to deadly attacks on civilians.",
+      "publishedAt": "2026-08-11T15:44:16.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Північнокорейська балістична ракета вбила 7 металургів по дорозі в укриття, зупинила Запоріжсталь",
+      "summaryUk": "Удар стався в той момент, коли Росія розширює використання північнокорейських балістичних ракет KN-23 і KN-24, які Україні важче перехопити і які пов’язані зі смертоносними нападами на цивільне населення."
+    },
+    {
+      "id": "x-pravda-7ce6347b20f4",
+      "title": "ДСНС отримала від Німеччини пакет техніки на 5,7 млн євро",
+      "url": "https://www.pravda.com.ua/news/2026/08/11/8048284/",
+      "summary": "Німеччина передала пакет допомоги Державній службі України з надзвичайних ситуацій (ДСНС) на суму 5,7 млн євро; зокрема туди увійшли роботизовані комплекси.",
+      "publishedAt": "2026-08-11T15:44:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ДСНС отримала від Німеччини пакет техніки на 5,7 млн євро",
+      "summaryUk": "Німеччина передала пакет допомоги Державній службі України з надзвичайних ситуацій (ДСНС) на суму 5,7 млн євро; зокрема туди увійшли роботизовані комплекси."
+    },
+    {
+      "id": "x-armyinform-7d9c54c3d99c",
+      "title": "Двоє людей загинуло внаслідок російського удару по автоцистерні на Одещині",
+      "url": "https://armyinform.com.ua/2026/08/11/dvoye-lyudej-zagynulo-vnaslidok-rosijskogo-udaru-po-avtoczysterni-na-odeshhyni/",
+      "summary": "Про це повідомив 11 серпня начальник Одеської обласної військової адміністрації Олег Кіпер. За його даними, ще троє постраждали.  Унаслідок удару...",
+      "publishedAt": "2026-08-11T15:34:52.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Двоє людей загинуло внаслідок російського удару по автоцистерні на Одещині",
+      "summaryUk": "Про це повідомив 11 серпня начальник Одеської обласної військової адміністрації Олег Кіпер. За його даними, ще троє постраждали.  Унаслідок удару..."
+    },
+    {
+      "id": "x-euromaidan-e6ea2e3bd6bf",
+      "title": "Ukraine&#8217;s newest interceptor doesn&#8217;t ram its target. It nets it for $27, then flies home to catch another",
+      "url": "https://euromaidanpress.com/2026/08/11/ukraines-newest-interceptor-doesnt-ram-its-target-it-nets-it-for-27-then-flies-home-to-catch-another/",
+      "summary": "Ukraine's WINFLY unveiled the Spider, an interceptor drone with a net-launcher.",
+      "publishedAt": "2026-08-11T15:19:34.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Новітній український перехоплювач не таранить ціль. Він збирає його за 27 доларів, а потім летить додому, щоб зловити іншого",
+      "summaryUk": "Український WINFLY представив безпілотний літальний апарат-перехоплювач Spider із сітковою пусковою установкою."
+    },
     {
       "id": "x-armyinform-7c186ebdfb0f",
       "title": "Дрони «Азову» спалили колону росіян, ССО захопили полоненого, окупант застрягнув у вікні: стрім",
@@ -306,38 +514,6 @@
       "summaryUk": "Київ випробовує нову систему радіоелектронної боротьби, покликану завадити дешевим російським безпілотникам FPV знищувати дорогі українські важкі бомбардувальники."
     },
     {
-      "id": "x-armyinform-40a9c1b5402f",
-      "title": "«Оса» проти «Герані»: зенітники вполювали реактивний російський дрон",
-      "url": "https://armyinform.com.ua/2026/08/11/osa-proty-gerani-zenitnyky-vpolyuvaly-reaktyvnyj-rosijskyj-dron/",
-      "summary": "Відео бойової роботи було оприлюднене 11 серпня на каналі полку. Ворог намагається змінювати тактику та випробовує свої нові розробки. Оскільки...",
-      "publishedAt": "2026-08-11T13:16:24.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Оса» проти «Герані»: зенітники вполювали реактивний російський дрон",
-      "summaryUk": "Відео бойової роботи було оприлюднене 11 серпня на каналі полку. Ворог намагається змінювати тактику та випробовує свої нові розробки. Оскільки..."
-    },
-    {
-      "id": "x-armyinform-4848e2f462b9",
-      "title": "Перетворили на брухт: як FPV-дрони позбавили окупантів гармати та мотоциклів",
-      "url": "https://armyinform.com.ua/2026/08/11/peretvoryly-na%c2%a0bruht-yak%c2%a0fpv-drony-pozbavyly-okupantiv-garmaty-ta%c2%a0motoczykliv/",
-      "summary": "Відео бойової роботи з’явилося на сайті Держприкордонслужби. На Придніпровському напрямку дронарі методично нищать техніку та позиції окупантів. Під час виконання бойових завдань оператори...",
-      "publishedAt": "2026-08-11T12:57:03.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Перетворили на брухт: як FPV-дрони позбавили окупантів гармати та мотоциклів",
-      "summaryUk": "Відео бойової роботи з’явилося на сайті Держприкордонслужби. На Придніпровському напрямку дронарі методично нищать техніку та позиції окупантів. Під час виконання бойових завдань оператори..."
-    },
-    {
       "id": "x-euromaidan-16502c28e137",
       "title": "Russia&#8217;s Syrian foothold shrinks to a training center as Damascus takes back the airport and a berth",
       "url": "https://euromaidanpress.com/2026/08/11/russias-syrian-foothold-shrinks-to-a-training-center-as-damascus-takes-back-the-airport-and-a-berth/",
@@ -384,38 +560,6 @@
       ],
       "titleUk": "\"Найкращий дрон, який не злітає\": німецькій розвідці хочуть дозволити превентивні кібератаки проти РФ",
       "summaryUk": "Бундестаг обговорює повноваження німецьких спецслужб для кібератак по російських дронах."
-    },
-    {
-      "id": "x-armyinform-fa5dee8a80f3",
-      "title": "Копіюють роботу Коордштабу: як росія виманює дані в родин військовополонених",
-      "url": "https://armyinform.com.ua/2026/08/11/kopiyuyut-robotu-koordshtabu-yak-rosiya-vymanyuye-dani-v-rodyn-vijskovopolonenyh/",
-      "summary": "Про це заявили в Координаційному штабі з питань поводження з військовополоненими 11 серпня. «Вони намагаються копіювати принципи роботи проєктів Координаційного штабу, але зі злочинною метою: впливати на родини...",
-      "publishedAt": "2026-08-11T12:32:59.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Копіюють роботу Коордштабу: як росія виманює дані в родин військовополонених",
-      "summaryUk": "Про це заявили в Координаційному штабі з питань поводження з військовополоненими 11 серпня. «Вони намагаються копіювати принципи роботи проєктів Координаційного штабу, але зі злочинною метою: впливати на родини..."
-    },
-    {
-      "id": "x-armyinform-70d446901dfa",
-      "title": "«Ми навіть викопали колодязь»: як прикордонник провів 115 днів на позиціях",
-      "url": "https://armyinform.com.ua/2026/08/11/my-navit-vykopaly-kolodyaz-yak-prykordonnyk-proviv-115-dniv-na-pozycziyah/",
-      "summary": "Про нього розповіли на сторінці ДПСУ. Михайло після навчання працював за кордоном у будівельній сфері, а у 2020 році підписав контракт із Державною прикордонною службою України. Службу розпочав...",
-      "publishedAt": "2026-08-11T12:13:42.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Ми навіть викопали колодязь»: як прикордонник провів 115 днів на позиціях",
-      "summaryUk": "Про нього розповіли на сторінці ДПСУ. Михайло після навчання працював за кордоном у будівельній сфері, а у 2020 році підписав контракт із Державною прикордонною службою України. Службу розпочав..."
     },
     {
       "id": "x-euromaidan-bf66c3a6078e",
@@ -498,54 +642,6 @@
       "summaryUk": "У Слов'янську російський дрон поцілив у ринок: поранено 6 людей, влада закликає до евакуації."
     },
     {
-      "id": "x-pravda-d8be5f0178ce",
-      "title": "В ЄС відреагували на рішення РФ зняти з виборів єдину антивоєнну партію",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048232/",
-      "summary": "",
-      "publishedAt": "2026-08-11T10:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "В ЄС відреагували на рішення РФ зняти з виборів єдину антивоєнну партію",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-0bf3418be2b8",
-      "title": "Позапланова перевірка на Полтавщині: що насправді відбувається з харчуванням у навчальних центрах ЗСУ",
-      "url": "https://www.pravda.com.ua/columns/2026/08/11/8048058/",
-      "summary": "Виявлено дефіцит кухарів та скарги на якість їжі у військовому центрі. Контроль триває.",
-      "publishedAt": "2026-08-11T10:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Позапланова перевірка на Полтавщині: що насправді відбувається з харчуванням у навчальних центрах ЗСУ",
-      "summaryUk": "Виявлено дефіцит кухарів та скарги на якість їжі у військовому центрі. Контроль триває."
-    },
-    {
-      "id": "x-pravda-4b6f927a36cb",
-      "title": "\"Мадяр\" підтвердив удар СБС по логістичному хабу Wildberries у Воронежі РФ",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048225/",
-      "summary": "Командувач СБС Бровді підтвердив удар по логістичному хабу Wildberries у Воронежі та низку атак на інші об’єкти РФ.",
-      "publishedAt": "2026-08-11T10:22:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "\"Мадяр\" підтвердив удар СБС по логістичному хабу Wildberries у Воронежі РФ",
-      "summaryUk": "Командувач СБС Бровді підтвердив удар по логістичному хабу Wildberries у Воронежі та низку атак на інші об’єкти РФ."
-    },
-    {
       "id": "x-euromaidan-84114a0f754c",
       "title": "From builder to the eyes of Ukraine&#8217;s front: the soldier with the callsign Dancer who went from Soviet launchers to drones",
       "url": "https://euromaidanpress.com/2026/08/11/from-builder-to-the-eyes-of-ukraines-front-the-soldier-with-the-callsign-dancer-who-went-from-soviet-launchers-to-drones/",
@@ -560,22 +656,6 @@
       ],
       "titleUk": "Від будівельника до очей українського фронту: солдат із позивним Танцор, який пройшов шлях від радянських пускових установок до безпілотників",
       "summaryUk": "Коли 24 лютого 2022 року почалося повномасштабне вторгнення Росії, Федіру було 22 роки, і він відповідав за генератори, які підтримували вогонь радянської батареї С-300. Зараз він керує безпілотниками на нульовій лінії, точці найближчого контакту з російськими військами."
-    },
-    {
-      "id": "x-pravda-a8b22d010bd5",
-      "title": "Тепло і короткочасний дощ на південному сході – погода на 12-14 серпня",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048222/",
-      "summary": "В Україні переважно сухо і тепло, дощі можливі лише 12 серпня на південному сході. Детальний прогноз погоди.",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Тепло і короткочасний дощ на південному сході – погода на 12-14 серпня",
-      "summaryUk": "В Україні переважно сухо і тепло, дощі можливі лише 12 серпня на південному сході. Детальний прогноз погоди."
     },
     {
       "id": "x-euromaidan-58f640d1e8b6",
@@ -816,70 +896,6 @@
       ],
       "titleUk": "«Привітальний бонус» у розмірі 20 000 доларів США, який так і не був виплачений: як вербувальник, зареєстрований у Колумбії, відправив перуанців на війну з Росією",
       "summaryUk": "Росія обманом залучила до своєї армії понад 450 громадян Перу, деякі з них уже вбиті."
-    },
-    {
-      "id": "x-euromaidan-0b05672e9d52",
-      "title": "Ukraine&#8217;s cardboard protests look like democracy working. In a war, that&#8217;s also the risk.",
-      "url": "https://euromaidanpress.com/2026/08/10/ukraines-cardboard-protests-look-like-democracy-working-in-a-war-thats-also-the-risk/",
-      "summary": "Three weeks on, the protests go on—smaller but daily. Fedorov's old seat is filled by an acting minister, and Fedorov himself won't join the crowds demanding his return.",
-      "publishedAt": "2026-08-10T17:10:57.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Картонні протести в Україні схожі на працюючу демократію. На війні це теж ризик.",
-      "summaryUk": "Через три тижні протести тривають — менші, але щоденні. Старе крісло Федорова займає виконуючий обов'язки міністра, а сам Федоров не приєднається до натовпу, що вимагає його повернення."
-    },
-    {
-      "id": "x-euromaidan-b63530f28ae9",
-      "title": "70 ballistic missiles and 12 launchers: Ukraine lines up deep-strike refill from an unlikely supplier",
-      "url": "https://euromaidanpress.com/2026/08/10/70-ballistic-missiles-and-12-launchers-ukraine-lines-up-deep-strike-refill-from-an-unlikely-supplier/",
-      "summary": "70 ballistic missiles and 12 launchers: Ukraine lines up a deep-strike refill from an unlikely supplier\nThe M39 ATACMS flies about 165 kilometers the short-range original, carrying a warhead that scatters 950 bomblets over troops and air defenses.",
-      "publishedAt": "2026-08-10T17:01:03.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "70 балістичних ракет і 12 пускових установок: Україна готова до поповнення глибокого удару від малоймовірного постачальника",
-      "summaryUk": "70 балістичних ракет і 12 пускових установок: Україна готує поповнення глибокого удару від малоймовірного постачальника\nM39 ATACMS літає приблизно на 165 кілометрів у порівнянні з оригінальним літаком малої дальності, маючи боєголовку, яка розкидає 950 бомб над військами та протиповітряною обороною."
-    },
-    {
-      "id": "x-euromaidan-4d7e8c404a57",
-      "title": "The Atlantic: US firms may fear cheaper Ukrainian Patriots, Republican official says",
-      "url": "https://euromaidanpress.com/2026/08/10/us-firms-fear-cheaper-ukrainian-patriots/",
-      "summary": "A Republican congressional official says intellectual-property concerns may mask fears of Ukraine being able to make Patriots more cheaply and more quickly.",
-      "publishedAt": "2026-08-10T16:41:58.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Атлантика: американські фірми можуть побоюватися дешевших українських патріотів, каже представник Республіканської партії",
-      "summaryUk": "Представник Конгресу від Республіканської партії каже, що занепокоєння інтелектуальною власністю може приховати побоювання щодо того, що Україна зможе зробити Patriot дешевше та швидше."
-    },
-    {
-      "id": "x-euromaidan-b2a92d236d0d",
-      "title": "Occupied Ukraine&#8217;s schools get a new Russian ideology class, a separate military-training track, and behavior grades from 1 September",
-      "url": "https://euromaidanpress.com/2026/08/10/occupied-ukraines-schools-get-a-new-russian-ideology-class-a-separate-military-training-track-and-behavior-grades-from-1-september/",
-      "summary": "Behavior grades for children as young as the second grade, a standalone military-training course, and a compulsory Russian identity subject take effect together across the temporarily occupied territories from 1 September.",
-      "publishedAt": "2026-08-10T16:10:53.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "З 1 вересня в школах окупованої України з’явився новий клас російської ідеології, окремий військовий курс і оцінки за поведінку.",
-      "summaryUk": "З 1 вересня на тимчасово окупованих територіях разом діють оцінки з поведінки для дітей від другого класу, окремий курс військової підготовки та обов’язковий предмет «Росіяни»."
     }
   ]
 }
