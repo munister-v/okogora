@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:41:52.766Z",
+  "generatedAt": "2026-08-12T05:44:41.697Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,182 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-66d35286872c",
+      "title": "Більшість росіян вважає, що українців не існує. УП вивчила архіви ЦРУ про шлях України до незалежності",
+      "url": "https://www.pravda.com.ua/news/2026/08/12/8048303/",
+      "summary": "",
+      "publishedAt": "2026-08-12T05:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Більшість росіян вважає, що українців не існує. УП вивчила архіви ЦРУ про шлях України до незалежності",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-9ad5f7f6ae59",
+      "title": "На фронті за добу було 237 боєзіткнень, майже третина з них – на Покровському та Костянтинівському напрямках",
+      "url": "https://www.pravda.com.ua/news/2026/08/12/8048331/",
+      "summary": "За добу відбулося 237 бойових зіткнень, найскладніша ситуація на Покровському і Костянтинівському напрямках.",
+      "publishedAt": "2026-08-12T05:15:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті за добу було 237 боєзіткнень, майже третина з них – на Покровському та Костянтинівському напрямках",
+      "summaryUk": "За добу відбулося 237 бойових зіткнень, найскладніша ситуація на Покровському і Костянтинівському напрямках."
+    },
+    {
+      "id": "x-armyinform-e1a330cd70ed",
+      "title": "Ворог зосередив свої атаки на Покровському та Костянтинівському напрямках",
+      "url": "https://armyinform.com.ua/2026/08/12/vorog-zoseredyv-svoyi-ataky-na-pokrovskomu-ta-kostyantynivskomu-napryamkah/",
+      "summary": "Про це йдеться у зведенні Генерального штабу ЗСУ з оперативною інформацією станом на 8:00 12 серпня. На Північно-Слобожанському і Курському...",
+      "publishedAt": "2026-08-12T05:10:40.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворог зосередив свої атаки на Покровському та Костянтинівському напрямках",
+      "summaryUk": "Про це йдеться у зведенні Генерального штабу ЗСУ з оперативною інформацією станом на 8:00 12 серпня. На Північно-Слобожанському і Курському..."
+    },
+    {
+      "id": "x-armyinform-95e69611e5b6",
+      "title": "Ворожі втрати за добу становлять 1260 військових та 60 артсистем — Генштаб ЗСУ",
+      "url": "https://armyinform.com.ua/2026/08/12/vorozhi-vtraty-za-dobu-stanovlyat-1260-vijskovyh-ta-60-artsystem-genshtab-zsu/",
+      "summary": "Про це в середу, 12 серпня, повідомили у Генеральному штабі ЗСУ. Отже, загальні бойові втрати противника з 24.02.22 по 12.08.26...",
+      "publishedAt": "2026-08-12T05:04:08.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворожі втрати за добу становлять 1260 військових та 60 артсистем — Генштаб ЗСУ",
+      "summaryUk": "Про це в середу, 12 серпня, повідомили у Генеральному штабі ЗСУ. Отже, загальні бойові втрати противника з 24.02.22 по 12.08.26..."
+    },
+    {
+      "id": "x-euromaidan-dd3d4a1953d3",
+      "title": "Russo-Ukrainian war, day 1630: Chinese modem keeping Russia&#8217;s jam-resistant drones flying",
+      "url": "https://euromaidanpress.com/2026/08/12/russo-ukrainian-war-day-1630-chinese-modem-keeping-russias-jam-resistant-drones-flying/",
+      "summary": "Meanwhile, grain corridors crumble as Russia halves Ukraine's export forecast.",
+      "publishedAt": "2026-08-12T04:55:21.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1630: китайський модем тримає в польоті російські стійкі до перешкод дрони",
+      "summaryUk": "Тим часом зернові коридори руйнуються, оскільки Росія вдвічі знижує прогноз експорту України."
+    },
+    {
+      "id": "x-pravda-fcbc4e92abda",
+      "title": "Влада Краснодарського краю РФ повідомила про атаку \"сотень дронів\": у порту та військовій гавані – пожежі",
+      "url": "https://www.pravda.com.ua/news/2026/08/12/8048329/",
+      "summary": "Атака дронами по Краснодарському краю РФ: Telegram-канали пишуть про масштабні пожежі на нафтовому терміналі та військовому об'єкті. Губернатор заявив про \"падіння уламків\" дронів на 4 підприємства",
+      "publishedAt": "2026-08-12T04:51:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Влада Краснодарського краю РФ повідомила про атаку \"сотень дронів\": у порту та військовій гавані – пожежі",
+      "summaryUk": "Атака дронами по Краснодарському краю РФ: Telegram-канали пишуть про масштабні пожежі на нафтовому терміналі та військовому об'єкті. Губернатор заявив про \"падіння уламків\" дронів на 4 підприємства"
+    },
+    {
+      "id": "x-euromaidan-5e7f40dd2379",
+      "title": "Ukraine&#8217;s first domestically built CBRN scout vehicle just replaced Soviet jeep with no armor at all",
+      "url": "https://euromaidanpress.com/2026/08/12/ukraines-first-domestically-built-cbrn-scout-vehicle-just-replaced-soviet-jeep-with-no-armor-at-all/",
+      "summary": "Ukraine's National Guard received the first Ukrainian radiation and chemical reconnaissance vehicles on the armored Tisa chassis.",
+      "publishedAt": "2026-08-12T04:45:08.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Перша українська ХБРЯ машина-розвідник вітчизняного виробництва прийшла на зміну радянським джипам без броні",
+      "summaryUk": "Національна гвардія України отримала перші українські машини радіаційної та хімічної розвідки на броньованому шасі «Тиса»."
+    },
+    {
+      "id": "x-pravda-315b9a7e433a",
+      "title": "Російські дрони у Херсоні вбили 2 людей та ще 2 поранили",
+      "url": "https://www.pravda.com.ua/news/2026/08/12/8048322/",
+      "summary": "У Херсоні внаслідок атаки безпілотників дві людини загинули, ще двоє отримали поранення.",
+      "publishedAt": "2026-08-12T04:13:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російські дрони у Херсоні вбили 2 людей та ще 2 поранили",
+      "summaryUk": "У Херсоні внаслідок атаки безпілотників дві людини загинули, ще двоє отримали поранення."
+    },
+    {
+      "id": "x-pravda-926aa0eb0209",
+      "title": "Генштаб оновив дані про втрати ворога: мінус ще 1 260 російських окупантів",
+      "url": "https://www.pravda.com.ua/news/2026/08/12/8048321/",
+      "summary": "За минулу добу у війні проти України Росія втратила ще 1 260 військових і 388 одиниць автомобільної техніки та автоцистерн.",
+      "publishedAt": "2026-08-12T03:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб оновив дані про втрати ворога: мінус ще 1 260 російських окупантів",
+      "summaryUk": "За минулу добу у війні проти України Росія втратила ще 1 260 військових і 388 одиниць автомобільної техніки та автоцистерн."
+    },
+    {
+      "id": "x-armyinform-b7b4fde3bc94",
+      "title": "Український «щит» проти броні: військовий експерт розповів про еволюцію вітчизняних ПТКР",
+      "url": "https://armyinform.com.ua/2026/08/12/ukrayinskyj-shhyt-proty-broni-vijskovyj-ekspert-rozpoviv-pro-evolyucziyu-vitchyznyanyh-ptkr/",
+      "summary": "Українські протитанкові керовані ракети давно стали одним із символів вітчизняної оборонної інженерної школи, однак їхня історія почалася задовго до широкомасштабного вторгнення. Як...",
+      "publishedAt": "2026-08-12T03:07:33.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Український «щит» проти броні: військовий експерт розповів про еволюцію вітчизняних ПТКР",
+      "summaryUk": "Українські протитанкові керовані ракети давно стали одним із символів вітчизняної оборонної інженерної школи, однак їхня історія почалася задовго до широкомасштабного вторгнення. Як..."
+    },
+    {
+      "id": "x-pravda-fb21ffbe3e51",
+      "title": "У Києві та низці областей лунала повітряна тривога через загрозу балістики",
+      "url": "https://www.pravda.com.ua/news/2026/08/12/8048320/",
+      "summary": "На світанку 12 серпня у столиці України та низці областей оголосили повітряну тривогу через загрозу ворожої балістики.",
+      "publishedAt": "2026-08-12T02:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві та низці областей лунала повітряна тривога через загрозу балістики",
+      "summaryUk": "На світанку 12 серпня у столиці України та низці областей оголосили повітряну тривогу через загрозу ворожої балістики."
+    },
     {
       "id": "x-pravda-14918f3a638d",
       "title": "Росіян, які б підтримували українську незалежність, немає. Яким бачили життя в Україні агенти ЦРУ – дослідження УП",
@@ -242,54 +418,6 @@
       "summaryUk": "Президент Володимир Зеленський заявив, що переговорна команда передала американській стороні пропозиції щодо подальших дій у російсько-українській війні."
     },
     {
-      "id": "x-pravda-ba0301e61fed",
-      "title": "Генштаб: 185 бойових зіткнень відбулось на фронті з початку доби",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048305/",
-      "summary": "Від початку доби 11 серпня на фронті відбулось 185 бойових зіткнень, з них 34 – на Костянтинівському напрямку.",
-      "publishedAt": "2026-08-11T19:25:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генштаб: 185 бойових зіткнень відбулось на фронті з початку доби",
-      "summaryUk": "Від початку доби 11 серпня на фронті відбулось 185 бойових зіткнень, з них 34 – на Костянтинівському напрямку."
-    },
-    {
-      "id": "x-pravda-e6047e0fd83e",
-      "title": "На Полтавщині зупинив роботу об’єкт газовидобутку через атаку РФ",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048304/",
-      "summary": "Армія РФ атакувала 11 серпня енергетичну інфраструктуру: на Полтавщині зупинив роботу об'єкт газовидобутку.",
-      "publishedAt": "2026-08-11T19:10:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "На Полтавщині зупинив роботу об’єкт газовидобутку через атаку РФ",
-      "summaryUk": "Армія РФ атакувала 11 серпня енергетичну інфраструктуру: на Полтавщині зупинив роботу об'єкт газовидобутку."
-    },
-    {
-      "id": "x-pravda-263d824233b8",
-      "title": "Румунія знищила два дрони біля її газового проєкту в Чорному морі",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048302/",
-      "summary": "Румунські військові у вівторок знищили два дрони типу \"Гербера\", які дрейфували в ексклюзивній економічній зоні Румунії у Чорному морі поблизу морського газового проєкту Neptun Deep.",
-      "publishedAt": "2026-08-11T18:52:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Румунія знищила два дрони біля її газового проєкту в Чорному морі",
-      "summaryUk": "Румунські військові у вівторок знищили два дрони типу \"Гербера\", які дрейфували в ексклюзивній економічній зоні Румунії у Чорному морі поблизу морського газового проєкту Neptun Deep."
-    },
-    {
       "id": "x-euromaidan-75d0652db9d0",
       "title": "&#8220;Faster than originally planned&#8221;: Russia wants 292 Starlink-rival satellites by 2027",
       "url": "https://euromaidanpress.com/2026/08/11/russia-rassvet-satellites-2027/",
@@ -304,22 +432,6 @@
       ],
       "titleUk": "«Швидше, ніж спочатку планувалося»: Росія хоче 292 супутника-конкурента Starlink до 2027 року",
       "summaryUk": "Мережа «Рассвет» вже пропонує короткі підключення, оскільки супутники перетинають Україну. Київ обговорює контрзаходи."
-    },
-    {
-      "id": "x-pravda-0363d7e9f9af",
-      "title": "Зеленський: Розвідка підтверджує, що РФ планує восени мобілізувати сотні тисяч людей",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048298/",
-      "summary": "Президент України Володимир Зеленський повідомляє, що РФ готує після імітації парламентських виборів восени провести додаткову мобілізацію.",
-      "publishedAt": "2026-08-11T17:52:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Розвідка підтверджує, що РФ планує восени мобілізувати сотні тисяч людей",
-      "summaryUk": "Президент України Володимир Зеленський повідомляє, що РФ готує після імітації парламентських виборів восени провести додаткову мобілізацію."
     },
     {
       "id": "x-armyinform-55a513c412fc",
@@ -402,22 +514,6 @@
       "summaryUk": "Про це повідомили в ДСНС України. За даними рятувальників, влучання сталися одразу на трьох локаціях міста. Внаслідок удару пошкоджено та частково зруйновано близько 20 приватних будинків,..."
     },
     {
-      "id": "x-pravda-ba3d3bc228d3",
-      "title": "Трамп: Росія звільняє ув’язненого американського морпіха без обміну",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048293/",
-      "summary": "Президент США Дональд Трамп заявив, що Росія погодилася звільнити колишнього морського піхотинця США Роберта Гілмана, ув'язненого у РФ у 2022 році.",
-      "publishedAt": "2026-08-11T17:04:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп: Росія звільняє ув’язненого американського морпіха без обміну",
-      "summaryUk": "Президент США Дональд Трамп заявив, що Росія погодилася звільнити колишнього морського піхотинця США Роберта Гілмана, ув'язненого у РФ у 2022 році."
-    },
-    {
       "id": "x-euromaidan-e1395ca90c62",
       "title": "Russia&#8217;s tank shield shot down seven drones—Ukraine destroyed the tank anyway",
       "url": "https://euromaidanpress.com/2026/08/11/russias-tank-shield-shot-down-seven-drones-ukraine-destroyed-the-tank-anyway/",
@@ -450,22 +546,6 @@
       "summaryUk": "Про це йдеться у публікації на сторінці Окремої президентської бригади імені гетьмана Богдана Хмельницького. Ідея народилася, коли бійці отримали від волонтерів важкий дрон..."
     },
     {
-      "id": "x-pravda-3c527751cae0",
-      "title": "Трамп розповів про свої варіанти дій у війні з Іраном",
-      "url": "https://www.pravda.com.ua/news/2026/08/11/8048289/",
-      "summary": "",
-      "publishedAt": "2026-08-11T16:35:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп розповів про свої варіанти дій у війні з Іраном",
-      "summaryUk": ""
-    },
-    {
       "id": "x-armyinform-d1ff7ea5bce7",
       "title": "Скотч, шнурок і трохи фізики: у 155-й бригаді придумали «удочку» проти російських «ждунів»",
       "url": "https://armyinform.com.ua/2026/08/11/skotch-shnurok-i-trohy-fizyky-u-155-j-brygadi-prydumaly-udochku-proty-rosijskyh-zhduniv/",
@@ -480,22 +560,6 @@
       ],
       "titleUk": "Скотч, шнурок і трохи фізики: у 155-й бригаді придумали «удочку» проти російських «ждунів»",
       "summaryUk": "Про це йдеться у сюжеті, опублікованому на YouTube-каналі бригади. Екіпаж безпілотних авіаційних комплексів 155-ї окремої механізованої бригади імені Анни Київської працює на Покровському напрямку. Одне з головних завдань — перехоплення..."
-    },
-    {
-      "id": "x-armyinform-a64f3b357e3b",
-      "title": "Як виробнику кодифікувати елементи ОВТ для Сил оборони: МОУ пояснило процедуру",
-      "url": "https://armyinform.com.ua/2026/08/11/yak-vyrobnyku-kodyfikuvaty-elementy-ovt-dlya-syl-oborony-mou-poyasnylo-proczeduru/",
-      "summary": "Про це йдеться на сайті МОУ. Кодифікація озброєння та військової техніки (ОВТ) — це процес набуття предметом виробництва статусу предмета постачання та упорядкування інформації про нього. Кодифікація...",
-      "publishedAt": "2026-08-11T16:12:14.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Як виробнику кодифікувати елементи ОВТ для Сил оборони: МОУ пояснило процедуру",
-      "summaryUk": "Про це йдеться на сайті МОУ. Кодифікація озброєння та військової техніки (ОВТ) — це процес набуття предметом виробництва статусу предмета постачання та упорядкування інформації про нього. Кодифікація..."
     },
     {
       "id": "x-euromaidan-030944e9aef6",
@@ -514,22 +578,6 @@
       "summaryUk": "Мікаель Йоханссон знаходиться під особистою охороною."
     },
     {
-      "id": "x-armyinform-1f96633f1802",
-      "title": "Українська військова медицина на найбільшому світовому форумі: делегація ЗСУ взяла участь у MHSRS-2026",
-      "url": "https://armyinform.com.ua/2026/08/11/ukrayinska-vijskova-medyczyna-na-najbilshomu-svitovomu-forumi-delegacziya-zsu-vzyala-uchast-u-mhsrs-2026/",
-      "summary": "Про це повідомив Генеральний штаб ЗСУ. Форум зібрав представників близько 36 країн світу. Головний хірург Збройних Сил України полковник медичної...",
-      "publishedAt": "2026-08-11T15:56:58.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українська військова медицина на найбільшому світовому форумі: делегація ЗСУ взяла участь у MHSRS-2026",
-      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Форум зібрав представників близько 36 країн світу. Головний хірург Збройних Сил України полковник медичної..."
-    },
-    {
       "id": "x-euromaidan-c6d75d344436",
       "title": "North Korean ballistic missile kills 7 steelworkers on their way to shelter, shuts down Zaporizhstal plant",
       "url": "https://euromaidanpress.com/2026/08/11/north-korean-ballistic-missile-strike-kills-7-steelworkers/",
@@ -546,22 +594,6 @@
       "summaryUk": "Удар стався в той момент, коли Росія розширює використання північнокорейських балістичних ракет KN-23 і KN-24, які Україні важче перехопити і які пов’язані зі смертоносними нападами на цивільне населення."
     },
     {
-      "id": "x-armyinform-7d9c54c3d99c",
-      "title": "Двоє людей загинуло внаслідок російського удару по автоцистерні на Одещині",
-      "url": "https://armyinform.com.ua/2026/08/11/dvoye-lyudej-zagynulo-vnaslidok-rosijskogo-udaru-po-avtoczysterni-na-odeshhyni/",
-      "summary": "Про це повідомив 11 серпня начальник Одеської обласної військової адміністрації Олег Кіпер. За його даними, ще троє постраждали.  Унаслідок удару...",
-      "publishedAt": "2026-08-11T15:34:52.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Двоє людей загинуло внаслідок російського удару по автоцистерні на Одещині",
-      "summaryUk": "Про це повідомив 11 серпня начальник Одеської обласної військової адміністрації Олег Кіпер. За його даними, ще троє постраждали.  Унаслідок удару..."
-    },
-    {
       "id": "x-euromaidan-e6ea2e3bd6bf",
       "title": "Ukraine&#8217;s newest interceptor doesn&#8217;t ram its target. It nets it for $27, then flies home to catch another",
       "url": "https://euromaidanpress.com/2026/08/11/ukraines-newest-interceptor-doesnt-ram-its-target-it-nets-it-for-27-then-flies-home-to-catch-another/",
@@ -576,22 +608,6 @@
       ],
       "titleUk": "Новітній український перехоплювач не таранить ціль. Він збирає його за 27 доларів, а потім летить додому, щоб зловити іншого",
       "summaryUk": "Український WINFLY представив безпілотний літальний апарат-перехоплювач Spider із сітковою пусковою установкою."
-    },
-    {
-      "id": "x-armyinform-7c186ebdfb0f",
-      "title": "Дрони «Азову» спалили колону росіян, ССО захопили полоненого, окупант застрягнув у вікні: стрім",
-      "url": "https://armyinform.com.ua/2026/08/11/drony-azovu-spalyly-kolonu-rosiyan-sso-zahopyly-polonenogo-okupant-zastryagnuv-u-vikni-strim/",
-      "summary": "Окупанти накопичували техніку для майбутніх штурмів на Донецькому напрямку, проте безпілотники один за одним атакували колону. Оператори ССО зайшли в...",
-      "publishedAt": "2026-08-11T15:12:46.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дрони «Азову» спалили колону росіян, ССО захопили полоненого, окупант застрягнув у вікні: стрім",
-      "summaryUk": "Окупанти накопичували техніку для майбутніх штурмів на Донецькому напрямку, проте безпілотники один за одним атакували колону. Оператори ССО зайшли в..."
     },
     {
       "id": "x-euromaidan-35fa5be64678",
@@ -818,6 +834,22 @@
       "summaryUk": "Швед Антон Келлберг зустрінеться з росіянином Володимиром Сидоренком у Мальме, першим росіянином, який виступатиме під його прапором після того, як заборону на настільний теніс було скасовано під час війни."
     },
     {
+      "id": "x-euromaidan-a52fd75aa551",
+      "title": "Ukraine&#8217;s distributed generation program has failed. It needed 7,000 MW of small plants to outlast Russian strikes, but built only 700, says former grid chief",
+      "url": "https://euromaidanpress.com/2026/08/11/ukraines-distributed-generation-program-has-failed-it-needed-7000-mw-of-small-plants-to-outlast-russian-strikes-but-built-only-700-says-former-grid-chief/",
+      "summary": "The failure leaves the grid as vulnerable to Russian strikes as ever.",
+      "publishedAt": "2026-08-11T05:31:00.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Програма розподіленої генерації в Україні провалилася. Їй потрібно було 7000 МВт невеликих електростанцій, щоб пережити російські удари, але побудували лише 700, каже колишній керівник мережі",
+      "summaryUk": "Ця невдача робить мережу як ніколи вразливою до російських ударів."
+    },
+    {
       "id": "x-euromaidan-245c65075404",
       "title": "Canada joins Ukraine, EU, and Switzerland in sanctioning UAE arms maker whose vehicles equip Russia&#8217;s National Guard",
       "url": "https://euromaidanpress.com/2026/08/11/canada-joins-ukraine-eu-and-switzerland-in-sanctioning-uae-arms-maker-whose-vehicles-equip-russias-national-guard/",
@@ -880,54 +912,6 @@
       ],
       "titleUk": "Нова українська платформа ШІ тренує зброю на п’яти мільйонах кадрів, знятих дроном. Ним також можуть скористатися країни-партнери",
       "summaryUk": "Міністерство оборони України відкрило Avengers Labs – навчальну платформу зі штучним інтелектом, створену на основі бойових даних."
-    },
-    {
-      "id": "x-euromaidan-57497fecd61e",
-      "title": "Russo-Ukrainian war, day 1629: Russia races to swamp Ukraine&#8217;s air defenses as July becomes deadliest month for civilians since 2022",
-      "url": "https://euromaidanpress.com/2026/08/11/russo-ukrainian-war-day-1629-russia-races-to-swamp-ukraines-air-defenses-as-july-becomes-deadliest-month-for-civilians-since-2022/",
-      "summary": "Britain's nuclear umbrella could replace the failed 1994 security guarantees that left Ukraine exposed.",
-      "publishedAt": "2026-08-10T21:02:51.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-українська війна, день 1629: Росія поспішає знищити протиповітряну оборону України, оскільки липень став найбільш смертоносним місяцем для цивільних з 2022 року",
-      "summaryUk": "Ядерна парасолька Великобританії могла б замінити невдалі гарантії безпеки 1994 року, які залишили Україну відкритою."
-    },
-    {
-      "id": "x-euromaidan-d04cc45ee327",
-      "title": "Sweden says it stopped Russian operation to discredit country and EU. But no one will be prosecuted",
-      "url": "https://euromaidanpress.com/2026/08/10/sweden-says-it-stopped-russian-operation-to-discredit-country-and-eu-but-no-one-will-be-prosecuted/",
-      "summary": "Sweden's Säpo exposed a Russian intelligence operation that recruited an agent in a foreign diplomatic mission to undermine Swedish decision-making.",
-      "publishedAt": "2026-08-10T20:52:54.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Швеція заявляє, що припинила російську операцію з дискредитації країни та ЄС. Але ніхто не буде притягнутий до відповідальності",
-      "summaryUk": "Säpo Швеції викрила операцію російської розвідки, яка завербувала агента в іноземну дипломатичну місію, щоб підірвати процес прийняття рішень у Швеції."
-    },
-    {
-      "id": "x-euromaidan-acfa8e51159e",
-      "title": "Forged end-user certificates through eight countries: how one network kept European tech flowing into Russian missiles",
-      "url": "https://euromaidanpress.com/2026/08/10/forged-end-user-certificates-through-eight-countries-how-one-network-kept-european-tech-flowing-into-russian-missiles/",
-      "summary": "Austrian counterintelligence exposed an international network that funneled high-tech industrial equipment to Rostec-linked Russian defense firms.",
-      "publishedAt": "2026-08-10T20:38:35.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Підроблені сертифікати кінцевого користувача у восьми країнах: як одна мережа забезпечувала надходження європейських технологій до російських ракет",
-      "summaryUk": "Австрійська контррозвідка викрила міжнародну мережу, яка направляла високотехнологічне промислове обладнання до пов’язаних з Ростехом російських оборонних фірм."
     }
   ]
 }
