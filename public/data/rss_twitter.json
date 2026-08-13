@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:10:38.993Z",
+  "generatedAt": "2026-08-13T19:18:00.297Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,134 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-de9cc0eeea35",
+      "title": "From “easy money” to murder: Russia escalates recruitment of Ukrainians for terrorist attacks inside Ukraine, police warn",
+      "url": "https://euromaidanpress.com/2026/08/13/russia-escalates-recruitment-of-ukrainians-for-terrorist-attacks/",
+      "summary": "Russian handlers are targeting people through Telegram job and drug channels, fake SBU calls, personal relationships, and even minors, gradually turning recruits into disposable operatives.",
+      "publishedAt": "2026-08-13T19:09:51.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Від «легких грошей» до вбивства: Росія активізує вербування українців для терактів в Україні, попереджає поліція",
+      "summaryUk": "Російські хендлери переслідують людей через Telegram-канали роботи та наркотиків, фейкові дзвінки СБУ, особисті стосунки та навіть неповнолітніх, поступово перетворюючи новобранців на одноразових оперативників."
+    },
+    {
+      "id": "x-pravda-68b2fe2405d1",
+      "title": "Після атаки дронів вигоріла п'ята частина складу Wildberries у Башкортостані – дані супутника",
+      "url": "https://www.pravda.com.ua/news/2026/08/13/8048598/",
+      "summary": "В результаті удару дронів у ніч на 13 серпня згоріла п'ята частина складу Wildberries у селищі Чишми російського Башкортостану.",
+      "publishedAt": "2026-08-13T18:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Після атаки дронів вигоріла п'ята частина складу Wildberries у Башкортостані – дані супутника",
+      "summaryUk": "В результаті удару дронів у ніч на 13 серпня згоріла п'ята частина складу Wildberries у селищі Чишми російського Башкортостану."
+    },
+    {
+      "id": "x-euromaidan-1b0302912f0f",
+      "title": "Finland backs €28.5 million power plant project as Ukraine braces for Russia’s next winter energy assault",
+      "url": "https://euromaidanpress.com/2026/08/13/finland-backs-28-5-million-power-plant-project/",
+      "summary": "Finnish technology will help Ukraine add power generation capacity as repeated Russian strikes continue to threaten the country’s electricity and heating systems.",
+      "publishedAt": "2026-08-13T18:04:50.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Фінляндія підтримує проект електростанції вартістю 28,5 мільйонів євро, оскільки Україна готується до наступної зимової енергетичної атаки Росії",
+      "summaryUk": "Фінські технології допоможуть Україні збільшити потужності з виробництва електроенергії, оскільки неодноразові російські удари продовжують загрожувати системі електроенергії та теплопостачання країни."
+    },
+    {
+      "id": "x-armyinform-db84077ae6b1",
+      "title": "«Без стосів паперів та радянщини»: як у Президентській бригаді змінюють підходи до ремонту артилерії",
+      "url": "https://armyinform.com.ua/2026/08/13/bez-stosiv-paperiv-ta-radyanshhyny-yak-u-prezydentskij-brygadi-zminyuyut-pidhody-do-remontu-artyleriyi/",
+      "summary": "Про це йдеться у пубілкації Окремої президентської бригади імені гетьмана Богдана Хмельницького. Взвод технічного забезпечення очолює заступник командира дивізіону з озброєння Євген на позивний...",
+      "publishedAt": "2026-08-13T17:53:18.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Без стосів паперів та радянщини»: як у Президентській бригаді змінюють підходи до ремонту артилерії",
+      "summaryUk": "Про це йдеться у пубілкації Окремої президентської бригади імені гетьмана Богдана Хмельницького. Взвод технічного забезпечення очолює заступник командира дивізіону з озброєння Євген на позивний..."
+    },
+    {
+      "id": "x-armyinform-5d5ac1714e88",
+      "title": "14 дронів проти однієї «Богдани»: як артилеристи 40-ї бригади відбили масований наліт та врятували САУ",
+      "url": "https://armyinform.com.ua/2026/08/13/14-droniv-proty-odniyeyi-bogdany-yak-artylerysty-40-yi-brygady-vidbyly-masovanyj-nalit-ta-vryatuvaly-sau/",
+      "summary": "Про це повідомили у 40-й окремій артилерійській бригаді імені Великого князя Вітовта, оприлюднивши відео бойової роботи. За словами військових, атака почалася близько 12:30, коли розрахунок...",
+      "publishedAt": "2026-08-13T17:30:05.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "14 дронів проти однієї «Богдани»: як артилеристи 40-ї бригади відбили масований наліт та врятували САУ",
+      "summaryUk": "Про це повідомили у 40-й окремій артилерійській бригаді імені Великого князя Вітовта, оприлюднивши відео бойової роботи. За словами військових, атака почалася близько 12:30, коли розрахунок..."
+    },
+    {
+      "id": "x-armyinform-13793267a971",
+      "title": "«Із князєй — у грязь»: на Харківщині перехоплювачі Повітряних Сил збили рідкісний російський дрон за $100 тисяч",
+      "url": "https://armyinform.com.ua/2026/08/13/iz-knyazyej-u-gryaz-na-harkivshhyni-perehoplyuvachi-povitryanyh-syl-zbyly-ridkisnyj-rosijskyj-dron-za-100-tysyach/",
+      "summary": "Про це повідомили у Зведеній стрілецькій бригаді Повітряних Сил ЗСУ. Ворожий дрон виявили та знищили оператори підрозділу «Свідки Спаса». За словами військових, це одна з найрідкісніших цілей,...",
+      "publishedAt": "2026-08-13T17:29:52.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Із князєй — у грязь»: на Харківщині перехоплювачі Повітряних Сил збили рідкісний російський дрон за $100 тисяч",
+      "summaryUk": "Про це повідомили у Зведеній стрілецькій бригаді Повітряних Сил ЗСУ. Ворожий дрон виявили та знищили оператори підрозділу «Свідки Спаса». За словами військових, це одна з найрідкісніших цілей,..."
+    },
+    {
+      "id": "x-pravda-26c752b700ba",
+      "title": "Сербський урок для України. Чому заява Зеленського не ставить крапку щодо визнання Косова",
+      "url": "https://www.pravda.com.ua/articles/2026/08/13/8048592/",
+      "summary": "",
+      "publishedAt": "2026-08-13T17:16:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Сербський урок для України. Чому заява Зеленського не ставить крапку щодо визнання Косова",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-armyinform-dabe54b04dca",
+      "title": "НРК в траві ледве видно, але уражено: На Лиманському напрямку працює «Срібна трійка»",
+      "url": "https://armyinform.com.ua/2026/08/13/nrk-v-travi-ledve-vydno-ale-urazheno-na-lymanskomu-napryamku-praczyuye-sribna-trijka/",
+      "summary": "Відео бойової роботи опублікувала Держприкордонслужба України. Окупанти намагаються сховатися у «зеленці», але від українських FPV-дронів маскування не рятує. Навіть такі...",
+      "publishedAt": "2026-08-13T17:11:05.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "НРК в траві ледве видно, але уражено: На Лиманському напрямку працює «Срібна трійка»",
+      "summaryUk": "Відео бойової роботи опублікувала Держприкордонслужба України. Окупанти намагаються сховатися у «зеленці», але від українських FPV-дронів маскування не рятує. Навіть такі..."
+    },
     {
       "id": "x-euromaidan-f555f45f2931",
       "title": "Ukraine&#8217;s new Tu-95 killer is a $48,000 copy of a drone China refused to sell",
@@ -370,22 +498,6 @@
       "summaryUk": "Чому гучні корупційні справи в Україні масово закриваються за строками давності? Причини, приклади, шляхи вирішення."
     },
     {
-      "id": "x-armyinform-efb4f71b2e4c",
-      "title": "Начальника Миколаївського обласного ТЦК та СП затримано за хабарництво",
-      "url": "https://armyinform.com.ua/2026/08/13/nachalnyka-mykolayivskogo-oblasnogo-tczk-ta-sp-zatrymano-za-habarnycztvo/",
-      "summary": "Про це повідомив Генеральний прокурор України Руслан Кравченко. За даними слідства, посадовець отримав 10 тисяч доларів США за невжиття мобілізаційних...",
-      "publishedAt": "2026-08-13T14:47:31.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Начальника Миколаївського обласного ТЦК та СП затримано за хабарництво",
-      "summaryUk": "Про це повідомив Генеральний прокурор України Руслан Кравченко. За даними слідства, посадовець отримав 10 тисяч доларів США за невжиття мобілізаційних..."
-    },
-    {
       "id": "x-pravda-0b64d097687f",
       "title": "У Білорусі заявили, що Україна та Росія обмінялися цивільними особами",
       "url": "https://www.pravda.com.ua/news/2026/08/13/8048559/",
@@ -434,22 +546,6 @@
       "summaryUk": "Сибіга засудив візит Путіна на Ітуруп, закликавши світ посилити тиск і ізоляцію Росії через окупацію японських островів."
     },
     {
-      "id": "x-armyinform-a0040304b2e9",
-      "title": "Уражено РЛС «Небо-У», склади ПММ і боєприпасів та інші об’єкти противника",
-      "url": "https://armyinform.com.ua/2026/08/13/urazheno-rls-nebo-u-sklady-pmm-i-boyeprypasiv-ta-inshi-obyekty-protyvnyka/",
-      "summary": "Про це повідомив Генеральний штаб ЗСУ. Зокрема, у Севастополі уражено радіолокаційну станцію «Небо-У». Довідково. «Небо-У» – російська далекобійна трикоординатна РЛС...",
-      "publishedAt": "2026-08-13T14:31:20.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Уражено РЛС «Небо-У», склади ПММ і боєприпасів та інші об’єкти противника",
-      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Зокрема, у Севастополі уражено радіолокаційну станцію «Небо-У». Довідково. «Небо-У» – російська далекобійна трикоординатна РЛС..."
-    },
-    {
       "id": "x-pravda-e5b676df7c6c",
       "title": "Окупанти скинули авіабомби на Ізюм: загорівся будинок і авто, троє людей постраждали",
       "url": "https://www.pravda.com.ua/news/2026/08/13/8048553/",
@@ -464,38 +560,6 @@
       ],
       "titleUk": "Окупанти скинули авіабомби на Ізюм: загорівся будинок і авто, троє людей постраждали",
       "summaryUk": "У четвер російські окупаційні війська завдали удару авіабомбами по Ізюму Харківської області: виникла пожежа, постраждали троє мирних мешканців."
-    },
-    {
-      "id": "x-armyinform-a05588cbf103",
-      "title": "Ворог вдруге за день завдав удару по пасажирському потягу на Одещині",
-      "url": "https://armyinform.com.ua/2026/08/13/vorog-vdruge-za-den-zavdav-udaru-po-pasazhyrskomu-potyagu-na-odeshhyni/",
-      "summary": "Про це повідомили у соцмережах ДСНС України. Сталося загоряння тепловоза та сухої трави. Вогнеборці ліквідували пожежу. Рятувальники спільно зі службами...",
-      "publishedAt": "2026-08-13T14:06:38.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ворог вдруге за день завдав удару по пасажирському потягу на Одещині",
-      "summaryUk": "Про це повідомили у соцмережах ДСНС України. Сталося загоряння тепловоза та сухої трави. Вогнеборці ліквідували пожежу. Рятувальники спільно зі службами..."
-    },
-    {
-      "id": "x-armyinform-e1828e51d3f3",
-      "title": "Росіяни атакували дронами рятувальників під час гасіння пожежі на Нікопольщині",
-      "url": "https://armyinform.com.ua/2026/08/13/rosiyany-atakuvaly-dronamy-ryatuvalnykiv-pid-chas-gasinnya-pozhezhi-na-nikopolshhyni/",
-      "summary": "Про це повідомили в Державній службі України з надзвичайних ситуацій. Пожежа сухої рослинності та господарських будівель виникла на території приватних домоволодінь після російської атаки. Коли рятувальники...",
-      "publishedAt": "2026-08-13T13:52:23.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни атакували дронами рятувальників під час гасіння пожежі на Нікопольщині",
-      "summaryUk": "Про це повідомили в Державній службі України з надзвичайних ситуацій. Пожежа сухої рослинності та господарських будівель виникла на території приватних домоволодінь після російської атаки. Коли рятувальники..."
     },
     {
       "id": "x-militarnyi-b0d6ea40112f",
@@ -530,24 +594,8 @@
       "summaryUk": "Чоловіка засудили до 15 років за підпал релейної шафи Укрзалізниці та авто волонтера на замовлення РФ."
     },
     {
-      "id": "x-pravda-db87fdf54a28",
-      "title": "Рама закликав припинити критику України через заяву Зеленського щодо Косова",
-      "url": "https://www.pravda.com.ua/news/2026/08/13/8048547/",
-      "summary": "Прем'єр Албанії Еді Рама закликав співвітчизників припинити критикувати Україну через заяви президента Володимира Зеленського щодо незалежності Косова.",
-      "publishedAt": "2026-08-13T13:39:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Рама закликав припинити критику України через заяву Зеленського щодо Косова",
-      "summaryUk": "Прем'єр Албанії Еді Рама закликав співвітчизників припинити критикувати Україну через заяви президента Володимира Зеленського щодо незалежності Косова."
-    },
-    {
       "id": "x-euromaidan-5aac9ccd1615",
-      "title": "Poland and the Baltics risk Russian sabotage for backing Ukraine, Bloomberg reports",
+      "title": "Poland and the Baltics risk Russian sabotage for backing Ukraine, Bloomberg says",
       "url": "https://euromaidanpress.com/2026/08/13/russian-sabotage-poland-baltics-ukraine-support/",
       "summary": "The CIA warned regional governments as Russia weighed sabotage and false flags against Ukraine’s supporters, officials told Bloomberg.",
       "publishedAt": "2026-08-13T13:29:59.000Z",
@@ -558,7 +606,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Польща та країни Балтії ризикують стати російським саботажем через підтримку України, повідомляє Bloomberg",
+      "titleUk": "Польща та країни Балтії ризикують стати російським саботажем через підтримку України, каже Bloomberg",
       "summaryUk": "ЦРУ попередило регіональні уряди, оскільки Росія зважує диверсії та фальшиві прапори проти прихильників України, повідомили Bloomberg офіційні особи."
     },
     {
@@ -576,22 +624,6 @@
       ],
       "titleUk": "Молдова обігнала кожну країну ЄС як найбільший покупець молочної продукції в Україні",
       "summaryUk": "Україна продає менше молочної продукції за кордон і більше імпортує, тоді як Молдова, а не країна ЄС, стала її найбільшим іноземним покупцем."
-    },
-    {
-      "id": "x-pravda-95cadbdcc630",
-      "title": "Прах Коновальця доставили в Україну",
-      "url": "https://www.pravda.com.ua/news/2026/08/13/8048541/",
-      "summary": "Прах полковника Армії УНР та першого голови Організації українських націоналістів Євгена Коновальця доправили в Україну.",
-      "publishedAt": "2026-08-13T12:54:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Прах Коновальця доставили в Україну",
-      "summaryUk": "Прах полковника Армії УНР та першого голови Організації українських націоналістів Євгена Коновальця доправили в Україну."
     },
     {
       "id": "x-euromaidan-af44b677587f",
@@ -912,22 +944,6 @@
       ],
       "titleUk": "Росіяни працюють у три зміни, щоб створити реактивні ракети на китайському двигуні за 16 000 доларів від AliExpress",
       "summaryUk": "Росія може виробляти до 80 крилатих ракет С8000 \"Бандероль\" на місяць."
-    },
-    {
-      "id": "x-euromaidan-e94b82ee8d1d",
-      "title": "&#8220;They laid down their weapons, raised their hands&#8221;: Russia has executed at least 345 surrendered Ukrainian soldiers on the ground",
-      "url": "https://euromaidanpress.com/2026/08/12/they-laid-down-their-weapons-raised-their-hands-russia-has-executed-at-least-345-surrendered-ukrainian-soldiers-on-the-ground/",
-      "summary": "Dmytro Lubinets says the executions are a part of a systematic and rising pattern.",
-      "publishedAt": "2026-08-12T16:34:12.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Склали зброю, підняли руки»: Росія стратила на землі щонайменше 345 українських військових, які здалися в полон",
-      "summaryUk": "Дмитро Лубінець каже, що страти є частиною систематичної та наростаючої моделі."
     }
   ]
 }
