@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:11:41.346Z",
+  "generatedAt": "2026-08-14T20:43:45.237Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,86 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-3a1d34cb1a20",
+      "title": "More than 100 drones detected near Romania in four days, NATO jets scrambled seven times",
+      "url": "https://euromaidanpress.com/2026/08/14/more-than-100-drones-detected-near-romania-in-four-days/",
+      "summary": "The latest figures underscore how Russia’s drone war is increasingly reaching NATO’s eastern flank, with Romania already forced to destroy several drones this summer.",
+      "publishedAt": "2026-08-14T20:42:06.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Біля Румунії за чотири дні виявлено понад 100 безпілотників, літаки НАТО сім разів піднімалися",
+      "summaryUk": "Останні дані підкреслюють, що війна безпілотників Росії все більше досягає східного флангу НАТО, причому Румунія цього літа вже була змушена знищити кілька безпілотників."
+    },
+    {
+      "id": "x-euromaidan-2cfa795d9a37",
+      "title": "Ukraine&#8217;s quiet counteroffensive took 745 square km. Russia&#8217;s dead Starlink is how",
+      "url": "https://euromaidanpress.com/2026/08/14/southeastern-counteroffensive-2/",
+      "summary": "Six months, 26 settlements, and almost no video. Russia lost its battlefield communications three days in, and Ukrainian armor drove through the gap.",
+      "publishedAt": "2026-08-14T20:07:18.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Тихий контрнаступ України зайняв 745 кв. Мертва Росії Starlink ось як",
+      "summaryUk": "Півроку, 26 населених пунктів, а відео майже немає. Через три дні Росія втратила зв’язок на полі бою, а українська бронетехніка пройшла через розрив."
+    },
+    {
+      "id": "x-euromaidan-cbecca26aac9",
+      "title": "Russia plans to remove border zones separating Russia from occupied Ukrainian territories",
+      "url": "https://euromaidanpress.com/2026/08/14/russia-plans-to-remove-border-zones-separating-russia-from-occupied-ukrainian-territories/",
+      "summary": "Russia plans to remove special border zones along its boundaries with occupied parts of Ukraine, further integrating the occupied territories into its legal and administrative system.",
+      "publishedAt": "2026-08-14T19:58:42.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія планує ліквідувати прикордонні зони, які відділяють Росію від окупованих українських територій",
+      "summaryUk": "Росія планує ліквідувати спеціальні прикордонні зони на кордоні з окупованими частинами України, подальшу інтеграцію окупованих територій у свою правову та адміністративну систему."
+    },
+    {
+      "id": "x-pravda-d5e55547fc3f",
+      "title": "У Румунії вчетверте за день знайшли уламки дрона",
+      "url": "https://www.pravda.com.ua/news/2026/08/14/8048747/",
+      "summary": "Міністерство оборони Румунії повідомило про виявлення уламків ще одного безпілотника в селі Плауру, що у прикордонному повіті Тулча.",
+      "publishedAt": "2026-08-14T19:43:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Румунії вчетверте за день знайшли уламки дрона",
+      "summaryUk": "Міністерство оборони Румунії повідомило про виявлення уламків ще одного безпілотника в селі Плауру, що у прикордонному повіті Тулча."
+    },
+    {
+      "id": "x-pravda-3ec3efb070a0",
+      "title": "Директора CEO Club, затриманого у Польщі \"за крадіжку велосипедів\", звільнили",
+      "url": "https://www.pravda.com.ua/news/2026/08/14/8048745/",
+      "summary": "Засновник і президент CEO Club Ukraine Сергій Гайдайчук заявив, що Німеччина відкликала Європейський ордер на арешт директора бізнес-спільноти CEO Club Ukraine Дмитра Карчука, якого утримували в Польщі нібито за \"крадіжку велосипедів\"; польська суддя його звільнила.",
+      "publishedAt": "2026-08-14T19:13:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Директора CEO Club, затриманого у Польщі \"за крадіжку велосипедів\", звільнили",
+      "summaryUk": "Засновник і президент CEO Club Ukraine Сергій Гайдайчук заявив, що Німеччина відкликала Європейський ордер на арешт директора бізнес-спільноти CEO Club Ukraine Дмитра Карчука, якого утримували в Польщі нібито за \"крадіжку велосипедів\"; польська суддя його звільнила."
+    },
     {
       "id": "x-pravda-229af72cd7e5",
       "title": "Були агресивні і били українців – у Польщі затримали двох жінок",
@@ -402,22 +482,6 @@
       "summaryUk": "Про це повідомили у Службі безпеки України. За даними слідства, чоловік систематично поширював прокремлівські наративи, заперечував українську державність, виправдовував повномасштабне вторгнення рф і заперечував воєнні злочини..."
     },
     {
-      "id": "x-pravda-4a965ec9196f",
-      "title": "Міноборони на погрози Москви заморозити українців відповіло, що в РФ буде спекотно",
-      "url": "https://www.pravda.com.ua/news/2026/08/14/8048709/",
-      "summary": "Міноборони України відреагувало на погрози РФ, заявивши, що \"зима буде спекотною\" та опублікувши ілюстрацію з палаючою нафтобазою.",
-      "publishedAt": "2026-08-14T15:35:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Міноборони на погрози Москви заморозити українців відповіло, що в РФ буде спекотно",
-      "summaryUk": "Міноборони України відреагувало на погрози РФ, заявивши, що \"зима буде спекотною\" та опублікувши ілюстрацію з палаючою нафтобазою."
-    },
-    {
       "id": "x-euromaidan-8abf7eb597bf",
       "title": "A stray goat named Borka has become the Spartan Brigade&#8217;s mascot after 18 months on the front lines in Donetsk Oblast",
       "url": "https://euromaidanpress.com/2026/08/14/a-stray-goat-named-borka-has-become-the-spartan-brigades-mascot-after-18-months-on-the-front-lines-in-donetsk-oblast/",
@@ -432,38 +496,6 @@
       ],
       "titleUk": "Бродяча коза на прізвисько Борька стала талісманом бригади «Спартан» після 18 місяців на передовій у Донецькій області",
       "summaryUk": "Одного разу солдати одягли бронежилети та шоломи та повернулися в зону дії безпілотника, щоб вивести його."
-    },
-    {
-      "id": "x-pravda-d15d9177deae",
-      "title": "Чому Україна засекретила дані про збиті ракети – чи нормально це і який досвід Ізраїлю",
-      "url": "https://www.pravda.com.ua/news/2026/08/14/8048707/",
-      "summary": "",
-      "publishedAt": "2026-08-14T15:11:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Чому Україна засекретила дані про збиті ракети – чи нормально це і який досвід Ізраїлю",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-74e5d9e86203",
-      "title": "Дані про збиті ракети тепер приховані: чому так вирішили та яким є досвід Ізраїлю",
-      "url": "https://www.pravda.com.ua/articles/2026/08/14/8048703/",
-      "summary": "Росія атакувала Україну в ніч на 5 серпня, застосувавши 24 балістичні ракети – жодну з них збити не вдалося. Повітряні сили повідомили про це в ранковому зведенні, як і після кожної атаки. Медіа, телеграм-канали та українці в соцмережах активно поширювали саме факт того, що жодну з ракет збити не вдалося.",
-      "publishedAt": "2026-08-14T15:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дані про збиті ракети тепер приховані: чому так вирішили та яким є досвід Ізраїлю",
-      "summaryUk": "Росія атакувала Україну в ніч на 5 серпня, застосувавши 24 балістичні ракети – жодну з них збити не вдалося. Повітряні сили повідомили про це в ранковому зведенні, як і після кожної атаки. Медіа, телеграм-канали та українці в соцмережах активно поширювали саме факт того, що жодну з ракет збити не вдалося."
     },
     {
       "id": "x-euromaidan-d7ff3ac51f4d",
@@ -494,7 +526,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Військова підготовка з 15 років: у Білорусі 10-класників поділяють на пілотів безпілотників і бойових медиків",
+      "titleUk": "Військова підготовка з 15 років: білоруські 10-класники поділяються на пілотів безпілотників і бойових медиків",
       "summaryUk": "Цей крок поглиблює багаторічну мілітаризацію білоруської школи, яка тепер охоплює від дитячих військово-патріотичних груп до обов’язкових польових таборів."
     },
     {
@@ -510,7 +542,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українська «Запоріжсталь» може простоювати половину своїх потужностей, щоб відповідати новим квотам ЄС на сталь",
+      "titleUk": "Українська «Запоріжсталь» може простоювати половину своїх потужностей, щоб виконати нові квоти ЄС на сталь",
       "summaryUk": "ЄС скасував мита на сталь у 2022 році, щоб допомогти Україні пережити війну. 1 липня вона вдвічі скоротила безмитні квоти та оподатковувала решту за ставкою 50%."
     },
     {
@@ -606,7 +638,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Косово не є прецедентом для російської анексії Криму — Україна має це сказати",
+      "titleUk": "Косово не є прецедентом для російської анексії Криму – Україна має це сказати",
       "summaryUk": "Визнання виняткового шляху Косово зміцнить аргументацію Києва проти московських окупаційних референдумів, а не послабить її."
     },
     {
@@ -702,8 +734,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У Києві під час восьмимісячної контрнаступу в Олександрівці відвойовано 745 км²",
-      "summaryUk": "За даними звіту, у результаті восьмимісячної операції було повернуто 26 сіл у трьох областях, зупинивши наступ Росії на Дніпропетровськ і повернувши її на українську землю."
+      "titleUk": "У Києві під час восьмимісячної контрнаступу в Олександрівці відвойовано 745 км².",
+      "summaryUk": "Згідно зі звітом, під час восьмимісячної операції було відвойовано 26 сіл у трьох областях, зупинено наступ Росії на Дніпропетровськ і повернуто її на українську землю."
     },
     {
       "id": "x-euromaidan-c612e0e0f37d",
@@ -718,7 +750,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "437 загиблих, понад 2600 поранених: в Україні місяць із найбільшою кількістю жертв для мирного населення з 2022 року, – ООН",
+      "titleUk": "437 загиблих, понад 2600 поранених: в Україні місяць із найбільшою кількістю смертей для мирного населення з 2022 року, – ООН",
       "summaryUk": "437 загиблих, 2610 поранених — найгірший показник із травня 2022 року, кажуть спостерігачі ООН"
     },
     {
@@ -767,7 +799,7 @@
         "UKRAINE"
       ],
       "titleUk": "Українські безпілотники вшосте цього року вдарили по російському нафтопорту Усть-Луга",
-      "summaryUk": "Пожежа сталася на Балтійському терміналі, який обробляє майже половину російського регіонального експорту"
+      "summaryUk": "Пожежа спалахнула на Балтійському терміналі, який обробляє майже половину російського регіонального експорту"
     },
     {
       "id": "x-euromaidan-1a74edbd1284",
@@ -800,54 +832,6 @@
       ],
       "titleUk": "Російсько-українська війна, день 1632: Україна завдає ударів по російському флоту, нафтопереробним заводам і радарам, а Зеленський просить більше патріотів",
       "summaryUk": "Україна протягом ночі завдала ударів по російському флоту в Новоросійську, його нафтопереробному заводу в Салаваті та його радару в Севастополі, оскільки Зеленський сказав CNN, що навіть 5% американських запасів Patriot дозволять Україні пережити зиму."
-    },
-    {
-      "id": "x-euromaidan-03238164024b",
-      "title": "Ukraine puts controversial Skelia regiment under Azov command as Drapatyi pushes military reforms",
-      "url": "https://euromaidanpress.com/2026/08/13/skelia-regiment-under-azov-command/",
-      "summary": "The 425th Separate Assault Regiment will remain independent but operate under Azov Corps’ command, with its scattered units gradually being brought together on the same section of the front.",
-      "publishedAt": "2026-08-13T20:10:43.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна передає суперечливий полк «Скеля» під командування «Азова», а Драпатий просуває військові реформи",
-      "summaryUk": "425-й окремий десантно-штурмовий полк залишиться самостійним, але діятиме під командуванням корпусу «Азов», його розрізнені частини поступово зводитимуться на одній ділянці фронту."
-    },
-    {
-      "id": "x-euromaidan-de9cc0eeea35",
-      "title": "From “easy money” to murder: Russia escalates recruitment of Ukrainians for terrorist attacks inside Ukraine, police warn",
-      "url": "https://euromaidanpress.com/2026/08/13/russia-escalates-recruitment-of-ukrainians-for-terrorist-attacks/",
-      "summary": "Russian handlers are targeting people through Telegram job and drug channels, fake SBU calls, personal relationships, and even minors, gradually turning recruits into disposable operatives.",
-      "publishedAt": "2026-08-13T19:09:51.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Від «легких грошей» до вбивства: Росія активізує вербування українців для терактів в Україні, попереджає поліція",
-      "summaryUk": "Російські хендлери переслідують людей через Telegram-канали роботи та наркотиків, фейкові дзвінки СБУ, особисті стосунки та навіть неповнолітніх, поступово перетворюючи новобранців на одноразових оперативників."
-    },
-    {
-      "id": "x-euromaidan-1b0302912f0f",
-      "title": "Finland backs €28.5 million power plant project as Ukraine braces for Russia’s next winter energy assault",
-      "url": "https://euromaidanpress.com/2026/08/13/finland-backs-28-5-million-power-plant-project/",
-      "summary": "Finnish technology will help Ukraine add power generation capacity as repeated Russian strikes continue to threaten the country’s electricity and heating systems.",
-      "publishedAt": "2026-08-13T18:04:50.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Фінляндія підтримує проект електростанції вартістю 28,5 мільйонів євро, оскільки Україна готується до наступної зимової енергетичної атаки Росії",
-      "summaryUk": "Фінські технології допоможуть Україні збільшити потужності з виробництва електроенергії, оскільки неодноразові російські удари продовжують загрожувати системі електроенергії та теплопостачання країни."
     },
     {
       "id": "x-militarnyi-b0d6ea40112f",
