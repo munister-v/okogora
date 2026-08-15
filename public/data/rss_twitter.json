@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:38:54.410Z",
+  "generatedAt": "2026-08-15T18:45:45.933Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-55718c535c4f",
+      "title": "70 rescuers, 15 pieces of equipment, two weeks in France: Ukraine&#8217;s rescuers just came home from their first-ever EU civil-protection mission",
+      "url": "https://euromaidanpress.com/2026/08/15/70-rescuers-15-pieces-of-equipment-two-weeks-in-france-ukraines-rescuers-just-came-home-from-their-first-ever-eu-civil-protection-mission/",
+      "summary": "Ukraine's rescuers returned from nearly two weeks fighting French wildfires.",
+      "publishedAt": "2026-08-15T18:25:34.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "70 рятувальників, 15 одиниць техніки, два тижні у Франції: українські рятувальники щойно повернулися додому з першої в історії місії цивільного захисту ЄС",
+      "summaryUk": "Українські рятувальники повернулися з майже двотижневого гасіння лісових пожеж у Франції."
+    },
+    {
+      "id": "x-euromaidan-ab79eec1c1e2",
+      "title": "A jet-powered BM-35 can now hit 350 km/h. Russia says that&#8217;s specifically to outrun Ukraine&#8217;s interceptors",
+      "url": "https://euromaidanpress.com/2026/08/15/a-jet-powered-bm-35-can-now-hit-350-km-h-russia-says-thats-specifically-to-outrun-ukraines-interceptors/",
+      "summary": "Russia has begun fitting jet engines to another attack drone, the BM-35, to outrun Ukraine's interceptors, following the same shift it made with Shaheds, adviser Serhii Beskrestnov says.",
+      "publishedAt": "2026-08-15T18:04:23.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Реактивний БМ-35 тепер може розвивати 350 км/год. Росія каже, що це спеціально для того, щоб випередити українські перехоплювачі",
+      "summaryUk": "Росія почала встановлювати реактивні двигуни на інший ударний безпілотник, БМ-35, щоб випереджати українські перехоплювачі, після тієї ж зміни, яку вона зробила з Шахедом, каже радник Сергій Бескрестнов."
+    },
+    {
+      "id": "x-pravda-3732439017b7",
+      "title": "Українські рятувальники повернулися з Франції після боротьби з лісовими пожежами",
+      "url": "https://www.pravda.com.ua/news/2026/08/15/8048833/",
+      "summary": "",
+      "publishedAt": "2026-08-15T17:32:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українські рятувальники повернулися з Франції після боротьби з лісовими пожежами",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-6877f49c7438",
+      "title": "Captured Russian soldier describes 28-km crawl that killed most of his group before reaching Ukrainian lines",
+      "url": "https://euromaidanpress.com/2026/08/15/captured-russian-soldier-describes-28-km-crawl-that-killed-most-of-his-group-before-reaching-ukrainian-lines/",
+      "summary": "There, they were cut down from 16 to four and surrendered, the 71st Brigade says.",
+      "publishedAt": "2026-08-15T17:14:47.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Полонений російський військовий описує 28-кілометрове повзання, яке вбило більшість його групи, перш ніж досягти українських ліній",
+      "summaryUk": "Там їх скоротили з 16 до чотирьох і здалися, кажуть у 71-й бригаді."
+    },
     {
       "id": "x-pravda-91808fe53b66",
       "title": "На Дніпропетровщині росіяни за день поранили 17 людей",
@@ -414,40 +478,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Перші горіли склади, тепер не працює платіжна система: Україна запускає подвійну кампанію проти найбільшого ринку Росії, який нібито переміщує запчастини до безпілотників",
+      "titleUk": "Перші горіли склади, тепер платіжна система не працює: Україна запускає подвійну кампанію проти найбільшого російського ринку, який нібито переміщує запчастини до безпілотників",
       "summaryUk": "Українські хакери зламали платіжну систему та систему обслуговування клієнтів російського маркетплейсу Wildberries, повідомляє ХУР."
-    },
-    {
-      "id": "x-pravda-87d396760412",
-      "title": "Трампу потрібна угода, а не перемога України: що означає \"дух Анкориджа\"",
-      "url": "https://www.pravda.com.ua/news/2026/08/15/8048726/",
-      "summary": "",
-      "publishedAt": "2026-08-15T10:15:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трампу потрібна угода, а не перемога України: що означає \"дух Анкориджа\"",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-8eb563285e01",
-      "title": "Екскомбриг 80-ї бригади ДШВ Ішкулов очолить 11 корпус",
-      "url": "https://www.pravda.com.ua/news/2026/08/15/8048794/",
-      "summary": "Полковник Ішкулов призначений керувати 11 корпусом, що обороняє Краматорськ і Слов'янськ.",
-      "publishedAt": "2026-08-15T10:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Екскомбриг 80-ї бригади ДШВ Ішкулов очолить 11 корпус",
-      "summaryUk": "Полковник Ішкулов призначений керувати 11 корпусом, що обороняє Краматорськ і Слов'янськ."
     },
     {
       "id": "x-euromaidan-f8482c1901ff",
@@ -463,7 +495,7 @@
         "UKRAINE"
       ],
       "titleUk": "Як повідомляється, удар «Фламінго» вразив житловий завод у промисловій зоні Самари, який виготовляє ракети для російського конкурента Starlink",
-      "summaryUk": "Страйк охопив промислову зону Самари приблизно за 900 кілометрів від України."
+      "summaryUk": "Страйк охопив промислову зону в Самарі приблизно за 900 кілометрів від України."
     },
     {
       "id": "x-euromaidan-f1302254707f",
@@ -479,7 +511,7 @@
         "UKRAINE"
       ],
       "titleUk": "У Херсоні Росія полювала на мирних жителів безпілотником. Жертви подають до суду на американську фірму, яка, за їхніми словами, допомогла зв’язати зловмисників",
-      "summaryUk": "Нью-йоркська мережева компанія продавала радіоприймачі, які пропускали сигнали на 100 кілометрів. Українські мирні жителі кажуть, що російський безпілотник…"
+      "summaryUk": "Нью-йоркська мережева компанія продала радіоприймачі, які пропускали сигнали на 100 кілометрів. Українські мирні жителі кажуть, що російський безпілотник…"
     },
     {
       "id": "x-euromaidan-29438c38acc2",
@@ -510,7 +542,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Понад 100 безпілотників виявлено біля Румунії за чотири дні, літаки НАТО піднімалися сім разів",
+      "titleUk": "Біля Румунії за чотири дні виявлено понад 100 безпілотників, літаки НАТО сім разів піднімалися",
       "summaryUk": "Останні дані підкреслюють, що війна безпілотників Росії все більше досягає східного флангу НАТО, причому Румунія цього літа вже була змушена знищити кілька безпілотників."
     },
     {
@@ -526,7 +558,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Тихий контрнаступ України зайняв 745 кв. Мертвий російський Starlink ось як",
+      "titleUk": "Тихий контрнаступ України зайняв 745 кв. Мертва Росії Starlink ось як",
       "summaryUk": "Півроку, 26 населених пунктів, а відео майже немає. Через три дні Росія втратила зв’язок на полі бою, а українська бронетехніка пройшла через розрив."
     },
     {
@@ -638,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Військова підготовка з 15 років: у Білорусі 10-класників поділяють на пілотів безпілотників і бойових медиків",
+      "titleUk": "Військова підготовка з 15 років: білоруські 10-класники поділяються на пілотів безпілотників і бойових медиків",
       "summaryUk": "Цей крок поглиблює багаторічну мілітаризацію білоруської школи, яка тепер охоплює від дитячих військово-патріотичних груп до обов’язкових польових таборів."
     },
     {
@@ -654,7 +686,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українська «Запоріжсталь» може простоювати половину своїх потужностей, щоб відповідати новим квотам ЄС на сталь",
+      "titleUk": "Українська «Запоріжсталь» може простоювати половину своїх потужностей, щоб виконати нові квоти ЄС на сталь",
       "summaryUk": "ЄС скасував мита на сталь у 2022 році, щоб допомогти Україні пережити війну. 1 липня вона вдвічі скоротила безмитні квоти та оподатковувала решту за ставкою 50%."
     },
     {
@@ -750,7 +782,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Косово не є прецедентом для російської анексії Криму — Україна має це сказати",
+      "titleUk": "Косово не є прецедентом для російської анексії Криму – Україна має це сказати",
       "summaryUk": "Визнання виняткового шляху Косово зміцнить аргументацію Києва проти московських окупаційних референдумів, а не послабить її."
     },
     {
@@ -846,56 +878,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У Києві під час восьмимісячної контрнаступу в Олександрівці відвойовано 745 км²",
-      "summaryUk": "За даними звіту, у результаті восьмимісячної операції було повернуто 26 сіл у трьох областях, зупинивши наступ Росії на Дніпропетровськ і повернувши її на українську землю."
-    },
-    {
-      "id": "x-euromaidan-c612e0e0f37d",
-      "title": "437 killed, over 2,600 injured: Ukraine&#8217;s deadliest month for civilians since 2022, UN says",
-      "url": "https://euromaidanpress.com/2026/08/14/437-killed-over-2600-injured-ukraines-deadliest-month-for-civilians-since-2022-un-says/",
-      "summary": "437 killed, 2,610 wounded — the worst toll since May 2022, UN monitors say",
-      "publishedAt": "2026-08-14T08:27:03.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "437 загиблих, понад 2600 поранених: в Україні місяць із найбільшою кількістю жертв для мирного населення з 2022 року, – ООН",
-      "summaryUk": "437 загиблих, 2610 поранених — найгірший показник із травня 2022 року, кажуть спостерігачі ООН"
-    },
-    {
-      "id": "x-euromaidan-62c4b3fccca6",
-      "title": "Ukrainian drones hit Wildberries warehouse in Tver for the third time in two weeks",
-      "url": "https://euromaidanpress.com/2026/08/14/ukrainian-drones-hit-wildberries-warehouse-in-tver-for-the-third-time-in-two-weeks/",
-      "summary": "Wall damaged again, no injuries reported, marketplace says goods intact",
-      "publishedAt": "2026-08-14T08:21:03.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українські дрони втретє за два тижні вдарили по складу Wildberries у Твері",
-      "summaryUk": "Стіна знову пошкоджена, постраждалих немає, на ринку кажуть, що товар цілий"
-    },
-    {
-      "id": "x-euromaidan-68cf679a14c4",
-      "title": "NASA shows Crimea as Russian on a map during its eclipse broadcast",
-      "url": "https://euromaidanpress.com/2026/08/14/nasa-shows-crimea-as-russian-on-a-map-during-its-eclipse-broadcast/",
-      "summary": "It's the latest in a run of Western maps quietly erasing the line international law still draws around occupied Crimea—this time from the US space agency.",
-      "publishedAt": "2026-08-14T08:01:47.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "NASA показує Крим як російський на карті під час трансляції затемнення",
-      "summaryUk": "Це остання в серії західних карт, які тихо стирають лінію, яку міжнародне право все ще проводить навколо окупованого Криму — цього разу від космічного агентства США."
+      "titleUk": "У Києві під час восьмимісячної контрнаступу в Олександрівці відвойовано 745 км².",
+      "summaryUk": "Згідно зі звітом, під час восьмимісячної операції було відвойовано 26 сіл у трьох областях, зупинено наступ Росії на Дніпропетровськ і повернуто її на українську землю."
     },
     {
       "id": "x-militarnyi-b0d6ea40112f",
