@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T14:36:29.578Z",
+  "generatedAt": "2026-08-16T16:40:44.842Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,118 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-572565393257",
+      "title": "NYT: Trump could leave Europe outside Ukraine peace talks. France, Germany and UK want a seat",
+      "url": "https://euromaidanpress.com/2026/08/16/france-germany-uk-e3-ukraine-talks/",
+      "summary": "France and Germany lead the E3 push while Britain hesitates. The group wants a say over sanctions and Ukraine’s postwar security.",
+      "publishedAt": "2026-08-16T16:38:28.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "NYT: Трамп може залишити Європу поза мирними переговорами щодо України. Франція, Німеччина та Великобританія хочуть отримати місце",
+      "summaryUk": "Франція та Німеччина лідирують у просуванні E3, тоді як Британія вагається. Група хоче висловитися щодо санкцій і післявоєнної безпеки України."
+    },
+    {
+      "id": "x-euromaidan-5b373435987c",
+      "title": "Ukraine&#8217;s ground robots ran nearly 17,000 missions in June. Every one depended on holding signal, problem this new antenna targets",
+      "url": "https://euromaidanpress.com/2026/08/16/ukraines-ground-robots-ran-nearly-17000-missions-in-june-every-one-depended-on-holding-signal-problem-this-new-antenna-targets/",
+      "summary": "A Ukrainian company has built a tiny antenna to solve one of the drone war's hardest problems: staying&#8230;",
+      "publishedAt": "2026-08-16T16:14:57.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У червні українські наземні роботи здійснили майже 17 000 вильотів. Кожен залежав від сигналу утримування, проблеми з цими новими цілями антени",
+      "summaryUk": "Українська компанія побудувала крихітну антену, щоб вирішити одну з найскладніших проблем війни безпілотників: залишитися…"
+    },
+    {
+      "id": "x-armyinform-20c83beab04b",
+      "title": "Загинув зрадник України, колишній командир підводного човна «Запоріжжя» Роберт Шагєєв: з’явилося підтвердження",
+      "url": "https://armyinform.com.ua/2026/08/16/zagynuv-zradnyk-ukrayiny-kolyshnij-komandyr-pidvodnogo-chovna-zaporizhzhya-robert-shagyeyev-zyavylosya-pidtverdzhennya/",
+      "summary": "Раніше з’являлася неофіційна інформація про можливий замах на Шагєєва в Севастополі, однак підтвердження цьому не було. Поява ІПН зрадника у...",
+      "publishedAt": "2026-08-16T15:57:45.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Загинув зрадник України, колишній командир підводного човна «Запоріжжя» Роберт Шагєєв: з’явилося підтвердження",
+      "summaryUk": "Раніше з’являлася неофіційна інформація про можливий замах на Шагєєва в Севастополі, однак підтвердження цьому не було. Поява ІПН зрадника у..."
+    },
+    {
+      "id": "x-euromaidan-1aaa137d8bc6",
+      "title": "Former Ukrainian submarine commander who deserted to Russia in 2014 was killed by bomb 12 years later. Suspect reportedly worked as escort",
+      "url": "https://euromaidanpress.com/2026/08/16/former-ukrainian-submarine-commander-who-deserted-to-russia-in-2014-was-killed-by-bomb-12-years-later-suspect-reportedly-worked-as-escort/",
+      "summary": "The Insider identified the man killed in a 13 August Sevastopol bombing as Robert Shageev.",
+      "publishedAt": "2026-08-16T15:47:20.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Колишній командир українського підводного човна, який дезертирував до Росії у 2014 році, загинув від вибуху через 12 років. Повідомляється, що підозрюваний працював конвоєм",
+      "summaryUk": "The Insider ідентифікував чоловіка, який загинув під час теракту в Севастополі 13 серпня, як Роберта Шагеєва."
+    },
+    {
+      "id": "x-pravda-85a0366bbbe0",
+      "title": "У Донецьку після удару БпЛА згорів ТЦ \"Галактика\" – росЗМІ",
+      "url": "https://www.pravda.com.ua/news/2026/08/16/8048906/",
+      "summary": "У Донецьку згорів ТЦ \"Галактика\" через атаку дронами, стверджують росЗМІ. Опубліковано відео наслідків.",
+      "publishedAt": "2026-08-16T15:32:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Донецьку після удару БпЛА згорів ТЦ \"Галактика\" – росЗМІ",
+      "summaryUk": "У Донецьку згорів ТЦ \"Галактика\" через атаку дронами, стверджують росЗМІ. Опубліковано відео наслідків."
+    },
+    {
+      "id": "x-euromaidan-6b326713bf20",
+      "title": "Russia burned 80% of this cathedral&#8217;s roof at UNESCO site with 975 years of history. Switzerland is giving $730,000 to rebuild it",
+      "url": "https://euromaidanpress.com/2026/08/16/russia-burned-80-of-this-cathedrals-roof-at-unesco-site-with-975-years-of-history-switzerland-is-giving-730000-to-rebuild-it/",
+      "summary": "The Kyiv-Pechersk Lavra's Dormition Cathedral was damaged by a Russian drone strike two months before the Lavra's 975th anniversary.",
+      "publishedAt": "2026-08-16T15:22:47.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія спалила 80% даху цього собору на території ЮНЕСКО з 975-річною історією. Швейцарія виділяє 730 000 доларів на його відновлення",
+      "summaryUk": "За два місяці до 975-річчя Лаври Успенський собор Києво-Печерської лаври постраждав від удару російського безпілотника."
+    },
+    {
+      "id": "x-euromaidan-3fdb9fa32938",
+      "title": "One alternative to air defense: Ukraine strikes Russian Bastion system used to attack Ukrainian cities from Crimea",
+      "url": "https://euromaidanpress.com/2026/08/16/ukraine-strikes-russian-bastion-system-used-to-attack-ukrainian-cities-from-crimea/",
+      "summary": "Ukraine’s Navy said the strike hit the Bastion’s launch positions and deployment site, reportedly damaging a key platform for Russia’s missile attacks from occupied Crimea.",
+      "publishedAt": "2026-08-16T14:38:07.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Альтернатива протиповітряній обороні: Україна завдає ударів по російській системі «Бастіон», якою атакували українські міста з Криму",
+      "summaryUk": "Військово-морські сили України заявили, що удар вразив пускові позиції та місце дислокації «Бастіону», що, як повідомляється, пошкодило ключову платформу для ракетних атак Росії з окупованого Криму."
+    },
     {
       "id": "x-armyinform-846f6467b3f3",
       "title": "Російського військовополоненого, який два місяці ґвалтував українку, засудили до 12 років",
@@ -271,7 +383,7 @@
         "UKRAINE"
       ],
       "titleUk": "Найбільший книжковий ринок Києва постраждав від російських ракет",
-      "summaryUk": "Кілька рядів згоріли біля київської визначної пам’ятки, збільшивши втрати від російських ударів по українських книгарях і видавцях."
+      "summaryUk": "Кілька рядів згоріли на визначній пам’ятці Києва, розширивши втрати від російських ударів по українських книготорговцях і видавцях."
     },
     {
       "id": "x-pravda-a0402bcf06bb",
@@ -302,7 +414,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Одна з наймасштабніших» атак українських безпілотників: горять два великих склади",
+      "titleUk": "«Одна з наймасштабніших» атак українських безпілотників – у Підмосков’ї: горять два великих склади",
       "summaryUk": "На кадрах видно пожежі в Коледіно і Північному Домодєдово. Мер Москви заявив, що було перехоплено 201 безпілотник."
     },
     {
@@ -368,22 +480,6 @@
       ],
       "titleUk": "Ярослава Магучіх втретє поспіль здобула «золото» чемпіонату Європи у стрибках у висоту",
       "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. Золоту нагороду спортсменка виборола на чемпіонаті Європи-2026 у Бірмінгемі (Велика..."
-    },
-    {
-      "id": "x-armyinform-b3c4f385c48b",
-      "title": "250 тисяч квадратних метрів: Сили оборони знищили найбільший склад Wildberries",
-      "url": "https://armyinform.com.ua/2026/08/16/250-tysyach-kvadratnyh-metriv-syly-oborony-znyshhyly-najbilshyj-sklad-wildberries/",
-      "summary": "Про це повідомило Міністерство оборони України. У ніч на неділю після масштабної атаки безпілотників на Підмосков’я разом зі складом в Домодєдово також припинив роботу логістичний вузол...",
-      "publishedAt": "2026-08-16T11:08:40.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "250 тисяч квадратних метрів: Сили оборони знищили найбільший склад Wildberries",
-      "summaryUk": "Про це повідомило Міністерство оборони України. У ніч на неділю після масштабної атаки безпілотників на Підмосков’я разом зі складом в Домодєдово також припинив роботу логістичний вузол..."
     },
     {
       "id": "x-pravda-9ba50c1f7256",
@@ -482,38 +578,6 @@
       "summaryUk": "Польські служби затримали підозрюваного вбивцю за допомогою США 7 серпня 2026 року. Росія звинуватила ймовірного вбивцю, репера Kyivstoner, у постачанні безпілотників в Україну."
     },
     {
-      "id": "x-pravda-2d31c34ef592",
-      "title": "Росіяни вдарили балістикою по промислових об'єктах Кривого Рогу: 2 загиблих і 14 поранених",
-      "url": "https://www.pravda.com.ua/news/2026/08/16/8048852/",
-      "summary": "У ніч на 16 серпня росіяни здійснили комбіновану атаку балістичними ракетами та БпЛА на Кривий Ріг. Унаслідок атаки дві людини загинули, ще 14 поранено.",
-      "publishedAt": "2026-08-16T08:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вдарили балістикою по промислових об'єктах Кривого Рогу: 2 загиблих і 14 поранених",
-      "summaryUk": "У ніч на 16 серпня росіяни здійснили комбіновану атаку балістичними ракетами та БпЛА на Кривий Ріг. Унаслідок атаки дві людини загинули, ще 14 поранено."
-    },
-    {
-      "id": "x-pravda-d8c77ed8b586",
-      "title": "Генштаб підтвердив ураження ракетного підрозділу в Криму та мосту на Запоріжжі",
-      "url": "https://www.pravda.com.ua/news/2026/08/16/8048870/",
-      "summary": "У ніч на 16 серпня Сили оборони уразили район зосередження російського ракетного підрозділу в окупованому Криму, залізничний міст на Запоріжжі та склади противника на Донеччині.",
-      "publishedAt": "2026-08-16T08:22:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генштаб підтвердив ураження ракетного підрозділу в Криму та мосту на Запоріжжі",
-      "summaryUk": "У ніч на 16 серпня Сили оборони уразили район зосередження російського ракетного підрозділу в окупованому Криму, залізничний міст на Запоріжжі та склади противника на Донеччині."
-    },
-    {
       "id": "x-euromaidan-c2819a8eebc5",
       "title": "&#8220;Get the f*ck back to Ukraine&#8221;: Two intoxicated Polish women attack Ukrainian men amid rise in anti-Ukrainian violence in Poland",
       "url": "https://euromaidanpress.com/2026/08/16/poznan-attack-two-women-detained/",
@@ -559,7 +623,7 @@
         "UKRAINE"
       ],
       "titleUk": "Україна все ще повертає опонентів Кремля Росії — навіть зараз",
-      "summaryUk": "Україна ніколи не припиняла передачу Росії опонентів Кремля та власні обміни полоненими, каже правозахисник."
+      "summaryUk": "Україна ніколи не припиняла здавати опонентів Кремля Росії та власний обмін полоненими, каже правозахисник."
     },
     {
       "id": "x-euromaidan-55718c535c4f",
@@ -622,7 +686,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Перші горіли склади, тепер платіжна система не працює: Україна запускає подвійну кампанію проти найбільшого російського ринку, який нібито переміщує запчастини до безпілотників",
+      "titleUk": "Перші горіли склади, тепер не працює платіжна система: Україна запускає подвійну кампанію проти найбільшого ринку Росії, який нібито переміщує запчастини до безпілотників",
       "summaryUk": "Українські хакери зламали платіжну систему та систему обслуговування клієнтів російського маркетплейсу Wildberries, повідомляє ХУР."
     },
     {
@@ -639,7 +703,7 @@
         "UKRAINE"
       ],
       "titleUk": "Як повідомляється, удар «Фламінго» вразив житловий завод у промисловій зоні Самари, який виготовляє ракети для російського конкурента Starlink",
-      "summaryUk": "Страйк охопив промислову зону в Самарі приблизно за 900 кілометрів від України."
+      "summaryUk": "Страйк охопив промислову зону Самари приблизно за 900 кілометрів від України."
     },
     {
       "id": "x-euromaidan-f1302254707f",
@@ -655,7 +719,7 @@
         "UKRAINE"
       ],
       "titleUk": "У Херсоні Росія полювала на мирних жителів безпілотником. Жертви подають до суду на американську фірму, яка, за їхніми словами, допомогла зв’язати зловмисників",
-      "summaryUk": "Нью-йоркська мережева компанія продала радіоприймачі, які пропускали сигнали на 100 кілометрів. Українські мирні жителі кажуть, що російський безпілотник…"
+      "summaryUk": "Нью-йоркська мережева компанія продавала радіоприймачі, які пропускали сигнали на 100 кілометрів. Українські мирні жителі кажуть, що російський безпілотник…"
     },
     {
       "id": "x-euromaidan-29438c38acc2",
@@ -686,7 +750,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Біля Румунії за чотири дні виявлено понад 100 безпілотників, літаки НАТО сім разів піднімалися",
+      "titleUk": "Понад 100 безпілотників виявлено біля Румунії за чотири дні, літаки НАТО піднімалися сім разів",
       "summaryUk": "Останні дані підкреслюють, що війна безпілотників Росії все більше досягає східного флангу НАТО, причому Румунія цього літа вже була змушена знищити кілька безпілотників."
     },
     {
@@ -702,7 +766,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Тихий контрнаступ України зайняв 745 кв. Мертва Росії Starlink ось як",
+      "titleUk": "Тихий контрнаступ України зайняв 745 кв. Мертвий російський Starlink ось як",
       "summaryUk": "Півроку, 26 населених пунктів, а відео майже немає. Через три дні Росія втратила зв’язок на полі бою, а українська бронетехніка пройшла через розрив."
     },
     {
@@ -800,86 +864,6 @@
       ],
       "titleUk": "Полонений боєць «Ахмат» каже, що вибрав Україну, а безпілотник відвів його від лав Росії",
       "summaryUk": "Магомед сказав, що раніше втеча чеченців змусила російське командування перевірити телефони бойовиків і посилити стеження."
-    },
-    {
-      "id": "x-euromaidan-5f709757b793",
-      "title": "Military training from age 15: Belarus splits 10th-graders into drone pilots and battlefield medics",
-      "url": "https://euromaidanpress.com/2026/08/14/military-training-from-age-15-belarus-splits-10th-graders-into-drone-pilots-and-battlefield-medics/",
-      "summary": "The move deepens a years-long militarization of Belarusian schooling that now reaches from kindergarten military-patriotic groups to mandatory field camps.",
-      "publishedAt": "2026-08-14T14:16:07.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Військова підготовка з 15 років: білоруські 10-класники поділяються на пілотів безпілотників і бойових медиків",
-      "summaryUk": "Цей крок поглиблює багаторічну мілітаризацію білоруської школи, яка тепер охоплює від дитячих військово-патріотичних груп до обов’язкових польових таборів."
-    },
-    {
-      "id": "x-euromaidan-62e2be15cdb2",
-      "title": "Ukraine’s Zaporizhstal may idle half its capacity to fit new EU steel quotas",
-      "url": "https://euromaidanpress.com/2026/08/14/ukraine-zaporizhstal-eu-steel-quotas/",
-      "summary": "The EU dropped its steel duties in 2022 to help Ukraine through the war. On 1 July, it halved the tariff-free quotas and taxed the remainder at 50%.",
-      "publishedAt": "2026-08-14T14:00:42.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українська «Запоріжсталь» може простоювати половину своїх потужностей, щоб виконати нові квоти ЄС на сталь",
-      "summaryUk": "ЄС скасував мита на сталь у 2022 році, щоб допомогти Україні пережити війну. 1 липня вона вдвічі скоротила безмитні квоти та оподатковувала решту за ставкою 50%."
-    },
-    {
-      "id": "x-euromaidan-721090bc14cb",
-      "title": "Russian agent who set fires in Kyiv receives 15-year prison sentence",
-      "url": "https://euromaidanpress.com/2026/08/14/russian-agent-who-set-fires-in-kyiv-receives-15-year-prison-sentence/",
-      "summary": "He was one more disposable recruit in Russia's Telegram sabotage campaign — hired for two arson jobs, then left to face the court alone.",
-      "publishedAt": "2026-08-14T13:54:32.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російський агент, який підпалив у Києві, отримав 15 років в'язниці",
-      "summaryUk": "Він був ще одним одноразовим новобранцем у російській диверсійній кампанії Telegram — його найняли для двох підпалів, а потім залишили перед судом."
-    },
-    {
-      "id": "x-euromaidan-df206d6ca7fc",
-      "title": "Russia&#8217;s state statisticians report the growth Putin demanded—economists doubt it will hold",
-      "url": "https://euromaidanpress.com/2026/08/14/russias-state-statisticians-report-the-growth-putin-demanded-economists-doubt-it-will-hold/",
-      "summary": "The rebound leaned on war spending and one-off boosts, it barely moved the flat first-half trend—and it landed just after Putin ordered his officials to turn the economy around.",
-      "publishedAt": "2026-08-14T12:20:15.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російські державні статистики повідомляють про зростання, якого вимагав Путін, але економісти сумніваються, що воно вдасться",
-      "summaryUk": "Відродження ґрунтувалося на витратах на війну та одноразових стимулах, воно ледь змінило постійну тенденцію першого півріччя — і воно приземлилося одразу після того, як Путін наказав своїм чиновникам змінити економіку."
-    },
-    {
-      "id": "x-euromaidan-12f3446e637d",
-      "title": "Russia drops eight FAB-250 bombs on Kramatorsk, killing one and injuring 18",
-      "url": "https://euromaidanpress.com/2026/08/14/russia-drops-eight-fab-250-bombs-on-kramatorsk-killing-one-and-injuring-18/",
-      "summary": "Prosecutors opened a war crimes investigation into the glide-bomb strike, the latest in a series that has hit residential blocks across Donetsk Oblast.",
-      "publishedAt": "2026-08-14T11:36:17.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія скинула на Краматорськ вісім бомб ФАБ-250, один убитий і 18 поранені",
-      "summaryUk": "Прокуратура відкрила розслідування військових злочинів у справі обстрілу планерної бомби, останнього в серії, який вразив житлові квартали Донецької області."
     },
     {
       "id": "x-militarnyi-b0d6ea40112f",
