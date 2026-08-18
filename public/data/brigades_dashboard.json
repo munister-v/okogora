@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:59:18.383Z",
+  "generatedAt": "2026-08-18T21:41:16.522Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 58,
     "mentionItems": 4,
-    "significantItems": 46,
-    "strikeItems": 34,
+    "significantItems": 44,
+    "strikeItems": 32,
     "reorgItems": 18
   },
   "brigades": [
@@ -33,8 +33,8 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 2,
-      "significantItems": 16,
-      "strikeItems": 16,
+      "significantItems": 14,
+      "strikeItems": 14,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -88,6 +88,23 @@
           "isReorg": false,
           "titleUk": "РФ за день запустила по Україні 76 реактивних БпЛА – Повітряні сили",
           "summaryUk": "Протягом дня 18 серпня російські війська атакували Україну 76 реактивними БпЛА типу \"Shahed\". Основний напрямок удару – Київська область."
+        },
+        {
+          "id": "telegram-kpszsu-84ea9ba0db3de3",
+          "title": "🛵 Харківщина: реактивний БпЛА ➡️ в напрямку Лозової.",
+          "summary": "🛵 Харківщина: реактивний БпЛА ➡️ в напрямку Лозової.",
+          "url": "https://t.me/kpszsu/73377",
+          "publishedAt": "2026-08-18T20:32:47.000Z",
+          "source": "telegram",
+          "sourceLabel": "kpszsu",
+          "origin": "official",
+          "score": 3,
+          "strikeScore": 1,
+          "reorgScore": 0,
+          "isStrike": true,
+          "isReorg": false,
+          "titleUk": "🛵 Харківщина: реактивний БпЛА ➡️ в напрямку Лозової.",
+          "summaryUk": "🛵 Харківщина: реактивний БпЛА ➡️ в напрямку Лозової."
         },
         {
           "id": "telegram-kpszsu-0a824375630373",
@@ -156,23 +173,6 @@
           "isReorg": false,
           "titleUk": "🛵 Київщина: БпЛА ➡️ курсом на Козин з півдня.",
           "summaryUk": "🛵 Київщина: БпЛА ➡️ курсом на Козин з півдня."
-        },
-        {
-          "id": "telegram-kpszsu-f1b547b4a85a57",
-          "title": "🛵 БпЛА з акваторії Чорного моря ➡️ курсом на Очаків (Миколаївщина).",
-          "summary": "🛵 БпЛА з акваторії Чорного моря ➡️ курсом на Очаків (Миколаївщина).",
-          "url": "https://t.me/kpszsu/73363",
-          "publishedAt": "2026-08-18T16:51:31.000Z",
-          "source": "telegram",
-          "sourceLabel": "kpszsu",
-          "origin": "official",
-          "score": 3,
-          "strikeScore": 1,
-          "reorgScore": 0,
-          "isStrike": true,
-          "isReorg": false,
-          "titleUk": "🛵 БпЛА з акваторії Чорного моря ➡️ курсом на Очаків (Миколаївщина).",
-          "summaryUk": "🛵 БпЛА з акваторії Чорного моря ➡️ курсом на Очаків (Миколаївщина)."
         }
       ]
     },
