@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T20:38:34.325Z",
+  "generatedAt": "2026-08-18T22:39:37.447Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-fdf4de76700d",
+      "title": "Ворожі дрони атакували Запоріжжя: загинула людина, шестеро поранених",
+      "url": "https://www.pravda.com.ua/news/2026/08/19/8049242/",
+      "summary": "Внаслідок удару росіян по Запоріжжю загинула людина, є поранені.",
+      "publishedAt": "2026-08-18T22:02:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворожі дрони атакували Запоріжжя: загинула людина, шестеро поранених",
+      "summaryUk": "Внаслідок удару росіян по Запоріжжю загинула людина, є поранені."
+    },
+    {
+      "id": "x-pravda-8eb3ad0bd86b",
+      "title": "МАГАТЕ отримало інформацію про вибух дрона на зупинці для працівників окупованої ЗАЕС",
+      "url": "https://www.pravda.com.ua/news/2026/08/19/8049240/",
+      "summary": "У МАГАТЕ заявили, що отримали інформацію від директора окупованої ЗАЕС про вибух дрона на автобусній зупинці, якою користуються працівники станції, внаслідок чого є загиблий і 16 потерпілих.",
+      "publishedAt": "2026-08-18T21:28:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "МАГАТЕ отримало інформацію про вибух дрона на зупинці для працівників окупованої ЗАЕС",
+      "summaryUk": "У МАГАТЕ заявили, що отримали інформацію від директора окупованої ЗАЕС про вибух дрона на автобусній зупинці, якою користуються працівники станції, внаслідок чого є загиблий і 16 потерпілих."
+    },
+    {
+      "id": "x-euromaidan-f1c61f993480",
+      "title": "Russo-Ukrainian war, day 1637: Two missiles hit a post office in Kharkiv Oblast and kill 10",
+      "url": "https://euromaidanpress.com/2026/08/19/russo-ukrainian-war-day-1637/",
+      "summary": "The strike on a crowded crossroads in Pechenihy also wounded 18 people and set a cafe and cars ablaze.",
+      "publishedAt": "2026-08-18T21:15:41.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1637: Дві ракети влучили в поштову станцію на Харківщині, вбили 10 людей",
+      "summaryUk": "У Печенігах під час обстрілу на людному перехресті також постраждали 18 людей, підпалили кафе та автомобілі."
+    },
+    {
+      "id": "x-euromaidan-d03c1b8cdccf",
+      "title": "Russia jails 61-year-old Ukrainian for alleged Azov service, names no specific act",
+      "url": "https://euromaidanpress.com/2026/08/18/russian-court-jails-andrii-hulak-azov-service/",
+      "summary": "A Russian military court sentenced Hulak to five years and four months over an alleged connection to the Azov group.",
+      "publishedAt": "2026-08-18T20:47:56.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія ув'язнила 61-річного українця нібито за службу в Азові, конкретних діянь не називає",
+      "summaryUk": "Російський військовий суд засудив Гулака до п'яти років і чотирьох місяців за ймовірну причетність до угруповання \"Азов\"."
+    },
     {
       "id": "x-pravda-75d09906e305",
       "title": "Бельгія надає Україні 4 млн євро на цифровізацію ветеранських послуг",
@@ -416,38 +480,6 @@
       ],
       "titleUk": "Зраднику-«кадирівцю» із Дніпропетровщини повідомлено про підозру",
       "summaryUk": "Про це повідомила Служба безпеки України. Служба безпеки зібрала доказову базу на рашиста, який командував ротою ударних безпілотників російського спецпідрозділу..."
-    },
-    {
-      "id": "x-pravda-b7957586324a",
-      "title": "Вигівський анонсував повернення автівок-\"фантомів\" на дорогах та встановлення нових камер",
-      "url": "https://www.pravda.com.ua/news/2026/08/18/8049206/",
-      "summary": "Міністр внутрішніх справ України Іван Вигівський провів нараду щодо мінімізації аварійності на дорогах після масштабних ДТП у Києві.",
-      "publishedAt": "2026-08-18T16:36:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Вигівський анонсував повернення автівок-\"фантомів\" на дорогах та встановлення нових камер",
-      "summaryUk": "Міністр внутрішніх справ України Іван Вигівський провів нараду щодо мінімізації аварійності на дорогах після масштабних ДТП у Києві."
-    },
-    {
-      "id": "x-pravda-06027d04497f",
-      "title": "Азербайджан оголосив у міжнародний розшук трьох росіян через заклики до насильства і тероризму",
-      "url": "https://www.pravda.com.ua/news/2026/08/18/8049205/",
-      "summary": "Генпрокуратура Азербайджану висунула звинувачення трьом росіянам за заклики до тероризму та порушення цілісності країни.",
-      "publishedAt": "2026-08-18T16:28:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Азербайджан оголосив у міжнародний розшук трьох росіян через заклики до насильства і тероризму",
-      "summaryUk": "Генпрокуратура Азербайджану висунула звинувачення трьом росіянам за заклики до тероризму та порушення цілісності країни."
     },
     {
       "id": "x-armyinform-ea2e9347e28d",
@@ -832,38 +864,6 @@
       ],
       "titleUk": "Останній удар Росії по найважливішому торговельному шляху України: в Одесі потрапило цивільне судно під прапором Того",
       "summaryUk": "В результаті російського удару по інфраструктурі Одеського обласного порту було пошкоджено цивільне судно, четверо людей отримали поранення, троє з них госпіталізовані."
-    },
-    {
-      "id": "x-euromaidan-55a28b302339",
-      "title": "Russia has thousands of tanks it can&#8217;t risk. One drone shield decides whether they roll",
-      "url": "https://euromaidanpress.com/2026/08/17/arena-m-works/",
-      "summary": "Russia has finally fielded a tank defense that can shoot down Ukrainian FPV drones. The problem is that Ukrainian crews can send more drones than the Arena-M can stop—and the first tanks carrying it have burned anyway.",
-      "publishedAt": "2026-08-17T18:15:51.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Росії є тисячі танків, якими вона не може ризикувати. Один щит дрона вирішує, чи вони котяться",
-      "summaryUk": "Росія нарешті виставила танкову оборону, яка може збивати українські безпілотники. Проблема в тому, що українські екіпажі можуть відправити більше безпілотників, ніж може зупинити «Арена-М», а перші танки з ним все одно згоріли."
-    },
-    {
-      "id": "x-euromaidan-a1d3adfe7c68",
-      "title": "$3,032 to kill a soldier on whom Russia spends $65,000: Ukraine&#8217;s new system puts a price on every strike",
-      "url": "https://euromaidanpress.com/2026/08/17/3032-to-kill-a-soldier-on-whom-russia-spends-65000-ukraines-new-system-puts-a-price-on-every-strike/",
-      "summary": "Every $1 Ukraine spends hitting a target inflicts nearly $5 of losses on Russia, according to the Mission Control module.",
-      "publishedAt": "2026-08-17T17:08:43.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "3032 долари, щоб убити солдата, на якого Росія витратила 65 000 доларів: нова система України ставить ціну за кожен удар",
-      "summaryUk": "Згідно з даними модуля управління місією, кожен 1 долар, який Україна витрачає на ураження цілі, завдає Росії майже 5 доларів втрат."
     }
   ]
 }
