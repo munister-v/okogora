@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:09:10.302Z",
+  "generatedAt": "2026-08-21T14:52:15.119Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,294 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-56653aa217fa",
+      "title": "Росія отримала від КНДР більше 8000 військових, з яких сотні операторів дронів можуть атакувати Україну – ГУР",
+      "url": "https://www.pravda.com.ua/news/2026/08/21/8049722/",
+      "summary": "Українська розвідка: РФ розмістила війська КНДР, 400 операторів дронів для атак по Україні, їх може стати більше.",
+      "publishedAt": "2026-08-21T14:40:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія отримала від КНДР більше 8000 військових, з яких сотні операторів дронів можуть атакувати Україну – ГУР",
+      "summaryUk": "Українська розвідка: РФ розмістила війська КНДР, 400 операторів дронів для атак по Україні, їх може стати більше."
+    },
+    {
+      "id": "x-armyinform-8f83e69cb107",
+      "title": "Один удар HIMARS — два «Урагани»: у 92-й ОШБр розповіли про ураження російських РСЗВ",
+      "url": "https://armyinform.com.ua/2026/08/21/odyn-udar-himars-dva-uragany-u-92-j-oshbr-rozpovily-pro-urazhennya-rosijskyh-rszv/",
+      "summary": "Про цей епізод розповів оператор БПЛА 92-ї окремої штурмової бригади імені кошового отамана Івана Сірка на позивний «Лев». За його словами, дві російські реактивні системи залпового...",
+      "publishedAt": "2026-08-21T14:36:52.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Один удар HIMARS — два «Урагани»: у 92-й ОШБр розповіли про ураження російських РСЗВ",
+      "summaryUk": "Про цей епізод розповів оператор БПЛА 92-ї окремої штурмової бригади імені кошового отамана Івана Сірка на позивний «Лев». За його словами, дві російські реактивні системи залпового..."
+    },
+    {
+      "id": "x-pravda-e5db41eee0b5",
+      "title": "Вибори в Україні - чи можна провести під час війни і що думає команда Федорова",
+      "url": "https://www.pravda.com.ua/news/2026/08/21/8049718/",
+      "summary": "",
+      "publishedAt": "2026-08-21T14:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Вибори в Україні - чи можна провести під час війни і що думає команда Федорова",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-4be0fd3df49f",
+      "title": "Чи реально провести голосування під час війни: як команда Федорова пояснює його слова про вибори",
+      "url": "https://www.pravda.com.ua/articles/2026/08/21/8049716/",
+      "summary": "Колишній міністр оборони Михайло Федоров кілька тижнів зберігав мовчання та перебував у вичікувальній позиції після рішення президента Володимира Зеленського звільнити його з посади. Майбутнє Міноборони стало головною інтригою літа для українців, а від рішення, кого ж остаточно оберуть на голову МО, залежали і наступні кроки Федорова – плани він публічно не розкривав.",
+      "publishedAt": "2026-08-21T14:15:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Чи реально провести голосування під час війни: як команда Федорова пояснює його слова про вибори",
+      "summaryUk": "Колишній міністр оборони Михайло Федоров кілька тижнів зберігав мовчання та перебував у вичікувальній позиції після рішення президента Володимира Зеленського звільнити його з посади. Майбутнє Міноборони стало головною інтригою літа для українців, а від рішення, кого ж остаточно оберуть на голову МО, залежали і наступні кроки Федорова – плани він публічно не розкривав."
+    },
+    {
+      "id": "x-euromaidan-a1fca8cf9a41",
+      "title": "After Canada in May, now Finland: top-ranked Ukrainian drone maker keeps taking its technology abroad",
+      "url": "https://euromaidanpress.com/2026/08/21/after-canada-in-may-now-finland-top-ranked-ukrainian-drone-maker-keeps-taking-its-technology-abroad/",
+      "summary": "A Ukrainian drone maker is taking its battle-tested technology to a European factory floor. Ukrainian producer Airlogix has&#8230;",
+      "publishedAt": "2026-08-21T14:14:31.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Після Канади в травні тепер Фінляндія: провідний український виробник безпілотників продовжує вивозити свої технології за кордон",
+      "summaryUk": "Український виробник безпілотників переносить свою перевірену в боях технологію на європейський завод. Український виробник Airlogix…"
+    },
+    {
+      "id": "x-euromaidan-fa1be76ba51b",
+      "title": "Russian-Australian man charged over alleged operation to gather Ukrainian military secrets",
+      "url": "https://euromaidanpress.com/2026/08/21/russian-australian-man-charged-over-espionage/",
+      "summary": "Australian police allege he joined Ukraine's armed forces after receiving military-style training in Russia, then tried to pass information to people linked to Russian intelligence.",
+      "publishedAt": "2026-08-21T14:11:37.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-австралійця звинувачують у ймовірній операції зі збирання українських військових таємниць",
+      "summaryUk": "Австралійська поліція стверджує, що він приєднався до збройних сил України після проходження військової підготовки в Росії, а потім намагався передати інформацію людям, пов’язаним з російською розвідкою."
+    },
+    {
+      "id": "x-pravda-edb18cc41959",
+      "title": "Шпигун з РФ та подруга президентки: як ДТП з кортежем викликала політичний скандал у Словенії",
+      "url": "https://www.pravda.com.ua/articles/2026/08/21/8049715/",
+      "summary": "Нинішній скандал став чудовим подарунком для прем'єра Словенії Янеза Янші.",
+      "publishedAt": "2026-08-21T14:10:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Шпигун з РФ та подруга президентки: як ДТП з кортежем викликала політичний скандал у Словенії",
+      "summaryUk": "Нинішній скандал став чудовим подарунком для прем'єра Словенії Янеза Янші."
+    },
+    {
+      "id": "x-armyinform-ee2654973ee8",
+      "title": "Двоє загиблих і 12 постраждалих: реактивні дрони повторно атакували торговельний комплекс у Кривому Розі",
+      "url": "https://armyinform.com.ua/2026/08/21/dvoye-zagyblyh-i-12-postrazhdalyh-reaktyvni-drony-povtorno-atakuvaly-torgovelnyj-kompleks-u-kryvomu-rozi/",
+      "summary": "Про це повідомив очільник Дніпропетровської ОВА Олександр Ганжа. Раніше голова Ради оборони Кривого Рогу Олександр Вілкул повідомив про влучання ударного БПЛА в найбільший торговий комплекс...",
+      "publishedAt": "2026-08-21T14:06:59.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Двоє загиблих і 12 постраждалих: реактивні дрони повторно атакували торговельний комплекс у Кривому Розі",
+      "summaryUk": "Про це повідомив очільник Дніпропетровської ОВА Олександр Ганжа. Раніше голова Ради оборони Кривого Рогу Олександр Вілкул повідомив про влучання ударного БПЛА в найбільший торговий комплекс..."
+    },
+    {
+      "id": "x-pravda-e06cbd600fe4",
+      "title": "Росіяни вдарили по найбільшому ТРЦ Кривого Рогу: 2 загиблих, 52 поранених, серед них 6 дітей",
+      "url": "https://www.pravda.com.ua/news/2026/08/21/8049713/",
+      "summary": "Унаслідок атаки РФ дронами по ТЦ Кривого Рогу 2 загиблих, 50 поранених, серед них діти.",
+      "publishedAt": "2026-08-21T14:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили по найбільшому ТРЦ Кривого Рогу: 2 загиблих, 52 поранених, серед них 6 дітей",
+      "summaryUk": "Унаслідок атаки РФ дронами по ТЦ Кривого Рогу 2 загиблих, 50 поранених, серед них діти."
+    },
+    {
+      "id": "x-euromaidan-5f86993ecd7c",
+      "title": "Gasoline rationing returns to Moscow and St. Petersburg as Rosneft caps fills nationwide",
+      "url": "https://euromaidanpress.com/2026/08/21/russia-gasoline-rationing-moscow-st-petersburg-rosneft/",
+      "summary": "Rationing has returned to Russia’s two biggest cities, and Rosneft is now capping fills at 30 liters at every station in the country.",
+      "publishedAt": "2026-08-21T13:57:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Нормування бензину повертається до Москви та Санкт-Петербурга, оскільки «Роснефть» заповнює капітал по всій країні",
+      "summaryUk": "Нормування повернулося до двох найбільших міст Росії, і «Роснефть» тепер обмежує заправки 30 літрами на кожній станції в країні."
+    },
+    {
+      "id": "x-armyinform-a35ae89ad73b",
+      "title": "Су-34, який використовували для ударів КАБами, пошкоджено на аеродромі «Ахтубінськ»",
+      "url": "https://armyinform.com.ua/2026/08/21/su-34-yakyj-vykorystovuvaly-dlya-udariv-kabamy-poshkodzheno-na-aerodromi-ahtubinsk/",
+      "summary": "Про це повідомив Генеральний штаб ЗСУ. Удар по аеродрому в Астраханській області рф завдали 20 серпня. Крім пошкодження літака, на території об’єкта зафіксували розлив палива. На аеродромі базується 929-й державний...",
+      "publishedAt": "2026-08-21T13:51:16.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Су-34, який використовували для ударів КАБами, пошкоджено на аеродромі «Ахтубінськ»",
+      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Удар по аеродрому в Астраханській області рф завдали 20 серпня. Крім пошкодження літака, на території об’єкта зафіксували розлив палива. На аеродромі базується 929-й державний..."
+    },
+    {
+      "id": "x-armyinform-6e54d869e6a6",
+      "title": "Російський БПЛА атакував найбільший торговий комплекс Кривого Рогу: є пожежа та багато постраждалих",
+      "url": "https://armyinform.com.ua/2026/08/21/rosijskyj-bpla-atakuvav-najbilshyj-torgovyj-kompleks-kryvogo-rogu-ye-pozhezha-ta-bagato-postrazhdalyh/",
+      "summary": "Про це повідомив голова Ради оборони Кривого Рогу Олександр Вілкул. За його словами, внаслідок удару в торговому комплексі спалахнула пожежа. Візуально постраждалих багато. На місці...",
+      "publishedAt": "2026-08-21T13:46:29.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російський БПЛА атакував найбільший торговий комплекс Кривого Рогу: є пожежа та багато постраждалих",
+      "summaryUk": "Про це повідомив голова Ради оборони Кривого Рогу Олександр Вілкул. За його словами, внаслідок удару в торговому комплексі спалахнула пожежа. Візуально постраждалих багато. На місці..."
+    },
+    {
+      "id": "x-armyinform-5b5261503961",
+      "title": "Відплата за Бучу: важко поранили командира бригади рф, військові якої чинили злочини на Київщині",
+      "url": "https://armyinform.com.ua/2026/08/21/vidplata-za-buchu-vazhko-poranyly-komandyra-brygady-rf-vijskovi-yakoyi-chynyly-zlochyny-na-kyyivshhyni/",
+      "summary": "Про операцію повідомили у 423-му окремому полку безпілотних систем «Скіфські Грифони». За даними воєнної розвідки, переміщення російського полковника тривалий час відстежували. Екіпаж БПЛА уразив...",
+      "publishedAt": "2026-08-21T13:36:08.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Відплата за Бучу: важко поранили командира бригади рф, військові якої чинили злочини на Київщині",
+      "summaryUk": "Про операцію повідомили у 423-му окремому полку безпілотних систем «Скіфські Грифони». За даними воєнної розвідки, переміщення російського полковника тривалий час відстежували. Екіпаж БПЛА уразив..."
+    },
+    {
+      "id": "x-euromaidan-d6e89551bf59",
+      "title": "Ex-FSB general who wired Russia&#8217;s spies and army found dead in Moscow—a gunshot, no note, no official report",
+      "url": "https://euromaidanpress.com/2026/08/21/ex-fsb-general-who-wired-russias-spies-and-army-found-dead-in-moscow-a-gunshot-no-note-no-official-report/",
+      "summary": "The 83-year-old chaired a long-time supplier of encrypted communications for the country's security and military structures.",
+      "publishedAt": "2026-08-21T13:20:53.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Москві знайшли мертвим колишнього генерала ФСБ, який зв’язував російських шпигунів і армію — постріл, жодної записки, жодного офіційного звіту",
+      "summaryUk": "83-річний чоловік очолював давній постачальник шифрованого зв’язку для силових і військових структур країни."
+    },
+    {
+      "id": "x-euromaidan-e16d77d3efd8",
+      "title": "Occupied Crimea goes dark again after overnight drones",
+      "url": "https://euromaidanpress.com/2026/08/21/occupied-crimea-goes-dark-again-after-overnight-drones/",
+      "summary": "Most explosions and mobile air defense group activity was recorded in Simferopol, according to Crimean Wind TG channel",
+      "publishedAt": "2026-08-21T13:20:12.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Окупований Крим знову темніє після нічних дронів",
+      "summaryUk": "Найбільше вибухів і активності мобільних груп ППО зафіксовано в Сімферополі, повідомляє ТГ-канал Кримського вітру."
+    },
+    {
+      "id": "x-armyinform-35614c51da62",
+      "title": "ГУР виявило біолабораторію у Тверській області, де експериментують з небезпечними вірусами",
+      "url": "https://armyinform.com.ua/2026/08/21/gur-vyyavylo-biolaboratoriyu-u-tverskij-oblasti-de-eksperymentuyut-z-nebezpechnymy-virusamy/",
+      "summary": "Про це в п’ятницю, 21 серпня, повідомили у Головному управлінні розвідки Міністерства оборони України. «Держава-агресор спорудила секретний військовий комплекс біолабораторій...",
+      "publishedAt": "2026-08-21T13:19:27.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ГУР виявило біолабораторію у Тверській області, де експериментують з небезпечними вірусами",
+      "summaryUk": "Про це в п’ятницю, 21 серпня, повідомили у Головному управлінні розвідки Міністерства оборони України. «Держава-агресор спорудила секретний військовий комплекс біолабораторій..."
+    },
+    {
+      "id": "x-pravda-677f83cdcaff",
+      "title": "Колишній спецпредставник президента США Келлог прибув до України",
+      "url": "https://www.pravda.com.ua/news/2026/08/21/8049703/",
+      "summary": "Кіт Келлог у супроводі Мінінфраструктури оглянув наслідки атак РФ на Одеський порт та обговорив інвестиції.",
+      "publishedAt": "2026-08-21T13:19:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Колишній спецпредставник президента США Келлог прибув до України",
+      "summaryUk": "Кіт Келлог у супроводі Мінінфраструктури оглянув наслідки атак РФ на Одеський порт та обговорив інвестиції."
+    },
+    {
+      "id": "x-euromaidan-0d695402c71e",
+      "title": "Ukraine planned 1,000 AI-guided drones a night to shut Moscow airports, Atlantic reports",
+      "url": "https://euromaidanpress.com/2026/08/21/ukraine-mms-ai-drones-moscow-airports/",
+      "summary": "Two anonymous sources said the drones could identify targets despite jamming. A Ukrainian presidential official denied the project existed.",
+      "publishedAt": "2026-08-21T13:11:32.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна запланувала 1000 дронів із штучним інтелектом на ніч, щоб закрити московські аеропорти, повідомляє Atlantic",
+      "summaryUk": "Два анонімних джерела сказали, що безпілотники могли ідентифікувати цілі, незважаючи на перешкоди. Чиновник президента України заперечив існування проекту."
+    },
     {
       "id": "x-euromaidan-33d056e56fab",
       "title": "160 grams, 118-km link, and jam-resistance by frequency-hopping: Ukraine&#8217;s answer to drone war&#8217;s connectivity problem",
@@ -210,22 +498,6 @@
       "summaryUk": "Україна переробляє радянські броньовані машини-розвідники БРДМ-2 на дистанційно керовані роботизовані платформи з модулем важкого озброєння."
     },
     {
-      "id": "x-armyinform-75d165c5769f",
-      "title": "Перший в Україні перехоплювач реактивних «шахедів» поповнив арсенал Сил оборони",
-      "url": "https://armyinform.com.ua/2026/08/21/pershyj-v-ukrayini-perehoplyuvach-reaktyvnyh-%c2%abshahediv%c2%bb-popovnyv-arsenal-syl-oborony/",
-      "summary": "Про це у п’ятницю, 21 серпня, повідомили у Міністерстві оборони України. Як зазначається, ключовими характеристики реактивного перехоплювача Alexa Spatium є...",
-      "publishedAt": "2026-08-21T12:02:58.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Перший в Україні перехоплювач реактивних «шахедів» поповнив арсенал Сил оборони",
-      "summaryUk": "Про це у п’ятницю, 21 серпня, повідомили у Міністерстві оборони України. Як зазначається, ключовими характеристики реактивного перехоплювача Alexa Spatium є..."
-    },
-    {
       "id": "x-euromaidan-833042398ec1",
       "title": "She joined Ukraine&#8217;s army in 2019. Seven years later, she is still feeding the front",
       "url": "https://euromaidanpress.com/2026/08/21/she-joined-ukraines-army-in-2019-seven-years-later-she-is-still-feeding-the-front/",
@@ -240,22 +512,6 @@
       ],
       "titleUk": "У 2019 році пішла до лав української армії. Через сім років вона все ще годує фронт",
       "summaryUk": "Для одного українського військового кухаря сім років служби показують, скільки трудового життя може зайняти російська війна."
-    },
-    {
-      "id": "x-armyinform-3c28e652e57a",
-      "title": "Гранати закінчилися — боєприпас доставив «важкий борт»: піхота 72-ї бригади зачистила російський бліндаж",
-      "url": "https://armyinform.com.ua/2026/08/21/granaty-zakinchylysya-boyeprypas-dostavyv-vazhkyj-bort-pihota-72-yi-brygady-zachystyla-rosijskyj-blindazh/",
-      "summary": "Про це повідомили у 72-й окремій механізованій бригаді імені Чорних Запорожців. Близько п’ятої ранку українські піхотинці під прикриттям аеророзвідки підійшли до російської позиції. Противник перебував...",
-      "publishedAt": "2026-08-21T11:55:33.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Гранати закінчилися — боєприпас доставив «важкий борт»: піхота 72-ї бригади зачистила російський бліндаж",
-      "summaryUk": "Про це повідомили у 72-й окремій механізованій бригаді імені Чорних Запорожців. Близько п’ятої ранку українські піхотинці під прикриттям аеророзвідки підійшли до російської позиції. Противник перебував..."
     },
     {
       "id": "x-euromaidan-74518b6aaf14",
@@ -290,22 +546,6 @@
       "summaryUk": "Тижневий експорт зерна та олійних культур впав більш ніж на 90% з початку липня, повідомляє Bloomberg. Oxford Economics оцінює втрати ВВП у 2027 році на 2,1%."
     },
     {
-      "id": "x-armyinform-0f2fa049c327",
-      "title": "Півтонна авіабомба впала на подвір’я: на Харківщині сапери вилучили дві нерозірвані бомби рф",
-      "url": "https://armyinform.com.ua/2026/08/21/pivtonna-aviabomba-vpala-na-podvirya-na-harkivshhyni-sapery-vyluchyly-dvi-nerozirvani-bomby-rf/",
-      "summary": "Про це повідомили в Міністерстві внутрішніх справ України. Боєприпаси становили загрозу для місцевих жителів через близькість до житлової забудови. Піротехніки ДСНС обстежили...",
-      "publishedAt": "2026-08-21T11:43:45.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Півтонна авіабомба впала на подвір’я: на Харківщині сапери вилучили дві нерозірвані бомби рф",
-      "summaryUk": "Про це повідомили в Міністерстві внутрішніх справ України. Боєприпаси становили загрозу для місцевих жителів через близькість до житлової забудови. Піротехніки ДСНС обстежили..."
-    },
-    {
       "id": "x-pravda-8a1a5f58ecc9",
       "title": "У Москві знайшли мертвим генерал-майора ФСБ у відставці, можливе самогубство – російські ЗМІ",
       "url": "https://www.pravda.com.ua/news/2026/08/21/8049688/",
@@ -336,38 +576,6 @@
       ],
       "titleUk": "СБУ закликала українців до пильності напередодні та в День Незалежності",
       "summaryUk": "Служба безпеки України закликала українців бути особливо пильними напередодні та в День Незалежності 24 серпня через можливі загрози провокацій та терактів з боку держави-агресора РФ."
-    },
-    {
-      "id": "x-armyinform-2975a7503eb9",
-      "title": "СБУ попередила про загрози на День Незалежності",
-      "url": "https://armyinform.com.ua/2026/08/21/sbu-poperedyla-pro-zagrozy-na-den-nezalezhnosti/",
-      "summary": "Про це в п’ятницю, 21 серпня, повідомили у Службі безпеки України. «В умовах повномасштабної війни ворог може використовувати масові заходи...",
-      "publishedAt": "2026-08-21T11:24:36.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "СБУ попередила про загрози на День Незалежності",
-      "summaryUk": "Про це в п’ятницю, 21 серпня, повідомили у Службі безпеки України. «В умовах повномасштабної війни ворог може використовувати масові заходи..."
-    },
-    {
-      "id": "x-pravda-54e04b08b2c5",
-      "title": "Скільки ракет у РФ, що таке \"Бандеролі\", російський Starlink та вкиклики для Хмари – про війну за тиждень",
-      "url": "https://www.pravda.com.ua/news/2026/08/21/8049618/",
-      "summary": "",
-      "publishedAt": "2026-08-21T11:20:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Скільки ракет у РФ, що таке \"Бандеролі\", російський Starlink та вкиклики для Хмари – про війну за тиждень",
-      "summaryUk": ""
     },
     {
       "id": "x-euromaidan-f3e76a2044a4",
@@ -416,22 +624,6 @@
       ],
       "titleUk": "Поблизу Берліна виявили схованку зі зброєю, її пов’язують з РФ – ЗМІ",
       "summaryUk": "Німецькі видання повідомили, що органи безпеки виявили таємну схованку зі зброєю поблизу Берліна, припускають, що її створили на замовлення спецслужб РФ."
-    },
-    {
-      "id": "x-armyinform-84e78cd246ce",
-      "title": "Втік до рф і підписав контракт із російською армією: мешканця Харківщини судитимуть за держзраду",
-      "url": "https://armyinform.com.ua/2026/08/21/vtik-do-rf-i-pidpysav-kontrakt-iz-rosijskoyu-armiyeyu-meshkanczya-harkivshhyny-sudytymut-za-derzhzradu/",
-      "summary": "Про це повідомили в Харківській обласній прокуратурі. За даними слідства, коли Збройні Сили України визволили село Колодязне, один з його мешканців...",
-      "publishedAt": "2026-08-21T10:49:34.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Втік до рф і підписав контракт із російською армією: мешканця Харківщини судитимуть за держзраду",
-      "summaryUk": "Про це повідомили в Харківській обласній прокуратурі. За даними слідства, коли Збройні Сили України визволили село Колодязне, один з його мешканців..."
     },
     {
       "id": "x-euromaidan-6cd5e171d531",
@@ -498,22 +690,6 @@
       "summaryUk": "Безпека України – це безпека НАТО, – заявив голова Військового комітету НАТО адмірал Джузеппе Каво Драгоне."
     },
     {
-      "id": "x-armyinform-41f0d8939975",
-      "title": "«Вибити ворога і звільнити своє місто»: командир гармати «Гантер» розповів про службу в 144-му центрі ССО",
-      "url": "https://armyinform.com.ua/2026/08/21/vybyty-voroga-i-zvilnyty-svoye-misto-komandyr-garmaty-ganter-rozpoviv-pro-sluzhbu-v-144-mu-czentri-sso/",
-      "summary": "Історію військового та кадри роботи артилерійських розрахунків оприлюднили у Силах спеціальних операцій ЗСУ. Повномасштабне вторгнення «Гантер» зустрів у складі гарматного розрахунку. Згодом перевівся до ССО, служив...",
-      "publishedAt": "2026-08-21T10:27:33.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Вибити ворога і звільнити своє місто»: командир гармати «Гантер» розповів про службу в 144-му центрі ССО",
-      "summaryUk": "Історію військового та кадри роботи артилерійських розрахунків оприлюднили у Силах спеціальних операцій ЗСУ. Повномасштабне вторгнення «Гантер» зустрів у складі гарматного розрахунку. Згодом перевівся до ССО, служив..."
-    },
-    {
       "id": "x-euromaidan-c81420393f94",
       "title": "Hungary sent commandos to seize Ukraine’s $82 million bank convoy. Its investigators now say they have found no crime",
       "url": "https://euromaidanpress.com/2026/08/21/hungary-drops-oschadbank-case/",
@@ -544,54 +720,6 @@
       ],
       "titleUk": "На вихідних ще буде до +37°, а з понеділка спека трохи спаде",
       "summaryUk": "Україну очікують спекотні вихідні, місцями дощі. З понеділка спека спаде, опади не прогнозують."
-    },
-    {
-      "id": "x-pravda-a202b9e18f1a",
-      "title": "У лавах спецпідрозділу Нацгвардії викрили російського \"крота\"",
-      "url": "https://www.pravda.com.ua/news/2026/08/21/8049667/",
-      "summary": "Контррозвідка затримала військового Нацгвардії, який співпрацював з РФ та зливав таємні дані із закритої інформаційної системи Сил оборони",
-      "publishedAt": "2026-08-21T09:24:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У лавах спецпідрозділу Нацгвардії викрили російського \"крота\"",
-      "summaryUk": "Контррозвідка затримала військового Нацгвардії, який співпрацював з РФ та зливав таємні дані із закритої інформаційної системи Сил оборони"
-    },
-    {
-      "id": "x-pravda-dce2514ccb89",
-      "title": "З-під завалів торговельного центру в Краматорську дістали тіло жінки",
-      "url": "https://www.pravda.com.ua/news/2026/08/21/8049664/",
-      "summary": "Кількість жертв російського удару про торговельному центру в Краматорську на Донеччині зросла до двох: з-під завалів деблокували тіло жінки.",
-      "publishedAt": "2026-08-21T09:07:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "З-під завалів торговельного центру в Краматорську дістали тіло жінки",
-      "summaryUk": "Кількість жертв російського удару про торговельному центру в Краматорську на Донеччині зросла до двох: з-під завалів деблокували тіло жінки."
-    },
-    {
-      "id": "x-pravda-1c4497c6baa8",
-      "title": "Лідери держав з \"коаліції охочих\" зберуться на засідання 24 серпня",
-      "url": "https://www.pravda.com.ua/news/2026/08/21/8049661/",
-      "summary": "Засідання \"коаліції охочих\" щодо подальшої підтримки України, у якому візьмуть участь лідери держав-членів, відбудеться 24 серпня.",
-      "publishedAt": "2026-08-21T09:07:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Лідери держав з \"коаліції охочих\" зберуться на засідання 24 серпня",
-      "summaryUk": "Засідання \"коаліції охочих\" щодо подальшої підтримки України, у якому візьмуть участь лідери держав-членів, відбудеться 24 серпня."
     },
     {
       "id": "x-euromaidan-415c47bad0c9",
@@ -752,102 +880,6 @@
       ],
       "titleUk": "Російські шахи підбили біля кордону з Молдовою, спалили вантаж з продуктами та знеструмили 13 тис. в Одеській області",
       "summaryUk": "Удари в Одесі були частиною комбінованої атаки Росії по всій Україні. Підозрюваний Шахед також перетнув Молдову, а дрон розбився в Румунії."
-    },
-    {
-      "id": "x-euromaidan-ee4e5d4cd95e",
-      "title": "Black Sea attacks delayed up to 2.5 million tons of wheat bound for Asia",
-      "url": "https://euromaidanpress.com/2026/08/20/russia-black-sea-attacks-global-wheat-prices/",
-      "summary": "Russian attacks on Ukraine’s ports and Black Sea ships surged from 14 in all of 2025 to 124 this July. Up to 2.5 million tons of wheat bound for Asia is delayed.",
-      "publishedAt": "2026-08-20T12:36:15.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Чорноморські атаки затримали до 2,5 мільйонів тонн пшениці, що прямувала до Азії",
-      "summaryUk": "Російські атаки на українські порти та чорноморські кораблі зросли з 14 за весь 2025 рік до 124 цього липня. До 2,5 мільйонів тонн пшениці, що прямує до Азії, затримується."
-    },
-    {
-      "id": "x-euromaidan-b418ca0eb01f",
-      "title": "Ukraine hits major Russian refinery and Black Sea oil terminal as drones strike substation powering occupied Crimea",
-      "url": "https://euromaidanpress.com/2026/08/20/ukraine-strikes-russian-oil-crimea-power-gateway/",
-      "summary": "Fires broke out at all three targets as occupied Crimea suffered a widespread blackout that halted electric transport in several cities.",
-      "publishedAt": "2026-08-20T12:01:00.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна вдарила по великому російському нафтопереробному заводу та нафтовому терміналу в Чорному морі, оскільки безпілотники завдали ударів по підстанції, що живить окупований Крим",
-      "summaryUk": "Пожежі спалахнули на всіх трьох об’єктах, оскільки в окупованому Криму відбулося повсюдне знеструмлення, через яке зупинився електротранспорт у кількох містах."
-    },
-    {
-      "id": "x-euromaidan-9f017bdf7079",
-      "title": "Russia diverts defense-industry chemicals to gasoline—but stations still run dry",
-      "url": "https://euromaidanpress.com/2026/08/20/russia-defense-chemicals-gasoline-stations-run-dry/",
-      "summary": "A July decree sent defense-industry chemicals to the fuel pump; motor oil prices have since spiked 40%, and Rosgvardia is patrolling gas stations in Moscow Oblast.",
-      "publishedAt": "2026-08-20T11:45:26.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія перенаправляє хімічні речовини для оборонної промисловості на бензин, але станції все ще не працюють",
-      "summaryUk": "Липневий наказ відправив хімікати для оборонної промисловості в паливний насос; Ціни на моторне масло з того часу підскочили на 40%, а Росгвардія патрулює АЗС у Московській області."
-    },
-    {
-      "id": "x-euromaidan-3ac5bbbc5917",
-      "title": "Russia faked broadcasts from Sweden&#8217;s national TV to smear its PM—the same network already hit Germany and France this month",
-      "url": "https://euromaidanpress.com/2026/08/20/russia-faked-broadcasts-from-swedens-national-tv-to-smear-its-pm-the-same-network-already-hit-germany-and-france-this-month/",
-      "summary": "Germany's domestic intelligence agency, France's anti-disinformation body, and Swedish journalists all flagged the campaign in August.",
-      "publishedAt": "2026-08-20T11:31:02.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія фальсифікувала трансляції національного телебачення Швеції, щоб дискредитувати свого прем’єр-міністра — цього місяця така ж мережа вже вразила Німеччину та Францію",
-      "summaryUk": "Внутрішня розвідка Німеччини, антидезінформаційний орган Франції та шведські журналісти помітили цю кампанію в серпні."
-    },
-    {
-      "id": "x-euromaidan-810f031318a0",
-      "title": "Russia stops mass-producing Kinzhals amid accuracy problems, but 50 missiles remain ready for Ukraine",
-      "url": "https://euromaidanpress.com/2026/08/20/russia-keeps-50-kinzhal-missiles-in-reserve/",
-      "summary": "Russia is redirecting resources toward other ballistic and cruise missiles as it seeks to maintain the pace of strikes against Ukraine.",
-      "publishedAt": "2026-08-20T10:59:11.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія припинила серійне виробництво «Кінжалів» через проблеми з точністю, але 50 ракет залишаються готовими для України",
-      "summaryUk": "Росія перенаправляє ресурси на інші балістичні та крилаті ракети, намагаючись зберегти темпи ударів по Україні."
-    },
-    {
-      "id": "x-euromaidan-30b692cb2596",
-      "title": "Arson did not disrupt Ukraine deliveries, Estonian military robot maker says",
-      "url": "https://euromaidanpress.com/2026/08/20/milrem-robotics-arson-ukraine-deliveries/",
-      "summary": "Three suspects were detained in Latvia. The company Milrem said more than 200 of its robotic systems would be operating in Ukraine by year-end.",
-      "publishedAt": "2026-08-20T10:23:32.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Естонський виробник військових роботів заявив, що підпал не перервав поставки в Україну",
-      "summaryUk": "У Латвії затримали трьох підозрюваних. Компанія Milrem повідомила, що до кінця року в Україні працюватиме понад 200 її роботизованих систем."
     }
   ]
 }
