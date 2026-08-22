@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T10:37:51.578Z",
+  "generatedAt": "2026-08-22T12:58:47.650Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,198 @@
   ],
   "items": [
     {
+      "id": "x-armyinform-0fe638a51a07",
+      "title": "Володимир Зеленський зустрівся у Києві з генералом Кітом Келлогом",
+      "url": "https://armyinform.com.ua/2026/08/22/volodymyr-zelenskyj-zustrivsya-u-kyyevi-z-generalom-kitom-kellogom/",
+      "summary": "Про це він повідомив у себе у соцмережах. За словами глави держави, спочатку колишній спецпредставник США з питань України відвідав...",
+      "publishedAt": "2026-08-22T12:42:49.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Володимир Зеленський зустрівся у Києві з генералом Кітом Келлогом",
+      "summaryUk": "Про це він повідомив у себе у соцмережах. За словами глави держави, спочатку колишній спецпредставник США з питань України відвідав..."
+    },
+    {
+      "id": "x-euromaidan-4961baa511f3",
+      "title": "Russia has burned 13 million Ukrainian books in three months, nearly third of everything country printed in 2025",
+      "url": "https://euromaidanpress.com/2026/08/22/russia-has-burned-13-million-ukrainian-books-in-three-months-nearly-third-of-everything-country-printed-in-2025/",
+      "summary": "Publishers have asked President Zelenskyy to convene the National Security Council.",
+      "publishedAt": "2026-08-22T12:31:18.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія за три місяці спалила 13 мільйонів українських книжок, майже третину всього, що країна надрукувала у 2025 році",
+      "summaryUk": "Видавці попросили президента Зеленського скликати РНБО."
+    },
+    {
+      "id": "x-pravda-b1433e62094b",
+      "title": "Німеччина виділяє 50 млн євро на гумдопомогу Україні",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049828/",
+      "summary": "Німеччина додатково надає Україні 50 млн євро гуманітарної допомоги та 10 млн євро до фонду CAP НАТО для підтримки енергетики та військових.",
+      "publishedAt": "2026-08-22T12:11:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Німеччина виділяє 50 млн євро на гумдопомогу Україні",
+      "summaryUk": "Німеччина додатково надає Україні 50 млн євро гуманітарної допомоги та 10 млн євро до фонду CAP НАТО для підтримки енергетики та військових."
+    },
+    {
+      "id": "x-euromaidan-d95c19c3a075",
+      "title": "Intelligence: Putin ordered secret biolab built on island, so protected that fishing is banned, and its own guards fear infection",
+      "url": "https://euromaidanpress.com/2026/08/22/intelligence-putin-ordered-secret-biolab-built-on-island-so-protected-that-fishing-is-banned-and-its-own-guards-fear-infection/",
+      "summary": "Ukraine's military intelligence says Russia runs a secret biolab complex in Tver Oblast, an inversion of Russia's own false claims about Ukraine.",
+      "publishedAt": "2026-08-22T12:04:21.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Розвідка: Путін наказав побудувати на острові секретну біолабораторію, настільки захищену, що рибальство заборонено, а її власні охоронці бояться зараження",
+      "summaryUk": "Військова розвідка України каже, що Росія керує секретним біолабораторним комплексом у Тверській області, що є інверсією власних неправдивих заяв Росії щодо України."
+    },
+    {
+      "id": "x-armyinform-ca740a7db08a",
+      "title": "СБУ повідомила про підозру організаторам депортації 53 дітей з Донеччини",
+      "url": "https://armyinform.com.ua/2026/08/22/sbu-povidomyla-pro-pidozru-organizatoram-deportacziyi-53-ditej-z-donechchyny/",
+      "summary": "Головне слідче управління Служби безпеки України 20 серпня 2026 року повідомило про підозру за ст. 438 КК України двом представникам окупаційної адміністрації Донецької області...",
+      "publishedAt": "2026-08-22T12:01:42.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "СБУ повідомила про підозру організаторам депортації 53 дітей з Донеччини",
+      "summaryUk": "Головне слідче управління Служби безпеки України 20 серпня 2026 року повідомило про підозру за ст. 438 КК України двом представникам окупаційної адміністрації Донецької області..."
+    },
+    {
+      "id": "x-euromaidan-d0280e381072",
+      "title": "Russia struck Kyiv and Boryspil, its main airport hub, twice in 24 hours with ballistics Ukraine can&#8217;t stop without US Patriots, days before Independence Day",
+      "url": "https://euromaidanpress.com/2026/08/22/russia-struck-kyiv-and-boryspil-its-main-airport-hub-with-ballistics-ukraine-cant-stop-without-us-patriots-days-before-independence-day/",
+      "summary": "Russia has struck Kyiv and its suburbs with ballistic missiles for a second consecutive day, killing civilians. Meanwhile,&#8230;",
+      "publishedAt": "2026-08-22T11:51:42.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія двічі протягом 24 годин завдала балістичного удару по Києву та Борисполю, своєму головному аеропорту. Україна не може зупинитися без Патріотів США за кілька днів до Дня Незалежності",
+      "summaryUk": "Росія другий день поспіль обстрілює Київ та його передмістя балістичними ракетами, вбиваючи мирних жителів. Тим часом,…"
+    },
+    {
+      "id": "x-pravda-660b3f40e918",
+      "title": "Генштаб: Сили оборони уразили резервуари Єйського нафтоналивного комплексу",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049824/",
+      "summary": "Україна атакувала резервуари з паливом у Єйську, виникла пожежа. Об'єкт забезпечує російську армію.",
+      "publishedAt": "2026-08-22T11:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб: Сили оборони уразили резервуари Єйського нафтоналивного комплексу",
+      "summaryUk": "Україна атакувала резервуари з паливом у Єйську, виникла пожежа. Об'єкт забезпечує російську армію."
+    },
+    {
+      "id": "x-armyinform-38e9c6e5d8f0",
+      "title": "На Київщині атаковано стоянку з фурами: загинули дві людини, серед постраждалих дитина",
+      "url": "https://armyinform.com.ua/2026/08/22/na-kyyivshhyni-atakovano-stoyanku-z-furamy-zagynuly-dvi-lyudyny/",
+      "summary": "Про наслідки удару розповіли у Державній службі з надзвичайних ситуацій. Як повідомляється, жертвами чергового воєнного злочину росіян стали дві людини....",
+      "publishedAt": "2026-08-22T11:41:37.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Київщині атаковано стоянку з фурами: загинули дві людини, серед постраждалих дитина",
+      "summaryUk": "Про наслідки удару розповіли у Державній службі з надзвичайних ситуацій. Як повідомляється, жертвами чергового воєнного злочину росіян стали дві людини...."
+    },
+    {
+      "id": "x-armyinform-a777d8377109",
+      "title": "Жертвами удару рф по Запоріжжю стали три люди людини, ще 15 постраждали",
+      "url": "https://armyinform.com.ua/2026/08/22/zhertvamy-udaru-rf-po-zaporizhzhyu-staly-try-lyudy-lyudyny-shhe-15-postrazhdaly/",
+      "summary": "Так, у суботу, 22 серпня, внаслідок ворожого удару по Запорізькому району загинули троє мирних мешканців, про що повідомив у себе...",
+      "publishedAt": "2026-08-22T11:23:05.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Жертвами удару рф по Запоріжжю стали три люди людини, ще 15 постраждали",
+      "summaryUk": "Так, у суботу, 22 серпня, внаслідок ворожого удару по Запорізькому району загинули троє мирних мешканців, про що повідомив у себе..."
+    },
+    {
+      "id": "x-pravda-50b5fb71707f",
+      "title": "Сибіга: Україна має креативні ідеї щодо активізації мирного процесу",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049832/",
+      "summary": "",
+      "publishedAt": "2026-08-22T11:16:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Сибіга: Україна має креативні ідеї щодо активізації мирного процесу",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-3f8f556ca377",
+      "title": "Ukrainians rally across dozens of countries to demand Europe use Russia’s frozen billions",
+      "url": "https://euromaidanpress.com/2026/08/22/ukrainians-rally-11-cities-frozen-russian-assets/",
+      "summary": "The EU backed a €90 billion Ukraine loan with its budget while €210 billion in Russian central bank assets remain immobilized.",
+      "publishedAt": "2026-08-22T10:58:54.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українці мітингують у десятках країн, вимагаючи від Європи використати заморожені мільярди Росії",
+      "summaryUk": "ЄС підтримав позику Україні в розмірі 90 мільярдів євро зі свого бюджету, тоді як 210 мільярдів євро в активах російського центрального банку залишаються знерухомленими."
+    },
+    {
+      "id": "x-armyinform-214892f41496",
+      "title": "Дрони Сил оборони уразили резервуари з ПММ Єйського нафтоналивного комплексу",
+      "url": "https://armyinform.com.ua/2026/08/22/drony-syl-oborony-urazyly-rezervuary-z-pmm-yejskogo-naftonalyvnogo-kompleksu/",
+      "summary": "Про це у суботу, 22 серпня, відзвітували у Генеральному штабі ЗСУ. Внаслідок атаки на ворожому об’єкті, залученому до забезпечення російських...",
+      "publishedAt": "2026-08-22T10:56:02.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Дрони Сил оборони уразили резервуари з ПММ Єйського нафтоналивного комплексу",
+      "summaryUk": "Про це у суботу, 22 серпня, відзвітували у Генеральному штабі ЗСУ. Внаслідок атаки на ворожому об’єкті, залученому до забезпечення російських..."
+    },
+    {
       "id": "x-pravda-23a8f4467097",
       "title": "Після балістичної атаки удень в Бориспільському районі загинула людина",
       "url": "https://www.pravda.com.ua/news/2026/08/22/8049819/",
@@ -178,38 +370,6 @@
       "summaryUk": "Українські сили уразили НПЗ у Самарській області РФ та знищили літак Су-24М на аеродромі \"Саки\" в окупованому Криму."
     },
     {
-      "id": "x-armyinform-1fd99b3dcad2",
-      "title": "Сили оборони уразили одне з найбільших нафтопереробних підприємств рф — Генштаб ЗСУ",
-      "url": "https://armyinform.com.ua/2026/08/22/syly-oborony-urazyly-odne-z-najbilshyh-naftopererobnyh-pidpryyemstv-rf-genshtab-zsu/",
-      "summary": "Про це повідомили у Генеральному штабі ЗСУ. Як зазначається, в результаті ураження на стратегічного об’єкта країни-агресора, чия продукція використовується для...",
-      "publishedAt": "2026-08-22T09:02:05.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сили оборони уразили одне з найбільших нафтопереробних підприємств рф — Генштаб ЗСУ",
-      "summaryUk": "Про це повідомили у Генеральному штабі ЗСУ. Як зазначається, в результаті ураження на стратегічного об’єкта країни-агресора, чия продукція використовується для..."
-    },
-    {
-      "id": "x-armyinform-b1074e4f771b",
-      "title": "Розвиток українського Defense Tech: Президент відкрив UNITED24 MODE Summit 2026",
-      "url": "https://armyinform.com.ua/2026/08/22/rozvytok-ukrayinskogo-defense-tech-prezydent-vidkryv-united24-mode-summit-2026/",
-      "summary": "Під час свого виступу глава держави наголосив на важливій ролі технологій і міжнародної підтримки у посиленні оборонних спроможностей країни. Однією...",
-      "publishedAt": "2026-08-22T08:51:03.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Розвиток українського Defense Tech: Президент відкрив UNITED24 MODE Summit 2026",
-      "summaryUk": "Під час свого виступу глава держави наголосив на важливій ролі технологій і міжнародної підтримки у посиленні оборонних спроможностей країни. Однією..."
-    },
-    {
       "id": "x-pravda-7904bbf40c69",
       "title": "У Борисполі пролунали два вибухи після повідомлень про балістику",
       "url": "https://www.pravda.com.ua/news/2026/08/22/8049807/",
@@ -224,22 +384,6 @@
       ],
       "titleUk": "У Борисполі пролунали два вибухи після повідомлень про балістику",
       "summaryUk": "У Борисполі сталося два вибухи після попередження про рух ракет. Деталі та наслідки уточнюються."
-    },
-    {
-      "id": "x-armyinform-0009971d5afe",
-      "title": "«Можна дивитися нескінченно»: артилеристи «Помсти» показала пуск повного пакета РСЗВ у Slow Mo",
-      "url": "https://armyinform.com.ua/2026/08/22/%c2%abmozhna-dyvytysya-neskinchenno%c2%bb-artylerysty-%c2%abpomsty%c2%bb-pokazala-pusk-povnogo-paketa-rszv-u-slow-mo/",
-      "summary": "Відповідними кадрами поділилася у суботу, 22 серпня, Державна прикордонна служба. Завдяки сповільненій зйомці можна детально роздивитися виліт кожного снаряда РСЗВ...",
-      "publishedAt": "2026-08-22T08:13:06.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Можна дивитися нескінченно»: артилеристи «Помсти» показала пуск повного пакета РСЗВ у Slow Mo",
-      "summaryUk": "Відповідними кадрами поділилася у суботу, 22 серпня, Державна прикордонна служба. Завдяки сповільненій зйомці можна детально роздивитися виліт кожного снаряда РСЗВ..."
     },
     {
       "id": "x-pravda-883ef645dbd6",
@@ -274,22 +418,6 @@
       "summaryUk": "У Кривому Розі рятувальники продовжують розбирати завали та шукати людей на місці російського удару по торговельному центру. Наразі відомо про 16 загиблих і 130 постраждалих."
     },
     {
-      "id": "x-armyinform-818f020d1103",
-      "title": "Воїни ССО долучилися до «Говерляни 2026», поділившись з молоддю своїм досвідом та навичками",
-      "url": "https://armyinform.com.ua/2026/08/22/voyiny-sso-doluchylysya-do-%c2%abgoverlyany-2026%c2%bb-podilyvshys-z-moloddyu-svoyim-dosvidom-ta-navychkamy/",
-      "summary": "Як повідомляється, українські воїни Полку зв’язку ССО ділилися своїм досвідом та базовими навичками, які будуть корисними й у цивільному житті....",
-      "publishedAt": "2026-08-22T07:46:21.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Воїни ССО долучилися до «Говерляни 2026», поділившись з молоддю своїм досвідом та навичками",
-      "summaryUk": "Як повідомляється, українські воїни Полку зв’язку ССО ділилися своїм досвідом та базовими навичками, які будуть корисними й у цивільному житті...."
-    },
-    {
       "id": "x-pravda-2d0c693821aa",
       "title": "У Херсоні після атаки російських дронів згорів торговий центр",
       "url": "https://www.pravda.com.ua/news/2026/08/22/8049797/",
@@ -304,22 +432,6 @@
       ],
       "titleUk": "У Херсоні після атаки російських дронів згорів торговий центр",
       "summaryUk": "У Херсоні російські безпілотники атакували торговий центр уночі 22 серпня — масштабна пожежа, об'єкт майже знищено."
-    },
-    {
-      "id": "x-armyinform-a7d898238b1b",
-      "title": "Не лише Wildberries: уражено найбільший складський комплекс Ozon у Поволжі",
-      "url": "https://armyinform.com.ua/2026/08/22/ne-lyshe-wildberries-urazheno-najbilshyj-skladskyj-kompleks-ozon-u-povolzhi/",
-      "summary": "Про це свідчать численні відео, оприлюднені у соцмережах місцевими мешканцями. Удар по складу Ozon підтвердив у своєму Telegram-каналі й керівник...",
-      "publishedAt": "2026-08-22T07:24:59.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Не лише Wildberries: уражено найбільший складський комплекс Ozon у Поволжі",
-      "summaryUk": "Про це свідчать численні відео, оприлюднені у соцмережах місцевими мешканцями. Удар по складу Ozon підтвердив у своєму Telegram-каналі й керівник..."
     },
     {
       "id": "x-pravda-03c66ed1f3a5",
@@ -352,118 +464,6 @@
       ],
       "titleUk": "В ЄС відреагували на удар РФ по Кривому Рогу",
       "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-a8860ad2a532",
-      "title": "Ейфелеву вежу підсвітять синьо-жовтими кольорами до Дня Незалежності України",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049787/",
-      "summary": "",
-      "publishedAt": "2026-08-22T06:32:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ейфелеву вежу підсвітять синьо-жовтими кольорами до Дня Незалежності України",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-armyinform-ab052a739c44",
-      "title": "Основні напрямки Київ та Одещина: ворог атакував вночі балістикою, крилатими ракетами та 217 БПЛА",
-      "url": "https://armyinform.com.ua/2026/08/22/osnovni-napryamky-kyyiv-ta-odeshhyna-vorog-atakuvav-vnochi-balistykoyu-krylatymy-raketamy-ta-217-bpla/",
-      "summary": "Про це повідомили у Повітряних Силах ЗСУ. Як зазначається, серед ворожих засобів ураження були три крилаті ракети Х-31П/Х-59, а також...",
-      "publishedAt": "2026-08-22T06:28:40.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Основні напрямки Київ та Одещина: ворог атакував вночі балістикою, крилатими ракетами та 217 БПЛА",
-      "summaryUk": "Про це повідомили у Повітряних Силах ЗСУ. Як зазначається, серед ворожих засобів ураження були три крилаті ракети Х-31П/Х-59, а також..."
-    },
-    {
-      "id": "x-pravda-a007616e0131",
-      "title": "ПС: Росія атакувала ракетами та безпілотниками, є влучання та падіння на понад 50 локаціях",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049785/",
-      "summary": "Вночі 22 серпня Росія обстріляла Україну ракетами, дронами та \"Бандеролями\". Основні удари — Київщина та Одещина.",
-      "publishedAt": "2026-08-22T06:19:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ПС: Росія атакувала ракетами та безпілотниками, є влучання та падіння на понад 50 локаціях",
-      "summaryUk": "Вночі 22 серпня Росія обстріляла Україну ракетами, дронами та \"Бандеролями\". Основні удари — Київщина та Одещина."
-    },
-    {
-      "id": "x-pravda-0da62aa5ef16",
-      "title": "Пункт пропуску на кордоні з Молдовою відновив роботу через добу",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049784/",
-      "summary": "Пропускні операції у міжнародному пункті \"Табаки\" на кордоні з Молдовою знову працюють після атаки РФ.",
-      "publishedAt": "2026-08-22T06:06:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Пункт пропуску на кордоні з Молдовою відновив роботу через добу",
-      "summaryUk": "Пропускні операції у міжнародному пункті \"Табаки\" на кордоні з Молдовою знову працюють після атаки РФ."
-    },
-    {
-      "id": "x-pravda-eb4c78e21c5b",
-      "title": "Незалежність людини. Чому українське суспільство змінюється швидше за державу",
-      "url": "https://www.pravda.com.ua/columns/2026/08/22/8048982/",
-      "summary": "Україна святкує 35-річчя незалежності: підсумки, виклики і трансформації суспільства.",
-      "publishedAt": "2026-08-22T06:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Незалежність людини. Чому українське суспільство змінюється швидше за державу",
-      "summaryUk": "Україна святкує 35-річчя незалежності: підсумки, виклики і трансформації суспільства."
-    },
-    {
-      "id": "x-pravda-9a63a36ac60c",
-      "title": "Єврокомісія підняла прапор України перед Днем Незалежності",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049783/",
-      "summary": "",
-      "publishedAt": "2026-08-22T05:54:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Єврокомісія підняла прапор України перед Днем Незалежності",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-517698665edb",
-      "title": "У трьох областях через російські атаки загинули 5 людей, ще 26 постраждали",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049782/",
-      "summary": "Унаслідок російських атак у трьох областях України за добу загинули 5 людей, ще 26 отримали поранення.",
-      "publishedAt": "2026-08-22T05:42:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У трьох областях через російські атаки загинули 5 людей, ще 26 постраждали",
-      "summaryUk": "Унаслідок російських атак у трьох областях України за добу загинули 5 людей, ще 26 отримали поранення."
     },
     {
       "id": "x-euromaidan-8d749465f049",
@@ -864,70 +864,6 @@
       ],
       "titleUk": "72 обшуки, 22 підозрювані: ДБР спільно з Генштабом відкрили масштабну операцію у військових частинах",
       "summaryUk": "Державне бюро розслідувань України розпочало операцію щодо незаконних виплат солдатам і командирам за використання військовослужбовців на приватних роботах."
-    },
-    {
-      "id": "x-euromaidan-30cb5a327d44",
-      "title": "Ukraine takes Soviet BRDM-2s from its stockpile and rebuilds them into remote robots, with a Mercedes diesel under consideration",
-      "url": "https://euromaidanpress.com/2026/08/21/ukraine-takes-soviet-brdm-2s-from-its-stockpile-and-rebuilds-them-into-remote-robots-with-a-mercedes-diesel-under-consideration/",
-      "summary": "Ukraine is converting Soviet BRDM-2 armored scout vehicles into remote-controlled robotic platforms with a heavy weapon module.",
-      "publishedAt": "2026-08-21T12:04:26.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна забирає радянські БРДМ-2 зі свого складу та переробляє їх на дистанційних роботів, розглядається дизельний Mercedes",
-      "summaryUk": "Україна переробляє радянські броньовані машини-розвідники БРДМ-2 на дистанційно керовані роботизовані платформи з модулем важкого озброєння."
-    },
-    {
-      "id": "x-euromaidan-833042398ec1",
-      "title": "She joined Ukraine&#8217;s army in 2019. Seven years later, she is still feeding the front",
-      "url": "https://euromaidanpress.com/2026/08/21/she-joined-ukraines-army-in-2019-seven-years-later-she-is-still-feeding-the-front/",
-      "summary": "For one Ukrainian military cook, seven years of service show how much of a working life Russia's war can occupy.",
-      "publishedAt": "2026-08-21T12:01:28.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У 2019 році пішла до лав української армії. Через сім років вона все ще годує фронт",
-      "summaryUk": "Для одного українського військового кухаря сім років служби показують, скільки трудового життя може зайняти російська війна."
-    },
-    {
-      "id": "x-euromaidan-74518b6aaf14",
-      "title": "Ukraine&#8217;s biggest weakness against Russia isn&#8217;t interceptor shortage, analyst argues. It&#8217;s what happens before missiles even launch",
-      "url": "https://euromaidanpress.com/2026/08/21/ukraines-biggest-weakness-against-russia-isnt-interceptor-shortage-analyst-argues-its-what-happens-before-missiles-even-launch/",
-      "summary": "Russia plans its terror campaigns years out, an analyst says.",
-      "publishedAt": "2026-08-21T11:52:50.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Найбільшою слабкістю України проти Росії є не брак перехоплювачів, стверджує аналітик. Це те, що відбувається ще до запуску ракет",
-      "summaryUk": "Аналітик каже, що Росія планує свої терористичні кампанії на багато років."
-    },
-    {
-      "id": "x-euromaidan-ce311cb2e1ca",
-      "title": "Russian strikes on Odesa ports push Ukrainian farms toward bankruptcy, Bloomberg reports",
-      "url": "https://euromaidanpress.com/2026/08/21/odesa-strikes-push-ukrainian-farmers-toward-bankruptcy-bloomberg-reports/",
-      "summary": "Weekly grain and oilseed exports have fallen by more than 90% since early July, Bloomberg reports. Oxford Economics estimates a 2.1% GDP loss in 2027.",
-      "publishedAt": "2026-08-21T11:47:57.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російські удари по портах Одеси штовхають українські господарства до банкрутства, повідомляє Bloomberg",
-      "summaryUk": "Тижневий експорт зерна та олійних культур впав більш ніж на 90% з початку липня, повідомляє Bloomberg. Oxford Economics оцінює втрати ВВП у 2027 році на 2,1%."
     }
   ]
 }
