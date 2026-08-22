@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:38:51.360Z",
+  "generatedAt": "2026-08-22T18:47:17.926Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,118 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-01db9f196eb3",
+      "title": "Нова посолка Канади починає роботу в Україні",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049869/",
+      "summary": "",
+      "publishedAt": "2026-08-22T17:35:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Нова посолка Канади починає роботу в Україні",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-c7e2d0709cb8",
+      "title": "Федоров: Корупція заважає закінчити війну з сильної позиції",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049868/",
+      "summary": "Михайло Федоров заявив, що корупція гальмує перемогу України та стосується сотень людей, а не лише окремих осіб.",
+      "publishedAt": "2026-08-22T17:25:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Федоров: Корупція заважає закінчити війну з сильної позиції",
+      "summaryUk": "Михайло Федоров заявив, що корупція гальмує перемогу України та стосується сотень людей, а не лише окремих осіб."
+    },
+    {
+      "id": "x-pravda-03c66ed1f3a5",
+      "title": "Скільки ракет у РФ, що таке \"Бандеролі\", російський Starlink та вкиклики для Хмари – про війну за тиждень",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049618/",
+      "summary": "",
+      "publishedAt": "2026-08-22T17:20:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Скільки ракет у РФ, що таке \"Бандеролі\", російський Starlink та вкиклики для Хмари – про війну за тиждень",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-a90b4936ed19",
+      "title": "Evacuation is &#8220;force majeure that no one is ready for&#8221; in most Ukrainian units, and robots are too slow to fix it, commander says",
+      "url": "https://euromaidanpress.com/2026/08/22/evacuation-is-force-majeure-that-no-one-is-ready-for-in-most-ukrainian-units-and-robots-are-too-slow-to-fix-it-commander-says/",
+      "summary": "Chornovol says casualty evacuation remains improvised chaos in most Ukrainian units, calling for dedicated evacuation teams and light-armored transport.",
+      "publishedAt": "2026-08-22T17:02:13.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У більшості українських підрозділів евакуація – це «форс-мажор, до якого ніхто не готовий», і роботи надто повільні, щоб це виправити, каже командир",
+      "summaryUk": "Чорновол каже, що евакуація поранених залишається хаосом у більшості українських підрозділів, тому потрібні спеціальні групи евакуації та легкий броньований транспорт."
+    },
+    {
+      "id": "x-euromaidan-9b4e860e3bc1",
+      "title": "From Warsaw to New York, Ukrainians will form human chains on Independence Day",
+      "url": "https://euromaidanpress.com/2026/08/22/ukrainians-independence-day-human-chains/",
+      "summary": "Communities scattered by Russia’s invasion will revive a symbol from Ukraine’s independence movement to keep the country visible abroad.",
+      "publishedAt": "2026-08-22T16:47:35.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Від Варшави до Нью-Йорка на День Незалежності українці стануть живими ланцюгами",
+      "summaryUk": "Громади, розпорошені вторгненням Росії, відродять символ руху за незалежність України, щоб зробити країну помітною за кордоном."
+    },
+    {
+      "id": "x-pravda-c5813bff9747",
+      "title": "Макрон пообіцяв Зеленському ракети-перехоплювачі",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049864/",
+      "summary": "Макрон пообіцяв Зеленському відправку ракет-перехоплювачів та посилення підтримки Україні.",
+      "publishedAt": "2026-08-22T16:44:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Макрон пообіцяв Зеленському ракети-перехоплювачі",
+      "summaryUk": "Макрон пообіцяв Зеленському відправку ракет-перехоплювачів та посилення підтримки Україні."
+    },
+    {
+      "id": "x-euromaidan-a7c54a7d2247",
+      "title": "Ukrainian intelligence units will not help: Analyst warns that once Russia breaks into Sloviansk and Kramatorsk, reinforcing them only delays inevitable",
+      "url": "https://euromaidanpress.com/2026/08/22/ukrainian-intelligence-units-will-not-help-analyst-warns-that-once-russia-breaks-into-sloviansk-and-kramatorsk-reinforcing-them-only-delays-inevitable/",
+      "summary": "Russian forces are 12 to 13 km from Sloviansk and Kramatorsk and could begin infiltrating the fortress-belt cities by late 2026.",
+      "publishedAt": "2026-08-22T16:42:55.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українські спецпідрозділи не допоможуть: аналітик попереджає, що як тільки Росія ввірветься в Слов'янськ і Краматорськ, посилення їх лише неминуче затягне",
+      "summaryUk": "Російські війська знаходяться в 12-13 км від Слов'янська і Краматорська і можуть почати проникнення в міста-фортеці до кінця 2026 року."
+    },
     {
       "id": "x-pravda-56fba1588832",
       "title": "Міноборони підтвердило знищення хабу Ozon у Самарській області РФ",
@@ -338,22 +450,6 @@
       "summaryUk": "З відповідною ініціативою він виступив у суботу, 22 серпня, на IX Міжнародному ветеранському форумі. «Ветерани заслуговують на окрему законодавчу увагу..."
     },
     {
-      "id": "x-pravda-e6b49f7fd3ff",
-      "title": "ОВА: Росіяни атакували Запорізький район – 3 загиблих та 17 поранених",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049830/",
-      "summary": "Внаслідок атак РФ 22 серпня у Запорізькому районі загинули троє людей, ще 17 поранені, серед них дитина.",
-      "publishedAt": "2026-08-22T12:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ОВА: Росіяни атакували Запорізький район – 3 загиблих та 17 поранених",
-      "summaryUk": "Внаслідок атак РФ 22 серпня у Запорізькому районі загинули троє людей, ще 17 поранені, серед них дитина."
-    },
-    {
       "id": "x-armyinform-0fe638a51a07",
       "title": "Володимир Зеленський зустрівся у Києві з генералом Кітом Келлогом",
       "url": "https://armyinform.com.ua/2026/08/22/volodymyr-zelenskyj-zustrivsya-u-kyyevi-z-generalom-kitom-kellogom/",
@@ -384,22 +480,6 @@
       ],
       "titleUk": "Росія за три місяці спалила 13 мільйонів українських книжок, майже третину всього, що країна надрукувала у 2025 році",
       "summaryUk": "Видавці попросили президента Зеленського скликати РНБО."
-    },
-    {
-      "id": "x-pravda-b1433e62094b",
-      "title": "Німеччина виділяє 50 млн євро на гумдопомогу Україні",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049828/",
-      "summary": "Німеччина додатково надає Україні 50 млн євро гуманітарної допомоги та 10 млн євро до фонду CAP НАТО для підтримки енергетики та військових.",
-      "publishedAt": "2026-08-22T12:11:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Німеччина виділяє 50 млн євро на гумдопомогу Україні",
-      "summaryUk": "Німеччина додатково надає Україні 50 млн євро гуманітарної допомоги та 10 млн євро до фонду CAP НАТО для підтримки енергетики та військових."
     },
     {
       "id": "x-euromaidan-d95c19c3a075",
@@ -450,22 +530,6 @@
       "summaryUk": "Росія другий день поспіль обстрілює Київ та його передмістя балістичними ракетами, вбиваючи мирних жителів. Тим часом,…"
     },
     {
-      "id": "x-pravda-660b3f40e918",
-      "title": "Генштаб: Сили оборони уразили резервуари Єйського нафтоналивного комплексу",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049824/",
-      "summary": "Україна атакувала резервуари з паливом у Єйську, виникла пожежа. Об'єкт забезпечує російську армію.",
-      "publishedAt": "2026-08-22T11:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генштаб: Сили оборони уразили резервуари Єйського нафтоналивного комплексу",
-      "summaryUk": "Україна атакувала резервуари з паливом у Єйську, виникла пожежа. Об'єкт забезпечує російську армію."
-    },
-    {
       "id": "x-armyinform-38e9c6e5d8f0",
       "title": "На Київщині атаковано стоянку з фурами: загинули дві людини, серед постраждалих дитина",
       "url": "https://armyinform.com.ua/2026/08/22/na-kyyivshhyni-atakovano-stoyanku-z-furamy-zagynuly-dvi-lyudyny/",
@@ -498,22 +562,6 @@
       "summaryUk": "Так, у суботу, 22 серпня, внаслідок ворожого удару по Запорізькому району загинули троє мирних мешканців, про що повідомив у себе..."
     },
     {
-      "id": "x-pravda-50b5fb71707f",
-      "title": "Сибіга: Україна має креативні ідеї щодо активізації мирного процесу",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049832/",
-      "summary": "",
-      "publishedAt": "2026-08-22T11:16:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сибіга: Україна має креативні ідеї щодо активізації мирного процесу",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-3f8f556ca377",
       "title": "Ukrainians rally across dozens of countries to demand Europe use Russia’s frozen billions",
       "url": "https://euromaidanpress.com/2026/08/22/ukrainians-rally-11-cities-frozen-russian-assets/",
@@ -528,22 +576,6 @@
       ],
       "titleUk": "Українці мітингують у десятках країн, вимагаючи від Європи використати заморожені мільярди Росії",
       "summaryUk": "ЄС підтримав позику Україні в розмірі 90 мільярдів євро зі свого бюджету, тоді як 210 мільярдів євро в активах російського центрального банку залишаються знерухомленими."
-    },
-    {
-      "id": "x-pravda-23a8f4467097",
-      "title": "Після балістичної атаки удень в Бориспільському районі загинула людина",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049819/",
-      "summary": "Російська атака у Бориспільському районі: загинув один, поранено п'ятьох, пошкоджено інфраструктуру.",
-      "publishedAt": "2026-08-22T10:28:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Після балістичної атаки удень в Бориспільському районі загинула людина",
-      "summaryUk": "Російська атака у Бориспільському районі: загинув один, поранено п'ятьох, пошкоджено інфраструктуру."
     },
     {
       "id": "x-euromaidan-8d749465f049",
@@ -639,7 +671,7 @@
         "UKRAINE"
       ],
       "titleUk": "Російсько-українська війна, день 1640: удар російського безпілотника по торговому центру в Кривому Розі вбив 15 і поранив 130, потім друга хвиля обрушилася на рятувальників",
-      "summaryUk": "Оскільки Київ попереджає про саботаж напередодні Дня Незалежності 24 серпня, денний страйк підпалив торговий центр, перш ніж наступний безпілотник націлив на надіслану бригаду швидкої допомоги."
+      "summaryUk": "Оскільки Київ попереджає про диверсії напередодні Дня Незалежності 24 серпня, денний страйк підпалив торговельний центр, перш ніж наступний безпілотник націлив на надіслану бригаду швидкої допомоги."
     },
     {
       "id": "x-euromaidan-bc1b0ec2a528",
@@ -655,7 +687,7 @@
         "UKRAINE"
       ],
       "titleUk": "В Україні стає більше мисливців за дронами, ніж будь-коли. Безкоштовний симулятор тепер дозволяє операторам вивчати кожен з них, перш ніж він потрапить до них",
-      "summaryUk": "Два українських безпілотника-перехоплювача P1-SUN і Bullet інтегрували в бойовий симулятор UFDS."
+      "summaryUk": "Два українські безпілотники-перехоплювачі P1-SUN і Bullet інтегрували в бойовий симулятор UFDS."
     },
     {
       "id": "x-euromaidan-a8f5b479ed1c",
@@ -670,7 +702,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російські групи продовжують намагатися — і безуспішно — дістатися до Лиману, воріт у фортечний пояс Донбасу, каже офіцер",
+      "titleUk": "Російські угруповання продовжують намагатися — і безуспішно — дістатися до Лиману, воріт у фортечний пояс Донбасу, каже офіцер",
       "summaryUk": "Росія намагається проштовхнути невеликі групи піхоти через українську оборону, щоб захопити Лиман і відкрити шлях на Слов'янськ і Краматорськ, зазначив він."
     },
     {
@@ -719,7 +751,7 @@
         "UKRAINE"
       ],
       "titleUk": "Представник Росії в ООН спростовує повідомлення про масову мобілізацію після виборів",
-      "summaryUk": "Понад 20 000 людей перетнули з Росії до Грузії за один день через побоювання призову після виборів. Україна каже, що Росія втрачає війська швидше, ніж набирає їх."
+      "summaryUk": "Більше 20 000 людей перетнули з Росії до Грузії за один день через побоювання призову після виборів. Україна каже, що Росія втрачає війська швидше, ніж набирає їх."
     },
     {
       "id": "x-euromaidan-f49e69f78196",
@@ -832,54 +864,6 @@
       ],
       "titleUk": "Після Канади в травні тепер Фінляндія: провідний український виробник безпілотників продовжує вивозити свої технології за кордон",
       "summaryUk": "Український виробник безпілотників переносить свою перевірену в боях технологію на європейський завод. Український виробник Airlogix…"
-    },
-    {
-      "id": "x-euromaidan-fa1be76ba51b",
-      "title": "Russian-Australian man charged over alleged operation to gather Ukrainian military secrets",
-      "url": "https://euromaidanpress.com/2026/08/21/russian-australian-man-charged-over-espionage/",
-      "summary": "Australian police allege he joined Ukraine's armed forces after receiving military-style training in Russia, then tried to pass information to people linked to Russian intelligence.",
-      "publishedAt": "2026-08-21T14:11:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російсько-австралійця звинувачують у ймовірній операції зі збирання українських військових таємниць",
-      "summaryUk": "Австралійська поліція стверджує, що він приєднався до збройних сил України після проходження військової підготовки в Росії, а потім намагався передати інформацію людям, пов’язаним з російською розвідкою."
-    },
-    {
-      "id": "x-euromaidan-5f86993ecd7c",
-      "title": "Gasoline rationing returns to Moscow and St. Petersburg as Rosneft caps fills nationwide",
-      "url": "https://euromaidanpress.com/2026/08/21/russia-gasoline-rationing-moscow-st-petersburg-rosneft/",
-      "summary": "Rationing has returned to Russia’s two biggest cities, and Rosneft is now capping fills at 30 liters at every station in the country.",
-      "publishedAt": "2026-08-21T13:57:17.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Нормування бензину повертається до Москви та Санкт-Петербурга, оскільки «Роснефть» заповнює капітал по всій країні",
-      "summaryUk": "Нормування повернулося до двох найбільших міст Росії, і «Роснефть» тепер обмежує заправки 30 літрами на кожній станції в країні."
-    },
-    {
-      "id": "x-euromaidan-d6e89551bf59",
-      "title": "Ex-FSB general who wired Russia&#8217;s spies and army found dead in Moscow—a gunshot, no note, no official report",
-      "url": "https://euromaidanpress.com/2026/08/21/ex-fsb-general-who-wired-russias-spies-and-army-found-dead-in-moscow-a-gunshot-no-note-no-official-report/",
-      "summary": "The 83-year-old chaired a long-time supplier of encrypted communications for the country's security and military structures.",
-      "publishedAt": "2026-08-21T13:20:53.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Колишнього генерала ФСБ, який телеграфував російських шпигунів і армію, знайшли мертвим у Москві — постріл, жодної записки, жодного офіційного звіту",
-      "summaryUk": "83-річний чоловік очолював давній постачальник шифрованого зв’язку для силових і військових структур країни."
     }
   ]
 }
