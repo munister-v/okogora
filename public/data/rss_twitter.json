@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T20:37:41.763Z",
+  "generatedAt": "2026-08-22T22:36:35.847Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-97e65693f1ad",
+      "title": "У Харкові реактивний \"Шахед\" влучив в будинок, спалахнула пожежа – Терехов",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049879/",
+      "summary": "У ніч на 23 серпня російські війська вдарили реактивним безпілотником по приватному будинку у Харкові, спалахнула пожежа.",
+      "publishedAt": "2026-08-22T22:17:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Харкові реактивний \"Шахед\" влучив в будинок, спалахнула пожежа – Терехов",
+      "summaryUk": "У ніч на 23 серпня російські війська вдарили реактивним безпілотником по приватному будинку у Харкові, спалахнула пожежа."
+    },
+    {
+      "id": "x-pravda-215cb7fba8d0",
+      "title": "Влада готує \"радикальні\" зміни в мобілізації, які торкнуться призовного віку – Костенко",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049877/",
+      "summary": "Секретар Комітету Верховної Ради з питань національної безпеки, оборони та розвідки Роман Костенко заявив, що українська влада готує \"радикальні\" зміни у процесі мобілізації, які, зокрема, стосуватимуться призовного віку.",
+      "publishedAt": "2026-08-22T21:50:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Влада готує \"радикальні\" зміни в мобілізації, які торкнуться призовного віку – Костенко",
+      "summaryUk": "Секретар Комітету Верховної Ради з питань національної безпеки, оборони та розвідки Роман Костенко заявив, що українська влада готує \"радикальні\" зміни у процесі мобілізації, які, зокрема, стосуватимуться призовного віку."
+    },
+    {
+      "id": "x-euromaidan-3facf0154381",
+      "title": "Russo-Ukrainian war, day 1641: Russia strikes Kyiv by ballistic missiles ahead of Independence Day",
+      "url": "https://euromaidanpress.com/2026/08/23/russo-ukrainian-war-day-1641-russia-strikes-kyiv-by-ballistic-missiles-ahead-of-independence-day/",
+      "summary": "Russian forces are now just 12 to 13 km from Sloviansk and Kramatorsk, with analysts warning the fortress-belt cities could see infiltration by late 2026.",
+      "publishedAt": "2026-08-22T21:06:00.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1641: Russia strikes Kyiv by ballistic missiles ahead of Independence Day",
+      "summaryUk": "Russian forces are now just 12 to 13 km from Sloviansk and Kramatorsk, with analysts warning the fortress-belt cities could see infiltration by late 2026."
+    },
+    {
+      "id": "x-euromaidan-a74032179178",
+      "title": "One pilot, five bombers: Ukraine&#8217;s Lasar&#8217;s Group ties whole raid to single operator to save manpower",
+      "url": "https://euromaidanpress.com/2026/08/22/one-pilot-five-bombers-ukraines-lasars-group-ties-whole-raid-to-single-operator-to-save-manpower/",
+      "summary": "Facing a manpower shortage, Ukraine is building autonomy into its drones and ground robots so one operator can run several at once.",
+      "publishedAt": "2026-08-22T20:51:03.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "One pilot, five bombers: Ukraine&#8217;s Lasar&#8217;s Group ties whole raid to single operator to save manpower",
+      "summaryUk": "Facing a manpower shortage, Ukraine is building autonomy into its drones and ground robots so one operator can run several at once."
+    },
     {
       "id": "x-pravda-ead5d9673ec5",
       "title": "Вілкул: Є дані розвідки про можливі удари по торгових центрах у прифронтових містах",
@@ -432,38 +496,6 @@
       ],
       "titleUk": "Січеславські десантники позбавляють ворога засобів для наступу на Покровському напрямку",
       "summaryUk": "Про це у суботу, 22 серпня, розповіли у 25 окремій повітрянодесантній Січеславській бригаді, опублікувавши відео з роботою своїх бійців. «Поки..."
-    },
-    {
-      "id": "x-pravda-25064360685d",
-      "title": "Німеччина надасть додаткові 3 млн євро на підтримку українських ветеранів",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049849/",
-      "summary": "",
-      "publishedAt": "2026-08-22T13:53:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Німеччина надасть додаткові 3 млн євро на підтримку українських ветеранів",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-fba86a0bcbd8",
-      "title": "Росіяни окупували місто біля Покровська й просунулися на Харківщині – DeepState",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049848/",
-      "summary": "DeepState: Родинське під окупацією РФ, просування біля Артільного на Харківщині, ситуація станом на 22 серпня.",
-      "publishedAt": "2026-08-22T13:45:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни окупували місто біля Покровська й просунулися на Харківщині – DeepState",
-      "summaryUk": "DeepState: Родинське під окупацією РФ, просування біля Артільного на Харківщині, ситуація станом на 22 серпня."
     },
     {
       "id": "x-armyinform-19cd0e575215",
@@ -864,38 +896,6 @@
       ],
       "titleUk": "Lukoil&#8217;s Perm refinery struck 1,530 km from Ukraine&#8217;s northern border, Kyiv confirms",
       "summaryUk": "The same overnight wave also hit a military airfield in Volgograd Oblast and left results in the Black Sea, the General Staff said."
-    },
-    {
-      "id": "x-euromaidan-33217ca9e69e",
-      "title": "Italy&#8217;s largest arms maker had no plans for a Ukraine factory—a year later, it has a Kyiv subsidiary",
-      "url": "https://euromaidanpress.com/2026/08/21/italys-largest-arms-maker-had-no-plans-for-a-ukraine-factory-a-year-later-it-has-a-kyiv-subsidiary/",
-      "summary": "The Kyiv-based R&#038;D unit will research communications, navigation, and electronic and optical technologies for Ukraine's defense sector.",
-      "publishedAt": "2026-08-21T15:02:49.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Italy&#8217;s largest arms maker had no plans for a Ukraine factory—a year later, it has a Kyiv subsidiary",
-      "summaryUk": "The Kyiv-based R&#038;D unit will research communications, navigation, and electronic and optical technologies for Ukraine's defense sector."
-    },
-    {
-      "id": "x-euromaidan-a1fca8cf9a41",
-      "title": "After Canada in May, now Finland: top-ranked Ukrainian drone maker keeps taking its technology abroad",
-      "url": "https://euromaidanpress.com/2026/08/21/after-canada-in-may-now-finland-top-ranked-ukrainian-drone-maker-keeps-taking-its-technology-abroad/",
-      "summary": "A Ukrainian drone maker is taking its battle-tested technology to a European factory floor. Ukrainian producer Airlogix has&#8230;",
-      "publishedAt": "2026-08-21T14:14:31.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "After Canada in May, now Finland: top-ranked Ukrainian drone maker keeps taking its technology abroad",
-      "summaryUk": "A Ukrainian drone maker is taking its battle-tested technology to a European factory floor. Ukrainian producer Airlogix has&#8230;"
     }
   ]
 }
