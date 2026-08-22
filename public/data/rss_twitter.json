@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:47:17.926Z",
+  "generatedAt": "2026-08-22T20:37:41.763Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,54 @@
   ],
   "items": [
     {
+      "id": "x-pravda-ead5d9673ec5",
+      "title": "Вілкул: Є дані розвідки про можливі удари по торгових центрах у прифронтових містах",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049876/",
+      "summary": "Вілкул закликав жителів Кривого Рогу уникати великих ТЦ через загрозу нових ударів РФ.",
+      "publishedAt": "2026-08-22T20:17:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Вілкул: Є дані розвідки про можливі удари по торгових центрах у прифронтових містах",
+      "summaryUk": "Вілкул закликав жителів Кривого Рогу уникати великих ТЦ через загрозу нових ударів РФ."
+    },
+    {
+      "id": "x-pravda-015ea288bc29",
+      "title": "На фронті майже 200 боїв, Костянтинівський напрямок став найгарячішим – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049875/",
+      "summary": "Сили оборони відбили понад 190 атак росіян за день, найгарячіше – на Костянтинівському напрямку.",
+      "publishedAt": "2026-08-22T20:08:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті майже 200 боїв, Костянтинівський напрямок став найгарячішим – Генштаб",
+      "summaryUk": "Сили оборони відбили понад 190 атак росіян за день, найгарячіше – на Костянтинівському напрямку."
+    },
+    {
+      "id": "x-pravda-4fbe83bc18e2",
+      "title": "Удар по ТРЦ Кривого Рогу: директор супермаркету отримав підозру через роботу під час тривоги",
+      "url": "https://www.pravda.com.ua/news/2026/08/22/8049873/",
+      "summary": "Директор супермаркету у Кривому Розі підозрюється у недбалості після трагедії 21 серпня: 16 загиблих, 130 постраждалих.",
+      "publishedAt": "2026-08-22T19:36:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Удар по ТРЦ Кривого Рогу: директор супермаркету отримав підозру через роботу під час тривоги",
+      "summaryUk": "Директор супермаркету у Кривому Розі підозрюється у недбалості після трагедії 21 серпня: 16 загиблих, 130 постраждалих."
+    },
+    {
       "id": "x-pravda-01db9f196eb3",
       "title": "Нова посолка Канади починає роботу в Україні",
       "url": "https://www.pravda.com.ua/news/2026/08/22/8049869/",
@@ -158,8 +206,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У більшості українських підрозділів евакуація – це «форс-мажор, до якого ніхто не готовий», і роботи надто повільні, щоб це виправити, каже командир",
-      "summaryUk": "Чорновол каже, що евакуація поранених залишається хаосом у більшості українських підрозділів, тому потрібні спеціальні групи евакуації та легкий броньований транспорт."
+      "titleUk": "Evacuation is &#8220;force majeure that no one is ready for&#8221; in most Ukrainian units, and robots are too slow to fix it, commander says",
+      "summaryUk": "Chornovol says casualty evacuation remains improvised chaos in most Ukrainian units, calling for dedicated evacuation teams and light-armored transport."
     },
     {
       "id": "x-euromaidan-9b4e860e3bc1",
@@ -174,8 +222,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Від Варшави до Нью-Йорка на День Незалежності українці стануть живими ланцюгами",
-      "summaryUk": "Громади, розпорошені вторгненням Росії, відродять символ руху за незалежність України, щоб зробити країну помітною за кордоном."
+      "titleUk": "From Warsaw to New York, Ukrainians will form human chains on Independence Day",
+      "summaryUk": "Communities scattered by Russia’s invasion will revive a symbol from Ukraine’s independence movement to keep the country visible abroad."
     },
     {
       "id": "x-pravda-c5813bff9747",
@@ -206,8 +254,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українські спецпідрозділи не допоможуть: аналітик попереджає, що як тільки Росія ввірветься в Слов'янськ і Краматорськ, посилення їх лише неминуче затягне",
-      "summaryUk": "Російські війська знаходяться в 12-13 км від Слов'янська і Краматорська і можуть почати проникнення в міста-фортеці до кінця 2026 року."
+      "titleUk": "Ukrainian intelligence units will not help: Analyst warns that once Russia breaks into Sloviansk and Kramatorsk, reinforcing them only delays inevitable",
+      "summaryUk": "Russian forces are 12 to 13 km from Sloviansk and Kramatorsk and could begin infiltrating the fortress-belt cities by late 2026."
     },
     {
       "id": "x-pravda-56fba1588832",
@@ -286,8 +334,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У чотири рази більше пікселів, ніж усе, що було перед ним: рідкісна тепловізійна камера української фірми націлена бачити цілі на великій відстані",
-      "summaryUk": "Українська компанія Oko Camera розробляє тепловізійну камеру Oko HD."
+      "titleUk": "Four times pixels of anything before it: Ukrainian firm&#8217;s rare thermal camera aims to see targets from much farther away",
+      "summaryUk": "Ukrainian company Oko Camera is developing the Oko HD thermal camera."
     },
     {
       "id": "x-euromaidan-1135ceadceed",
@@ -302,8 +350,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "«Тільки українці самі вирішуватимуть, хто наші герої», — заявив Зеленський на Міжнародному форумі ветеранів із представником США, оскільки кількість ветеранів перевалила за два мільйони",
-      "summaryUk": "Зеленський заявив, що Україна створить національний пантеон для тих, хто формував її ідентичність."
+      "titleUk": "&#8220;Only Ukrainians will decide for themselves who our heroes are,&#8221; says Zelenskyy at International Veterans Forum with US envoy, as number of veterans passes two million",
+      "summaryUk": "Zelenskyy said Ukraine will create a national pantheon for those who shaped its identity."
     },
     {
       "id": "x-euromaidan-ba8124e32d1e",
@@ -318,8 +366,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українські дрони вперше потрапили на склад російського інтернет-магазину Ozon",
-      "summaryUk": "Ozon призупинив роботу на хабі в Чапаєвську та почав перенаправляти поставки та замовлення на інші об’єкти."
+      "titleUk": "Ukrainian drones hit warehouse belonging to Russian online retailer Ozon for the first time",
+      "summaryUk": "Ozon suspended operations at the Chapayevsk hub and began redirecting deliveries and orders through other facilities."
     },
     {
       "id": "x-armyinform-90f3811081d5",
@@ -366,8 +414,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна каже, що її безпілотники вразили великий російський нафтопереробний завод на тлі поглиблення дефіциту палива",
-      "summaryUk": "«Військовий» описує ціль як один із 10 найбільших нафтопереробних заводів Росії. Пошкодження або переривання виробництва залишаються непідтвердженими."
+      "titleUk": "Ukraine says its drones hit major Russian refinery amid deepening fuel shortages",
+      "summaryUk": "Militarnyi describes the target as one of Russia’s 10 largest refineries. Damage or interruption to production remains unconfirmed."
     },
     {
       "id": "x-armyinform-b1d130cc8d03",
@@ -418,22 +466,6 @@
       "summaryUk": "DeepState: Родинське під окупацією РФ, просування біля Артільного на Харківщині, ситуація станом на 22 серпня."
     },
     {
-      "id": "x-pravda-9e2af7100509",
-      "title": "Зеленський зустрівся з Келлогом: говорили про антибалістику й перехоплювачі до Patriot",
-      "url": "https://www.pravda.com.ua/news/2026/08/22/8049836/",
-      "summary": "Зеленський і Келлог розглянули потребу України в перехоплювачах Patriot та євроантибалістиці.",
-      "publishedAt": "2026-08-22T13:12:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський зустрівся з Келлогом: говорили про антибалістику й перехоплювачі до Patriot",
-      "summaryUk": "Зеленський і Келлог розглянули потребу України в перехоплювачах Patriot та євроантибалістиці."
-    },
-    {
       "id": "x-armyinform-19cd0e575215",
       "title": "Президент наполягає на додаткових кроках для підтримки ветеранів та сімей українських воїнів",
       "url": "https://armyinform.com.ua/2026/08/22/prezydent-napolyagaye-na-dodatkovyh-krokah-dlya-pidtrymky-veteraniv-ta-simej-ukrayinskyh-voyiniv/",
@@ -478,8 +510,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія за три місяці спалила 13 мільйонів українських книжок, майже третину всього, що країна надрукувала у 2025 році",
-      "summaryUk": "Видавці попросили президента Зеленського скликати РНБО."
+      "titleUk": "Russia has burned 13 million Ukrainian books in three months, nearly third of everything country printed in 2025",
+      "summaryUk": "Publishers have asked President Zelenskyy to convene the National Security Council."
     },
     {
       "id": "x-euromaidan-d95c19c3a075",
@@ -494,8 +526,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Розвідка: Путін наказав побудувати на острові секретну біолабораторію, настільки захищену, що рибальство заборонено, а її власні охоронці бояться зараження",
-      "summaryUk": "Військова розвідка України каже, що Росія керує секретним біолабораторним комплексом у Тверській області, що є інверсією власних неправдивих заяв Росії щодо України."
+      "titleUk": "Intelligence: Putin ordered secret biolab built on island, so protected that fishing is banned, and its own guards fear infection",
+      "summaryUk": "Ukraine's military intelligence says Russia runs a secret biolab complex in Tver Oblast, an inversion of Russia's own false claims about Ukraine."
     },
     {
       "id": "x-armyinform-ca740a7db08a",
@@ -526,8 +558,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія двічі протягом 24 годин завдала балістичного удару по Києву та Борисполю, своєму головному аеропорту. Україна не може зупинитися без Патріотів США за кілька днів до Дня Незалежності",
-      "summaryUk": "Росія другий день поспіль обстрілює Київ та його передмістя балістичними ракетами, вбиваючи мирних жителів. Тим часом,…"
+      "titleUk": "Russia struck Kyiv and Boryspil, its main airport hub, twice in 24 hours with ballistics Ukraine can&#8217;t stop without US Patriots, days before Independence Day",
+      "summaryUk": "Russia has struck Kyiv and its suburbs with ballistic missiles for a second consecutive day, killing civilians. Meanwhile,&#8230;"
     },
     {
       "id": "x-armyinform-38e9c6e5d8f0",
@@ -574,8 +606,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українці мітингують у десятках країн, вимагаючи від Європи використати заморожені мільярди Росії",
-      "summaryUk": "ЄС підтримав позику Україні в розмірі 90 мільярдів євро зі свого бюджету, тоді як 210 мільярдів євро в активах російського центрального банку залишаються знерухомленими."
+      "titleUk": "Ukrainians rally across dozens of countries to demand Europe use Russia’s frozen billions",
+      "summaryUk": "The EU backed a €90 billion Ukraine loan with its budget while €210 billion in Russian central bank assets remain immobilized."
     },
     {
       "id": "x-euromaidan-8d749465f049",
@@ -590,8 +622,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна вперше закуповує оптоволоконні безпілотники за єдиним стандартом, тож будь-який виробник може конкурувати",
-      "summaryUk": "Держкомоборони розпочало першу закупівлю волоконно-оптичних безпілотників FPV-камікадзе за специфікаціями Міноборони."
+      "titleUk": "Ukraine is buying jam-proof fiber-optic drones for first time to single standard, so any maker can compete",
+      "summaryUk": "Ukraine's Defense Procurement Agency launched its first buy of fiber-optic FPV kamikaze drones to Defense Ministry-defined specifications."
     },
     {
       "id": "x-euromaidan-f199f8235750",
@@ -606,8 +638,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна остаточно вразила три російські кораблі «Калібр» 12 серпня. 19-го в Київ потрапив недоторканий",
-      "summaryUk": "До 12 серпня Чорноморський флот Росії мав вісім кораблів, здатних вести стрільби крилатими ракетами \"Калібр\". У нього ще є щонайменше п'ять."
+      "titleUk": "Ukraine finally hit three Russian Kalibr ships on 12 August. On the 19th, an untouched one hit Kyiv",
+      "summaryUk": "Prior to 12 August, the Russian Black Sea Fleet had eight warships capable of firing Kalibr cruise missiles. It still has at least five."
     },
     {
       "id": "x-euromaidan-be519bfa20a1",
@@ -622,8 +654,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна вперше показала відповідь найпотужнішим безпілотникам Росії. Зустрічайте Alexa Spatium, яка може нести термобаричні боєголовки та летіти додому",
-      "summaryUk": "Україна кодифікувала свій перший реактивний дрон-перехоплювач Alexa Spatium, створений для знищення російських реактивних безпілотників Geran."
+      "titleUk": "Ukraine has shown its answer to Russia&#8217;s most powerful drones for first time. Meet Alexa Spatium, which can carry thermobaric warheads and fly back home",
+      "summaryUk": "Ukraine codified its first jet-powered interceptor drone, the Alexa Spatium, built to destroy Russia's jet Geran drones."
     },
     {
       "id": "x-euromaidan-e2195b75ccf2",
@@ -638,8 +670,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українські безпілотники важко поранили полковника Дмитра Шабаєва, командира російської 64-ї бригади, причетного до звірств у Бучі 2022 року, коли загинули 637 мирних жителів.",
-      "summaryUk": "Удар завдав 80 км за лінію фронту."
+      "titleUk": "Ukrainian drone unit seriously wounded Colonel Dmitry Shabaev, commander of Russia&#8217;s 64th brigade, tied to 2022 Bucha atrocities that killed 637 civilians",
+      "summaryUk": "The strike hit 80 km behind the front line."
     },
     {
       "id": "x-euromaidan-cc0f3317bb12",
@@ -654,8 +686,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російські північнокорейські ракети можуть загрожувати Києву та ще шести регіонам, вважає ISW",
-      "summaryUk": "Очікується, що Москва зберігатиме балістичні та крилаті ракети для періодичних масових атак, спрямованих на подолання ППО України."
+      "titleUk": "Russia’s North Korean missiles could threaten Kyiv and six other regions, ISW says",
+      "summaryUk": "Moscow is expected to keep saving ballistic and cruise missiles for periodic mass attacks designed to overwhelm Ukraine’s air defenses."
     },
     {
       "id": "x-euromaidan-5f0b4889fb83",
@@ -670,8 +702,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російсько-українська війна, день 1640: удар російського безпілотника по торговому центру в Кривому Розі вбив 15 і поранив 130, потім друга хвиля обрушилася на рятувальників",
-      "summaryUk": "Оскільки Київ попереджає про диверсії напередодні Дня Незалежності 24 серпня, денний страйк підпалив торговельний центр, перш ніж наступний безпілотник націлив на надіслану бригаду швидкої допомоги."
+      "titleUk": "Russo-Ukrainian war, day 1640: Russia&#8217;s drone strike on a Kryvyi Rih shopping center kills 15 and wounds 130, then a second wave hits the rescuers",
+      "summaryUk": "As Kyiv warns of sabotage around its 24 August Independence Day, a daytime strike set the mall ablaze before a follow-up drone targeted the emergency crews sent in."
     },
     {
       "id": "x-euromaidan-bc1b0ec2a528",
@@ -686,8 +718,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "В Україні стає більше мисливців за дронами, ніж будь-коли. Безкоштовний симулятор тепер дозволяє операторам вивчати кожен з них, перш ніж він потрапить до них",
-      "summaryUk": "Два українські безпілотники-перехоплювачі P1-SUN і Bullet інтегрували в бойовий симулятор UFDS."
+      "titleUk": "Ukraine is fielding more drone-hunters than ever. Free simulator now lets operators learn each one before it reaches their hands",
+      "summaryUk": "Two Ukrainian interceptor drones, the P1-SUN and Bullet, were integrated into the UFDS combat simulator."
     },
     {
       "id": "x-euromaidan-a8f5b479ed1c",
@@ -702,8 +734,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російські угруповання продовжують намагатися — і безуспішно — дістатися до Лиману, воріт у фортечний пояс Донбасу, каже офіцер",
-      "summaryUk": "Росія намагається проштовхнути невеликі групи піхоти через українську оборону, щоб захопити Лиман і відкрити шлях на Слов'янськ і Краматорськ, зазначив він."
+      "titleUk": "Russian groups keep trying—and failing—to reach Lyman, gateway to Donbas&#8217; fortress belt, officer says",
+      "summaryUk": "Russia is trying to push small infantry groups through Ukrainian defences as it seeks to capture Lyman and open the way towards Sloviansk and Kramatorsk, he noted."
     },
     {
       "id": "x-euromaidan-db3130ca9f38",
@@ -718,8 +750,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Новий датський завод українського виробника ракет Flamingo відкладено на 2027 рік, оскільки витрати можуть зрости втричі",
-      "summaryUk": "Данія зняла понад 20 юридичних бар’єрів для заводу з виробництва ракетного палива Fire Point, але правила безпеки все ще вимагають створення нового заводу."
+      "titleUk": "Ukraine’s Flamingo missile maker’s new Danish plant delayed to 2027 as costs could triple",
+      "summaryUk": "Denmark removed 20-plus legal barriers for Fire Point’s rocket-fuel plant, but safety rules still make a new factory necessary."
     },
     {
       "id": "x-euromaidan-60c94f0a0cfd",
@@ -734,8 +766,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Полонений російський морський піхотинець стратив українського командира за наказом начальника, кажуть у прокуратурі",
-      "summaryUk": "Підозрюваний перебуває під вартою, оскільки Україна посилює переслідування російських військових, звинувачених у злочинах проти українських військовополонених."
+      "titleUk": "Captured Russian marine executed Ukrainian commander on superior’s order, prosecutors say",
+      "summaryUk": "The suspect is in custody as Ukraine steps up efforts to prosecute Russian troops accused of crimes against Ukrainian prisoners of war."
     },
     {
       "id": "x-euromaidan-bfd191a53e26",
@@ -750,8 +782,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Представник Росії в ООН спростовує повідомлення про масову мобілізацію після виборів",
-      "summaryUk": "Більше 20 000 людей перетнули з Росії до Грузії за один день через побоювання призову після виборів. Україна каже, що Росія втрачає війська швидше, ніж набирає їх."
+      "titleUk": "Russia’s UN envoy denies reports of post-election mass mobilization",
+      "summaryUk": "More than 20,000 people crossed from Russia into Georgia in one day amid fears of a post-election draft. Ukraine says Russia is losing troops faster than it recruits them."
     },
     {
       "id": "x-euromaidan-f49e69f78196",
@@ -766,8 +798,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Удар російського безпілотника по торговому центру Кривого Рогу: 15 загиблих, 130 поранених. Друга атака була спрямована на рятувальників через 30 хвилин",
-      "summaryUk": "Денна атака безпілотників викликала пожежу в торговому центрі, перш ніж друга хвиля обрушилася на бригади швидкої допомоги, які прибули на місце події."
+      "titleUk": "Russian drone strike on Kryvyi Rih shopping center kills 15, injures 130. Second attack targeted rescue workers 30 minutes later",
+      "summaryUk": "The daytime drone attack set the shopping center on fire before a second wave struck emergency crews responding to the scene."
     },
     {
       "id": "x-euromaidan-7318ed77b969",
@@ -782,8 +814,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Київ просить Маска дозволити йому завдати удару всередині Росії. Його найкраща лінія до Маска зникла",
-      "summaryUk": "Через брак перехоплювачів Patriot Київ хоче полювати на пускові установки на відстані до 200 км всередині Росії, але лише Маск може ввімкнути безпілотники."
+      "titleUk": "Kyiv is asking Musk to let it strike inside Russia. Its best line to Musk is gone",
+      "summaryUk": "Running low on Patriot interceptors, Kyiv wants to hunt the launchers up to 200 km inside Russia—but only Musk can switch the drones on."
     },
     {
       "id": "x-euromaidan-b6caa05a4d15",
@@ -798,8 +830,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна попереджає, що Росія може використати майбутній День Незалежності для нападів і диверсій",
-      "summaryUk": "Служба безпеки України закликала бути пильними напередодні 24 серпня, попереджаючи про можливі напади, диверсії, підозрілу діяльність і спроби збору військової інформації."
+      "titleUk": "Ukraine warns Russia could exploit upcoming Independence Day for attacks and sabotage",
+      "summaryUk": "Ukraine’s security service urged vigilance ahead of 24 August, warning about potential attacks, sabotage, suspicious activity, and attempts to gather military information."
     },
     {
       "id": "x-euromaidan-a689bbbd5eba",
@@ -814,8 +846,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Латвія відновлює імена фірм, які торгують з Росією чи Білоруссю майже через три роки",
-      "summaryUk": "Новий щомісячний реєстр ідентифікує латвійські підприємства, які торгували товарами з Росією чи Білоруссю в липні, не стверджуючи, що вони порушили санкції."
+      "titleUk": "Latvia resumes naming firms trading with Russia or Belarus after nearly three years",
+      "summaryUk": "A new monthly register identifies Latvian businesses that traded goods with Russia or Belarus in July, without alleging that they violated sanctions."
     },
     {
       "id": "x-euromaidan-a9b58d04b0f4",
@@ -830,8 +862,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Київ підтвердив удар по Пермському НПЗ Лукойлу за 1530 км від північного кордону України",
-      "summaryUk": "Така ж нічна хвиля обрушилася на військовий аеродром у Волгоградській області та залишила результати в Чорному морі, повідомили в Генштабі."
+      "titleUk": "Lukoil&#8217;s Perm refinery struck 1,530 km from Ukraine&#8217;s northern border, Kyiv confirms",
+      "summaryUk": "The same overnight wave also hit a military airfield in Volgograd Oblast and left results in the Black Sea, the General Staff said."
     },
     {
       "id": "x-euromaidan-33217ca9e69e",
@@ -846,8 +878,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Найбільший італійський виробник зброї не планував будувати український завод — через рік у нього з’явилася київська філія",
-      "summaryUk": "Київський науково-дослідний підрозділ досліджуватиме комунікаційні, навігаційні, електронні й оптичні технології для оборонного сектору України."
+      "titleUk": "Italy&#8217;s largest arms maker had no plans for a Ukraine factory—a year later, it has a Kyiv subsidiary",
+      "summaryUk": "The Kyiv-based R&#038;D unit will research communications, navigation, and electronic and optical technologies for Ukraine's defense sector."
     },
     {
       "id": "x-euromaidan-a1fca8cf9a41",
@@ -862,8 +894,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Після Канади в травні тепер Фінляндія: провідний український виробник безпілотників продовжує вивозити свої технології за кордон",
-      "summaryUk": "Український виробник безпілотників переносить свою перевірену в боях технологію на європейський завод. Український виробник Airlogix…"
+      "titleUk": "After Canada in May, now Finland: top-ranked Ukrainian drone maker keeps taking its technology abroad",
+      "summaryUk": "A Ukrainian drone maker is taking its battle-tested technology to a European factory floor. Ukrainian producer Airlogix has&#8230;"
     }
   ]
 }
