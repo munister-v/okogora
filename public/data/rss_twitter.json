@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:46:53.729Z",
+  "generatedAt": "2026-08-23T20:37:18.303Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-e300f62c7e6e",
+      "title": "Росіяни вдарили по передмістю Харкова: є загиблі та поранені",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049976/",
+      "summary": "У вечірньому обстрілі передмістя Харкова 23 серпня загинули троє людей, серед евакуйованих є поранені.",
+      "publishedAt": "2026-08-23T20:04:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили по передмістю Харкова: є загиблі та поранені",
+      "summaryUk": "У вечірньому обстрілі передмістя Харкова 23 серпня загинули троє людей, серед евакуйованих є поранені."
+    },
+    {
+      "id": "x-pravda-48db9edc42aa",
+      "title": "Найбільше ворожих атак відбулося на Костянтинівському напрямку – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049975/",
+      "summary": "Від початку доби зафіксовано 196 боєзіткнень на фронті: інтенсивні атаки на Костянтинівському та Покровському напрямках.",
+      "publishedAt": "2026-08-23T19:56:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Найбільше ворожих атак відбулося на Костянтинівському напрямку – Генштаб",
+      "summaryUk": "Від початку доби зафіксовано 196 боєзіткнень на фронті: інтенсивні атаки на Костянтинівському та Покровському напрямках."
+    },
+    {
+      "id": "x-euromaidan-a1ae3e6eeb9f",
+      "title": "Every Russian attack on Kyiv costs the city about $12 million. They now come almost twice in week",
+      "url": "https://euromaidanpress.com/2026/08/23/every-russian-attack-on-kyiv-costs-the-city-about-12-million-they-now-come-almost-twice-in-week/",
+      "summary": "Over 4,000 buildings were damaged in the Ukrainian capital.",
+      "publishedAt": "2026-08-23T19:10:14.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Every Russian attack on Kyiv costs the city about $12 million. They now come almost twice in week",
+      "summaryUk": "Over 4,000 buildings were damaged in the Ukrainian capital."
+    },
+    {
+      "id": "x-pravda-ee91a06f78ce",
+      "title": "WSJ: Росіяни провели в Калінінградській області навчання з мобілізації",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049970/",
+      "summary": "Росія тренувала мобілізацію в Калінінграді. Західна розвідка повідомляє про можливу нову хвилю призову після виборів.",
+      "publishedAt": "2026-08-23T18:52:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "WSJ: Росіяни провели в Калінінградській області навчання з мобілізації",
+      "summaryUk": "Росія тренувала мобілізацію в Калінінграді. Західна розвідка повідомляє про можливу нову хвилю призову після виборів."
+    },
     {
       "id": "x-pravda-d88ed0ae7801",
       "title": "Україна й Норвегія підписали Drone Deal та декларацію про стратегічне партнерство",
@@ -402,22 +466,6 @@
       "summaryUk": "The planned operation involved using autonomous, AI-powered drones to target Moscow’s airports and disrupt air traffic."
     },
     {
-      "id": "x-pravda-5294f0c44c82",
-      "title": "Зеленський зустрівся з сенаторами США: говорили про санкції та протидію балістиці",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049947/",
-      "summary": "Зеленський провів зустріч із сенаторами США в Києві: двопартійна підтримка, санкції проти Росії, співпраця та системи Patriot.",
-      "publishedAt": "2026-08-23T14:07:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський зустрівся з сенаторами США: говорили про санкції та протидію балістиці",
-      "summaryUk": "Зеленський провів зустріч із сенаторами США в Києві: двопартійна підтримка, санкції проти Росії, співпраця та системи Patriot."
-    },
-    {
       "id": "x-armyinform-e54b4018065b",
       "title": "Президент під час зустрічі з сенаторами США закликав посилити санкції проти рф та допомогти Україні з ракетами для ППО",
       "url": "https://armyinform.com.ua/2026/08/23/prezydent-pid-chas-zustrichi-z-senatoramy-ssha-zaklykav-posylyty-sankcziyi-proty-rf-ta-dopomogty-ukrayini-z-raketamy-dlya-ppo/",
@@ -448,38 +496,6 @@
       ],
       "titleUk": "Україна та Фінляндія домовилися про виробництво дронів, морських безекіпажних систем і НРК",
       "summaryUk": "Про це Володимир Зеленський повідомив у соцмережах. Під час засідання круглого столу з питань українсько-фінського співробітництва у сфері оборонних індустрій,..."
-    },
-    {
-      "id": "x-pravda-46db8ee454a0",
-      "title": "Стубб повідомив про підписання угод між фінськими та українськими виробниками зброї",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049943/",
-      "summary": "",
-      "publishedAt": "2026-08-23T13:33:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Стубб повідомив про підписання угод між фінськими та українськими виробниками зброї",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-878a8cddf682",
-      "title": "БпЛА атакував електричку на Харківщині: попри евакуацію, є загиблі й поранені",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049942/",
-      "summary": "БпЛА Росії влучив у поїзд Лозова-Харків: одна пасажирка загинула, ще четверо поранені. Відбулася евакуація пасажирів.",
-      "publishedAt": "2026-08-23T13:20:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "БпЛА атакував електричку на Харківщині: попри евакуацію, є загиблі й поранені",
-      "summaryUk": "БпЛА Росії влучив у поїзд Лозова-Харків: одна пасажирка загинула, ще четверо поранені. Відбулася евакуація пасажирів."
     },
     {
       "id": "x-armyinform-3122d5bbdd0e",
@@ -514,22 +530,6 @@
       "summaryUk": "The visitors joined Ukraine's State Flag Day events ahead of Independence Day, alongside bilateral and multilateral talks with the Ukrainian president."
     },
     {
-      "id": "x-pravda-d38fbe816b4d",
-      "title": "Норвегія планує виділити 85 млрд крон на підтримку України в наступному році",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049941/",
-      "summary": "",
-      "publishedAt": "2026-08-23T13:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Норвегія планує виділити 85 млрд крон на підтримку України в наступному році",
-      "summaryUk": ""
-    },
-    {
       "id": "x-armyinform-4946595522f5",
       "title": "Обрізали логістику на Лиманському напрямку: дронарі Signum вполювали ворожий транспорт",
       "url": "https://armyinform.com.ua/2026/08/23/obrizaly-logistyku-na-lymanskomu-napryamku-dronari-signum-vpolyuvaly-vorozhyj-transport/",
@@ -544,22 +544,6 @@
       ],
       "titleUk": "Обрізали логістику на Лиманському напрямку: дронарі Signum вполювали ворожий транспорт",
       "summaryUk": "Відео бойової роботи підрозділ опублікував у соцмережах. Дронарі підрозділу «зупинили машину» з окупантами за незаконний перетин державного кордону. https://ai-videos.cdn.express/~/share/fc5755ef4e65/Optoriznia%20164%20tehnika.mp4 Також Signum вполював:..."
-    },
-    {
-      "id": "x-pravda-5874389ee257",
-      "title": "Федоров закликав Зеленського відповісти, чи знав він про корупцію у своєму оточенні",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049939/",
-      "summary": "Колишній міністр оборони Михайло Федоров заявив, що президент Володимир Зеленський має відповісти суспільству, чи знав він про можливу корупцію серед людей зі свого оточення.",
-      "publishedAt": "2026-08-23T12:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Федоров закликав Зеленського відповісти, чи знав він про корупцію у своєму оточенні",
-      "summaryUk": "Колишній міністр оборони Михайло Федоров заявив, що президент Володимир Зеленський має відповісти суспільству, чи знав він про можливу корупцію серед людей зі свого оточення."
     },
     {
       "id": "x-armyinform-68c4ff67c6fc",
@@ -1008,22 +992,6 @@
       ],
       "titleUk": "Russo-Ukrainian war, day 1640: Russia&#8217;s drone strike on a Kryvyi Rih shopping center kills 15 and wounds 130, then a second wave hits the rescuers",
       "summaryUk": "As Kyiv warns of sabotage around its 24 August Independence Day, a daytime strike set the mall ablaze before a follow-up drone targeted the emergency crews sent in."
-    },
-    {
-      "id": "x-euromaidan-bc1b0ec2a528",
-      "title": "Ukraine is fielding more drone-hunters than ever. Free simulator now lets operators learn each one before it reaches their hands",
-      "url": "https://euromaidanpress.com/2026/08/22/ukraine-is-fielding-more-drone-hunters-than-ever-free-simulator-now-lets-operators-learn-each-one-before-it-reaches-their-hands/",
-      "summary": "Two Ukrainian interceptor drones, the P1-SUN and Bullet, were integrated into the UFDS combat simulator.",
-      "publishedAt": "2026-08-21T21:02:43.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine is fielding more drone-hunters than ever. Free simulator now lets operators learn each one before it reaches their hands",
-      "summaryUk": "Two Ukrainian interceptor drones, the P1-SUN and Bullet, were integrated into the UFDS combat simulator."
     }
   ]
 }
