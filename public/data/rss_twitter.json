@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:41:33.621Z",
+  "generatedAt": "2026-08-23T18:46:53.729Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,134 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-d88ed0ae7801",
+      "title": "Україна й Норвегія підписали Drone Deal та декларацію про стратегічне партнерство",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049969/",
+      "summary": "Зеленський і прем'єр Норвегії уклали стратегічне партнерство у сфері оборони та енергетики.",
+      "publishedAt": "2026-08-23T18:19:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна й Норвегія підписали Drone Deal та декларацію про стратегічне партнерство",
+      "summaryUk": "Зеленський і прем'єр Норвегії уклали стратегічне партнерство у сфері оборони та енергетики."
+    },
+    {
+      "id": "x-pravda-e4f7dfd60e0c",
+      "title": "Хто такі \"хороші росіяни\" і чи варто з ними говорити?",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049903/",
+      "summary": "",
+      "publishedAt": "2026-08-23T17:55:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Хто такі \"хороші росіяни\" і чи варто з ними говорити?",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-f50672dbf59e",
+      "title": "Прем'єр Естонії наразі не бачить прямої загрози розширення агресії РФ",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049968/",
+      "summary": "",
+      "publishedAt": "2026-08-23T17:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Прем'єр Естонії наразі не бачить прямої загрози розширення агресії РФ",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-1a8b25322f1a",
+      "title": "Рена Марутян: У чому феномен української стійкості та до чого тут софійність",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049967/",
+      "summary": "",
+      "publishedAt": "2026-08-23T17:32:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Рена Марутян: У чому феномен української стійкості та до чого тут софійність",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-12c47064d285",
+      "title": "Новий тимчасовий повірений у справах США почав роботу в Україні",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049965/",
+      "summary": "Американський дипломат Пол Г'юстон став тимчасовим повіреним у справах США в Україні 23 серпня.",
+      "publishedAt": "2026-08-23T17:16:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Новий тимчасовий повірений у справах США почав роботу в Україні",
+      "summaryUk": "Американський дипломат Пол Г'юстон став тимчасовим повіреним у справах США в Україні 23 серпня."
+    },
+    {
+      "id": "x-pravda-ad29c5d0be52",
+      "title": "Україна і Фінляндія готують Drone Deal",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049963/",
+      "summary": "",
+      "publishedAt": "2026-08-23T17:07:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна і Фінляндія готують Drone Deal",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-b7ea85fa6e8b",
+      "title": "Росіяни атакували завод американської компанії Mondelez на Сумщині, поранено працівників",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049962/",
+      "summary": "Росія завдала удару БпЛА по заводу Mondelez у Сумській області — поранено 5 людей, об'єкт пошкоджено.",
+      "publishedAt": "2026-08-23T16:58:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували завод американської компанії Mondelez на Сумщині, поранено працівників",
+      "summaryUk": "Росія завдала удару БпЛА по заводу Mondelez у Сумській області — поранено 5 людей, об'єкт пошкоджено."
+    },
+    {
+      "id": "x-euromaidan-91fa6651b6be",
+      "title": "Ukraine knocked out 36 of Russia&#8217;s thermobaric rocket launchers. The new ones come boxed in steel.",
+      "url": "https://euromaidanpress.com/2026/08/23/new-tos-1as/",
+      "summary": "Twenty-seven of them burned outright. The replacements arrive as T-72 hulls inside a welded steel shell.",
+      "publishedAt": "2026-08-23T16:53:12.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine knocked out 36 of Russia&#8217;s thermobaric rocket launchers. The new ones come boxed in steel.",
+      "summaryUk": "Twenty-seven of them burned outright. The replacements arrive as T-72 hulls inside a welded steel shell."
+    },
     {
       "id": "x-euromaidan-5f70f1ab2f94",
       "title": "Ukraine&#8217;s drones hit two Russian fighters and a spy drone—and blinded radars from occupied Crimea to Rostov",
@@ -450,22 +578,6 @@
       "summaryUk": "Про це Президент повідомив під час спілкування з журлалістами. Як повідомив Володимир Зеленський, понад 60% російського суспільства виступає за завершення війни та припинення вогню...."
     },
     {
-      "id": "x-pravda-3ad68a3b6d6c",
-      "title": "\"Мадяр\": СБС уразили два винищувачі та 8 РЛС росіян",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049934/",
-      "summary": "Українські дрони уразили літаки Су-33, МіГ-29 і вісім російських радарів у РФ і Криму.",
-      "publishedAt": "2026-08-23T12:14:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "\"Мадяр\": СБС уразили два винищувачі та 8 РЛС росіян",
-      "summaryUk": "Українські дрони уразили літаки Су-33, МіГ-29 і вісім російських радарів у РФ і Криму."
-    },
-    {
       "id": "x-armyinform-5e54856fd833",
       "title": "Ворог завдав подвійного удару по локомотиву на Одещині, рятувальники евакуювали 573 пасажирів",
       "url": "https://armyinform.com.ua/2026/08/23/vorog-zavdav-podvijnogo-udaru-po-lokomotyvu-na-odeshhyni-ryatuvalnyky-evakuyuvaly-573-pasazhyriv/",
@@ -482,22 +594,6 @@
       "summaryUk": "Про це повідомив начальник Одеської ОВА Олег Кіпер. Ворог умисно поцілив у пасажирський потяг, на щастя, ніхто не постраждав. Після..."
     },
     {
-      "id": "x-pravda-a752faccac25",
-      "title": "Президент Литви виступив українською на урочистостях до Дня прапора в Києві",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049933/",
-      "summary": "",
-      "publishedAt": "2026-08-23T12:02:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Президент Литви виступив українською на урочистостях до Дня прапора в Києві",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-e976c8c2bac9",
       "title": "One Russian warehouse smolders near Kazakhstan while a bigger fire rages near St. Petersburg",
       "url": "https://euromaidanpress.com/2026/08/23/one-russian-warehouse-smolders-near-kazakhstan-while-a-bigger-fire-rages-near-st-petersburg/",
@@ -512,22 +608,6 @@
       ],
       "titleUk": "One Russian warehouse smolders near Kazakhstan while a bigger fire rages near St. Petersburg",
       "summaryUk": "The parcel depot near Kazakhstan can hold tens of millions of orders and had to be cleared out."
-    },
-    {
-      "id": "x-pravda-f44a364b3614",
-      "title": "Зеленський має кандидатуру на посаду посла в США",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049930/",
-      "summary": "Президент України Володимир Зеленський повідомив про наявність кандидатури на посаду посла в США, але не розкрив її особу.",
-      "publishedAt": "2026-08-23T11:38:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський має кандидатуру на посаду посла в США",
-      "summaryUk": "Президент України Володимир Зеленський повідомив про наявність кандидатури на посаду посла в США, але не розкрив її особу."
     },
     {
       "id": "x-armyinform-3ed00e5d64d8",
@@ -592,22 +672,6 @@
       ],
       "titleUk": "Ukraine says it hit an Iskander launcher near the border—part of a dedicated hunt for Russia’s ballistic launch sites",
       "summaryUk": "The tactic gives Kyiv another way to reduce the missile threat when its stocks of anti-ballistic interceptors are low, Zelenskyy says."
-    },
-    {
-      "id": "x-pravda-3650a0dd2e1f",
-      "title": "Президент розповів про потреби України в ракетах Patriot та домовленості з Німеччиною",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049924/",
-      "summary": "",
-      "publishedAt": "2026-08-23T10:38:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Президент розповів про потреби України в ракетах Patriot та домовленості з Німеччиною",
-      "summaryUk": ""
     },
     {
       "id": "x-euromaidan-e2df75ce38dc",
@@ -960,22 +1024,6 @@
       ],
       "titleUk": "Ukraine is fielding more drone-hunters than ever. Free simulator now lets operators learn each one before it reaches their hands",
       "summaryUk": "Two Ukrainian interceptor drones, the P1-SUN and Bullet, were integrated into the UFDS combat simulator."
-    },
-    {
-      "id": "x-euromaidan-a8f5b479ed1c",
-      "title": "Russian groups keep trying—and failing—to reach Lyman, gateway to Donbas&#8217; fortress belt, officer says",
-      "url": "https://euromaidanpress.com/2026/08/21/russian-groups-keep-trying-and-failing-to-reach-lyman-gateway-to-donbas-fortress-belt-officer-says/",
-      "summary": "Russia is trying to push small infantry groups through Ukrainian defences as it seeks to capture Lyman and open the way towards Sloviansk and Kramatorsk, he noted.",
-      "publishedAt": "2026-08-21T20:54:56.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russian groups keep trying—and failing—to reach Lyman, gateway to Donbas&#8217; fortress belt, officer says",
-      "summaryUk": "Russia is trying to push small infantry groups through Ukrainian defences as it seeks to capture Lyman and open the way towards Sloviansk and Kramatorsk, he noted."
     }
   ]
 }
