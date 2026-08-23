@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T20:37:18.303Z",
+  "generatedAt": "2026-08-23T22:36:32.605Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,38 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-793908a440b5",
+      "title": "Російський Краснодар атакували дрони – пабліки",
+      "url": "https://www.pravda.com.ua/news/2026/08/24/8049983/",
+      "summary": "У ніч на 24 серпня безпілотники вчергове атакували російський Краснодар.",
+      "publishedAt": "2026-08-23T22:24:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російський Краснодар атакували дрони – пабліки",
+      "summaryUk": "У ніч на 24 серпня безпілотники вчергове атакували російський Краснодар."
+    },
+    {
+      "id": "x-pravda-95d8e39702a1",
+      "title": "У День Незалежності Радбез ООН обговорить наслідки війни РФ проти України – Сибіга",
+      "url": "https://www.pravda.com.ua/news/2026/08/24/8049981/",
+      "summary": "Сибіга повідомив, що Радбез ООН обговорить наслідки війни Росії в Україні.",
+      "publishedAt": "2026-08-23T21:22:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У День Незалежності Радбез ООН обговорить наслідки війни РФ проти України – Сибіга",
+      "summaryUk": "Сибіга повідомив, що Радбез ООН обговорить наслідки війни Росії в Україні."
+    },
     {
       "id": "x-pravda-e300f62c7e6e",
       "title": "Росіяни вдарили по передмістю Харкова: є загиблі та поранені",
@@ -275,9 +307,9 @@
     },
     {
       "id": "x-euromaidan-91fa6651b6be",
-      "title": "Ukraine knocked out 36 of Russia&#8217;s thermobaric rocket launchers. The new ones come boxed in steel.",
+      "title": "Russia&#8217;s thermobaric launchers used to just drive up and fire. Now they move one at a time, in steel boxes built to stop Ukrainian drones",
       "url": "https://euromaidanpress.com/2026/08/23/new-tos-1as/",
-      "summary": "Twenty-seven of them burned outright. The replacements arrive as T-72 hulls inside a welded steel shell.",
+      "summary": "Ukraine has knocked out at least 36 of them. Twenty-seven burned outright.",
       "publishedAt": "2026-08-23T16:53:12.000Z",
       "author": "Euromaidan Press",
       "handle": "euromaidan",
@@ -286,8 +318,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Ukraine knocked out 36 of Russia&#8217;s thermobaric rocket launchers. The new ones come boxed in steel.",
-      "summaryUk": "Twenty-seven of them burned outright. The replacements arrive as T-72 hulls inside a welded steel shell."
+      "titleUk": "Russia&#8217;s thermobaric launchers used to just drive up and fire. Now they move one at a time, in steel boxes built to stop Ukrainian drones",
+      "summaryUk": "Ukraine has knocked out at least 36 of them. Twenty-seven burned outright."
     },
     {
       "id": "x-euromaidan-5f70f1ab2f94",
@@ -402,22 +434,6 @@
       "summaryUk": ""
     },
     {
-      "id": "x-pravda-d686896a49a7",
-      "title": "Армія РФ похвалилася атакою на беззбройного велосипедиста, згодом відео видалили",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049952/",
-      "summary": "Російський дрон атакував цивільного на Донеччині. Відео оприлюднили та швидко видалили з Telegram-каналу армії РФ.",
-      "publishedAt": "2026-08-23T15:35:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Армія РФ похвалилася атакою на беззбройного велосипедиста, згодом відео видалили",
-      "summaryUk": "Російський дрон атакував цивільного на Донеччині. Відео оприлюднили та швидко видалили з Telegram-каналу армії РФ."
-    },
-    {
       "id": "x-euromaidan-5bddd7751476",
       "title": "Russia holds up to 20,000 Ukrainian civilians in captivity. One of newest is teacher who stayed in her occupied village to care for her 83-year-old mother",
       "url": "https://euromaidanpress.com/2026/08/23/russia-holds-up-to-20000-ukrainian-civilians-in-captivity-one-of-newest-is-teacher-who-stayed-in-her-occupied-village-to-care-for-her-83-year-old-mother/",
@@ -432,22 +448,6 @@
       ],
       "titleUk": "Russia holds up to 20,000 Ukrainian civilians in captivity. One of newest is teacher who stayed in her occupied village to care for her 83-year-old mother",
       "summaryUk": "Russia is replacing detained Ukrainian teachers with its own educators in occupied territories, where they are used to impose propaganda narratives."
-    },
-    {
-      "id": "x-pravda-8a2f3ecbcf2d",
-      "title": "Прем'єрка Данії закликала європейців надати Україні ракети до Patriot",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049949/",
-      "summary": "Прем’єрка Данії закликала союзників передати Києву ракети до Patriot для захисту від атак РФ взимку.",
-      "publishedAt": "2026-08-23T14:28:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Прем'єрка Данії закликала європейців надати Україні ракети до Patriot",
-      "summaryUk": "Прем’єрка Данії закликала союзників передати Києву ракети до Patriot для захисту від атак РФ взимку."
     },
     {
       "id": "x-euromaidan-c3379eebb790",
