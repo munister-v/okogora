@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:37:54.755Z",
+  "generatedAt": "2026-08-23T13:00:29.343Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,214 @@
   ],
   "items": [
     {
+      "id": "x-armyinform-4946595522f5",
+      "title": "Обрізали логістику на Лиманському напрямку: дронарі Signum вполювали ворожий транспорт",
+      "url": "https://armyinform.com.ua/2026/08/23/obrizaly-logistyku-na-lymanskomu-napryamku-dronari-signum-vpolyuvaly-vorozhyj-transport/",
+      "summary": "Відео бойової роботи підрозділ опублікував у соцмережах. Дронарі підрозділу «зупинили машину» з окупантами за незаконний перетин державного кордону. https://ai-videos.cdn.express/~/share/fc5755ef4e65/Optoriznia%20164%20tehnika.mp4 Також Signum вполював:...",
+      "publishedAt": "2026-08-23T12:49:43.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Обрізали логістику на Лиманському напрямку: дронарі Signum вполювали ворожий транспорт",
+      "summaryUk": "Відео бойової роботи підрозділ опублікував у соцмережах. Дронарі підрозділу «зупинили машину» з окупантами за незаконний перетин державного кордону. https://ai-videos.cdn.express/~/share/fc5755ef4e65/Optoriznia%20164%20tehnika.mp4 Також Signum вполював:..."
+    },
+    {
+      "id": "x-pravda-5874389ee257",
+      "title": "Федоров закликав Зеленського відповісти, чи знав він про корупцію у своєму оточенні",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049939/",
+      "summary": "Колишній міністр оборони Михайло Федоров заявив, що президент Володимир Зеленський має відповісти суспільству, чи знав він про можливу корупцію серед людей зі свого оточення.",
+      "publishedAt": "2026-08-23T12:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Федоров закликав Зеленського відповісти, чи знав він про корупцію у своєму оточенні",
+      "summaryUk": "Колишній міністр оборони Михайло Федоров заявив, що президент Володимир Зеленський має відповісти суспільству, чи знав він про можливу корупцію серед людей зі свого оточення."
+    },
+    {
+      "id": "x-armyinform-68c4ff67c6fc",
+      "title": "Понад 60% росіян хочуть завершення війни, українські удари створюють соціальний тиск у рф — Володимир Зеленський",
+      "url": "https://armyinform.com.ua/2026/08/23/ponad-60-rosiyan-hochut-zavershennya-vijny-ukrayinski-udary-stvoryuyut-soczialnyj-tysk-u-rf-volodymyr-zelenskyj/",
+      "summary": "Про це Президент повідомив під час спілкування з журлалістами. Як повідомив Володимир Зеленський, понад 60% російського суспільства виступає за завершення війни та припинення вогню....",
+      "publishedAt": "2026-08-23T12:29:53.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Понад 60% росіян хочуть завершення війни, українські удари створюють соціальний тиск у рф — Володимир Зеленський",
+      "summaryUk": "Про це Президент повідомив під час спілкування з журлалістами. Як повідомив Володимир Зеленський, понад 60% російського суспільства виступає за завершення війни та припинення вогню...."
+    },
+    {
+      "id": "x-pravda-3ad68a3b6d6c",
+      "title": "\"Мадяр\": СБС уразили два винищувачі та 8 РЛС росіян",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049934/",
+      "summary": "Українські дрони уразили літаки Су-33, МіГ-29 і вісім російських радарів у РФ і Криму.",
+      "publishedAt": "2026-08-23T12:14:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "\"Мадяр\": СБС уразили два винищувачі та 8 РЛС росіян",
+      "summaryUk": "Українські дрони уразили літаки Су-33, МіГ-29 і вісім російських радарів у РФ і Криму."
+    },
+    {
+      "id": "x-armyinform-5e54856fd833",
+      "title": "Ворог завдав подвійного удару по локомотиву на Одещині, рятувальники евакуювали 573 пасажирів",
+      "url": "https://armyinform.com.ua/2026/08/23/vorog-zavdav-podvijnogo-udaru-po-lokomotyvu-na-odeshhyni-ryatuvalnyky-evakuyuvaly-573-pasazhyriv/",
+      "summary": "Про це повідомив начальник Одеської ОВА Олег Кіпер. Ворог умисно поцілив у пасажирський потяг, на щастя, ніхто не постраждав. Після...",
+      "publishedAt": "2026-08-23T12:12:19.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворог завдав подвійного удару по локомотиву на Одещині, рятувальники евакуювали 573 пасажирів",
+      "summaryUk": "Про це повідомив начальник Одеської ОВА Олег Кіпер. Ворог умисно поцілив у пасажирський потяг, на щастя, ніхто не постраждав. Після..."
+    },
+    {
+      "id": "x-pravda-a752faccac25",
+      "title": "Президент Литви виступив українською на урочистостях до Дня прапора в Києві",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049933/",
+      "summary": "",
+      "publishedAt": "2026-08-23T12:02:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Президент Литви виступив українською на урочистостях до Дня прапора в Києві",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-e976c8c2bac9",
+      "title": "One Russian warehouse smolders near Kazakhstan while a bigger fire rages near St. Petersburg",
+      "url": "https://euromaidanpress.com/2026/08/23/one-russian-warehouse-smolders-near-kazakhstan-while-a-bigger-fire-rages-near-st-petersburg/",
+      "summary": "The parcel depot near Kazakhstan can hold tens of millions of orders and had to be cleared out.",
+      "publishedAt": "2026-08-23T11:38:04.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "One Russian warehouse smolders near Kazakhstan while a bigger fire rages near St. Petersburg",
+      "summaryUk": "The parcel depot near Kazakhstan can hold tens of millions of orders and had to be cleared out."
+    },
+    {
+      "id": "x-pravda-f44a364b3614",
+      "title": "Зеленський має кандидатуру на посаду посла в США",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049930/",
+      "summary": "Президент України Володимир Зеленський повідомив про наявність кандидатури на посаду посла в США, але не розкрив її особу.",
+      "publishedAt": "2026-08-23T11:38:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський має кандидатуру на посаду посла в США",
+      "summaryUk": "Президент України Володимир Зеленський повідомив про наявність кандидатури на посаду посла в США, але не розкрив її особу."
+    },
+    {
+      "id": "x-armyinform-3ed00e5d64d8",
+      "title": "Спортсмен ЗС України Богдан Олексієнко здобув бронзову медаль чемпіонату світу U20 з вільної боротьби",
+      "url": "https://armyinform.com.ua/2026/08/23/sportsmen-zs-ukrayiny-bogdan-oleksiyenko-zdobuv-bronzovu-medal-chempionatu-svitu-u20-z-vilnoyi-borotby/",
+      "summary": "Про це повідомляє Відділ фізичної культури і спорту МО України. Представник ЦСК ЗС України Богдан Олексієнко виборов бронзову медаль чемпіонату...",
+      "publishedAt": "2026-08-23T11:24:45.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Спортсмен ЗС України Богдан Олексієнко здобув бронзову медаль чемпіонату світу U20 з вільної боротьби",
+      "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. Представник ЦСК ЗС України Богдан Олексієнко виборов бронзову медаль чемпіонату..."
+    },
+    {
+      "id": "x-armyinform-6364df2fc53e",
+      "title": "Президент назвав протидію російській балістиці та фінансування оборони головними завданнями України",
+      "url": "https://armyinform.com.ua/2026/08/23/prezydent-nazvav-protydiyu-rosijskij-balistyczi-ta-finansuvannya-oborony-golovnymy-zavdannyamy-ukrayiny/",
+      "summary": "Про це Президент повідомив під час спілкування з журналістами. За його словами, Україна очікує отримати 30 млрд євро європейського фінансування,...",
+      "publishedAt": "2026-08-23T11:03:31.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Президент назвав протидію російській балістиці та фінансування оборони головними завданнями України",
+      "summaryUk": "Про це Президент повідомив під час спілкування з журналістами. За його словами, Україна очікує отримати 30 млрд євро європейського фінансування,..."
+    },
+    {
+      "id": "x-armyinform-1c8eda4cfe18",
+      "title": "Удари по Wildberries завдали загальних збитків рф на три трильйони рублів — Володимир Зеленський",
+      "url": "https://armyinform.com.ua/2026/08/23/udary-po-wildberries-zavdaly-zagalnyh-zbytkiv-rf-na-try-tryljony-rubliv-volodymyr-zelenskyj/",
+      "summary": "Про це Президент повідомив під час спілкування з журлалістами. Володимир Зеленський заявив, що росія продовжує розширювати масштаби ударів по українській цивільній інфраструктурі,...",
+      "publishedAt": "2026-08-23T10:46:38.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Удари по Wildberries завдали загальних збитків рф на три трильйони рублів — Володимир Зеленський",
+      "summaryUk": "Про це Президент повідомив під час спілкування з журлалістами. Володимир Зеленський заявив, що росія продовжує розширювати масштаби ударів по українській цивільній інфраструктурі,..."
+    },
+    {
+      "id": "x-euromaidan-bfa322cf31f3",
+      "title": "Ukraine says it hit an Iskander launcher near the border—part of a dedicated hunt for Russia’s ballistic launch sites",
+      "url": "https://euromaidanpress.com/2026/08/23/ukraine-says-it-hit-an-iskander-launcher-near-the-border-part-of-a-dedicated-hunt-for-russias-ballistic-launch-sites/",
+      "summary": "The tactic gives Kyiv another way to reduce the missile threat when its stocks of anti-ballistic interceptors are low, Zelenskyy says.",
+      "publishedAt": "2026-08-23T10:44:13.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine says it hit an Iskander launcher near the border—part of a dedicated hunt for Russia’s ballistic launch sites",
+      "summaryUk": "The tactic gives Kyiv another way to reduce the missile threat when its stocks of anti-ballistic interceptors are low, Zelenskyy says."
+    },
+    {
+      "id": "x-pravda-3650a0dd2e1f",
+      "title": "Президент розповів про потреби України в ракетах Patriot та домовленості з Німеччиною",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049924/",
+      "summary": "",
+      "publishedAt": "2026-08-23T10:38:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Президент розповів про потреби України в ракетах Patriot та домовленості з Німеччиною",
+      "summaryUk": ""
+    },
+    {
       "id": "x-armyinform-507e2792c803",
       "title": "Україні потрібно 300 ракет для Patriot на зимовий пакет, запит Повітряних сил — 360 одиниць",
       "url": "https://armyinform.com.ua/2026/08/23/ukrayini-potribno-300-raket-dlya-patriot-na-zymovyj-paket-zapyt-povitryanyh-syl-360-odynycz/",
@@ -178,22 +386,6 @@
       "summaryUk": "Зеленський повідомив про серйозний конфлікт між Федоровим і Сирським. Федоров пропонував звільнити обох керівників під час війни."
     },
     {
-      "id": "x-armyinform-ae7a83b79dd5",
-      "title": "Уражено РЛС, місце запуску та зберігання МБеК, склади і ремонтні підрозділи противника",
-      "url": "https://armyinform.com.ua/2026/08/23/urazheno-rls-miscze-zapusku-ta-zberigannya-mbek-sklady-i-remontni-pidrozdily-protyvnyka/",
-      "summary": "Про це повідомив Генеральний штаб ЗСУ. Так, уражено місце запуску та зберігання морських безекіпажних катерів (МБеК), а також наземний ретранслятор...",
-      "publishedAt": "2026-08-23T09:25:11.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Уражено РЛС, місце запуску та зберігання МБеК, склади і ремонтні підрозділи противника",
-      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Так, уражено місце запуску та зберігання морських безекіпажних катерів (МБеК), а також наземний ретранслятор..."
-    },
-    {
       "id": "x-pravda-9c9f6c3945ad",
       "title": "Україна восени отримає від Франції нові радари для ППО - президент",
       "url": "https://www.pravda.com.ua/news/2026/08/23/8049916/",
@@ -208,22 +400,6 @@
       ],
       "titleUk": "Україна восени отримає від Франції нові радари для ППО - президент",
       "summaryUk": ""
-    },
-    {
-      "id": "x-armyinform-38f4445c7105",
-      "title": "Спортсмен ЗС України Назар Чепурний здобув золото чемпіонату Європи зі спортивної гімнастики",
-      "url": "https://armyinform.com.ua/2026/08/23/sportsmen-zs-ukrayiny-nazar-chepurnyj-zdobuv-zoloto-chempionatu-yevropy-zi-sportyvnoyi-gimnastyky/",
-      "summary": "Про це повідомляє Відділ фізичної культури і спорту МО України. Для Назара Чепурного це перша в кар’єрі особиста золота медаль...",
-      "publishedAt": "2026-08-23T09:02:36.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Спортсмен ЗС України Назар Чепурний здобув золото чемпіонату Європи зі спортивної гімнастики",
-      "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. Для Назара Чепурного це перша в кар’єрі особиста золота медаль..."
     },
     {
       "id": "x-pravda-b630b62e89fe",
@@ -242,22 +418,6 @@
       "summaryUk": "Зеленський повідомив, що РФ має 600-630 ракет і може досягти виробництва 1300 ракет на рік."
     },
     {
-      "id": "x-armyinform-2ec896659f36",
-      "title": "Внаслідок ударів ворога на Сумщині дві людини загинуло, шестеро отримало поранення",
-      "url": "https://armyinform.com.ua/2026/08/23/vnaslidok-udariv-voroga-na-sumshhyni-dvi-lyudyny-zagynulo-shestero-otrymalo-poranennya/",
-      "summary": "Про це повідомила Сумська ОВА. Найбільше обстрілів зафіксовано у Сумському, Шосткинському, Конотопському районах. Під ударами ворога були населені пункти 15...",
-      "publishedAt": "2026-08-23T08:43:21.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Внаслідок ударів ворога на Сумщині дві людини загинуло, шестеро отримало поранення",
-      "summaryUk": "Про це повідомила Сумська ОВА. Найбільше обстрілів зафіксовано у Сумському, Шосткинському, Конотопському районах. Під ударами ворога були населені пункти 15..."
-    },
-    {
       "id": "x-pravda-f5b77775ba08",
       "title": "Президент: Цього року вийдемо на однакову кількість окупованої та деокупованої території",
       "url": "https://www.pravda.com.ua/news/2026/08/23/8049914/",
@@ -272,22 +432,6 @@
       ],
       "titleUk": "Президент: Цього року вийдемо на однакову кількість окупованої та деокупованої території",
       "summaryUk": "Зеленський заявив: Україна прагне до паритету звільнених та окупованих територій до кінця 2026 року."
-    },
-    {
-      "id": "x-armyinform-ae555e63d1c3",
-      "title": "Ворожий удар пошкодив 141 приватний будинок в селі Софіївка Краматорської громади",
-      "url": "https://armyinform.com.ua/2026/08/23/vorozhyj-udar-poshkodyv-141-pryvatnyj-budynok-v-seli-sofiyivka-kramatorskoyi-gromady/",
-      "summary": "Про це повідомила ДСНС України. Під час аварійно-рятувальних робіт надзвичайники вилучили з-під завалів приватного будинку тіло людини. Розібрали близько 2...",
-      "publishedAt": "2026-08-23T08:28:26.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ворожий удар пошкодив 141 приватний будинок в селі Софіївка Краматорської громади",
-      "summaryUk": "Про це повідомила ДСНС України. Під час аварійно-рятувальних робіт надзвичайники вилучили з-під завалів приватного будинку тіло людини. Розібрали близько 2..."
     },
     {
       "id": "x-pravda-df8c27a03232",
@@ -306,22 +450,6 @@
       "summaryUk": "Президент Зеленський заявив, що вибори під час війни несуть великі ризики та можуть розколоти Україну."
     },
     {
-      "id": "x-armyinform-6dff272a40dd",
-      "title": "Величезний державний стяг замайорів над Чорним морем",
-      "url": "https://armyinform.com.ua/2026/08/23/velycheznyj-derzhavnyj-styag-zamajoriv-nad-chornym-morem/",
-      "summary": "Відео оприлюднила Держприкордонслужба України. Прапор розміром 12 на 6 метрів розгорнувся над чорноморською акваторією. Це — найбільший український стяг, піднятий БпЛА над Одещиною....",
-      "publishedAt": "2026-08-23T08:04:08.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Величезний державний стяг замайорів над Чорним морем",
-      "summaryUk": "Відео оприлюднила Держприкордонслужба України. Прапор розміром 12 на 6 метрів розгорнувся над чорноморською акваторією. Це — найбільший український стяг, піднятий БпЛА над Одещиною...."
-    },
-    {
       "id": "x-pravda-2eda47764398",
       "title": "У Львові стався вибух в аптеці, є загиблий",
       "url": "https://www.pravda.com.ua/news/2026/08/23/8049899/",
@@ -336,38 +464,6 @@
       ],
       "titleUk": "У Львові стався вибух в аптеці, є загиблий",
       "summaryUk": "У Львові вибухнула аптека на Тракті Глинянському, загинув аптекар. Причини встановлюються."
-    },
-    {
-      "id": "x-armyinform-1ccd10b725b1",
-      "title": "Сили оборони знищили літак Су-24М та іншу техніку у Криму",
-      "url": "https://armyinform.com.ua/2026/08/23/syly-oborony-znyshheno-litak-su-24m-ta-inshu-tehniku-u-krymu/",
-      "summary": "Про це повідомив Генеральний штаб ЗСУ. Підверджено, що 20 серпня 2026 в результаті ураження аеродрому «Саки» (Новофедорівка, ТОТ АР Крим) Сили...",
-      "publishedAt": "2026-08-23T07:45:00.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сили оборони знищили літак Су-24М та іншу техніку у Криму",
-      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Підверджено, що 20 серпня 2026 в результаті ураження аеродрому «Саки» (Новофедорівка, ТОТ АР Крим) Сили..."
-    },
-    {
-      "id": "x-armyinform-6e779cd3db95",
-      "title": "Україна повідомила про підозру начальнику Генштабу РФ Герасимову за удар по Києву",
-      "url": "https://armyinform.com.ua/2026/08/23/ukrayina-povidomyla-pro-pidozru-nachalnyku-genshtabu-rf-gerasymovu-za-udar-po-kyyevu/",
-      "summary": "Головне слідче управління Служби безпеки України 21 серпня 2026 року повідомило про підозру за ст. 438 КК України начальнику генштабу збройних сил рф за масований удар...",
-      "publishedAt": "2026-08-23T07:30:39.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна повідомила про підозру начальнику Генштабу РФ Герасимову за удар по Києву",
-      "summaryUk": "Головне слідче управління Служби безпеки України 21 серпня 2026 року повідомило про підозру за ст. 438 КК України начальнику генштабу збройних сил рф за масований удар..."
     },
     {
       "id": "x-pravda-c8bd26d155ae",
@@ -418,22 +514,6 @@
       "summaryUk": "На Одещині дрон РФ влучив у локомотив поїзда Житомир–Одеса. Постраждалих немає, пасажирів вчасно евакуювали."
     },
     {
-      "id": "x-pravda-44f67246f3be",
-      "title": "РФ запустила 127 безпілотників, є влучання та падіння на 25 локаціях – ПС",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049900/",
-      "summary": "У ніч на 23 серпня Росія атакувала Україну 127 безпілотниками різних типів, зафіксовано влучання та падіння уламків на 25 локаціях.",
-      "publishedAt": "2026-08-23T06:32:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "РФ запустила 127 безпілотників, є влучання та падіння на 25 локаціях – ПС",
-      "summaryUk": "У ніч на 23 серпня Росія атакувала Україну 127 безпілотниками різних типів, зафіксовано влучання та падіння уламків на 25 локаціях."
-    },
-    {
       "id": "x-euromaidan-e2df75ce38dc",
       "title": "Reports credit North Korea&#8217;s newest missile of terror with 2.5-ton warhead and 900-km range. Expert explains why those numbers can&#8217;t both be true",
       "url": "https://euromaidanpress.com/2026/08/23/reports-credit-north-koreas-newest-missile-of-terror-with-2-5-ton-warhead-and-900-km-range-expert-explains-why-those-numbers-cant-both-be-true/",
@@ -450,22 +530,6 @@
       "summaryUk": "Russia may receive up to 150 North Korean missiles, including the KN-30."
     },
     {
-      "id": "x-pravda-245547b84b07",
-      "title": "Софійність як світоглядна основа національної стійкості",
-      "url": "https://www.pravda.com.ua/columns/2026/08/23/8049596/",
-      "summary": "Українська стійкість – не лише інститути, а й цінності, довіра та софійність культури.",
-      "publishedAt": "2026-08-23T06:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Софійність як світоглядна основа національної стійкості",
-      "summaryUk": "Українська стійкість – не лише інститути, а й цінності, довіра та софійність культури."
-    },
-    {
       "id": "x-euromaidan-c1960bb737a7",
       "title": "Zelenskyy awarded Vikings star, ballistic missile CEO took stage, and strike drone got signed with messages to Russians: Ukraine&#8217;s major UNITED24 platform turns four",
       "url": "https://euromaidanpress.com/2026/08/23/zelenskyy-awarded-vikings-star-ballistic-missile-ceo-took-stage-and-strike-drone-got-signed-with-messages-to-russians-ukraines-major-united24-platform-turns-four/",
@@ -480,70 +544,6 @@
       ],
       "titleUk": "Zelenskyy awarded Vikings star, ballistic missile CEO took stage, and strike drone got signed with messages to Russians: Ukraine&#8217;s major UNITED24 platform turns four",
       "summaryUk": "Ukraine's UNITED24 platform has raised nearly $4 billion in four years of war."
-    },
-    {
-      "id": "x-pravda-cab830d61bb8",
-      "title": "Хто такі \"хороші росіяни\" і чи варто з ними говорити?",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049894/",
-      "summary": "",
-      "publishedAt": "2026-08-23T05:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Хто такі \"хороші росіяни\" і чи варто з ними говорити?",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-e7a1877c57b0",
-      "title": "У Кривому Розі до 140 зросла кількість постраждалих від удару по ТЦ – Вілкул",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049893/",
-      "summary": "У Кривому Розі після російського удару по ТРЦ постраждали 140 людей, 50 залишаються у лікарнях, зокрема 13 дітей.",
-      "publishedAt": "2026-08-23T05:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Кривому Розі до 140 зросла кількість постраждалих від удару по ТЦ – Вілкул",
-      "summaryUk": "У Кривому Розі після російського удару по ТРЦ постраждали 140 людей, 50 залишаються у лікарнях, зокрема 13 дітей."
-    },
-    {
-      "id": "x-pravda-64bcad105518",
-      "title": "У чотирьох областях через агресію РФ загинули 4 людини, ще 30 постраждали",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049891/",
-      "summary": "Російська агресія: за добу на Донеччині, Херсонщині, Сумщині та Харківщині загинули 4 людини, ще 30 отримали поранення.",
-      "publishedAt": "2026-08-23T05:33:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У чотирьох областях через агресію РФ загинули 4 людини, ще 30 постраждали",
-      "summaryUk": "Російська агресія: за добу на Донеччині, Херсонщині, Сумщині та Харківщині загинули 4 людини, ще 30 отримали поранення."
-    },
-    {
-      "id": "x-pravda-92ae9a3dbe50",
-      "title": "Росія вимагає заборонити мітинги біля своїх посольств у день виборів до Держдуми",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049888/",
-      "summary": "Заступник голови комісії МЗС Росії з виборів Максим Райдер заявив, що Москва надіслала дипломатичні ноти всім країнам із проханням заборонити проведення демонстрацій біля російських посольств у день виборів до Держдуми.",
-      "publishedAt": "2026-08-23T04:58:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росія вимагає заборонити мітинги біля своїх посольств у день виборів до Держдуми",
-      "summaryUk": "Заступник голови комісії МЗС Росії з виборів Максим Райдер заявив, що Москва надіслала дипломатичні ноти всім країнам із проханням заборонити проведення демонстрацій біля російських посольств у день виборів до Держдуми."
     },
     {
       "id": "x-euromaidan-3facf0154381",
@@ -944,38 +944,6 @@
       ],
       "titleUk": "Russian drone strike on Kryvyi Rih shopping center kills 15, injures 130. Second attack targeted rescue workers 30 minutes later",
       "summaryUk": "The daytime drone attack set the shopping center on fire before a second wave struck emergency crews responding to the scene."
-    },
-    {
-      "id": "x-euromaidan-7318ed77b969",
-      "title": "Kyiv is asking Musk to let it strike inside Russia. Its best line to Musk is gone",
-      "url": "https://euromaidanpress.com/2026/08/21/kyiv-is-asking-musk-to-let-it-strike-inside-russia-its-best-line-to-musk-is-gone/",
-      "summary": "Running low on Patriot interceptors, Kyiv wants to hunt the launchers up to 200 km inside Russia—but only Musk can switch the drones on.",
-      "publishedAt": "2026-08-21T16:10:27.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Kyiv is asking Musk to let it strike inside Russia. Its best line to Musk is gone",
-      "summaryUk": "Running low on Patriot interceptors, Kyiv wants to hunt the launchers up to 200 km inside Russia—but only Musk can switch the drones on."
-    },
-    {
-      "id": "x-euromaidan-b6caa05a4d15",
-      "title": "Ukraine warns Russia could exploit upcoming Independence Day for attacks and sabotage",
-      "url": "https://euromaidanpress.com/2026/08/21/ukraine-warns-russia-could-exploit-upcoming-independence-day/",
-      "summary": "Ukraine’s security service urged vigilance ahead of 24 August, warning about potential attacks, sabotage, suspicious activity, and attempts to gather military information.",
-      "publishedAt": "2026-08-21T15:47:31.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine warns Russia could exploit upcoming Independence Day for attacks and sabotage",
-      "summaryUk": "Ukraine’s security service urged vigilance ahead of 24 August, warning about potential attacks, sabotage, suspicious activity, and attempts to gather military information."
     }
   ]
 }
