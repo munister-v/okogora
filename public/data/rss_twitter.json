@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:00:29.343Z",
+  "generatedAt": "2026-08-23T14:37:19.345Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,166 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-8a2f3ecbcf2d",
+      "title": "Прем'єрка Данії закликала європейців надати Україні ракети до Patriot",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049949/",
+      "summary": "Прем’єрка Данії закликала союзників передати Києву ракети до Patriot для захисту від атак РФ взимку.",
+      "publishedAt": "2026-08-23T14:28:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Прем'єрка Данії закликала європейців надати Україні ракети до Patriot",
+      "summaryUk": "Прем’єрка Данії закликала союзників передати Києву ракети до Patriot для захисту від атак РФ взимку."
+    },
+    {
+      "id": "x-euromaidan-c3379eebb790",
+      "title": "Ukraine&#8217;s ousted defense minister confirms M&#038;M&#8217;s operation planning and discloses real story behind its name",
+      "url": "https://euromaidanpress.com/2026/08/23/ukraines-ousted-defense-minister-confirms-mms-operation-planning-and-discloses-real-story-behind-its-name/",
+      "summary": "The planned operation involved using autonomous, AI-powered drones to target Moscow’s airports and disrupt air traffic.",
+      "publishedAt": "2026-08-23T14:12:50.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s ousted defense minister confirms M&#038;M&#8217;s operation planning and discloses real story behind its name",
+      "summaryUk": "The planned operation involved using autonomous, AI-powered drones to target Moscow’s airports and disrupt air traffic."
+    },
+    {
+      "id": "x-pravda-5294f0c44c82",
+      "title": "Зеленський зустрівся з сенаторами США: говорили про санкції та протидію балістиці",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049947/",
+      "summary": "Зеленський провів зустріч із сенаторами США в Києві: двопартійна підтримка, санкції проти Росії, співпраця та системи Patriot.",
+      "publishedAt": "2026-08-23T14:07:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський зустрівся з сенаторами США: говорили про санкції та протидію балістиці",
+      "summaryUk": "Зеленський провів зустріч із сенаторами США в Києві: двопартійна підтримка, санкції проти Росії, співпраця та системи Patriot."
+    },
+    {
+      "id": "x-armyinform-e54b4018065b",
+      "title": "Президент під час зустрічі з сенаторами США закликав посилити санкції проти рф та допомогти Україні з ракетами для ППО",
+      "url": "https://armyinform.com.ua/2026/08/23/prezydent-pid-chas-zustrichi-z-senatoramy-ssha-zaklykav-posylyty-sankcziyi-proty-rf-ta-dopomogty-ukrayini-z-raketamy-dlya-ppo/",
+      "summary": "Про це повідомили на сайті Президента України. Зустріч відбулася 23 серпня після Національного молитовного сніданку. Володимир Зеленський подякував сенаторам за...",
+      "publishedAt": "2026-08-23T14:00:12.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Президент під час зустрічі з сенаторами США закликав посилити санкції проти рф та допомогти Україні з ракетами для ППО",
+      "summaryUk": "Про це повідомили на сайті Президента України. Зустріч відбулася 23 серпня після Національного молитовного сніданку. Володимир Зеленський подякував сенаторам за..."
+    },
+    {
+      "id": "x-armyinform-e8465cb15575",
+      "title": "Україна та Фінляндія домовилися про виробництво дронів, морських безекіпажних систем і НРК",
+      "url": "https://armyinform.com.ua/2026/08/23/ukrayina-ta-finlyandiya-domovylysya-pro-vyrobnycztvo-droniv-morskyh-bezekipazhnyh-system-i-nrk/",
+      "summary": "Про це Володимир Зеленський повідомив у соцмережах. Під час засідання круглого столу з питань українсько-фінського співробітництва у сфері оборонних індустрій,...",
+      "publishedAt": "2026-08-23T13:45:49.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна та Фінляндія домовилися про виробництво дронів, морських безекіпажних систем і НРК",
+      "summaryUk": "Про це Володимир Зеленський повідомив у соцмережах. Під час засідання круглого столу з питань українсько-фінського співробітництва у сфері оборонних індустрій,..."
+    },
+    {
+      "id": "x-pravda-46db8ee454a0",
+      "title": "Стубб повідомив про підписання угод між фінськими та українськими виробниками зброї",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049943/",
+      "summary": "",
+      "publishedAt": "2026-08-23T13:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Стубб повідомив про підписання угод між фінськими та українськими виробниками зброї",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-878a8cddf682",
+      "title": "БпЛА атакував електричку на Харківщині: попри евакуацію, є загиблі й поранені",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049942/",
+      "summary": "БпЛА Росії влучив у поїзд Лозова-Харків: одна пасажирка загинула, ще четверо поранені. Відбулася евакуація пасажирів.",
+      "publishedAt": "2026-08-23T13:20:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "БпЛА атакував електричку на Харківщині: попри евакуацію, є загиблі й поранені",
+      "summaryUk": "БпЛА Росії влучив у поїзд Лозова-Харків: одна пасажирка загинула, ще четверо поранені. Відбулася евакуація пасажирів."
+    },
+    {
+      "id": "x-armyinform-3122d5bbdd0e",
+      "title": "«Можна пошкодити полотно, але не зламати дух»: над Краматорськом знову майорить державний прапор",
+      "url": "https://armyinform.com.ua/2026/08/23/mozhna-poshkodyty-polotno-ale-ne-zlamaty-duh-nad-kramatorskom-znovu-majoryt-derzhavnyj-prapor/",
+      "summary": "Як повідомила 24-та ОМБр імені короля Данила, упродовж 2026 року ворог п’ять разів намагався знищити FPV-дронами український прапор у Краматорську. Сьогодні, завдяки українським захисникам,...",
+      "publishedAt": "2026-08-23T13:14:32.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Можна пошкодити полотно, але не зламати дух»: над Краматорськом знову майорить державний прапор",
+      "summaryUk": "Як повідомила 24-та ОМБр імені короля Данила, упродовж 2026 року ворог п’ять разів намагався знищити FPV-дронами український прапор у Краматорську. Сьогодні, завдяки українським захисникам,..."
+    },
+    {
+      "id": "x-euromaidan-66128c0f3197",
+      "title": "Six Nordic-Baltic leaders came to Kyiv. Norway put a $9 billion figure on 2027 support",
+      "url": "https://euromaidanpress.com/2026/08/23/six-nordic-baltic-leaders-came-to-kyiv-norway-put-a-9-billion-figure-on-2027-support/",
+      "summary": "The visitors joined Ukraine's State Flag Day events ahead of Independence Day, alongside bilateral and multilateral talks with the Ukrainian president.",
+      "publishedAt": "2026-08-23T13:14:14.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Six Nordic-Baltic leaders came to Kyiv. Norway put a $9 billion figure on 2027 support",
+      "summaryUk": "The visitors joined Ukraine's State Flag Day events ahead of Independence Day, alongside bilateral and multilateral talks with the Ukrainian president."
+    },
+    {
+      "id": "x-pravda-d38fbe816b4d",
+      "title": "Норвегія планує виділити 85 млрд крон на підтримку України в наступному році",
+      "url": "https://www.pravda.com.ua/news/2026/08/23/8049941/",
+      "summary": "",
+      "publishedAt": "2026-08-23T13:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Норвегія планує виділити 85 млрд крон на підтримку України в наступному році",
+      "summaryUk": ""
+    },
     {
       "id": "x-armyinform-4946595522f5",
       "title": "Обрізали логістику на Лиманському напрямку: дронарі Signum вполювали ворожий транспорт",
@@ -306,22 +466,6 @@
       "summaryUk": ""
     },
     {
-      "id": "x-armyinform-507e2792c803",
-      "title": "Україні потрібно 300 ракет для Patriot на зимовий пакет, запит Повітряних сил — 360 одиниць",
-      "url": "https://armyinform.com.ua/2026/08/23/ukrayini-potribno-300-raket-dlya-patriot-na-zymovyj-paket-zapyt-povitryanyh-syl-360-odynycz/",
-      "summary": "Про це Президент України Володимир Зеленський повідомив під час спілкування з журлалістами. За його словами, забезпечити таку кількість складно, оскільки у світі виробляється близько...",
-      "publishedAt": "2026-08-23T10:21:16.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україні потрібно 300 ракет для Patriot на зимовий пакет, запит Повітряних сил — 360 одиниць",
-      "summaryUk": "Про це Президент України Володимир Зеленський повідомив під час спілкування з журлалістами. За його словами, забезпечити таку кількість складно, оскільки у світі виробляється близько..."
-    },
-    {
       "id": "x-pravda-8df43af4e013",
       "title": "Генштаб: У Криму уражено РЛС, місце запуску морських дронів і ретранслятор",
       "url": "https://www.pravda.com.ua/news/2026/08/23/8049922/",
@@ -336,38 +480,6 @@
       ],
       "titleUk": "Генштаб: У Криму уражено РЛС, місце запуску морських дронів і ретранслятор",
       "summaryUk": "У Чорноморському та Євпаторії уражено російські об'єкти, зокрема радіолокаційну станцію."
-    },
-    {
-      "id": "x-armyinform-ddc025c16e54",
-      "title": "Країна-агресор може вийти на виробництво 1300 балістичних ракет на рік",
-      "url": "https://armyinform.com.ua/2026/08/23/krayina-agresor-mozhe-vyjty-na-vyrobnycztvo-1300-balistychnyh-raket-na-rik/",
-      "summary": "Про це Президент повідомив під час спілкування з журналістами. За словами Глава держави нині російський запас становить близько 600–630 балістичних ракет, а до кінця зими...",
-      "publishedAt": "2026-08-23T10:04:00.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Країна-агресор може вийти на виробництво 1300 балістичних ракет на рік",
-      "summaryUk": "Про це Президент повідомив під час спілкування з журналістами. За словами Глава держави нині російський запас становить близько 600–630 балістичних ракет, а до кінця зими..."
-    },
-    {
-      "id": "x-armyinform-c1c27b179cc6",
-      "title": "«Слава всім, хто захищає державний прапор» — Президент привітав українців з Днем Державного прапора",
-      "url": "https://armyinform.com.ua/2026/08/23/slava-vsim-hto-zahyshhaye-derzhavnyj-prapor-prezydent-pryvitav-ukrayincziv-z-dnem-derzhavnogo-prapora/",
-      "summary": "Відео Президент оприлюднив у своїх соцмережах. Наш державний прапор – наше синьо-жовте джерело сили і духу – з нами завжди....",
-      "publishedAt": "2026-08-23T09:51:29.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Слава всім, хто захищає державний прапор» — Президент привітав українців з Днем Державного прапора",
-      "summaryUk": "Відео Президент оприлюднив у своїх соцмережах. Наш державний прапор – наше синьо-жовте джерело сили і духу – з нами завжди...."
     },
     {
       "id": "x-pravda-1368b40d879b",
@@ -448,70 +560,6 @@
       ],
       "titleUk": "Зеленський назвав вибори у цей час \"цунамі, яке розколе Україну\"",
       "summaryUk": "Президент Зеленський заявив, що вибори під час війни несуть великі ризики та можуть розколоти Україну."
-    },
-    {
-      "id": "x-pravda-2eda47764398",
-      "title": "У Львові стався вибух в аптеці, є загиблий",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049899/",
-      "summary": "У Львові вибухнула аптека на Тракті Глинянському, загинув аптекар. Причини встановлюються.",
-      "publishedAt": "2026-08-23T08:02:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Львові стався вибух в аптеці, є загиблий",
-      "summaryUk": "У Львові вибухнула аптека на Тракті Глинянському, загинув аптекар. Причини встановлюються."
-    },
-    {
-      "id": "x-pravda-c8bd26d155ae",
-      "title": "До Києва прибув президент Литви",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049905/",
-      "summary": "Президент Литви Науседа відвідав Київ для святкування Дня прапора та Дня незалежності України.",
-      "publishedAt": "2026-08-23T07:29:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "До Києва прибув президент Литви",
-      "summaryUk": "Президент Литви Науседа відвідав Київ для святкування Дня прапора та Дня незалежності України."
-    },
-    {
-      "id": "x-pravda-b318396232cb",
-      "title": "Прем'єри Естонії та Норвегії у Києві наголосили на підтримці України",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049904/",
-      "summary": "",
-      "publishedAt": "2026-08-23T07:11:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Прем'єри Естонії та Норвегії у Києві наголосили на підтримці України",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-f6036b1803e3",
-      "title": "Реактивний \"Шахед\" влучив у пасажирський поїзд на Одещині – УЗ",
-      "url": "https://www.pravda.com.ua/news/2026/08/23/8049902/",
-      "summary": "На Одещині дрон РФ влучив у локомотив поїзда Житомир–Одеса. Постраждалих немає, пасажирів вчасно евакуювали.",
-      "publishedAt": "2026-08-23T06:52:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Реактивний \"Шахед\" влучив у пасажирський поїзд на Одещині – УЗ",
-      "summaryUk": "На Одещині дрон РФ влучив у локомотив поїзда Житомир–Одеса. Постраждалих немає, пасажирів вчасно евакуювали."
     },
     {
       "id": "x-euromaidan-e2df75ce38dc",
@@ -912,38 +960,6 @@
       ],
       "titleUk": "Captured Russian marine executed Ukrainian commander on superior’s order, prosecutors say",
       "summaryUk": "The suspect is in custody as Ukraine steps up efforts to prosecute Russian troops accused of crimes against Ukrainian prisoners of war."
-    },
-    {
-      "id": "x-euromaidan-bfd191a53e26",
-      "title": "Russia’s UN envoy denies reports of post-election mass mobilization",
-      "url": "https://euromaidanpress.com/2026/08/21/russia-denies-post-election-mass-mobilization/",
-      "summary": "More than 20,000 people crossed from Russia into Georgia in one day amid fears of a post-election draft. Ukraine says Russia is losing troops faster than it recruits them.",
-      "publishedAt": "2026-08-21T17:57:31.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russia’s UN envoy denies reports of post-election mass mobilization",
-      "summaryUk": "More than 20,000 people crossed from Russia into Georgia in one day amid fears of a post-election draft. Ukraine says Russia is losing troops faster than it recruits them."
-    },
-    {
-      "id": "x-euromaidan-f49e69f78196",
-      "title": "Russian drone strike on Kryvyi Rih shopping center kills 15, injures 130. Second attack targeted rescue workers 30 minutes later",
-      "url": "https://euromaidanpress.com/2026/08/21/russian-drone-strike-on-kryvyi-rih-shopping-center/",
-      "summary": "The daytime drone attack set the shopping center on fire before a second wave struck emergency crews responding to the scene.",
-      "publishedAt": "2026-08-21T16:48:25.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russian drone strike on Kryvyi Rih shopping center kills 15, injures 130. Second attack targeted rescue workers 30 minutes later",
-      "summaryUk": "The daytime drone attack set the shopping center on fire before a second wave struck emergency crews responding to the scene."
     }
   ]
 }
