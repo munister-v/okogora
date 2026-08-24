@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:57:50.239Z",
+  "generatedAt": "2026-08-24T20:47:02.338Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,10 +98,42 @@
   ],
   "items": [
     {
+      "id": "x-pravda-84d84a27411f",
+      "title": "Прем’єр Британії під час візиту до Києва відвідав поранених українських військових",
+      "url": "https://www.pravda.com.ua/news/2026/08/24/8050146/",
+      "summary": "",
+      "publishedAt": "2026-08-24T19:27:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Прем’єр Британії під час візиту до Києва відвідав поранених українських військових",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-d008f703fc76",
+      "title": "Генштаб: 181 бій відбувся на фронті з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/08/24/8050145/",
+      "summary": "Від початку доби 24 серпня на фронті відбулось 181 бойове зіткнення.",
+      "publishedAt": "2026-08-24T19:06:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб: 181 бій відбувся на фронті з початку доби",
+      "summaryUk": "Від початку доби 24 серпня на фронті відбулось 181 бойове зіткнення."
+    },
+    {
       "id": "x-euromaidan-88f2098a967c",
-      "title": "Ukraine got independence as a gift in 1991. Now we pay in blood",
+      "title": "Ukraine escaped the empire in 1991. The empire struck back.",
       "url": "https://euromaidanpress.com/2026/08/24/ukraine-got-independence-as-a-gift-in-1991-now-we-pay-in-blood/",
-      "summary": "Colonial theory calls what Ukraine got in 1991 flag independence. No anti-colonial struggle was ever bloodless.",
+      "summary": "It took 22 years of Moscow holding the strings, and then an invasion, to make Ukrainians fight for the real thing.",
       "publishedAt": "2026-08-24T18:49:18.000Z",
       "author": "Euromaidan Press",
       "handle": "euromaidan",
@@ -110,8 +142,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Ukraine got independence as a gift in 1991. Now we pay in blood",
-      "summaryUk": "Colonial theory calls what Ukraine got in 1991 flag independence. No anti-colonial struggle was ever bloodless."
+      "titleUk": "Ukraine escaped the empire in 1991. The empire struck back.",
+      "summaryUk": "It took 22 years of Moscow holding the strings, and then an invasion, to make Ukrainians fight for the real thing."
     },
     {
       "id": "x-euromaidan-55ad052144ee",
@@ -530,22 +562,6 @@
       "summaryUk": "Про це повідомило Державне бюро розслідувань У межах спецоперації «Справедливість для бійців» працівники ДБР у взаємодії з Генеральним штабом ЗСУ..."
     },
     {
-      "id": "x-pravda-57a4d11cf1be",
-      "title": "Кошта розпочинає тур столицями ЄС: на порядку денному – допомога Україні",
-      "url": "https://www.pravda.com.ua/news/2026/08/24/8050107/",
-      "summary": "Президент Євроради Антоніу Кошта проводить тур європейськими столицями для підтримки України та обговорення майбутнього ЄС.",
-      "publishedAt": "2026-08-24T14:21:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Кошта розпочинає тур столицями ЄС: на порядку денному – допомога Україні",
-      "summaryUk": "Президент Євроради Антоніу Кошта проводить тур європейськими столицями для підтримки України та обговорення майбутнього ЄС."
-    },
-    {
       "id": "x-euromaidan-206446aff4b9",
       "title": "Russia’s biggest electronics chain delays seller payments as it expands online",
       "url": "https://euromaidanpress.com/2026/08/24/russia-mvideo-delays-seller-payments/",
@@ -576,22 +592,6 @@
       ],
       "titleUk": "EU approves $7.12 billion for Ukraine&#8217;s defense as Kyiv marks 35 years of independence",
       "summaryUk": "Patriot interceptor deliveries have fallen from 675 in 2023 to 364 last year, with 264 projected for 2026."
-    },
-    {
-      "id": "x-pravda-e4275567ee8d",
-      "title": "Мелоні напередодні зимового сезону обіцяє продовження гуманітарної допомоги Україні",
-      "url": "https://www.pravda.com.ua/news/2026/08/24/8050102/",
-      "summary": "",
-      "publishedAt": "2026-08-24T13:52:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Мелоні напередодні зимового сезону обіцяє продовження гуманітарної допомоги Україні",
-      "summaryUk": ""
     },
     {
       "id": "x-euromaidan-466fb9959f0a",
