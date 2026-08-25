@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:44:36.999Z",
+  "generatedAt": "2026-08-25T22:43:27.928Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-98b9867f43b4",
+      "title": "Ukraine starts checks: Five days later, deputy commander was charged for $15,600 in combat pay for combat that never happened",
+      "url": "https://euromaidanpress.com/2026/08/26/ukraine-starts-checks-five-days-later-deputy-commander-was-charged-for-15600-in-combat-pay-for-combat-that-never-happened/",
+      "summary": "The deputy battalion commander faces up to 12 years.",
+      "publishedAt": "2026-08-25T22:07:25.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine starts checks: Five days later, deputy commander was charged for $15,600 in combat pay for combat that never happened",
+      "summaryUk": "The deputy battalion commander faces up to 12 years."
+    },
+    {
+      "id": "x-pravda-35265e106d46",
+      "title": "Росіяни вдарили дроном по Харкову: спалахнула пожежа",
+      "url": "https://www.pravda.com.ua/news/2026/08/26/8050318/",
+      "summary": "Дронова атака РФ на Харків: у Основ'янському районі горить складська будівля, постраждалих немає.",
+      "publishedAt": "2026-08-25T21:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили дроном по Харкову: спалахнула пожежа",
+      "summaryUk": "Дронова атака РФ на Харків: у Основ'янському районі горить складська будівля, постраждалих немає."
+    },
+    {
+      "id": "x-euromaidan-88743aa571bd",
+      "title": "Ukrainian officers march in Toronto&#8217;s 105-year-old Warriors&#8217; Day Parade",
+      "url": "https://euromaidanpress.com/2026/08/26/ukrainian-officers-march-in-torontos-105-year-old-warriors-day-parade/",
+      "summary": "The Warriors' Day Parade marked its 105th edition at the Canadian National Exhibition.",
+      "publishedAt": "2026-08-25T21:38:09.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukrainian officers march in Toronto&#8217;s 105-year-old Warriors&#8217; Day Parade",
+      "summaryUk": "The Warriors' Day Parade marked its 105th edition at the Canadian National Exhibition."
+    },
+    {
+      "id": "x-pravda-1b1caf5110c9",
+      "title": "Зеленський присвоїв ранг надзвичайного і повноважного посла Стефанчуку",
+      "url": "https://www.pravda.com.ua/news/2026/08/25/8050314/",
+      "summary": "Президент України 25 серпня призначив ранг надзвичайного і повноважного посла голові Верховної ради України Руслану Стефанчуку.",
+      "publishedAt": "2026-08-25T20:41:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський присвоїв ранг надзвичайного і повноважного посла Стефанчуку",
+      "summaryUk": "Президент України 25 серпня призначив ранг надзвичайного і повноважного посла голові Верховної ради України Руслану Стефанчуку."
+    },
     {
       "id": "x-euromaidan-05cc90ce105c",
       "title": "Russo-Ukrainian war, day 1644: Ukraine strikes Russian refineries and depots",
@@ -514,38 +578,6 @@
       "summaryUk": "Про це повідомило Міністерство оборони України. Курс допоможе військовослужбовцям розібратися, у яких ситуаціях існує ризик інфікування, як його знизити та що робити, якщо контакт із кров’ю..."
     },
     {
-      "id": "x-pravda-ef224c16d7a2",
-      "title": "Axios: США попросили Україну не бити по Росії, поки там директор ЦРУ",
-      "url": "https://www.pravda.com.ua/news/2026/08/25/8050280/",
-      "summary": "Сполучені Штати Америки закликали Україну не завдавати ударів по Росії, поки в Москві з візитом перебуває директор ЦРУ Джон Реткліфф.",
-      "publishedAt": "2026-08-25T15:49:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Axios: США попросили Україну не бити по Росії, поки там директор ЦРУ",
-      "summaryUk": "Сполучені Штати Америки закликали Україну не завдавати ударів по Росії, поки в Москві з візитом перебуває директор ЦРУ Джон Реткліфф."
-    },
-    {
-      "id": "x-pravda-271142a7a527",
-      "title": "Інформаційна блокада на тимчасово окупованих територіях: з чим стикаються люди у 2026 році",
-      "url": "https://www.pravda.com.ua/columns/2026/08/25/8050056/",
-      "summary": "На ТОТ України окупанти блокують новини і месенджери. Як зберегти доступ до правди — поради від Громадського радіо.",
-      "publishedAt": "2026-08-25T15:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Інформаційна блокада на тимчасово окупованих територіях: з чим стикаються люди у 2026 році",
-      "summaryUk": "На ТОТ України окупанти блокують новини і месенджери. Як зберегти доступ до правди — поради від Громадського радіо."
-    },
-    {
       "id": "x-armyinform-0b5b34858789",
       "title": "«„Богдана“ зарекомендувала себе максимально яскраво»: артилерист пояснив переваги української гармати",
       "url": "https://armyinform.com.ua/2026/08/25/%c2%ab%e2%80%9ebogdana%e2%80%9c-zarekomenduvala-sebe-maksymalno-yaskravo%c2%bb-artyleryst-poyasnyv-perevagy-ukrayinskoyi-garmaty/",
@@ -944,38 +976,6 @@
       ],
       "titleUk": "&#8220;You wanted our land. You lost your refineries and your fleet.&#8221;—Ukraine&#8217;s anniversary message to Russia",
       "summaryUk": "Zelenskyy added that the country that wanted Ukraine off the map has written itself out of the world's future agenda."
-    },
-    {
-      "id": "x-euromaidan-f9e8175f4fb0",
-      "title": "Dagestan, Stavropol Krai, Adygea: Ukraine&#8217;s drones worked straight down the delivery map of Russia&#8217;s No. 2 online store",
-      "url": "https://euromaidanpress.com/2026/08/24/dagestan-stavropol-krai-adygea-ukraines-drones-worked-straight-down-the-delivery-map-of-russias-no-2-online-store/",
-      "summary": "Three storage hubs went up before dawn, and the biggest of them supplies customers across the entire North Caucasus.",
-      "publishedAt": "2026-08-24T08:48:00.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Dagestan, Stavropol Krai, Adygea: Ukraine&#8217;s drones worked straight down the delivery map of Russia&#8217;s No. 2 online store",
-      "summaryUk": "Three storage hubs went up before dawn, and the biggest of them supplies customers across the entire North Caucasus."
-    },
-    {
-      "id": "x-euromaidan-162499dc3b53",
-      "title": "Independence Day gift from inside Russian army: Partisans say soldier whose comrades were killed over extortion money destroyed truck resupplying Kostiantynivka front",
-      "url": "https://euromaidanpress.com/2026/08/24/independence-day-gift-from-inside-russian-army-partisans-say-soldier-whose-comrades-were-killed-over-extortion-money-destroyed-truck-resupplying-kostiantynivka-front/",
-      "summary": "Russian military KamAZ truck used to support the offensive toward Kostiantynivka was destroyed in Rostov Oblast.",
-      "publishedAt": "2026-08-24T07:34:07.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Independence Day gift from inside Russian army: Partisans say soldier whose comrades were killed over extortion money destroyed truck resupplying Kostiantynivka front",
-      "summaryUk": "Russian military KamAZ truck used to support the offensive toward Kostiantynivka was destroyed in Rostov Oblast."
     }
   ]
 }
