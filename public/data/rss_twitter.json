@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:58:08.919Z",
+  "generatedAt": "2026-08-26T20:01:36.771Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,52 +98,132 @@
   ],
   "items": [
     {
-      "id": "x-armyinform-9d2995f4b830",
-      "title": "російський автономний дрон із ШІ вперше вбив цивільних в Україні",
-      "url": "https://armyinform.com.ua/2026/08/26/rosijskyj-avtonomnyj-dron-iz-shi-vpershe-vbyv-czyvilnyh-v-ukrayini/",
-      "summary": "За матеріалами Книга катів українського народу розповідає: В Україні вперше задокументували випадок загибелі цивільних людей внаслідок удару російського безпілотника, керованого...",
-      "publishedAt": "2026-08-26T16:42:36.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
+      "id": "x-euromaidan-7b284e09e190",
+      "title": "Russia&#8217;s fleet is set to get 150 uncrewed vessels in 2026, and possibly 230. Sanctions are holding the build back",
+      "url": "https://euromaidanpress.com/2026/08/26/russias-fleet-is-set-to-get-150-uncrewed-vessels-in-2026-and-possibly-230-sanctions-are-holding-the-build-back/",
+      "summary": "Ukraine's naval drones drove Russia's Black Sea Fleet out of its main base.",
+      "publishedAt": "2026-08-26T19:48:21.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "російський автономний дрон із ШІ вперше вбив цивільних в Україні",
-      "summaryUk": "За матеріалами Книга катів українського народу розповідає: В Україні вперше задокументували випадок загибелі цивільних людей внаслідок удару російського безпілотника, керованого..."
+      "titleUk": "Russia&#8217;s fleet is set to get 150 uncrewed vessels in 2026, and possibly 230. Sanctions are holding the build back",
+      "summaryUk": "Ukraine's naval drones drove Russia's Black Sea Fleet out of its main base."
     },
     {
-      "id": "x-armyinform-49f43dd886ea",
-      "title": "Ворог вдарив по підприємству на Харківщині: троє людей постраждали, спалахнула пожежа",
-      "url": "https://armyinform.com.ua/2026/08/26/vorog-vdaryv-po-pidpryyemstvu-na-harkivshhyni-troye-lyudej-postrazhdaly-spalahnula-pozhezha/",
-      "summary": "Про це повідомили у Державній службі України з надзвичайних ситуацій. Вранці 26 серпня росіяни атакували безпілотником селище Рогань Харківського району. Влучання сталося на території цивільного підприємства....",
-      "publishedAt": "2026-08-26T16:20:19.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
+      "id": "x-euromaidan-22db4ed9878e",
+      "title": "Zvook covers Ukraine&#8217;s skies for under €50 million. Now, it has started testing hydrophones underwater",
+      "url": "https://euromaidanpress.com/2026/08/26/zvook-covers-ukraines-skies-for-under-e50-million-now-it-has-started-testing-hydrophones-underwater/",
+      "summary": "Zvook is currently focused on collecting data in real conditions, determining which objects can be reliably detected and classified.",
+      "publishedAt": "2026-08-26T19:35:38.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Ворог вдарив по підприємству на Харківщині: троє людей постраждали, спалахнула пожежа",
-      "summaryUk": "Про це повідомили у Державній службі України з надзвичайних ситуацій. Вранці 26 серпня росіяни атакували безпілотником селище Рогань Харківського району. Влучання сталося на території цивільного підприємства...."
+      "titleUk": "Zvook covers Ukraine&#8217;s skies for under €50 million. Now, it has started testing hydrophones underwater",
+      "summaryUk": "Zvook is currently focused on collecting data in real conditions, determining which objects can be reliably detected and classified."
     },
     {
-      "id": "x-armyinform-206ec8b6f448",
-      "title": "Війна стає дедалі дорожчою для російської провінції: 3,2 млрд рублів пішли вербувальникам",
-      "url": "https://armyinform.com.ua/2026/08/26/vijna-staye-dedali-dorozhchoyu-dlya-rosijskoyi-provincziyi-32-mlrd-rubliv-pishly-verbuvalnykam/",
-      "summary": "Про це повідомили у Службі зовнішньої розвідки України. Щоб підтримувати темпи набору військових, яких вимагає кремль, регіони рф змушені збільшувати виплати не лише контрактникам, а й тим,...",
-      "publishedAt": "2026-08-26T16:10:08.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
+      "id": "x-pravda-447e491d3617",
+      "title": "Генштаб повідомляє про 189 бойових зіткнень на фронті з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/08/26/8050475/",
+      "summary": "Від початку доби 26 серпня на фронті відбулось 189 бойових зіткнень, зокрема 14 — на Покровському напрямку.",
+      "publishedAt": "2026-08-26T19:24:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Війна стає дедалі дорожчою для російської провінції: 3,2 млрд рублів пішли вербувальникам",
-      "summaryUk": "Про це повідомили у Службі зовнішньої розвідки України. Щоб підтримувати темпи набору військових, яких вимагає кремль, регіони рф змушені збільшувати виплати не лише контрактникам, а й тим,..."
+      "titleUk": "Генштаб повідомляє про 189 бойових зіткнень на фронті з початку доби",
+      "summaryUk": "Від початку доби 26 серпня на фронті відбулось 189 бойових зіткнень, зокрема 14 — на Покровському напрямку."
+    },
+    {
+      "id": "x-euromaidan-17acd7dcabb7",
+      "title": "&#8220;This is smart war&#8221;: Ukraine is reinforcing two Donetsk groupings, as Russia pushes at fortress cities. Azov commanders will lead both",
+      "url": "https://euromaidanpress.com/2026/08/26/this-is-smart-war-ukraine-is-reinforcing-two-donetsk-groupings-as-russia-pushes-at-fortress-cities-azov-commanders-will-lead-both/",
+      "summary": "Putin has ordered his army to seize the entire territory of Donetsk and Luhansk oblasts by the end of this year.",
+      "publishedAt": "2026-08-26T18:59:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "&#8220;This is smart war&#8221;: Ukraine is reinforcing two Donetsk groupings, as Russia pushes at fortress cities. Azov commanders will lead both",
+      "summaryUk": "Putin has ordered his army to seize the entire territory of Donetsk and Luhansk oblasts by the end of this year."
+    },
+    {
+      "id": "x-pravda-b4a2c7ae01bb",
+      "title": "Внаслідок повені у Непалі вважаються зниклими безвісти 53 українця",
+      "url": "https://www.pravda.com.ua/news/2026/08/26/8050474/",
+      "summary": "Туристична поліція Непалу повідомляє, що внаслідок великої повені на кордоні Непалу та Тибету вважаються зниклими безвісти 53 громадянина України.",
+      "publishedAt": "2026-08-26T18:58:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Внаслідок повені у Непалі вважаються зниклими безвісти 53 українця",
+      "summaryUk": "Туристична поліція Непалу повідомляє, що внаслідок великої повені на кордоні Непалу та Тибету вважаються зниклими безвісти 53 громадянина України."
+    },
+    {
+      "id": "x-pravda-bd7b78582633",
+      "title": "Окупанти ввечері атакували Херсон: 4 поранених, серед них дитина",
+      "url": "https://www.pravda.com.ua/news/2026/08/26/8050470/",
+      "summary": "У Херсоні 26 серпня через російські удари дістали поранення 4 людей, серед яких 10-річна дитина.",
+      "publishedAt": "2026-08-26T18:38:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Окупанти ввечері атакували Херсон: 4 поранених, серед них дитина",
+      "summaryUk": "У Херсоні 26 серпня через російські удари дістали поранення 4 людей, серед яких 10-річна дитина."
+    },
+    {
+      "id": "x-euromaidan-c9a09d81606d",
+      "title": "Ukraine&#8217;s new commander-in-chief has been picking technical chiefs. Adviser who knows them says he is putting most competent people",
+      "url": "https://euromaidanpress.com/2026/08/26/ukraines-new-commander-in-chief-has-been-picking-technical-chiefs-adviser-who-knows-them-says-he-is-putting-most-competent-people/",
+      "summary": "Serhii Beskrestnov says he knows most of the army's technical specialists and rates the new appointments.",
+      "publishedAt": "2026-08-26T18:26:25.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s new commander-in-chief has been picking technical chiefs. Adviser who knows them says he is putting most competent people",
+      "summaryUk": "Serhii Beskrestnov says he knows most of the army's technical specialists and rates the new appointments."
+    },
+    {
+      "id": "x-pravda-7954e92ab254",
+      "title": "Росія готується посилити удари по Києву та інших регіонах України – Bloomberg",
+      "url": "https://www.pravda.com.ua/news/2026/08/26/8050458/",
+      "summary": "Росія готує нові удари балістичними ракетами по Україні – Bloomberg.",
+      "publishedAt": "2026-08-26T17:14:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія готується посилити удари по Києву та інших регіонах України – Bloomberg",
+      "summaryUk": "Росія готує нові удари балістичними ракетами по Україні – Bloomberg."
     },
     {
       "id": "x-pravda-27d958bd7aeb",
@@ -181,7 +261,7 @@
       "id": "x-pravda-2ca1937abf14",
       "title": "Смертельна повінь між Непалом і Тибетом: в МЗС є інформація про зниклих українців",
       "url": "https://www.pravda.com.ua/news/2026/08/26/8050450/",
-      "summary": "Міністерство закордонних справ України заперечує, що серед загиблих і постраждалих у повені на кордоні між Непалом і Тибетом є українці, втім із кількома зник зв'язок.",
+      "summary": "У Міністерства закордонних справ України немає інформації про загиблих і постраждалих українців у повені на кордоні між Непалом і Тибетом, втім із кількома зник зв'язок.",
       "publishedAt": "2026-08-26T15:43:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -191,7 +271,7 @@
         "UKRAINE"
       ],
       "titleUk": "Смертельна повінь між Непалом і Тибетом: в МЗС є інформація про зниклих українців",
-      "summaryUk": "Міністерство закордонних справ України заперечує, що серед загиблих і постраждалих у повені на кордоні між Непалом і Тибетом є українці, втім із кількома зник зв'язок."
+      "summaryUk": "У Міністерства закордонних справ України немає інформації про загиблих і постраждалих українців у повені на кордоні між Непалом і Тибетом, втім із кількома зник зв'язок."
     },
     {
       "id": "x-euromaidan-1560f1abd2cf",
@@ -210,22 +290,6 @@
       "summaryUk": "Project documents describe a freight platform with a ramp for unloading wheeled and tracked vehicles."
     },
     {
-      "id": "x-armyinform-761693d3be79",
-      "title": "Операція «Чебурашка»: робот-камікадзе 3-ї штурмової перетворив ворожий бліндаж на склеп",
-      "url": "https://armyinform.com.ua/2026/08/26/operacziya-cheburashka-robot-kamikadze-3-yi-shturmovoyi-peretvoryv-vorozhyj-blindazh-na-sklep/",
-      "summary": "Про це повідомили у 3-й окремій штурмовій бригаді. Бійці підрозділу NC13 відправили наземний робот-камікадзе просто до російської укріпленої позиції. Робот дістався бліндажа та здійснив підрив біля...",
-      "publishedAt": "2026-08-26T15:38:03.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Операція «Чебурашка»: робот-камікадзе 3-ї штурмової перетворив ворожий бліндаж на склеп",
-      "summaryUk": "Про це повідомили у 3-й окремій штурмовій бригаді. Бійці підрозділу NC13 відправили наземний робот-камікадзе просто до російської укріпленої позиції. Робот дістався бліндажа та здійснив підрив біля..."
-    },
-    {
       "id": "x-pravda-3e0e0b17b279",
       "title": "В Україні прогнозують дощі, грози і до +31°",
       "url": "https://www.pravda.com.ua/news/2026/08/26/8050446/",
@@ -240,22 +304,6 @@
       ],
       "titleUk": "В Україні прогнозують дощі, грози і до +31°",
       "summaryUk": "В Україні найближчими днями дощі, грози та тепла погода до +31°. Детальний прогноз по регіонах."
-    },
-    {
-      "id": "x-armyinform-922388f52599",
-      "title": "125 мм і «Ніж»: що відомо про «Булат» танкового батальйону 57-ї бригади",
-      "url": "https://armyinform.com.ua/2026/08/26/125-mm-i-nizh-shho-vidomo-pro-bulat-tankovogo-bataljonu-57-yi-brygady/",
-      "summary": "Про бойову машину розповіли у 57-й окремій мотопіхотній бригаді імені кошового отамана Костя Гордієнка. Т-64БМ «Булат» — українська модернізація радянського Т-64. Його головний аргумент на полі...",
-      "publishedAt": "2026-08-26T15:10:43.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "125 мм і «Ніж»: що відомо про «Булат» танкового батальйону 57-ї бригади",
-      "summaryUk": "Про бойову машину розповіли у 57-й окремій мотопіхотній бригаді імені кошового отамана Костя Гордієнка. Т-64БМ «Булат» — українська модернізація радянського Т-64. Його головний аргумент на полі..."
     },
     {
       "id": "x-euromaidan-03768fe8facb",
@@ -274,22 +322,6 @@
       "summaryUk": "Spain has repeatedly used administrative mechanisms to integrate large foreign populations into legal residence, employment and public systems. Its response to Ukrainians made that particularly visible because it happened rapidly and at significant scale. The 2026 regularization showed that the broader policy direction was not confined to Ukrainians"
     },
     {
-      "id": "x-armyinform-d10056d1e0d9",
-      "title": "Донеччину посилять 2 нові угрупування, росіян підірвали під землею, удар по Донецьку: стрім",
-      "url": "https://armyinform.com.ua/2026/08/26/donechchynu-posylyat-2-novi-ugrupuvannya-rosiyan-pidirvaly-pid-zemleyu-udar-po-doneczku-strim/",
-      "summary": "Підрозділи посилять українські позиції на Донеччині. Поховали росіян під землею. Бійці підрозділу NC13 Третьої штурмової відправили на позиції окупантів НРК з потужною...",
-      "publishedAt": "2026-08-26T14:54:31.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Донеччину посилять 2 нові угрупування, росіян підірвали під землею, удар по Донецьку: стрім",
-      "summaryUk": "Підрозділи посилять українські позиції на Донеччині. Поховали росіян під землею. Бійці підрозділу NC13 Третьої штурмової відправили на позиції окупантів НРК з потужною..."
-    },
-    {
       "id": "x-pravda-d9426dba35d6",
       "title": "Поляки назвали \"Волинську трагедію\" головною причиною погіршення ставлення до українців",
       "url": "https://www.pravda.com.ua/news/2026/08/26/8050444/",
@@ -304,38 +336,6 @@
       ],
       "titleUk": "Поляки назвали \"Волинську трагедію\" головною причиною погіршення ставлення до українців",
       "summaryUk": "45% поляків назвали Волинську трагедію головною причиною охолодження ставлення до українців."
-    },
-    {
-      "id": "x-armyinform-52ec7cd7e2b0",
-      "title": "НАТО тестує антидронову оборону з українським досвідом: що відпрацьовували в Латвії",
-      "url": "https://armyinform.com.ua/2026/08/26/nato-testuye-antydronovu-oboronu-z-ukrayinskym-dosvidom-shho-vidpraczovuvaly-v-latviyi/",
-      "summary": "Про це повідомили в Міністерстві оборони України. Навчання стали третім етапом експериментальної серії, спрямованої на перевірку та інтеграцію сучасних рішень для боротьби з...",
-      "publishedAt": "2026-08-26T14:50:18.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "НАТО тестує антидронову оборону з українським досвідом: що відпрацьовували в Латвії",
-      "summaryUk": "Про це повідомили в Міністерстві оборони України. Навчання стали третім етапом експериментальної серії, спрямованої на перевірку та інтеграцію сучасних рішень для боротьби з..."
-    },
-    {
-      "id": "x-armyinform-c2dd394335c4",
-      "title": "«Реальний стан справ на передовій»: Володимир Зеленський провів нараду з військовим командуванням",
-      "url": "https://armyinform.com.ua/2026/08/26/realnyj-stan-sprav-na-peredovij-volodymyr-zelenskyj-proviv-naradu-z-vijskovym-komanduvannyam/",
-      "summary": "Про це Президент України Володимир Зеленський повідомив після безпекової наради, присвяченої оборонним операціям на ключових напрямках. У нараді взяли участь Головнокомандувач ЗСУ Михайло Драпатий, командувач...",
-      "publishedAt": "2026-08-26T14:40:50.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Реальний стан справ на передовій»: Володимир Зеленський провів нараду з військовим командуванням",
-      "summaryUk": "Про це Президент України Володимир Зеленський повідомив після безпекової наради, присвяченої оборонним операціям на ключових напрямках. У нараді взяли участь Головнокомандувач ЗСУ Михайло Драпатий, командувач..."
     },
     {
       "id": "x-euromaidan-8c90e538c48d",
@@ -386,54 +386,6 @@
       "summaryUk": "Росіяни вдарили по бізнес-центру у Лозовій Харківської області: 10 поранених, пошкоджено багатоповерхівки."
     },
     {
-      "id": "x-pravda-a3442359822d",
-      "title": "Пункт пропуску на кордоні з Молдовою відновив роботу після атаки \"Шахедів\"",
-      "url": "https://www.pravda.com.ua/news/2026/08/26/8050431/",
-      "summary": "Міжнародний автомобільний пункт пропуску \"Виноградівка\" на Одещині на українсько-молдовському кордоні, відновив роботу та здійснює пропуск громадян і транспортних засобів.",
-      "publishedAt": "2026-08-26T14:05:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Пункт пропуску на кордоні з Молдовою відновив роботу після атаки \"Шахедів\"",
-      "summaryUk": "Міжнародний автомобільний пункт пропуску \"Виноградівка\" на Одещині на українсько-молдовському кордоні, відновив роботу та здійснює пропуск громадян і транспортних засобів."
-    },
-    {
-      "id": "x-pravda-035ca41e4f17",
-      "title": "Роботизація \"нуля\". Як технології допомагають зберегти головний дефіцит війни — людський капітал",
-      "url": "https://www.pravda.com.ua/columns/2026/08/26/8050059/",
-      "summary": "Як наземні роботизовані комплекси допомагають евакуації, логістиці та зберігають життя на сучасній війні.",
-      "publishedAt": "2026-08-26T14:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Роботизація \"нуля\". Як технології допомагають зберегти головний дефіцит війни — людський капітал",
-      "summaryUk": "Як наземні роботизовані комплекси допомагають евакуації, логістиці та зберігають життя на сучасній війні."
-    },
-    {
-      "id": "x-pravda-80f3224dbae2",
-      "title": "Взяв жительку Куп’янська в заручниці та погрожував убити: окупанта засудили до 10 років",
-      "url": "https://www.pravda.com.ua/news/2026/08/26/8050422/",
-      "summary": "Суд дав 10 років російському військовому за захоплення заручниці під час боїв за Куп'янськ у 2025 році.",
-      "publishedAt": "2026-08-26T13:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Взяв жительку Куп’янська в заручниці та погрожував убити: окупанта засудили до 10 років",
-      "summaryUk": "Суд дав 10 років російському військовому за захоплення заручниці під час боїв за Куп'янськ у 2025 році."
-    },
-    {
       "id": "x-euromaidan-6ec81534d00c",
       "title": "A warehouse built to hold up to 54 million items burned down in Tambov Oblast, Russia",
       "url": "https://euromaidanpress.com/2026/08/26/a-warehouse-built-to-hold-54-million-items-is-on-fire-in-tambov-oblast-russia/",
@@ -448,54 +400,6 @@
       ],
       "titleUk": "A warehouse built to hold up to 54 million items burned down in Tambov Oblast, Russia",
       "summaryUk": "It opened only last year as the central logistics point of Russia's largest online retailer and has now been hit by drones twice."
-    },
-    {
-      "id": "x-pravda-6ee908eb210d",
-      "title": "ЗМІ: Після звільнення Сирський вступив до докторантури і розмірковує над дисертацією",
-      "url": "https://www.pravda.com.ua/news/2026/08/26/8050420/",
-      "summary": "Колишній головком ЗСУ Сирський пройшов медогляд, лишається в армії та навчатиметься у докторантурі Нацуніверситету оборони.",
-      "publishedAt": "2026-08-26T13:11:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "ЗМІ: Після звільнення Сирський вступив до докторантури і розмірковує над дисертацією",
-      "summaryUk": "Колишній головком ЗСУ Сирський пройшов медогляд, лишається в армії та навчатиметься у докторантурі Нацуніверситету оборони."
-    },
-    {
-      "id": "x-pravda-ab97f13a0b0b",
-      "title": "Зеленський: Прокопенко і Білецький очолять два оновлені угруповання на Донеччині",
-      "url": "https://www.pravda.com.ua/news/2026/08/26/8050414/",
-      "summary": "Зеленський зміцнює оборону Донеччини: Прокопенко й Білецький очолили нові угруповання, ЗСУ готують кадрові рішення.",
-      "publishedAt": "2026-08-26T12:57:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Прокопенко і Білецький очолять два оновлені угруповання на Донеччині",
-      "summaryUk": "Зеленський зміцнює оборону Донеччини: Прокопенко й Білецький очолили нові угруповання, ЗСУ готують кадрові рішення."
-    },
-    {
-      "id": "x-pravda-8b53505bb98d",
-      "title": "У Білорусі будують залізницю для нового військового об’єкта: що кажуть про це у ДПСУ",
-      "url": "https://www.pravda.com.ua/news/2026/08/26/8050413/",
-      "summary": "У Гомельській області Білорусі зводять об'єкти для військових поїздів біля кордону з Україною. Українські прикордонники прокоментували.",
-      "publishedAt": "2026-08-26T12:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Білорусі будують залізницю для нового військового об’єкта: що кажуть про це у ДПСУ",
-      "summaryUk": "У Гомельській області Білорусі зводять об'єкти для військових поїздів біля кордону з Україною. Українські прикордонники прокоментували."
     },
     {
       "id": "x-euromaidan-81beefe1def1",
@@ -834,38 +738,6 @@
       "summaryUk": "Ukrainian investigators found an Nvidia Jetson Orin module inside the wreckage, unencrypted, with the object-recognition code still readable."
     },
     {
-      "id": "x-euromaidan-f9a7d82a95d7",
-      "title": "Ukraine&#8217;s secret counteroffensive takes the pressure off Sloviansk",
-      "url": "https://euromaidanpress.com/2026/08/25/lyman-attacks/",
-      "summary": "Under strict operational security, the Ukrainian 3rd Army Corps has been counterattacking north of Lyman. For months now.",
-      "publishedAt": "2026-08-25T11:51:51.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine&#8217;s secret counteroffensive takes the pressure off Sloviansk",
-      "summaryUk": "Under strict operational security, the Ukrainian 3rd Army Corps has been counterattacking north of Lyman. For months now."
-    },
-    {
-      "id": "x-euromaidan-d9084fce77ab",
-      "title": "582,000 children, 2,000 schools, no Ukrainian language: Russia sent occupied territories its first lesson – on &#8220;Unity of the Peoples of Russia&#8221;",
-      "url": "https://euromaidanpress.com/2026/08/25/582000-children-2000-schools-no-ukrainian-language-russia-sent-occupied-territories-its-first-lesson-on-unity-of-the-peoples-of-russia/",
-      "summary": "Ukrainian language was removed as a school subject entirely under federal standards on 15 December 2025.",
-      "publishedAt": "2026-08-25T11:49:13.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "582,000 children, 2,000 schools, no Ukrainian language: Russia sent occupied territories its first lesson – on &#8220;Unity of the Peoples of Russia&#8221;",
-      "summaryUk": "Ukrainian language was removed as a school subject entirely under federal standards on 15 December 2025."
-    },
-    {
       "id": "x-militarnyi-6d201888e42c",
       "title": "Захищено: THAAD: американський щит проти балістичних ракет",
       "url": "https://militarnyi.com/uk/thaad-amerykanskyj-shhyt-proty-balistychnyh-raket/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=thaad-amerykanskyj-shhyt-proty-balistychnyh-raket",
@@ -880,38 +752,6 @@
       ],
       "titleUk": "Захищено: THAAD: американський щит проти балістичних ракет",
       "summaryUk": "Уривка немає, тому що запис захищений."
-    },
-    {
-      "id": "x-euromaidan-49a31d98b3a9",
-      "title": "Chernivtsi Oblast commissions three mini power plants to keep heat on during blackouts",
-      "url": "https://euromaidanpress.com/2026/08/25/chernivtsi-commissions-three-cogeneration-units/",
-      "summary": "The 3.9 MW addition contrasts with a March finding that 41% of 137 tracked donor units remained uncommissioned.",
-      "publishedAt": "2026-08-25T10:28:40.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Chernivtsi Oblast commissions three mini power plants to keep heat on during blackouts",
-      "summaryUk": "The 3.9 MW addition contrasts with a March finding that 41% of 137 tracked donor units remained uncommissioned."
-    },
-    {
-      "id": "x-euromaidan-d3adbd829a2a",
-      "title": "About 50 grams of suspected military explosive lay in a German field 10 days after the attempt on Ukraine&#8217;s plane",
-      "url": "https://euromaidanpress.com/2026/08/25/about-50-grams-of-suspected-military-explosive-lay-in-a-german-field-10-days-after-the-attempt-on-ukraines-plane/",
-      "summary": "Germany's police worked the ground for two days before a first assessment identified the substance, and other leads had already taken officers to a village north of the runways.",
-      "publishedAt": "2026-08-25T09:18:18.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "About 50 grams of suspected military explosive lay in a German field 10 days after the attempt on Ukraine&#8217;s plane",
-      "summaryUk": "Germany's police worked the ground for two days before a first assessment identified the substance, and other leads had already taken officers to a village north of the runways."
     }
   ]
 }
