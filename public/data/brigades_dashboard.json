@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T23:23:24.228Z",
+  "generatedAt": "2026-08-30T05:30:07.433Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 55,
     "mentionItems": 1,
-    "significantItems": 41,
-    "strikeItems": 34,
+    "significantItems": 39,
+    "strikeItems": 32,
     "reorgItems": 8
   },
   "brigades": [
@@ -33,8 +33,8 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 1,
-      "significantItems": 21,
-      "strikeItems": 21,
+      "significantItems": 19,
+      "strikeItems": 19,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -56,11 +56,11 @@
           "summaryUk": "Повітряні сили ЗСУ: 29 серпня Росія здійснила масовану атаку безпілотниками, більшість атаковано Київ. Збито/пригнічено 199 БпЛА, є жертви та руйнування."
         },
         {
-          "id": "telegram-kpszsu-6e2096024b26ab",
-          "title": "🛵 БпЛА на сході Харківщини, курс на північ та на захід.",
-          "summary": "🛵 БпЛА на сході Харківщини, курс на північ та на захід.",
-          "url": "https://t.me/kpszsu/75329",
-          "publishedAt": "2026-08-29T23:18:34.000Z",
+          "id": "telegram-kpszsu-99ecce4f5e6140",
+          "title": "🛵 БпЛА на Запоріжжя з північного сходу.",
+          "summary": "🛵 БпЛА на Запоріжжя з північного сходу.",
+          "url": "https://t.me/kpszsu/75369",
+          "publishedAt": "2026-08-30T05:27:38.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -69,15 +69,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА на сході Харківщини, курс на північ та на захід.",
-          "summaryUk": "🛵 БпЛА на сході Харківщини, курс на північ та на захід."
+          "titleUk": "🛵 БпЛА на Запоріжжя з північного сходу.",
+          "summaryUk": "🛵 БпЛА на Запоріжжя з північного сходу."
         },
         {
-          "id": "telegram-kpszsu-b920ce6d696b3a",
-          "title": "🏍 Реактивний БпЛА в напрямку Миколаєва зі сходу.",
-          "summary": "🏍 Реактивний БпЛА в напрямку Миколаєва зі сходу.",
-          "url": "https://t.me/kpszsu/75328",
-          "publishedAt": "2026-08-29T23:15:29.000Z",
+          "id": "telegram-kpszsu-7b048fe5ecf139",
+          "title": "🏍 Реактивні БпЛА на Чернігівщині, повз Славутич курсом на південь.",
+          "summary": "🏍 Реактивні БпЛА на Чернігівщині, повз Славутич курсом на південь.",
+          "url": "https://t.me/kpszsu/75368",
+          "publishedAt": "2026-08-30T05:24:19.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -86,15 +86,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🏍 Реактивний БпЛА в напрямку Миколаєва зі сходу.",
-          "summaryUk": "🏍 Реактивний БпЛА в напрямку Миколаєва зі сходу."
+          "titleUk": "🏍 Реактивні БпЛА на Чернігівщині, повз Славутич курсом на південь.",
+          "summaryUk": "🏍 Реактивні БпЛА на Чернігівщині, повз Славутич курсом на південь."
         },
         {
-          "id": "telegram-kpszsu-4f67f7db6eaa3d",
-          "title": "🛵 БпЛА на Суми з півночі.",
-          "summary": "🛵 БпЛА на Суми з півночі.",
-          "url": "https://t.me/kpszsu/75327",
-          "publishedAt": "2026-08-29T23:04:57.000Z",
+          "id": "telegram-kpszsu-c935d185981659",
+          "title": "🏍 Реактивні БпЛА на Миколаївщину з півдня.",
+          "summary": "🏍 Реактивні БпЛА на Миколаївщину з півдня.",
+          "url": "https://t.me/kpszsu/75367",
+          "publishedAt": "2026-08-30T05:18:12.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -103,15 +103,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА на Суми з півночі.",
-          "summaryUk": "🛵 БпЛА на Суми з півночі."
+          "titleUk": "🏍 Реактивні БпЛА на Миколаївщину з півдня.",
+          "summaryUk": "🏍 Реактивні БпЛА на Миколаївщину з півдня."
         },
         {
-          "id": "telegram-kpszsu-c0af81eacaba6b",
-          "title": "🛵 БпЛА на Павлоград на Дніпропетровщині.",
-          "summary": "🛵 БпЛА на Павлоград на Дніпропетровщині.",
-          "url": "https://t.me/kpszsu/75326",
-          "publishedAt": "2026-08-29T23:04:25.000Z",
+          "id": "telegram-kpszsu-d922cf4bf2a3c0",
+          "title": "🏍 Реактивні БпЛА на півночі Чернігівщини.",
+          "summary": "🏍 Реактивні БпЛА на півночі Чернігівщини.",
+          "url": "https://t.me/kpszsu/75366",
+          "publishedAt": "2026-08-30T05:09:53.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -120,15 +120,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА на Павлоград на Дніпропетровщині.",
-          "summaryUk": "🛵 БпЛА на Павлоград на Дніпропетровщині."
+          "titleUk": "🏍 Реактивні БпЛА на півночі Чернігівщини.",
+          "summaryUk": "🏍 Реактивні БпЛА на півночі Чернігівщини."
         },
         {
-          "id": "telegram-kpszsu-39367e53f9e81c",
-          "title": "🛵 БпЛА на Запоріжжя зі сходу.",
-          "summary": "🛵 БпЛА на Запоріжжя зі сходу.",
-          "url": "https://t.me/kpszsu/75325",
-          "publishedAt": "2026-08-29T23:01:54.000Z",
+          "id": "telegram-kpszsu-67728c9109dffb",
+          "title": "🛵 БпЛА з акваторії Чорного моря курсом на південь Одещини.",
+          "summary": "🛵 БпЛА з акваторії Чорного моря курсом на південь Одещини.",
+          "url": "https://t.me/kpszsu/75365",
+          "publishedAt": "2026-08-30T04:55:13.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -137,15 +137,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА на Запоріжжя зі сходу.",
-          "summaryUk": "🛵 БпЛА на Запоріжжя зі сходу."
+          "titleUk": "🛵 БпЛА з акваторії Чорного моря курсом на південь Одещини.",
+          "summaryUk": "🛵 БпЛА з акваторії Чорного моря курсом на південь Одещини."
         },
         {
-          "id": "telegram-kpszsu-b4af9f410f2669",
-          "title": "🛵 БпЛА в напрямку Дніпра зі сходу. 🏍 Реактивний БпЛА на сході від Херсона, курс на Миколаїв. 🏍 Реактивний БпЛА на півдні від Запоріжжя, курс на захід.",
-          "summary": "🛵 БпЛА в напрямку Дніпра зі сходу. 🏍 Реактивний БпЛА на сході від Херсона, курс на Миколаїв. 🏍 Реактивний БпЛА на півдні від Запоріжжя, курс на захід.",
-          "url": "https://t.me/kpszsu/75324",
-          "publishedAt": "2026-08-29T22:54:34.000Z",
+          "id": "telegram-kpszsu-3e88d2972c620f",
+          "title": "🏍 Реактивний БпЛА в районі м. Запоріжжя.",
+          "summary": "🏍 Реактивний БпЛА в районі м. Запоріжжя.",
+          "url": "https://t.me/kpszsu/75364",
+          "publishedAt": "2026-08-30T04:45:48.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -154,15 +154,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА в напрямку Дніпра зі сходу. 🏍 Реактивний БпЛА на сході від Херсона, курс на Миколаїв. 🏍 Реактивний БпЛА на півдні від Запоріжжя, курс на захід.",
-          "summaryUk": "🛵 БпЛА в напрямку Дніпра зі сходу. 🏍 Реактивний БпЛА на сході від Херсона, курс на Миколаїв. 🏍 Реактивний БпЛА на півдні від Запоріжжя, курс на захід."
+          "titleUk": "🏍 Реактивний БпЛА в районі м. Запоріжжя.",
+          "summaryUk": "🏍 Реактивний БпЛА в районі м. Запоріжжя."
         },
         {
-          "id": "telegram-kpszsu-764d607eed9998",
-          "title": "🛵 БпЛА на Харків з півночі.",
-          "summary": "🛵 БпЛА на Харків з півночі.",
-          "url": "https://t.me/kpszsu/75323",
-          "publishedAt": "2026-08-29T22:42:01.000Z",
+          "id": "telegram-kpszsu-d208a0c090920d",
+          "title": "🏍 Реактивний БпЛА на Запоріжжя.",
+          "summary": "🏍 Реактивний БпЛА на Запоріжжя.",
+          "url": "https://t.me/kpszsu/75363",
+          "publishedAt": "2026-08-30T03:32:24.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -171,8 +171,8 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА на Харків з півночі.",
-          "summaryUk": "🛵 БпЛА на Харків з півночі."
+          "titleUk": "🏍 Реактивний БпЛА на Запоріжжя.",
+          "summaryUk": "🏍 Реактивний БпЛА на Запоріжжя."
         }
       ]
     },
