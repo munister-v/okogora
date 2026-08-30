@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T18:03:49.302Z",
+  "generatedAt": "2026-08-30T21:03:07.265Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,118 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-6167a1d1e09c",
+      "title": "Федоров пропонує США створити \"армію дронів\" в обмін на перехоплювачі до Patriot – FT",
+      "url": "https://www.pravda.com.ua/news/2026/08/30/8051082/",
+      "summary": "Михайло Федоров заявив про готовність допомогти США створити армію дронів в обмін на ракети-перехоплювачі для Patriot. Він також шукає підтримку фонду оборонних технологій.",
+      "publishedAt": "2026-08-30T20:39:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Федоров пропонує США створити \"армію дронів\" в обмін на перехоплювачі до Patriot – FT",
+      "summaryUk": "Михайло Федоров заявив про готовність допомогти США створити армію дронів в обмін на ракети-перехоплювачі для Patriot. Він також шукає підтримку фонду оборонних технологій."
+    },
+    {
+      "id": "x-euromaidan-4d14a651762d",
+      "title": "Russo-Ukrainian war, day 1649: Russia keeps Kyiv under fire for a fourth day as Ukraine tests new interceptors and strikes back at Russian oil",
+      "url": "https://euromaidanpress.com/2026/08/30/russo-ukrainian-war-day-1649/",
+      "summary": "Russia has launched nearly 2,000 attack drones and nearly 1,600 guided bombs at Ukraine this week, hitting Kyiv's civilian supply chains and a Kyiv Oblast book warehouse, while Ukraine tested new interceptors and struck Russia's second-largest oil refinery overnight.",
+      "publishedAt": "2026-08-30T20:16:10.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1649: Russia keeps Kyiv under fire for a fourth day as Ukraine tests new interceptors and strikes back at Russian oil",
+      "summaryUk": "Russia has launched nearly 2,000 attack drones and nearly 1,600 guided bombs at Ukraine this week, hitting Kyiv's civilian supply chains and a Kyiv Oblast book warehouse, while Ukraine tested new interceptors and struck Russia's second-largest oil refinery overnight."
+    },
+    {
+      "id": "x-euromaidan-542c59e3e0e0",
+      "title": "Ukraine is testing four new drone interceptors as Russia floods its skies with faster Gerans",
+      "url": "https://euromaidanpress.com/2026/08/30/ukraine-is-testing-four-new-drone-interceptors/",
+      "summary": "Kyiv is racing to scale new defenses after Russia used more than 2,500 jet-powered drones in August alone.",
+      "publishedAt": "2026-08-30T19:49:08.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine is testing four new drone interceptors as Russia floods its skies with faster Gerans",
+      "summaryUk": "Kyiv is racing to scale new defenses after Russia used more than 2,500 jet-powered drones in August alone."
+    },
+    {
+      "id": "x-pravda-a2d83743ddfc",
+      "title": "Найбільше ворожих атак зафіксовано на Покровському напрямку – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/08/30/8051077/",
+      "summary": "Покровський напрямок: 23 атаки противника, Костянтинівський – 20. Дані з вечірнього зведення Генерального штабу Збройних сил України.",
+      "publishedAt": "2026-08-30T19:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Найбільше ворожих атак зафіксовано на Покровському напрямку – Генштаб",
+      "summaryUk": "Покровський напрямок: 23 атаки противника, Костянтинівський – 20. Дані з вечірнього зведення Генерального штабу Збройних сил України."
+    },
+    {
+      "id": "x-pravda-083a0d1bbe49",
+      "title": "Рішення для роботи транспорту та логістики під час тривог представлять у понеділок – міністр",
+      "url": "https://www.pravda.com.ua/news/2026/08/30/8051072/",
+      "summary": "Микола Калашник анонсував зміни роботи вокзалів, поїздів і комендантської години для підвищення безпеки та стабільності логістики під час загроз.",
+      "publishedAt": "2026-08-30T19:13:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Рішення для роботи транспорту та логістики під час тривог представлять у понеділок – міністр",
+      "summaryUk": "Микола Калашник анонсував зміни роботи вокзалів, поїздів і комендантської години для підвищення безпеки та стабільності логістики під час загроз."
+    },
+    {
+      "id": "x-pravda-ad33f35beafe",
+      "title": "У Херсоні та області через атаки РФ постраждали 12 людей",
+      "url": "https://www.pravda.com.ua/news/2026/08/30/8051071/",
+      "summary": "Російські сили 30 серпня обстріляли Херсон і Новорайське з авіації, артилерії та дронів. Пошкоджено будівлі й транспорт.",
+      "publishedAt": "2026-08-30T18:43:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Херсоні та області через атаки РФ постраждали 12 людей",
+      "summaryUk": "Російські сили 30 серпня обстріляли Херсон і Новорайське з авіації, артилерії та дронів. Пошкоджено будівлі й транспорт."
+    },
+    {
+      "id": "x-pravda-e10a4311cc2d",
+      "title": "Росіяни вдарили по виробництву PepsiCo на Миколаївщині",
+      "url": "https://www.pravda.com.ua/news/2026/08/30/8051069/",
+      "summary": "Компанія PepsiCo заявила про пошкодження свого виробництва у Миколаївській області 29 серпня, внаслідок атаки ніхто не постраждав.",
+      "publishedAt": "2026-08-30T17:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили по виробництву PepsiCo на Миколаївщині",
+      "summaryUk": "Компанія PepsiCo заявила про пошкодження свого виробництва у Миколаївській області 29 серпня, внаслідок атаки ніхто не постраждав."
+    },
     {
       "id": "x-pravda-c99b4b0ba851",
       "title": "У Литві підозрюють провокацію РФ після появи траурних вінків біля оборонної компанії",
@@ -434,22 +546,6 @@
       "summaryUk": "30 серпня Київ зазнав атаки російських БпЛА: двоє постраждалих, пошкоджено будівлі у трьох районах, триває восьма повітряна тривога."
     },
     {
-      "id": "x-pravda-e8677196546a",
-      "title": "Хмара: В Україні вже є 4 потенційні перехоплювачі реактивних \"Шахедів\"",
-      "url": "https://www.pravda.com.ua/news/2026/08/30/8051045/",
-      "summary": "Міністр оборони Євгеній Хмара повідомив про завершення польових випробувань чотирьох систем для збиття російських реактивних дронів Shahed.",
-      "publishedAt": "2026-08-30T12:57:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Хмара: В Україні вже є 4 потенційні перехоплювачі реактивних \"Шахедів\"",
-      "summaryUk": "Міністр оборони Євгеній Хмара повідомив про завершення польових випробувань чотирьох систем для збиття російських реактивних дронів Shahed."
-    },
-    {
       "id": "x-armyinform-69bc2830715c",
       "title": "Російські маркетплейси Ozon і Wildberries забирають у продавців майже половину виручки — СЗР",
       "url": "https://armyinform.com.ua/2026/08/30/rosijski-marketplejsy-ozon-i-wildberries-zabyrayut-u-prodavcziv-majzhe-polovynu-vyruchky-szr/",
@@ -480,22 +576,6 @@
       ],
       "titleUk": "Four days of Russian attacks keep Kyiv under near-constant fire. Ukraine is struggling to defend its skies",
       "summaryUk": "Russia has launched nearly 2,000 attack drones, more than 1,600 guided bombs and 31 missiles against Ukraine this week, while Kyiv faces repeated strikes and a shortage of critical air defense interceptors."
-    },
-    {
-      "id": "x-pravda-0277b94d269f",
-      "title": "Хмара: Пропонував Федорову спільно продовжити роботу над проєктами",
-      "url": "https://www.pravda.com.ua/news/2026/08/30/8051033/",
-      "summary": "Міністр оборони Євгеній Хмара заявив, що пропонував колишньому очільнику відомства Михайлу Федорову знайти формат для продовження спільної роботи над проєктами, однак конкретної посади не пропонував і відповіді не отримав.",
-      "publishedAt": "2026-08-30T11:52:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Хмара: Пропонував Федорову спільно продовжити роботу над проєктами",
-      "summaryUk": "Міністр оборони Євгеній Хмара заявив, що пропонував колишньому очільнику відомства Михайлу Федорову знайти формат для продовження спільної роботи над проєктами, однак конкретної посади не пропонував і відповіді не отримав."
     },
     {
       "id": "x-euromaidan-a0bb52cdd9b8",
@@ -880,38 +960,6 @@
       ],
       "titleUk": "Kyiv has been under attack for 2 days nonstop. Russia is targeting the capital’s civilian supply chains",
       "summaryUk": "Russian jet-powered drones have repeatedly struck warehouses, businesses and logistics facilities around the capital, disrupting supplies while rescuers work under threat of further attacks."
-    },
-    {
-      "id": "x-euromaidan-0e6e51c04790",
-      "title": "Russians bought $300 million in body armor, thermal sights, and drone parts on Ozon marketplace Ukraine is bombing",
-      "url": "https://euromaidanpress.com/2026/08/28/russians-bought-300-million-in-body-armor-thermal-sights-and-drone-parts-on-ozon-marketplace-ukraine-is-bombing/",
-      "summary": "Russians bought 157,700 body armor vests there.",
-      "publishedAt": "2026-08-28T14:29:44.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russians bought $300 million in body armor, thermal sights, and drone parts on Ozon marketplace Ukraine is bombing",
-      "summaryUk": "Russians bought 157,700 body armor vests there."
-    },
-    {
-      "id": "x-euromaidan-c5b8b20ef0c0",
-      "title": "Poland kept selling itself as Kyiv&#8217;s gateway to Europe—Ukraine stopped needing one, Polish journalist argues",
-      "url": "https://euromaidanpress.com/2026/08/28/poland-kept-selling-itself-as-kyivs-gateway-to-europe-ukraine-stopped-needing-one-polish-journalist-argues/",
-      "summary": "Russian disinformation moved into the gap the two governments left, hardening a rupture neither of them prepared for, he wrote.",
-      "publishedAt": "2026-08-28T14:15:35.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Poland kept selling itself as Kyiv&#8217;s gateway to Europe—Ukraine stopped needing one, Polish journalist argues",
-      "summaryUk": "Russian disinformation moved into the gap the two governments left, hardening a rupture neither of them prepared for, he wrote."
     },
     {
       "id": "x-militarnyi-8861932adbb5",
