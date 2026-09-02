@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T21:00:48.143Z",
+  "generatedAt": "2026-09-02T00:11:48.745Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,70 @@
   ],
   "items": [
     {
+      "id": "x-pravda-213b78132b6b",
+      "title": "Росіяни зруйнували два таунхауси у Вишневому на Київщині",
+      "url": "https://www.pravda.com.ua/news/2026/09/02/8051434/",
+      "summary": "У Вишневому Київської області дрон РФ зруйнував два таунхауси, виникла пожежа, яку ліквідували.",
+      "publishedAt": "2026-09-01T22:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни зруйнували два таунхауси у Вишневому на Київщині",
+      "summaryUk": "У Вишневому Київської області дрон РФ зруйнував два таунхауси, виникла пожежа, яку ліквідували."
+    },
+    {
+      "id": "x-pravda-7ae90a34ffb3",
+      "title": "Путін розповів, чи буде в РФ нова хвиля мобілізації",
+      "url": "https://www.pravda.com.ua/news/2026/09/02/8051433/",
+      "summary": "Володимир Путін спростував інформацію про масштабну мобілізацію в Росії після виборів.",
+      "publishedAt": "2026-09-01T22:27:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Путін розповів, чи буде в РФ нова хвиля мобілізації",
+      "summaryUk": "Володимир Путін спростував інформацію про масштабну мобілізацію в Росії після виборів."
+    },
+    {
+      "id": "x-euromaidan-efc1242f5b77",
+      "title": "Russo-Ukrainian war, day 1651: Russia&#8217;s sixth day of attacks on Kyiv ends with massive ballistic missile strike on eve of school year",
+      "url": "https://euromaidanpress.com/2026/09/02/russo-ukrainian-war-day-1651/",
+      "summary": "Three children were among the injured in Kyiv, and Russian air attacks interrupted lessons on the first day of school across Ukraine.",
+      "publishedAt": "2026-09-01T21:44:23.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1651: Russia&#8217;s sixth day of attacks on Kyiv ends with massive ballistic missile strike on eve of school year",
+      "summaryUk": "Three children were among the injured in Kyiv, and Russian air attacks interrupted lessons on the first day of school across Ukraine."
+    },
+    {
+      "id": "x-pravda-1fcc9a6de6ca",
+      "title": "Путін заявив, що дрони є головним викликом для російської армії",
+      "url": "https://www.pravda.com.ua/news/2026/09/02/8051431/",
+      "summary": "Володимир Путін заявив, що безпілотники у всіх середовищах є серйозним викликом для російської армії.",
+      "publishedAt": "2026-09-01T21:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Путін заявив, що дрони є головним викликом для російської армії",
+      "summaryUk": "Володимир Путін заявив, що безпілотники у всіх середовищах є серйозним викликом для російської армії."
+    },
+    {
       "id": "x-pravda-71f1ae4647f7",
       "title": "Путін віддав наказ своїм військам бити по українській енергетиці",
       "url": "https://www.pravda.com.ua/news/2026/09/01/8051429/",
@@ -165,7 +229,7 @@
       "id": "x-pravda-31d78df1ab09",
       "title": "У Броварському районі на Київщині поранена жінка через російський удар БпЛА",
       "url": "https://www.pravda.com.ua/news/2026/09/01/8051424/",
-      "summary": "Російські війська шосту добу атакують Київщині реактивними БпЛА: є влучання, поранена жінка.",
+      "summary": "Російські війська шосту добу атакують Київщину реактивними БпЛА: є влучання, поранена жінка.",
       "publishedAt": "2026-09-01T20:10:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -175,7 +239,7 @@
         "UKRAINE"
       ],
       "titleUk": "У Броварському районі на Київщині поранена жінка через російський удар БпЛА",
-      "summaryUk": "Російські війська шосту добу атакують Київщині реактивними БпЛА: є влучання, поранена жінка."
+      "summaryUk": "Російські війська шосту добу атакують Київщину реактивними БпЛА: є влучання, поранена жінка."
     },
     {
       "id": "x-euromaidan-e3804e317bea",
@@ -530,38 +594,6 @@
       "summaryUk": "Про це повідомив начальник Запорізької обласної військової адміністрації Іван Федоров. Внаслідок удару автомобіль загорівся, За попередньою інформацією, обійшлося без постраждалих. &#160; &#160;"
     },
     {
-      "id": "x-pravda-5d190be1df40",
-      "title": "Німеччина заявила, що РФ винна у гібридній атаці з дроном в аеропорту Лейпцига",
-      "url": "https://www.pravda.com.ua/news/2026/09/01/8051394/",
-      "summary": "Міністр внутрішніх справ Німеччини Александр Добріндт заявив, що Росія несе відповідальність за інцидент із дроном з вибухівкою поблизу українського вантажного літака в аеропорту \"Лейпциг/Галле\" минулого місяця.",
-      "publishedAt": "2026-09-01T16:16:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Німеччина заявила, що РФ винна у гібридній атаці з дроном в аеропорту Лейпцига",
-      "summaryUk": "Міністр внутрішніх справ Німеччини Александр Добріндт заявив, що Росія несе відповідальність за інцидент із дроном з вибухівкою поблизу українського вантажного літака в аеропорту \"Лейпциг/Галле\" минулого місяця."
-    },
-    {
-      "id": "x-pravda-d693f1754d7a",
-      "title": "Журналісти записали відео з запитаннями до Зеленського, які не можуть задати через відсутність пресконференцій",
-      "url": "https://www.pravda.com.ua/news/2026/09/01/8051390/",
-      "summary": "Українські журналісти через відео на YouTube-каналі MokRec звернулися з питаннями до Володимира Зеленського, який півтора роки не проводить відкритих пресконференцій.",
-      "publishedAt": "2026-09-01T16:15:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Журналісти записали відео з запитаннями до Зеленського, які не можуть задати через відсутність пресконференцій",
-      "summaryUk": "Українські журналісти через відео на YouTube-каналі MokRec звернулися з питаннями до Володимира Зеленського, який півтора роки не проводить відкритих пресконференцій."
-    },
-    {
       "id": "x-armyinform-16e7754780ca",
       "title": "Понад 70 реактивних БПЛА за день: ППО збила більшість цілей, атака триває",
       "url": "https://armyinform.com.ua/2026/09/01/ponad-70-reaktyvnyh-bpla-za-den-ppo-zbyla-bilshist-czilej-ataka-tryvaye/",
@@ -592,22 +624,6 @@
       ],
       "titleUk": "Russian air attack interrupts lessons on first day of school in Ukraine",
       "summaryUk": "Around 240,000 Ukrainian children entered first grade, 10% fewer than last year. 200,000 students near the front will study entirely online."
-    },
-    {
-      "id": "x-pravda-404bde63e038",
-      "title": "Морська освіта України: кого і для чого ми готуємо?",
-      "url": "https://www.pravda.com.ua/columns/2026/09/01/8051350/",
-      "summary": "Україна потребує нової моделі підготовки військових моряків для посилення ВМС. Висвітлено конфлікт пріоритетів держави та виклики морської освіти.",
-      "publishedAt": "2026-09-01T16:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Морська освіта України: кого і для чого ми готуємо?",
-      "summaryUk": "Україна потребує нової моделі підготовки військових моряків для посилення ВМС. Висвітлено конфлікт пріоритетів держави та виклики морської освіти."
     },
     {
       "id": "x-armyinform-149dc1a7f22f",
@@ -960,22 +976,6 @@
       ],
       "titleUk": "The US built itself a Russo-Ukrainian drone-war drill—Poland is the first ally in",
       "summaryUk": "A Green Beret officer expects most of NATO's 32 members to want a look, as Ukraine's war experience reshapes how the alliance trains."
-    },
-    {
-      "id": "x-euromaidan-ccc4eb12415f",
-      "title": "Russia&#8217;s shadow war on Europe is widening—NATO still sees no attack coming",
-      "url": "https://euromaidanpress.com/2026/08/31/russias-shadow-war-on-europe-is-widening-nato-still-sees-no-attack-coming/",
-      "summary": "A Polish warning, a US spy chief's Moscow trip, and an explosive drone found beside a cargo plane at a German airport all preceded the alliance's assessment.",
-      "publishedAt": "2026-08-31T08:31:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russia&#8217;s shadow war on Europe is widening—NATO still sees no attack coming",
-      "summaryUk": "A Polish warning, a US spy chief's Moscow trip, and an explosive drone found beside a cargo plane at a German airport all preceded the alliance's assessment."
     }
   ]
 }
