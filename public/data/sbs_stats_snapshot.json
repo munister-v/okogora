@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-03T14:29:32.070Z",
+  "generatedAt": "2026-09-03T18:34:48.482Z",
   "sourceUrl": "https://foosint.github.io/sbs-stats/",
   "dbUrl": "https://raw.githubusercontent.com/foosint/sbs-stats/main/data/sbs.db",
   "latestDate": "2026-09-03",
-  "latestHour": 17,
-  "collectedAt": "2026-09-03T14:27:17.302Z",
+  "latestHour": 21,
+  "collectedAt": "2026-09-03T18:27:15.499Z",
   "summary": {
-    "personnelKilled": 143,
-    "personnelWounded": 179,
-    "personnelCasualties": 322,
-    "targetsHit": 1514,
-    "targetsDestroyed": 569
+    "personnelKilled": 185,
+    "personnelWounded": 217,
+    "personnelCasualties": 402,
+    "targetsHit": 1906,
+    "targetsDestroyed": 767
   },
   "categories": [
     {
       "id": 25,
       "label": "Крила противника",
-      "hit": 221,
-      "destroyed": 212
+      "hit": 318,
+      "destroyed": 305
     },
     {
       "id": 21,
       "label": "Укриття",
-      "hit": 357,
-      "destroyed": 15
-    },
-    {
-      "id": 7,
-      "label": "Легка / важка техніка",
-      "hit": 116,
-      "destroyed": 27
+      "hit": 437,
+      "destroyed": 22
     },
     {
       "id": 22,
       "label": "Бліндажі",
-      "hit": 132,
+      "hit": 165,
       "destroyed": 3
+    },
+    {
+      "id": 7,
+      "label": "Легка / важка техніка",
+      "hit": 133,
+      "destroyed": 34
     },
     {
       "id": 18,
       "label": "Мотоцикли / багі",
-      "hit": 57,
-      "destroyed": 22
+      "hit": 60,
+      "destroyed": 24
     },
     {
       "id": 31,
@@ -77,10 +77,10 @@
   "daily": [
     {
       "date": "2026-09-03",
-      "hour": 17,
-      "targetsHit": 1514,
-      "targetsDestroyed": 569,
-      "personnelCasualties": 322
+      "hour": 21,
+      "targetsHit": 1906,
+      "targetsDestroyed": 767,
+      "personnelCasualties": 402
     },
     {
       "date": "2026-09-02",
