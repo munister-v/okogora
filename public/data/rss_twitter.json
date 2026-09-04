@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:19:58.024Z",
+  "generatedAt": "2026-09-04T20:44:25.583Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,198 @@
   ],
   "items": [
     {
+      "id": "x-pravda-db947401ad34",
+      "title": "Підрозділи Сил оборони отримали наказ про тимчасове дотримання режиму тиші на фронті – джерела",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051977/",
+      "summary": "Підрозділи Сил оборони отримали наказ дотримуватись режиму тиші на лінії бойового зіткнення з 00:00 5 вересня до 23:59 8 вересня.",
+      "publishedAt": "2026-09-04T20:17:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Підрозділи Сил оборони отримали наказ про тимчасове дотримання режиму тиші на фронті – джерела",
+      "summaryUk": "Підрозділи Сил оборони отримали наказ дотримуватись режиму тиші на лінії бойового зіткнення з 00:00 5 вересня до 23:59 8 вересня."
+    },
+    {
+      "id": "x-pravda-47abb9d1eb8a",
+      "title": "РФ атакувала ТЦ в Миколаєві: постраждала 17-річна дівчина",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051976/",
+      "summary": "Російські війська 4 вересня атакували безпілотниками торгівельний центр у Миколаєві, постраждала 17-річна дівчина.",
+      "publishedAt": "2026-09-04T20:03:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ атакувала ТЦ в Миколаєві: постраждала 17-річна дівчина",
+      "summaryUk": "Російські війська 4 вересня атакували безпілотниками торгівельний центр у Миколаєві, постраждала 17-річна дівчина."
+    },
+    {
+      "id": "x-euromaidan-158b03a5060a",
+      "title": "After years of disputes, Hungary finds common ground with Ukraine—on honoring Soviet deportations from Zakarpattia",
+      "url": "https://euromaidanpress.com/2026/09/04/ukraine-hungary-soviet-crimes-zakarpattia/",
+      "summary": "A Rada resolution honors thousands who died in a Soviet deportation campaign targeting Hungarian- and German-speaking Zakarpattia residents.",
+      "publishedAt": "2026-09-04T19:53:48.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "After years of disputes, Hungary finds common ground with Ukraine—on honoring Soviet deportations from Zakarpattia",
+      "summaryUk": "A Rada resolution honors thousands who died in a Soviet deportation campaign targeting Hungarian- and German-speaking Zakarpattia residents."
+    },
+    {
+      "id": "x-pravda-de7aeefaa703",
+      "title": "Трамп каже, що його перемовники везуть в Москву і Київ \"пропозицію щодо завершення війни\"",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051972/",
+      "summary": "Президент США Дональд Трамп прокоментував майбутні візити його спецпредставників Стіва Віткоффа та Джареда Кушнера до Москви та Києва.",
+      "publishedAt": "2026-09-04T19:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Трамп каже, що його перемовники везуть в Москву і Київ \"пропозицію щодо завершення війни\"",
+      "summaryUk": "Президент США Дональд Трамп прокоментував майбутні візити його спецпредставників Стіва Віткоффа та Джареда Кушнера до Москви та Києва."
+    },
+    {
+      "id": "x-pravda-2202eb58f410",
+      "title": "Джерела: Обшуки тривають в генпрокурора, його заступниці та в голови Одеської ОВА",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051970/",
+      "summary": "За даними джерел \"Української правди\", НАБУ та САП проводять обшуки в генерального прокурора Руслана Кравченка, його заступниці Марії Вдовиченко та в голови Одеської ОВА Олега Кіпера.",
+      "publishedAt": "2026-09-04T18:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Джерела: Обшуки тривають в генпрокурора, його заступниці та в голови Одеської ОВА",
+      "summaryUk": "За даними джерел \"Української правди\", НАБУ та САП проводять обшуки в генерального прокурора Руслана Кравченка, його заступниці Марії Вдовиченко та в голови Одеської ОВА Олега Кіпера."
+    },
+    {
+      "id": "x-pravda-c2a6688b18bc",
+      "title": "ЗМІ: Адміністрація Трампа готує нову стратегію для Близького Сходу після війни з Іраном",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051969/",
+      "summary": "Адміністрація американського президента Дональда Трампа працює над післявоєнною стратегією, орієнтованою на регіональні зусилля щодо стримування Ірану та розширення нормалізації відносин між Ізраїлем та його сусідами.",
+      "publishedAt": "2026-09-04T18:40:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ЗМІ: Адміністрація Трампа готує нову стратегію для Близького Сходу після війни з Іраном",
+      "summaryUk": "Адміністрація американського президента Дональда Трампа працює над післявоєнною стратегією, орієнтованою на регіональні зусилля щодо стримування Ірану та розширення нормалізації відносин між Ізраїлем та його сусідами."
+    },
+    {
+      "id": "x-euromaidan-7077901129f4",
+      "title": "Ukraine’s anti-corruption agencies target Prosecutor General’s Office official linked to fraudulent call centers",
+      "url": "https://euromaidanpress.com/2026/09/04/ukraines-anti-corruption-agencies-target-prosecutor-generals-office-official/",
+      "summary": "The operation targets an alleged criminal organization linked to a network of fraudulent call centers and asset laundering.",
+      "publishedAt": "2026-09-04T18:19:34.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine’s anti-corruption agencies target Prosecutor General’s Office official linked to fraudulent call centers",
+      "summaryUk": "The operation targets an alleged criminal organization linked to a network of fraudulent call centers and asset laundering."
+    },
+    {
+      "id": "x-pravda-2a81739b77b1",
+      "title": "Полтавщину атакував російський БпЛА: постраждала трирічна дівчинка",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051966/",
+      "summary": "Російські війська 4 вересня атакували Кременчуцький район на Полтавщині безпілотником: трирічна двчинка отримала травми.",
+      "publishedAt": "2026-09-04T18:16:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Полтавщину атакував російський БпЛА: постраждала трирічна дівчинка",
+      "summaryUk": "Російські війська 4 вересня атакували Кременчуцький район на Полтавщині безпілотником: трирічна двчинка отримала травми."
+    },
+    {
+      "id": "x-euromaidan-058abe3ed291",
+      "title": "Ukraine adopts two-tier air raid alert system as Russia&#8217;s mass drone attacks become the new normal",
+      "url": "https://euromaidanpress.com/2026/09/04/ukraine-adopts-two-tier-air-raid-alert-system-as-russias-mass-drone-attacks-become-the-new-normal/",
+      "summary": "The new system will distinguish drone threats from the heightened threat of missile or combined strikes, changing how businesses and cities respond to air raids.",
+      "publishedAt": "2026-09-04T17:53:24.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine adopts two-tier air raid alert system as Russia&#8217;s mass drone attacks become the new normal",
+      "summaryUk": "The new system will distinguish drone threats from the heightened threat of missile or combined strikes, changing how businesses and cities respond to air raids."
+    },
+    {
+      "id": "x-pravda-a6a6646edf60",
+      "title": "У Швеції скандал через співробітницю правопопулістів: поширювала проросійські наративи",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051963/",
+      "summary": "",
+      "publishedAt": "2026-09-04T17:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Швеції скандал через співробітницю правопопулістів: поширювала проросійські наративи",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-f329035fcea2",
+      "title": "Witkoff and Kushner to visit Kyiv and Moscow to revive peace talks as Russia ramps up attacks across Ukraine",
+      "url": "https://euromaidanpress.com/2026/09/04/witkoff-and-kushner-to-visit-kyiv-and-moscow/",
+      "summary": "The US envoys will meet Russian and Ukrainian leaders as Washington attempts to put peace talks back on track.",
+      "publishedAt": "2026-09-04T17:23:18.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Witkoff and Kushner to visit Kyiv and Moscow to revive peace talks as Russia ramps up attacks across Ukraine",
+      "summaryUk": "The US envoys will meet Russian and Ukrainian leaders as Washington attempts to put peace talks back on track."
+    },
+    {
+      "id": "x-pravda-aff583c12678",
+      "title": "Зеленський: Від нас не буде повітряних ударів під час візитів Віткоффа і Кушнера, Росія має зробити те саме",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051950/",
+      "summary": "Стів Віткофф і Джаред Кушнер відвідають Київ і Москву для переговорів щодо припинення війни. Україна забезпечить безпеку повітряного простору.",
+      "publishedAt": "2026-09-04T16:15:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський: Від нас не буде повітряних ударів під час візитів Віткоффа і Кушнера, Росія має зробити те саме",
+      "summaryUk": "Стів Віткофф і Джаред Кушнер відвідають Київ і Москву для переговорів щодо припинення війни. Україна забезпечить безпеку повітряного простору."
+    },
+    {
       "id": "x-pravda-fc5c5f3f2d47",
       "title": "\"Флеш\": \"Шахед\", який влетів у СБУ, міг керуватися через ретранслятор в радіусі 5 км",
       "url": "https://www.pravda.com.ua/news/2026/09/04/8051949/",
@@ -114,22 +306,6 @@
       "summaryUk": "Позаштатний радник президента Сергій \"Флеш\" Бескрестнов вважає, що БпЛА, який 4 вересня влетів у будівлю СБУ в центрі Києва наводився через ретранслятор, який російський агент увімкнув в радіусі 5 км."
     },
     {
-      "id": "x-armyinform-dabb1581d26c",
-      "title": "«Якби не загроза загинути і те, що не миєшся довго, то воно в принципі непогано» — колишній бармен керує дроном",
-      "url": "https://armyinform.com.ua/2026/09/04/yakby-ne-zagroza-zagynuty-i-te-shho-ne-myyeshsya-dovgo-to-vono-v-prynczypi-nepogano-kolyshnij-barmen-keruye-dronom/",
-      "summary": "Розмова з бійцем була оприлюднена на каналі бригаді. У цивільному житті працював барменом і вивчав програмування, хоча за освітою юрист....",
-      "publishedAt": "2026-09-04T16:09:52.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Якби не загроза загинути і те, що не миєшся довго, то воно в принципі непогано» — колишній бармен керує дроном",
-      "summaryUk": "Розмова з бійцем була оприлюднена на каналі бригаді. У цивільному житті працював барменом і вивчав програмування, хоча за освітою юрист...."
-    },
-    {
       "id": "x-euromaidan-6ebe0907a318",
       "title": "Russian drone strikes SBU headquarters in central Kyiv. Zelenskyy says “geography” of Ukraine’s response is set",
       "url": "https://euromaidanpress.com/2026/09/04/russian-drone-strikes-sbu-headquarters-in-central-kyiv/",
@@ -142,24 +318,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російський безпілотник завдав удару по СБУ в центрі Києва. Зеленський каже, що «географія» відповіді України визначена",
+      "titleUk": "Russian drone strikes SBU headquarters in central Kyiv. Zelenskyy says “geography” of Ukraine’s response is set",
       "summaryUk": "The midday strike injured 12 people and damaged the nearby Sofia Kyivska historic complex, as Russia continues its relentless drone campaign against the capital."
-    },
-    {
-      "id": "x-armyinform-19fd483b89ad",
-      "title": "Замаскувався гіллям — але згорів яскраво: «Птахи Мадяра» спалили російський танк",
-      "url": "https://armyinform.com.ua/2026/09/04/zamaskuvavsya-gillyam-ale-zgoriv-yaskravo-ptahy-madyara-spalyly-rosijskyj-tank/",
-      "summary": "Про це повідомили на сторінці 414-ї окремої бригади безпілотних систем «Птахи Мадяра». На відео пілоти 1-го батальйону знаходять російський танк, який окупанти сховали...",
-      "publishedAt": "2026-09-04T15:51:46.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Замаскувався гіллям — але згорів яскраво: «Птахи Мадяра» спалили російський танк",
-      "summaryUk": "Про це повідомили на сторінці 414-ї окремої бригади безпілотних систем «Птахи Мадяра». На відео пілоти 1-го батальйону знаходять російський танк, який окупанти сховали..."
     },
     {
       "id": "x-pravda-8b65b27eefc7",
@@ -178,38 +338,6 @@
       "summaryUk": ""
     },
     {
-      "id": "x-armyinform-00d10a4e6589",
-      "title": "Червоне світло запалює «Рута» для окупантів: боєць запускає Firepoint",
-      "url": "https://armyinform.com.ua/2026/09/04/chervone-svitlo-zapalyuye-ruta-dlya-okupantiv-boyecz-zapuskaye-firepoint/",
-      "summary": "Відео бойової роботи було оприлюднене на сторінці полку. «Щоразу під час роботи він наспівує собі щось під ніс і виводить...",
-      "publishedAt": "2026-09-04T15:34:18.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Червоне світло запалює «Рута» для окупантів: боєць запускає Firepoint",
-      "summaryUk": "Відео бойової роботи було оприлюднене на сторінці полку. «Щоразу під час роботи він наспівує собі щось під ніс і виводить..."
-    },
-    {
-      "id": "x-armyinform-41283ca8cba0",
-      "title": "«Нові відчуття, нові емоції»: десантники 77-ї бригади відточують майстерність у стрибках з парашутом",
-      "url": "https://armyinform.com.ua/2026/09/04/novi-vidchuttya-novi-emocziyi-desantnyky-77-yi-brygady-vidtochuyut-majsternist-u-strybkah-z-parashutom/",
-      "summary": "Про це повідомили у Командуванні Десантно-штурмових військ ЗСУ, оприлюднивши відео повітряно-десантної підготовки. На кадрах — військовослужбовці 77-ї окремої аеромобільної Наддніпрянської бригади 7-го корпусу швидкого...",
-      "publishedAt": "2026-09-04T15:23:22.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Нові відчуття, нові емоції»: десантники 77-ї бригади відточують майстерність у стрибках з парашутом",
-      "summaryUk": "Про це повідомили у Командуванні Десантно-штурмових військ ЗСУ, оприлюднивши відео повітряно-десантної підготовки. На кадрах — військовослужбовці 77-ї окремої аеромобільної Наддніпрянської бригади 7-го корпусу швидкого..."
-    },
-    {
       "id": "x-pravda-e11a0ef60650",
       "title": "Зеленський після удару по СБУ зустрівся з Покладом. У Службі заявили, що будівлю відновлять",
       "url": "https://www.pravda.com.ua/news/2026/09/04/8051943/",
@@ -224,86 +352,6 @@
       ],
       "titleUk": "Зеленський після удару по СБУ зустрівся з Покладом. У Службі заявили, що будівлю відновлять",
       "summaryUk": "Служба безпеки України повідомила про відновлення офісу в Києві, у який 4 вересня влучив російський безпілотник. Розкрито підготовку заходів у відповідь."
-    },
-    {
-      "id": "x-armyinform-9a06eca775a3",
-      "title": "«Географію відповіді визначили»: Президент анонсував удар у відповідь на атаку рф по СБУ",
-      "url": "https://armyinform.com.ua/2026/09/04/geografiyu-vidpovidi-vyznachyly-prezydent-anonsuvav-udar-u-vidpovid-na-ataku-rf-po-sbu/",
-      "summary": "Про це повідомив Президент України Володимир Зеленський за підсумками доповіді т.в.о. керівника Служби безпеки України Олександра Поклада. «Доповідь керівника СБУ Олександра Поклада...",
-      "publishedAt": "2026-09-04T15:16:30.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Географію відповіді визначили»: Президент анонсував удар у відповідь на атаку рф по СБУ",
-      "summaryUk": "Про це повідомив Президент України Володимир Зеленський за підсумками доповіді т.в.о. керівника Служби безпеки України Олександра Поклада. «Доповідь керівника СБУ Олександра Поклада..."
-    },
-    {
-      "id": "x-armyinform-67986a7c31b8",
-      "title": "Мисливці за реактивними дронами: як хлопці на Humvee збивають зі Stinger російські БПЛА",
-      "url": "https://armyinform.com.ua/2026/09/04/myslyvczi-za-reaktyvnymy-dronamy-yak-hlopczi-na-humvee-zbyvayut-zi-stinger-rosijski-bpla/",
-      "summary": "Відео бойової роботи бійців було оприлюднене на каналі полку. Повітряні загрози стають швидшими та підступнішими. Противник усе частіше застосовує реактивні...",
-      "publishedAt": "2026-09-04T15:13:06.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Мисливці за реактивними дронами: як хлопці на Humvee збивають зі Stinger російські БПЛА",
-      "summaryUk": "Відео бойової роботи бійців було оприлюднене на каналі полку. Повітряні загрози стають швидшими та підступнішими. Противник усе частіше застосовує реактивні..."
-    },
-    {
-      "id": "x-armyinform-5d3766767738",
-      "title": "Атака на ракетний комплекс в Криму, Сочі у вогні, спалили рідкісну арту, брехня русні: стрім",
-      "url": "https://armyinform.com.ua/2026/09/04/ataka-na-raketnyj-kompleks-v-krymu-sochi-u-vogni-spalyly-ridkisnu-artu-brehnya-rusni-strim/",
-      "summary": "Ворожі пропагандисти стверджують, що нібито захопили на Сумщині село Храпівщина. Проте зараз його утримують бійці 47 ОМБр, а заступник командира 1 механізованого батальйону «Прапор» навіть...",
-      "publishedAt": "2026-09-04T15:02:31.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Атака на ракетний комплекс в Криму, Сочі у вогні, спалили рідкісну арту, брехня русні: стрім",
-      "summaryUk": "Ворожі пропагандисти стверджують, що нібито захопили на Сумщині село Храпівщина. Проте зараз його утримують бійці 47 ОМБр, а заступник командира 1 механізованого батальйону «Прапор» навіть..."
-    },
-    {
-      "id": "x-armyinform-f7a1125ec7e1",
-      "title": "«Росіяни майже вдвічі посилили штурми»: «Вовки Да Вінчі» розповіли про ситуацію на Покровському напрямку",
-      "url": "https://armyinform.com.ua/2026/09/04/rosiyany-majzhe-vdvichi-posylyly-shturmy-vovky-da-vinchi-rozpovily-pro-sytuacziyu-na-pokrovskomu-napryamku/",
-      "summary": "Про це в ефірі Армія FM розповів начальник групи комунікацій 108-го окремого штурмового батальйону Сил безпілотних систем «Вовки Да Вінчі», офіцер ЗСУ Антон Шевельов....",
-      "publishedAt": "2026-09-04T14:41:37.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Росіяни майже вдвічі посилили штурми»: «Вовки Да Вінчі» розповіли про ситуацію на Покровському напрямку",
-      "summaryUk": "Про це в ефірі Армія FM розповів начальник групи комунікацій 108-го окремого штурмового батальйону Сил безпілотних систем «Вовки Да Вінчі», офіцер ЗСУ Антон Шевельов...."
-    },
-    {
-      "id": "x-armyinform-e132f5ae3b02",
-      "title": "Золото для України: представниця ЗСУ Софія Шкатула перемогла на чемпіонаті світу з лижоролерів",
-      "url": "https://armyinform.com.ua/2026/09/04/zoloto-dlya-ukrayiny-predstavnyczya-zsu-sofiya-shkatula-peremogla-na-chempionati-svitu-z-lyzhoroleriv/",
-      "summary": "Про це повідомляє Відділ фізичної культури і спорту Міністерства оборони України. У латвійській Мадоні 3 вересня стартував літній чемпіонат світу з лижоролерів. У перший день змагань...",
-      "publishedAt": "2026-09-04T14:31:39.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Золото для України: представниця ЗСУ Софія Шкатула перемогла на чемпіонаті світу з лижоролерів",
-      "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту Міністерства оборони України. У латвійській Мадоні 3 вересня стартував літній чемпіонат світу з лижоролерів. У перший день змагань..."
     },
     {
       "id": "x-pravda-fdf55b60dc97",
@@ -338,54 +386,6 @@
       "summaryUk": "Єврокомісія заявила, що Угорщина офіційно не інформувала Євросоюз про рішення надавати тимчасовий захист українським чоловікам призовного віку."
     },
     {
-      "id": "x-pravda-236daede1b22",
-      "title": "Мер повідомив про 9 постраждалих у Києві після атаки дрона на будівлю СБУ",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051924/",
-      "summary": "Російський безпілотник 4 вересня влучив у будівлю Служби безпеки України у центрі Києва. Мер повідомив, що постраждали 9 людей",
-      "publishedAt": "2026-09-04T14:21:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Мер повідомив про 9 постраждалих у Києві після атаки дрона на будівлю СБУ",
-      "summaryUk": "Російський безпілотник 4 вересня влучив у будівлю Служби безпеки України у центрі Києва. Мер повідомив, що постраждали 9 людей"
-    },
-    {
-      "id": "x-pravda-82d252e24ab0",
-      "title": "Сибіга закликав посилити тиск на РФ після удару по СБУ: під загрозою був і об'єкт ЮНЕСКО",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051935/",
-      "summary": "",
-      "publishedAt": "2026-09-04T14:16:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сибіга закликав посилити тиск на РФ після удару по СБУ: під загрозою був і об'єкт ЮНЕСКО",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-11e50a658a5f",
-      "title": "Axios: Віткофф і Кушнер вихідними відвідають Москву, а тоді Київ",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051932/",
-      "summary": "Спецпредставники Трампа зустрінуться з Путіним і Зеленським для обговорення припинення війни. Візит до Києва під загрозою через атаки РФ.",
-      "publishedAt": "2026-09-04T14:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Axios: Віткофф і Кушнер вихідними відвідають Москву, а тоді Київ",
-      "summaryUk": "Спецпредставники Трампа зустрінуться з Путіним і Зеленським для обговорення припинення війни. Візит до Києва під загрозою через атаки РФ."
-    },
-    {
       "id": "x-euromaidan-6cebd31401c9",
       "title": "Russia&#8217;s answer to Starlink was written off as a failure—its satellites are still climbing",
       "url": "https://euromaidanpress.com/2026/09/04/russias-answer-to-starlink-was-written-off-as-a-failure-its-satellites-are-still-climbing/",
@@ -398,7 +398,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російську відповідь Starlink списали на невдалу — її супутники все ще піднімаються",
+      "titleUk": "Russia&#8217;s answer to Starlink was written off as a failure—its satellites are still climbing",
       "summaryUk": "Forty-six days after their 19 July launch, the new craft sit at a median 365 km—higher than Russia's already-working first batch was at the same age."
     },
     {
@@ -414,24 +414,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Тієї ж ночі безпілотники вдарили по складах пального в Сочі та заводу вибухівки за 1300 км",
+      "titleUk": "Drones hit fuel depots in Sochi and an explosives plant 1,300 km away on the same night",
       "summaryUk": "Ukrainian drones set fire to two fuel depots around Sochi and hit a Russian air defense position overnight on 4&#8230;"
-    },
-    {
-      "id": "x-pravda-7c10463d05b6",
-      "title": "Удар по будівлі СБУ в Києві: дрон влучив у кабінет т.в.о. голови Служби Поклада",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051918/",
-      "summary": "Російський безпілотник поцілив у кабінет тимчасового глави Служби безпеки України Олександра Поклада на вулиці Володимирській у Києві. Внаслідок удару виникла пожежа.",
-      "publishedAt": "2026-09-04T13:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Удар по будівлі СБУ в Києві: дрон влучив у кабінет т.в.о. голови Служби Поклада",
-      "summaryUk": "Російський безпілотник поцілив у кабінет тимчасового глави Служби безпеки України Олександра Поклада на вулиці Володимирській у Києві. Внаслідок удару виникла пожежа."
     },
     {
       "id": "x-euromaidan-7be561e9f8df",
@@ -446,72 +430,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Іспанія продовжує озброювати Україну проти російських балістичних ракет — і обіцяє навіть більше",
+      "titleUk": "Spain keeps arming Ukraine against Russia&#8217;s ballistic missiles—and promises even more",
       "summaryUk": "Madrid is readying a fresh batch of interceptors for Kyiv, and has ordered four new Patriot systems of its own in a $1.7 billion Raytheon deal."
-    },
-    {
-      "id": "x-pravda-4ad70c2e7626",
-      "title": "Російський дрон ударив по будівлі СБУ в центрі Києва: на місці пожежа",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051913/",
-      "summary": "Російський дрон вдарив по будівлі Служби безпеки України в центрі Києва поблизу станції метро Золоті ворота.",
-      "publishedAt": "2026-09-04T12:40:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російський дрон ударив по будівлі СБУ в центрі Києва: на місці пожежа",
-      "summaryUk": "Російський дрон вдарив по будівлі Служби безпеки України в центрі Києва поблизу станції метро Золоті ворота."
-    },
-    {
-      "id": "x-pravda-b24f2f17b891",
-      "title": "Україна хоче закрити повітряний простір Росії: чи вдасться план та що станеться з економікою ворога",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051904/",
-      "summary": "",
-      "publishedAt": "2026-09-04T11:36:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна хоче закрити повітряний простір Росії: чи вдасться план та що станеться з економікою ворога",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-54f204a07d3b",
-      "title": "1000 дронів на день: чи може Україна закрити небо над Росією та що відомо про операцію M&M's",
-      "url": "https://www.pravda.com.ua/articles/2026/09/04/8051898/",
-      "summary": "Володимир Зеленський у вечірньому зверненні 1 вересня заявив, що повітряний простір Росії вже не буде безпечним – хоче цього країна-агресорка чи ні. Президент України насамперед звернувся до міжнародних авіа- та страхових компаній, попередивши їх про ризики для цивільної авіації.",
-      "publishedAt": "2026-09-04T11:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "1000 дронів на день: чи може Україна закрити небо над Росією та що відомо про операцію M&M's",
-      "summaryUk": "Володимир Зеленський у вечірньому зверненні 1 вересня заявив, що повітряний простір Росії вже не буде безпечним – хоче цього країна-агресорка чи ні. Президент України насамперед звернувся до міжнародних авіа- та страхових компаній, попередивши їх про ризики для цивільної авіації."
-    },
-    {
-      "id": "x-pravda-1eeacfd9576d",
-      "title": "Генштаб: Сили оборони уразили базу пального, місце запуску ударних БпЛА та командні пункти росіян",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051900/",
-      "summary": "ЗСУ вразили командні пункти, радар, БпЛА та базу пального росіян у Донецькій, Харківській, Луганській, Криму та РФ. Ступінь збитків уточнюється.",
-      "publishedAt": "2026-09-04T11:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генштаб: Сили оборони уразили базу пального, місце запуску ударних БпЛА та командні пункти росіян",
-      "summaryUk": "ЗСУ вразили командні пункти, радар, БпЛА та базу пального росіян у Донецькій, Харківській, Луганській, Криму та РФ. Ступінь збитків уточнюється."
     },
     {
       "id": "x-euromaidan-49c11b31ca52",
@@ -526,7 +446,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українським F-16 настільки не вистачає західних ракет, що пілоти повертаються до вбудованої в літак гармати M61A1 Vulcan, яка ризикує вбити мирних жителів.",
+      "titleUk": "Ukraine&#8217;s F-16s are so short of Western missiles that pilots fall back on jet&#8217;s built-in M61A1 Vulcan cannon, which risks killing civilians below",
       "summaryUk": "The AIM missiles the jets are rationing are the same ones defending Kyiv from the ground."
     },
     {
@@ -542,7 +462,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна стверджує, що завдала удару по Бастіону в Криму, пусковій установці, на яку Росія поєднала ракети «Циркон» і «Онікс»",
+      "titleUk": "Ukraine says it struck a Bastion in Crimea, the launcher Russia pairs Zircon and Oniks missiles on",
       "summaryUk": "One of those missiles flies at hypersonic speed, and Russia has aimed both at targets far from any coastline."
     },
     {
@@ -558,7 +478,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Німеччина закриє консульство Росії в Бонні після того, як звинуватила Москву в нападі на аеропорт Лейпцига",
+      "titleUk": "Germany will close Russia&#8217;s Bonn consulate after attributing Leipzig Airport drone attack to Moscow",
       "summaryUk": "Germany is tightening its response to Russia after the Leipzig drone plot, with new restrictions targeting Russian institutions and citizens as investigators identify two suspects."
     },
     {
@@ -574,7 +494,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російсько-українська війна, день 1653 року: російські війська наближаються з різних боків навколо Слов’янська та Краматорська",
+      "titleUk": "Russo-Ukrainian war, day 1653: Russian troops are grinding closer from multiple directions around Sloviansk and Kramatorsk",
       "summaryUk": "Meanwhile Kyiv formally asked the UN's aviation body to warn airlines away from Russian airspace."
     },
     {
@@ -590,7 +510,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Естонія заплатила 81 мільйон доларів за українські снаряди фірмі, яка їх ніколи не виробляла — тепер її міністр оборони пішов у відставку",
+      "titleUk": "Estonia paid $81 million for Ukraine&#8217;s shells to firm that had never made one—now its defense minister is out",
       "summaryUk": "Estonia may have to repay €70 million in EU funds. The ammunition failed quality standards."
     },
     {
@@ -606,7 +526,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Польща відправила Україні 350 танків — Європа щойно погодилася повернути їй півмільярда доларів",
+      "titleUk": "Poland sent Ukraine 350 tanks—Europe just agreed to refund it half a billion dollars",
       "summaryUk": "Once Hungary lifted its two-year veto, Warsaw's total refund for arming Kyiv is nearing $1.4 billion—with $500 million more due in 2027."
     },
     {
@@ -622,7 +542,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Міністри закордонних справ ЄС хочуть, щоб колишніх бойовиків Росії вивели. Ніхто не записав, що вважається доказом",
+      "titleUk": "EU foreign ministers want Russia&#8217;s ex-fighters out. Nobody has written down what counts as proof",
       "summaryUk": "Each member state would have to judge individual cases, and the bloc set itself a June deadline for the plan that its council still cannot approve."
     },
     {
@@ -638,7 +558,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українські військові «Хартії» очищають 4 км² біля Куп’янська, а Росія тисне на головний залізничний вузол (ВІДЕО)",
+      "titleUk": "Ukraine&#8217;s Khartiia soldiers clear 4 km² near Kupiansk, while Russia pushes for main rail hub (VIDEO)",
       "summaryUk": "On the left bank, Russian supply was so broken that they delivered water by drone."
     },
     {
@@ -654,7 +574,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російські атаки на Чорному морі, низькі води Дунаю підштовхують ЄС до пошуку альтернативних шляхів експорту українського зерна",
+      "titleUk": "Russian Black Sea attacks, low Danube waters push EU to seek alternative routes for Ukrainian grain exports",
       "summaryUk": "Ukraine’s two main wartime export outlets are under pressure at once, threatening farm revenue as global crop prices climb."
     },
     {
@@ -670,7 +590,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія прив’язує два невеликі ударні безпілотники до крил свого далекобійного «Герана» і випускає їх углиб України. It rarely works, Flash says",
+      "titleUk": "Russia straps two small attack drones to wings of its long-range Gerans and releases them deep inside Ukraine. It rarely works, Flash says",
       "summaryUk": "An FPV drone drop was recently recorded in Kyiv Oblast, but there is no confirmation yet that it was carried out using a Gerbera."
     },
     {
@@ -686,7 +606,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Озброєний чоловік на мотоциклі розстріляв генерала ВПС РФ. Україна каже, що віддала наказ обстріляти дитячу лікарню Києва",
+      "titleUk": "Gunman on a motorcycle shoots the Russian air force general Ukraine says ordered the strike on Kyiv&#8217;s children&#8217;s hospital",
       "summaryUk": "The officer was hit twice as he stepped outside in a settlement near Engels, and surgeons in Saratov worked through the morning to keep him alive."
     },
     {
@@ -702,7 +622,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна передала попередження Зеленського щодо російського повітряного простору в авіаційний орган ООН",
+      "titleUk": "Ukraine takes Zelenskyy’s Russian airspace warning to UN aviation body",
       "summaryUk": "Kyiv's letter asks the UN aviation body to recommend that member states stop flying over Russia."
     },
     {
@@ -734,7 +654,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія тепер полює на Київ і вдень, Flash пояснює чому",
+      "titleUk": "Russia now hunts Kyiv by daylight too, Flash explains why",
       "summaryUk": "Russia has started launching its strike drones during the day, not only after dark. The reason is the&#8230;"
     },
     {
@@ -750,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Відчайдушно прагнучи врятувати Слов'янськ і Краматорськ, українські війська контратакують і посилюються",
+      "titleUk": "Desperate to save Sloviansk and Kramatorsk, Ukrainian forces counterattack and reinforce",
       "summaryUk": "A Russian pincer is slowly closing around the last two big free cities in eastern Ukraine's Donbas region. Winter will be a brief reprieve."
     },
     {
@@ -766,7 +686,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Бельгія вказує Україні на європейський кредит наступного року замість замороженої готівки Росії",
+      "titleUk": "Belgium points Ukraine to next year&#8217;s European loan instead of Russia&#8217;s frozen cash",
       "summaryUk": "Earnings from the immobilized money underwrite an earlier European loan, while the sum they come from stays behind one government's objections."
     },
     {
@@ -782,7 +702,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Україна вперше показала свій британський ЗРК Rapid Ranger на іспанському шасі підвищеної прохідності. Його екіпажі називають це «штормом на близькій відстані».",
+      "titleUk": "For first time, Ukraine shows its British Rapid Ranger air-defense system mounted on Spanish off-road chassis. Its crews call it &#8220;close-range storm&#8221;",
       "summaryUk": "This 500-kilogram missile system is designed to catch what radar misses."
     },
     {
@@ -798,7 +718,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російсько-українська війна, день 1652: Шахеди з реактивними двигунами викликають гонку українських інновацій проти часу",
+      "titleUk": "Russo-Ukrainian war, day 1652: Jet-powered Shaheds spark Ukrainian innovation race against the clock",
       "summaryUk": "Meanwhile, Russia's shadow campaign spreads beyond the front."
     },
     {
@@ -814,7 +734,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Українська бригада випробовує купол РЕБ Serval Cube в бойових умовах, пригнічує кожен запущений по ньому безпілотник",
+      "titleUk": "Ukrainian brigade trials Serval Cube EW dome in combat-like conditions, suppresses every drone launched at it",
       "summaryUk": "Serval Cube jams the control, navigation, and video-transmission channels a drone depends on rather than destroying it outright."
     },
     {
@@ -830,72 +750,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Двадцять українських фірм змагаються, щоб зловити російські реактивні «Шахеди». Цей перехоплювач вже виконує бойові завдання",
+      "titleUk": "Twenty Ukrainian firms are racing to catch Russia&#8217;s jet-powered Shaheds. This one&#8217;s interceptor is already flying combat missions",
       "summaryUk": "Firebolt Engineering joins Ukraine's jet-interceptor drone race."
-    },
-    {
-      "id": "x-euromaidan-41ded708be86",
-      "title": "Russia&#8217;s air war has cost the average Ukrainian mall 166.8 working days since 2022, about eight months of closed floors",
-      "url": "https://euromaidanpress.com/2026/09/02/russias-air-war-has-cost-the-average-ukrainian-mall-166-8-working-days-since-2022-over-eight-months-of-closed-floors/",
-      "summary": "Ukraine's malls spent a fifth of August under air-raid alerts, a new record.",
-      "publishedAt": "2026-09-02T19:37:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Повітряна війна Росії коштувала середньому українському торговому центру 166,8 робочих днів з 2022 року, приблизно вісім місяців закритих поверхів",
-      "summaryUk": "Ukraine's malls spent a fifth of August under air-raid alerts, a new record."
-    },
-    {
-      "id": "x-euromaidan-b20e0cf7beab",
-      "title": "190 or 580 Patriot missiles? What Ukraine&#8217;s EU-loan request could buy—and why Washington still decides",
-      "url": "https://euromaidanpress.com/2026/09/02/190-or-580-patriot-missiles-what-ukraines-eu-loan-request-could-buy-and-why-washington-still-decides/",
-      "summary": "The EU is weighing Ukraine's loan request to buy Patriot missiles, von der Leyen confirmed—member states take it up on 7 September.",
-      "publishedAt": "2026-09-02T19:10:00.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "190 чи 580 ракет Patriot? Що можна купити за запитом України на кредит від ЄС — і чому Вашингтон все-таки вирішує",
-      "summaryUk": "The EU is weighing Ukraine's loan request to buy Patriot missiles, von der Leyen confirmed—member states take it up on 7 September."
-    },
-    {
-      "id": "x-euromaidan-9b7413af484a",
-      "title": "Ukraine says it busted a Kyiv crypto ring that drained EU citizens’ wallets",
-      "url": "https://euromaidanpress.com/2026/09/02/ukraine-kyiv-crypto-fraud-network-eu-citizens/",
-      "summary": "The SBU says the alleged scheme’s monthly turnover from stolen funds could reach $1 million during its most lucrative periods.",
-      "publishedAt": "2026-09-02T18:22:35.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна стверджує, що зламала київську криптогрупу, яка виснажувала гаманці громадян ЄС",
-      "summaryUk": "The SBU says the alleged scheme’s monthly turnover from stolen funds could reach $1 million during its most lucrative periods."
-    },
-    {
-      "id": "x-euromaidan-aea8b7aef74b",
-      "title": "42,020 troops, 1,827 artillery systems, 89 tanks: Ukraine&#8217;s tally of what it cost Russia to keep fighting in August",
-      "url": "https://euromaidanpress.com/2026/09/02/42020-troops-1827-artillery-systems-89-tanks-ukraines-tally-of-what-it-cost-russia-to-keep-fighting-in-august/",
-      "summary": "As frontline losses climb, Moscow fires ballistic missiles and jet drones Ukraine cannot catch.",
-      "publishedAt": "2026-09-02T18:13:28.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "42 020 військових, 1827 артилерійських систем, 89 танків: підрахунок України, чого коштувало Росії продовження бойових дій у серпні",
-      "summaryUk": "As frontline losses climb, Moscow fires ballistic missiles and jet drones Ukraine cannot catch."
     }
   ]
 }
