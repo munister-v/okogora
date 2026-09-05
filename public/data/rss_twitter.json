@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T15:11:16.128Z",
+  "generatedAt": "2026-09-05T18:16:14.132Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,11 +98,91 @@
   ],
   "items": [
     {
+      "id": "x-pravda-65b9599ec7ab",
+      "title": "Росіяни вдарили по центру Чугуєва: серед загиблих – дитина",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8052083/",
+      "summary": "У результаті атак дронами на центр Чугуєва загинули двоє, серед них дитина, поранена 40-річна жінка. Зруйновано будинок і господарські споруди.",
+      "publishedAt": "2026-09-05T17:49:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили по центру Чугуєва: серед загиблих – дитина",
+      "summaryUk": "У результаті атак дронами на центр Чугуєва загинули двоє, серед них дитина, поранена 40-річна жінка. Зруйновано будинок і господарські споруди."
+    },
+    {
+      "id": "x-pravda-4217e3e0ee5e",
+      "title": "Єврокомісар: КДБ і ГРУ чекатимуть, коли український дрон влетить в їхні офіси",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8052082/",
+      "summary": "",
+      "publishedAt": "2026-09-05T17:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Єврокомісар: КДБ і ГРУ чекатимуть, коли український дрон влетить в їхні офіси",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-euromaidan-cb709735f8f1",
+      "title": "&#8220;If you&#8217;re gonna f*ck, f*ck a queen, if you&#8217;re gonna steal, steal a million&#8221;: Ukraine&#8217;s anti-corruption bureau says senior official ran criminal ring inside Prosecutor General&#8217;s Office",
+      "url": "https://euromaidanpress.com/2026/09/05/if-youre-gonna-fck-fck-a-queen-if-youre-gonna-steal-steal-a-million-ukraines-anti-corruption-bureau-says-senior-official-ran-criminal-ring-inside-prosecutor-generals-office/",
+      "summary": "Investigators say the suspect took bribes to shield scam call centers and laundered millions.",
+      "publishedAt": "2026-09-05T17:32:25.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "&#8220;If you&#8217;re gonna f*ck, f*ck a queen, if you&#8217;re gonna steal, steal a million&#8221;: Ukraine&#8217;s anti-corruption bureau says senior official ran criminal ring inside Prosecutor General&#8217;s Office",
+      "summaryUk": "Investigators say the suspect took bribes to shield scam call centers and laundered millions."
+    },
+    {
+      "id": "x-euromaidan-e9f246012595",
+      "title": "Ukraine&#8217;s Lasar&#8217;s Group says its bomber drones destroyed rare Russian Zhitel jammer 55 km behind front",
+      "url": "https://euromaidanpress.com/2026/09/05/ukraines-lasars-group-says-its-bomber-drones-destroyed-rare-russian-zhitel-jammer-55-km-behind-front/",
+      "summary": "The R-330Zh Zhitel jams GPS, satellite and cellular signals at once.",
+      "publishedAt": "2026-09-05T16:36:23.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s Lasar&#8217;s Group says its bomber drones destroyed rare Russian Zhitel jammer 55 km behind front",
+      "summaryUk": "The R-330Zh Zhitel jams GPS, satellite and cellular signals at once."
+    },
+    {
+      "id": "x-pravda-027fd8e786f1",
+      "title": "\"Лазарі\" НГУ показали, як вполювали рідкісного \"звіра\" окупантів",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8052075/",
+      "summary": "Загін спецпризначення Lasar's Group Нацгвардії повністю знищив рідкісну російську систему Р-330Ж \"Житєль\" в тилу противника. Операція – на відео.",
+      "publishedAt": "2026-09-05T16:22:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "\"Лазарі\" НГУ показали, як вполювали рідкісного \"звіра\" окупантів",
+      "summaryUk": "Загін спецпризначення Lasar's Group Нацгвардії повністю знищив рідкісну російську систему Р-330Ж \"Житєль\" в тилу противника. Операція – на відео."
+    },
+    {
       "id": "x-pravda-983d2b8cf46f",
       "title": "Росіяни атакували житловий район Запоріжжя, є поранені",
       "url": "https://www.pravda.com.ua/news/2026/09/05/8052071/",
-      "summary": "Внаслідок атаки БпЛА по житловому району Запоріжжя поранено 7 людей.",
-      "publishedAt": "2026-09-05T15:04:00.000Z",
+      "summary": "Унаслідок атаки безпілотника по житловому району Запоріжжя постраждали семеро мешканців. Стан поранених під наглядом лікарів – Запорізька ОВА.",
+      "publishedAt": "2026-09-05T16:11:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
       "source": "x_rss",
@@ -111,7 +191,55 @@
         "UKRAINE"
       ],
       "titleUk": "Росіяни атакували житловий район Запоріжжя, є поранені",
-      "summaryUk": "Внаслідок атаки БпЛА по житловому району Запоріжжя поранено 7 людей."
+      "summaryUk": "Унаслідок атаки безпілотника по житловому району Запоріжжя постраждали семеро мешканців. Стан поранених під наглядом лікарів – Запорізька ОВА."
+    },
+    {
+      "id": "x-pravda-600c094d1c82",
+      "title": "Засідання формату \"Рамштайн\" відбудеться наступного тижня – Міноборони",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8052074/",
+      "summary": "Євгеній Хмара та Борис Пісторіус обговорили повітряні загрози, співпрацю ОПК і фінансування оборонних потреб перед зустріччю у форматі \"Рамштайн\".",
+      "publishedAt": "2026-09-05T16:04:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Засідання формату \"Рамштайн\" відбудеться наступного тижня – Міноборони",
+      "summaryUk": "Євгеній Хмара та Борис Пісторіус обговорили повітряні загрози, співпрацю ОПК і фінансування оборонних потреб перед зустріччю у форматі \"Рамштайн\"."
+    },
+    {
+      "id": "x-pravda-e6077782dfd9",
+      "title": "Росіяни атакували Київщину: є загиблі, пошкоджено 28 об'єктів",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8052073/",
+      "summary": "Внаслідок обстрілу 5 вересня на Київщині загинули двоє осіб, зруйновано 28 об'єктів у п'яти районах. Деталі від Київської ОВА",
+      "publishedAt": "2026-09-05T15:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували Київщину: є загиблі, пошкоджено 28 об'єктів",
+      "summaryUk": "Внаслідок обстрілу 5 вересня на Київщині загинули двоє осіб, зруйновано 28 об'єктів у п'яти районах. Деталі від Київської ОВА"
+    },
+    {
+      "id": "x-euromaidan-9f8c02d570b2",
+      "title": "Ukraine is running short of its best missiles for hunting Russia&#8217;s jet drones. Now MiG-29s are firing 1970s weapons",
+      "url": "https://euromaidanpress.com/2026/09/05/r-73-shortage/",
+      "summary": "The R-73 was the missile for the job. Ukraine has burned through enough of them to bring back a weapon that was obsolete in 2022.",
+      "publishedAt": "2026-09-05T15:21:06.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine is running short of its best missiles for hunting Russia&#8217;s jet drones. Now MiG-29s are firing 1970s weapons",
+      "summaryUk": "The R-73 was the missile for the job. Ukraine has burned through enough of them to bring back a weapon that was obsolete in 2022."
     },
     {
       "id": "x-armyinform-03d4aabe1725",
@@ -306,22 +434,6 @@
       "summaryUk": "Історію бійця оприлюднила 5 вересня Державна прикордонна служба України. Ще підлітком Владислав займався перегонами на картах, мріяв про розробку власного..."
     },
     {
-      "id": "x-pravda-39371e232467",
-      "title": "Путін наказав не атакувати Київ протягом трьох діб – Кремль",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052048/",
-      "summary": "Кремль заявив, що удари по Києву призупинено на три доби через візит спецпосланця США Стіва Віткоффа та Джареда Кушнера.",
-      "publishedAt": "2026-09-05T12:33:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Путін наказав не атакувати Київ протягом трьох діб – Кремль",
-      "summaryUk": "Кремль заявив, що удари по Києву призупинено на три доби через візит спецпосланця США Стіва Віткоффа та Джареда Кушнера."
-    },
-    {
       "id": "x-euromaidan-3b930130fe40",
       "title": "Russia made 500 Ukrainian schoolchildren in occupied Donetsk take part in &#8220;anti-terrorism dictation&#8221;. It taught them they can be jailed for a repost at 14",
       "url": "https://euromaidanpress.com/2026/09/05/russia-made-500-ukrainian-schoolchildren-in-occupied-donetsk-take-part-in-anti-terrorism-dictation-it-taught-them-they-can-be-jailed-for-a-repost-at-14/",
@@ -352,22 +464,6 @@
       ],
       "titleUk": "Понад 4600 ракет і дронів перехопила українська ППО під час масованих атак у серпні",
       "summaryUk": "Про це повідомило 5 вересня Міністерство оборони України. Результат забезпечили авіація, зенітні ракетні війська, підрозділи РЕБ і безпілотних систем, а..."
-    },
-    {
-      "id": "x-pravda-b4ec4622f088",
-      "title": "Генпрокурора Кравченка не можуть знайти від початку операції НАБУ та САП – джерела",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052046/",
-      "summary": "Руслан Кравченко зник понад 12 годин після обшуків у справі спецоперації \"Карфаген\". Офіс генпрокурора обіцяє сприяти слідству.",
-      "publishedAt": "2026-09-05T11:59:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генпрокурора Кравченка не можуть знайти від початку операції НАБУ та САП – джерела",
-      "summaryUk": "Руслан Кравченко зник понад 12 годин після обшуків у справі спецоперації \"Карфаген\". Офіс генпрокурора обіцяє сприяти слідству."
     },
     {
       "id": "x-euromaidan-3a6ac847493c",
@@ -434,38 +530,6 @@
       "summaryUk": "Відео бойової роботи було оприлюднене 5 вересня на каналі бригади. Під час одного з бойових завдань бронетранспортер M113 2-го мехбату..."
     },
     {
-      "id": "x-pravda-382eee76c43c",
-      "title": "Росіяни вночі атакували 9 областей, зокрема повторно склади на Одещині",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052039/",
-      "summary": "У ніч на 5 вересня російські війська атакували інфраструктуру в Одеській, Дніпропетровській та ще семи областях. Є жертви та руйнування.",
-      "publishedAt": "2026-09-05T11:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вночі атакували 9 областей, зокрема повторно склади на Одещині",
-      "summaryUk": "У ніч на 5 вересня російські війська атакували інфраструктуру в Одеській, Дніпропетровській та ще семи областях. Є жертви та руйнування."
-    },
-    {
-      "id": "x-pravda-9ec3fab91ad8",
-      "title": "Віткофф та Кушнер прибули в Москву",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052036/",
-      "summary": "Стів Віткофф і Джаред Кушнер прилетіли до Москви для перемовин з Путіним. Вони привезли пропозицію щодо завершення війни і готуються до візиту в Київ.",
-      "publishedAt": "2026-09-05T10:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Віткофф та Кушнер прибули в Москву",
-      "summaryUk": "Стів Віткофф і Джаред Кушнер прилетіли до Москви для перемовин з Путіним. Вони привезли пропозицію щодо завершення війни і готуються до візиту в Київ."
-    },
-    {
       "id": "x-euromaidan-cc461a987d1b",
       "title": "Russia destroyed most of Ukraine&#8217;s big warehouses. Now the country is scrambling to build small ones everywhere",
       "url": "https://euromaidanpress.com/2026/09/05/russia-destroyed-most-of-ukraines-big-warehouses-now-the-country-is-scrambling-to-build-small-ones-everywhere/",
@@ -498,22 +562,6 @@
       "summaryUk": "Про це на стрімі АрміяМедіа розповів заступник командира 1-го механізованого батальйону 47-ї механізованої бригади «Магура» з позивним «Прапор». «Сьогодні російський..."
     },
     {
-      "id": "x-pravda-70279e6c0108",
-      "title": "Буданов: Пропозицію про припинення вогню донесли Путіну, той не відповів",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052029/",
-      "summary": "Кирило Буданов повідомив, що Україна передала Росії пропозицію припинити бойові дії, але відповіді не отримала. Деталі перемир'я – у матеріалі.",
-      "publishedAt": "2026-09-05T10:14:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Буданов: Пропозицію про припинення вогню донесли Путіну, той не відповів",
-      "summaryUk": "Кирило Буданов повідомив, що Україна передала Росії пропозицію припинити бойові дії, але відповіді не отримала. Деталі перемир'я – у матеріалі."
-    },
-    {
       "id": "x-armyinform-5fff20127d57",
       "title": "Був сисадміном, а тепер полює на ворога: історія бійця «Рута»",
       "url": "https://armyinform.com.ua/2026/09/05/buv-sysadminom-a-teper-polyuye-na-voroga-istoriya-bijczya-ruta/",
@@ -528,38 +576,6 @@
       ],
       "titleUk": "Був сисадміном, а тепер полює на ворога: історія бійця «Рута»",
       "summaryUk": "Історія бійця була оприлюднена 5 вересня Державною прикордонною службою України. До війни «Рут» налаштовував мережі та рятував офіси від «все..."
-    },
-    {
-      "id": "x-pravda-cb0988074041",
-      "title": "Зеленський: Росія вдарила по аеропортах в Жулянах та Борисполі",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052026/",
-      "summary": "Президент Володимир Зеленський заявив, що в ніч на 5 вересня Росія цілеспрямовано атакувала аеропорти \"Київ\" (Жуляни) та \"Бориспіль\" – за його словами, вперше за довгий час.",
-      "publishedAt": "2026-09-05T09:41:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Росія вдарила по аеропортах в Жулянах та Борисполі",
-      "summaryUk": "Президент Володимир Зеленський заявив, що в ніч на 5 вересня Росія цілеспрямовано атакувала аеропорти \"Київ\" (Жуляни) та \"Бориспіль\" – за його словами, вперше за довгий час."
-    },
-    {
-      "id": "x-pravda-cb17364901ef",
-      "title": "Більшість поляків вірить у ймовірність російських провокацій проти Польщі",
-      "url": "https://www.pravda.com.ua/news/2026/09/05/8052025/",
-      "summary": "",
-      "publishedAt": "2026-09-05T09:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Більшість поляків вірить у ймовірність російських провокацій проти Польщі",
-      "summaryUk": ""
     },
     {
       "id": "x-armyinform-17cb2ed90a28",
@@ -864,54 +880,6 @@
       ],
       "titleUk": "EU foreign ministers want Russia&#8217;s ex-fighters out. Nobody has written down what counts as proof",
       "summaryUk": "Each member state would have to judge individual cases, and the bloc set itself a June deadline for the plan that its council still cannot approve."
-    },
-    {
-      "id": "x-euromaidan-41eacfbea025",
-      "title": "Ukraine&#8217;s Khartiia soldiers clear 4 km² near Kupiansk, while Russia pushes for main rail hub (VIDEO)",
-      "url": "https://euromaidanpress.com/2026/09/03/ukraines-khartiia-soldiers-clear-4-km%c2%b2-near-kupiansk-while-russia-pushes-for-main-rail-hub-video/",
-      "summary": "On the left bank, Russian supply was so broken that they delivered water by drone.",
-      "publishedAt": "2026-09-03T15:10:46.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine&#8217;s Khartiia soldiers clear 4 km² near Kupiansk, while Russia pushes for main rail hub (VIDEO)",
-      "summaryUk": "On the left bank, Russian supply was so broken that they delivered water by drone."
-    },
-    {
-      "id": "x-euromaidan-ba78ccb61eb1",
-      "title": "Russian Black Sea attacks, low Danube waters push EU to seek alternative routes for Ukrainian grain exports",
-      "url": "https://euromaidanpress.com/2026/09/03/eu-routes-ukraine-grain-exports/",
-      "summary": "Ukraine’s two main wartime export outlets are under pressure at once, threatening farm revenue as global crop prices climb.",
-      "publishedAt": "2026-09-03T14:36:54.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russian Black Sea attacks, low Danube waters push EU to seek alternative routes for Ukrainian grain exports",
-      "summaryUk": "Ukraine’s two main wartime export outlets are under pressure at once, threatening farm revenue as global crop prices climb."
-    },
-    {
-      "id": "x-euromaidan-3d286f5a1d01",
-      "title": "Russia straps two small attack drones to wings of its long-range Gerans and releases them deep inside Ukraine. It rarely works, Flash says",
-      "url": "https://euromaidanpress.com/2026/09/03/russia-straps-two-small-attack-drones-to-wings-of-its-long-range-gerans-and-releases-them-deep-inside-ukraine-it-rarely-works-flash-says/",
-      "summary": "An FPV drone drop was recently recorded in Kyiv Oblast, but there is no confirmation yet that it was carried out using a Gerbera.",
-      "publishedAt": "2026-09-03T14:26:47.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russia straps two small attack drones to wings of its long-range Gerans and releases them deep inside Ukraine. It rarely works, Flash says",
-      "summaryUk": "An FPV drone drop was recently recorded in Kyiv Oblast, but there is no confirmation yet that it was carried out using a Gerbera."
     },
     {
       "id": "x-militarnyi-d4566e66f521",
