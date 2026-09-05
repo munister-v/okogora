@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:44:25.583Z",
+  "generatedAt": "2026-09-05T00:02:33.920Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,134 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-d3b3323cd7b4",
+      "title": "Ворог вдарив по промисловому підприємству на Дніпропетровщині",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8051983/",
+      "summary": "У Дніпропетровській області росіяни атакували промислове підприємство.",
+      "publishedAt": "2026-09-04T22:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворог вдарив по промисловому підприємству на Дніпропетровщині",
+      "summaryUk": "У Дніпропетровській області росіяни атакували промислове підприємство."
+    },
+    {
+      "id": "x-pravda-0b837d53069c",
+      "title": "Росіяни атакували багатоповерхівку в Борисполі: виникла пожежа, двоє потерпілих",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8051982/",
+      "summary": "У ніч на 5 вересня росіяни вдарили по багатоповерхівці в Борисполі, загорілися квартира і дах.",
+      "publishedAt": "2026-09-04T22:10:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували багатоповерхівку в Борисполі: виникла пожежа, двоє потерпілих",
+      "summaryUk": "У ніч на 5 вересня росіяни вдарили по багатоповерхівці в Борисполі, загорілися квартира і дах."
+    },
+    {
+      "id": "x-euromaidan-83deb1d8da8e",
+      "title": "Russo-Ukrainian war, day 1654: Ukraine orders a three-day ceasefire as US envoys head to Moscow, and Kyiv&#8217;s sirens sound anyway",
+      "url": "https://euromaidanpress.com/2026/09/05/russo-ukrainian-war-day-1654/",
+      "summary": "The pause meant to smooth the way for restarted peace talks began under an air raid alert, with Russian attacks reported before it had even taken effect.",
+      "publishedAt": "2026-09-04T21:44:52.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1654: Ukraine orders a three-day ceasefire as US envoys head to Moscow, and Kyiv&#8217;s sirens sound anyway",
+      "summaryUk": "The pause meant to smooth the way for restarted peace talks began under an air raid alert, with Russian attacks reported before it had even taken effect."
+    },
+    {
+      "id": "x-pravda-b3d628dcd903",
+      "title": "Посли G7 і місія МВФ назвали ключові реформи для фінансової стійкості України",
+      "url": "https://www.pravda.com.ua/news/2026/09/05/8051980/",
+      "summary": "Цього тижня посли країн G7 в Україні зустрілися з місією Міжнародного валютного фонду (МВФ) на чолі з Гевіном Греєм для обговорення економічних перспектив України, макроекономічних реформ та фінансових потреб.",
+      "publishedAt": "2026-09-04T21:34:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Посли G7 і місія МВФ назвали ключові реформи для фінансової стійкості України",
+      "summaryUk": "Цього тижня посли країн G7 в Україні зустрілися з місією Міжнародного валютного фонду (МВФ) на чолі з Гевіном Греєм для обговорення економічних перспектив України, макроекономічних реформ та фінансових потреб."
+    },
+    {
+      "id": "x-euromaidan-ac0a3fc2a72d",
+      "title": "Ukraine orders temporary ceasefire as US envoys visit Moscow. Air raid alert sounds in Kyiv immediately as pause begins",
+      "url": "https://euromaidanpress.com/2026/09/05/ukraine-orders-temporary-ceasefire-as-us-envoys-visit-moscow/",
+      "summary": "The reported order covers 5–8 September as Washington seeks to restart peace talks after months of stalled negotiations, but Russian attacks continued as the pause was due to begin.",
+      "publishedAt": "2026-09-04T21:25:55.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine orders temporary ceasefire as US envoys visit Moscow. Air raid alert sounds in Kyiv immediately as pause begins",
+      "summaryUk": "The reported order covers 5–8 September as Washington seeks to restart peace talks after months of stalled negotiations, but Russian attacks continued as the pause was due to begin."
+    },
+    {
+      "id": "x-euromaidan-587b3c26abce",
+      "title": "Germany suspects Russian intelligence behind arson attack as hybrid warfare threat grows across Europe",
+      "url": "https://euromaidanpress.com/2026/09/05/suspected-sabotage-hits-german-defense-firm/",
+      "summary": "The Munich attack follows attempts to disrupt Germany’s power grid and comes amid mounting evidence of Russian covert operations targeting European countries supporting Ukraine.",
+      "publishedAt": "2026-09-04T21:03:07.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Germany suspects Russian intelligence behind arson attack as hybrid warfare threat grows across Europe",
+      "summaryUk": "The Munich attack follows attempts to disrupt Germany’s power grid and comes amid mounting evidence of Russian covert operations targeting European countries supporting Ukraine."
+    },
+    {
+      "id": "x-pravda-d1217da8817a",
+      "title": "У Святопетрівському під Києвом РФ вдарила по складах, виникла пожежа",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051979/",
+      "summary": "Російські війська увечері 4 вересня завдали чотирьох ударів по складських приміщеннях в селі Святопетрівське на Київщині.",
+      "publishedAt": "2026-09-04T20:52:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Святопетрівському під Києвом РФ вдарила по складах, виникла пожежа",
+      "summaryUk": "Російські війська увечері 4 вересня завдали чотирьох ударів по складських приміщеннях в селі Святопетрівське на Київщині."
+    },
+    {
+      "id": "x-pravda-75a92dac91b8",
+      "title": "Понад 2 сотні боїв відбулось на фронті з початку доби – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/09/04/8051978/",
+      "summary": "Від початку доби 4 вересня на фронті відбулось 216 бойових зіткнень.",
+      "publishedAt": "2026-09-04T20:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Понад 2 сотні боїв відбулось на фронті з початку доби – Генштаб",
+      "summaryUk": "Від початку доби 4 вересня на фронті відбулось 216 бойових зіткнень."
+    },
     {
       "id": "x-pravda-db947401ad34",
       "title": "Підрозділи Сил оборони отримали наказ про тимчасове дотримання режиму тиші на фронті – джерела",
@@ -226,6 +354,22 @@
       "summaryUk": "Російські війська 4 вересня атакували Кременчуцький район на Полтавщині безпілотником: трирічна двчинка отримала травми."
     },
     {
+      "id": "x-armyinform-5279b64d02f3",
+      "title": "Не встиг втекти після деокупації: колишній староста селища з Херсонщини сів на 15 років за співпрацю з рф",
+      "url": "https://armyinform.com.ua/2026/09/04/ne-vstyg-vtekty-pislya-deokupacziyi-kolyshnij-starosta-z-hersonshhyna-siv-na-15-rokiv-za-spivpraczyu-z-rf/",
+      "summary": "Про це у п’ятницю, 4 вересня, повідомили у Службі безпеки України. Як зазначається, зловмисника було затримано ще у листопаді 2025...",
+      "publishedAt": "2026-09-04T18:13:21.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Не встиг втекти після деокупації: колишній староста селища з Херсонщини сів на 15 років за співпрацю з рф",
+      "summaryUk": "Про це у п’ятницю, 4 вересня, повідомили у Службі безпеки України. Як зазначається, зловмисника було затримано ще у листопаді 2025..."
+    },
+    {
       "id": "x-euromaidan-058abe3ed291",
       "title": "Ukraine adopts two-tier air raid alert system as Russia&#8217;s mass drone attacks become the new normal",
       "url": "https://euromaidanpress.com/2026/09/04/ukraine-adopts-two-tier-air-raid-alert-system-as-russias-mass-drone-attacks-become-the-new-normal/",
@@ -240,6 +384,22 @@
       ],
       "titleUk": "Ukraine adopts two-tier air raid alert system as Russia&#8217;s mass drone attacks become the new normal",
       "summaryUk": "The new system will distinguish drone threats from the heightened threat of missile or combined strikes, changing how businesses and cities respond to air raids."
+    },
+    {
+      "id": "x-armyinform-51b9e6b678f6",
+      "title": "Албанія прислухалась до ГУР та не пустила танкер тіньового флоту рф до свого порту",
+      "url": "https://armyinform.com.ua/2026/09/04/albaniya-prysluhalas-do-gur-ta-ne-pustyla-do-svogo-portu-tanker-tinovogo-flotu-rf/",
+      "summary": "Про це у п’ятницю, 4 вересня, повідомили у Головному управлінні розвідки Міністерства оборони України, зазначивши, що такий крок свідчить про...",
+      "publishedAt": "2026-09-04T17:52:48.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Албанія прислухалась до ГУР та не пустила танкер тіньового флоту рф до свого порту",
+      "summaryUk": "Про це у п’ятницю, 4 вересня, повідомили у Головному управлінні розвідки Міністерства оборони України, зазначивши, що такий крок свідчить про..."
     },
     {
       "id": "x-pravda-a6a6646edf60",
@@ -258,6 +418,38 @@
       "summaryUk": ""
     },
     {
+      "id": "x-armyinform-daded7a39bd2",
+      "title": "Антидроновий «щит» росте: у серпні захистили понад 213 км ключових маршрутів",
+      "url": "https://armyinform.com.ua/2026/09/04/antydronovyj-%c2%abshhyt%c2%bb-roste-u-serpni-zahystyly-ponad-213-km-klyuchovyh-marshrutiv/",
+      "summary": "Про це повідомили в Міністерстві оборони України. Такі захисні конструкції допомагають убезпечити пересування українських військових і техніки, а також забезпечують стабільнішу роботу підрозділів, які виконують...",
+      "publishedAt": "2026-09-04T17:40:14.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Антидроновий «щит» росте: у серпні захистили понад 213 км ключових маршрутів",
+      "summaryUk": "Про це повідомили в Міністерстві оборони України. Такі захисні конструкції допомагають убезпечити пересування українських військових і техніки, а також забезпечують стабільнішу роботу підрозділів, які виконують..."
+    },
+    {
+      "id": "x-armyinform-45fd39267350",
+      "title": "144-та механізована бригада стала 42-ю бригадою морської піхоти",
+      "url": "https://armyinform.com.ua/2026/09/04/144-ta-mehanizovana-brygada-stala-42-yu-brygadoyu-morskoyi-pihoty/",
+      "summary": "Повідомлення про це було оприлюднене на сторінці бригади. «Сучасна війна диктує нові реалії, і ми готові до рішучих кроків заради...",
+      "publishedAt": "2026-09-04T17:26:28.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "144-та механізована бригада стала 42-ю бригадою морської піхоти",
+      "summaryUk": "Повідомлення про це було оприлюднене на сторінці бригади. «Сучасна війна диктує нові реалії, і ми готові до рішучих кроків заради..."
+    },
+    {
       "id": "x-euromaidan-f329035fcea2",
       "title": "Witkoff and Kushner to visit Kyiv and Moscow to revive peace talks as Russia ramps up attacks across Ukraine",
       "url": "https://euromaidanpress.com/2026/09/04/witkoff-and-kushner-to-visit-kyiv-and-moscow/",
@@ -272,6 +464,54 @@
       ],
       "titleUk": "Witkoff and Kushner to visit Kyiv and Moscow to revive peace talks as Russia ramps up attacks across Ukraine",
       "summaryUk": "The US envoys will meet Russian and Ukrainian leaders as Washington attempts to put peace talks back on track."
+    },
+    {
+      "id": "x-armyinform-1b59a10abb51",
+      "title": "Уряд спрямував 33,6 млрд грн на виплати військовим та членам їх сімей",
+      "url": "https://armyinform.com.ua/2026/09/04/uryad-spryamuvav-336-mlrd-grn-na-vyplaty-vijskovym-ta-chlenam-yih-simej/",
+      "summary": "Про це увечері 4 вересня повідомив Прем’єр-міністр України Сергій Корецький. За його словами, 25,9 млрд грн підуть на щомісячне грошове...",
+      "publishedAt": "2026-09-04T17:02:21.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Уряд спрямував 33,6 млрд грн на виплати військовим та членам їх сімей",
+      "summaryUk": "Про це увечері 4 вересня повідомив Прем’єр-міністр України Сергій Корецький. За його словами, 25,9 млрд грн підуть на щомісячне грошове..."
+    },
+    {
+      "id": "x-armyinform-32b942ce137b",
+      "title": "«Схопив ціль і далі сам»: як розумний дрон «Лупиніс-10» розніс ворожу катапульту на старті",
+      "url": "https://armyinform.com.ua/2026/09/04/shopyv-czil-i-dali-sam-yak-rozumnyj-dron-lupynis-10-roznis-vorozhu-katapultu-na-starti/",
+      "summary": "Про це повідомили на сторінці 58-ї окремої мотопіхотної бригади імені гетьмана Івана Виговського. Коли оператор побачив російський безпілотник, підготовлений до запуску з катапульти, часу...",
+      "publishedAt": "2026-09-04T16:55:25.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Схопив ціль і далі сам»: як розумний дрон «Лупиніс-10» розніс ворожу катапульту на старті",
+      "summaryUk": "Про це повідомили на сторінці 58-ї окремої мотопіхотної бригади імені гетьмана Івана Виговського. Коли оператор побачив російський безпілотник, підготовлений до запуску з катапульти, часу..."
+    },
+    {
+      "id": "x-armyinform-dd5445ba1609",
+      "title": "«Раз — заїхав, два — відпрацював»: «Гради» 93-ї бригади накрили російські позиції біля Костянтинівки",
+      "url": "https://armyinform.com.ua/2026/09/04/raz-zayihav-dva-vidpraczyuvav-grady-93-yi-brygady-nakryly-rosijski-pozycziyi-bilya-kostyantynivky/",
+      "summary": "Про це повідомили на сторінці 93-ї окремої механізованої бригади «Холодний Яр», опублікувавши фоторепортаж роботи розрахунку РСЗВ. «Град» виїжджає на бойову позицію, поки російські військові...",
+      "publishedAt": "2026-09-04T16:43:09.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Раз — заїхав, два — відпрацював»: «Гради» 93-ї бригади накрили російські позиції біля Костянтинівки",
+      "summaryUk": "Про це повідомили на сторінці 93-ї окремої механізованої бригади «Холодний Яр», опублікувавши фоторепортаж роботи розрахунку РСЗВ. «Град» виїжджає на бойову позицію, поки російські військові..."
     },
     {
       "id": "x-pravda-aff583c12678",
@@ -290,20 +530,20 @@
       "summaryUk": "Стів Віткофф і Джаред Кушнер відвідають Київ і Москву для переговорів щодо припинення війни. Україна забезпечить безпеку повітряного простору."
     },
     {
-      "id": "x-pravda-fc5c5f3f2d47",
-      "title": "\"Флеш\": \"Шахед\", який влетів у СБУ, міг керуватися через ретранслятор в радіусі 5 км",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051949/",
-      "summary": "Позаштатний радник президента Сергій \"Флеш\" Бескрестнов вважає, що БпЛА, який 4 вересня влетів у будівлю СБУ в центрі Києва наводився через ретранслятор, який російський агент увімкнув в радіусі 5 км.",
-      "publishedAt": "2026-09-04T16:12:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
+      "id": "x-armyinform-dabb1581d26c",
+      "title": "«Якби не загроза загинути і те, що не миєшся довго, то воно в принципі непогано» — колишній бармен керує дроном",
+      "url": "https://armyinform.com.ua/2026/09/04/yakby-ne-zagroza-zagynuty-i-te-shho-ne-myyeshsya-dovgo-to-vono-v-prynczypi-nepogano-kolyshnij-barmen-keruye-dronom/",
+      "summary": "Розмова з бійцем була оприлюднена на каналі бригаді. У цивільному житті працював барменом і вивчав програмування, хоча за освітою юрист....",
+      "publishedAt": "2026-09-04T16:09:52.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
       "source": "x_rss",
       "tags": [
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "\"Флеш\": \"Шахед\", який влетів у СБУ, міг керуватися через ретранслятор в радіусі 5 км",
-      "summaryUk": "Позаштатний радник президента Сергій \"Флеш\" Бескрестнов вважає, що БпЛА, який 4 вересня влетів у будівлю СБУ в центрі Києва наводився через ретранслятор, який російський агент увімкнув в радіусі 5 км."
+      "titleUk": "«Якби не загроза загинути і те, що не миєшся довго, то воно в принципі непогано» — колишній бармен керує дроном",
+      "summaryUk": "Розмова з бійцем була оприлюднена на каналі бригаді. У цивільному житті працював барменом і вивчав програмування, хоча за освітою юрист...."
     },
     {
       "id": "x-euromaidan-6ebe0907a318",
@@ -320,70 +560,6 @@
       ],
       "titleUk": "Russian drone strikes SBU headquarters in central Kyiv. Zelenskyy says “geography” of Ukraine’s response is set",
       "summaryUk": "The midday strike injured 12 people and damaged the nearby Sofia Kyivska historic complex, as Russia continues its relentless drone campaign against the capital."
-    },
-    {
-      "id": "x-pravda-8b65b27eefc7",
-      "title": "Естонія засудила удар Росії по СБУ та закликала посилити тиск на Кремль",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051946/",
-      "summary": "",
-      "publishedAt": "2026-09-04T15:35:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Естонія засудила удар Росії по СБУ та закликала посилити тиск на Кремль",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-e11a0ef60650",
-      "title": "Зеленський після удару по СБУ зустрівся з Покладом. У Службі заявили, що будівлю відновлять",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051943/",
-      "summary": "Служба безпеки України повідомила про відновлення офісу в Києві, у який 4 вересня влучив російський безпілотник. Розкрито підготовку заходів у відповідь.",
-      "publishedAt": "2026-09-04T15:18:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський після удару по СБУ зустрівся з Покладом. У Службі заявили, що будівлю відновлять",
-      "summaryUk": "Служба безпеки України повідомила про відновлення офісу в Києві, у який 4 вересня влучив російський безпілотник. Розкрито підготовку заходів у відповідь."
-    },
-    {
-      "id": "x-pravda-fdf55b60dc97",
-      "title": "Справа \"Північного потоку\": арештованому українцю висунули нове звинувачення",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051937/",
-      "summary": "Європейський ордер на арешт Володимира Журавльова переглянули та додали звинувачення у воєнному злочині. Суд у Хорватії перенесли.",
-      "publishedAt": "2026-09-04T14:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Справа \"Північного потоку\": арештованому українцю висунули нове звинувачення",
-      "summaryUk": "Європейський ордер на арешт Володимира Журавльова переглянули та додали звинувачення у воєнному злочині. Суд у Хорватії перенесли."
-    },
-    {
-      "id": "x-pravda-6ee62df2bae6",
-      "title": "Угорщина не повідомляла ЄС, що надаватиме захист українським чоловікам призовного віку – Єврокомісія",
-      "url": "https://www.pravda.com.ua/news/2026/09/04/8051939/",
-      "summary": "Єврокомісія заявила, що Угорщина офіційно не інформувала Євросоюз про рішення надавати тимчасовий захист українським чоловікам призовного віку.",
-      "publishedAt": "2026-09-04T14:25:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Угорщина не повідомляла ЄС, що надаватиме захист українським чоловікам призовного віку – Єврокомісія",
-      "summaryUk": "Єврокомісія заявила, що Угорщина офіційно не інформувала Євросоюз про рішення надавати тимчасовий захист українським чоловікам призовного віку."
     },
     {
       "id": "x-euromaidan-6cebd31401c9",
@@ -704,54 +880,6 @@
       ],
       "titleUk": "For first time, Ukraine shows its British Rapid Ranger air-defense system mounted on Spanish off-road chassis. Its crews call it &#8220;close-range storm&#8221;",
       "summaryUk": "This 500-kilogram missile system is designed to catch what radar misses."
-    },
-    {
-      "id": "x-euromaidan-7d0c8e596272",
-      "title": "Russo-Ukrainian war, day 1652: Jet-powered Shaheds spark Ukrainian innovation race against the clock",
-      "url": "https://euromaidanpress.com/2026/09/03/russo-ukrainian-war-day-1652-jet-powered-shaheds-spark-ukrainian-innovation-race-against-the-clock/",
-      "summary": "Meanwhile, Russia's shadow campaign spreads beyond the front.",
-      "publishedAt": "2026-09-03T05:54:15.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russo-Ukrainian war, day 1652: Jet-powered Shaheds spark Ukrainian innovation race against the clock",
-      "summaryUk": "Meanwhile, Russia's shadow campaign spreads beyond the front."
-    },
-    {
-      "id": "x-euromaidan-4c19a0ffed7f",
-      "title": "Ukrainian brigade trials Serval Cube EW dome in combat-like conditions, suppresses every drone launched at it",
-      "url": "https://euromaidanpress.com/2026/09/03/ukrainian-brigade-trials-serval-cube-ew-dome-in-combat-like-conditions-suppresses-every-drone-launched-at-it/",
-      "summary": "Serval Cube jams the control, navigation, and video-transmission channels a drone depends on rather than destroying it outright.",
-      "publishedAt": "2026-09-03T05:46:30.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukrainian brigade trials Serval Cube EW dome in combat-like conditions, suppresses every drone launched at it",
-      "summaryUk": "Serval Cube jams the control, navigation, and video-transmission channels a drone depends on rather than destroying it outright."
-    },
-    {
-      "id": "x-euromaidan-b5f12aa52e9b",
-      "title": "Twenty Ukrainian firms are racing to catch Russia&#8217;s jet-powered Shaheds. This one&#8217;s interceptor is already flying combat missions",
-      "url": "https://euromaidanpress.com/2026/09/02/twenty-ukrainian-firms-are-racing-to-catch-russias-jet-powered-shaheds-this-ones-interceptor-is-already-flying-combat-missions/",
-      "summary": "Firebolt Engineering joins Ukraine's jet-interceptor drone race.",
-      "publishedAt": "2026-09-02T20:18:27.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Twenty Ukrainian firms are racing to catch Russia&#8217;s jet-powered Shaheds. This one&#8217;s interceptor is already flying combat missions",
-      "summaryUk": "Firebolt Engineering joins Ukraine's jet-interceptor drone race."
     }
   ]
 }
