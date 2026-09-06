@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T20:26:07.084Z",
+  "generatedAt": "2026-09-06T23:52:05.751Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,38 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-a7c4e01dbd92",
+      "title": "Ukraine&#8217;s Swedish radar planes have flown inside Russian missile range for six months. None has been shot down.",
+      "url": "https://euromaidanpress.com/2026/09/07/asc-890-operational/",
+      "summary": "Kyiv said nothing until this week. The planes can see 450 km, and Russia's best missile flies nearly as far.",
+      "publishedAt": "2026-09-06T21:19:15.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s Swedish radar planes have flown inside Russian missile range for six months. None has been shot down.",
+      "summaryUk": "Kyiv said nothing until this week. The planes can see 450 km, and Russia's best missile flies nearly as far."
+    },
+    {
+      "id": "x-pravda-a0f7a4071b4c",
+      "title": "У понеділок в Україні переважно без опадів, на Лівобережжі пориви вітру",
+      "url": "https://www.pravda.com.ua/news/2026/09/06/8052187/",
+      "summary": "Укргідрометцентр прогнозує 7 вересня суху погоду, на сході місцями дощ. Температура вдень від 17 до 25°, вітер північно-західний.",
+      "publishedAt": "2026-09-06T20:41:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У понеділок в Україні переважно без опадів, на Лівобережжі пориви вітру",
+      "summaryUk": "Укргідрометцентр прогнозує 7 вересня суху погоду, на сході місцями дощ. Температура вдень від 17 до 25°, вітер північно-західний."
+    },
     {
       "id": "x-pravda-691440638768",
       "title": "На фронті понад 200 боїв, найбільше на Покровському напрямку – Генштаб",
@@ -240,22 +272,6 @@
       ],
       "titleUk": "Папа Римський: Сподіваюся, що зусилля щодо перемовин по Україні матимуть плоди",
       "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-82b80eadb797",
-      "title": "Росіяни вдарили по складах логістичної компанії в Дніпрі, є загиблий і поранені",
-      "url": "https://www.pravda.com.ua/news/2026/09/06/8052147/",
-      "summary": "Російські війська атакували логістичну компанію в місті Дніпро. Двоє поранених отримують допомогу, на складах сталася пожежа.",
-      "publishedAt": "2026-09-06T15:47:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вдарили по складах логістичної компанії в Дніпрі, є загиблий і поранені",
-      "summaryUk": "Російські війська атакували логістичну компанію в місті Дніпро. Двоє поранених отримують допомогу, на складах сталася пожежа."
     },
     {
       "id": "x-euromaidan-b901d7c038c9",
@@ -832,22 +848,6 @@
       ],
       "titleUk": "Ukraine&#8217;s F-16s are so short of Western missiles that pilots fall back on jet&#8217;s built-in M61A1 Vulcan cannon, which risks killing civilians below",
       "summaryUk": "The AIM missiles the jets are rationing are the same ones defending Kyiv from the ground."
-    },
-    {
-      "id": "x-euromaidan-9be45c1296cf",
-      "title": "Ukraine says it struck a Bastion in Crimea, the launcher Russia pairs Zircon and Oniks missiles on",
-      "url": "https://euromaidanpress.com/2026/09/04/ukraine-says-it-struck-a-bastion-in-crimea-the-launcher-russia-pairs-zircon-and-oniks-missiles-on/",
-      "summary": "One of those missiles flies at hypersonic speed, and Russia has aimed both at targets far from any coastline.",
-      "publishedAt": "2026-09-04T08:46:44.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine says it struck a Bastion in Crimea, the launcher Russia pairs Zircon and Oniks missiles on",
-      "summaryUk": "One of those missiles flies at hypersonic speed, and Russia has aimed both at targets far from any coastline."
     },
     {
       "id": "x-militarnyi-d4566e66f521",
