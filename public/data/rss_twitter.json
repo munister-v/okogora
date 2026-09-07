@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:43:25.056Z",
+  "generatedAt": "2026-09-07T22:49:24.354Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,230 @@
   ],
   "items": [
     {
+      "id": "x-pravda-c8d9dd4dbcd4",
+      "title": "В Києві та деяких областях – повітряна тривога: можлива робота ППО",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052354/",
+      "summary": "У ніч на 8 вересня у Києві та регіонах оголосили тривогу через атаки дронів та загрозу балістики.",
+      "publishedAt": "2026-09-07T22:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "В Києві та деяких областях – повітряна тривога: можлива робота ППО",
+      "summaryUk": "У ніч на 8 вересня у Києві та регіонах оголосили тривогу через атаки дронів та загрозу балістики."
+    },
+    {
+      "id": "x-pravda-0c0695239e32",
+      "title": "Росіяни атакували два райони Київщини: спалахнули пожежі",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052356/",
+      "summary": "Російські війська атакували Бориспільський і Фастівський райони, спричинивши пожежі на підприємствах.",
+      "publishedAt": "2026-09-07T21:55:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували два райони Київщини: спалахнули пожежі",
+      "summaryUk": "Російські війська атакували Бориспільський і Фастівський райони, спричинивши пожежі на підприємствах."
+    },
+    {
+      "id": "x-euromaidan-3f58db655ee5",
+      "title": "Russo-Ukrainian war, day 1657: Ukraine&#8217;s newly appointed top commander wants to break with a Soviet-inherited system",
+      "url": "https://euromaidanpress.com/2026/09/08/russo-ukrainian-war-day-1657-ukraines-newly-appointed-top-commander-wants-to-break-with-a-soviet-inherited-system/",
+      "summary": "Kyiv is also stockpiling food and water ahead of winter, bracing for harsher aerial attacks on infrastructure.",
+      "publishedAt": "2026-09-07T21:49:58.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1657: Ukraine&#8217;s newly appointed top commander wants to break with a Soviet-inherited system",
+      "summaryUk": "Kyiv is also stockpiling food and water ahead of winter, bracing for harsher aerial attacks on infrastructure."
+    },
+    {
+      "id": "x-pravda-d5ae12ab4136",
+      "title": "Українські енергетики відновили зовнішнє живлення ЗАЕС",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052353/",
+      "summary": "Запорізька атомна електростанція отримала електропостачання після декількох тижнів простою",
+      "publishedAt": "2026-09-07T21:23:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Українські енергетики відновили зовнішнє живлення ЗАЕС",
+      "summaryUk": "Запорізька атомна електростанція отримала електропостачання після декількох тижнів простою"
+    },
+    {
+      "id": "x-pravda-2202a7194250",
+      "title": "$7 тисяч з кол-центру щомісяця – прокурорам. Перший залп НАБУ і САП по шахрайському \"Карфагену\"",
+      "url": "https://www.pravda.com.ua/articles/2026/09/08/8052352/",
+      "summary": "Ще в далекому 2023-му році в редакції \"Української правди\" на одному з публічних заходів виникла жвава дискусія з бізнесменами, яка зводилася до одного простого питання: як кол-центри продовжують існувати, якщо всі правоохоронні органи з ними борються? Тоді банкіри не перший місяць жалілись на шалені втрати клієнтів через шахрайську діяльність, а жертвами так званих \"офісів\" дедалі частіше ставали громадяни європейських країн.",
+      "publishedAt": "2026-09-07T21:22:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "$7 тисяч з кол-центру щомісяця – прокурорам. Перший залп НАБУ і САП по шахрайському \"Карфагену\"",
+      "summaryUk": "Ще в далекому 2023-му році в редакції \"Української правди\" на одному з публічних заходів виникла жвава дискусія з бізнесменами, яка зводилася до одного простого питання: як кол-центри продовжують існувати, якщо всі правоохоронні органи з ними борються? Тоді банкіри не перший місяць жалілись на шалені втрати клієнтів через шахрайську діяльність, а жертвами так званих \"офісів\" дедалі частіше ставали громадяни європейських країн."
+    },
+    {
+      "id": "x-euromaidan-511cc80a2430",
+      "title": "Ukraine&#8217;s new top commander is pushing to unwind a Soviet-inherited command model mid-war. He wants combat-tested sergeants to have real authority",
+      "url": "https://euromaidanpress.com/2026/09/08/ukraines-new-top-commander-is-pushing-to-unwind-a-soviet-inherited-command-model-mid-war-he-wants-combat-tested-sergeants-to-have-real-authority/",
+      "summary": "Ukraine inherited a system where officers decided everything and sergeants were senior soldiers with no ladder of their own.",
+      "publishedAt": "2026-09-07T21:17:52.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s new top commander is pushing to unwind a Soviet-inherited command model mid-war. He wants combat-tested sergeants to have real authority",
+      "summaryUk": "Ukraine inherited a system where officers decided everything and sergeants were senior soldiers with no ladder of their own."
+    },
+    {
+      "id": "x-euromaidan-0d6ec7127936",
+      "title": "Russia burns occupied Zaporizhzhia nuclear plant&#8217;s last-resort generators as everyday power, Ukraine says",
+      "url": "https://euromaidanpress.com/2026/09/07/russia-burns-occupied-zaporizhzhia-nuclear-plants-last-resort-generators-as-everyday-power-ukraine-says/",
+      "summary": "Off-site power has been gone since 20 August, and the plant has cut its running generators to two to stretch the fuel that is left.",
+      "publishedAt": "2026-09-07T20:58:41.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russia burns occupied Zaporizhzhia nuclear plant&#8217;s last-resort generators as everyday power, Ukraine says",
+      "summaryUk": "Off-site power has been gone since 20 August, and the plant has cut its running generators to two to stretch the fuel that is left."
+    },
+    {
+      "id": "x-euromaidan-5a716f924a1f",
+      "title": "&#8220;Now on the 1,657th day&#8221;: Ukraine&#8217;s crews restored power to over 900,000 homes last week as Russia keeps striking grid before winter",
+      "url": "https://euromaidanpress.com/2026/09/07/now-on-the-1657th-day-ukraines-crews-restored-power-to-over-900000-homes-last-week-as-russia-keeps-striking-grid-before-winter/",
+      "summary": "Crews brought it back to 596 settlements, most of them in Odesa and Donetsk.",
+      "publishedAt": "2026-09-07T20:51:02.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "&#8220;Now on the 1,657th day&#8221;: Ukraine&#8217;s crews restored power to over 900,000 homes last week as Russia keeps striking grid before winter",
+      "summaryUk": "Crews brought it back to 596 settlements, most of them in Odesa and Donetsk."
+    },
+    {
+      "id": "x-pravda-ef49f05df819",
+      "title": "Росіяни атакували безпілотником будинок у Харкові: є постраждалий",
+      "url": "https://www.pravda.com.ua/news/2026/09/07/8052351/",
+      "summary": "Російські війська увечері 7 вересня атакували безпілотником багатоповерхівку в Харкові: постраждала людина.",
+      "publishedAt": "2026-09-07T20:45:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували безпілотником будинок у Харкові: є постраждалий",
+      "summaryUk": "Російські війська увечері 7 вересня атакували безпілотником багатоповерхівку в Харкові: постраждала людина."
+    },
+    {
+      "id": "x-euromaidan-5bc95277cd65",
+      "title": "Ukrainian AI targeting module placed third among 60-plus entries in NATO contest",
+      "url": "https://euromaidanpress.com/2026/09/07/ukrainian-ai-targeting-module-placed-third-among-60-plus-entries-in-nato-contest/",
+      "summary": "NATO and Ukraine ran the challenge through their first jointly staffed body.",
+      "publishedAt": "2026-09-07T20:20:48.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukrainian AI targeting module placed third among 60-plus entries in NATO contest",
+      "summaryUk": "NATO and Ukraine ran the challenge through their first jointly staffed body."
+    },
+    {
+      "id": "x-pravda-b76dd9f043ce",
+      "title": "Нові ідеї, старий глухий кут: що світові ЗМІ пишуть про візит посланців Трампа до України і Росії",
+      "url": "https://www.pravda.com.ua/articles/2026/09/07/8052344/",
+      "summary": "До України 6 вересня вперше приїхали Стів Віткофф і Джаред Кушнер. Спецпредставники президента США обговорили з Володимиром Зеленським і переговорною групою умови для закінчення війни. Це схоже на їхню спробу перезавантажити мирні перемовини, які вже пів року як зайшли в глухий кут.",
+      "publishedAt": "2026-09-07T19:46:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Нові ідеї, старий глухий кут: що світові ЗМІ пишуть про візит посланців Трампа до України і Росії",
+      "summaryUk": "До України 6 вересня вперше приїхали Стів Віткофф і Джаред Кушнер. Спецпредставники президента США обговорили з Володимиром Зеленським і переговорною групою умови для закінчення війни. Це схоже на їхню спробу перезавантажити мирні перемовини, які вже пів року як зайшли в глухий кут."
+    },
+    {
+      "id": "x-pravda-7cabfe78c353",
+      "title": "Трамп та Бернем обговорили завершення російсько-української війни",
+      "url": "https://www.pravda.com.ua/news/2026/09/07/8052346/",
+      "summary": "",
+      "publishedAt": "2026-09-07T19:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Трамп та Бернем обговорили завершення російсько-української війни",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-317dbbe4cb8f",
+      "title": "Генштаб повідомив про 181 бойове зіткнення на фронті",
+      "url": "https://www.pravda.com.ua/news/2026/09/07/8052345/",
+      "summary": "Від початку доби 7 вересня на фронті зафіксували 181 бойове зіткнення.",
+      "publishedAt": "2026-09-07T19:25:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб повідомив про 181 бойове зіткнення на фронті",
+      "summaryUk": "Від початку доби 7 вересня на фронті зафіксували 181 бойове зіткнення."
+    },
+    {
+      "id": "x-armyinform-8c4b974adc95",
+      "title": "У 19 років — строкова служба, у 24 — п’ята бойова ротація: історія бійці «Чіпа»",
+      "url": "https://armyinform.com.ua/2026/09/07/u-19-rokiv-strokova-sluzhba-u-24-pyata-bojova-rotacziya-istoriya-bijczi-chipa/",
+      "summary": "Історія бійця була оприлюднена 7 вересня на каналі Державної прикордонної служби України. «У мене на шиї є татуювання у вигляді...",
+      "publishedAt": "2026-09-07T18:47:12.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У 19 років — строкова служба, у 24 — п’ята бойова ротація: історія бійці «Чіпа»",
+      "summaryUk": "Історія бійця була оприлюднена 7 вересня на каналі Державної прикордонної служби України. «У мене на шиї є татуювання у вигляді..."
+    },
+    {
       "id": "x-euromaidan-3338c60ead38",
       "title": "Ukrainian university and the Flamingo missile-maker opened an engineering course. On the first try, zero of 150 passed",
       "url": "https://euromaidanpress.com/2026/09/07/ukrainian-university-and-the-flamingo-missile-maker-opened-an-engineering-course-on-the-first-try-zero-of-150-passed/",
@@ -112,6 +336,22 @@
       ],
       "titleUk": "Ukrainian university and the Flamingo missile-maker opened an engineering course. On the first try, zero of 150 passed",
       "summaryUk": "Even students who scored well on the university entrance exam flunked the physics round."
+    },
+    {
+      "id": "x-pravda-e667d75ad77a",
+      "title": "Зеленський вважає, що адміністрація Трампа може тиснути на Путіна для деескалації",
+      "url": "https://www.pravda.com.ua/news/2026/09/07/8052342/",
+      "summary": "Президент Володимир Зеленський заявив, що США вивчають, чи Україна та Росія могли б вжити заходів для деескалації війни протягом зими, одночасно відновивши переговори щодо укладення ширшої мирної угоди.",
+      "publishedAt": "2026-09-07T18:39:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський вважає, що адміністрація Трампа може тиснути на Путіна для деескалації",
+      "summaryUk": "Президент Володимир Зеленський заявив, що США вивчають, чи Україна та Росія могли б вжити заходів для деескалації війни протягом зими, одночасно відновивши переговори щодо укладення ширшої мирної угоди."
     },
     {
       "id": "x-armyinform-8f5f98c73186",
@@ -242,22 +482,6 @@
       "summaryUk": "Відео роботи носіїв FPV-дронів було оприлюднене 7 вересня на сторінці Wild hornets, виробника Sting. «Те, про що ми довго не..."
     },
     {
-      "id": "x-pravda-13eadba4d8fb",
-      "title": "Латвія запровадить тарифи у 300% на вантажі із зерном з Росії та Білорусі",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052332/",
-      "summary": "",
-      "publishedAt": "2026-09-07T17:14:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Латвія запровадить тарифи у 300% на вантажі із зерном з Росії та Білорусі",
-      "summaryUk": ""
-    },
-    {
       "id": "x-armyinform-24be3ad6306e",
       "title": "«Хлопця трохи посікло гвинтами, але він швидко викинув дрон»: історія дивовижної евакуації",
       "url": "https://armyinform.com.ua/2026/09/07/hlopczya-trohy-posiklo-gvyntamy-ale-vin-shvydko-vykynuv-dron-istoriya-dyvovyzhnoyi-evakuacziyi/",
@@ -291,7 +515,7 @@
     },
     {
       "id": "x-euromaidan-334ed04513f6",
-      "title": "Ukraine&#8217;s Brave1 says it can down Russia&#8217;s Banderol missiles with cruising speed 650 km/h less than they cost, and has destroyed at least four",
+      "title": "Ukraine&#8217;s Brave1 says it can down Russia&#8217;s Banderol missiles with cruising speed 650 km/h for less than what they cost, and has destroyed at least four",
       "url": "https://euromaidanpress.com/2026/09/07/ukraines-brave1-says-it-can-down-russias-banderol-missiles-with-cruising-speed-650-km-h-less-than-they-cost-and-has-destroyed-at-least-four/",
       "summary": "In July, Ukrainian troops downed Banderols with Swedish Bofors L70 anti-aircraft guns designed in the late 1940s.",
       "publishedAt": "2026-09-07T16:53:05.000Z",
@@ -302,24 +526,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Ukraine&#8217;s Brave1 says it can down Russia&#8217;s Banderol missiles with cruising speed 650 km/h less than they cost, and has destroyed at least four",
+      "titleUk": "Ukraine&#8217;s Brave1 says it can down Russia&#8217;s Banderol missiles with cruising speed 650 km/h for less than what they cost, and has destroyed at least four",
       "summaryUk": "In July, Ukrainian troops downed Banderols with Swedish Bofors L70 anti-aircraft guns designed in the late 1940s."
-    },
-    {
-      "id": "x-pravda-5877d238d78a",
-      "title": "Росіяни атакували склади та підприємство на Київщині",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052330/",
-      "summary": "Російські війська 7 вересня завдали удару по складських приміщеннях та підприємству в Київській області.",
-      "publishedAt": "2026-09-07T16:53:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни атакували склади та підприємство на Київщині",
-      "summaryUk": "Російські війська 7 вересня завдали удару по складських приміщеннях та підприємству в Київській області."
     },
     {
       "id": "x-armyinform-6f50e582f7a8",
@@ -338,54 +546,6 @@
       "summaryUk": "Про це повідомив Президент України Володимир Зеленський за підсумками доповіді секретаря РНБО Ігоря Клименка. За словами глави держави, найближчим часом відбудуться зустрічі з представниками..."
     },
     {
-      "id": "x-pravda-5a4194c1dcee",
-      "title": "Головна дипломатка ЄС сподівається, що перемовники США побачили неготовність Росії до миру",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052325/",
-      "summary": "Головна дипломатка ЄС Кая Каллас висловила сподівання, що візит спецпредставників американського президента до України довів їм – Росія не демонструє реальної зацікавленості в мирі.",
-      "publishedAt": "2026-09-07T16:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Головна дипломатка ЄС сподівається, що перемовники США побачили неготовність Росії до миру",
-      "summaryUk": "Головна дипломатка ЄС Кая Каллас висловила сподівання, що візит спецпредставників американського президента до України довів їм – Росія не демонструє реальної зацікавленості в мирі."
-    },
-    {
-      "id": "x-pravda-fa775547191d",
-      "title": "Політик від ультраправої \"АдН\" виставив скандальну чашку з символікою армії РФ на аукціон",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052323/",
-      "summary": "",
-      "publishedAt": "2026-09-07T16:29:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Політик від ультраправої \"АдН\" виставив скандальну чашку з символікою армії РФ на аукціон",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-8330c4ef7b95",
-      "title": "Київ був під атакою реактивних дронів, попри \"наказ\" Путіна не бити по столиці України",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052298/",
-      "summary": "Після повідомлення з Кремля про нібито наказ правителя Росії не завдавати ударів по Києву до 8 вересня у столиці оголошували тривогу і повідомили про масовану атаку реактивних дронів.",
-      "publishedAt": "2026-09-07T16:25:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Київ був під атакою реактивних дронів, попри \"наказ\" Путіна не бити по столиці України",
-      "summaryUk": "Після повідомлення з Кремля про нібито наказ правителя Росії не завдавати ударів по Києву до 8 вересня у столиці оголошували тривогу і повідомили про масовану атаку реактивних дронів."
-    },
-    {
       "id": "x-armyinform-ae44441bfcdc",
       "title": "Дешевше за саму «Бандероль»: українська розробка Brave1 вже знищує російські ракети-дрони",
       "url": "https://armyinform.com.ua/2026/09/07/deshevshe-za-samu-banderol-ukrayinska-rozrobka-brave1-vzhe-znyshhuye-rosijski-rakety-drony/",
@@ -400,134 +560,6 @@
       ],
       "titleUk": "Дешевше за саму «Бандероль»: українська розробка Brave1 вже знищує російські ракети-дрони",
       "summaryUk": "Про це повідомив кластер оборонних технологій Brave1. росія продовжує розвивати ударні системи та використовує нові типи озброєння для атак по українських містах. Однією..."
-    },
-    {
-      "id": "x-armyinform-0d71fd547294",
-      "title": "«Хто правильно переміщується, той і виживає»: як готують мисливців на FPV-дрони",
-      "url": "https://armyinform.com.ua/2026/09/07/hto-pravylno-peremishhuyetsya-toj-i-vyzhyvaye-yak-gotuyut-myslyvcziv-na-fpv-drony/",
-      "summary": "Відео підготовки оприлюднили 7 вересня Повітряні Сили ЗСУ. Рух, реакція, точність і злагодженість — тут немає права на помилку. Побачити....",
-      "publishedAt": "2026-09-07T16:21:21.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Хто правильно переміщується, той і виживає»: як готують мисливців на FPV-дрони",
-      "summaryUk": "Відео підготовки оприлюднили 7 вересня Повітряні Сили ЗСУ. Рух, реакція, точність і злагодженість — тут немає права на помилку. Побачити...."
-    },
-    {
-      "id": "x-pravda-f46253b74ae6",
-      "title": "\"ЄвроПравда\": Путін буде готовий до нових перемовин з Україною після 20 вересня",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052321/",
-      "summary": "Правитель Кремля Володимир Путін буде готовий до нового старту перемовного процесу про мир в Україні після завершення парламентських виборів у Росії 18-20 вересня.",
-      "publishedAt": "2026-09-07T16:20:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "\"ЄвроПравда\": Путін буде готовий до нових перемовин з Україною після 20 вересня",
-      "summaryUk": "Правитель Кремля Володимир Путін буде готовий до нового старту перемовного процесу про мир в Україні після завершення парламентських виборів у Росії 18-20 вересня."
-    },
-    {
-      "id": "x-pravda-36e7e552f6bf",
-      "title": "Винищувачі НАТО тричі підіймалися у повітря над країнами Балтії через російські літаки",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052319/",
-      "summary": "",
-      "publishedAt": "2026-09-07T16:07:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Винищувачі НАТО тричі підіймалися у повітря над країнами Балтії через російські літаки",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-175945cd52e5",
-      "title": "Глави МЗС України та Естонії поспілкувалися щодо російських атак",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052317/",
-      "summary": "",
-      "publishedAt": "2026-09-07T15:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Глави МЗС України та Естонії поспілкувалися щодо російських атак",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-d13c499a37ad",
-      "title": "Пасажирські перевезення з Латвії до Росії та Білорусі можуть повністю припинити з 2027 року",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052316/",
-      "summary": "",
-      "publishedAt": "2026-09-07T15:41:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Пасажирські перевезення з Латвії до Росії та Білорусі можуть повністю припинити з 2027 року",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-e8e3607ea334",
-      "title": "Віткофф після візиту до РФ та України заявив про прогрес у плануванні тристоронніх переговорів",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052311/",
-      "summary": "Спецпредставник президента США Стів Віткофф після візитів до Москви та Києва заявив про досягнення \"суттєвого прогресу\", зокрема щодо узгодження графіку додаткових тристоронніх переговорів.",
-      "publishedAt": "2026-09-07T15:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Віткофф після візиту до РФ та України заявив про прогрес у плануванні тристоронніх переговорів",
-      "summaryUk": "Спецпредставник президента США Стів Віткофф після візитів до Москви та Києва заявив про досягнення \"суттєвого прогресу\", зокрема щодо узгодження графіку додаткових тристоронніх переговорів."
-    },
-    {
-      "id": "x-pravda-68c3b72f32a7",
-      "title": "\"ЄвроПравда\" дізналася деталі перемовин з Віткоффом та Кушнером у Києві",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052299/",
-      "summary": "Протягом наступних тижнів триватиме підготовка переговорів з Росією про встановлення миру в Україні, у якій братимуть участь чотири країни, які разом сформулюють умови цих перемовин.",
-      "publishedAt": "2026-09-07T15:13:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "\"ЄвроПравда\" дізналася деталі перемовин з Віткоффом та Кушнером у Києві",
-      "summaryUk": "Протягом наступних тижнів триватиме підготовка переговорів з Росією про встановлення миру в Україні, у якій братимуть участь чотири країни, які разом сформулюють умови цих перемовин."
-    },
-    {
-      "id": "x-pravda-02532555c285",
-      "title": "Інцидент з дроном у Лейпцигу: РФ закриє генконсульство Німеччини в Петербурзі та філії Інституту Гете",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052296/",
-      "summary": "Міністерство закордонних справ Росії офіційно оголосило про заходи \"у відповідь\" на дії Німеччини після атаки в аеропорту \"Лейпциг/Галле\", відповідальність за яку Берлін поклав на РФ.",
-      "publishedAt": "2026-09-07T14:47:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Інцидент з дроном у Лейпцигу: РФ закриє генконсульство Німеччини в Петербурзі та філії Інституту Гете",
-      "summaryUk": "Міністерство закордонних справ Росії офіційно оголосило про заходи \"у відповідь\" на дії Німеччини після атаки в аеропорту \"Лейпциг/Галле\", відповідальність за яку Берлін поклав на РФ."
     },
     {
       "id": "x-euromaidan-4b39fd8ff69a",
@@ -880,86 +912,6 @@
       ],
       "titleUk": "Ukraine is taking 1980s Leopards from across Europe and giving them radar-guided anti-drone guns and gunner-less turrets",
       "summaryUk": "Thirty-one get a Belgian turret the crew doesn't sit in. Others become radar-guided drone killers, built in Rome and paid for with frozen Russian money."
-    },
-    {
-      "id": "x-euromaidan-a91bd6e8dd6e",
-      "title": "&#8220;Everyone is absolutely livid&#8221;: Expert says Russian agent may have activated MESH relay within 5 km of attack on Security Service, enraging Ukraine and Europe",
-      "url": "https://euromaidanpress.com/2026/09/05/everyone-is-absolutely-livid-expert-says-russian-agent-may-have-activated-mesh-relay-within-5-km-of-attack-on-security-service-enraging-ukraine-and-europe/",
-      "summary": "The drone was aimed directly at the acting SBU chief's office, Zelenskyy said.",
-      "publishedAt": "2026-09-05T11:27:10.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "&#8220;Everyone is absolutely livid&#8221;: Expert says Russian agent may have activated MESH relay within 5 km of attack on Security Service, enraging Ukraine and Europe",
-      "summaryUk": "The drone was aimed directly at the acting SBU chief's office, Zelenskyy said."
-    },
-    {
-      "id": "x-euromaidan-cc461a987d1b",
-      "title": "Russia destroyed most of Ukraine&#8217;s big warehouses. Now the country is scrambling to build small ones everywhere",
-      "url": "https://euromaidanpress.com/2026/09/05/russia-destroyed-most-of-ukraines-big-warehouses-now-the-country-is-scrambling-to-build-small-ones-everywhere/",
-      "summary": "Whether they can do it before winter, and at what cost to prices, is the question now hanging over the country's food supply.",
-      "publishedAt": "2026-09-05T10:45:23.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russia destroyed most of Ukraine&#8217;s big warehouses. Now the country is scrambling to build small ones everywhere",
-      "summaryUk": "Whether they can do it before winter, and at what cost to prices, is the question now hanging over the country's food supply."
-    },
-    {
-      "id": "x-euromaidan-83deb1d8da8e",
-      "title": "Russo-Ukrainian war, day 1654: Ukraine orders a three-day ceasefire as US envoys head to Moscow, and Kyiv&#8217;s sirens sound anyway",
-      "url": "https://euromaidanpress.com/2026/09/05/russo-ukrainian-war-day-1654/",
-      "summary": "The pause meant to smooth the way for restarted peace talks began under an air raid alert, with Russian attacks reported before it had even taken effect.",
-      "publishedAt": "2026-09-04T21:44:52.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russo-Ukrainian war, day 1654: Ukraine orders a three-day ceasefire as US envoys head to Moscow, and Kyiv&#8217;s sirens sound anyway",
-      "summaryUk": "The pause meant to smooth the way for restarted peace talks began under an air raid alert, with Russian attacks reported before it had even taken effect."
-    },
-    {
-      "id": "x-euromaidan-ac0a3fc2a72d",
-      "title": "Ukraine orders temporary ceasefire as US envoys visit Moscow. Air raid alert sounds in Kyiv immediately as pause begins",
-      "url": "https://euromaidanpress.com/2026/09/05/ukraine-orders-temporary-ceasefire-as-us-envoys-visit-moscow/",
-      "summary": "The reported order covers 5–8 September as Washington seeks to restart peace talks after months of stalled negotiations, but Russian attacks continued as the pause was due to begin.",
-      "publishedAt": "2026-09-04T21:25:55.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine orders temporary ceasefire as US envoys visit Moscow. Air raid alert sounds in Kyiv immediately as pause begins",
-      "summaryUk": "The reported order covers 5–8 September as Washington seeks to restart peace talks after months of stalled negotiations, but Russian attacks continued as the pause was due to begin."
-    },
-    {
-      "id": "x-euromaidan-587b3c26abce",
-      "title": "Germany suspects Russian intelligence behind arson attack as hybrid warfare threat grows across Europe",
-      "url": "https://euromaidanpress.com/2026/09/05/suspected-sabotage-hits-german-defense-firm/",
-      "summary": "The Munich attack follows attempts to disrupt Germany’s power grid and comes amid mounting evidence of Russian covert operations targeting European countries supporting Ukraine.",
-      "publishedAt": "2026-09-04T21:03:07.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Germany suspects Russian intelligence behind arson attack as hybrid warfare threat grows across Europe",
-      "summaryUk": "The Munich attack follows attempts to disrupt Germany’s power grid and comes amid mounting evidence of Russian covert operations targeting European countries supporting Ukraine."
     }
   ]
 }
