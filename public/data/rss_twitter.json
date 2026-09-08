@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T22:49:24.354Z",
+  "generatedAt": "2026-09-08T04:32:09.482Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,11 +98,27 @@
   ],
   "items": [
     {
-      "id": "x-pravda-c8d9dd4dbcd4",
-      "title": "В Києві та деяких областях – повітряна тривога: можлива робота ППО",
-      "url": "https://www.pravda.com.ua/news/2026/09/08/8052354/",
-      "summary": "У ніч на 8 вересня у Києві та регіонах оголосили тривогу через атаки дронів та загрозу балістики.",
-      "publishedAt": "2026-09-07T22:33:00.000Z",
+      "id": "x-armyinform-5f43346d7d23",
+      "title": "«Дедалі більше нагадує місто-привид»: який вигляд нині має Білозерське з висоти пташиного польоту",
+      "url": "https://armyinform.com.ua/2026/09/08/dedali-bilshe-nagaduye-misto-pryvyd-yakyj-vyglyad-nyni-maye-bilozerske-z-vysoty-ptashynogo-polotu/",
+      "summary": "Відео з його оглядом з висоти пташиного польоту оприлюднила в понеділок, 7 вересня, Державна прикордонна служба України. За словами наших...",
+      "publishedAt": "2026-09-08T04:18:54.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Дедалі більше нагадує місто-привид»: який вигляд нині має Білозерське з висоти пташиного польоту",
+      "summaryUk": "Відео з його оглядом з висоти пташиного польоту оприлюднила в понеділок, 7 вересня, Державна прикордонна служба України. За словами наших..."
+    },
+    {
+      "id": "x-pravda-aec5e77b5e4c",
+      "title": "Сили оборони України знешкодили ще 1410 російських окупантів – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052368/",
+      "summary": "Сили оборони України за добу ліквідували 1 410 окупантів. З 24.02.22 втрати РФ сягнули 1 499 390 осіб та тисячі одиниць техніки.",
+      "publishedAt": "2026-09-08T03:58:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
       "source": "x_rss",
@@ -110,8 +126,136 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "В Києві та деяких областях – повітряна тривога: можлива робота ППО",
-      "summaryUk": "У ніч на 8 вересня у Києві та регіонах оголосили тривогу через атаки дронів та загрозу балістики."
+      "titleUk": "Сили оборони України знешкодили ще 1410 російських окупантів – Генштаб",
+      "summaryUk": "Сили оборони України за добу ліквідували 1 410 окупантів. З 24.02.22 втрати РФ сягнули 1 499 390 осіб та тисячі одиниць техніки."
+    },
+    {
+      "id": "x-pravda-600df6885716",
+      "title": "Росія атакувала Київ: пошкоджені житлові будинки, двоє людей загинуло",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052360/",
+      "summary": "У ніч на 8 вересня російські війська обстріляли Київ балістикою: 2 загиблих, 7 постраждалих, руйнування в кількох районах столиці.",
+      "publishedAt": "2026-09-08T03:49:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія атакувала Київ: пошкоджені житлові будинки, двоє людей загинуло",
+      "summaryUk": "У ніч на 8 вересня російські війська обстріляли Київ балістикою: 2 загиблих, 7 постраждалих, руйнування в кількох районах столиці."
+    },
+    {
+      "id": "x-armyinform-f5ddf895dd96",
+      "title": "Атака на Київ: руйнування та пожежі в 5 районах міста, є постраждалі",
+      "url": "https://armyinform.com.ua/2026/09/08/ataka-na-kyyiv-rujnuvannya-ta-pozhezhi-v-5-rajonah-mista-ye-postrazhdali/",
+      "summary": "Про це повідомили в ДСНС України. У Голосіївському районі внаслідок влучання в 26-поверхову нежитлову будівлю на рівні 23-го поверху сталося...",
+      "publishedAt": "2026-09-08T03:38:44.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Атака на Київ: руйнування та пожежі в 5 районах міста, є постраждалі",
+      "summaryUk": "Про це повідомили в ДСНС України. У Голосіївському районі внаслідок влучання в 26-поверхову нежитлову будівлю на рівні 23-го поверху сталося..."
+    },
+    {
+      "id": "x-armyinform-6288012d4f0f",
+      "title": "Генеральний штаб ЗСУ повідомив про втрати противника за добу",
+      "url": "https://armyinform.com.ua/2026/09/08/generalnyj-shtab-zsu-povidomyv-pro-vtraty-protyvnyka-za-dobu/",
+      "summary": "Про це повідомив Генеральний штаб ЗСУ. Загальні бойові втрати противника з 24.02.22 по 08.09.26 склали: особового складу — близько 1 499 390...",
+      "publishedAt": "2026-09-08T03:34:31.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генеральний штаб ЗСУ повідомив про втрати противника за добу",
+      "summaryUk": "Про це повідомив Генеральний штаб ЗСУ. Загальні бойові втрати противника з 24.02.22 по 08.09.26 склали: особового складу — близько 1 499 390..."
+    },
+    {
+      "id": "x-pravda-0a6b38853b92",
+      "title": "Польща підіймала авіацію через російську атаку по Україні",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052364/",
+      "summary": "Оперативне командування ЗС Польщі залучило авіацію для захисту повітряного простору через удари Росії по Україні.",
+      "publishedAt": "2026-09-08T03:33:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Польща підіймала авіацію через російську атаку по Україні",
+      "summaryUk": "Оперативне командування ЗС Польщі залучило авіацію для захисту повітряного простору через удари Росії по Україні."
+    },
+    {
+      "id": "x-armyinform-291829dad7b3",
+      "title": "«Артилерія 2014-го, 2022-го і 2026 року — це три різні війни»: як з нуля створювали 147 ОАБр 7-го корпусу ДШВ",
+      "url": "https://armyinform.com.ua/2026/09/08/artyleriya-2014-go-2022-go-i-2026-roku-cze-try-rizni-vijny-yak-z-nulya-stvoryuvaly-147-oabr-7-go-korpusu-dshv/",
+      "summary": "19 липня цього року 147-ма окрема артилерійська бригада, яка входить до 7-го корпусу швидкого реагування Десантно-штурмових військ Збройних Сил України,...",
+      "publishedAt": "2026-09-08T03:01:02.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Артилерія 2014-го, 2022-го і 2026 року — це три різні війни»: як з нуля створювали 147 ОАБр 7-го корпусу ДШВ",
+      "summaryUk": "19 липня цього року 147-ма окрема артилерійська бригада, яка входить до 7-го корпусу швидкого реагування Десантно-штурмових військ Збройних Сил України,..."
+    },
+    {
+      "id": "x-pravda-c8d9dd4dbcd4",
+      "title": "РФ атакувала Київ ракетами, у місті лунали вибухи",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052354/",
+      "summary": "У ніч на 8 вересня ворог атакував Київ ракетами і дронами.",
+      "publishedAt": "2026-09-08T02:39:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ атакувала Київ ракетами, у місті лунали вибухи",
+      "summaryUk": "У ніч на 8 вересня ворог атакував Київ ракетами і дронами."
+    },
+    {
+      "id": "x-pravda-f00f1c8d152f",
+      "title": "ЗМІ: Україна може отримати SAMP/T, тривають переговори і щодо Patriot",
+      "url": "https://www.pravda.com.ua/news/2026/09/08/8052359/",
+      "summary": "Держави з системами Patriot ведуть переговори про їх передачу Україні. Франція та Італія планують надати системи SAMP/T з ракетами Aster.",
+      "publishedAt": "2026-09-07T23:21:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "ЗМІ: Україна може отримати SAMP/T, тривають переговори і щодо Patriot",
+      "summaryUk": "Держави з системами Patriot ведуть переговори про їх передачу Україні. Франція та Італія планують надати системи SAMP/T з ракетами Aster."
+    },
+    {
+      "id": "x-euromaidan-11278a8854a1",
+      "title": "A US-Russia deal won&#8217;t end the war. It will start the next one",
+      "url": "https://euromaidanpress.com/2026/09/08/a-us-russia-deal-wont-end-the-war-it-will-start-the-next-one/",
+      "summary": "Two American processes are converging on the same point: the cost to Russia of attacking NATO. A peace on Moscow's terms lowers the political price; a US troop drawdown lowers the military one. Moscow is waiting to read both before it moves.",
+      "publishedAt": "2026-09-07T23:08:25.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "A US-Russia deal won&#8217;t end the war. It will start the next one",
+      "summaryUk": "Two American processes are converging on the same point: the cost to Russia of attacking NATO. A peace on Moscow's terms lowers the political price; a US troop drawdown lowers the military one. Moscow is waiting to read both before it moves."
     },
     {
       "id": "x-pravda-0c0695239e32",
@@ -163,7 +307,7 @@
     },
     {
       "id": "x-pravda-2202a7194250",
-      "title": "$7 тисяч з кол-центру щомісяця – прокурорам. Перший залп НАБУ і САП по шахрайському \"Карфагену\"",
+      "title": "$7000 доларів з кол-центру щомісяця – прокурорам. Перший залп НАБУ і САП по шахрайському \"Карфагену\"",
       "url": "https://www.pravda.com.ua/articles/2026/09/08/8052352/",
       "summary": "Ще в далекому 2023-му році в редакції \"Української правди\" на одному з публічних заходів виникла жвава дискусія з бізнесменами, яка зводилася до одного простого питання: як кол-центри продовжують існувати, якщо всі правоохоронні органи з ними борються? Тоді банкіри не перший місяць жалілись на шалені втрати клієнтів через шахрайську діяльність, а жертвами так званих \"офісів\" дедалі частіше ставали громадяни європейських країн.",
       "publishedAt": "2026-09-07T21:22:00.000Z",
@@ -174,7 +318,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "$7 тисяч з кол-центру щомісяця – прокурорам. Перший залп НАБУ і САП по шахрайському \"Карфагену\"",
+      "titleUk": "$7000 доларів з кол-центру щомісяця – прокурорам. Перший залп НАБУ і САП по шахрайському \"Карфагену\"",
       "summaryUk": "Ще в далекому 2023-му році в редакції \"Української правди\" на одному з публічних заходів виникла жвава дискусія з бізнесменами, яка зводилася до одного простого питання: як кол-центри продовжують існувати, якщо всі правоохоронні органи з ними борються? Тоді банкіри не перший місяць жалілись на шалені втрати клієнтів через шахрайську діяльність, а жертвами так званих \"офісів\" дедалі частіше ставали громадяни європейських країн."
     },
     {
@@ -386,38 +530,6 @@
       "summaryUk": "Про це повідомила Служба безпеки України. Чоловіка СБУ викрила у жовтні 2024 року. За даними слідства, він шукав легкий заробіток у Telegram-каналах, де на нього вийшов представник..."
     },
     {
-      "id": "x-pravda-4ce7e618ec93",
-      "title": "Зеленський почув від посланців Трампа про \"готовність росіян до переговорів\"",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052338/",
-      "summary": "Президент України Володимир Зеленський після зустрічі з перемовниками американського лідера Дональда Трампа заявив, що отримав від них послання: \"росіяни готові до переговорів\".",
-      "publishedAt": "2026-09-07T18:06:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський почув від посланців Трампа про \"готовність росіян до переговорів\"",
-      "summaryUk": "Президент України Володимир Зеленський після зустрічі з перемовниками американського лідера Дональда Трампа заявив, що отримав від них послання: \"росіяни готові до переговорів\"."
-    },
-    {
-      "id": "x-pravda-79d8dd95e64f",
-      "title": "Журналісти знайшли у близьких Кропиви нерухомість, автівки та російські паспорти",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052337/",
-      "summary": "Журналісти \"hromadske\" знайшли в близьких заступника начальника Департаменту міжнародного співробітництва Офісу генерального прокурора Сергія Кропиви нерухомість та автівки набуті з 2021 року.",
-      "publishedAt": "2026-09-07T18:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Журналісти знайшли у близьких Кропиви нерухомість, автівки та російські паспорти",
-      "summaryUk": "Журналісти \"hromadske\" знайшли в близьких заступника начальника Департаменту міжнародного співробітництва Офісу генерального прокурора Сергія Кропиви нерухомість та автівки набуті з 2021 року."
-    },
-    {
       "id": "x-armyinform-c70731e96b46",
       "title": "Бій починався за п’ять метрів: у «Скелі» розповіли про штурми на Олександрівському напрямку",
       "url": "https://armyinform.com.ua/2026/09/07/zachystka-pochynalasya-za-5-metriv-vid-voroga-bijczi-%c2%abskeli%c2%bb-rozpovily-pro-shturmy-na-oleksandrivskomu-napryamku/",
@@ -434,86 +546,6 @@
       "summaryUk": "Про це в сюжеті марафону «Єдині новини» розповіли представники підрозділу. Російські війська на Олександрівському напрямку дедалі рідше намагаються виходити у відкритий бій. Натомість..."
     },
     {
-      "id": "x-pravda-96ce661a42fb",
-      "title": "Зеленський допустив новий раунд тристоронніх переговорів із США та Росією",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052336/",
-      "summary": "Президент України Володимир Зеленський вважає, що існує можливість проведення тристороннього раунду переговорів між США, Україною та Росією, хоча рішення щодо цього ще не ухвалене.",
-      "publishedAt": "2026-09-07T17:56:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський допустив новий раунд тристоронніх переговорів із США та Росією",
-      "summaryUk": "Президент України Володимир Зеленський вважає, що існує можливість проведення тристороннього раунду переговорів між США, Україною та Росією, хоча рішення щодо цього ще не ухвалене."
-    },
-    {
-      "id": "x-pravda-61fc493d86f3",
-      "title": "Коханка та падчерка Лаврова отримали паспорти ОАЕ – ФБК",
-      "url": "https://www.pravda.com.ua/news/2026/09/07/8052333/",
-      "summary": "Коханка та падчерка очільника російського МЗС Сергія Лаврова отримали громадянство Об'єднаних Арабських Еміратів.",
-      "publishedAt": "2026-09-07T17:50:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Коханка та падчерка Лаврова отримали паспорти ОАЕ – ФБК",
-      "summaryUk": "Коханка та падчерка очільника російського МЗС Сергія Лаврова отримали громадянство Об'єднаних Арабських Еміратів."
-    },
-    {
-      "id": "x-armyinform-25a30893d6a6",
-      "title": "Допливли, злетіли, уразили: з’явилися кадри роботи наших FPV-дронів, що базуються на катерах",
-      "url": "https://armyinform.com.ua/2026/09/07/doplyvly-zletily-urazyly-zyavylysya-kadry-roboty-nashyh-fpv-droni-shho-bazuyutsya-na-katerah/",
-      "summary": "Відео роботи носіїв FPV-дронів було оприлюднене 7 вересня на сторінці Wild hornets, виробника Sting. «Те, про що ми довго не...",
-      "publishedAt": "2026-09-07T17:38:37.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Допливли, злетіли, уразили: з’явилися кадри роботи наших FPV-дронів, що базуються на катерах",
-      "summaryUk": "Відео роботи носіїв FPV-дронів було оприлюднене 7 вересня на сторінці Wild hornets, виробника Sting. «Те, про що ми довго не..."
-    },
-    {
-      "id": "x-armyinform-24be3ad6306e",
-      "title": "«Хлопця трохи посікло гвинтами, але він швидко викинув дрон»: історія дивовижної евакуації",
-      "url": "https://armyinform.com.ua/2026/09/07/hlopczya-trohy-posiklo-gvyntamy-ale-vin-shvydko-vykynuv-dron-istoriya-dyvovyzhnoyi-evakuacziyi/",
-      "summary": "Відео про цю історію було оприлюднене на каналі бригади, що входить до складу 8-го корпусу ДШВ ЗСУ. «Це була перша...",
-      "publishedAt": "2026-09-07T17:11:56.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Хлопця трохи посікло гвинтами, але він швидко викинув дрон»: історія дивовижної евакуації",
-      "summaryUk": "Відео про цю історію було оприлюднене на каналі бригади, що входить до складу 8-го корпусу ДШВ ЗСУ. «Це була перша..."
-    },
-    {
-      "id": "x-armyinform-8c2a3df8c9f5",
-      "title": "Українські розробники увійшли до трійки переможців конкурсу НАТО з блокування аеродромів противника",
-      "url": "https://armyinform.com.ua/2026/09/07/ukrayinski-rozrobnyky-uvijshly-do-trijky-peremozhcziv-konkursu-nato-z-blokuvannya-aerodromiv-protyvnyka/",
-      "summary": "Про це повідомило Міністерство оборони України. Компанії з Чехії, Польщі та України стали переможцями конкурсу інновацій Persistent Airfield Denial, який провели Командування НАТО...",
-      "publishedAt": "2026-09-07T16:56:02.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українські розробники увійшли до трійки переможців конкурсу НАТО з блокування аеродромів противника",
-      "summaryUk": "Про це повідомило Міністерство оборони України. Компанії з Чехії, Польщі та України стали переможцями конкурсу інновацій Persistent Airfield Denial, який провели Командування НАТО..."
-    },
-    {
       "id": "x-euromaidan-334ed04513f6",
       "title": "Ukraine&#8217;s Brave1 says it can down Russia&#8217;s Banderol missiles with cruising speed 650 km/h for less than what they cost, and has destroyed at least four",
       "url": "https://euromaidanpress.com/2026/09/07/ukraines-brave1-says-it-can-down-russias-banderol-missiles-with-cruising-speed-650-km-h-less-than-they-cost-and-has-destroyed-at-least-four/",
@@ -528,38 +560,6 @@
       ],
       "titleUk": "Ukraine&#8217;s Brave1 says it can down Russia&#8217;s Banderol missiles with cruising speed 650 km/h for less than what they cost, and has destroyed at least four",
       "summaryUk": "In July, Ukrainian troops downed Banderols with Swedish Bofors L70 anti-aircraft guns designed in the late 1940s."
-    },
-    {
-      "id": "x-armyinform-6f50e582f7a8",
-      "title": "Україна готує Ставку щодо антибалістичної програми FREYJA та далекобійних спроможностей",
-      "url": "https://armyinform.com.ua/2026/09/07/ukrayina-gotuye-stavku-shhodo-antybalistychnoyi-programy-freyja-ta-dalekobijnyh-spromozhnostej/",
-      "summary": "Про це повідомив Президент України Володимир Зеленський за підсумками доповіді секретаря РНБО Ігоря Клименка. За словами глави держави, найближчим часом відбудуться зустрічі з представниками...",
-      "publishedAt": "2026-09-07T16:39:40.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна готує Ставку щодо антибалістичної програми FREYJA та далекобійних спроможностей",
-      "summaryUk": "Про це повідомив Президент України Володимир Зеленський за підсумками доповіді секретаря РНБО Ігоря Клименка. За словами глави держави, найближчим часом відбудуться зустрічі з представниками..."
-    },
-    {
-      "id": "x-armyinform-ae44441bfcdc",
-      "title": "Дешевше за саму «Бандероль»: українська розробка Brave1 вже знищує російські ракети-дрони",
-      "url": "https://armyinform.com.ua/2026/09/07/deshevshe-za-samu-banderol-ukrayinska-rozrobka-brave1-vzhe-znyshhuye-rosijski-rakety-drony/",
-      "summary": "Про це повідомив кластер оборонних технологій Brave1. росія продовжує розвивати ударні системи та використовує нові типи озброєння для атак по українських містах. Однією...",
-      "publishedAt": "2026-09-07T16:23:42.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дешевше за саму «Бандероль»: українська розробка Brave1 вже знищує російські ракети-дрони",
-      "summaryUk": "Про це повідомив кластер оборонних технологій Brave1. росія продовжує розвивати ударні системи та використовує нові типи озброєння для атак по українських містах. Однією..."
     },
     {
       "id": "x-euromaidan-4b39fd8ff69a",
@@ -896,22 +896,6 @@
       ],
       "titleUk": "From HQ to the zero line: Ukraine&#8217;s Hrafit system answers one important question on an ordinary phone in a trench and on the road",
       "summaryUk": "Built by military programmers, Hrafit fuses radio-intelligence and surveillance into one picture."
-    },
-    {
-      "id": "x-euromaidan-6349a510537b",
-      "title": "Ukraine is taking 1980s Leopards from across Europe and giving them radar-guided anti-drone guns and gunner-less turrets",
-      "url": "https://euromaidanpress.com/2026/09/05/leopard-1a5-cockerill/",
-      "summary": "Thirty-one get a Belgian turret the crew doesn't sit in. Others become radar-guided drone killers, built in Rome and paid for with frozen Russian money.",
-      "publishedAt": "2026-09-05T11:45:26.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine is taking 1980s Leopards from across Europe and giving them radar-guided anti-drone guns and gunner-less turrets",
-      "summaryUk": "Thirty-one get a Belgian turret the crew doesn't sit in. Others become radar-guided drone killers, built in Rome and paid for with frozen Russian money."
     }
   ]
 }
