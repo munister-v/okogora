@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:50:07.114Z",
+  "generatedAt": "2026-09-11T00:08:34.586Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,134 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-4578bf99cc6b",
+      "title": "Україна та Італія обговорили спільний патронат над будівництвом підземної школи – Стефанчук",
+      "url": "https://www.pravda.com.ua/news/2026/09/11/8052882/",
+      "summary": "Голова ВР Руслан Стефанчук та Лоренцо Фонтана обговорили безпекову ситуацію і спільний патронат над підземною школою для захисту дітей",
+      "publishedAt": "2026-09-10T23:55:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Україна та Італія обговорили спільний патронат над будівництвом підземної школи – Стефанчук",
+      "summaryUk": "Голова ВР Руслан Стефанчук та Лоренцо Фонтана обговорили безпекову ситуацію і спільний патронат над підземною школою для захисту дітей"
+    },
+    {
+      "id": "x-euromaidan-910d429f60d7",
+      "title": "Russia has eight ships left that can carry Kalibrs. Analysts say Ukraine hit three of them in one night",
+      "url": "https://euromaidanpress.com/2026/09/11/admiral-essen-hit/",
+      "summary": "Ukraine is intensifying its efforts to eliminate Russia's ability to fire Kalibr cruise missiles at Ukrainian cities.",
+      "publishedAt": "2026-09-10T22:45:01.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russia has eight ships left that can carry Kalibrs. Analysts say Ukraine hit three of them in one night",
+      "summaryUk": "Ukraine is intensifying its efforts to eliminate Russia's ability to fire Kalibr cruise missiles at Ukrainian cities."
+    },
+    {
+      "id": "x-pravda-b6aeadfeb4f1",
+      "title": "Сибіга про удар по Павлограду: Україна потребує додаткових систем ППО",
+      "url": "https://www.pravda.com.ua/news/2026/09/11/8052880/",
+      "summary": "Унаслідок удару по ТРЦ у Павлограді загинули 5 людей, поранено 67. Сибіга закликав партнерів надати ППО та посилити санкції проти Росії.",
+      "publishedAt": "2026-09-10T22:18:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Сибіга про удар по Павлограду: Україна потребує додаткових систем ППО",
+      "summaryUk": "Унаслідок удару по ТРЦ у Павлограді загинули 5 людей, поранено 67. Сибіга закликав партнерів надати ППО та посилити санкції проти Росії."
+    },
+    {
+      "id": "x-euromaidan-fe162b1f9ae4",
+      "title": "Russo-Ukrainian war, day 1660: Ukraine strikes further into Russia than ever before, hitting gas plants over 3,000 km from its border",
+      "url": "https://euromaidanpress.com/2026/09/11/russo-ukrainian-war-day-1660/",
+      "summary": "The same day brought a fire at a Russia-Iran hub on the Caspian and a $1bn Canadian air defense pledge as Russia builds around 100 ballistic missiles a month.",
+      "publishedAt": "2026-09-10T21:47:31.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1660: Ukraine strikes further into Russia than ever before, hitting gas plants over 3,000 km from its border",
+      "summaryUk": "The same day brought a fire at a Russia-Iran hub on the Caspian and a $1bn Canadian air defense pledge as Russia builds around 100 ballistic missiles a month."
+    },
+    {
+      "id": "x-pravda-8990fb7fc6bc",
+      "title": "Зеленський анонсував підписання Drone Deal з Канадою",
+      "url": "https://www.pravda.com.ua/news/2026/09/11/8052879/",
+      "summary": "Зеленський повідомив, що угоду Drone Deal між Україною та Канадою планують укласти у вересні в Нью-Йорку.",
+      "publishedAt": "2026-09-10T21:39:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський анонсував підписання Drone Deal з Канадою",
+      "summaryUk": "Зеленський повідомив, що угоду Drone Deal між Україною та Канадою планують укласти у вересні в Нью-Йорку."
+    },
+    {
+      "id": "x-euromaidan-1ca4c33e481f",
+      "title": "Ukraine hits key Russia-Iran logistics hub in Caspian Sea, damages three Russian warships",
+      "url": "https://euromaidanpress.com/2026/09/11/ukraine-hits-key-russia-iran-logistics-hub-in-caspian-sea-damages-three-russian-warships/",
+      "summary": "A fire broke out at the Makhachkala port after Ukrainian forces struck its oil infrastructure, while separate attacks damaged Russian vessels in Novorossiysk.",
+      "publishedAt": "2026-09-10T21:29:41.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine hits key Russia-Iran logistics hub in Caspian Sea, damages three Russian warships",
+      "summaryUk": "A fire broke out at the Makhachkala port after Ukrainian forces struck its oil infrastructure, while separate attacks damaged Russian vessels in Novorossiysk."
+    },
+    {
+      "id": "x-pravda-8b8d60496a75",
+      "title": "Зеленський очікує на прогрес в переговорах щодо енергетики після зустрічі з Трампом",
+      "url": "https://www.pravda.com.ua/news/2026/09/11/8052878/",
+      "summary": "Президент Володимир Зеленський заявив, що очікує на зустріч з американською делегацією наприкінці вересня, на якій Україна підніматиме питання щодо енергетичної та продовольчої безпеки.",
+      "publishedAt": "2026-09-10T21:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський очікує на прогрес в переговорах щодо енергетики після зустрічі з Трампом",
+      "summaryUk": "Президент Володимир Зеленський заявив, що очікує на зустріч з американською делегацією наприкінці вересня, на якій Україна підніматиме питання щодо енергетичної та продовольчої безпеки."
+    },
+    {
+      "id": "x-pravda-27dfe8f9381b",
+      "title": "Росіяни 4 рази за день атакували Дніпро: загорілись продуктові склади, 2 поранених",
+      "url": "https://www.pravda.com.ua/news/2026/09/10/8052830/",
+      "summary": "Окупанти атакували продуктові склади у Дніпрі та інфраструктуру в Одесі",
+      "publishedAt": "2026-09-10T20:45:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни 4 рази за день атакували Дніпро: загорілись продуктові склади, 2 поранених",
+      "summaryUk": "Окупанти атакували продуктові склади у Дніпрі та інфраструктуру в Одесі"
+    },
     {
       "id": "x-euromaidan-4fc8d48e2d18",
       "title": "EU lawmakers renew push to seize frozen Russian assets as Ukraine faces its toughest winter yet with a €23 billion defense funding gap",
@@ -418,22 +546,6 @@
       "summaryUk": "Про це Президент повідомив у соцмережах. Серед ключових тем — зимовий пакет підтримки, енергетика, протиповітряна оборона, фінансова стійкість України та спільні оборонні..."
     },
     {
-      "id": "x-pravda-8546ee172cf6",
-      "title": "Зеленський анонсував новий пакет допомоги з ППО від Канади",
-      "url": "https://www.pravda.com.ua/news/2026/09/10/8052847/",
-      "summary": "Президент Володимир Зеленський заявив, що Канада підготувала новий пакет допомоги із засобами протиповітряної оборони для України.",
-      "publishedAt": "2026-09-10T17:45:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський анонсував новий пакет допомоги з ППО від Канади",
-      "summaryUk": "Президент Володимир Зеленський заявив, що Канада підготувала новий пакет допомоги із засобами протиповітряної оборони для України."
-    },
-    {
       "id": "x-armyinform-0221353d426c",
       "title": "Рік серед мін і дронів: «трудяги-роботи» 91-го батальйону перевезли понад 64 тонни вантажів",
       "url": "https://armyinform.com.ua/2026/09/10/rik-sered-min-i-droniv-trudyagy-roboty-91-go-bataljonu-perevezly-ponad-64-tonny-vantazhiv/",
@@ -448,22 +560,6 @@
       ],
       "titleUk": "Рік серед мін і дронів: «трудяги-роботи» 91-го батальйону перевезли понад 64 тонни вантажів",
       "summaryUk": "Про це повідомили  в 91-му окремому протитанковому батальйоні, оприлюднивши відео роботи наземних роботизованих комплексів. За сухими цифрами — цілком буденна фронтова робота: підвезти..."
-    },
-    {
-      "id": "x-pravda-afd2c47e39cd",
-      "title": "Російський удар по ТРЦ у Павлограді: кількість загиблих зросла до 5, постраждалих уже 67",
-      "url": "https://www.pravda.com.ua/news/2026/09/10/8052846/",
-      "summary": "Російська атака на ТРЦ у Павлограді забрала життя уже 5 людей, ще 67 мешканців міста, серед яких 8 дітей, постраждали.",
-      "publishedAt": "2026-09-10T17:28:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російський удар по ТРЦ у Павлограді: кількість загиблих зросла до 5, постраждалих уже 67",
-      "summaryUk": "Російська атака на ТРЦ у Павлограді забрала життя уже 5 людей, ще 67 мешканців міста, серед яких 8 дітей, постраждали."
     },
     {
       "id": "x-euromaidan-3c6ca99a3642",
@@ -498,38 +594,6 @@
       "summaryUk": "Про це повідомив Володимир Зеленський. «Сьогодні у нашому Павлограді росіяни убили дронами людей, які просто були поруч із торговельними центрами...."
     },
     {
-      "id": "x-pravda-476691034193",
-      "title": "Вадефуль вважає, що політики мають переконувати виборців у важливості підтримки України",
-      "url": "https://www.pravda.com.ua/news/2026/09/10/8052844/",
-      "summary": "Міністр закордонних справ Німеччини Йоганн Вадефуль заявив, що німецькі урядовці мають докласти більше зусиль, щоб переконати виборців у ну необхідності подальшої підтримки України та дотримання країною своїх зобов'язань перед НАТО.",
-      "publishedAt": "2026-09-10T17:14:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Вадефуль вважає, що політики мають переконувати виборців у важливості підтримки України",
-      "summaryUk": "Міністр закордонних справ Німеччини Йоганн Вадефуль заявив, що німецькі урядовці мають докласти більше зусиль, щоб переконати виборців у ну необхідності подальшої підтримки України та дотримання країною своїх зобов'язань перед НАТО."
-    },
-    {
-      "id": "x-pravda-7db96fdf068b",
-      "title": "Туск: Польща очікує, що РФ може атакувати пункти пропуску на кордоні з Україною",
-      "url": "https://www.pravda.com.ua/news/2026/09/10/8052842/",
-      "summary": "Прем'єр Польщі Дональд Туск заявив, що очікує провокацій з боку Росії на кордонах з Україною. Він отримав детальний звіт від ЦРУ про можливі загрози.",
-      "publishedAt": "2026-09-10T17:13:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Туск: Польща очікує, що РФ може атакувати пункти пропуску на кордоні з Україною",
-      "summaryUk": "Прем'єр Польщі Дональд Туск заявив, що очікує провокацій з боку Росії на кордонах з Україною. Він отримав детальний звіт від ЦРУ про можливі загрози."
-    },
-    {
       "id": "x-armyinform-33a7f5d38b7f",
       "title": "«Вибухи для картинки»: СЗР попереджає про можливі провокації рф під час «виборів» на ТОТ",
       "url": "https://armyinform.com.ua/2026/09/10/vybuhy-dlya-kartynky-szr-poperedzhaye-pro-mozhlyvi-provokacziyi-rf-pid-chas-vyboriv-na-tot/",
@@ -544,38 +608,6 @@
       ],
       "titleUk": "«Вибухи для картинки»: СЗР попереджає про можливі провокації рф під час «виборів» на ТОТ",
       "summaryUk": "Про це повідомила Служба зовнішньої розвідки України. У СЗР оцінюють імовірність таких провокацій як високу саме в період незаконних виборів до держдуми рф та примусового «дострокового голосування»..."
-    },
-    {
-      "id": "x-pravda-4eb291b1f540",
-      "title": "У Києві російські дрони вдарили по бізнес-центру і складах: вирує пожежа",
-      "url": "https://www.pravda.com.ua/news/2026/09/10/8052833/",
-      "summary": "У Києві російські безпілотники впали на офісну будівлю в Оболонському та бізнес-центр у Солом'янському районі. На місці працюють екстрені служби.",
-      "publishedAt": "2026-09-10T17:05:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Києві російські дрони вдарили по бізнес-центру і складах: вирує пожежа",
-      "summaryUk": "У Києві російські безпілотники впали на офісну будівлю в Оболонському та бізнес-центр у Солом'янському районі. На місці працюють екстрені служби."
-    },
-    {
-      "id": "x-pravda-1ff65d4ad308",
-      "title": "Під Києвом внаслідок атаки горять склади",
-      "url": "https://www.pravda.com.ua/news/2026/09/10/8052837/",
-      "summary": "Складська будівля горить у Бучанському районі Київщини внаслідок російської атаки увечері 10 вересня.",
-      "publishedAt": "2026-09-10T16:55:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Під Києвом внаслідок атаки горять склади",
-      "summaryUk": "Складська будівля горить у Бучанському районі Київщини внаслідок російської атаки увечері 10 вересня."
     },
     {
       "id": "x-armyinform-df524c5ee988",
@@ -976,54 +1008,6 @@
       ],
       "titleUk": "Osa air defense missile stocks are running low, but Ukraine has developed the RK-19 as a replacement",
       "summaryUk": "Ukraine's Osa launchers stay in the fight with a domestically built RK-19 interceptor as the Soviet 9M33 stock runs down."
-    },
-    {
-      "id": "x-euromaidan-d9b2f4f6b259",
-      "title": "Russia&#8217;s new ballistic missile could reach western Ukraine—and it may be tested there within months",
-      "url": "https://euromaidanpress.com/2026/09/09/russias-new-ballistic-missile-could-reach-western-ukraine-and-it-may-be-tested-there-within-months/",
-      "summary": "Russia is building more ballistic missiles as well as longer-ranged ones, part of a push to tip Ukraine into a social and economic crisis, Kyiv's military intelligence says.",
-      "publishedAt": "2026-09-09T14:03:40.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russia&#8217;s new ballistic missile could reach western Ukraine—and it may be tested there within months",
-      "summaryUk": "Russia is building more ballistic missiles as well as longer-ranged ones, part of a push to tip Ukraine into a social and economic crisis, Kyiv's military intelligence says."
-    },
-    {
-      "id": "x-euromaidan-0aa46fff6dc7",
-      "title": "20% to 70%: Ukraine&#8217;s National Guard rewired its drone war around cables",
-      "url": "https://euromaidanpress.com/2026/09/09/20-to-70-ukraines-national-guard-rewired-its-drone-war-around-cables/",
-      "summary": "Fiber-optic drones trail a cable with no signal to jam—and now account for 70% of the drones the National Guard uses, up from about a fifth.",
-      "publishedAt": "2026-09-09T12:52:54.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "20% to 70%: Ukraine&#8217;s National Guard rewired its drone war around cables",
-      "summaryUk": "Fiber-optic drones trail a cable with no signal to jam—and now account for 70% of the drones the National Guard uses, up from about a fifth."
-    },
-    {
-      "id": "x-euromaidan-47e1f2ffadcc",
-      "title": "Ukraine reported hitting warships and an oil terminal in a Russian port city whose mayor claimed only falling debris",
-      "url": "https://euromaidanpress.com/2026/09/09/ukraine-reported-hitting-warships-and-an-oil-shipping-terminal-where-the-local-authority-claimed-only-fires-from-falling-debris/",
-      "summary": "Orbital heat detection and eyewitness cameras placed more than one blaze across Novorossiysk overnight, in a port that carries a large share of Russia's seaborne export trade.",
-      "publishedAt": "2026-09-09T12:09:24.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine reported hitting warships and an oil terminal in a Russian port city whose mayor claimed only falling debris",
-      "summaryUk": "Orbital heat detection and eyewitness cameras placed more than one blaze across Novorossiysk overnight, in a port that carries a large share of Russia's seaborne export trade."
     }
   ]
 }
