@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T20:56:59.319Z",
+  "generatedAt": "2026-09-12T00:16:45.567Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,86 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-4115ae61f1aa",
+      "title": "Війська РФ вдарили по Дніпру: спалахнула пожежа на промисловому підприємстві",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053045/",
+      "summary": "У результаті ворожої атаки на Дніпро виникла пожежа на одному з промислових підприємств міста, за попередніми даними, минулося без постраждалих.",
+      "publishedAt": "2026-09-11T23:25:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Війська РФ вдарили по Дніпру: спалахнула пожежа на промисловому підприємстві",
+      "summaryUk": "У результаті ворожої атаки на Дніпро виникла пожежа на одному з промислових підприємств міста, за попередніми даними, минулося без постраждалих."
+    },
+    {
+      "id": "x-pravda-ce43dc54a8ae",
+      "title": "Росіяни вдарили дроном по приватному сектору Запоріжжя: загинула жінка, є постраждалі",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053044/",
+      "summary": "У ніч на 12 вересня російські окупаційні війська атакували Запоріжжя ударними безпілотниками. Внаслідок влучання у житловий сектор одна людина загинула, є постраждалі та руйнування.",
+      "publishedAt": "2026-09-11T23:11:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили дроном по приватному сектору Запоріжжя: загинула жінка, є постраждалі",
+      "summaryUk": "У ніч на 12 вересня російські окупаційні війська атакували Запоріжжя ударними безпілотниками. Внаслідок влучання у житловий сектор одна людина загинула, є постраждалі та руйнування."
+    },
+    {
+      "id": "x-pravda-6300873e4179",
+      "title": "Путін погрожує Європі війною у разі введення європейських військ в Україну",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053043/",
+      "summary": "Очільник Росії Володимир Путін заявив, що розміщення військового контингенту європейських країн на території України означатиме війну з Росією.",
+      "publishedAt": "2026-09-11T22:45:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Путін погрожує Європі війною у разі введення європейських військ в Україну",
+      "summaryUk": "Очільник Росії Володимир Путін заявив, що розміщення військового контингенту європейських країн на території України означатиме війну з Росією."
+    },
+    {
+      "id": "x-euromaidan-df34cf39ca83",
+      "title": "Russia spent 18 months building the road to Sloviansk. Ukraine spent three taking it back",
+      "url": "https://euromaidanpress.com/2026/09/12/lyman-salient-2/",
+      "summary": "The 3rd Army Corps attacked on 22 May and nobody outside the army reported it until late August. Whether it changes the war is the one thing the analysts do not agree on.",
+      "publishedAt": "2026-09-11T22:29:54.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russia spent 18 months building the road to Sloviansk. Ukraine spent three taking it back",
+      "summaryUk": "The 3rd Army Corps attacked on 22 May and nobody outside the army reported it until late August. Whether it changes the war is the one thing the analysts do not agree on."
+    },
+    {
+      "id": "x-pravda-24ef96fde12e",
+      "title": "Саудівська Аравія зупинила ключовий нафтопровід після удару безпілотників з Іраку – CNN",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053042/",
+      "summary": "Саудівська Аравія призупинила роботу стратегічного нафтопроводу \"Схід-Захід\" після серії ударів безпілотників, унаслідок яких було пошкоджено насосні станції та постраждали люди.",
+      "publishedAt": "2026-09-11T21:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Саудівська Аравія зупинила ключовий нафтопровід після удару безпілотників з Іраку – CNN",
+      "summaryUk": "Саудівська Аравія призупинила роботу стратегічного нафтопроводу \"Схід-Захід\" після серії ударів безпілотників, унаслідок яких було пошкоджено насосні станції та постраждали люди."
+    },
     {
       "id": "x-pravda-5b2d4c3dda19",
       "title": "Зеленський: Якщо Росія робитиме Україні блекаути, ми намагатимемось відповісти достойно",
@@ -498,38 +578,6 @@
       "summaryUk": "Естонська розвідка повідомила про атаки України на завод у Новому Уренгої та інші важливі об'єкти РФ на глибокому тилу."
     },
     {
-      "id": "x-pravda-567623c4c641",
-      "title": "У ЄС відреагували на фейк Кремля про вимогу мобілізації жінок в Україні",
-      "url": "https://www.pravda.com.ua/news/2026/09/11/8053003/",
-      "summary": "Єврокомісар Андрюс Кубілюс наголосив: ЄС не вимагає мобілізації жінок в Україні. Російську інформацію назвали фейком.",
-      "publishedAt": "2026-09-11T15:33:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У ЄС відреагували на фейк Кремля про вимогу мобілізації жінок в Україні",
-      "summaryUk": "Єврокомісар Андрюс Кубілюс наголосив: ЄС не вимагає мобілізації жінок в Україні. Російську інформацію назвали фейком."
-    },
-    {
-      "id": "x-pravda-1eef6deced1d",
-      "title": "Понад 50% українських біженців у Польщі планують повернутися до України – опитування",
-      "url": "https://www.pravda.com.ua/news/2026/09/11/8052999/",
-      "summary": "Опитування Rating Group показало, що більшість українських біженців у Польщі повернуться після війни. Основні умови: безпека та стабільність.",
-      "publishedAt": "2026-09-11T14:57:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Понад 50% українських біженців у Польщі планують повернутися до України – опитування",
-      "summaryUk": "Опитування Rating Group показало, що більшість українських біженців у Польщі повернуться після війни. Основні умови: безпека та стабільність."
-    },
-    {
       "id": "x-euromaidan-a0a95e96b58a",
       "title": "Ukraine shows its drones in Canada as Ottawa pledges a third of its future output",
       "url": "https://euromaidanpress.com/2026/09/11/ukraine-shows-its-drones-in-canada-as-ottawa-pledges-a-third-of-its-future-output/",
@@ -544,38 +592,6 @@
       ],
       "titleUk": "Ukraine shows its drones in Canada as Ottawa pledges a third of its future output",
       "summaryUk": "The presentation followed a declaration on defense cooperation that Kyiv calls the first step toward a drone deal still to be signed."
-    },
-    {
-      "id": "x-pravda-8ef6b55e81d4",
-      "title": "Столар заявив, що повернувся в Україну за викликом суду: Не маю наміру переховуватися",
-      "url": "https://www.pravda.com.ua/news/2026/09/11/8052996/",
-      "summary": "Народний депутат Столар, який є фігурантом розслідування НАБУ та САП \"Феміда\", повідомив, що добровільно приїхав до суду і не планує переховуватися.",
-      "publishedAt": "2026-09-11T14:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Столар заявив, що повернувся в Україну за викликом суду: Не маю наміру переховуватися",
-      "summaryUk": "Народний депутат Столар, який є фігурантом розслідування НАБУ та САП \"Феміда\", повідомив, що добровільно приїхав до суду і не планує переховуватися."
-    },
-    {
-      "id": "x-pravda-091ad952a3a4",
-      "title": "СБУ і ОГП оголосили підозру \"духовному наставнику\" Путіна",
-      "url": "https://www.pravda.com.ua/news/2026/09/11/8052994/",
-      "summary": "Служба безпеки України та ОГП заочно оголосили підозру Георгію Шевкунову за підтримку агресії РФ і виправдання воєнних злочинів.",
-      "publishedAt": "2026-09-11T14:17:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "СБУ і ОГП оголосили підозру \"духовному наставнику\" Путіна",
-      "summaryUk": "Служба безпеки України та ОГП заочно оголосили підозру Георгію Шевкунову за підтримку агресії РФ і виправдання воєнних злочинів."
     },
     {
       "id": "x-euromaidan-26cbb43872d4",
@@ -944,22 +960,6 @@
       ],
       "titleUk": "Ai-Petri&#8217;s maker began building EW gear after Russia took Crimea in 2014. It&#8217;s now shown system, named for peninsula&#8217;s highest peak, at Polish expo",
       "summaryUk": "It is already deployed in some 400 units along the front."
-    },
-    {
-      "id": "x-euromaidan-507323bd2234",
-      "title": "&#8220;I will continue to work just as productively&#8221;: former intelligence chief Budanov shrugs off third Russian arrest order as an acknowledgment of his effectiveness",
-      "url": "https://euromaidanpress.com/2026/09/10/i-will-continue-to-work-just-as-productively-former-intelligence-chief-budanov-shrugs-off-third-russian-arrest-order-as-an-acknowledgment-of-his-effectiveness/",
-      "summary": "A Moscow court accuses him of prohibited methods of warfare.",
-      "publishedAt": "2026-09-09T22:11:27.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "&#8220;I will continue to work just as productively&#8221;: former intelligence chief Budanov shrugs off third Russian arrest order as an acknowledgment of his effectiveness",
-      "summaryUk": "A Moscow court accuses him of prohibited methods of warfare."
     },
     {
       "id": "x-militarnyi-ef3c2e81ac20",
