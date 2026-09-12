@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T18:21:40.058Z",
+  "generatedAt": "2026-09-12T22:15:49.886Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,182 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-be5f66948c08",
+      "title": "Росія атакувала енергетичну інфраструктуру в Миколаєві, місто частково знеструмлене – ОВА",
+      "url": "https://www.pravda.com.ua/news/2026/09/13/8053163/",
+      "summary": "Російські війська завдали удару по енергетичній інфраструктурі Миколаєва, унаслідок чого в обласному центрі стався частковий блекаут.",
+      "publishedAt": "2026-09-12T21:43:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія атакувала енергетичну інфраструктуру в Миколаєві, місто частково знеструмлене – ОВА",
+      "summaryUk": "Російські війська завдали удару по енергетичній інфраструктурі Миколаєва, унаслідок чого в обласному центрі стався частковий блекаут."
+    },
+    {
+      "id": "x-pravda-0d48f1177c9f",
+      "title": "Росія намагається перетворити всю територію України на поле бою – Сибіга",
+      "url": "https://www.pravda.com.ua/news/2026/09/13/8053162/",
+      "summary": "Міністр закордонних справ Андрій Сибіга заявив, що Росія через нездатність досягти своїх цілей на полі бою намагається розширити географію терору на всю територію України, та закликав союзників позбавити Москву можливостей вести війну.",
+      "publishedAt": "2026-09-12T21:22:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія намагається перетворити всю територію України на поле бою – Сибіга",
+      "summaryUk": "Міністр закордонних справ Андрій Сибіга заявив, що Росія через нездатність досягти своїх цілей на полі бою намагається розширити географію терору на всю територію України, та закликав союзників позбавити Москву можливостей вести війну."
+    },
+    {
+      "id": "x-pravda-b36f50e09319",
+      "title": "Росіяни атакували \"Нову пошту\" на Одещині, є постраждалі",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053161/",
+      "summary": "Внаслідок удару безпілотника по Одещині пошкоджено відділення Нової пошти, постраждали двоє людей. Опубліковано фото місця події.",
+      "publishedAt": "2026-09-12T20:40:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували \"Нову пошту\" на Одещині, є постраждалі",
+      "summaryUk": "Внаслідок удару безпілотника по Одещині пошкоджено відділення Нової пошти, постраждали двоє людей. Опубліковано фото місця події."
+    },
+    {
+      "id": "x-pravda-9f492ec53aba",
+      "title": "Ранковий удар по Одесі: загинула людина, 26 постраждали",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053159/",
+      "summary": "Внаслідок ранкового удару по Одесі загинула людина, 26 отримали поранення. Серед постраждалих – одна дитина. Тривають аварійно-пошукові роботи.",
+      "publishedAt": "2026-09-12T20:12:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ранковий удар по Одесі: загинула людина, 26 постраждали",
+      "summaryUk": "Внаслідок ранкового удару по Одесі загинула людина, 26 отримали поранення. Серед постраждалих – одна дитина. Тривають аварійно-пошукові роботи."
+    },
+    {
+      "id": "x-pravda-fe0d638d097a",
+      "title": "На фронті сталося понад 200 боїв, на Покровському напрямку відбито 25 атак – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053158/",
+      "summary": "Від початку доби на фронті відбулося 206 зіткнень. На Покровському напрямку Сили оборони України відбили 25 атак – зведення Генштабу ЗСУ.",
+      "publishedAt": "2026-09-12T19:57:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті сталося понад 200 боїв, на Покровському напрямку відбито 25 атак – Генштаб",
+      "summaryUk": "Від початку доби на фронті відбулося 206 зіткнень. На Покровському напрямку Сили оборони України відбили 25 атак – зведення Генштабу ЗСУ."
+    },
+    {
+      "id": "x-pravda-9a5bb08f4a75",
+      "title": "У Мерца офіційно визнали діру в оборонному бюджеті України та обіцяють допомогу",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053157/",
+      "summary": "",
+      "publishedAt": "2026-09-12T19:47:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Мерца офіційно визнали діру в оборонному бюджеті України та обіцяють допомогу",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-pravda-737f7aa0ee79",
+      "title": "До бюджету можуть не дійти 70 мільярдів гривень через атаки РФ на бізнес – Корецький",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053156/",
+      "summary": "Прем'єр Сергій Корецький заявив: через удари РФ бізнесу бюджет недоотримає 70 млрд грн. Уряд пропонує підтримку та планує фонд страхування ризиків.",
+      "publishedAt": "2026-09-12T19:39:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "До бюджету можуть не дійти 70 мільярдів гривень через атаки РФ на бізнес – Корецький",
+      "summaryUk": "Прем'єр Сергій Корецький заявив: через удари РФ бізнесу бюджет недоотримає 70 млрд грн. Уряд пропонує підтримку та планує фонд страхування ризиків."
+    },
+    {
+      "id": "x-pravda-db28a8a0d6c2",
+      "title": "Зеленський закликав ЄС до санкцій проти Усманова й Фрідмана: Не час сприймати олігархів РФ як друзів",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053154/",
+      "summary": "Президент закликав посилити санкційний тиск ЄС на російський бізнес через війну та згадує Михайла Фрідмана і Алішера Усманова.",
+      "publishedAt": "2026-09-12T19:11:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський закликав ЄС до санкцій проти Усманова й Фрідмана: Не час сприймати олігархів РФ як друзів",
+      "summaryUk": "Президент закликав посилити санкційний тиск ЄС на російський бізнес через війну та згадує Михайла Фрідмана і Алішера Усманова."
+    },
+    {
+      "id": "x-euromaidan-d98d1bcfe422",
+      "title": "Watch first naval battle in history fought entirely by drones: Ukrainian uncrewed boat spots, fires on, and sinks Russian one in Black Sea",
+      "url": "https://euromaidanpress.com/2026/09/12/watch-first-naval-battle-in-history-fought-entirely-by-drones-ukrainian-uncrewed-boat-spots-fires-on-and-sinks-russian-one-in-black-sea/",
+      "summary": "A gun-armed Sargan-3000 spotted and sank a Russian naval drone in the Black Sea.",
+      "publishedAt": "2026-09-12T19:04:57.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Watch first naval battle in history fought entirely by drones: Ukrainian uncrewed boat spots, fires on, and sinks Russian one in Black Sea",
+      "summaryUk": "A gun-armed Sargan-3000 spotted and sank a Russian naval drone in the Black Sea."
+    },
+    {
+      "id": "x-euromaidan-43352c5cd2c1",
+      "title": "&#8220;There is real hunger there&#8221;: Oleshky, occupied town in Ukraine&#8217;s Kherson Oblast, turned 942 this week. Behind Russian blockade, its people eat roadside grass",
+      "url": "https://euromaidanpress.com/2026/09/12/there-is-real-hunger-there-oleshky-occupied-town-in-ukraines-kherson-oblast-turned-942-this-week-behind-russian-blockade-its-people-eat-roadside-grass/",
+      "summary": "The 942-year-old Kherson city has spent months cut off, its aid convoys shelled.",
+      "publishedAt": "2026-09-12T18:47:15.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "&#8220;There is real hunger there&#8221;: Oleshky, occupied town in Ukraine&#8217;s Kherson Oblast, turned 942 this week. Behind Russian blockade, its people eat roadside grass",
+      "summaryUk": "The 942-year-old Kherson city has spent months cut off, its aid convoys shelled."
+    },
+    {
+      "id": "x-pravda-9faa5e213513",
+      "title": "На Київщині через ворожі атаки горять склади",
+      "url": "https://www.pravda.com.ua/news/2026/09/12/8053149/",
+      "summary": "Внаслідок обстрілів постраждали складські приміщення та приватний будинок у Київській області. Триває ліквідація пожежі.",
+      "publishedAt": "2026-09-12T18:38:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Київщині через ворожі атаки горять склади",
+      "summaryUk": "Внаслідок обстрілів постраждали складські приміщення та приватний будинок у Київській області. Триває ліквідація пожежі."
+    },
     {
       "id": "x-pravda-0526ce92e7a9",
       "title": "Глава МЗС Польщі закликав НАТО посилити навчання біля Калінінградської області РФ",
@@ -306,22 +482,6 @@
       "summaryUk": "BUND says letting Russia's Rosatom help make fuel at the Lingen plant, amid the war and sabotage in Germany, hands Moscow critical infrastructure."
     },
     {
-      "id": "x-pravda-df3183c50539",
-      "title": "Понад 10 дронів атакували Волинь, у Ковельській громаді постраждали 5 людей",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053134/",
-      "summary": "Унаслідок атаки понад 10 ворожих дронів на Волинь постраждали 5 людей у Ковельській громаді. В Луцьку уламки влучили у потяг, жертв немає.",
-      "publishedAt": "2026-09-12T16:29:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Понад 10 дронів атакували Волинь, у Ковельській громаді постраждали 5 людей",
-      "summaryUk": "Унаслідок атаки понад 10 ворожих дронів на Волинь постраждали 5 людей у Ковельській громаді. В Луцьку уламки влучили у потяг, жертв немає."
-    },
-    {
       "id": "x-euromaidan-78c0ac49b99b",
       "title": "Ukraine&#8217;s Third Army Corps won&#8217;t just hold Donetsk fortress cities. It&#8217;s building mission to pull civilians out of them",
       "url": "https://euromaidanpress.com/2026/09/12/ukraines-third-army-corps-wont-just-hold-donetsk-fortress-cities-its-building-mission-to-pull-civilians-out-of-them/",
@@ -368,38 +528,6 @@
       ],
       "titleUk": "Спортсменка ЗСУ Поліна Халькевич — срібна призерка Кубка світу зі скелелазіння",
       "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. Спортсмен-інструктор Навчально-спортивної бази літніх видів спорту МО України Поліна Халькевич..."
-    },
-    {
-      "id": "x-pravda-33b9b00368f2",
-      "title": "Росіяни атакують Рівненщину, є знеструмлення",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053131/",
-      "summary": "Після повітряної атаки 12 вересня частина Дубна та Рівненського району залишилися без електрики. Жертв немає, триває повітряна тривога.",
-      "publishedAt": "2026-09-12T15:53:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни атакують Рівненщину, є знеструмлення",
-      "summaryUk": "Після повітряної атаки 12 вересня частина Дубна та Рівненського району залишилися без електрики. Жертв немає, триває повітряна тривога."
-    },
-    {
-      "id": "x-pravda-a9fd3410a2c3",
-      "title": "За день росіяни запустили вже понад 400 ударних БпЛА, більшість знешкоджено",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053130/",
-      "summary": "12 вересня росія атакувала 410 ударними безпілотниками, з них ППО знешкодила 336. Зафіксовано 21 влучання, у повітрі залишаються близько 55 БпЛА.",
-      "publishedAt": "2026-09-12T15:46:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "За день росіяни запустили вже понад 400 ударних БпЛА, більшість знешкоджено",
-      "summaryUk": "12 вересня росія атакувала 410 ударними безпілотниками, з них ППО знешкодила 336. Зафіксовано 21 влучання, у повітрі залишаються близько 55 БпЛА."
     },
     {
       "id": "x-euromaidan-bb72fae0d501",
@@ -450,22 +578,6 @@
       "summaryUk": "Про це повідомили в Телеграм-каналі корпусу. На найвищий в Україні пам&#8217;ятник Тарасу Шевченку, що височіє на Монастирському острові, урочисто одягли..."
     },
     {
-      "id": "x-pravda-94288172c82d",
-      "title": "У Румунії поблизу Сучави знайшли розбитий дрон",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053128/",
-      "summary": "Безпілотник перетнув повітряний простір України та Молдови й упав у Сучавському повіті Румунії. Є пошкодження поля, жертв немає.",
-      "publishedAt": "2026-09-12T15:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Румунії поблизу Сучави знайшли розбитий дрон",
-      "summaryUk": "Безпілотник перетнув повітряний простір України та Молдови й упав у Сучавському повіті Румунії. Є пошкодження поля, жертв немає."
-    },
-    {
       "id": "x-euromaidan-8542cdc51eca",
       "title": "Russia is working to modernize its weapons on every front. This month, its drones are expected to carry 20-element anti-jam antennas to outpace Ukraine&#8217;s jamming",
       "url": "https://euromaidanpress.com/2026/09/12/russia-is-working-to-modernize-its-weapons-on-every-front-this-month-its-drones-are-expected-to-carry-20-element-anti-jam-antennas-to-outpace-ukraines-jamming/",
@@ -482,22 +594,6 @@
       "summaryUk": "Russia's new drones and cruise weapons navigate rather than fly, so Ukraine has to jam GPS, not the operator link."
     },
     {
-      "id": "x-pravda-d96c6849078e",
-      "title": "Навіщо Путіну переговори, Білецький у Святогірську та що змінює Драпатий – про війну за тиждень",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8052972/",
-      "summary": "",
-      "publishedAt": "2026-09-12T15:11:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Навіщо Путіну переговори, Білецький у Святогірську та що змінює Драпатий – про війну за тиждень",
-      "summaryUk": ""
-    },
-    {
       "id": "x-armyinform-294b19afb14f",
       "title": "Начальник ГУР: Середня тривалість життя російського новобранця на полі бою становить 20–30 хвилин",
       "url": "https://armyinform.com.ua/2026/09/12/nachalnyk-gur-serednya-tryvalist-zhyttya-rosijskogo-novobranczya-na-poli-boyu-stanovyt-20-30-hvylyn/",
@@ -512,70 +608,6 @@
       ],
       "titleUk": "Начальник ГУР: Середня тривалість життя російського новобранця на полі бою становить 20–30 хвилин",
       "summaryUk": "Про це повідомив начальник ГУР МО України генерал-лейтенант Олег Іващенко в інтерв’ю британському The Times. Він піддав сумніву спроможність росії..."
-    },
-    {
-      "id": "x-pravda-01d9f7664b98",
-      "title": "Ворог масово атакує цивільні авто в Краматорську: є загиблі та поранені",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053126/",
-      "summary": "У Краматорську 12 вересня російські дрони вразили цивільні авто. Троє людей загинули, ще четверо поранені – повідомила міська рада.",
-      "publishedAt": "2026-09-12T14:56:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ворог масово атакує цивільні авто в Краматорську: є загиблі та поранені",
-      "summaryUk": "У Краматорську 12 вересня російські дрони вразили цивільні авто. Троє людей загинули, ще четверо поранені – повідомила міська рада."
-    },
-    {
-      "id": "x-pravda-69f62db0b347",
-      "title": "Глава МЗС Литви про удари по Одесі: Заява Путіна про бажання миру не варта навіть пів копійки",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053123/",
-      "summary": "",
-      "publishedAt": "2026-09-12T14:27:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Глава МЗС Литви про удари по Одесі: Заява Путіна про бажання миру не варта навіть пів копійки",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-b65bac12df13",
-      "title": "Росіяни влучили в продуктовий магазин на Житомирщині, є загиблі",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053122/",
-      "summary": "Унаслідок удару російських безпілотників по продуктовому магазину в Звягелі Житомирської області загинули дві особи. Деталі від ОВА.",
-      "publishedAt": "2026-09-12T14:19:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни влучили в продуктовий магазин на Житомирщині, є загиблі",
-      "summaryUk": "Унаслідок удару російських безпілотників по продуктовому магазину в Звягелі Житомирської області загинули дві особи. Деталі від ОВА."
-    },
-    {
-      "id": "x-pravda-85075134e63c",
-      "title": "У Польщі застосували авіацію через дронову атаку РФ на заході України",
-      "url": "https://www.pravda.com.ua/news/2026/09/12/8053121/",
-      "summary": "",
-      "publishedAt": "2026-09-12T14:12:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Польщі застосували авіацію через дронову атаку РФ на заході України",
-      "summaryUk": ""
     },
     {
       "id": "x-euromaidan-62250fe54a04",
@@ -960,38 +992,6 @@
       ],
       "titleUk": "Romania plans to send 20 officers to support Ukraine, but presidential administration denies claims Romania is being drawn into the war",
       "summaryUk": "The personnel are expected to join the Operational Command for the Multinational Force in Support of Ukraine. The command is based “thousands of kilometers from the front line.”"
-    },
-    {
-      "id": "x-euromaidan-b3c53b2887b2",
-      "title": "US struck 5 Iranian tankers – 3 were also linked to Russia’s shadow fleet",
-      "url": "https://euromaidanpress.com/2026/09/10/3-of-5-iranian-tankers-hit-by-us-had-links-to-russias-shadow-fleet/",
-      "summary": "The vessels had carried Russian oil, called at Russian ports, or operated through networks used to evade sanctions, according to Ukraine.",
-      "publishedAt": "2026-09-10T19:06:10.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "US struck 5 Iranian tankers – 3 were also linked to Russia’s shadow fleet",
-      "summaryUk": "The vessels had carried Russian oil, called at Russian ports, or operated through networks used to evade sanctions, according to Ukraine."
-    },
-    {
-      "id": "x-euromaidan-21b0de10ec4d",
-      "title": "Canada pledges more than $1 billion for Ukraine’s critical air defense as Russia intensifies missile and drone attacks",
-      "url": "https://euromaidanpress.com/2026/09/10/canada-joins-ukraines-effort-to-counter-russias-ballistic-missile-threat/",
-      "summary": "The package includes Patriot missiles, F-16 ammunition and joint drone production, alongside Canada’s commitment to join Ukraine’s FREYJA anti-ballistic program.",
-      "publishedAt": "2026-09-10T18:39:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Canada pledges more than $1 billion for Ukraine’s critical air defense as Russia intensifies missile and drone attacks",
-      "summaryUk": "The package includes Patriot missiles, F-16 ammunition and joint drone production, alongside Canada’s commitment to join Ukraine’s FREYJA anti-ballistic program."
     },
     {
       "id": "x-militarnyi-ef3c2e81ac20",
