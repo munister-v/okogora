@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T18:47:46.779Z",
+  "generatedAt": "2026-09-13T22:23:31.998Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,70 @@
   ],
   "items": [
     {
+      "id": "x-euromaidan-849fa7ab04ac",
+      "title": "Russo-Ukrainian war, day 1663: Russia strikes a passenger train near the Polish border as drone swarms push deeper into western Ukraine",
+      "url": "https://euromaidanpress.com/2026/09/14/russo-ukrainian-war-day-1663/",
+      "summary": "The attacks raise the risk to civilian travel near a NATO frontier, days after Warsaw warned Moscow could hit the crossings, while far from home Ukrainian drone specialists surface fighting Russian forces from Mali to Sudan.",
+      "publishedAt": "2026-09-13T21:00:57.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1663: Russia strikes a passenger train near the Polish border as drone swarms push deeper into western Ukraine",
+      "summaryUk": "The attacks raise the risk to civilian travel near a NATO frontier, days after Warsaw warned Moscow could hit the crossings, while far from home Ukrainian drone specialists surface fighting Russian forces from Mali to Sudan."
+    },
+    {
+      "id": "x-pravda-b1707e5b90bd",
+      "title": "На Дніпропетровщині через атаки РФ поранено 4 людей",
+      "url": "https://www.pravda.com.ua/news/2026/09/13/8053246/",
+      "summary": "Ворог понад 40 разів атакував чотири райони Дніпропетровщини, поранено чотирьох чоловіків. Пошкоджено будинки, підприємства, магазини.",
+      "publishedAt": "2026-09-13T20:09:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Дніпропетровщині через атаки РФ поранено 4 людей",
+      "summaryUk": "Ворог понад 40 разів атакував чотири райони Дніпропетровщини, поранено чотирьох чоловіків. Пошкоджено будинки, підприємства, магазини."
+    },
+    {
+      "id": "x-pravda-7b57e3d6405d",
+      "title": "Ворог найбільше тисне на Покровському і Костянтинівському напрямках – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/09/13/8053242/",
+      "summary": "Генеральний штаб ЗСУ повідомив про 197 бойових зіткнень за день. Найбільше атак — на Покровському і Костянтинівському напрямках.",
+      "publishedAt": "2026-09-13T19:12:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворог найбільше тисне на Покровському і Костянтинівському напрямках – Генштаб",
+      "summaryUk": "Генеральний штаб ЗСУ повідомив про 197 бойових зіткнень за день. Найбільше атак — на Покровському і Костянтинівському напрямках."
+    },
+    {
+      "id": "x-pravda-02d3cc6865d4",
+      "title": "Сибіга: ЄС має ухвалювати санкції після кожного масованого удару РФ, а не чекати пакетів",
+      "url": "https://www.pravda.com.ua/news/2026/09/13/8053239/",
+      "summary": "",
+      "publishedAt": "2026-09-13T18:46:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Сибіга: ЄС має ухвалювати санкції після кожного масованого удару РФ, а не чекати пакетів",
+      "summaryUk": ""
+    },
+    {
       "id": "x-pravda-ccf74676edac",
       "title": "Ворожий дрон атакував енергетиків на Сумщині: є загиблий і поранений",
       "url": "https://www.pravda.com.ua/news/2026/09/13/8053237/",
@@ -131,7 +195,7 @@
     },
     {
       "id": "x-pravda-8ae1c8bff39a",
-      "title": "Мендель прокоментувала санкції: Україні не потрібна диктатура Зеленського",
+      "title": "Мендель назвала санкції проти неї антиконституційними",
       "url": "https://www.pravda.com.ua/news/2026/09/13/8053234/",
       "summary": "Колишня прессекретарка Зеленського Юлія Мендель заявила про антиконституційність санкцій проти громадян України та прокоментувала дії президента.",
       "publishedAt": "2026-09-13T17:23:00.000Z",
@@ -142,7 +206,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Мендель прокоментувала санкції: Україні не потрібна диктатура Зеленського",
+      "titleUk": "Мендель назвала санкції проти неї антиконституційними",
       "summaryUk": "Колишня прессекретарка Зеленського Юлія Мендель заявила про антиконституційність санкцій проти громадян України та прокоментувала дії президента."
     },
     {
@@ -434,22 +498,6 @@
       "summaryUk": "Потяг із Києва до Польщі, на борту якого їхали радники ЄС і Борис Джонсон, евакуювали через атаку дронів на інший український поїзд."
     },
     {
-      "id": "x-pravda-2d6920a6d404",
-      "title": "У Литві підняли винищувачі, оголосили тривогу і призупинили польоти через зграю птахів",
-      "url": "https://www.pravda.com.ua/news/2026/09/13/8053219/",
-      "summary": "",
-      "publishedAt": "2026-09-13T13:23:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Литві підняли винищувачі, оголосили тривогу і призупинили польоти через зграю птахів",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-e311192f56e0",
       "title": "Russia strikes passenger train near Polish border as drone swarms reach deeper into western Ukraine",
       "url": "https://euromaidanpress.com/2026/09/13/russia-strikes-passenger-train-near-polish-border/",
@@ -464,22 +512,6 @@
       ],
       "titleUk": "Russia strikes passenger train near Polish border as drone swarms reach deeper into western Ukraine",
       "summaryUk": "Russia’s attacks on railways and border crossings are putting civilian travel at growing risk. Poland’s Donald Tusk warned days earlier that Moscow could target Ukraine’s crossings with Poland."
-    },
-    {
-      "id": "x-pravda-91a6dc1938d3",
-      "title": "У Краматорську внаслідок російських атак загинули 2 людини, ще 10 поранені",
-      "url": "https://www.pravda.com.ua/news/2026/09/13/8053208/",
-      "summary": "Унаслідок двох російських ударів по Краматорську загинули двоє цивільних, десять людей отримали поранення. Остаточні наслідки уточнюються.",
-      "publishedAt": "2026-09-13T12:28:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Краматорську внаслідок російських атак загинули 2 людини, ще 10 поранені",
-      "summaryUk": "Унаслідок двох російських ударів по Краматорську загинули двоє цивільних, десять людей отримали поранення. Остаточні наслідки уточнюються."
     },
     {
       "id": "x-euromaidan-6967db0674e9",
@@ -912,22 +944,6 @@
       ],
       "titleUk": "Ukraine is working down the short list of ships that shell its cities with cruise missiles. A Neptune reached one of them tied up at its own pier",
       "summaryUk": "Drones went in with the missile, and the general staff counts three more vessels and the port's fuel-oil storage hit the same night."
-    },
-    {
-      "id": "x-euromaidan-fe162b1f9ae4",
-      "title": "Russo-Ukrainian war, day 1660: Ukraine strikes further into Russia than ever before, hitting gas plants over 3,000 km from its border",
-      "url": "https://euromaidanpress.com/2026/09/11/russo-ukrainian-war-day-1660/",
-      "summary": "The same day brought a fire at a Russia-Iran hub on the Caspian and a $1bn Canadian air defense pledge as Russia builds around 100 ballistic missiles a month.",
-      "publishedAt": "2026-09-10T21:47:31.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russo-Ukrainian war, day 1660: Ukraine strikes further into Russia than ever before, hitting gas plants over 3,000 km from its border",
-      "summaryUk": "The same day brought a fire at a Russia-Iran hub on the Caspian and a $1bn Canadian air defense pledge as Russia builds around 100 ballistic missiles a month."
     }
   ]
 }
