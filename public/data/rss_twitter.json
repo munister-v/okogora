@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:20:43.790Z",
+  "generatedAt": "2026-09-14T23:07:17.134Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,70 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-euromaidan-643229df6c96",
+      "title": "For first time, Ukraine&#8217;s drone makers and Europe&#8217;s arms firms have joined one body: EU-Ukraine Drone Alliance",
+      "url": "https://euromaidanpress.com/2026/09/15/for-first-time-ukraines-drone-makers-and-europes-arms-firms-have-joined-one-body-eu-ukraine-drone-alliance/",
+      "summary": "Eighteen companies aim to build drones and counter-drone systems together, folding Ukraine's combat-tested industry into Europe's.",
+      "publishedAt": "2026-09-14T22:15:47.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "For first time, Ukraine&#8217;s drone makers and Europe&#8217;s arms firms have joined one body: EU-Ukraine Drone Alliance",
+      "summaryUk": "Eighteen companies aim to build drones and counter-drone systems together, folding Ukraine's combat-tested industry into Europe's."
+    },
+    {
+      "id": "x-euromaidan-b51659c20285",
+      "title": "Russo-Ukrainian war, day 1664: Zelenskyy says Ukraine will only accept energy truce if West guarantees Moscow won&#8217;t break it after elections",
+      "url": "https://euromaidanpress.com/2026/09/15/russo-ukrainian-war-day-1664-zelenskyy-says-ukraine-will-only-accept-energy-truce-if-west-guarantees-moscow-wont-break-it-after-elections/",
+      "summary": "Anthropic, meanwhile, said it detected and shut down a Russian espionage campaign against Kyiv that had been automated through its Claude chatbot.",
+      "publishedAt": "2026-09-14T21:31:43.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1664: Zelenskyy says Ukraine will only accept energy truce if West guarantees Moscow won&#8217;t break it after elections",
+      "summaryUk": "Anthropic, meanwhile, said it detected and shut down a Russian espionage campaign against Kyiv that had been automated through its Claude chatbot."
+    },
+    {
+      "id": "x-pravda-869714cf823c",
+      "title": "Генштаб повідомив про 225 бойових зіткнень з початку доби",
+      "url": "https://www.pravda.com.ua/news/2026/09/14/8053441/",
+      "summary": "Від початку доби 14 вересня на фронті відбулось 225 бойових зіткнень.",
+      "publishedAt": "2026-09-14T20:36:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб повідомив про 225 бойових зіткнень з початку доби",
+      "summaryUk": "Від початку доби 14 вересня на фронті відбулось 225 бойових зіткнень."
+    },
+    {
+      "id": "x-pravda-ed3400f2ae3e",
+      "title": "Росіяни завдали ракетного удару по місту Ізюм на Харківщині: 4 людей постраждали",
+      "url": "https://www.pravda.com.ua/news/2026/09/14/8053438/",
+      "summary": "Російські війська 14 вересня завдали ракетного удару по місту Ізюм в Харківській області: 4 людей постраждали, з яких троє — діти.",
+      "publishedAt": "2026-09-14T20:12:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни завдали ракетного удару по місту Ізюм на Харківщині: 4 людей постраждали",
+      "summaryUk": "Російські війська 14 вересня завдали ракетного удару по місту Ізюм в Харківській області: 4 людей постраждали, з яких троє — діти."
+    },
     {
       "id": "x-euromaidan-ab99c843be4a",
       "title": "Ukraine keeps hitting the fuel that Russia’s war runs on. Its latest target is the Slavyansk-EKO refinery, with an annual processing capacity of at least 3 million tonnes",
@@ -546,38 +610,6 @@
       "summaryUk": "Warnings that Russia could use Belarusian territory against Ukraine or a NATO state give the drills their edge."
     },
     {
-      "id": "x-pravda-ee8e215c74cf",
-      "title": "Директор НАБУ розповів про \"шалену\" протидію розслідуванню в справі \"Карфаген\"",
-      "url": "https://www.pravda.com.ua/news/2026/09/14/8053392/",
-      "summary": "Директор Національного антикорупційного Бюро Семен Кривонос зазначив, що розслідування у справі \"Карфаген\" триває, але зустрічає шалений спротив з боку зацікавлених осіб.",
-      "publishedAt": "2026-09-14T15:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Директор НАБУ розповів про \"шалену\" протидію розслідуванню в справі \"Карфаген\"",
-      "summaryUk": "Директор Національного антикорупційного Бюро Семен Кривонос зазначив, що розслідування у справі \"Карфаген\" триває, але зустрічає шалений спротив з боку зацікавлених осіб."
-    },
-    {
-      "id": "x-pravda-24f25de41906",
-      "title": "В Україні загинув британський військовий",
-      "url": "https://www.pravda.com.ua/news/2026/09/14/8053391/",
-      "summary": "В Україні загинув військовослужбовець Збройних сил Великої Британії.",
-      "publishedAt": "2026-09-14T14:53:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "В Україні загинув британський військовий",
-      "summaryUk": "В Україні загинув військовослужбовець Збройних сил Великої Британії."
-    },
-    {
       "id": "x-euromaidan-9f8d57ba40c3",
       "title": "Russian spies ran a campaign against Kyiv on Anthropic&#8217;s Claude, and the AI chatbot&#8217;s maker caught them at it",
       "url": "https://euromaidanpress.com/2026/09/14/russian-spies-ran-a-campaign-against-kyiv-on-anthropics-claude-and-the-ai-chatbots-maker-caught-them-at-it/",
@@ -864,38 +896,6 @@
       ],
       "titleUk": "Second fire in a month hits the Bulgarian plant that ships ammunition to Ukraine, and sabotage is on the table",
       "summaryUk": "The country's interior minister has ordered every ammunition depot in the country inspected and says outside interference cannot be excluded."
-    },
-    {
-      "id": "x-euromaidan-1d12e4bfef70",
-      "title": "Ukraine&#8217;s parliament changes how military budget is cleared, and freezes money behind one of war&#8217;s cleverest supply schemes, defense-industry council says",
-      "url": "https://euromaidanpress.com/2026/09/12/ukraines-parliament-changes-how-military-budget-is-cleared-and-freezes-money-behind-one-of-wars-cleverest-supply-schemes-defense-industry-council-says/",
-      "summary": "The program lets Ukrainian units turn confirmed kills into new weapons, but a parliamentary rule change has frozen the payments.",
-      "publishedAt": "2026-09-12T11:40:49.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine&#8217;s parliament changes how military budget is cleared, and freezes money behind one of war&#8217;s cleverest supply schemes, defense-industry council says",
-      "summaryUk": "The program lets Ukrainian units turn confirmed kills into new weapons, but a parliamentary rule change has frozen the payments."
-    },
-    {
-      "id": "x-euromaidan-90db8c19987a",
-      "title": "From Russian classrooms to Iran’s defense industry: how Moscow trains Iranian specialists",
-      "url": "https://euromaidanpress.com/2026/09/12/from-russian-classrooms-to-irans-defense-industry-how-moscow-trains-iranian-specialists/",
-      "summary": "Almost 10,000 Iranians studied at Russian universities in 2025, 42% more than two years earlier, by the Russian science ministry's count, with medicine still the most popular field.",
-      "publishedAt": "2026-09-12T10:53:24.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "From Russian classrooms to Iran’s defense industry: how Moscow trains Iranian specialists",
-      "summaryUk": "Almost 10,000 Iranians studied at Russian universities in 2025, 42% more than two years earlier, by the Russian science ministry's count, with medicine still the most popular field."
     },
     {
       "id": "x-militarnyi-ee48e6f33752",
