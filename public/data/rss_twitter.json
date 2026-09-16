@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:18:34.862Z",
+  "generatedAt": "2026-09-16T00:17:34.078Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,70 @@
   ],
   "items": [
     {
+      "id": "x-pravda-fba066dc0781",
+      "title": "У війні проти України загинув ще один російський генерал – росЗМІ",
+      "url": "https://www.pravda.com.ua/news/2026/09/16/8053630/",
+      "summary": "На війні проти України загинув командир 4-ї окремої мотострілецької бригади Збройних сил РФ генерал-майор Антон Груніс невдовзі після доповіді російському правителю Володимиру Путіну про \"захоплення\" Костянтинівки.",
+      "publishedAt": "2026-09-15T23:58:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У війні проти України загинув ще один російський генерал – росЗМІ",
+      "summaryUk": "На війні проти України загинув командир 4-ї окремої мотострілецької бригади Збройних сил РФ генерал-майор Антон Груніс невдовзі після доповіді російському правителю Володимиру Путіну про \"захоплення\" Костянтинівки."
+    },
+    {
+      "id": "x-pravda-1ed939c67691",
+      "title": "Палата представників США дала хід законопроєкту \"про пекельні санкції\" щодо Росії",
+      "url": "https://www.pravda.com.ua/news/2026/09/16/8053629/",
+      "summary": "Палата представників США у вівторок подолала ключову процедурну перешкоду та розблокувала розгляд законопроєкту, який уповноважує президента Дональда Трампа запроваджувати мита проти країн, що купують російські енергоносії.",
+      "publishedAt": "2026-09-15T22:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Палата представників США дала хід законопроєкту \"про пекельні санкції\" щодо Росії",
+      "summaryUk": "Палата представників США у вівторок подолала ключову процедурну перешкоду та розблокувала розгляд законопроєкту, який уповноважує президента Дональда Трампа запроваджувати мита проти країн, що купують російські енергоносії."
+    },
+    {
+      "id": "x-pravda-0198dc22e731",
+      "title": "Мін'юст США звинуватив агентів розвідки РФ у підготовці вбивств та фінансуванні тероризму",
+      "url": "https://www.pravda.com.ua/news/2026/09/16/8053628/",
+      "summary": "Міністерство юстиції США висунуло обвинувачення групі громадян Росії, яких американська влада пов'язує з російськими спецслужбами, у фінансуванні тероризму та змові з метою вчинення замовних убивств по всьому світу.",
+      "publishedAt": "2026-09-15T21:52:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Мін'юст США звинуватив агентів розвідки РФ у підготовці вбивств та фінансуванні тероризму",
+      "summaryUk": "Міністерство юстиції США висунуло обвинувачення групі громадян Росії, яких американська влада пов'язує з російськими спецслужбами, у фінансуванні тероризму та змові з метою вчинення замовних убивств по всьому світу."
+    },
+    {
+      "id": "x-euromaidan-013552b3dbc2",
+      "title": "Russo-Ukrainian war, day 1665: Ukraine reveals a secret counteroffensive in northern Donetsk, saying it has cleared Russian infiltrators and retaken ground in an operation it calls Vivaldi",
+      "url": "https://euromaidanpress.com/2026/09/16/russo-ukrainian-war-day-1665/",
+      "summary": "The reveal lands as Russia floods Ukrainian skies with faster attack drones that killed a man in Kyiv overnight, Finland approves its second-largest defense package before winter, and Italian jets down a drone over Lithuania in a first for the country.",
+      "publishedAt": "2026-09-15T21:35:24.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1665: Ukraine reveals a secret counteroffensive in northern Donetsk, saying it has cleared Russian infiltrators and retaken ground in an operation it calls Vivaldi",
+      "summaryUk": "The reveal lands as Russia floods Ukrainian skies with faster attack drones that killed a man in Kyiv overnight, Finland approves its second-largest defense package before winter, and Italian jets down a drone over Lithuania in a first for the country."
+    },
+    {
       "id": "x-pravda-db5e16ce08d2",
       "title": "ЗМІ: Знайдений у Польщі російський дрон не піддається рентгенівським променям",
       "url": "https://www.pravda.com.ua/news/2026/09/15/8053626/",
@@ -115,7 +179,7 @@
     },
     {
       "id": "x-euromaidan-b3653d8b4070",
-      "title": "“Only the first season” – Ukraine unveils secret counteroffensive in Donetsk after 12 years of Russian attempts to seize the region",
+      "title": "“Only the first season” – Ukraine unveils secret counteroffensive in a region Russia has been trying to seize for 12 years",
       "url": "https://euromaidanpress.com/2026/09/15/ukraine-unveils-secret-counteroffensive-in-donetsk-vivaldi/",
       "summary": "Ukraine says its forces have cleared Russian infiltrators and retaken territory in northern Donetsk, while the broader scope of “Operation Vivaldi” remains undisclosed.",
       "publishedAt": "2026-09-15T20:34:28.000Z",
@@ -126,14 +190,14 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "“Only the first season” – Ukraine unveils secret counteroffensive in Donetsk after 12 years of Russian attempts to seize the region",
+      "titleUk": "“Only the first season” – Ukraine unveils secret counteroffensive in a region Russia has been trying to seize for 12 years",
       "summaryUk": "Ukraine says its forces have cleared Russian infiltrators and retaken territory in northern Donetsk, while the broader scope of “Operation Vivaldi” remains undisclosed."
     },
     {
       "id": "x-pravda-4e18df5e05f4",
       "title": "Генпрокурор \"404\". Як Руслан Кравченко залишив країну",
       "url": "https://www.pravda.com.ua/articles/2026/09/15/8053620/",
-      "summary": "Торік наприкінці червня, в день призначення Руслана Кравченка генеральним прокурором, \"Українська правда\" зазначала, що термінове подання президентом наймолодшого в історії країни претендента на цю посаду може бути пов'язане з намаганням врятувати одного з найближчих товаришів Володимира Зеленського – Олексія Чернишова, першого \"потерпілого\" від незалежності НАБУ і САП.",
+      "summary": "Торік наприкінці червня, в день призначення Руслана Кравченка генеральним прокурором, \"Українська правда\" зазначала, що термінове подання президентом наймолодшого в історії країни претендента на цю посаду може бути пов'язане з намаганням врятувати одного з найближчих товаришів Володимира Зеленського – Олексія Чернишова, першого \"потерпілого\" від незалежності НАБУ і САП.",
       "publishedAt": "2026-09-15T20:02:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -143,7 +207,7 @@
         "UKRAINE"
       ],
       "titleUk": "Генпрокурор \"404\". Як Руслан Кравченко залишив країну",
-      "summaryUk": "Торік наприкінці червня, в день призначення Руслана Кравченка генеральним прокурором, \"Українська правда\" зазначала, що термінове подання президентом наймолодшого в історії країни претендента на цю посаду може бути пов'язане з намаганням врятувати одного з найближчих товаришів Володимира Зеленського – Олексія Чернишова, першого \"потерпілого\" від незалежності НАБУ і САП."
+      "summaryUk": "Торік наприкінці червня, в день призначення Руслана Кравченка генеральним прокурором, \"Українська правда\" зазначала, що термінове подання президентом наймолодшого в історії країни претендента на цю посаду може бути пов'язане з намаганням врятувати одного з найближчих товаришів Володимира Зеленського – Олексія Чернишова, першого \"потерпілого\" від незалежності НАБУ і САП."
     },
     {
       "id": "x-pravda-6b3c72de8b5d",
@@ -549,7 +613,7 @@
       "id": "x-pravda-927cab7f45ff",
       "title": "Черги та натовп людей: чому на українських пунктах пропуску немає укриттів та як себе вберегти",
       "url": "https://www.pravda.com.ua/articles/2026/09/15/8053592/",
-      "summary": "\"Сонечко, яке укриття? Можеш в ліс побігти і заховатись\", – почула Вероніка з подругою на українсько-польському кордоні від водія автобуса, у якому вони їхали.",
+      "summary": "\"Сонечко, яке укриття? Можеш в ліс побігти і заховатись\", – почула Вероніка з подругою на українсько-польському кордоні від водія автобуса, в якому вони їхали.",
       "publishedAt": "2026-09-15T16:37:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -559,7 +623,7 @@
         "UKRAINE"
       ],
       "titleUk": "Черги та натовп людей: чому на українських пунктах пропуску немає укриттів та як себе вберегти",
-      "summaryUk": "\"Сонечко, яке укриття? Можеш в ліс побігти і заховатись\", – почула Вероніка з подругою на українсько-польському кордоні від водія автобуса, у якому вони їхали."
+      "summaryUk": "\"Сонечко, яке укриття? Можеш в ліс побігти і заховатись\", – почула Вероніка з подругою на українсько-польському кордоні від водія автобуса, в якому вони їхали."
     },
     {
       "id": "x-euromaidan-1a407cea5b4d",
@@ -640,22 +704,6 @@
       ],
       "titleUk": "Ukraine successfully tests interceptor against faster Gerans as Russia floods its skies with drones",
       "summaryUk": "Russia is increasingly deploying upgraded drones capable of striking deeper and faster, intensifying attacks that cause mass destruction and civilian casualties across Ukraine."
-    },
-    {
-      "id": "x-pravda-8d8e077f7c6f",
-      "title": "У НАТО назвали \"безвідповідальними діями\" постріли Росії у данський вертоліт",
-      "url": "https://www.pravda.com.ua/news/2026/09/15/8053588/",
-      "summary": "У НАТО назвали \"безвідповідальними діями Росії\" те, що в понеділок російський фрегат випустив сигнальні ракети в бік вертольота Збройних сил Данії в міжнародних водах поблизу Гедсера.",
-      "publishedAt": "2026-09-15T15:49:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У НАТО назвали \"безвідповідальними діями\" постріли Росії у данський вертоліт",
-      "summaryUk": "У НАТО назвали \"безвідповідальними діями Росії\" те, що в понеділок російський фрегат випустив сигнальні ракети в бік вертольота Збройних сил Данії в міжнародних водах поблизу Гедсера."
     },
     {
       "id": "x-euromaidan-156dc7e11b2e",
@@ -928,22 +976,6 @@
       ],
       "titleUk": "Russian spies ran a campaign against Kyiv on Anthropic&#8217;s Claude, and the AI chatbot&#8217;s maker caught them at it",
       "summaryUk": "The operators automated phishing, intrusion, and data theft, leaving the human to refine the workflows."
-    },
-    {
-      "id": "x-euromaidan-64f32ab6ef30",
-      "title": "Russian strikes will cost Ukraine&#8217;s economy up to $10 billion this year, ministry says",
-      "url": "https://euromaidanpress.com/2026/09/14/russian-strikes-will-cost-ukraines-economy-up-to-10-billion-this-year-ministry-says/",
-      "summary": "Kyiv is answering with compensation and cheap credit, aimed at the companies losing warehouses fastest.",
-      "publishedAt": "2026-09-14T13:07:49.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russian strikes will cost Ukraine&#8217;s economy up to $10 billion this year, ministry says",
-      "summaryUk": "Kyiv is answering with compensation and cheap credit, aimed at the companies losing warehouses fastest."
     }
   ]
 }
