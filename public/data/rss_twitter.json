@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:03:06.761Z",
+  "generatedAt": "2026-09-20T18:46:17.118Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,198 @@
   ],
   "items": [
     {
+      "id": "x-pravda-fada726bbeac",
+      "title": "\"Єдиній Росії\" на \"виборах\" до Держдуми малюють понад половину голосів",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054364/",
+      "summary": "У Росії завершились \"вибори\" до Держдуми. «Єдина Росія» лідирує, явка становить 56,66%. Дані екзит-полів ВЦИОМ, ИНСОМАР та ЦВК РФ.",
+      "publishedAt": "2026-09-20T18:31:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "\"Єдиній Росії\" на \"виборах\" до Держдуми малюють понад половину голосів",
+      "summaryUk": "У Росії завершились \"вибори\" до Держдуми. «Єдина Росія» лідирує, явка становить 56,66%. Дані екзит-полів ВЦИОМ, ИНСОМАР та ЦВК РФ."
+    },
+    {
+      "id": "x-euromaidan-3dd926708fc2",
+      "title": "Russia has already destroyed more than two-fifths of Ukraine’s modern warehouse space as it escalates attacks on economic infrastructure – FT",
+      "url": "https://euromaidanpress.com/2026/09/20/russia-has-destroyed-more-than-two-fifths-of-ukraines-modern-warehouse-space/",
+      "summary": "2.1 million square meters of warehouse capacity have been destroyed as Russian strikes increasingly target the infrastructure Ukraine needs to store and move goods.",
+      "publishedAt": "2026-09-20T17:43:19.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russia has already destroyed more than two-fifths of Ukraine’s modern warehouse space as it escalates attacks on economic infrastructure – FT",
+      "summaryUk": "2.1 million square meters of warehouse capacity have been destroyed as Russian strikes increasingly target the infrastructure Ukraine needs to store and move goods."
+    },
+    {
+      "id": "x-armyinform-32404c2a4cf0",
+      "title": "Представники ЗСУ вибороли три нагороди на чемпіонаті Європи з прибережного веслування",
+      "url": "https://armyinform.com.ua/2026/09/20/predstavnyky-zsu-vyboroly-try-nagorody-na-chempionati-yevropy-z-pryberezhnogo-vesluvannya/",
+      "summary": "Про це повідомляє Відділ фізичної культури і спорту МО України. Участь у змаганнях взяли представники Збройних Сил України — спортсмени...",
+      "publishedAt": "2026-09-20T17:36:10.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Представники ЗСУ вибороли три нагороди на чемпіонаті Європи з прибережного веслування",
+      "summaryUk": "Про це повідомляє Відділ фізичної культури і спорту МО України. Участь у змаганнях взяли представники Збройних Сил України — спортсмени..."
+    },
+    {
+      "id": "x-pravda-a3826ed3f649",
+      "title": "Росіяни знову атакували Київ: поранено жінку, пожежа в парку",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054341/",
+      "summary": "Унаслідок атаки безпілотників у Києві 20 вересня поранено жінку. Постраждала отримала допомогу, тривога тривала майже три години.",
+      "publishedAt": "2026-09-20T17:36:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни знову атакували Київ: поранено жінку, пожежа в парку",
+      "summaryUk": "Унаслідок атаки безпілотників у Києві 20 вересня поранено жінку. Постраждала отримала допомогу, тривога тривала майже три години."
+    },
+    {
+      "id": "x-pravda-85b7490139f2",
+      "title": "Росія після влучань у Москві погрожує ще більше посилити удари по Києву",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054358/",
+      "summary": "Міноборони Росії заявило про намір посилити обстріли Києва у відповідь на атаки українських сил на Москву та область. Заявлено про збиття дронів.",
+      "publishedAt": "2026-09-20T17:11:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росія після влучань у Москві погрожує ще більше посилити удари по Києву",
+      "summaryUk": "Міноборони Росії заявило про намір посилити обстріли Києва у відповідь на атаки українських сил на Москву та область. Заявлено про збиття дронів."
+    },
+    {
+      "id": "x-armyinform-db4ba87d9748",
+      "title": "Подвійна ампутація і 40 км до стабпункта: як рятували життя бійця «Струнко»",
+      "url": "https://armyinform.com.ua/2026/09/20/podvijna-amputacziya-i-40-km-do-stabpunkta-yak-ryatuvaly-zhyttya-bijczya-strunko/",
+      "summary": "&#160; Історію евакуації оприлюднила 20 вересня Державна прикордонна служба України. У «Струнко» була подвійна травматична ампутація. Критична крововтрата. 20 км...",
+      "publishedAt": "2026-09-20T17:04:15.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Подвійна ампутація і 40 км до стабпункта: як рятували життя бійця «Струнко»",
+      "summaryUk": "&#160; Історію евакуації оприлюднила 20 вересня Державна прикордонна служба України. У «Струнко» була подвійна травматична ампутація. Критична крововтрата. 20 км..."
+    },
+    {
+      "id": "x-armyinform-f3a5e479eec3",
+      "title": "Труби з кімнатами відпочинку: росіяни розбудовують газопровід, яким намагаються пролізти на Сумщину",
+      "url": "https://armyinform.com.ua/2026/09/20/truby-z-kimnatamy-vidpochynku-rosiyany-rozbudovuyut-gazoprovid-yakym-namagayutsya-prolizty-na-sumshhynu/",
+      "summary": "Про це в ефірі телемарафону повідомив 20 вересня речник 8-го корпусу Десантно-штурмових військ Вадим Карп’як. За його словами, від грудня...",
+      "publishedAt": "2026-09-20T16:43:12.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Труби з кімнатами відпочинку: росіяни розбудовують газопровід, яким намагаються пролізти на Сумщину",
+      "summaryUk": "Про це в ефірі телемарафону повідомив 20 вересня речник 8-го корпусу Десантно-штурмових військ Вадим Карп’як. За його словами, від грудня..."
+    },
+    {
+      "id": "x-euromaidan-1e0fe8198c17",
+      "title": "Europe gave Russia years to perfect its aerial killing. Ukraine is paying the price. Europe may be next.",
+      "url": "https://euromaidanpress.com/2026/09/20/europe-gave-russia-years-to-perfect-its-aerial-killing/",
+      "summary": "Russia has spent four years adapting its drones, missiles and tactics against Ukraine. As Russian attacks become harder to stop, Ukrainian civilians are paying the price – while Europe is increasingly worried about a threat it has had years to prepare for.",
+      "publishedAt": "2026-09-20T16:27:38.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Europe gave Russia years to perfect its aerial killing. Ukraine is paying the price. Europe may be next.",
+      "summaryUk": "Russia has spent four years adapting its drones, missiles and tactics against Ukraine. As Russian attacks become harder to stop, Ukrainian civilians are paying the price – while Europe is increasingly worried about a threat it has had years to prepare for."
+    },
+    {
+      "id": "x-armyinform-c92499a102e5",
+      "title": "«Вівальді» з феєрверком: під час наступу пілоти видовищно знищили російську РСЗВ",
+      "url": "https://armyinform.com.ua/2026/09/20/vivaldi-z-feyerverkom-pid-chas-nastupu-piloty-vydovyshhno-znyshhyly-rosijsku-rszv/",
+      "summary": "Відео бойової роботи було оприлюднене 20 вересня на каналі бригади. Російська РСЗВ як раз висувалася до вогневої позиції, коли в...",
+      "publishedAt": "2026-09-20T16:24:38.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Вівальді» з феєрверком: під час наступу пілоти видовищно знищили російську РСЗВ",
+      "summaryUk": "Відео бойової роботи було оприлюднене 20 вересня на каналі бригади. Російська РСЗВ як раз висувалася до вогневої позиції, коли в..."
+    },
+    {
+      "id": "x-pravda-b9f894aecc94",
+      "title": "Люксембург посилює моніторинг повітряного простору після появи дронів біля аеропорту",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054353/",
+      "summary": "",
+      "publishedAt": "2026-09-20T16:05:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Люксембург посилює моніторинг повітряного простору після появи дронів біля аеропорту",
+      "summaryUk": ""
+    },
+    {
+      "id": "x-armyinform-98988e09a219",
+      "title": "«Бук» знищили прямо в укритті: схованка стала могилою російської системи ППО",
+      "url": "https://armyinform.com.ua/2026/09/20/buk-znyshhyly-pryamo-v-ukrytti-shovanka-stala-mogyloyu-rosijskoyi-systemy-ppo/",
+      "summary": "Відео бойової роботи було оприлюднене 20 вересня на каналі підрозділу. Ворожий зенітно-ракетний комплекс «Бук» був замаскований у схованці в лісосмузі....",
+      "publishedAt": "2026-09-20T16:03:23.000Z",
+      "author": "ArmyInform",
+      "handle": "armyinform",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "«Бук» знищили прямо в укритті: схованка стала могилою російської системи ППО",
+      "summaryUk": "Відео бойової роботи було оприлюднене 20 вересня на каналі підрозділу. Ворожий зенітно-ракетний комплекс «Бук» був замаскований у схованці в лісосмузі...."
+    },
+    {
+      "id": "x-pravda-3780dbedbc6e",
+      "title": "На Нікопольщині росіяни поранили 5 людей",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054352/",
+      "summary": "Внаслідок більш ніж 50 атак у Нікопольському районі поранено 5 людей, пошкоджено будинки та магазини. Одна жінка в лікарні, решта лікуються вдома.",
+      "publishedAt": "2026-09-20T16:02:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Нікопольщині росіяни поранили 5 людей",
+      "summaryUk": "Внаслідок більш ніж 50 атак у Нікопольському районі поранено 5 людей, пошкоджено будинки та магазини. Одна жінка в лікарні, решта лікуються вдома."
+    },
+    {
       "id": "x-armyinform-f1b15d24e95b",
       "title": "Полювання на «Піон»: десантники розшукують САУ, яка обстріляла Суми",
       "url": "https://armyinform.com.ua/2026/09/20/polyuvannya-na-pion-desantnyky-rozshukuyut-sau-yaka-obstrilyala-sumy/",
@@ -194,70 +386,6 @@
       "summaryUk": "Відповідне відео було оприлюднене 20 вересня на каналі 8-го корпусу ДШВ, до складу якого входить бригада. «Напис на ворожому дроні..."
     },
     {
-      "id": "x-pravda-a3826ed3f649",
-      "title": "Росіяни знову атакували Київ: поранено жінку",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054341/",
-      "summary": "Унаслідок атаки безпілотників у Києві 20 вересня поранено жінку. Постраждала отримала допомогу, тривога тривала майже три години.",
-      "publishedAt": "2026-09-20T14:41:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни знову атакували Київ: поранено жінку",
-      "summaryUk": "Унаслідок атаки безпілотників у Києві 20 вересня поранено жінку. Постраждала отримала допомогу, тривога тривала майже три години."
-    },
-    {
-      "id": "x-armyinform-414a2423e182",
-      "title": "Дві людини поранено: ворог скинув авіабомби на житлову забудову Краматорська",
-      "url": "https://armyinform.com.ua/2026/09/20/dvi-lyudyny-poraneno-vorog-skynuv-aviabomby-na-zhytlovu-zabudovu-kramatorska/",
-      "summary": "Про це повідомила Державна служба з надзвичайних ситуацій. Внаслідок обстрілу дістали поранення чоловік та жінка. Також пошкоджено чотири багатоквартирні будинки,...",
-      "publishedAt": "2026-09-20T14:27:15.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Дві людини поранено: ворог скинув авіабомби на житлову забудову Краматорська",
-      "summaryUk": "Про це повідомила Державна служба з надзвичайних ситуацій. Внаслідок обстрілу дістали поранення чоловік та жінка. Також пошкоджено чотири багатоквартирні будинки,..."
-    },
-    {
-      "id": "x-armyinform-f183b838f684",
-      "title": "Російському комбату повідомили про підозру за використання українських полонених як «живого щита»",
-      "url": "https://armyinform.com.ua/2026/09/20/rosijskyj-kombatu-povidomyly-pro-pidozru-za-vykorystannya-ukrayinskyh-polonenyh-yak-zhyvogo-shhyta/",
-      "summary": "Детальну інформацію оприлюднила Книга катів українського народу.  18 вересня 2026 року слідчі Національної поліції повідомили про підозру російському командиру батальйону...",
-      "publishedAt": "2026-09-20T14:08:06.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Російському комбату повідомили про підозру за використання українських полонених як «живого щита»",
-      "summaryUk": "Детальну інформацію оприлюднила Книга катів українського народу.  18 вересня 2026 року слідчі Національної поліції повідомили про підозру російському командиру батальйону..."
-    },
-    {
-      "id": "x-armyinform-8fb6d98bf90e",
-      "title": "Окупанти під прицілом: наші пілоти палять російську техніку у Донецьку та околицях",
-      "url": "https://armyinform.com.ua/2026/09/20/okupanty-pid-pryczilom-nashi-piloty-palyat-rosijsku-tehniku-u-doneczku-ta-okolyczyah/",
-      "summary": "Відео бойової роботи було оприлюднене на каналі підрозділу. Серед уражених цілей — автівки зі штурмовиками, вантажівки, панцерники, розрахунок гармати. У...",
-      "publishedAt": "2026-09-20T13:51:42.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Окупанти під прицілом: наші пілоти палять російську техніку у Донецьку та околицях",
-      "summaryUk": "Відео бойової роботи було оприлюднене на каналі підрозділу. Серед уражених цілей — автівки зі штурмовиками, вантажівки, панцерники, розрахунок гармати. У..."
-    },
-    {
       "id": "x-pravda-ff0ea06392b2",
       "title": "На фронті загинув колишній політв'язень Кремля Микола Карпюк",
       "url": "https://www.pravda.com.ua/news/2026/09/20/8054333/",
@@ -272,22 +400,6 @@
       ],
       "titleUk": "На фронті загинув колишній політв'язень Кремля Микола Карпюк",
       "summaryUk": "На фронті загинув колишній політв'язень Кремля, громадський і політичний діяч, співзасновник УНА-УНСО Микола Карпюк."
-    },
-    {
-      "id": "x-armyinform-9551a3126293",
-      "title": "МіГ-29 проти реактивного «Шахеда»: наш пілот був влучним на швидкості 500 км/год",
-      "url": "https://armyinform.com.ua/2026/09/20/mig-29-proty-reaktyvnogo-shaheda-nash-pilot-buv-vluchnym-na-shvydkosti-500-km-god/",
-      "summary": "Відео бойової роботи оприлюднило 20 вересня Повітряне командування «Центр». Перехоплення реактивних «Шахедів» здійснив винищувач МіГ-29. Бойова робота здійснювалася на швидкості...",
-      "publishedAt": "2026-09-20T13:32:19.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "МіГ-29 проти реактивного «Шахеда»: наш пілот був влучним на швидкості 500 км/год",
-      "summaryUk": "Відео бойової роботи оприлюднило 20 вересня Повітряне командування «Центр». Перехоплення реактивних «Шахедів» здійснив винищувач МіГ-29. Бойова робота здійснювалася на швидкості..."
     },
     {
       "id": "x-pravda-d9f0c6285d35",
@@ -338,102 +450,6 @@
       "summaryUk": "У Придністров'ї відкрили дільниці для виборів до Держдуми Росії. Молдова визнала це неприйнятним, погодивши лише одну дільницю в Кишиневі."
     },
     {
-      "id": "x-armyinform-5706b59e8e79",
-      "title": "Акцент допоміг обдурити окупантів: як хитрий «Лис» змусив росіян скласти зброю та здатися в полон",
-      "url": "https://armyinform.com.ua/2026/09/20/akczent-dopomig-obduryty-okupantiv-yak-hytryj-%c2%ablys%c2%bb-zmusyv-rosiyan-sklasty-zbroyu-ta-zdatysya-v-polon/",
-      "summary": "Про це він розповів в інтерв’ю, опублікованому у Telegram-каналі 16 армійського корпусу ЗСУ. Як повідомляється, під час виконання бойового завдання...",
-      "publishedAt": "2026-09-20T12:52:54.000Z",
-      "author": "ArmyInform",
-      "handle": "armyinform",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Акцент допоміг обдурити окупантів: як хитрий «Лис» змусив росіян скласти зброю та здатися в полон",
-      "summaryUk": "Про це він розповів в інтерв’ю, опублікованому у Telegram-каналі 16 армійського корпусу ЗСУ. Як повідомляється, під час виконання бойового завдання..."
-    },
-    {
-      "id": "x-pravda-f2e5851cd639",
-      "title": "Росіяни вдарили двома авіабомбами по евакуаційному пункту у Краматорську: є поранені",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054324/",
-      "summary": "Вранці 20 вересня російські війська завдали удару двома авіабомбами по Краматорську, одна з них влучила в евакуаційний пункт. Попередньо, поранені двоє людей.",
-      "publishedAt": "2026-09-20T12:44:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вдарили двома авіабомбами по евакуаційному пункту у Краматорську: є поранені",
-      "summaryUk": "Вранці 20 вересня російські війська завдали удару двома авіабомбами по Краматорську, одна з них влучила в евакуаційний пункт. Попередньо, поранені двоє людей."
-    },
-    {
-      "id": "x-pravda-216c6e7c5d13",
-      "title": "Україна перед \"грузинським сценарієм\": чому сильного реформатора недостатньо",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054323/",
-      "summary": "",
-      "publishedAt": "2026-09-20T12:31:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна перед \"грузинським сценарієм\": чому сильного реформатора недостатньо",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-030987db10cf",
-      "title": "Україна та Румунія підписали меморандум про посилення співпраці у транспортному сполученні",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054319/",
-      "summary": "",
-      "publishedAt": "2026-09-20T12:22:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна та Румунія підписали меморандум про посилення співпраці у транспортному сполученні",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-48da52757f4a",
-      "title": "У Києві працювала ППО, уламки впали в одному з районів – Кличко",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054311/",
-      "summary": "У Києві протиповітряна оборона працювала через атаку нових безпілотників РФ. Кличко закликав містян бути в укриттях. Деталі від Повітряних сил.",
-      "publishedAt": "2026-09-20T12:15:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Києві працювала ППО, уламки впали в одному з районів – Кличко",
-      "summaryUk": "У Києві протиповітряна оборона працювала через атаку нових безпілотників РФ. Кличко закликав містян бути в укриттях. Деталі від Повітряних сил."
-    },
-    {
-      "id": "x-pravda-a90e77476498",
-      "title": "Франція готується до гібридних атак Росії – ЗМІ",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054315/",
-      "summary": "Франція готується до гібридних атак Росії, спрямованих на її інфраструктуру, які можуть відбутися вже наступної осені.",
-      "publishedAt": "2026-09-20T11:42:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Франція готується до гібридних атак Росії – ЗМІ",
-      "summaryUk": "Франція готується до гібридних атак Росії, спрямованих на її інфраструктуру, які можуть відбутися вже наступної осені."
-    },
-    {
       "id": "x-euromaidan-f1be3e9a49c3",
       "title": "Ukraine retakes ground in a region Russia has fought for years to capture. “Vivaldi” is only getting started but is already “one of the most important victories for Ukraine in 2026”",
       "url": "https://euromaidanpress.com/2026/09/20/ukraine-retakes-three-settlements-in-northern-donetsk-vivaldi/",
@@ -448,38 +464,6 @@
       ],
       "titleUk": "Ukraine retakes ground in a region Russia has fought for years to capture. “Vivaldi” is only getting started but is already “one of the most important victories for Ukraine in 2026”",
       "summaryUk": "Ukraine’s Third Army Corps says its counteroffensive has retaken three settlements and 50 square kilometers of occupied territory in northern Donetsk, potentially delaying Russia’s planned offensive in the northern Donbas."
-    },
-    {
-      "id": "x-pravda-6f7cee838bf0",
-      "title": "Сибіга в Ісландії обговорив підписання Drone Deal",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054309/",
-      "summary": "",
-      "publishedAt": "2026-09-20T10:26:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сибіга в Ісландії обговорив підписання Drone Deal",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-5a9a1e8e9aaa",
-      "title": "Генштаб уточнив наслідки удару по Московському НПЗ та заявив про ураження \"Бук-М3\" і \"Небо-У\"",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054308/",
-      "summary": "Генштаб ЗСУ: внаслідок удару по Московському НПЗ пошкоджено три установки, також знищені ЗРК \"Бук-М3\", РЛС \"Небо-У\" та виробництво БпЛА.",
-      "publishedAt": "2026-09-20T10:17:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Генштаб уточнив наслідки удару по Московському НПЗ та заявив про ураження \"Бук-М3\" і \"Небо-У\"",
-      "summaryUk": "Генштаб ЗСУ: внаслідок удару по Московському НПЗ пошкоджено три установки, також знищені ЗРК \"Бук-М3\", РЛС \"Небо-У\" та виробництво БпЛА."
     },
     {
       "id": "x-euromaidan-dd4d6f232601",
@@ -896,22 +880,6 @@
       ],
       "titleUk": "Ukraine receives 252 bodies as repatriation remains one of the few functioning channels with Russia",
       "summaryUk": "The repatriation of bodies gives families of missing Ukrainians a chance to identify their loved ones and finally bury them."
-    },
-    {
-      "id": "x-euromaidan-652664958f99",
-      "title": "From the frontline to a rehab center: a rescued dog from Pokrovsk now helps wounded Ukrainians on the other side of the country",
-      "url": "https://euromaidanpress.com/2026/09/17/from-the-frontline-to-a-rehab-center-a-rescued-dog-from-pokrovsk-now-helps-wounded-ukrainians-on-the-other-side-of-the-country/",
-      "summary": "A rescued puppy from Pokrovsk now has an unusual volunteer role: visiting wounded Ukrainians at a rehabilitation center in Lviv.",
-      "publishedAt": "2026-09-17T16:11:15.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "From the frontline to a rehab center: a rescued dog from Pokrovsk now helps wounded Ukrainians on the other side of the country",
-      "summaryUk": "A rescued puppy from Pokrovsk now has an unusual volunteer role: visiting wounded Ukrainians at a rehabilitation center in Lviv."
     }
   ]
 }
