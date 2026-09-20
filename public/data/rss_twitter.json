@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:46:17.118Z",
+  "generatedAt": "2026-09-20T22:25:38.409Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,118 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-7be1d3cc1909",
+      "title": "Трамп знову просив Зеленського не бити по НПЗ у Росії – ЗМІ",
+      "url": "https://www.pravda.com.ua/news/2026/09/21/8054371/",
+      "summary": "Під час розмови 20 вересня Трамп неодноразово просив Україну припинити атаки по російських нафтопереробних заводах через зростання цін на дизельне паливо.",
+      "publishedAt": "2026-09-20T21:51:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Трамп знову просив Зеленського не бити по НПЗ у Росії – ЗМІ",
+      "summaryUk": "Під час розмови 20 вересня Трамп неодноразово просив Україну припинити атаки по російських нафтопереробних заводах через зростання цін на дизельне паливо."
+    },
+    {
+      "id": "x-pravda-992a6a416bab",
+      "title": "У спецслужбах Чехії, Латвії та Швеції очікують посилення провокацій РФ",
+      "url": "https://www.pravda.com.ua/news/2026/09/21/8054370/",
+      "summary": "Керівники чеської, латвійської та шведської розвідок прогнозують посилення диверсій Росії в Європі найближчими місяцями. Різняться оцінки ризику вторгнення.",
+      "publishedAt": "2026-09-20T21:12:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У спецслужбах Чехії, Латвії та Швеції очікують посилення провокацій РФ",
+      "summaryUk": "Керівники чеської, латвійської та шведської розвідок прогнозують посилення диверсій Росії в Європі найближчими місяцями. Різняться оцінки ризику вторгнення."
+    },
+    {
+      "id": "x-euromaidan-06c34ec727d1",
+      "title": "Russo-Ukrainian war, day 1670: Ukraine’s Vivaldi counteroffensive described as &#8220;one of Ukraine’s most important victories of 2026&#8221;",
+      "url": "https://euromaidanpress.com/2026/09/20/russo-ukrainian-war-day-1670/",
+      "summary": "The news of 50 square kilometers clawed back came as Ukrainian long-range strikes reached a major Moscow oil refinery during Russia’s State Duma elections.",
+      "publishedAt": "2026-09-20T20:38:45.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1670: Ukraine’s Vivaldi counteroffensive described as &#8220;one of Ukraine’s most important victories of 2026&#8221;",
+      "summaryUk": "The news of 50 square kilometers clawed back came as Ukrainian long-range strikes reached a major Moscow oil refinery during Russia’s State Duma elections."
+    },
+    {
+      "id": "x-pravda-4b585827c0a2",
+      "title": "На Київщині через атаки РФ горить промзона, СТО й будинок",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054368/",
+      "summary": "У Фастівському, Бучанському та Обухівському районах Київщини через атаку безпілотників сталися пожежі на виробництві, СТО та в приватному будинку.",
+      "publishedAt": "2026-09-20T20:15:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Київщині через атаки РФ горить промзона, СТО й будинок",
+      "summaryUk": "У Фастівському, Бучанському та Обухівському районах Київщини через атаку безпілотників сталися пожежі на виробництві, СТО та в приватному будинку."
+    },
+    {
+      "id": "x-pravda-862c7500ecc6",
+      "title": "Генштаб: На фронті в неділю 211 боїв, найбільше – на Костянтинівському напрямку",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054367/",
+      "summary": "За день зафіксовано 211 бойових зіткнень, найбільше атак відбито на Костянтинівському і Покровському напрямках. Деталі по інших ділянках фронту.",
+      "publishedAt": "2026-09-20T19:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Генштаб: На фронті в неділю 211 боїв, найбільше – на Костянтинівському напрямку",
+      "summaryUk": "За день зафіксовано 211 бойових зіткнень, найбільше атак відбито на Костянтинівському і Покровському напрямках. Деталі по інших ділянках фронту."
+    },
+    {
+      "id": "x-pravda-ecd202d73c66",
+      "title": "Росіяни вдарили біля багатоповерхівки в Сумах: загинула жінка, є поранений",
+      "url": "https://www.pravda.com.ua/news/2026/09/20/8054366/",
+      "summary": "У Сумах два ворожі дрони влучили біля житлового будинку: загинула жінка, поранено 41-річного чоловіка, пошкоджено будівлю та 5 автівок.",
+      "publishedAt": "2026-09-20T19:29:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили біля багатоповерхівки в Сумах: загинула жінка, є поранений",
+      "summaryUk": "У Сумах два ворожі дрони влучили біля житлового будинку: загинула жінка, поранено 41-річного чоловіка, пошкоджено будівлю та 5 автівок."
+    },
+    {
+      "id": "x-euromaidan-2342aff3307b",
+      "title": "Ukraine and Hungary have a rare moment of cooperation, agreeing to build fuel storage beyond Russia’s reach",
+      "url": "https://euromaidanpress.com/2026/09/20/ukraine-to-store-fuel-in-hungary/",
+      "summary": "The planned storage facilities in Hungary near the Ukrainian border will help Ukraine diversify fuel supplies as Russia continues attacking energy infrastructure.",
+      "publishedAt": "2026-09-20T19:04:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine and Hungary have a rare moment of cooperation, agreeing to build fuel storage beyond Russia’s reach",
+      "summaryUk": "The planned storage facilities in Hungary near the Ukrainian border will help Ukraine diversify fuel supplies as Russia continues attacking energy infrastructure."
+    },
     {
       "id": "x-pravda-fada726bbeac",
       "title": "\"Єдиній Росії\" на \"виборах\" до Держдуми малюють понад половину голосів",
@@ -384,70 +496,6 @@
       ],
       "titleUk": "Зброя останньої надії: окупанти почала захищати свої «крила» оберегами з матюками",
       "summaryUk": "Відповідне відео було оприлюднене 20 вересня на каналі 8-го корпусу ДШВ, до складу якого входить бригада. «Напис на ворожому дроні..."
-    },
-    {
-      "id": "x-pravda-ff0ea06392b2",
-      "title": "На фронті загинув колишній політв'язень Кремля Микола Карпюк",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054333/",
-      "summary": "На фронті загинув колишній політв'язень Кремля, громадський і політичний діяч, співзасновник УНА-УНСО Микола Карпюк.",
-      "publishedAt": "2026-09-20T13:42:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "На фронті загинув колишній політв'язень Кремля Микола Карпюк",
-      "summaryUk": "На фронті загинув колишній політв'язень Кремля, громадський і політичний діяч, співзасновник УНА-УНСО Микола Карпюк."
-    },
-    {
-      "id": "x-pravda-d9f0c6285d35",
-      "title": "\"Історію, яку можна прочитати і пережити\": як Снайдер та 200 дослідників розповідатимуть світові про Україну",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054331/",
-      "summary": "",
-      "publishedAt": "2026-09-20T13:16:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "\"Історію, яку можна прочитати і пережити\": як Снайдер та 200 дослідників розповідатимуть світові про Україну",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-5d9586b0148f",
-      "title": "Історія України як частина історії світу: що створюють 200 дослідників під керівництвом Тімоті Снайдера",
-      "url": "https://www.pravda.com.ua/columns/2026/09/20/8054328/",
-      "summary": "Третя конференція у Києві об'єднала 80 дослідників. Готуються книжки й цифрова платформа для світової аудиторії.",
-      "publishedAt": "2026-09-20T13:06:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Історія України як частина історії світу: що створюють 200 дослідників під керівництвом Тімоті Снайдера",
-      "summaryUk": "Третя конференція у Києві об'єднала 80 дослідників. Готуються книжки й цифрова платформа для світової аудиторії."
-    },
-    {
-      "id": "x-pravda-08cb0b772d93",
-      "title": "Жителі Придністров’я голосують на виборах до Держдуми РФ",
-      "url": "https://www.pravda.com.ua/news/2026/09/20/8054327/",
-      "summary": "У Придністров'ї відкрили дільниці для виборів до Держдуми Росії. Молдова визнала це неприйнятним, погодивши лише одну дільницю в Кишиневі.",
-      "publishedAt": "2026-09-20T12:54:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Жителі Придністров’я голосують на виборах до Держдуми РФ",
-      "summaryUk": "У Придністров'ї відкрили дільниці для виборів до Держдуми Росії. Молдова визнала це неприйнятним, погодивши лише одну дільницю в Кишиневі."
     },
     {
       "id": "x-euromaidan-f1be3e9a49c3",
@@ -848,38 +896,6 @@
       ],
       "titleUk": "Russia kills captain of Tanzanian-flagged ship in latest attack on civilian shipping in Black Sea",
       "summaryUk": "Russia has repeatedly attacked civilian shipping around Ukraine’s Black Sea ports, putting international crews and maritime trade at risk."
-    },
-    {
-      "id": "x-euromaidan-44e799b57e33",
-      "title": "“What Ukraine needs right now”: Poland to provide Ukraine with scarce F-16 missiles to shoot down jet-powered drones",
-      "url": "https://euromaidanpress.com/2026/09/17/what-ukraine-needs-right-now-poland-to-provide-ukraine-with-scarce-f-16-missiles-to-shoot-down-jet-powered-drones/",
-      "summary": "The aid package will also include aviation equipment, Poland’s deputy defense minister says.",
-      "publishedAt": "2026-09-17T19:11:13.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "“What Ukraine needs right now”: Poland to provide Ukraine with scarce F-16 missiles to shoot down jet-powered drones",
-      "summaryUk": "The aid package will also include aviation equipment, Poland’s deputy defense minister says."
-    },
-    {
-      "id": "x-euromaidan-67500fa59c93",
-      "title": "Ukraine receives 252 bodies as repatriation remains one of the few functioning channels with Russia",
-      "url": "https://euromaidanpress.com/2026/09/17/ukraine-receives-252-bodies-from-russia/",
-      "summary": "The repatriation of bodies gives families of missing Ukrainians a chance to identify their loved ones and finally bury them.",
-      "publishedAt": "2026-09-17T18:35:03.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine receives 252 bodies as repatriation remains one of the few functioning channels with Russia",
-      "summaryUk": "The repatriation of bodies gives families of missing Ukrainians a chance to identify their loved ones and finally bury them."
     }
   ]
 }
