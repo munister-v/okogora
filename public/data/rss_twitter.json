@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:16:21.962Z",
+  "generatedAt": "2026-09-23T00:30:17.677Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,150 @@
   ],
   "items": [
     {
+      "id": "x-pravda-ac4b32661602",
+      "title": "Лукашенко \"з радістю\" дозволить Путіну використовувати Білорусь для атак на Україну – Тихановська",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054670/",
+      "summary": "Лідерка білоруської опозиції прокоментувала, як Лукашенко допомагатиме Путіну в атаках на Україну.",
+      "publishedAt": "2026-09-23T00:24:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Лукашенко \"з радістю\" дозволить Путіну використовувати Білорусь для атак на Україну – Тихановська",
+      "summaryUk": "Лідерка білоруської опозиції прокоментувала, як Лукашенко допомагатиме Путіну в атаках на Україну."
+    },
+    {
+      "id": "x-pravda-2267e995db51",
+      "title": "Росіяни атакували Ізюм на Харківщині КАБами: семеро потерпілих",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054669/",
+      "summary": "У вівторок увечері російські окупаційні війська завдали повторного удару по місту Ізюм на Харківщині, застосувавши, за попередніми даними, 4 керованих авіабомби (КАБ), внаслідок чого постраждало семеро людей.",
+      "publishedAt": "2026-09-22T23:50:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували Ізюм на Харківщині КАБами: семеро потерпілих",
+      "summaryUk": "У вівторок увечері російські окупаційні війська завдали повторного удару по місту Ізюм на Харківщині, застосувавши, за попередніми даними, 4 керованих авіабомби (КАБ), внаслідок чого постраждало семеро людей."
+    },
+    {
+      "id": "x-euromaidan-00ea0b84f46e",
+      "title": "Ukraine&#8217;s chief prosecutor fled. Politicians still choose the man who can prosecute them.",
+      "url": "https://euromaidanpress.com/2026/09/23/ukraines-chief-prosecutor-fled-politicians-still-choose-the-man-who-can-prosecute-them/",
+      "summary": "He is only the latest prosecutor general to leave the office in disgrace, and the office is the reason.",
+      "publishedAt": "2026-09-22T23:26:37.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s chief prosecutor fled. Politicians still choose the man who can prosecute them.",
+      "summaryUk": "He is only the latest prosecutor general to leave the office in disgrace, and the office is the reason."
+    },
+    {
+      "id": "x-pravda-a30f94ec7fce",
+      "title": "Сибіга: Відновлення свободи судноплавства в Чорному морі – серед нагальних глобальних пріоритетів",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054667/",
+      "summary": "Сибіга під час зустрічі з Карлом Скау повідомив, що Росія цілеспрямовано атакує морський коридор України.",
+      "publishedAt": "2026-09-22T22:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Сибіга: Відновлення свободи судноплавства в Чорному морі – серед нагальних глобальних пріоритетів",
+      "summaryUk": "Сибіга під час зустрічі з Карлом Скау повідомив, що Росія цілеспрямовано атакує морський коридор України."
+    },
+    {
+      "id": "x-pravda-7ec39862be08",
+      "title": "Росіяни обстріляли село на Запоріжжі: пошкодили будинки та вбили чоловіка",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054664/",
+      "summary": "У результаті удару по Кушугуму 22 вересня загинув місцевий житель, пошкоджено декілька будинків. Деталі повідомив Михайло Семікін.",
+      "publishedAt": "2026-09-22T22:05:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни обстріляли село на Запоріжжі: пошкодили будинки та вбили чоловіка",
+      "summaryUk": "У результаті удару по Кушугуму 22 вересня загинув місцевий житель, пошкоджено декілька будинків. Деталі повідомив Михайло Семікін."
+    },
+    {
+      "id": "x-pravda-c4db83de6dd9",
+      "title": "Зеленський: \"Є інформація від розвідки про те, що Росія готує нову масовану атаку проти України\"",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054663/",
+      "summary": "Зеленський розповів Бернему про інформацію розвідки про підготовку нової масованої атаки РФ.",
+      "publishedAt": "2026-09-22T21:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський: \"Є інформація від розвідки про те, що Росія готує нову масовану атаку проти України\"",
+      "summaryUk": "Зеленський розповів Бернему про інформацію розвідки про підготовку нової масованої атаки РФ."
+    },
+    {
+      "id": "x-euromaidan-f73e49c31960",
+      "title": "$16 bn or lives of Ukrainians: Kyiv is furious after EU took two of Russia&#8217;s richest men off its sanctions list",
+      "url": "https://euromaidanpress.com/2026/09/23/16-bn-or-lives-of-ukrainians-kyiv-is-furious-after-eu-took-two-of-russias-richest-men-off-its-sanctions-list/",
+      "summary": "Usmanov and Fridman were dropped over a prisoner deal and a $16bn lawsuit.",
+      "publishedAt": "2026-09-22T21:39:26.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "$16 bn or lives of Ukrainians: Kyiv is furious after EU took two of Russia&#8217;s richest men off its sanctions list",
+      "summaryUk": "Usmanov and Fridman were dropped over a prisoner deal and a $16bn lawsuit."
+    },
+    {
+      "id": "x-pravda-08f9f5d3bbbb",
+      "title": "У Києві БпЛА пошкодив приватний будинок: постраждалого госпіталізували",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054662/",
+      "summary": "Російський безпілотник влучив у приватний будинок у Дніпровському районі Києва, одну людину госпіталізовано. В Оболоні сталася пожежа без постраждалих.",
+      "publishedAt": "2026-09-22T21:28:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві БпЛА пошкодив приватний будинок: постраждалого госпіталізували",
+      "summaryUk": "Російський безпілотник влучив у приватний будинок у Дніпровському районі Києва, одну людину госпіталізовано. В Оболоні сталася пожежа без постраждалих."
+    },
+    {
+      "id": "x-pravda-40327bd82769",
+      "title": "Росіяни дронами атакували автомобілі в Харкові, загинула людина",
+      "url": "https://www.pravda.com.ua/news/2026/09/23/8054661/",
+      "summary": "Через \"полювання\" ворожих дронів на автомобілі в Харкові загинула людина.",
+      "publishedAt": "2026-09-22T21:18:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни дронами атакували автомобілі в Харкові, загинула людина",
+      "summaryUk": "Через \"полювання\" ворожих дронів на автомобілі в Харкові загинула людина."
+    },
+    {
       "id": "x-euromaidan-61c9c7f0a4fc",
       "title": "Russia is spending jet-powered drones on Ukraine&#8217;s toilet-paper factory. It&#8217;s same campaign that has destroyed 2.1 million square meters of Ukraine&#8217;s warehouses",
       "url": "https://euromaidanpress.com/2026/09/23/russia-is-spending-jet-powered-drones-on-ukraines-toilet-paper-factory-its-same-campaign-that-has-destroyed-2-1-million-square-meters-of-ukraines-warehouses/",
@@ -194,22 +338,6 @@
       "summaryUk": "The state covers all but 5% of the cost, and the first 26 deals have been signed to help producers buy equipment and expand quickly."
     },
     {
-      "id": "x-pravda-d9ce4eb4ac70",
-      "title": "Зеленський: Готовий зустрітися з Путіним у будь-який час",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054653/",
-      "summary": "Президент Володимир Зеленський на пресконференції після переговорів з Дональдом Трампом заявив, що він готовий зустрітись з правителем РФ Володимиром Путіним і що очільник Білого дому може допомогти організувати тристоронню зустріч.",
-      "publishedAt": "2026-09-22T19:28:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Готовий зустрітися з Путіним у будь-який час",
-      "summaryUk": "Президент Володимир Зеленський на пресконференції після переговорів з Дональдом Трампом заявив, що він готовий зустрітись з правителем РФ Володимиром Путіним і що очільник Білого дому може допомогти організувати тристоронню зустріч."
-    },
-    {
       "id": "x-pravda-e19cdfa2eef0",
       "title": "Президент США заявив, що обговорить \"закон Грема\" з лідером Китаю",
       "url": "https://www.pravda.com.ua/news/2026/09/22/8054654/",
@@ -224,6 +352,22 @@
       ],
       "titleUk": "Президент США заявив, що обговорить \"закон Грема\" з лідером Китаю",
       "summaryUk": "Президент США Дональд Трамп сказав, що обговорить \"закон Грема\", який, зокрема, стосується санкцій проти Росії та \"каральних мит\" проти покупців російських енергоносіїв, з китайським лідером Сі Цзіньпіном."
+    },
+    {
+      "id": "x-pravda-d9ce4eb4ac70",
+      "title": "Зеленський: Готовий зустрітися з Путіним у будь-який час",
+      "url": "https://www.pravda.com.ua/news/2026/09/22/8054653/",
+      "summary": "Президент Володимир Зеленський на пресконференції після переговорів з Дональдом Трампом заявив, що він готовий зустрітись з правителем РФ Володимиром Путіним і що очільник Білого дому може допомогти організувати тристоронню зустріч.",
+      "publishedAt": "2026-09-22T19:28:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський: Готовий зустрітися з Путіним у будь-який час",
+      "summaryUk": "Президент Володимир Зеленський на пресконференції після переговорів з Дональдом Трампом заявив, що він готовий зустрітись з правителем РФ Володимиром Путіним і що очільник Білого дому може допомогти організувати тристоронню зустріч."
     },
     {
       "id": "x-pravda-9af7a23ede63",
@@ -450,22 +594,6 @@
       "summaryUk": "A 60th Brigade captain says a concealed buildup near Derylove and Drobysheve, and precisely timed strikes, let his units move in before Russia responded."
     },
     {
-      "id": "x-pravda-70fef77f83b3",
-      "title": "Поліція Києва перевірить недопуск студентів до переповненого укриття під час тривоги",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054640/",
-      "summary": "Поліція з'ясовує обставини недопуску студентів економічного факультету КНУ до укриття через його переповненість. Триває перевірка.",
-      "publishedAt": "2026-09-22T17:22:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Поліція Києва перевірить недопуск студентів до переповненого укриття під час тривоги",
-      "summaryUk": "Поліція з'ясовує обставини недопуску студентів економічного факультету КНУ до укриття через його переповненість. Триває перевірка."
-    },
-    {
       "id": "x-euromaidan-fdba423a91d4",
       "title": "Ukraine shoots down Russian drones by hundred thousand: 350,000 this year, filmed and verified hit by hit in DELTA",
       "url": "https://euromaidanpress.com/2026/09/22/ukraine-shoots-down-russian-drones-by-hundred-thousand-350000-this-year-filmed-and-verified-hit-by-hit-in-delta/",
@@ -480,54 +608,6 @@
       ],
       "titleUk": "Ukraine shoots down Russian drones by hundred thousand: 350,000 this year, filmed and verified hit by hit in DELTA",
       "summaryUk": "The tally dwarfs what NATO manages against a handful of Russian drones."
-    },
-    {
-      "id": "x-pravda-45a018abb5f8",
-      "title": "Рада ЄС продовжила санкції проти Росії на 3 роки, але вилучила зі списку Фрідмана і Усманова",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054639/",
-      "summary": "Рада ЄС на 36 місяців подовжила обмеження за дії проти України, при цьому двох російських олігархів виключили зі списку.",
-      "publishedAt": "2026-09-22T17:15:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Рада ЄС продовжила санкції проти Росії на 3 роки, але вилучила зі списку Фрідмана і Усманова",
-      "summaryUk": "Рада ЄС на 36 місяців подовжила обмеження за дії проти України, при цьому двох російських олігархів виключили зі списку."
-    },
-    {
-      "id": "x-pravda-931f728ac7ea",
-      "title": "Сибіга про зняття санкцій з двох олігархів РФ: \"Москва святкує, бо отримала те, чого прагнула\"",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054638/",
-      "summary": "Міністр закордонних справ України Андрій Сибіга назвав ганебним та невиправданим рішення ЄС виключити з санкційного списку російських олігархів Алішера Усманова та Михаїла Фрідмана.",
-      "publishedAt": "2026-09-22T17:08:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Сибіга про зняття санкцій з двох олігархів РФ: \"Москва святкує, бо отримала те, чого прагнула\"",
-      "summaryUk": "Міністр закордонних справ України Андрій Сибіга назвав ганебним та невиправданим рішення ЄС виключити з санкційного списку російських олігархів Алішера Усманова та Михаїла Фрідмана."
-    },
-    {
-      "id": "x-pravda-698cb385ae67",
-      "title": "Латвія після поступки ЄС запровадить національні санкції проти Усманова і Фрідмана",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054636/",
-      "summary": "Латвія запровадить національні санкції проти російських олігархів Алішера Усманова і Михаїла Фрідмана після того, як пішла на поступки та зняла своє вето з виключення цих олігархів із санкційного списку ЄС.",
-      "publishedAt": "2026-09-22T17:03:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Латвія після поступки ЄС запровадить національні санкції проти Усманова і Фрідмана",
-      "summaryUk": "Латвія запровадить національні санкції проти російських олігархів Алішера Усманова і Михаїла Фрідмана після того, як пішла на поступки та зняла своє вето з виключення цих олігархів із санкційного списку ЄС."
     },
     {
       "id": "x-euromaidan-53a9885ad540",
@@ -594,22 +674,6 @@
       "summaryUk": "Відео про роботу системи оприлюднила 22 вересня Державна прикордонна служба України. «ЙО-ЙО» дозволяє нейтралізувати повітряні цілі значно дешевше та швидше..."
     },
     {
-      "id": "x-pravda-b9dd360c69c3",
-      "title": "Удари РФ по складах на Одещині: вирували пожежі, загинула людина, є поранені",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054633/",
-      "summary": "Російські війська 22 вересня атакували складські приміщення в Одеській області. Сталися масштабні пожежі, одна людина загинула, ще двоє поранені.",
-      "publishedAt": "2026-09-22T16:37:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Удари РФ по складах на Одещині: вирували пожежі, загинула людина, є поранені",
-      "summaryUk": "Російські війська 22 вересня атакували складські приміщення в Одеській області. Сталися масштабні пожежі, одна людина загинула, ще двоє поранені."
-    },
-    {
       "id": "x-euromaidan-166017e438a2",
       "title": "300 Russian shadow fleet ships disabled in 11 weeks—the Azov Sea is at a standstill, Ukrainian drone force commander says",
       "url": "https://euromaidanpress.com/2026/09/22/300-russian-shadow-fleet-ships-disabled-in-11-weeks-the-azov-sea-is-at-a-standstill-ukrainian-drone-force-commander-says/",
@@ -624,22 +688,6 @@
       ],
       "titleUk": "300 Russian shadow fleet ships disabled in 11 weeks—the Azov Sea is at a standstill, Ukrainian drone force commander says",
       "summaryUk": "The milestone marks a jump from the 201 reported in late July, though the pace has slowed as shipping traffic in the strike zone thinned out."
-    },
-    {
-      "id": "x-pravda-015ed6fc4f42",
-      "title": "Увечері РФ знову атакувала Київ дронами: в кількох районах є влучання, постраждали 8 людей",
-      "url": "https://www.pravda.com.ua/news/2026/09/22/8054630/",
-      "summary": "Російські війська 22 вересня ввечері атакували Київ реактивними БпЛА. Внаслідок цього є влучання в Печерському, Оболонському та Дніпровському районах, 8 людей постраждали.",
-      "publishedAt": "2026-09-22T16:17:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Увечері РФ знову атакувала Київ дронами: в кількох районах є влучання, постраждали 8 людей",
-      "summaryUk": "Російські війська 22 вересня ввечері атакували Київ реактивними БпЛА. Внаслідок цього є влучання в Печерському, Оболонському та Дніпровському районах, 8 людей постраждали."
     },
     {
       "id": "x-euromaidan-79b9630c0334",
@@ -912,38 +960,6 @@
       ],
       "titleUk": "Russia has warned its cities about every strike for years. During the heaviest raid yet, on election day, it left the sirens silent",
       "summaryUk": "The backlash came even from Russia's own pro-war bloggers, as a major Moscow refinery burned on the final day of voting."
-    },
-    {
-      "id": "x-euromaidan-4c4817a422b5",
-      "title": "Warning sirens are going west: Russian jet-powered drones bring strikes closer to NATO country",
-      "url": "https://euromaidanpress.com/2026/09/21/warning-sirens-are-going-west-jet-powered-russian-drones-bring-strikes-closer-to-nato-country/",
-      "summary": "Poland is expanding its warning-siren network as officials prepare for more Russian attacks near the border.",
-      "publishedAt": "2026-09-21T16:21:36.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Warning sirens are going west: Russian jet-powered drones bring strikes closer to NATO country",
-      "summaryUk": "Poland is expanding its warning-siren network as officials prepare for more Russian attacks near the border."
-    },
-    {
-      "id": "x-euromaidan-06439e8f8b5a",
-      "title": "Ukraine is saving Donetsk Oblast with world&#8217;s first-of-its-kind operation: Vivaldi counteroffensive drops robots directly from heavy bombers 10 kilometers behind Russian lines",
-      "url": "https://euromaidanpress.com/2026/09/21/for-first-time-in-war-ukraine-drops-small-robot-vehicles-behind-russian-lines-from-heavy-bombers-and-clears-125-square-kilometers-of-donetsk-oblast/",
-      "summary": "Heavy drones delivered the robots more than 10 kilometers into the Russian rear during Operation Vivaldi near Lyman.",
-      "publishedAt": "2026-09-21T14:11:34.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine is saving Donetsk Oblast with world&#8217;s first-of-its-kind operation: Vivaldi counteroffensive drops robots directly from heavy bombers 10 kilometers behind Russian lines",
-      "summaryUk": "Heavy drones delivered the robots more than 10 kilometers into the Russian rear during Operation Vivaldi near Lyman."
     }
   ]
 }
