@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T22:12:52.317Z",
+  "generatedAt": "2026-09-30T01:17:31.429Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,54 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-67ba8f91a111",
+      "title": "Ігнат розповів, як росіяни удосконалюють дрони для атак на Україну",
+      "url": "https://www.pravda.com.ua/news/2026/09/30/8055696/",
+      "summary": "Для атак на Україну: Ігнат розповів про удосконалення російських БпЛА.",
+      "publishedAt": "2026-09-30T00:38:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ігнат розповів, як росіяни удосконалюють дрони для атак на Україну",
+      "summaryUk": "Для атак на Україну: Ігнат розповів про удосконалення російських БпЛА."
+    },
+    {
+      "id": "x-pravda-2ed91283d943",
+      "title": "Ворог вчергове атакував Київ балістикою: виникли пожежі, двоє потерпілих",
+      "url": "https://www.pravda.com.ua/news/2026/09/30/8055695/",
+      "summary": "У ніч на середу, 30 вересня, російська окупаційна армія атакувала Київ балістикою, в місті виникли пожежі, зокрема в приватному секторі горіли будинки, двоє потерпілих.",
+      "publishedAt": "2026-09-29T23:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ворог вчергове атакував Київ балістикою: виникли пожежі, двоє потерпілих",
+      "summaryUk": "У ніч на середу, 30 вересня, російська окупаційна армія атакувала Київ балістикою, в місті виникли пожежі, зокрема в приватному секторі горіли будинки, двоє потерпілих."
+    },
+    {
+      "id": "x-pravda-5836ec909709",
+      "title": "Удари КАБами по Сумах: за день – двоє загиблих і 9 потерпілих",
+      "url": "https://www.pravda.com.ua/news/2026/09/30/8055693/",
+      "summary": "Через російські удари КАБами по Сумах у місті двоє людей загнули і 9 постраждали.",
+      "publishedAt": "2026-09-29T22:52:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Удари КАБами по Сумах: за день – двоє загиблих і 9 потерпілих",
+      "summaryUk": "Через російські удари КАБами по Сумах у місті двоє людей загнули і 9 постраждали."
+    },
     {
       "id": "x-pravda-af5821a75d8f",
       "title": "США запровадили санкції за закупівлю озброєння для Ірану: у списку – компанії РФ",
@@ -562,22 +610,6 @@
       "summaryUk": "Too thinly armored for infantry, 110 Bulgarian-donated BTR-60s now go into Russian bunkers near Lyman packed with anti-tank mines and nobody inside."
     },
     {
-      "id": "x-pravda-b58befcff024",
-      "title": "За день РФ атакувала Україну 112 безпілотниками, 95 із них знешкодила ППО",
-      "url": "https://www.pravda.com.ua/news/2026/09/29/8055656/",
-      "summary": "Російська армія вдень 29 вересня запустила по території України 112 ударних БпЛА, 29 із них реактивних.",
-      "publishedAt": "2026-09-29T15:49:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "За день РФ атакувала Україну 112 безпілотниками, 95 із них знешкодила ППО",
-      "summaryUk": "Російська армія вдень 29 вересня запустила по території України 112 ударних БпЛА, 29 із них реактивних."
-    },
-    {
       "id": "x-euromaidan-928fe49ae131",
       "title": "Russian jet-powered drone hits near Yahodyn, just 1.5 km from Poland, as Warsaw changes air defense rules",
       "url": "https://euromaidanpress.com/2026/09/29/russian-jet-powered-drone-hits-near-yahodyn-just-1-5-km-from-poland-as-warsaw-changes-air-defense-rules/",
@@ -594,22 +626,6 @@
       "summaryUk": "Poland plans to allow decisions to engage aerial targets based on radar data."
     },
     {
-      "id": "x-pravda-7e93e0e81cd1",
-      "title": "У ЄС закликали українську владу об'єднатись для \"толоки реформ\" в обмін на фінансування",
-      "url": "https://www.pravda.com.ua/news/2026/09/29/8055652/",
-      "summary": "",
-      "publishedAt": "2026-09-29T15:17:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У ЄС закликали українську владу об'єднатись для \"толоки реформ\" в обмін на фінансування",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-643290f229e3",
       "title": "Russia raises its war budget by 27% and expands the army again – both to new records – even as its budget deficit widens and oil revenues fall",
       "url": "https://euromaidanpress.com/2026/09/29/russia-raises-its-war-budget-by-27/",
@@ -624,22 +640,6 @@
       ],
       "titleUk": "Russia raises its war budget by 27% and expands the army again – both to new records – even as its budget deficit widens and oil revenues fall",
       "summaryUk": "Moscow plans to spend a record 17.1 trillion rubles on defense in 2027 as it raises taxes and borrowing to cover a widening deficit."
-    },
-    {
-      "id": "x-pravda-c4aa703daf30",
-      "title": "В ЄС стартували масштабні навчання рятувальників Crossflood за участю українців",
-      "url": "https://www.pravda.com.ua/news/2026/09/29/8055649/",
-      "summary": "Масштабні тренування з цивільного захисту Crossflood пройдуть у Румунії. Участь беруть фахівці з шести країн, включно з Україною.",
-      "publishedAt": "2026-09-29T15:06:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "В ЄС стартували масштабні навчання рятувальників Crossflood за участю українців",
-      "summaryUk": "Масштабні тренування з цивільного захисту Crossflood пройдуть у Румунії. Участь беруть фахівці з шести країн, включно з Україною."
     },
     {
       "id": "x-euromaidan-72767d9c8ee0",
