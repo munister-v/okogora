@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T19:16:39.435Z",
+  "generatedAt": "2026-10-02T23:45:47.100Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,166 @@
   ],
   "items": [
     {
+      "id": "x-pravda-75a55a92782b",
+      "title": "У МЗС заперечили інформацію The Guardian про евакуацію посольств із Києва",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056250/",
+      "summary": "Речник Міністерства закордонних справ Георгій Тихий заявив, що іноземні партнери не повідомляли Україну про наміри перемістити свої дипломатичні представництва із Києва.",
+      "publishedAt": "2026-10-02T23:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У МЗС заперечили інформацію The Guardian про евакуацію посольств із Києва",
+      "summaryUk": "Речник Міністерства закордонних справ Георгій Тихий заявив, що іноземні партнери не повідомляли Україну про наміри перемістити свої дипломатичні представництва із Києва."
+    },
+    {
+      "id": "x-pravda-52cb38b38df4",
+      "title": "Росіяни вдарили дроном по пожежній частині на Запоріжжі, поранено рятувальника – ДСНС",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056249/",
+      "summary": "У п'ятницю російські військові цілеспрямовано атакували безпілотником пожежно-рятувальний підрозділ у Запорізькому районі, внаслідок чого постраждав рятувальник.",
+      "publishedAt": "2026-10-02T22:27:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили дроном по пожежній частині на Запоріжжі, поранено рятувальника – ДСНС",
+      "summaryUk": "У п'ятницю російські військові цілеспрямовано атакували безпілотником пожежно-рятувальний підрозділ у Запорізькому районі, внаслідок чого постраждав рятувальник."
+    },
+    {
+      "id": "x-euromaidan-1d530a846c2b",
+      "title": "Ukraine lost another MiG-29 and its pilot on Thursday. It needs the jets to guard its cities, and almost none are left to replace them",
+      "url": "https://euromaidanpress.com/2026/10/03/mig-29-lost/",
+      "summary": "Capt. Marat Mambetov, 25, ejected after a Russian missile hit his jet during a strike mission but did not survive; it was the 37th confirmed loss of a Ukrainian MiG-29 since February 2022, leaving a fleet of about three dozen, roughly what Ukraine had before the invasion.",
+      "publishedAt": "2026-10-02T22:09:59.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine lost another MiG-29 and its pilot on Thursday. It needs the jets to guard its cities, and almost none are left to replace them",
+      "summaryUk": "Capt. Marat Mambetov, 25, ejected after a Russian missile hit his jet during a strike mission but did not survive; it was the 37th confirmed loss of a Ukrainian MiG-29 since February 2022, leaving a fleet of about three dozen, roughly what Ukraine had before the invasion."
+    },
+    {
+      "id": "x-pravda-2a69b0a72ee6",
+      "title": "Американо-український фонд уклав першу угоду щодо видобутку критичних мінералів на 30 млн доларів",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056248/",
+      "summary": "Керівник відділу інвестицій Американської корпорації з фінансування міжнародного розвитку (DFC) Конор Коулман повідомив, що спільний американо-український інвестиційний фонд відбудови уклав свою першу угоду у сфері критичних мінералів та погодив чотири інші проєкти.",
+      "publishedAt": "2026-10-02T22:08:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Американо-український фонд уклав першу угоду щодо видобутку критичних мінералів на 30 млн доларів",
+      "summaryUk": "Керівник відділу інвестицій Американської корпорації з фінансування міжнародного розвитку (DFC) Конор Коулман повідомив, що спільний американо-український інвестиційний фонд відбудови уклав свою першу угоду у сфері критичних мінералів та погодив чотири інші проєкти."
+    },
+    {
+      "id": "x-pravda-7eb7e01c0871",
+      "title": "У центрі Дніпра через атаку дрона спалахнув бізнес-центр, уламки впали на парковку міськради",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056246/",
+      "summary": "У ніч на 3 жовтня російські окупаційні війська атакували центр Дніпра реактивним безпілотником, унаслідок чого виникла пожежа в бізнес-центрі.",
+      "publishedAt": "2026-10-02T21:23:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У центрі Дніпра через атаку дрона спалахнув бізнес-центр, уламки впали на парковку міськради",
+      "summaryUk": "У ніч на 3 жовтня російські окупаційні війська атакували центр Дніпра реактивним безпілотником, унаслідок чого виникла пожежа в бізнес-центрі."
+    },
+    {
+      "id": "x-euromaidan-f2a30d9b5237",
+      "title": "Russo-Ukrainian war, day 1682: Russian drones repeatedly hit Kyiv&#8217;s Southern Bridge, forcing transport restrictions across the capital",
+      "url": "https://euromaidanpress.com/2026/10/02/russo-ukrainian-war-day-1682/",
+      "summary": "Drones struck Volgograd and Samara overnight, ISW found Russia ended September with a net territorial loss despite more than 46,000 casualties, and Hungary agreed to unblock two EU accession clusters once Ukraine passes its minority-schooling bill.",
+      "publishedAt": "2026-10-02T20:58:27.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russo-Ukrainian war, day 1682: Russian drones repeatedly hit Kyiv&#8217;s Southern Bridge, forcing transport restrictions across the capital",
+      "summaryUk": "Drones struck Volgograd and Samara overnight, ISW found Russia ended September with a net territorial loss despite more than 46,000 casualties, and Hungary agreed to unblock two EU accession clusters once Ukraine passes its minority-schooling bill."
+    },
+    {
+      "id": "x-pravda-62d2e067f52c",
+      "title": "На Костянтинівському напрямку відбулось найбільше боєзіткнень за добу – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/02/8056245/",
+      "summary": "Від початку доби 2 жовтня на фронті відбулося 164 бойові зіткнення, зокрема 19 на Костянтинівському напрямку.",
+      "publishedAt": "2026-10-02T20:54:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Костянтинівському напрямку відбулось найбільше боєзіткнень за добу – Генштаб",
+      "summaryUk": "Від початку доби 2 жовтня на фронті відбулося 164 бойові зіткнення, зокрема 19 на Костянтинівському напрямку."
+    },
+    {
+      "id": "x-pravda-829cbd3d8e2b",
+      "title": "Буданов: В Україну повернули 26 тисяч тіл загиблих, значна частина залишається невпізнаною",
+      "url": "https://www.pravda.com.ua/news/2026/10/02/8056242/",
+      "summary": "Значна частина із повернутих в Україну в межах репатріації тіл та останків залишається невпізнаною.",
+      "publishedAt": "2026-10-02T20:29:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Буданов: В Україну повернули 26 тисяч тіл загиблих, значна частина залишається невпізнаною",
+      "summaryUk": "Значна частина із повернутих в Україну в межах репатріації тіл та останків залишається невпізнаною."
+    },
+    {
+      "id": "x-pravda-12231b9970f1",
+      "title": "The Guardian пише, що дипломати розробляють плани перенесення посольств з Києва на випадок атак РФ по них",
+      "url": "https://www.pravda.com.ua/news/2026/10/02/8056235/",
+      "summary": "Західні дипломати попри публічні декларації намірів лишатися в Києві все ж розробляють плани на випадок надзвичайних обставин щодо перенесення посольств.",
+      "publishedAt": "2026-10-02T19:36:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "The Guardian пише, що дипломати розробляють плани перенесення посольств з Києва на випадок атак РФ по них",
+      "summaryUk": "Західні дипломати попри публічні декларації намірів лишатися в Києві все ж розробляють плани на випадок надзвичайних обставин щодо перенесення посольств."
+    },
+    {
+      "id": "x-pravda-b8ade4e0af99",
+      "title": "Напад в польському монастирі: підозрюваному наразі неможливо висунути офіційне обвинувачення",
+      "url": "https://www.pravda.com.ua/news/2026/10/02/8056234/",
+      "summary": "В Окружній прокуратурі у польському Перемишлі повідомили, що підозрюваний у нападі в монастирі сестер-бенедиктинок у Ярославі громадянин України Ігор М. перебуває в стані психозу, тож висунути йому офіційне обвинувачення наразі неможливо.",
+      "publishedAt": "2026-10-02T19:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Напад в польському монастирі: підозрюваному наразі неможливо висунути офіційне обвинувачення",
+      "summaryUk": "В Окружній прокуратурі у польському Перемишлі повідомили, що підозрюваний у нападі в монастирі сестер-бенедиктинок у Ярославі громадянин України Ігор М. перебуває в стані психозу, тож висунути йому офіційне обвинувачення наразі неможливо."
+    },
+    {
       "id": "x-pravda-54a7cc0b5f5e",
       "title": "Прем’єр Албанії каже, що ЄС бреше Україні у питанні членства",
       "url": "https://www.pravda.com.ua/news/2026/10/02/8056233/",
@@ -131,9 +291,9 @@
     },
     {
       "id": "x-pravda-e02b0e634f07",
-      "title": "У Гостомелі через атаку РФ постраждали 66-річний чоловік та 8-річна дівчинка",
+      "title": "У Гостомелі через атаку РФ постраждали 4 людей",
       "url": "https://www.pravda.com.ua/news/2026/10/02/8056231/",
-      "summary": "Російські війська 2 жовтня атакували Гостомель на Київщині: постраждали двоє людей, виникла пожежа в складських та виробничих приміщеннях.",
+      "summary": "Російські війська 2 жовтня атакували Гостомель на Київщині: постраждали 4 людей, виникла пожежа в складських та виробничих приміщеннях.",
       "publishedAt": "2026-10-02T18:22:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
@@ -142,8 +302,8 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У Гостомелі через атаку РФ постраждали 66-річний чоловік та 8-річна дівчинка",
-      "summaryUk": "Російські війська 2 жовтня атакували Гостомель на Київщині: постраждали двоє людей, виникла пожежа в складських та виробничих приміщеннях."
+      "titleUk": "У Гостомелі через атаку РФ постраждали 4 людей",
+      "summaryUk": "Російські війська 2 жовтня атакували Гостомель на Київщині: постраждали 4 людей, виникла пожежа в складських та виробничих приміщеннях."
     },
     {
       "id": "x-pravda-c674460fca15",
@@ -466,22 +626,6 @@
       "summaryUk": "Народний депутат від \"Європейської солідарності\" Олексій Гончаренко оприлюднив своє бачення завершення війни та порадив домовлятись з Росією \"про все на світі\", бо Україна програє війну. У \"Європейській солідарності\" виступили з заявою, що мир для України не має означати капітуляцію."
     },
     {
-      "id": "x-pravda-2f4ecb27fc3e",
-      "title": "Кличко: Знову є влучання в Південний міст",
-      "url": "https://www.pravda.com.ua/news/2026/10/02/8056201/",
-      "summary": "Російські окупанти знову вдарили по Південному мосту в Києві.",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Кличко: Знову є влучання в Південний міст",
-      "summaryUk": "Російські окупанти знову вдарили по Південному мосту в Києві."
-    },
-    {
       "id": "x-euromaidan-d12e75995e34",
       "title": "Russia repeatedly attacks bridge connecting Kyiv’s two sides across the Dnipro river, disrupting transport across the capital",
       "url": "https://euromaidanpress.com/2026/10/02/russia-attacks-bridge-connecting-kyivs-two-sides/",
@@ -496,38 +640,6 @@
       ],
       "titleUk": "Russia repeatedly attacks bridge connecting Kyiv’s two sides across the Dnipro river, disrupting transport across the capital",
       "summaryUk": "The Southern Bridge has come under repeated Russian drone attacks since 1 October, forcing transport restrictions as Russia steps up daily attacks with jet-powered Geran drones."
-    },
-    {
-      "id": "x-pravda-9d1f61018bc0",
-      "title": "Організації угорців України висловили задоволення проєктом закону про освіту",
-      "url": "https://www.pravda.com.ua/news/2026/10/02/8056188/",
-      "summary": "\"Товариство угорської культури Закарпаття\" та \"Демократична спілка угорців України\" привітали законопроєкт про освітні права національних меншин та закликали Верховну Раду до його якнайшвидшого ухвалення.",
-      "publishedAt": "2026-10-02T14:11:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Організації угорців України висловили задоволення проєктом закону про освіту",
-      "summaryUk": "\"Товариство угорської культури Закарпаття\" та \"Демократична спілка угорців України\" привітали законопроєкт про освітні права національних меншин та закликали Верховну Раду до його якнайшвидшого ухвалення."
-    },
-    {
-      "id": "x-pravda-44cd63a36769",
-      "title": "Остап Яриш: Чому Україні доведеться заново вибудовувати відносини з демократами у Конгресі",
-      "url": "https://www.pravda.com.ua/news/2026/10/02/8056184/",
-      "summary": "",
-      "publishedAt": "2026-10-02T13:48:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Остап Яриш: Чому Україні доведеться заново вибудовувати відносини з демократами у Конгресі",
-      "summaryUk": ""
     },
     {
       "id": "x-euromaidan-cfb0eda5f898",
@@ -880,38 +992,6 @@
       ],
       "titleUk": "The US has until 18 October to choose its Russia sanctions targets—if any. Kyiv&#8217;s wish list leads with the firms feeding Russia&#8217;s Starlink clone",
       "summaryUk": "At the top: Russian firms making parts for Moscow's Starlink rival, still untouched by US sanctions."
-    },
-    {
-      "id": "x-euromaidan-88c62e3e6b87",
-      "title": "Russia just accidentally crashed its first Tu-95 bomber in 11 years. Its missiles will keep striking Ukraine anyway",
-      "url": "https://euromaidanpress.com/2026/10/01/tu-95-crashed/",
-      "summary": "It is out of production and Russia's bomber fleet keeps shrinking, but a raid on 8 September needed just six bombers, and Russia still has around a hundred.",
-      "publishedAt": "2026-09-30T22:06:01.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Russia just accidentally crashed its first Tu-95 bomber in 11 years. Its missiles will keep striking Ukraine anyway",
-      "summaryUk": "It is out of production and Russia's bomber fleet keeps shrinking, but a raid on 8 September needed just six bombers, and Russia still has around a hundred."
-    },
-    {
-      "id": "x-euromaidan-6cb1d3bf3743",
-      "title": "Robots won&#8217;t replace armored vehicles, says Ukrainian company that builds both. It reveals one job they can&#8217;t do",
-      "url": "https://euromaidanpress.com/2026/10/01/robots-wont-replace-armored-vehicles-says-ukrainian-company-that-builds-both-it-reveals-one-job-they-cant-do/",
-      "summary": "Ukraine ran 100,000 robot missions this year.",
-      "publishedAt": "2026-09-30T21:48:46.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Robots won&#8217;t replace armored vehicles, says Ukrainian company that builds both. It reveals one job they can&#8217;t do",
-      "summaryUk": "Ukraine ran 100,000 robot missions this year."
     }
   ]
 }
