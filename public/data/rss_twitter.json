@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T19:14:22.963Z",
+  "generatedAt": "2026-10-03T23:01:43.926Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,150 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-04c0d066073d",
+      "title": "В Іспанії розслідують роботу Шарія на російські спецслужби та відмивання грошей – ЗМІ",
+      "url": "https://www.pravda.com.ua/news/2026/10/04/8056346/",
+      "summary": "В Іспанії триває масштабне розслідування щодо проросійського блогера Анатолія Шарія та його дружини Ольги Бондаренко. Правоохоронці підозрюють подружжя в отриманні грошей від російських спецслужб, а також у фінансових махінаціях.",
+      "publishedAt": "2026-10-03T22:41:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "В Іспанії розслідують роботу Шарія на російські спецслужби та відмивання грошей – ЗМІ",
+      "summaryUk": "В Іспанії триває масштабне розслідування щодо проросійського блогера Анатолія Шарія та його дружини Ольги Бондаренко. Правоохоронці підозрюють подружжя в отриманні грошей від російських спецслужб, а також у фінансових махінаціях."
+    },
+    {
+      "id": "x-pravda-6bf2e2cab31e",
+      "title": "Російські дрони атакували Київ: у Деснянському районі виникла пожежа",
+      "url": "https://www.pravda.com.ua/news/2026/10/04/8056347/",
+      "summary": "Унаслідок падіння уламків від дронів у Деснянському районі Києва сталася пожежа. Вночі двічі оголошували повітряну тривогу.",
+      "publishedAt": "2026-10-03T22:40:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російські дрони атакували Київ: у Деснянському районі виникла пожежа",
+      "summaryUk": "Унаслідок падіння уламків від дронів у Деснянському районі Києва сталася пожежа. Вночі двічі оголошували повітряну тривогу."
+    },
+    {
+      "id": "x-pravda-3174caf4ebba",
+      "title": "У ЄС відреагували на погрози Росії європейським дипломатам в Києві",
+      "url": "https://www.pravda.com.ua/news/2026/10/04/8056345/",
+      "summary": "Речник Єврокомісії заявив: представництво Європейського Союзу залишається працювати у Києві, РФ не вплине на підтримку України.",
+      "publishedAt": "2026-10-03T22:25:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У ЄС відреагували на погрози Росії європейським дипломатам в Києві",
+      "summaryUk": "Речник Єврокомісії заявив: представництво Європейського Союзу залишається працювати у Києві, РФ не вплине на підтримку України."
+    },
+    {
+      "id": "x-euromaidan-7bcd6ab22dd2",
+      "title": "Ukraine&#8217;s bomber drones, ones that dropped ground robots in its recent Donetsk counteroffensive, are getting 2.4-kilogram jammer to shield them from FPVs",
+      "url": "https://euromaidanpress.com/2026/10/04/ukraines-bomber-drones-ones-that-dropped-ground-robots-in-its-recent-donetsk-counteroffensive-are-getting-2-4-kilogram-jammer-to-shield-them-from-fpvs/",
+      "summary": "Aura-Ukraine is final-testing Aura 3K mini, a compact electronic-warfare shield.",
+      "publishedAt": "2026-10-03T21:26:50.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s bomber drones, ones that dropped ground robots in its recent Donetsk counteroffensive, are getting 2.4-kilogram jammer to shield them from FPVs",
+      "summaryUk": "Aura-Ukraine is final-testing Aura 3K mini, a compact electronic-warfare shield."
+    },
+    {
+      "id": "x-euromaidan-f18dddf1c17a",
+      "title": "A Nobel laureate&#8217;s deal: free Russia&#8217;s prisoners, fund the missiles hitting Ukraine",
+      "url": "https://euromaidanpress.com/2026/10/03/a-nobel-laureates-deal-free-russias-prisoners-fund-the-missiles-hitting-ukraine/",
+      "summary": "The laureate is Dmitry Muratov, and the deal he urged on Washington would lift sanctions on Russia's war economy in exchange for releasing the very dissidents the Kremlin jailed.",
+      "publishedAt": "2026-10-03T20:57:42.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "A Nobel laureate&#8217;s deal: free Russia&#8217;s prisoners, fund the missiles hitting Ukraine",
+      "summaryUk": "The laureate is Dmitry Muratov, and the deal he urged on Washington would lift sanctions on Russia's war economy in exchange for releasing the very dissidents the Kremlin jailed."
+    },
+    {
+      "id": "x-pravda-73d802db0ac1",
+      "title": "Росіяни понад 40 разів атакували Дніпропетровщину: троє поранених",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056343/",
+      "summary": "Внаслідок російських атак на Дніпропетровщині 3 жовтня поранено трьох людей.",
+      "publishedAt": "2026-10-03T20:21:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни понад 40 разів атакували Дніпропетровщину: троє поранених",
+      "summaryUk": "Внаслідок російських атак на Дніпропетровщині 3 жовтня поранено трьох людей."
+    },
+    {
+      "id": "x-pravda-ec72c87bb0c5",
+      "title": "У Києві через падіння уламків горить приватний будинок",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056341/",
+      "summary": "У Києві в приватному будинку спалахнула пожежа після падіння уламків ворожого БпЛА. Повітряна тривога триває.",
+      "publishedAt": "2026-10-03T19:51:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Києві через падіння уламків горить приватний будинок",
+      "summaryUk": "У Києві в приватному будинку спалахнула пожежа після падіння уламків ворожого БпЛА. Повітряна тривога триває."
+    },
+    {
+      "id": "x-pravda-8001600ddf32",
+      "title": "У Росії підірвали експрацівника колонії, якого Україна звинувачувала в катуваннях полонених",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056340/",
+      "summary": "У РФ внаслідок вибуху в Новомосковську загинув Роман Сиромятніков, підозрюваний Україною у катуваннях військовополонених.",
+      "publishedAt": "2026-10-03T19:35:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Росії підірвали експрацівника колонії, якого Україна звинувачувала в катуваннях полонених",
+      "summaryUk": "У РФ внаслідок вибуху в Новомосковську загинув Роман Сиромятніков, підозрюваний Україною у катуваннях військовополонених."
+    },
+    {
+      "id": "x-pravda-24f53300e4ee",
+      "title": "На Покровському напрямку відбито найбільше атак за день – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/03/8056339/",
+      "summary": "Генштаб ЗСУ: найбільше боїв – на Покровському та Костянтинівському напрямках, тривають ще кілька зіткнень.",
+      "publishedAt": "2026-10-03T19:16:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На Покровському напрямку відбито найбільше атак за день – Генштаб",
+      "summaryUk": "Генштаб ЗСУ: найбільше боїв – на Покровському та Костянтинівському напрямках, тривають ще кілька зіткнень."
+    },
     {
       "id": "x-pravda-b4e9da60b3e6",
       "title": "Зеленський: У переговорах з РФ Америка не повинна забувати, що вона в 100 разів сильніша",
@@ -259,7 +403,7 @@
     },
     {
       "id": "x-euromaidan-dfc40918dc96",
-      "title": "Ukraine&#8217;s top general wants to end Soviet rules in army. But president&#8217;s wartime headquarters may still hold biggest one, commander says",
+      "title": "Ukraine&#8217;s top general wants to end Soviet rules in army. But president&#8217;s wartime headquarters may still hold reforms, commander says",
       "url": "https://euromaidanpress.com/2026/10/03/ukraines-top-general-wants-to-end-soviet-rules-in-army-but-presidents-wartime-headquarters-may-still-hold-biggest-one-commander-says/",
       "summary": "Mykhailo Drapatyi is held responsible for the army but cannot freely appoint his own command team.",
       "publishedAt": "2026-10-03T16:51:52.000Z",
@@ -270,7 +414,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Ukraine&#8217;s top general wants to end Soviet rules in army. But president&#8217;s wartime headquarters may still hold biggest one, commander says",
+      "titleUk": "Ukraine&#8217;s top general wants to end Soviet rules in army. But president&#8217;s wartime headquarters may still hold reforms, commander says",
       "summaryUk": "Mykhailo Drapatyi is held responsible for the army but cannot freely appoint his own command team."
     },
     {
@@ -434,22 +578,6 @@
       "summaryUk": "The Veteran Sports program stopped on 1 October after the state found no money for it."
     },
     {
-      "id": "x-pravda-ef4dca07f5c5",
-      "title": "Україна уразила цілі в Самарській і Брянській областях РФ – Зеленський",
-      "url": "https://www.pravda.com.ua/news/2026/10/03/8056319/",
-      "summary": "Володимир Зеленський заявив про удари по об'єктах у Самарському та Брянському регіонах Росії, а також про результати в Чорному морі.",
-      "publishedAt": "2026-10-03T15:26:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна уразила цілі в Самарській і Брянській областях РФ – Зеленський",
-      "summaryUk": "Володимир Зеленський заявив про удари по об'єктах у Самарському та Брянському регіонах Росії, а також про результати в Чорному морі."
-    },
-    {
       "id": "x-armyinform-f774a3140791",
       "title": "Позиції «Іскандерів» на Брянщині потрапили під український удар — Володимир Зеленський",
       "url": "https://armyinform.com.ua/2026/10/03/pozycziyi-iskanderiv-na-bryanshhyni-potrapyly-pid-ukrayinskyj-udar-volodymyr-zelenskyj/",
@@ -466,22 +594,6 @@
       "summaryUk": "Про нові результати повідомив Президент України Володимир Зеленський. За його словами, цієї доби українська далекобійність спрацювала по об’єктах, які забезпечують російську воєнну..."
     },
     {
-      "id": "x-pravda-ceaa2e6d151f",
-      "title": "Інформація про падіння уламків БпЛА на дах багатоповерхівки в Києві не підтвердилася",
-      "url": "https://www.pravda.com.ua/news/2026/10/03/8056317/",
-      "summary": "В Оболонському районі Києва через падіння уламків ворожого безпілотника загорівся дах багатоповерхівки. Постраждалих і руйнувань немає.",
-      "publishedAt": "2026-10-03T15:07:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Інформація про падіння уламків БпЛА на дах багатоповерхівки в Києві не підтвердилася",
-      "summaryUk": "В Оболонському районі Києва через падіння уламків ворожого безпілотника загорівся дах багатоповерхівки. Постраждалих і руйнувань немає."
-    },
-    {
       "id": "x-armyinform-b01266c9b17b",
       "title": "Від віражів й каскадів теплових пасток до вибухів дронів за метри від кабіни: епічні кадри роботи 11-ї бригади",
       "url": "https://armyinform.com.ua/2026/10/03/vid-virazhiv-j-kaskadiv-teplovyh-pastok-do-vybuhiv-droniv-za-metry-vid-kabiny-epichni-kadry-roboty-11-yi-brygady/",
@@ -496,70 +608,6 @@
       ],
       "titleUk": "Від віражів й каскадів теплових пасток до вибухів дронів за метри від кабіни: епічні кадри роботи 11-ї бригади",
       "summaryUk": "Відео оприлюднила 11-та окрема бригада армійської авіації «Херсон». На кадрах бойові гелікоптери проходять на малій висоті, різко маневрують і залишають за собою цілі каскади..."
-    },
-    {
-      "id": "x-pravda-347dfadad30d",
-      "title": "У Києві готують понтонні переправи на випадок ураження мостів, у планах і тунель під Дніпром – міністр",
-      "url": "https://www.pravda.com.ua/news/2026/10/03/8056314/",
-      "summary": "З наступного тижня у столиці стартують роботи зі спорудження резервних понтонних переправ через Дніпро для збереження транспортного сполучення.",
-      "publishedAt": "2026-10-03T14:44:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Києві готують понтонні переправи на випадок ураження мостів, у планах і тунель під Дніпром – міністр",
-      "summaryUk": "З наступного тижня у столиці стартують роботи зі спорудження резервних понтонних переправ через Дніпро для збереження транспортного сполучення."
-    },
-    {
-      "id": "x-pravda-3464b30a0f3f",
-      "title": "Командувач НГУ знову заявив, що на окремих ділянках сили РФ переважають у 6 разів",
-      "url": "https://www.pravda.com.ua/news/2026/10/03/8056311/",
-      "summary": "Півненко повідомив: на Донеччині ворог перевершує українські сили у 6 разів, тривають штурми, відбиті понад 170 атак за тиждень.",
-      "publishedAt": "2026-10-03T14:19:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Командувач НГУ знову заявив, що на окремих ділянках сили РФ переважають у 6 разів",
-      "summaryUk": "Півненко повідомив: на Донеччині ворог перевершує українські сили у 6 разів, тривають штурми, відбиті понад 170 атак за тиждень."
-    },
-    {
-      "id": "x-pravda-9280a13d97e2",
-      "title": "Україна отримала 50 млн євро від Банку розвитку РЄ та Італії на компенсації за знищене житло",
-      "url": "https://www.pravda.com.ua/news/2026/10/03/8056309/",
-      "summary": "",
-      "publishedAt": "2026-10-03T13:56:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна отримала 50 млн євро від Банку розвитку РЄ та Італії на компенсації за знищене житло",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-2d958e6c0035",
-      "title": "США і Росія обговорюють багатомільярдну угоду щодо активів \"Лукойлу\" – NYT",
-      "url": "https://www.pravda.com.ua/news/2026/10/03/8056304/",
-      "summary": "Адміністрація США узгоджує з Росією багатомільярдну угоду з активами Лукойлу. В процесі – бізнес-групи із США та Близького Сходу.",
-      "publishedAt": "2026-10-03T13:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "США і Росія обговорюють багатомільярдну угоду щодо активів \"Лукойлу\" – NYT",
-      "summaryUk": "Адміністрація США узгоджує з Росією багатомільярдну угоду з активами Лукойлу. В процесі – бізнес-групи із США та Близького Сходу."
     },
     {
       "id": "x-euromaidan-b4cf2ef69c72",
@@ -928,38 +976,6 @@
       ],
       "titleUk": "Ukraine&#8217;s steel output fell 57% and may hit zero next month. Expert says saving it comes down to four steps, and they&#8217;re Brussels&#8217; to make",
       "summaryUk": "Steel is Ukraine's second-largest foreign-currency earner, employing more than 70,000 people directly and another 250,000 in related industries."
-    },
-    {
-      "id": "x-euromaidan-448d370a24df",
-      "title": "Ukraine solves riddle of metal &#8220;whiskers&#8221; on new Russia&#8217;s drones. They aren&#8217;t clever sensor",
-      "url": "https://euromaidanpress.com/2026/10/01/ukraine-solves-riddle-of-metal-whiskers-on-new-russias-drones-they-arent-clever-sensor/",
-      "summary": "The metal prongs appearing on Russian strike drones are a mechanical contact detonator.",
-      "publishedAt": "2026-10-01T14:43:39.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine solves riddle of metal &#8220;whiskers&#8221; on new Russia&#8217;s drones. They aren&#8217;t clever sensor",
-      "summaryUk": "The metal prongs appearing on Russian strike drones are a mechanical contact detonator."
-    },
-    {
-      "id": "x-euromaidan-260079951fcf",
-      "title": "Belgium will send three F-16 fighter jets, but maintenance delays may keep Ukraine from using them",
-      "url": "https://euromaidanpress.com/2026/10/01/belgium-will-send-three-f-16-fighter-jets-but-maintenance-delays-may-keep-ukraine-from-using-them/",
-      "summary": "The likely reason is the lengthy maintenance process, which may keep many of the jets from shooting down Russian drones and cruise missiles attacking Ukraine.",
-      "publishedAt": "2026-10-01T14:15:46.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Belgium will send three F-16 fighter jets, but maintenance delays may keep Ukraine from using them",
-      "summaryUk": "The likely reason is the lengthy maintenance process, which may keep many of the jets from shooting down Russian drones and cruise missiles attacking Ukraine."
     }
   ]
 }
