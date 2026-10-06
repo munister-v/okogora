@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T19:17:04.524Z",
+  "generatedAt": "2026-10-06T01:17:38.799Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,11 +98,11 @@
   ],
   "items": [
     {
-      "id": "x-pravda-288f8089b9d9",
-      "title": "У Запоріжжі РФ вдарила по житловому будинку: є постраждалі",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056607/",
-      "summary": "Російські війська увечері 5 жовтня завдали удару по житловому будинку в Запоріжжі, двоє людей постраждали.",
-      "publishedAt": "2026-10-05T18:35:00.000Z",
+      "id": "x-pravda-8f30bae8bc7c",
+      "title": "У Москві заявили про масовану атаку безпілотників",
+      "url": "https://www.pravda.com.ua/news/2026/10/06/8056624/",
+      "summary": "У Росії заявили про десятки дронів, які набито летіли \"на Москву\".",
+      "publishedAt": "2026-10-05T23:36:00.000Z",
       "author": "Українська Правда",
       "handle": "pravda",
       "source": "x_rss",
@@ -110,8 +110,88 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "У Запоріжжі РФ вдарила по житловому будинку: є постраждалі",
-      "summaryUk": "Російські війська увечері 5 жовтня завдали удару по житловому будинку в Запоріжжі, двоє людей постраждали."
+      "titleUk": "У Москві заявили про масовану атаку безпілотників",
+      "summaryUk": "У Росії заявили про десятки дронів, які набито летіли \"на Москву\"."
+    },
+    {
+      "id": "x-pravda-5da433b0f307",
+      "title": "Через російські атаки на Харківщині загинула людина, 20 постраждалих",
+      "url": "https://www.pravda.com.ua/news/2026/10/06/8056621/",
+      "summary": "5 жовтня росіяни били по Харківщині, внаслідок чого загинула людина, 20 потерпілих.",
+      "publishedAt": "2026-10-05T21:20:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Через російські атаки на Харківщині загинула людина, 20 постраждалих",
+      "summaryUk": "5 жовтня росіяни били по Харківщині, внаслідок чого загинула людина, 20 потерпілих."
+    },
+    {
+      "id": "x-pravda-3694c8ae216a",
+      "title": "На фронті від початку доби зафіксували 118 бойових зіткнень – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/05/8056614/",
+      "summary": "Від початку доби 5 жовтня на фронті зафіксували 118 бойових зіткнень.",
+      "publishedAt": "2026-10-05T20:09:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті від початку доби зафіксували 118 бойових зіткнень – Генштаб",
+      "summaryUk": "Від початку доби 5 жовтня на фронті зафіксували 118 бойових зіткнень."
+    },
+    {
+      "id": "x-pravda-288f8089b9d9",
+      "title": "У Запоріжжі РФ вдарила по житловому будинку: 5 людей постраждали",
+      "url": "https://www.pravda.com.ua/news/2026/10/05/8056607/",
+      "summary": "Російські війська увечері 5 жовтня завдали удару по житловому будинку в Запоріжжі, 5 людей постраждали.",
+      "publishedAt": "2026-10-05T19:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Запоріжжі РФ вдарила по житловому будинку: 5 людей постраждали",
+      "summaryUk": "Російські війська увечері 5 жовтня завдали удару по житловому будинку в Запоріжжі, 5 людей постраждали."
+    },
+    {
+      "id": "x-pravda-e36b1f23b0de",
+      "title": "УП: \"Євросолідарність\" виключила Гончаренка з фракції через \"ідеологічні розбіжності\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/05/8056611/",
+      "summary": "Олексія Гончаренка виключили з фракції \"Євросолідарності\" через розбіжності щодо завершення війни та майбутнього України.",
+      "publishedAt": "2026-10-05T19:29:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "УП: \"Євросолідарність\" виключила Гончаренка з фракції через \"ідеологічні розбіжності\"",
+      "summaryUk": "Олексія Гончаренка виключили з фракції \"Євросолідарності\" через розбіжності щодо завершення війни та майбутнього України."
+    },
+    {
+      "id": "x-euromaidan-591a561661ae",
+      "title": "From making interceptors to guarding sky: Ukrainian drone maker gets its own private air defense unit and will pay for it from weapon sales",
+      "url": "https://euromaidanpress.com/2026/10/05/from-making-interceptors-to-guarding-sky-ukrainian-drone-maker-gets-its-own-private-air-defense-unit-and-will-pay-for-it-from-weapon-sales/",
+      "summary": "The company says its Night Hornets unit has downed more than 50 Shaheds.",
+      "publishedAt": "2026-10-05T19:28:53.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "From making interceptors to guarding sky: Ukrainian drone maker gets its own private air defense unit and will pay for it from weapon sales",
+      "summaryUk": "The company says its Night Hornets unit has downed more than 50 Shaheds."
     },
     {
       "id": "x-pravda-962080d427dd",
@@ -322,22 +402,6 @@
       "summaryUk": "Відео Сили спеціальних операцій оприлюднили у соцмережах. Оператори 8-го полку Сил спеціальних операцій ЗСУ під час бойової роботи на Донецькому..."
     },
     {
-      "id": "x-pravda-3f22c1f953db",
-      "title": "Чоловік, який коригував удар по Яворівському полігону, помер у лікарні",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056592/",
-      "summary": "Олександр Косторний, якого засудили до 15 років ув'язнення за державну зраду, помер у в'язниці в червні 2026 року.",
-      "publishedAt": "2026-10-05T16:20:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Чоловік, який коригував удар по Яворівському полігону, помер у лікарні",
-      "summaryUk": "Олександр Косторний, якого засудили до 15 років ув'язнення за державну зраду, помер у в'язниці в червні 2026 року."
-    },
-    {
       "id": "x-euromaidan-e350db658fc9",
       "title": "Russia burned 628,000 new school textbooks in Kharkiv at the peak of back-to-school season",
       "url": "https://euromaidanpress.com/2026/10/05/russia-burned-628000-new-school-textbooks-in-kharkiv-at-the-peak-of-back-to-school-season/",
@@ -352,22 +416,6 @@
       ],
       "titleUk": "Russia burned 628,000 new school textbooks in Kharkiv at the peak of back-to-school season",
       "summaryUk": "They sat in Ranok's warehouse, built on the site of a former bread factory, with millions of other books. Firefighters fought the blaze for a week."
-    },
-    {
-      "id": "x-pravda-aefa72d7be85",
-      "title": "Литва передала 253 тонни енергетичного обладнання для України",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056584/",
-      "summary": "",
-      "publishedAt": "2026-10-05T16:12:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Литва передала 253 тонни енергетичного обладнання для України",
-      "summaryUk": ""
     },
     {
       "id": "x-armyinform-90f9ed3a9497",
@@ -402,38 +450,6 @@
       "summaryUk": "The reason, Zelenskyy says: China and others will soon share comparable satellite technology with Moscow."
     },
     {
-      "id": "x-pravda-fcf3bc8eff48",
-      "title": "У Польщі створюють центр для біженців з Литви у разі нападу Росії",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056581/",
-      "summary": "",
-      "publishedAt": "2026-10-05T16:00:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Польщі створюють центр для біженців з Литви у разі нападу Росії",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-07ea364b68f1",
-      "title": "Польща збільшує присутність військ у Люблінському воєводстві, що межує з Україною",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056580/",
-      "summary": "",
-      "publishedAt": "2026-10-05T15:53:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Польща збільшує присутність військ у Люблінському воєводстві, що межує з Україною",
-      "summaryUk": ""
-    },
-    {
       "id": "x-armyinform-62ca72cd26ee",
       "title": "«Хижак» знищив ворожу РЛС, яка виявляла українські дрони та авіацію",
       "url": "https://armyinform.com.ua/2026/10/05/hyzhak-znyshhyv-vorozhu-rls-yaka-vyyavlyala-ukrayinski-drony-ta-aviacziyu/",
@@ -450,22 +466,6 @@
       "summaryUk": "Відео бойової роботи підрозділ оприлюднив у соцмережах. Для ураження цілі оператори застосували комплекс Stork + Mace. Ворожа РЛС була розгорнута..."
     },
     {
-      "id": "x-pravda-3e91545d81ef",
-      "title": "У ще двох аеропортах Німеччини з’явилася система виявлення дронів",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056578/",
-      "summary": "",
-      "publishedAt": "2026-10-05T15:41:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У ще двох аеропортах Німеччини з’явилася система виявлення дронів",
-      "summaryUk": ""
-    },
-    {
       "id": "x-euromaidan-2f44c2e305d5",
       "title": "First ton-scale drone lifeline: Ukraine flies 4 more tons of aid into a starving Russian-occupied town of Oleshky",
       "url": "https://euromaidanpress.com/2026/10/05/first-ton-scale-drone-lifeline-ukraine-flies-4-more-tons-of-aid-into-a-starving-russian-occupied-town-of-oleshky/",
@@ -480,22 +480,6 @@
       ],
       "titleUk": "First ton-scale drone lifeline: Ukraine flies 4 more tons of aid into a starving Russian-occupied town of Oleshky",
       "summaryUk": "Ukraine is using repeated, ton-scale drone deliveries to bring food and medicine to civilians in an occupied town where food cannot get in and Russian forces are taking supplies from residents."
-    },
-    {
-      "id": "x-pravda-72fe26b68162",
-      "title": "Зеленський: Найближчим часом українські пілоти розпочнуть навчання на французьких Rafale",
-      "url": "https://www.pravda.com.ua/news/2026/10/05/8056574/",
-      "summary": "Президент Володимир Зеленський після розмови з французьким колегою Емманюелем Макроном розповів, що українські пілоти вже найближчим часом почнуть навчання на французьких літаках Rafale.",
-      "publishedAt": "2026-10-05T15:32:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Найближчим часом українські пілоти розпочнуть навчання на французьких Rafale",
-      "summaryUk": "Президент Володимир Зеленський після розмови з французьким колегою Емманюелем Макроном розповів, що українські пілоти вже найближчим часом почнуть навчання на французьких літаках Rafale."
     },
     {
       "id": "x-euromaidan-3ff8f7e20e55",
@@ -944,22 +928,6 @@
       ],
       "titleUk": "Ukraine files a minority-schooling bill, and Hungary agrees to unblock two of its EU-accession clusters",
       "summaryUk": "The Rada plans to vote on 12 October, and under the deal, Hungary is to stop blocking two EU-accession clusters once the bill is law."
-    },
-    {
-      "id": "x-euromaidan-41bda4b39c3b",
-      "title": "Ukraine turned ground robots into a frontline workhorse. Its first competitive tender may reward cheap copies over proven machines, an officer warns",
-      "url": "https://euromaidanpress.com/2026/10/02/ukraine-turned-ground-robots-into-a-frontline-workhorse-its-first-competitive-tender-may-reward-cheap-copies-over-proven-machines-an-officer-warns/",
-      "summary": "Kyiv opened its first competitive tender for logistics and strike robots—a model a frontline officer warns rewards the cheapest compliant bid and could favor cheap copies over proven machines.",
-      "publishedAt": "2026-10-02T12:48:04.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Ukraine turned ground robots into a frontline workhorse. Its first competitive tender may reward cheap copies over proven machines, an officer warns",
-      "summaryUk": "Kyiv opened its first competitive tender for logistics and strike robots—a model a frontline officer warns rewards the cheapest compliant bid and could favor cheap copies over proven machines."
     }
   ]
 }
