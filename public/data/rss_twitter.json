@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:58:46.979Z",
+  "generatedAt": "2026-10-08T00:11:16.278Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,150 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-64bea5c8f16b",
+      "title": "Британія заявила про обстріл танкера біля берегів Катару",
+      "url": "https://www.pravda.com.ua/news/2026/10/08/8056964/",
+      "summary": "Британія повідомила про обстріл танкера біля берегів Катару.",
+      "publishedAt": "2026-10-07T23:58:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Британія заявила про обстріл танкера біля берегів Катару",
+      "summaryUk": "Британія повідомила про обстріл танкера біля берегів Катару."
+    },
+    {
+      "id": "x-pravda-2e823129c6ae",
+      "title": "АР: Сенатори США закликають Трампа пришвидшити тиск на Росію санкціями",
+      "url": "https://www.pravda.com.ua/news/2026/10/08/8056963/",
+      "summary": "Сенатори назвали ключові моменти тиску на РФ санкціями і закликали Трампа пришвидшити тиск.",
+      "publishedAt": "2026-10-07T23:34:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "АР: Сенатори США закликають Трампа пришвидшити тиск на Росію санкціями",
+      "summaryUk": "Сенатори назвали ключові моменти тиску на РФ санкціями і закликали Трампа пришвидшити тиск."
+    },
+    {
+      "id": "x-euromaidan-be9a0a2c3645",
+      "title": "AI is changing Russia&#8217;s drone war on Ukrainian cities, deputy air defense commander says",
+      "url": "https://euromaidanpress.com/2026/10/08/ai-is-changing-russias-drone-war-on-ukrainian-cities-deputy-air-defense-commander-says/",
+      "summary": "Russia's jet-powered Geran-4 drones carry machine vision that lets them recognize and track targets.",
+      "publishedAt": "2026-10-07T22:46:21.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Заступник командувача протиповітряної оборони заявив, що ШІ змінює війну безпілотників Росії проти українських міст",
+      "summaryUk": "Russia's jet-powered Geran-4 drones carry machine vision that lets them recognize and track targets."
+    },
+    {
+      "id": "x-pravda-9d934f614e1d",
+      "title": "Масований удар РФ по Україні 7 жовтня забрав життя 28 людей – міністр МВС",
+      "url": "https://www.pravda.com.ua/news/2026/10/08/8056962/",
+      "summary": "За даними міністра МВС, в Україні через масований удар РФ 7 жовтня загинули 28 осіб.",
+      "publishedAt": "2026-10-07T22:44:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Масований удар РФ по Україні 7 жовтня забрав життя 28 людей – міністр МВС",
+      "summaryUk": "За даними міністра МВС, в Україні через масований удар РФ 7 жовтня загинули 28 осіб."
+    },
+    {
+      "id": "x-euromaidan-9f6ad7ad8e2a",
+      "title": "Ukraine&#8217;s drone pilot calls it his proudest strike: cheap FPV drone detonating over two tons of explosives packed inside Russian mine-clearer",
+      "url": "https://euromaidanpress.com/2026/10/08/ukraines-drone-pilot-calls-it-his-proudest-strike-cheap-fpv-drone-detonating-over-two-tons-of-explosives-packed-inside-russian-mine-clearer/",
+      "summary": "\"Skipper\", an FPV company commander in Ukraine's 413th Raid Unmanned Systems Regiment, has described destroying a Russian UR-77&#8230;",
+      "publishedAt": "2026-10-07T22:25:47.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Український пілот безпілотника називає це своїм ударом, яким він гордиться: дешевий безпілотник FPV підірвав понад дві тонни вибухівки, упакованої всередині російського мінно-розмінного пристрою",
+      "summaryUk": "\"Skipper\", an FPV company commander in Ukraine's 413th Raid Unmanned Systems Regiment, has described destroying a Russian UR-77&#8230;"
+    },
+    {
+      "id": "x-pravda-ac3417530047",
+      "title": "Російський удар по багатоповерхівці в Києві: четверо потерпілих",
+      "url": "https://www.pravda.com.ua/news/2026/10/08/8056960/",
+      "summary": "Рятувальники повідомили про наслідки російського удару по житловому будинку в Деснянському районі Києва: четверо потерпілих, серед них – двоє дітей.",
+      "publishedAt": "2026-10-07T21:28:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російський удар по багатоповерхівці в Києві: четверо потерпілих",
+      "summaryUk": "Рятувальники повідомили про наслідки російського удару по житловому будинку в Деснянському районі Києва: четверо потерпілих, серед них – двоє дітей."
+    },
+    {
+      "id": "x-pravda-d49559a406c8",
+      "title": "Від початку доби на фронті відбулося 185 бойових зіткнень – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/10/07/8056958/",
+      "summary": "Від початку доби 7 жовтня на фронті зафіксували 185 бойових зіткнень. З них",
+      "publishedAt": "2026-10-07T20:43:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Від початку доби на фронті відбулося 185 бойових зіткнень – Генштаб",
+      "summaryUk": "Від початку доби 7 жовтня на фронті зафіксували 185 бойових зіткнень. З них"
+    },
+    {
+      "id": "x-pravda-c66d8fd72d34",
+      "title": "Протягом дня РФ атакувала Суми безпілотниками: постраждали двоє людей",
+      "url": "https://www.pravda.com.ua/news/2026/10/07/8056956/",
+      "summary": "Двоє людей постраждали внаслідок російської атаки по АЗС в Сумах 7 жовтня.",
+      "publishedAt": "2026-10-07T20:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Протягом дня РФ атакувала Суми безпілотниками: постраждали двоє людей",
+      "summaryUk": "Двоє людей постраждали внаслідок російської атаки по АЗС в Сумах 7 жовтня."
+    },
+    {
+      "id": "x-pravda-f33c3e9f8d02",
+      "title": "Гудименко: Конкуренція в оборонних закупівлях може дати державі більше зброї за ті самі гроші",
+      "url": "https://www.pravda.com.ua/news/2026/10/07/8056957/",
+      "summary": "",
+      "publishedAt": "2026-10-07T20:01:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Гудименко: Конкуренція в оборонних закупівлях може дати державі більше зброї за ті самі гроші",
+      "summaryUk": ""
+    },
     {
       "id": "x-pravda-550530cc2a7a",
       "title": "Трамп відповів, чи пов’язує чуму в Росії з біологічною зброєю",
@@ -322,70 +466,6 @@
       "summaryUk": "A Russian missile flattened an apartment block in Pryluky."
     },
     {
-      "id": "x-pravda-a485b73c954c",
-      "title": "У Кременчуці кількість постраждалих через атаку РФ зросла до 47, двоє людей загинули",
-      "url": "https://www.pravda.com.ua/news/2026/10/07/8056925/",
-      "summary": "Унаслідок російської атаки на Кременчук 7 жовтня загинули двоє людей, а кількість травмованих зросла до 47, серед них двоє дітей.",
-      "publishedAt": "2026-10-07T16:42:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Кременчуці кількість постраждалих через атаку РФ зросла до 47, двоє людей загинули",
-      "summaryUk": "Унаслідок російської атаки на Кременчук 7 жовтня загинули двоє людей, а кількість травмованих зросла до 47, серед них двоє дітей."
-    },
-    {
-      "id": "x-pravda-5fd59c4aa485",
-      "title": "Отримайте можливості річної підписки на УП з оплатою частинами в monobank",
-      "url": "https://www.pravda.com.ua/news/2026/10/07/8053728/",
-      "summary": "З 16 вересня клієнти monobank можуть оформити оплату частинами на річну підписку на \"Українську правду\". Підписка дає необмежений доступ до матеріалів УП: сайт без комерційної реклами в пакеті \"Стандарт\" або доступ до всього платного контенту й закритих подій у пакеті \"Преміум\".",
-      "publishedAt": "2026-10-07T16:22:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Отримайте можливості річної підписки на УП з оплатою частинами в monobank",
-      "summaryUk": "З 16 вересня клієнти monobank можуть оформити оплату частинами на річну підписку на \"Українську правду\". Підписка дає необмежений доступ до матеріалів УП: сайт без комерційної реклами в пакеті \"Стандарт\" або доступ до всього платного контенту й закритих подій у пакеті \"Преміум\"."
-    },
-    {
-      "id": "x-pravda-c88ddbb073b7",
-      "title": "Україна обговорює з сусідніми країнами зміни в роботі кордону через російські удари",
-      "url": "https://www.pravda.com.ua/news/2026/10/07/8056922/",
-      "summary": "Речник МЗС Георгій Тихий повідомив, що Україна обговорює із сусідніми країнами пропозиції щодо змін у роботі кордону, які мають полегшити його перетин і підвищити безпеку на тлі російських обстрілів.",
-      "publishedAt": "2026-10-07T16:09:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Україна обговорює з сусідніми країнами зміни в роботі кордону через російські удари",
-      "summaryUk": "Речник МЗС Георгій Тихий повідомив, що Україна обговорює із сусідніми країнами пропозиції щодо змін у роботі кордону, які мають полегшити його перетин і підвищити безпеку на тлі російських обстрілів."
-    },
-    {
-      "id": "x-pravda-55b8ffd479c1",
-      "title": "У Харкові російський дрон влучив у багатоповерхівку, є постраждала людина",
-      "url": "https://www.pravda.com.ua/news/2026/10/07/8056918/",
-      "summary": "У Київському районі Харкова російський дрон поцілив у верхній поверх будинку. Одна людина постраждала, наслідки атаки уточнюють.",
-      "publishedAt": "2026-10-07T15:34:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Харкові російський дрон влучив у багатоповерхівку, є постраждала людина",
-      "summaryUk": "У Київському районі Харкова російський дрон поцілив у верхній поверх будинку. Одна людина постраждала, наслідки атаки уточнюють."
-    },
-    {
       "id": "x-euromaidan-7ccc25f66d16",
       "title": "Russia&#8217;s war against Ukraine sends the bill to its own companies: bond defaults head for a 17-year high",
       "url": "https://euromaidanpress.com/2026/10/07/russias-war-against-ukraine-sends-the-bill-to-its-own-companies-bond-defaults-head-for-a-17-year-high/",
@@ -416,38 +496,6 @@
       ],
       "titleUk": "Війна Росії з українськими книгами: другий удар спалив десятки тисяч перероблених найменувань київського видавництва",
       "summaryUk": "Knyholav lost new titles and reprints of books Russia had already burned in July."
-    },
-    {
-      "id": "x-pravda-0bf9892d94dc",
-      "title": "Затримали киянина, який \"засвітив\" у Telegram позицію ППО на мосту",
-      "url": "https://www.pravda.com.ua/news/2026/10/07/8056910/",
-      "summary": "У Києві затримали чоловіка, який зняв позицію ППО Gepard та передав відео проросійському блогеру. Підозрюваному загрожує до 8 років в'язниці.",
-      "publishedAt": "2026-10-07T15:10:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Затримали киянина, який \"засвітив\" у Telegram позицію ППО на мосту",
-      "summaryUk": "У Києві затримали чоловіка, який зняв позицію ППО Gepard та передав відео проросійському блогеру. Підозрюваному загрожує до 8 років в'язниці."
-    },
-    {
-      "id": "x-pravda-9a2fa441c7e8",
-      "title": "У Києві через атаку РФ загинув чоловік, 13 людей постраждали",
-      "url": "https://www.pravda.com.ua/news/2026/10/07/8056913/",
-      "summary": "Внаслідок атаки РФ 7 жовтня у Києві загинули чоловік і жінка, ще 13 людей отримали поранення у Солом'янському й Оболонському районах.",
-      "publishedAt": "2026-10-07T15:06:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "У Києві через атаку РФ загинув чоловік, 13 людей постраждали",
-      "summaryUk": "Внаслідок атаки РФ 7 жовтня у Києві загинули чоловік і жінка, ще 13 людей отримали поранення у Солом'янському й Оболонському районах."
     },
     {
       "id": "x-euromaidan-45835797be45",
@@ -768,38 +816,6 @@
       ],
       "titleUk": "Міністерство оборони України стверджує, що деякі постачальники не можуть виготовляти замовлену зброю, і розриває контракти, щоб вивільнити 346 мільйонів доларів на фронт",
       "summaryUk": "Technology and tactics change quickly, the ministry says, and some weapons no longer match combat tasks."
-    },
-    {
-      "id": "x-euromaidan-e043c158bee3",
-      "title": "Ukraine&#8217;s drone pilots hit 76.5% more Russian infantry than two months ago: 2,699 in first five days of October",
-      "url": "https://euromaidanpress.com/2026/10/06/ukraines-drone-pilots-hit-76-5-more-russian-infantry-than-two-months-ago-2699-in-first-five-days-of-october/",
-      "summary": "Commander Robert Brovdi says the pilots count only losses verified in the military's Delta system, so the real toll is higher.",
-      "publishedAt": "2026-10-06T14:03:58.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українські безпілотники вразили на 76,5% більше російської піхоти, ніж два місяці тому: 2699 за перші п'ять днів жовтня",
-      "summaryUk": "Commander Robert Brovdi says the pilots count only losses verified in the military's Delta system, so the real toll is higher."
-    },
-    {
-      "id": "x-euromaidan-a5162508ebfd",
-      "title": "Proven on Ukraine&#8217;s front line, now made in Germany. National Guard signs for the Linza and Zoom drones",
-      "url": "https://euromaidanpress.com/2026/10/06/proven-on-ukraines-front-line-now-made-in-germany-national-guard-signs-for-the-linza-and-zoom-drones/",
-      "summary": "The German-Ukrainian venture Quantum Frontline Industries will build both systems and is scaling up as its first production year wraps up.",
-      "publishedAt": "2026-10-06T12:30:17.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Перевірений на передовій України, тепер виготовлений у Німеччині. Знаки Нацгвардії на дрони Linza та Zoom",
-      "summaryUk": "The German-Ukrainian venture Quantum Frontline Industries will build both systems and is scaling up as its first production year wraps up."
     },
     {
       "id": "x-militarnyi-176a9c4a675f",
