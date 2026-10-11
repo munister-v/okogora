@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T18:52:46.678Z",
+  "generatedAt": "2026-10-11T23:38:58.458Z",
   "windowDays": 4,
   "sources": [
     {
@@ -98,6 +98,182 @@
   ],
   "items": [
     {
+      "id": "x-pravda-a79189fd2dd3",
+      "title": "У НАТО кажуть, що вересневі втрати Росії у війні проти України перевищили 50 тисяч осіб – Bloomberg",
+      "url": "https://www.pravda.com.ua/news/2026/10/12/8057520/",
+      "summary": "50 тисяч осіб, за даними НАТО, втратила Росія у вересні у війні проти України.",
+      "publishedAt": "2026-10-11T23:12:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У НАТО кажуть, що вересневі втрати Росії у війні проти України перевищили 50 тисяч осіб – Bloomberg",
+      "summaryUk": "50 тисяч осіб, за даними НАТО, втратила Росія у вересні у війні проти України."
+    },
+    {
+      "id": "x-pravda-099e92fdea66",
+      "title": "Фон дер Ляєн анонсувала додаткове фінансування \"на безпілотники та ракети\" для України",
+      "url": "https://www.pravda.com.ua/news/2026/10/12/8057519/",
+      "summary": "У ЄС заявили про додаткове фінансування \"на безпілотники та ракети\" для України.",
+      "publishedAt": "2026-10-11T22:14:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Фон дер Ляєн анонсувала додаткове фінансування \"на безпілотники та ракети\" для України",
+      "summaryUk": "У ЄС заявили про додаткове фінансування \"на безпілотники та ракети\" для України."
+    },
+    {
+      "id": "x-pravda-229ad8dd8186",
+      "title": "Заява сенаторів: США \"не повинні давати Путіну фінансовий рятувальний круг\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/12/8057518/",
+      "summary": "Сенатори США заявили, що рішення Трампа про купівлю російського дизелю суперечить закону.",
+      "publishedAt": "2026-10-11T21:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Заява сенаторів: США \"не повинні давати Путіну фінансовий рятувальний круг\"",
+      "summaryUk": "Сенатори США заявили, що рішення Трампа про купівлю російського дизелю суперечить закону."
+    },
+    {
+      "id": "x-pravda-df11614d79aa",
+      "title": "Росіяни вдарили по передмістю Харкова: 3 загиблих, 25 постраждалих",
+      "url": "https://www.pravda.com.ua/news/2026/10/11/8057502/",
+      "summary": "У передмісті Харкова ракета влучила біля магазину: 6 постраждалих, серед них дитина. Всім надають медичну допомогу, повідомила Харківська ОВА.",
+      "publishedAt": "2026-10-11T20:36:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни вдарили по передмістю Харкова: 3 загиблих, 25 постраждалих",
+      "summaryUk": "У передмісті Харкова ракета влучила біля магазину: 6 постраждалих, серед них дитина. Всім надають медичну допомогу, повідомила Харківська ОВА."
+    },
+    {
+      "id": "x-euromaidan-b6d6ab2c6ccf",
+      "title": "Russo-Ukrainian war, day 1691: Ukraine opens arms exports to 18 makers as defense output hits $55 billion",
+      "url": "https://euromaidanpress.com/2026/10/11/russo-ukrainian-war-day-1691-ukraine-opens-arms-exports-to-18-makers-as-defense-output-hits-55-billion/",
+      "summary": "Trump announced an immediate energy ceasefire, which Zelenskyy said was news to him.",
+      "publishedAt": "2026-10-11T20:33:42.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російсько-українська війна, день 1691: Україна відкриває експорт зброї 18 виробникам, виробництво оборонної продукції досягло 55 мільярдів доларів",
+      "summaryUk": "Trump announced an immediate energy ceasefire, which Zelenskyy said was news to him."
+    },
+    {
+      "id": "x-euromaidan-4cc34ba320ce",
+      "title": "Drones now cause about 96% of Russia&#8217;s battlefield losses. Ukraine&#8217;s drone force says it has hit more than 100,000 Russian troops this year alone",
+      "url": "https://euromaidanpress.com/2026/10/11/drones-now-cause-about-96-of-russias-battlefield-losses-ukraines-drone-force-says-it-has-hit-more-than-100000-russian-troops-this-year-alone/",
+      "summary": "That is more than 150,000 since the Unmanned Systems Forces was created.",
+      "publishedAt": "2026-10-11T19:57:17.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зараз безпілотники спричиняють близько 96% втрат Росії на полі бою. Українські безпілотники стверджують, що тільки цього року вони вразили понад 100 000 російських військових",
+      "summaryUk": "That is more than 150,000 since the Unmanned Systems Forces was created."
+    },
+    {
+      "id": "x-pravda-839c87e175d4",
+      "title": "Сибіга: Росія порушила \"енергетичне перемир’я\" одразу після його оголошення",
+      "url": "https://www.pravda.com.ua/news/2026/10/11/8057516/",
+      "summary": "Міністр Андрій Сибіга заявив про ракетний удар РФ по ТЕЦ-5 у Харкові одразу після оголошення енергетичного перемир'я Дональдом Трампом.",
+      "publishedAt": "2026-10-11T19:38:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Сибіга: Росія порушила \"енергетичне перемир’я\" одразу після його оголошення",
+      "summaryUk": "Міністр Андрій Сибіга заявив про ракетний удар РФ по ТЕЦ-5 у Харкові одразу після оголошення енергетичного перемир'я Дональдом Трампом."
+    },
+    {
+      "id": "x-pravda-a12417dbae67",
+      "title": "На фронті понад 230 боїв, найбільше – на Костянтинівському й Покровському напрямках",
+      "url": "https://www.pravda.com.ua/news/2026/10/11/8057514/",
+      "summary": "На Костянтинівському напрямку 31 атака, на Покровському – 29. Деталі по інших напрямках – у зведенні Генерального штабу ЗСУ.",
+      "publishedAt": "2026-10-11T19:18:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "На фронті понад 230 боїв, найбільше – на Костянтинівському й Покровському напрямках",
+      "summaryUk": "На Костянтинівському напрямку 31 атака, на Покровському – 29. Деталі по інших напрямках – у зведенні Генерального штабу ЗСУ."
+    },
+    {
+      "id": "x-euromaidan-d1aff74dfca8",
+      "title": "Fears that Ukraine will lose Starlink are back after Musk backed Trump against Zelenskyy. Adviser says profit makes cutoff unlikely",
+      "url": "https://euromaidanpress.com/2026/10/11/fears-that-ukraine-will-lose-starlink-are-back-after-musk-backed-trump-against-zelenskyy-adviser-says-profit-makes-cutoff-unlikely/",
+      "summary": "Serhii “Flash” Beskrestnov says Musk is first of all a businessman, and Ukraine brings SpaceX significant profit, so he is sure no one will switch it off.",
+      "publishedAt": "2026-10-11T19:10:05.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Побоювання, що Україна втратить Starlink, повернулися після того, як Маск підтримав Трампа проти Зеленського. Радник каже, що прибуток робить відсікання малоймовірним",
+      "summaryUk": "Serhii “Flash” Beskrestnov says Musk is first of all a businessman, and Ukraine brings SpaceX significant profit, so he is sure no one will switch it off."
+    },
+    {
+      "id": "x-pravda-01ae446807ae",
+      "title": "Зеленський запровадив санкції проти виробників російської балістики та ще двох категорій",
+      "url": "https://www.pravda.com.ua/news/2026/10/11/8057513/",
+      "summary": "Президент України затвердив санкції РНБО щодо росіян, виробників ракет та компаній, що сприяють обходу фінансових обмежень на окупованих територіях.",
+      "publishedAt": "2026-10-11T19:00:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський запровадив санкції проти виробників російської балістики та ще двох категорій",
+      "summaryUk": "Президент України затвердив санкції РНБО щодо росіян, виробників ракет та компаній, що сприяють обходу фінансових обмежень на окупованих територіях."
+    },
+    {
+      "id": "x-pravda-366c752ef49b",
+      "title": "Росіяни атакували Івано-Франківськ: 3 загиблих і 3 поранених військових",
+      "url": "https://www.pravda.com.ua/news/2026/10/11/8057505/",
+      "summary": "Внаслідок атаки російського ударного БпЛА на Івано-Франківщині загинули дві людини, одна травмована. Пошкоджено будівлю, триває уточнення наслідків.",
+      "publishedAt": "2026-10-11T18:49:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни атакували Івано-Франківськ: 3 загиблих і 3 поранених військових",
+      "summaryUk": "Внаслідок атаки російського ударного БпЛА на Івано-Франківщині загинули дві людини, одна травмована. Пошкоджено будівлю, триває уточнення наслідків."
+    },
+    {
       "id": "x-euromaidan-86f0ae6aff83",
       "title": "Russia is building jet drones that fly 800 kilometers per hour, and Ukraine says it is already working on how to stop next generation",
       "url": "https://euromaidanpress.com/2026/10/11/russia-is-building-jet-drones-that-fly-800-kilometers-per-hour-and-ukraine-says-it-is-already-working-on-how-to-stop-next-generation/",
@@ -110,7 +286,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Росія будує реактивні безпілотники, які літають 800 кілометрів на годину, а Україна каже, що вже працює над тим, як зупинити наступне покоління",
+      "titleUk": "Росія створює реактивні безпілотники, які літають 800 кілометрів на годину, а Україна каже, що вже працює над тим, як зупинити наступне покоління",
       "summaryUk": "Russia’s jet-powered Gerans fly several times faster than the propeller Shaheds and remain the main challenge for air defense."
     },
     {
@@ -194,22 +370,6 @@
       "summaryUk": ""
     },
     {
-      "id": "x-pravda-df11614d79aa",
-      "title": "Росіяни вдарили по магазину під Харковом: 3 загиблих, 20 постраждалих",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057502/",
-      "summary": "У передмісті Харкова ракета влучила біля магазину: 6 постраждалих, серед них дитина. Всім надають медичну допомогу, повідомила Харківська ОВА.",
-      "publishedAt": "2026-10-11T18:14:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни вдарили по магазину під Харковом: 3 загиблих, 20 постраждалих",
-      "summaryUk": "У передмісті Харкова ракета влучила біля магазину: 6 постраждалих, серед них дитина. Всім надають медичну допомогу, повідомила Харківська ОВА."
-    },
-    {
       "id": "x-armyinform-478aa88e11f9",
       "title": "Масштабування мідлстрайків на рівень корпусів: Євгеній Хмара розповів деталі",
       "url": "https://armyinform.com.ua/2026/10/11/masshtabuvannya-midlstrajkiv-na-riven-korpusiv-yevgenij-hmara-rozpoviv-detali/",
@@ -288,22 +448,6 @@
       ],
       "titleUk": "Міністр оборони розповів про нові перехоплювачі реактивних дронів",
       "summaryUk": "Про це під час спілкування з журналістами розповів Міністр оборони України Євгеній Хмара. Міністр оборони розповів, що Україна вже має..."
-    },
-    {
-      "id": "x-pravda-366c752ef49b",
-      "title": "Росіяни атакували Івано-Франківськ: 3 загиблих і поранений",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057505/",
-      "summary": "Внаслідок атаки російського ударного БпЛА на Івано-Франківщині загинули дві людини, одна травмована. Пошкоджено будівлю, триває уточнення наслідків.",
-      "publishedAt": "2026-10-11T17:30:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Росіяни атакували Івано-Франківськ: 3 загиблих і поранений",
-      "summaryUk": "Внаслідок атаки російського ударного БпЛА на Івано-Франківщині загинули дві людини, одна травмована. Пошкоджено будівлю, триває уточнення наслідків."
     },
     {
       "id": "x-armyinform-389a47c2fa29",
@@ -450,22 +594,6 @@
       "summaryUk": "За словами міністра Хмари, Сили оборони у вересні та жовтні уразили 8 ворожих установок, але ракет для захисту Україні бракує."
     },
     {
-      "id": "x-pravda-c5fb463b661f",
-      "title": "Зеленський: Україна підтримує \"енергетичне перемир'я\", очікуємо деталей від США",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057492/",
-      "summary": "Володимир Зеленський заявив про підтримку енергетичного перемир'я, ініційованого Дональдом Трампом. Україна чекає подробиць від США.",
-      "publishedAt": "2026-10-11T15:49:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський: Україна підтримує \"енергетичне перемир'я\", очікуємо деталей від США",
-      "summaryUk": "Володимир Зеленський заявив про підтримку енергетичного перемир'я, ініційованого Дональдом Трампом. Україна чекає подробиць від США."
-    },
-    {
       "id": "x-euromaidan-0cee6a1b8806",
       "title": "Trump declares immediate energy ceasefire between Russia and Ukraine. Zelenskyy says it was news to him, but Ukraine&#8217;s ready",
       "url": "https://euromaidanpress.com/2026/10/11/trump-declares-immediate-energy-ceasefire-between-russia-and-ukraine-zelenskyy-says-it-was-news-to-him-but-ukraines-ready/",
@@ -480,38 +608,6 @@
       ],
       "titleUk": "Трамп оголосив про негайне енергетичне припинення вогню між Росією та Україною. Зеленський каже, що для нього це новина, але Україна готова",
       "summaryUk": "Trump wrote on Truth Social that both sides had agreed to stop striking each other’s energy facilities."
-    },
-    {
-      "id": "x-pravda-2dd5a25bdafb",
-      "title": "Туск після розмови із Зеленським: Ніщо не зламає Україну у її боротьбі проти РФ",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057490/",
-      "summary": "",
-      "publishedAt": "2026-10-11T15:18:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Туск після розмови із Зеленським: Ніщо не зламає Україну у її боротьбі проти РФ",
-      "summaryUk": ""
-    },
-    {
-      "id": "x-pravda-93e003d47e42",
-      "title": "Зеленський не знав про \"енергетичне перемир'я\", але готовий погодитись – журналіст",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057487/",
-      "summary": "Журналіст американського порталу Axios Барак Равід заявив, що президент Володимир Зеленський не знав про оголошення \"енергетичного перемир'я\" між Україною та РФ, про яке заявив американський президент Дональд Трамп, але готовий погодитися на це.",
-      "publishedAt": "2026-10-11T14:58:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський не знав про \"енергетичне перемир'я\", але готовий погодитись – журналіст",
-      "summaryUk": "Журналіст американського порталу Axios Барак Равід заявив, що президент Володимир Зеленський не знав про оголошення \"енергетичного перемир'я\" між Україною та РФ, про яке заявив американський президент Дональд Трамп, але готовий погодитися на це."
     },
     {
       "id": "x-euromaidan-44b17b8d5f3f",
@@ -530,38 +626,6 @@
       "summaryUk": "The funding will equip Ukrainian border guards and military units with interceptor drones and support equipment to protect port infrastructure vital to Ukraine’s agricultural exports."
     },
     {
-      "id": "x-pravda-720c898f98ae",
-      "title": "Трамп заявив, що Україна й Росія погодилися на енергетичне перемир'я",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057478/",
-      "summary": "Президент США Дональд Трамп повідомив про досягнення енергетичного перемир'я між Україною та Росією. Офіційного підтвердження поки немає.",
-      "publishedAt": "2026-10-11T14:25:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп заявив, що Україна й Росія погодилися на енергетичне перемир'я",
-      "summaryUk": "Президент США Дональд Трамп повідомив про досягнення енергетичного перемир'я між Україною та Росією. Офіційного підтвердження поки немає."
-    },
-    {
-      "id": "x-pravda-4c627e5779da",
-      "title": "Зеленський – Трампу: Скажіть Путіну дати нам 2 місяці перемир'я, і ми проведемо вибори",
-      "url": "https://www.pravda.com.ua/news/2026/10/11/8057475/",
-      "summary": "Володимир Зеленський заявив про готовність провести вибори, якщо Росія зупинить вогонь на 60 днів. Президент наголосив на важливості безпеки для голосування.",
-      "publishedAt": "2026-10-11T14:21:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський – Трампу: Скажіть Путіну дати нам 2 місяці перемир'я, і ми проведемо вибори",
-      "summaryUk": "Володимир Зеленський заявив про готовність провести вибори, якщо Росія зупинить вогонь на 60 днів. Президент наголосив на важливості безпеки для голосування."
-    },
-    {
       "id": "x-euromaidan-dd15f6c3b9fc",
       "title": "Russia equips Geran attack drones with image-based navigation using Google map imagery, reducing reliance on satellite navigation that Ukraine can jam, defense adviser warns",
       "url": "https://euromaidanpress.com/2026/10/11/russia-equips-geran-attack-drones-with-image-based-navigation/",
@@ -574,7 +638,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Радник з питань оборони попереджає, що Росія оснащує ударні безпілотники Geran навігацією на основі зображень із використанням карт Google, що зменшує залежність від супутникової навігації, яку Україна може глушити",
+      "titleUk": "Радник з питань оборони попереджає, що Росія оснащує ударні безпілотники Geran навігацією на основі зображень із використанням карт Google, зменшуючи залежність від супутникової навігації, яку Україна може глушити",
       "summaryUk": "Russian drones can use stored images of terrain to navigate toward targets, making them less dependent on satellite signals that Ukrainian electronic warfare systems can disrupt."
     },
     {
@@ -606,7 +670,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Російсько-українська війна, день 1690: США пом’якшують санкції щодо російського дизеля, а ЄС готує найбільший пакет проти оборонної промисловості Росії",
+      "titleUk": "Російсько-українська війна, день 1690: США пом’якшують санкції щодо російського дизеля, а ЄС готує свій найбільший пакет проти оборонної промисловості Росії",
       "summaryUk": "Meanwhile, five Russian bombs kill 17 in Zaporizhzhia, a day after Trump lets Russia ship its first 300,000 tonnes of diesel."
     },
     {
@@ -718,7 +782,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Угода Трампа щодо російського дизеля, яка викликала обурення в Україні, навряд чи призведе до зниження цін, вважають експерти",
+      "titleUk": "Угода Трампа щодо російського дизеля, яка викликала обурення в Україні, навряд чи знизить ціни, вважають експерти",
       "summaryUk": "Analysts say Putin pushes for sanctions relief and no new US sanctions, all without any demand to stop the war"
     },
     {
@@ -782,7 +846,7 @@
         "OSINT",
         "UKRAINE"
       ],
-      "titleUk": "Пам’ять про 100 тисяч убитих нацистами: Німеччина визнає особливу відповідальність перед Україною і пов’язує її з підтримкою проти війни Росії",
+      "titleUk": "Пам’ять про 100 тисяч убитих нацистами: Німеччина визнає особливу відповідальність перед Україною та пов’язує її з підтримкою проти війни Росії",
       "summaryUk": "The Bundestag passed two resolutions ahead of the 85th anniversary of the massacre, a rare moment when the governing coalition and the opposition aligned."
     },
     {
@@ -880,54 +944,6 @@
       ],
       "titleUk": "Сирени повітряної тривоги коштують київським виробникам зброї 61,8 робочих годин на місяць, майже вісім днів, але їхні контрактні терміни залишаються фіксованими, кажуть дві групи",
       "summaryUk": "Ukraine’s gunmakers want the government to count real siren downtime against contract deadlines."
-    },
-    {
-      "id": "x-euromaidan-0cf42d4e9f46",
-      "title": "Ukrainian producer that neutralized more than 7,000 drones over 100 square kilometers in year, plays enemy in Pentagon contest, and gets invitation to continue",
-      "url": "https://euromaidanpress.com/2026/10/09/ukrainian-producer-that-neutralized-more-than-7000-drones-over-100-square-kilometers-in-year-plays-enemy-in-pentagon-contest-and-gets-invitation-to-continue/",
-      "summary": "Ukraine’s Phantom Defense built the counter-drone environment for the Pentagon’s Gauntlet II.",
-      "publishedAt": "2026-10-09T18:38:37.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Український виробник, який за рік знешкодив понад 7000 дронів на площі 100 квадратних кілометрів, грає ворога в конкурсі Пентагону та отримує запрошення продовжити",
-      "summaryUk": "Ukraine’s Phantom Defense built the counter-drone environment for the Pentagon’s Gauntlet II."
-    },
-    {
-      "id": "x-euromaidan-0744d1b7c775",
-      "title": "Ukrainian journalists say Austria detained them “like terrorists”: prosecutor says suspicion unsubstantiated",
-      "url": "https://euromaidanpress.com/2026/10/09/ukrainian-journalists-say-they-were-detained-like-terrorists-prosecutor-says-suspicion-unsubstantiated/",
-      "summary": "Tkach says armed people smashed the car windows, forced the journalists onto the road, and put a knee on his neck during the detention.",
-      "publishedAt": "2026-10-09T17:45:53.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Українські журналісти кажуть, що Австрія затримала їх «як терористів»: прокурор вважає підозру необґрунтованою",
-      "summaryUk": "Tkach says armed people smashed the car windows, forced the journalists onto the road, and put a knee on his neck during the detention."
-    },
-    {
-      "id": "x-euromaidan-8ababc549443",
-      "title": "&#8220;Supplying Crimea is turning into a nightmare&#8221;: Ukrainian drones hit Russian trucks 770 times in September, and winter will make it worse, analyst says",
-      "url": "https://euromaidanpress.com/2026/10/09/counterlogistics-continues/",
-      "summary": "That's the most of any month this year, up from 630 in August, even though Russian supply trucks now travel in convoys with their own air defense.",
-      "publishedAt": "2026-10-09T16:13:48.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "«Постачання Криму перетворюється на кошмар»: українські безпілотники у вересні 770 разів збили російські вантажівки, а зима лише погіршить ситуацію, – аналітик",
-      "summaryUk": "That's the most of any month this year, up from 630 in August, even though Russian supply trucks now travel in convoys with their own air defense."
     }
   ]
 }
