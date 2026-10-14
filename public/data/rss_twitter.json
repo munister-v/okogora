@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:13:38.181Z",
+  "generatedAt": "2026-10-14T01:12:34.564Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,86 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-d474b8df6a03",
+      "title": "Зеленський провів розмову з премʼєром Канади: обговрили удар РФ по Києву та майбутні контакти зі США",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057889/",
+      "summary": "Президент України Володимир Зеленський обговорив із прем'єр-міністром Канади Марком Карні удар РФ по Києву, відсутність попередження від партнерів про запуск балістичних ракет і дипломатичні контакти зі США.",
+      "publishedAt": "2026-10-13T23:51:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Зеленський провів розмову з премʼєром Канади: обговрили удар РФ по Києву та майбутні контакти зі США",
+      "summaryUk": "Президент України Володимир Зеленський обговорив із прем'єр-міністром Канади Марком Карні удар РФ по Києву, відсутність попередження від партнерів про запуск балістичних ракет і дипломатичні контакти зі США."
+    },
+    {
+      "id": "x-pravda-7ddd248b0107",
+      "title": "РФ в Хмельницькому знищила останній великий логістичний центр \"Епіцентру\"",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057888/",
+      "summary": "Внаслідок обстрілу розподільчого центру Епіцентру у Хмельницькому майже всі товари згоріли. Постраждалих серед працівників немає.",
+      "publishedAt": "2026-10-13T22:59:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "РФ в Хмельницькому знищила останній великий логістичний центр \"Епіцентру\"",
+      "summaryUk": "Внаслідок обстрілу розподільчого центру Епіцентру у Хмельницькому майже всі товари згоріли. Постраждалих серед працівників немає."
+    },
+    {
+      "id": "x-pravda-b3f1a6d2fc46",
+      "title": "Російський удар по Києву: двоє загиблих, 21 людина постраждала, серед них – дитина",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057886/",
+      "summary": "Внаслідок удару по будинку в Деснянському районі Києва загинули 2 людини, 21 поранений, серед них восьмирічна дитина. Евакуація триває – фото ДСНС.",
+      "publishedAt": "2026-10-13T22:42:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Російський удар по Києву: двоє загиблих, 21 людина постраждала, серед них – дитина",
+      "summaryUk": "Внаслідок удару по будинку в Деснянському районі Києва загинули 2 людини, 21 поранений, серед них восьмирічна дитина. Евакуація триває – фото ДСНС."
+    },
+    {
+      "id": "x-euromaidan-0cca0d654423",
+      "title": "Ukraine&#8217;s tanks are back! But only because drones are escorting them.",
+      "url": "https://euromaidanpress.com/2026/10/14/ukraines-tanks-are-back-but-only-because-drones-are-escorting-them/",
+      "summary": "Armored vehicles aren't dead on arrival anymore on the drone-patrolled battlefield. Friendly drones can escort them to the fight.",
+      "publishedAt": "2026-10-13T22:40:48.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Ukraine&#8217;s tanks are back! But only because drones are escorting them.",
+      "summaryUk": "Armored vehicles aren't dead on arrival anymore on the drone-patrolled battlefield. Friendly drones can escort them to the fight."
+    },
+    {
+      "id": "x-pravda-4b55506da876",
+      "title": "У Ростові вибухнув резервуар на НПЗ",
+      "url": "https://www.pravda.com.ua/news/2026/10/14/8057887/",
+      "summary": "У Ростові стався вибух ще одного резервуара на нафтотерміналі Новошахтинського заводу. Оприлюднено відео події.",
+      "publishedAt": "2026-10-13T21:57:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Ростові вибухнув резервуар на НПЗ",
+      "summaryUk": "У Ростові стався вибух ще одного резервуара на нафтотерміналі Новошахтинського заводу. Оприлюднено відео події."
+    },
     {
       "id": "x-euromaidan-49afdae63ac8",
       "title": "Ukraine’s 3rd Army Corps took the lessons of the failed 2023 counteroffensive into Operation Vivaldi. It fought small, and won.",
@@ -546,22 +626,6 @@
       "summaryUk": "Про це в ефірі телемарафону «Єдині новини» розповів речник ВМС ЗСУ капітан 2 рангу Дмитро Плетенчук. За його словами, приховати будь-яку активність у Чорному морі..."
     },
     {
-      "id": "x-pravda-0f984af7298e",
-      "title": "Зеленський анонсував нові пакети підтримки від країн ЄС цього тижня",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057857/",
-      "summary": "Президент України Володимир Зеленський повідомив, що цього тижня очікуються нові пакети підтримки від європейських партнерів.",
-      "publishedAt": "2026-10-13T16:51:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Зеленський анонсував нові пакети підтримки від країн ЄС цього тижня",
-      "summaryUk": "Президент України Володимир Зеленський повідомив, що цього тижня очікуються нові пакети підтримки від європейських партнерів."
-    },
-    {
       "id": "x-armyinform-df8a0bc26126",
       "title": "У Києво-Печерській лаврі військових капеланів відзначили нагородами",
       "url": "https://armyinform.com.ua/2026/10/13/u-kyyevo-pecherskij-lavri-vijskovyh-kapelaniv-vidznachyly-nagorodamy/",
@@ -576,38 +640,6 @@
       ],
       "titleUk": "У Києво-Печерській лаврі військових капеланів відзначили нагородами",
       "summaryUk": "Про це повідомили на сторінці Сухопутних військ ЗСУ. Військові капелани супроводжують українських захисників під час служби та бойових завдань, підтримують їх морально й духовно, допомагають..."
-    },
-    {
-      "id": "x-pravda-b811cfbed680",
-      "title": "Трамп: Путін і Зеленський хочуть завершити війну, але не знають як",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057851/",
-      "summary": "Президент США Дональд Трамп заявив, що, на його думку, російський правитель Володимир Путін і президент України Володимир Зеленський хочуть завершити війну, однак не знають, як цього досягти.",
-      "publishedAt": "2026-10-13T16:37:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Трамп: Путін і Зеленський хочуть завершити війну, але не знають як",
-      "summaryUk": "Президент США Дональд Трамп заявив, що, на його думку, російський правитель Володимир Путін і президент України Володимир Зеленський хочуть завершити війну, однак не знають, як цього досягти."
-    },
-    {
-      "id": "x-pravda-4ad0d38bf85f",
-      "title": "На саміті лідерів ЄС 15-16 жовтня не буде рішень про фінансування України та росактиви",
-      "url": "https://www.pravda.com.ua/news/2026/10/13/8057850/",
-      "summary": "",
-      "publishedAt": "2026-10-13T16:27:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "На саміті лідерів ЄС 15-16 жовтня не буде рішень про фінансування України та росактиви",
-      "summaryUk": ""
     },
     {
       "id": "x-armyinform-36b5eab4db63",
@@ -944,22 +976,6 @@
       ],
       "titleUk": "Bipartisan US senators say Trump’s Russian diesel deal conflicts with 2022 ban, as he presses Kyiv to spare Russian refineries",
       "summaryUk": "The administration says the deal will lower fuel prices, but lawmakers warn it could help finance Russia's war against Ukraine."
-    },
-    {
-      "id": "x-euromaidan-4666ff29f509",
-      "title": "For years, Hungary tied Ukraine’s whole EU course to ethnic Hungarians&#8217; language rights. Kyiv has now passed the schooling law meant to lift the block",
-      "url": "https://euromaidanpress.com/2026/10/12/for-years-hungary-tied-ukraines-whole-eu-course-to-ethnic-hungarians-language-rights-kyiv-has-now-passed-the-schooling-law-meant-to-lift-the-block/",
-      "summary": "Hungary had blocked four stages of Ukraine’s membership process over the matter.",
-      "publishedAt": "2026-10-12T15:19:12.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "For years, Hungary tied Ukraine’s whole EU course to ethnic Hungarians&#8217; language rights. Kyiv has now passed the schooling law meant to lift the block",
-      "summaryUk": "Hungary had blocked four stages of Ukraine’s membership process over the matter."
     }
   ]
 }
