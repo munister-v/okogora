@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:18:15.804Z",
+  "generatedAt": "2026-10-16T23:39:02.657Z",
   "windowDays": 5,
   "totals": {
     "units": 5,
@@ -9,8 +9,8 @@
     "brigadesWithOfficialFeeds": 5,
     "officialItems": 53,
     "mentionItems": 1,
-    "significantItems": 46,
-    "strikeItems": 39,
+    "significantItems": 48,
+    "strikeItems": 41,
     "reorgItems": 17
   },
   "brigades": [
@@ -33,8 +33,8 @@
       "autoDiscovered": false,
       "officialItems": 20,
       "mentionItems": 1,
-      "significantItems": 19,
-      "strikeItems": 19,
+      "significantItems": 21,
+      "strikeItems": 21,
       "reorgItems": 0,
       "hasOfficialFeed": true,
       "items": [
@@ -56,11 +56,11 @@
           "summaryUk": "Про це повідомили Повітряні Сили ЗСУ. Атака тривала з 07:00 до 19:00. Росіяни застосували ударні БПЛА, «Гербери» та безпілотники інших типів...."
         },
         {
-          "id": "telegram-kpszsu-36bc6201225e21",
-          "title": "🛵 Одещина: групи БпЛА на Південне з акваторії Чорного моря",
-          "summary": "🛵 Одещина: групи БпЛА на Південне з акваторії Чорного моря",
-          "url": "https://t.me/kpszsu/87464",
-          "publishedAt": "2026-10-16T21:16:19.000Z",
+          "id": "telegram-kpszsu-9ef27607933690",
+          "title": "🛵 БпЛА на Запоріжжя з півдня.",
+          "summary": "🛵 БпЛА на Запоріжжя з півдня.",
+          "url": "https://t.me/kpszsu/87475",
+          "publishedAt": "2026-10-16T22:52:25.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -69,15 +69,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Одещина: групи БпЛА на Південне з акваторії Чорного моря",
-          "summaryUk": "🛵 Одещина: групи БпЛА на Південне з акваторії Чорного моря"
+          "titleUk": "🛵 БпЛА на Запоріжжя з півдня.",
+          "summaryUk": "🛵 БпЛА на Запоріжжя з півдня."
         },
         {
-          "id": "telegram-kpszsu-8734af39900ec2",
-          "title": "🏍 Вінниччина: реактивний БпЛА курсом на Ладижин.",
-          "summary": "🏍 Вінниччина: реактивний БпЛА курсом на Ладижин.",
-          "url": "https://t.me/kpszsu/87463",
-          "publishedAt": "2026-10-16T21:15:10.000Z",
+          "id": "telegram-kpszsu-49191a144bb316",
+          "title": "🛵 Чернівецька область: БпЛА повз Кіцмань",
+          "summary": "🛵 Чернівецька область: БпЛА повз Кіцмань",
+          "url": "https://t.me/kpszsu/87474",
+          "publishedAt": "2026-10-16T22:51:37.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -86,15 +86,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🏍 Вінниччина: реактивний БпЛА курсом на Ладижин.",
-          "summaryUk": "🏍 Вінниччина: реактивний БпЛА курсом на Ладижин."
+          "titleUk": "🛵 Чернівецька область: БпЛА повз Кіцмань",
+          "summaryUk": "🛵 Чернівецька область: БпЛА повз Кіцмань"
         },
         {
-          "id": "telegram-kpszsu-7d5f9e4c7e3d00",
-          "title": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС курсом на Житомирщину.",
-          "summary": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС курсом на Житомирщину.",
-          "url": "https://t.me/kpszsu/87462",
-          "publishedAt": "2026-10-16T21:07:21.000Z",
+          "id": "telegram-kpszsu-d1f25e04410a76",
+          "title": "🏍 Реактивний БпЛА курсом на Житомир/Озерне.",
+          "summary": "🏍 Реактивний БпЛА курсом на Житомир/Озерне.",
+          "url": "https://t.me/kpszsu/87473",
+          "publishedAt": "2026-10-16T22:29:38.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -103,15 +103,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС курсом на Житомирщину.",
-          "summaryUk": "🏍 Реактивний БпЛА через зону відчуження Чорнобильської АЕС курсом на Житомирщину."
+          "titleUk": "🏍 Реактивний БпЛА курсом на Житомир/Озерне.",
+          "summaryUk": "🏍 Реактивний БпЛА курсом на Житомир/Озерне."
         },
         {
-          "id": "telegram-kpszsu-7f54a72b96fd2d",
-          "title": "🛵 Тернопільщина: БпЛА повз Чортків, курс західний.",
-          "summary": "🛵 Тернопільщина: БпЛА повз Чортків, курс західний.",
-          "url": "https://t.me/kpszsu/87461",
-          "publishedAt": "2026-10-16T21:02:10.000Z",
+          "id": "telegram-kpszsu-3db5ba96f97ec5",
+          "title": "🏍 Київщина: реактивний БпЛА на Васильків з півдня",
+          "summary": "🏍 Київщина: реактивний БпЛА на Васильків з півдня",
+          "url": "https://t.me/kpszsu/87472",
+          "publishedAt": "2026-10-16T22:25:04.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -120,15 +120,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 Тернопільщина: БпЛА повз Чортків, курс західний.",
-          "summaryUk": "🛵 Тернопільщина: БпЛА повз Чортків, курс західний."
+          "titleUk": "🏍 Київщина: реактивний БпЛА на Васильків з півдня",
+          "summaryUk": "🏍 Київщина: реактивний БпЛА на Васильків з півдня"
         },
         {
-          "id": "telegram-kpszsu-87b2fc34feb5f1",
-          "title": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на Київщину.",
-          "summary": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на Київщину.",
-          "url": "https://t.me/kpszsu/87460",
-          "publishedAt": "2026-10-16T20:53:52.000Z",
+          "id": "telegram-kpszsu-97f067fb9a31ac",
+          "title": "🏍 Київщина: реактивний БпЛА на Васильків з півдня",
+          "summary": "🏍 Київщина: реактивний БпЛА на Васильків з півдня",
+          "url": "https://t.me/kpszsu/87471",
+          "publishedAt": "2026-10-16T22:15:02.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -137,15 +137,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на Київщину.",
-          "summaryUk": "🏍 Чернігівщина: реактивний БпЛА повз Славутич курсом на Київщину."
+          "titleUk": "🏍 Київщина: реактивний БпЛА на Васильків з півдня",
+          "summaryUk": "🏍 Київщина: реактивний БпЛА на Васильків з півдня"
         },
         {
-          "id": "telegram-kpszsu-e4f484b8433980",
-          "title": "🏍 Київщина: реактивний БпЛА курсом на Обухів.",
-          "summary": "🏍 Київщина: реактивний БпЛА курсом на Обухів.",
-          "url": "https://t.me/kpszsu/87459",
-          "publishedAt": "2026-10-16T20:52:06.000Z",
+          "id": "telegram-kpszsu-22ab45d28abc16",
+          "title": "🛵 Волинь: БпЛА курсом на Ковель.",
+          "summary": "🛵 Волинь: БпЛА курсом на Ковель.",
+          "url": "https://t.me/kpszsu/87470",
+          "publishedAt": "2026-10-16T22:07:42.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -154,15 +154,15 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🏍 Київщина: реактивний БпЛА курсом на Обухів.",
-          "summaryUk": "🏍 Київщина: реактивний БпЛА курсом на Обухів."
+          "titleUk": "🛵 Волинь: БпЛА курсом на Ковель.",
+          "summaryUk": "🛵 Волинь: БпЛА курсом на Ковель."
         },
         {
-          "id": "telegram-kpszsu-71b3f8b34152ae",
-          "title": "🛵 БпЛА курсом на Кривий Ріг з півдня.",
-          "summary": "🛵 БпЛА курсом на Кривий Ріг з півдня.",
-          "url": "https://t.me/kpszsu/87458",
-          "publishedAt": "2026-10-16T20:44:45.000Z",
+          "id": "telegram-kpszsu-4b337c27521921",
+          "title": "🏍 Новий реактивний БпЛА на півночі Чернігівщини курсом на Славутич.",
+          "summary": "🏍 Новий реактивний БпЛА на півночі Чернігівщини курсом на Славутич.",
+          "url": "https://t.me/kpszsu/87469",
+          "publishedAt": "2026-10-16T21:51:54.000Z",
           "source": "telegram",
           "sourceLabel": "kpszsu",
           "origin": "official",
@@ -171,8 +171,8 @@
           "reorgScore": 0,
           "isStrike": true,
           "isReorg": false,
-          "titleUk": "🛵 БпЛА курсом на Кривий Ріг з півдня.",
-          "summaryUk": "🛵 БпЛА курсом на Кривий Ріг з півдня."
+          "titleUk": "🏍 Новий реактивний БпЛА на півночі Чернігівщини курсом на Славутич.",
+          "summaryUk": "🏍 Новий реактивний БпЛА на півночі Чернігівщини курсом на Славутич."
         }
       ]
     },
