@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:04:45.120Z",
+  "generatedAt": "2026-10-17T00:27:26.512Z",
   "windowDays": 4,
   "sources": [
     {
@@ -97,6 +97,86 @@
     "рецепт"
   ],
   "items": [
+    {
+      "id": "x-pravda-0dfcd51ace70",
+      "title": "У Конгрес США внесли законопроєкт, щоб заблокувати угоду щодо російського дизелю",
+      "url": "https://www.pravda.com.ua/news/2026/10/17/8058447/",
+      "summary": "Конгресмени розробили законопроєкт про заборону угоди щодо російського дизелю.",
+      "publishedAt": "2026-10-16T23:30:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Конгрес США внесли законопроєкт, щоб заблокувати угоду щодо російського дизелю",
+      "summaryUk": "Конгресмени розробили законопроєкт про заборону угоди щодо російського дизелю."
+    },
+    {
+      "id": "x-pravda-4fbc608f725b",
+      "title": "Влада Москви заявила про атаку дронів на столицю РФ",
+      "url": "https://www.pravda.com.ua/news/2026/10/17/8058446/",
+      "summary": "У ніч на 17 жовтня у столиці РФ заявили про атаку дронів.",
+      "publishedAt": "2026-10-16T22:32:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Влада Москви заявила про атаку дронів на столицю РФ",
+      "summaryUk": "У ніч на 17 жовтня у столиці РФ заявили про атаку дронів."
+    },
+    {
+      "id": "x-euromaidan-1531912e804c",
+      "title": "Russia still parks its best bombers in the open. Ukraine has spent a year knocking out the air defenses that were supposed to protect them",
+      "url": "https://euromaidanpress.com/2026/10/17/four-su-34s-destroyed/",
+      "summary": "The Russian air force parked six Sukhoi Su-34 fighter-bombers out in the open at a base within reach of Ukraine's Neptune cruise missiles. Now at least four are wreckage.",
+      "publishedAt": "2026-10-16T21:50:39.000Z",
+      "author": "Euromaidan Press",
+      "handle": "euromaidan",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Russia still parks its best bombers in the open. Ukraine has spent a year knocking out the air defenses that were supposed to protect them",
+      "summaryUk": "Російська авіація припаркувала шість винищувачів-бомбардувальників Су-34 просто неба на базі в межах досяжності українських крилатих ракет \"Нептун\". Зараз щонайменше чотири є уламками."
+    },
+    {
+      "id": "x-pravda-e289745d9b01",
+      "title": "Росіяни повторно вдарили по Сумах під час порятунку людей після першої атаки – ОВА",
+      "url": "https://www.pravda.com.ua/news/2026/10/17/8058445/",
+      "summary": "У п'ятницю ввечері росіяни вдарили по Сумах і повторили удар під час надання допомоги потерпілим від першої атаки. Внаслідок ударів, за попередніми даними, троє людей отримали поранення.",
+      "publishedAt": "2026-10-16T21:48:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "Росіяни повторно вдарили по Сумах під час порятунку людей після першої атаки – ОВА",
+      "summaryUk": "У п'ятницю ввечері росіяни вдарили по Сумах і повторили удар під час надання допомоги потерпілим від першої атаки. Внаслідок ударів, за попередніми даними, троє людей отримали поранення."
+    },
+    {
+      "id": "x-pravda-d1008f0f8fa6",
+      "title": "У Херсоні чоловік підірвався на російській міні",
+      "url": "https://www.pravda.com.ua/news/2026/10/17/8058444/",
+      "summary": "У Херсоні чоловік отримав поранення, підірвавшись на російській міні.",
+      "publishedAt": "2026-10-16T21:08:00.000Z",
+      "author": "Українська Правда",
+      "handle": "pravda",
+      "source": "x_rss",
+      "tags": [
+        "OSINT",
+        "UKRAINE"
+      ],
+      "titleUk": "У Херсоні чоловік підірвався на російській міні",
+      "summaryUk": "У Херсоні чоловік отримав поранення, підірвавшись на російській міні."
+    },
     {
       "id": "x-euromaidan-72b621b5a347",
       "title": "Russo-Ukrainian war, day 1696: Romania blames Russia for drone attacks on ships off its coast and calls for a joint NATO Black Sea command",
@@ -463,7 +543,7 @@
         "UKRAINE"
       ],
       "titleUk": "Zelenskyy’s warning that Russian airspace is becoming dangerous is proving true: Russia temporarily restricted operations at 27 airports amid a massive drone attack",
-      "summaryUk": "Russia later lifted the restrictions, but Russian airports continued to experience flight disruptions as they resumed arrivals and departures."
+      "summaryUk": "Пізніше Росія скасувала обмеження, але російські аеропорти продовжували відчувати збої в польотах, оскільки вони відновили приліт і виліт."
     },
     {
       "id": "x-armyinform-501189faaaef",
@@ -482,22 +562,6 @@
       "summaryUk": "Сьогодні під час розроблення нових предметів речового забезпечення дедалі більше уваги приділяють досвіду самих військовослужбовців, їхнім потребам на полі бою,..."
     },
     {
-      "id": "x-pravda-ab428529a309",
-      "title": "Папа Римський поговорив з Путіним: попросив перемир’я для доставки допомоги в Олешки",
-      "url": "https://www.pravda.com.ua/news/2026/10/16/8058410/",
-      "summary": "Папа Римський Лев XIV 16 жовтня провів телефонну розмову главою РФ Володимиром Путіним та попросив нього організувати перемир'я для доставки допомоги в тимчасово окуповані Олешки на Херсонщині.",
-      "publishedAt": "2026-10-16T15:53:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Папа Римський поговорив з Путіним: попросив перемир’я для доставки допомоги в Олешки",
-      "summaryUk": "Папа Римський Лев XIV 16 жовтня провів телефонну розмову главою РФ Володимиром Путіним та попросив нього організувати перемир'я для доставки допомоги в тимчасово окуповані Олешки на Херсонщині."
-    },
-    {
       "id": "x-armyinform-4f1f85b449f6",
       "title": "155-та бригада зірвала найбільший ворожий мотоштурм року у своїй смузі",
       "url": "https://armyinform.com.ua/2026/10/16/155-ta-brygada-zirvala-najbilshyj-vorozhyj-motoshturm-roku-u-svoyij-smuzi/",
@@ -512,22 +576,6 @@
       ],
       "titleUk": "155-та бригада зірвала найбільший ворожий мотоштурм року у своїй смузі",
       "summaryUk": "Про результати бою повідомили у 155-й окремій механізованій бригаді імені Анни Київської. Скориставшись погодою, росіяни спробували провести масований штурм на мототехніці. Однак..."
-    },
-    {
-      "id": "x-pravda-6a27bfa80234",
-      "title": "Кос анонсувала спільну групу України та ЄС для просування реформ у сфері правосуддя й боротьби з корупцією",
-      "url": "https://www.pravda.com.ua/news/2026/10/16/8058404/",
-      "summary": "Україна та Євросоюз домовилися сформувати робочу групу, яка допомагатиме виконувати проміжні критерії вступу до ЄС і просувати реформи у сфері верховенства права та боротьби з корупцією.",
-      "publishedAt": "2026-10-16T15:39:00.000Z",
-      "author": "Українська Правда",
-      "handle": "pravda",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "Кос анонсувала спільну групу України та ЄС для просування реформ у сфері правосуддя й боротьби з корупцією",
-      "summaryUk": "Україна та Євросоюз домовилися сформувати робочу групу, яка допомагатиме виконувати проміжні критерії вступу до ЄС і просувати реформи у сфері верховенства права та боротьби з корупцією."
     },
     {
       "id": "x-armyinform-06ee96e23723",
@@ -639,7 +687,7 @@
         "UKRAINE"
       ],
       "titleUk": "White House ordered limits on Ukraine’s military satellite service — Reuters. Who made the decision remains unclear",
-      "summaryUk": "Німеччина має запитання до Вашингтона, а Великобританія повідомляє, що доступ до Starlink було відновлено після запевнень її міністра оборони."
+      "summaryUk": "Німеччина має запитання до Вашингтона, тоді як Великобританія повідомляє, що доступ до Starlink було відновлено після запевнень її міністра оборони."
     },
     {
       "id": "x-euromaidan-fb5f61b95044",
@@ -703,7 +751,7 @@
         "UKRAINE"
       ],
       "titleUk": "Russia pushes its drone war into Volyn Oblast on NATO border, cutting power to 370,000 as strikes creep toward EU",
-      "summaryUk": "Москва завдала удару по регіону, що межує з Польщею, того ж тижня, коли найбільше за всю історію вдарила по центральній Кіровоградській області, використовуючи обмеження Starlink на захист України."
+      "summaryUk": "Москва завдала удару по регіону, що межує з Польщею, того ж тижня, коли найбільше за всю історію вдарила по центральній частині Кіровоградської області, використовуючи обмеження Starlink на захист України."
     },
     {
       "id": "x-euromaidan-c6e619a47c2e",
@@ -719,7 +767,7 @@
         "UKRAINE"
       ],
       "titleUk": "One Ukraine out-produced third of EU’s steel. Russian strikes have now cut its output to zero",
-      "summaryUk": "150-річна промисловість минулого місяця нічого не зробила після того, як з серпня ракети зруйнували майже кожну доменну піч, що працює."
+      "summaryUk": "150-річна галузь минулого місяця нічого не зробила після того, як з серпня ракети зруйнували майже кожну доменну піч, що працює."
     },
     {
       "id": "x-euromaidan-34919f4d2a8f",
@@ -735,7 +783,7 @@
         "UKRAINE"
       ],
       "titleUk": "Russo-Ukrainian war, day 1695: Ukraine’s war budget has $52 billion hole as West ties aid to reforms",
-      "summaryUk": "Під час найбільшої атаки безпілотників Росії на Кіровоградську область загинуло троє людей, а також впала київська електровежа."
+      "summaryUk": "Під час найбільшої атаки російських безпілотників на Кіровоградську область загинуло троє людей, а також впала київська електровежа."
     },
     {
       "id": "x-euromaidan-91ced8c95b3b",
@@ -799,7 +847,7 @@
         "UKRAINE"
       ],
       "titleUk": "Ukraine’s shell factories outpace state orders, arms company chief says: Kyiv spent five months buying from them this year, leaving six to produce",
-      "summaryUk": "Приватні заводи будували під обстрілом Росії без державних інвестицій, каже керівник українського оборонного підприємства «Українська броня»."
+      "summaryUk": "Приватні заводи будували під обстрілом Росії без державних інвестицій, каже глава українського виробника оборонної продукції «Українська броня»."
     },
     {
       "id": "x-euromaidan-64b8a51a1065",
@@ -895,7 +943,7 @@
         "UKRAINE"
       ],
       "titleUk": "Ukraine detains a gas station worker and a Telegram commenter suspected of scouting targets for Russian strikes",
-      "summaryUk": "З одним нібито зв’язалися через колишнього однокласника в Росії, а інший нібито приймав замовлення від тамтешньої жінки-куратора."
+      "summaryUk": "З одним нібито зв’язалися через колишнього однокласника в Росії, а інший нібито приймав замовлення від тамтешньої жінки-хендлера."
     },
     {
       "id": "x-euromaidan-da7e44a5c299",
@@ -960,22 +1008,6 @@
       ],
       "titleUk": "Musk pointed at the US military over Ukraine’s satellite limits. Now a US official says the administration had nothing to do with them",
       "summaryUk": "Міністерство оборони України заявляє, що веде переговори з партнерами та SpaceX, щоб підтримувати стабільне обслуговування та запобігати раптовим обмеженням супутникових послуг, які використовуються його військовими."
-    },
-    {
-      "id": "x-euromaidan-45d5c0dd95de",
-      "title": "On Monday she sat in her cousin’s Kyiv apartment, and by Wednesday a Russian strike had left a hole where the window was",
-      "url": "https://euromaidanpress.com/2026/10/15/on-monday-she-sat-in-her-cousins-kyiv-apartment-and-by-wednesday-a-russian-strike-had-left-a-hole-where-the-window-was/",
-      "summary": "Her cousin, his girlfriend, and an aunt survived inside, and rescuers lifted them out 15 minutes after the blast.",
-      "publishedAt": "2026-10-15T10:31:52.000Z",
-      "author": "Euromaidan Press",
-      "handle": "euromaidan",
-      "source": "x_rss",
-      "tags": [
-        "OSINT",
-        "UKRAINE"
-      ],
-      "titleUk": "On Monday she sat in her cousin’s Kyiv apartment, and by Wednesday a Russian strike had left a hole where the window was",
-      "summaryUk": "Її двоюрідний брат, його дівчина та тітка вижили всередині, і рятувальники дістали їх через 15 хвилин після вибуху."
     }
   ]
 }
